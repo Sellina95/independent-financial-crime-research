@@ -47,104 +47,54 @@ A blockchain transaction alone does not establish criminal intent, beneficial ow
 6. **Prioritize reproducibility.** Public findings should include sufficient references for independent verification.
 7. **Protect individuals.** Do not publish unsupported allegations or unnecessary personal information.
 
-## 5. Initial Research Case
+## 5. Current Research
 
-### CASE-001 — Blender.io: Bitcoin Fund Flow Reconstruction
+— Bitcoin UTXO Provenance & Transaction Network Analysis
 
-**Research objective:** Reconstruct a limited set of Bitcoin transactions involving an address identified in official U.S. sanctions materials, and assess what the publicly observable transaction record does and does not establish.
+**Research status:** IN PROGRESS  
+**Evidence baseline:** October 27, 2026
 
-**Primary source:** U.S. Department of the Treasury, Office of Foreign Assets Control (OFAC), May 6, 2022.
+### Research Objective
 
-Official reference: https://ofac.treasury.gov/recent-actions/20220506
+Investigate the origins, distribution, and subsequent spending of 547-satoshi Bitcoin outputs, and examine whether their funding sources have an identifiable relationship with high-value Bitcoin transactions.
 
-Initial blockchain explorer: https://mempool.space/
+### Current Findings
 
-**Initial research status:** Transaction reconstruction in progress. No independent determination of criminal liability.
+A transaction from April 23, 2022, involving approximately 1,500.726 BTC in total input value, was selected as the reference transaction.
 
-## 6. Current Research
+Verified on-chain observations:
 
-Bitcoin UTXO Provenance & Transaction Network Analysis
+| Evidence | Result |
+|---|---:|
+| Reference transaction inputs | 78 |
+| Inputs valued at 547 satoshis | 46 |
+| Other inputs | 32 |
+| Distinct creation transactions | 40 |
+| Total 547-satoshi outputs identified | 17,182 |
+| Spent outputs | 11,415 |
+| Distinct spending transactions | 6,975 |
+| Verified direct UTXO links among source transactions | 1 |
 
-Status: Active independent research
-Evidence baseline: October 27, 2026
+An exploratory examination of 100 spending transactions found nine involving at least 100 BTC in additional inputs. This sample is not representative of the entire transaction population.
 
-This research examines the provenance and subsequent spending of 547-satoshi Bitcoin outputs, focusing on observable transaction relationships, funding networks, and the limitations of common-input ownership heuristics.
+### Outstanding Research Questions
 
-Research Questions
+- Who controlled the funding sources of the 547-satoshi transfers?
+- What explains the repeated distribution of these outputs?
+- Are their funding sources historically connected to the high-value Bitcoin inputs?
+- How unusual is the approximately 1,500 BTC transaction compared with other observed spending transactions?
 
-What funding sources supported the repeated distribution of 547-satoshi outputs?
+### Evidence Limitations
 
-Can the source transactions be connected through verifiable UTXO relationships?
+The investigation has not established sender identity, beneficial ownership, malicious intent, or criminal conduct.
 
-Do these funding sources share any historical relationship with high-value Bitcoin transactions?
+Shared transaction inputs and connected funding paths are evidence of on-chain relationships, not definitive proof of common ownership.
 
-How frequently were 547-satoshi outputs subsequently spent alongside substantially larger Bitcoin inputs?
+**Next research step:** Compare the nine exploratory high-value spending transactions against the reference transaction and evaluate their funding relationships.
 
-Verified Findings
+**Status:** Research ongoing. No final attribution or causal conclusion.
 
-A Bitcoin transaction dated April 23, 2022, containing approximately 1,500.726 BTC in total input value, provides the initial investigation reference.
-
-Evidence
-
-Result
-
-Inputs in reference transaction
-
-78
-
-Inputs valued at exactly 547 satoshis
-
-46
-
-Other inputs
-
-32
-
-Distinct source transactions for the 46 outputs
-
-40
-
-Verified direct UTXO links among the 40 source transactions
-
-1
-
-Total 547-satoshi outputs across those transactions
-
-17,182
-
-Outputs subsequently spent
-
-11,415
-
-Distinct spending transactions
-
-6,975
-
-An exploratory analysis of 100 spending transactions identified nine transactions containing at least 100 BTC in additional, non-547-satoshi inputs.
-
-Sampling limitation: These 100 transactions were selected by sorted transaction ID, not random sampling. Their characteristics cannot be generalized to the complete population of 6,975 spending transactions.
-
-Evidence Boundaries
-
-OBSERVED: Transaction inputs, outputs, values, timestamps, and verifiable UTXO spending relationships.
-
-INFERRED: Potential operational relationships among recurring funding transactions, subject to further validation.
-
-UNKNOWN: Actual sender identity, underlying motivation, common beneficial ownership, and any historical relationship between the 547-satoshi senders and the high-value Bitcoin funding sources.
-
-The presence of dust-sized outputs or joint spending with high-value inputs does not independently establish malicious dusting, illicit finance, or common ownership.
-
-Next Investigation
-
-Compare high-value spending transactions involving the identified 547-satoshi outputs, examine recurring funding patterns, and test whether the approximately 1,500 BTC reference transaction is unusual within the observed network.
-
-Detailed evidence, code, and the frozen investigation baseline are maintained under:
-
-cases/CASE-003-silk-road/
-
-Research principle: Follow transaction evidence without confusing fund movement, wallet control, beneficial ownership, or criminal intent.
-
-## 7. Long-Term Research Direction
+## 6. Long-Term Research Direction
 
 The research may eventually explore:
 
