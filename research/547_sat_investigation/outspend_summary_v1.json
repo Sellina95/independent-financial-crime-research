@@ -1,0 +1,14 @@
+{
+  "source_transactions": 40,
+  "all_547_outputs": 17182,
+  "spent_547_outputs": 11415,
+  "unspent_547_outputs": 5767,
+  "unique_spending_transactions": 6975,
+  "spending_transactions_analyzed": 100,
+  "sample_selection": "First 100 spending TXIDs sorted lexically",
+  "sample_is_representative": false,
+  "sample_with_other_inputs": 98,
+  "sample_with_1_btc_other_inputs": 39,
+  "sample_with_100_btc_other_inputs": 9,
+  "note": "Amounts describe transaction inputs, not a person's balance, identity, or ownership."
+}
