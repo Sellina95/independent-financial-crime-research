@@ -1,0 +1,62 @@
+{
+  "scope": "Exact direct UTXO links among 40 identified sender transactions",
+  "sender_transactions": 40,
+  "direct_utxo_links": 1,
+  "connected_groups": 1,
+  "transactions_in_connected_groups": 2,
+  "isolated_transactions": 38,
+  "edges": [
+    {
+      "from_txid": "cd83a6cba2c78b0c5feb7ad249b8ca290aaa58ea4ebaaea05933e1c757663e39",
+      "to_txid": "5e0bcf53b9e51d68fc91b622ceb87ca77efd32e631392f9e893ff6eb36d4b015",
+      "spent_vout": 607
+    }
+  ],
+  "connected_groups_detail": [
+    [
+      "5e0bcf53b9e51d68fc91b622ceb87ca77efd32e631392f9e893ff6eb36d4b015",
+      "cd83a6cba2c78b0c5feb7ad249b8ca290aaa58ea4ebaaea05933e1c757663e39"
+    ]
+  ],
+  "isolated_txids": [
+    "09f07df65bb309df128b9ec9cc0ec5d4cca59eb5456d4cbc0df5a4a883a966e4",
+    "1055f06ba5cd5b39623e5f47d20630a889174589fd01a4ae2d0db20cedf0a05b",
+    "1d07e4cf8cf7b29c2e88f60cd50c4832af8bde91859e8e816c8bfc37d754cb0a",
+    "2e26bdf419a237d18ea21f9f2a9ea016704c9ae569e1b47cc06caeed91dba7df",
+    "2fb5d749d528ac18df983cd3bf9007fac474e070feed00fd5ca697ddd88dec30",
+    "3029006a420f48f6e7d2c31c134d114cb2ea071c1459c0e883197d479fce968a",
+    "3995be87d959d28c8d845806ccf2bd27c61cc72bf18aa46f7bf37a2a07c092cd",
+    "45e0518438f62d77c5108acb0e5a005b1a0ddb532bf72012bd9465e2e3fb76f6",
+    "48d0480f714fb3a8c2da94689640bbda248eaa6303174fe70e5baa131bcc9537",
+    "4b722bf6ad174a2bd949da2e21b7c2aaa2ed15e00c55e1033812486648ce6f11",
+    "4d350193e1500dacf07946df1532772706c7cf8a811a8d4e1105db12c8a74f00",
+    "4e198810295482ed5d6be805d21e49e0f3fb10c7accb8a2f186c9b371401245f",
+    "5119fd2757d7fc2c18808fc660d42709722791281f399de5aca6c8d7fe981788",
+    "58d1090cbedc0cdeae04d59acde70628cf243b0190033d34a5b0c52f59d45e27",
+    "5a9f31f20c8b0ba9eaeb63a4f434470295a0d7216497c82c2e02e62542da724d",
+    "65551b775ea3bf580667c12629fa776514f9a76a57f04dd735e878dba76dbbdc",
+    "65a85133622f1ef9d9f2c2a9e4a6b13d207233e57ab5b1020dd73d447fe7e9a8",
+    "677d55d081ff0700ef689b084aac8ae59a487a8371b4bc5bb7360a2024c813bb",
+    "6f64a2100799cfa133df79ae0936b09c25a1322938db637d3fd97e1b80ab523d",
+    "716337475159fa39151f42fb6323c94cd3a75a6e37c938eb33d53412e07d49c7",
+    "7628b05bf690c2cf9b585fd44cc54810c7407b82470137ea9adfadfd0d23e6e1",
+    "7c137852f4df07fcc9b0bec11fc5cf69784a8d1ca80cbfabc50e18caeb732e7e",
+    "7ecb8e88a3ecaacb47e0262166d28a0ca676ba7f562232ef0bece2a84896166a",
+    "97e93a2f0e4f89fb97ca3b44f160df77b51cc5bd66d7bba8a05b8cd979acbd8d",
+    "9841875250c730f66fdfe9d2f16f6a22e5657b09cf4b2279c77b1fede800b411",
+    "a360fd7e195f68acaa9ab343b0f99e4a37a777d87cd30e006189bb7b58fcb143",
+    "a4aee98789ae8e9a7123574e9189995207bace44fa2e680f2c1019d7053f46ec",
+    "abcd14f6fdebd635ab2992cca1f217ddeac031e4d5a60c9046bd731e4bdcc70e",
+    "b786506ac122e30cae768ba705977498f02d45b562d953d6d6a8630075171f23",
+    "d6f39c48891601065026a74391928fa69d0845898fb3d8e15ac1a242047f57d4",
+    "d820dfc202f722b13a8d5fbc7e12473c03065356abce0e7ab56ac0c99bd0f6bc",
+    "dbbd6ea4e48ce9be8927b78907f572b5975c9fe90f2c6369eeda9d1479e882b8",
+    "de3178c6167aac05cfe47c841c566300debda028b64c6dfa3a8d908f353b5fe1",
+    "e12466235c17ee3ce842081983389b73a7b067a20ce38daa675aae5bd5c7aa4e",
+    "f34977b8f192305ceb8b0d8ff5ced4867bd8aad1b0de01f2839f6e667b8dcfcd",
+    "f71e2f979d577e2b0a84eec3c1c9b7b542e52c8db56cb7a2d9aa7e2de4ae759d",
+    "fab3c361182959e8c08ca001a18a523f4357ebaf28aca85213e27d117f3cc62c",
+    "fedf9327bc137f62aa14c2eb404e9bbc3239ac7060db8af2b49fd9f4f94b8988"
+  ],
+  "limitations": "Only direct links between the 40 identified transactions are tested. Shared ancestors through other transactions are not tested. Connections do not establish beneficial ownership."
+}

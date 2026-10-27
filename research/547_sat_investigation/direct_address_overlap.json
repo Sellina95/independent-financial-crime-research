@@ -1,0 +1,6 @@
+{
+  "dust_funding_addresses": 49,
+  "large_input_addresses": 31,
+  "shared_addresses": [],
+  "scope": "Direct address overlap only"
+}

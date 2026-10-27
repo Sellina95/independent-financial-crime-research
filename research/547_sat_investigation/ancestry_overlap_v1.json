@@ -1,0 +1,13 @@
+{
+  "consolidation_txid": "64a87c3d7540876516d0bf274fcc4773c0d59d07e960287b1d1ddbf690335b08",
+  "method": "Shared ancestor transaction ID comparison",
+  "dust_root_outpoints": 51,
+  "large_root_outpoints": 32,
+  "dust_ancestor_txids": 110,
+  "large_ancestor_txids": 101,
+  "shared_ancestor_txids": 0,
+  "api_transactions_fetched": 82,
+  "scope": "Root generating transactions plus one previous transaction generation",
+  "matches": [],
+  "warning": "Shared TXID proves a common historical transaction, not common beneficial ownership or sender identity."
+}
