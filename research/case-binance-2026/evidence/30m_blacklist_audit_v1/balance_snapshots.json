@@ -1,0 +1,30 @@
+{
+  "address": "0xb171ca86f82070282138352ff7111b494060c8c3",
+  "snapshots": [
+    {
+      "block": 26301026,
+      "block_hash": "0x085e03ac521b9e3fc994e41ea019f875bce5892ebabc3208c3abf9a2ae52493f",
+      "label": "BEFORE_INFLOW",
+      "provider": "https://eth.drpc.org",
+      "raw_balance": "0",
+      "rpc_result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "block": 26301040,
+      "block_hash": "0xdeef22baca2f286d4fb8a1359352499b692a1b8c712257018a9f2b93e4a95d66",
+      "label": "BEFORE_BLACKLIST",
+      "provider": "https://eth.drpc.org",
+      "raw_balance": "30000000000000",
+      "rpc_result": "0x00000000000000000000000000000000000000000000000000001b48eb57e000"
+    },
+    {
+      "block": 26301041,
+      "block_hash": "0x1896597c587536cd3fbddd38e4c1be135e6142a6e1aedea2ad286b3f8f76faa5",
+      "label": "BLACKLIST_BLOCK_END",
+      "provider": "https://eth.drpc.org",
+      "raw_balance": "30000000000000",
+      "rpc_result": "0x00000000000000000000000000000000000000000000000000001b48eb57e000"
+    }
+  ],
+  "token_contract": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+}
