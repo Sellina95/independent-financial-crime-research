@@ -1,0 +1,14 @@
+{
+  "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+  "blockHash": "0x872490ae049653fdf73fa54e60f652b6260ee3ff9801daddd5cbf10a96218f33",
+  "blockNumber": "0x191525d",
+  "blockTimestamp": "0x6ae3b753",
+  "data": "0x000000000000000000000000aa246bf639586a6ba46762d378ce50ca4fc654a0",
+  "logIndex": "0x232",
+  "removed": false,
+  "topics": [
+    "0x42e160154868087d6bfdc0ca23d96a1c1cfa32f1b72ba9ba27b69b98a0d819dc"
+  ],
+  "transactionHash": "0x0c07a5e428ce233a3bcb40f257ad899594421341d63ce94016822063362707bf",
+  "transactionIndex": "0xc7"
+}

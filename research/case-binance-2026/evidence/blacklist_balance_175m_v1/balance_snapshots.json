@@ -1,0 +1,33 @@
+{
+  "chain_id": 1,
+  "account": "0xaa246bf639586a6ba46762d378ce50ca4fc654a0",
+  "token_contract": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+  "method": "balanceOf(address)",
+  "snapshots": [
+    {
+      "label": "BEFORE_INFLOW",
+      "block": 26300987,
+      "block_hash": "0x8b17dfdbe0ce9ffbf37bd062e2422e4ddbd55dbcda083742d281190dcd2a0c82",
+      "provider": "https://eth.drpc.org",
+      "raw_balance": "0",
+      "rpc_result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "label": "BEFORE_BLACKLIST_BLOCK",
+      "block": 26301020,
+      "block_hash": "0xa099587b758014ec1bddba776886d70f164a451b1bde925ae81ccd7049b70d5f",
+      "provider": "https://eth.drpc.org",
+      "raw_balance": "174999872327520",
+      "rpc_result": "0x00000000000000000000000000000000000000000000000000009f295539cf60"
+    },
+    {
+      "label": "AFTER_BLACKLIST_BLOCK",
+      "block": 26301021,
+      "block_hash": "0x872490ae049653fdf73fa54e60f652b6260ee3ff9801daddd5cbf10a96218f33",
+      "provider": "https://eth.drpc.org",
+      "raw_balance": "174999872327520",
+      "rpc_result": "0x00000000000000000000000000000000000000000000000000009f295539cf60"
+    }
+  ],
+  "claim_limit": "Balance verification only; blacklist status and recovery require separate evidence"
+}
