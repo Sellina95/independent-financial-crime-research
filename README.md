@@ -49,7 +49,45 @@ A blockchain transaction alone does not establish criminal intent, beneficial ow
 
 ## 5. Current Research
 
-— Bitcoin UTXO Provenance & Transaction Network Analysis
+### Case 01 — Ethereum USDT Fund Flow & Tether Blacklist Reconstruction
+
+**Research status:** ACTIVE INVESTIGATION
+
+**Evidence baseline:** October 2026
+
+**Network:** Ethereum Mainnet
+
+#### Research Objective
+
+Reconstruct observable large-value USDT fund movements and examine how those transactions intersect with Tether blacklist actions.
+
+The investigation focuses on multi-hop transaction tracing, historical token balances, chronological reconstruction, and evidence-based financial forensic analysis.
+
+#### Current Research Activities
+
+- Tracing USDT transfers across connected Ethereum addresses.
+- Verifying transactions against original blockchain receipts.
+- Reconstructing historical balances at blacklist-registration times.
+- Examining Tether blacklist events and their limitations.
+- Preserving original evidence and SHA-256 checksums.
+- Building chronological fund-flow timelines.
+- Evaluating double-counting and attribution risks.
+
+#### Preliminary Findings
+
+The investigation has documented a large-value USDT distribution network and independently audited two downstream addresses against historical balances and Tether blacklist events.
+
+Transaction-level connections have been established. However, beneficial ownership, criminal attribution, incident-wide losses, and actual asset recovery have not been independently established.
+
+[View ongoing research and evidence](https://github.com/Sellina95/independent-financial-crime-research/tree/research/case-binance-2026)
+
+#### Next Research Step
+
+Blacklist Reconciliation Audit — verify historical balances, compare blacklist events, and reconstruct the fund-flow timeline without double-counting.
+
+**Status:** Investigation ongoing. No final attribution or recovery conclusion.
+
+### Case 02 — Bitcoin UTXO Provenance & Transaction Network Analysis
 
 **Research status:** IN PROGRESS  
 **Evidence baseline:** October 27, 2026
