@@ -1,0 +1,26 @@
+[
+  {
+    "txid": "0x68d7d69deaeb9750c38020b4f8d3728146ca8d2267eba1e38cf9b56722ad659a",
+    "block": 26300799,
+    "source": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+    "destination": "0x9749292d74fd460982d0912ea9515ea24736c762",
+    "token_contract": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "asset": "USDT",
+    "raw_amount": "500000000000000",
+    "classification": "VERIFIED_FOLLOW_ON_TRANSFER",
+    "tx_sha256": "3f971e9e1821efbdc98defae4e45bd794af4d29fa92ab36282ea1d86d97909be",
+    "receipt_sha256": "c8039ed1e8b7115b75f454db47fb223706b0358e5c9428bbd5ccc270999455a6"
+  },
+  {
+    "txid": "0x1fc0ef33a767132edad434834a5555b30fcb5a171206c03b86175ef6dafac81c",
+    "block": 26300815,
+    "source": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+    "destination": "0x0ddf0480016e6bcb2c1f5d190d221fba1320697e",
+    "token_contract": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "asset": "USDT",
+    "raw_amount": "200000000000000",
+    "classification": "VERIFIED_FOLLOW_ON_TRANSFER",
+    "tx_sha256": "2d1038cfb767bd0c97964a83f4f30ad528c32b5513afb2fad12fd86f7b2d9a3d",
+    "receipt_sha256": "3568f07e095e97d6d70c6523e1bd5ed81c8dd9339f4d9f6ff0e61a96837256b7"
+  }
+]
