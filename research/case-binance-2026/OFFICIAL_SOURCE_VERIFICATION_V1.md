@@ -29,3 +29,13 @@ Verification date: 2026-11-01
 - Reported frozen assets are not equivalent to recovered assets.
 
 Gate 1 status: IN PROGRESS.
+
+## Gate 1 Evidence Audit — 2026-11-01
+- Two Binance announcement texts archived from user browser copies.
+- Both SHA256 hashes match the evidence manifest.
+- Source URLs recorded in the evidence manifest.
+- Earlier verification-pending notes describe the prior retrieval failure; they are superseded for browser-text capture verification only.
+- Binance-reported losses and freezes are not independently reconciled.
+- Victim wallet addresses are not disclosed in these two statements.
+- Attribution of the research wallets and 700M USDT path remains UNKNOWN.
+- Gate 1: READY FOR COMPLETENESS REVIEW; not yet declared complete.
