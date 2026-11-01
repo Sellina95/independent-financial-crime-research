@@ -1,0 +1,10 @@
+claim,result,publication_boundary
+50 EIP-7702 signatures recovered,PASS,Address-level cryptographic recovery; not corporate consent
+One nonce-applicable authorization,PASS,Nonce-only replay; not full EVM execution
+Historical delegation lifecycle,PASS,Verified historical block-end states
+T03 calldata and 64 token attempts,PASS,The zero address is interpreted as native ETH
+T03 failed token call and continuation,PASS,Call trace and receipt audit; not opcode-level replay
+USDT historical balance reconciliation,PASS,Block-end differences; not transaction-isolated deltas
+Failed-token balances unchanged,PASS,Only checked historical endpoint balances
+700M USDT subsequent distribution,PASS,Shared address and chronology; no exclusive fund provenance
+Incident attribution is not overstated,PASS,Third-party incident linkage is separate from official confirmation
