@@ -1,0 +1,23 @@
+{
+  "balance_usdt": "971149299.483240",
+  "blacklist_block": 26300954,
+  "blacklist_log_index": 302,
+  "blacklist_tx": "0x7baba482077843514d9c72bac0110ba0916b0814288a72917e2c3bb27a9d8659",
+  "blacklist_tx_index": 88,
+  "block_timestamp_utc": "2026-10-29T21:01:35+00:00",
+  "case": "central_blacklist_audit_v1",
+  "chain_id": 1,
+  "files_sha256": {
+    "balance_block_26300953.json": "dbfd049b7c711cb2d934058e53eaff9b736a6c3e9a8915e59c561f66c5fa6bda",
+    "balance_block_26300954.json": "6daebfa1b1b8bf4991220e430e58341bb876173ae1fbedd793de73714ef3fe61",
+    "blacklist_block.json": "328a0607db6f28144eeb66badba00b04c6269d4a0d761b8934d96b8a5064b935",
+    "blacklist_receipt.json": "2a07a75bc45c0e33f11e9b4e748c5816e465d28cdde295a61a8594fd49ab7cbb",
+    "blacklist_transaction.json": "96c2c9c21684852f7000d4c2e537207a31b2e33614e864193cddb791278bc35c",
+    "chain_id.json": "b269844e77e42ef678a0e2de3de7d971e853346fbf4348626854739400f788e3",
+    "incoming_transfer_logs.json": "97196fd03c55289cdfcc51b08a9b7f8d5dc995d7abfe8cb69705d1fef652c644",
+    "outgoing_transfer_logs.json": "c4d22660f1b7c39abf334158196c6f9ee72632922914967ebe6c06b3ee805e63"
+  },
+  "intra_block_transfer_logs": 0,
+  "target": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+  "token": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+}

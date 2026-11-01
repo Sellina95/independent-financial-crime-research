@@ -1,0 +1,15 @@
+{
+  "captured_at_utc": "2026-11-01T03:17:13.868546+00:00",
+  "provider": "https://eth.drpc.org",
+  "request": {
+    "id": 1,
+    "jsonrpc": "2.0",
+    "method": "eth_chainId",
+    "params": []
+  },
+  "response": {
+    "id": 1,
+    "jsonrpc": "2.0",
+    "result": "0x1"
+  }
+}
