@@ -1,0 +1,12 @@
+finding_id,public_coverage_status,sources_reviewed,reference_url,assessment_note
+T02_50_SIGNATURES,ALREADY_PUBLIC,CoinDesk; Crystal; GCSA,https://www.coindesk.com/tech/2026/10/30/here-s-how-one-ethereum-permission-let-an-attacker-drain-usd2-5-billion-from-binance,50 signatures and nonce-matched authorization are publicly discussed
+T02_NONCE_SEQUENCE,ALREADY_PUBLIC,CoinDesk; GCSA,https://media.gcsa.com/en-US/news-3730400,Nonce sequence and preceding Binance 14 transaction are publicly discussed
+T03_65_ADDRESS_COMMAND,ALREADY_PUBLIC,kkdemian,https://www.kkdemian.com/en/blog/eip-7702-delegation-one-signature-drains-everything-en,Zero-address ETH marker and 64 token contracts are reported
+T03_CALLER_RESTRICTION,ALREADY_PUBLIC,Halborn,https://www.halborn.com/blog/post/binance-hack-explained-what-it-means-for-bank-custody,Hardcoded caller and sweep logic discussed
+T03_63_TRANSFER_EVENTS,ALREADY_PUBLIC,ChainWard; Halborn,https://chainward.ai/decodes/binance-7702-delegation,63 ERC20 Transfer events described
+T03_FAILURE_TOLERANCE,ALREADY_PUBLIC,Halborn; kkdemian,https://www.halborn.com/blog/post/binance-hack-explained-what-it-means-for-bank-custody,Batch continues despite individual token transfer failures
+T03_FAILURE_POSITION_27_AND_37_AFTER,NOT_FOUND_IN_REVIEWED_SOURCES,AXIOM evidence; searched public articles,,Exact failed position and subsequent-call count need wider prior-art verification
+T03_FAILED_TOKEN_EVENT_CODE_2,NOT_FOUND_IN_REVIEWED_SOURCES,AXIOM evidence; searched public articles,,Specific failed-token address and matching LOG2 payload need wider verification
+T03_FAILED_TOKEN_BALANCE_UNCHANGED,NOT_FOUND_IN_REVIEWED_SOURCES,AXIOM historical balance audit,,Block-end failed-token balance comparison not found in reviewed articles
+T03_USDT_TWO_SIDED_BALANCE_DELTA,PARTIAL_OVERLAP,GCSA; other onchain reports,https://media.gcsa.com/en-US/news-3730400,Transfer amount already public; exact two-sided block-end audit not established in reviewed sources
+T17_DELEGATION_REMOVAL,ALREADY_PUBLIC,ChainWard; GCSA,https://chainward.ai/decodes/binance-7702-delegation,Revocation and historical delegation change discussed
