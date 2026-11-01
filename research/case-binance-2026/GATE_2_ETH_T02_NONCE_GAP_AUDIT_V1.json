@@ -1,0 +1,17 @@
+{
+  "case": "AXIOM T02 nonce gap",
+  "block": 26300753,
+  "previous_block_end_nonce": 18914808,
+  "prior_wallet_transaction": "0xca63641eaeb49779d80ba11ce4fe894d635f2e98c032e9efd5bb4ce304ae56da",
+  "prior_transaction_index": 133,
+  "prior_transaction_nonce": 18914808,
+  "prior_transaction_receipt_status": "0x1",
+  "t02_transaction": "0xad99264d5532ae0dd04b2004eebda05f25657e70dacb764f7ac8d4ccd051298b",
+  "t02_transaction_index": 138,
+  "matching_authorization_nonce": 18914809,
+  "matching_authorization_count": 1,
+  "prior_type4_binance14_signers": 0,
+  "observed": "Included wallet-originated transaction precedes T02 and uses the preceding account nonce.",
+  "inferred": "The preceding included transaction explains the nonce increment required for T02 authorization.",
+  "limitation": "Transaction ordering and prior signer recovery support, but do not constitute a full transaction-level state replay. Signing circumstances and corporate approval remain unknown."
+}
