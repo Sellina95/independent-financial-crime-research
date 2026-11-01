@@ -1,0 +1,21 @@
+{
+  "audit_id_claim": "PR01OCT26",
+  "snapshot_date_claim": "2026-10-01",
+  "source_file": "PR01OCT26_HotCold.csv",
+  "source_sha256": "4eb9cc23e6a7eae38a0e94a9774d6eb6665b6bc144bfd53dd7efc99d280798e1",
+  "merkle_root_user_reported": "0f69d534f0d2519d3aea38d8daee35e01a508581021067cb8948635e5d55f800",
+  "merkle_root_is_csv_sha256": false,
+  "source_page": "https://www.binance.com/en/proof-of-reserves",
+  "original_download_url": "NOT_CAPTURED",
+  "preincident_publication_authenticated": false,
+  "matched_addresses": 11,
+  "matched_rows": 98,
+  "network_row_counts": {
+    "ETH": 74,
+    "BTC": 1,
+    "TRX": 6,
+    "SOL": 11,
+    "XRP": 6
+  },
+  "incident_attribution": "UNKNOWN"
+}
