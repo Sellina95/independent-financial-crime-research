@@ -1,0 +1,33 @@
+{
+  "case": "AXIOM T03",
+  "classification": "OBSERVED_WITH_LIMITATIONS",
+  "source_sha256": {
+    "trace": "c8c45dd42d9ce965988ac15d6d98624278e1b293495fe0cd3002d3930df4b0f8",
+    "receipt": "08b5bb08e7c82a6dc32950314932bbdcebe7481c5611585f68bad500f20e4961"
+  },
+  "failed_transfer_position": 27,
+  "failed_token": "0x904567252d8f48555b7447c67dca23f0372e16be",
+  "subsequent_non_error_transfer_calls": 37,
+  "transaction_status": "0x1",
+  "contract_static_path": {
+    "call_pc": "0x0261",
+    "failure_branch_pc": "0x0277",
+    "log2_pc": "0x02a2",
+    "loop_continuation": "0x021d -> 0x0142"
+  },
+  "matching_log2_events": [
+    {
+      "log_index": "0x221",
+      "topic1": "0x000000000000000000000000904567252d8f48555b7447c67dca23f0372e16be",
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000002"
+    }
+  ],
+  "observed": "A child token call reverted, subsequent calls continued, and the parent transaction succeeded.",
+  "inferred": "The implementation includes a failure-handling path that emits a log and resumes batch processing.",
+  "unknown": [
+    "Instruction-level proof of the exact branch taken",
+    "Precise meaning of each custom log field",
+    "Corporate authorization",
+    "Beneficial ownership of recipient"
+  ]
+}
