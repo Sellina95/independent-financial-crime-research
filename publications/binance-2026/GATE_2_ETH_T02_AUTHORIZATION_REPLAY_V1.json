@@ -1,0 +1,272 @@
+{
+  "case": "AXIOM T02 EIP-7702",
+  "classification": "NONCE_ONLY_REPLAY",
+  "initial_nonce": 18914809,
+  "final_simulated_nonce": 18914810,
+  "counts": {
+    "NONCE_TOO_HIGH": 15,
+    "NONCE_MATCH": 1,
+    "NONCE_TOO_LOW": 34
+  },
+  "accepted_index": 15,
+  "replay": [
+    {
+      "index": 0,
+      "nonce": 18914824,
+      "status": "NONCE_TOO_HIGH"
+    },
+    {
+      "index": 1,
+      "nonce": 18914823,
+      "status": "NONCE_TOO_HIGH"
+    },
+    {
+      "index": 2,
+      "nonce": 18914822,
+      "status": "NONCE_TOO_HIGH"
+    },
+    {
+      "index": 3,
+      "nonce": 18914821,
+      "status": "NONCE_TOO_HIGH"
+    },
+    {
+      "index": 4,
+      "nonce": 18914820,
+      "status": "NONCE_TOO_HIGH"
+    },
+    {
+      "index": 5,
+      "nonce": 18914819,
+      "status": "NONCE_TOO_HIGH"
+    },
+    {
+      "index": 6,
+      "nonce": 18914818,
+      "status": "NONCE_TOO_HIGH"
+    },
+    {
+      "index": 7,
+      "nonce": 18914817,
+      "status": "NONCE_TOO_HIGH"
+    },
+    {
+      "index": 8,
+      "nonce": 18914816,
+      "status": "NONCE_TOO_HIGH"
+    },
+    {
+      "index": 9,
+      "nonce": 18914815,
+      "status": "NONCE_TOO_HIGH"
+    },
+    {
+      "index": 10,
+      "nonce": 18914814,
+      "status": "NONCE_TOO_HIGH"
+    },
+    {
+      "index": 11,
+      "nonce": 18914813,
+      "status": "NONCE_TOO_HIGH"
+    },
+    {
+      "index": 12,
+      "nonce": 18914812,
+      "status": "NONCE_TOO_HIGH"
+    },
+    {
+      "index": 13,
+      "nonce": 18914811,
+      "status": "NONCE_TOO_HIGH"
+    },
+    {
+      "index": 14,
+      "nonce": 18914810,
+      "status": "NONCE_TOO_HIGH"
+    },
+    {
+      "index": 15,
+      "nonce": 18914809,
+      "status": "NONCE_MATCH"
+    },
+    {
+      "index": 16,
+      "nonce": 18914808,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 17,
+      "nonce": 18914807,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 18,
+      "nonce": 18914806,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 19,
+      "nonce": 18914805,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 20,
+      "nonce": 18914804,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 21,
+      "nonce": 18914803,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 22,
+      "nonce": 18914802,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 23,
+      "nonce": 18914801,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 24,
+      "nonce": 18914800,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 25,
+      "nonce": 18914799,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 26,
+      "nonce": 18914798,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 27,
+      "nonce": 18914797,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 28,
+      "nonce": 18914796,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 29,
+      "nonce": 18914795,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 30,
+      "nonce": 18914794,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 31,
+      "nonce": 18914793,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 32,
+      "nonce": 18914792,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 33,
+      "nonce": 18914791,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 34,
+      "nonce": 18914790,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 35,
+      "nonce": 18914789,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 36,
+      "nonce": 18914788,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 37,
+      "nonce": 18914787,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 38,
+      "nonce": 18914786,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 39,
+      "nonce": 18914785,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 40,
+      "nonce": 18914784,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 41,
+      "nonce": 18914783,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 42,
+      "nonce": 18914782,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 43,
+      "nonce": 18914781,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 44,
+      "nonce": 18914780,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 45,
+      "nonce": 18914779,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 46,
+      "nonce": 18914778,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 47,
+      "nonce": 18914777,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 48,
+      "nonce": 18914776,
+      "status": "NONCE_TOO_LOW"
+    },
+    {
+      "index": 49,
+      "nonce": 18914775,
+      "status": "NONCE_TOO_LOW"
+    }
+  ],
+  "observed": "50 signatures recovered to Binance 14; historical delegation state matched.",
+  "inferred": "Sequential nonce processing explains the single applicable authorization.",
+  "unknown": [
+    "Reason for preparing 50 nonce candidates",
+    "Signing circumstances",
+    "Corporate authorization"
+  ],
+  "limitation": "Partial nonce replay, not full EVM state replay."
+}

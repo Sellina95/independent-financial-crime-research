@@ -1,0 +1,32 @@
+{
+  "network": "Ethereum Mainnet",
+  "rpc_provider": "Alchemy",
+  "method": "eth_getCode",
+  "wallet": "0x28c6c06298d514db089934071355e5743bf21d60",
+  "expected_delegation_code": "0xef010063e842b054bd624a465454d533c33f573e9c6fae",
+  "block_end_states": {
+    "BEFORE_T02": {
+      "block": 26300752,
+      "code": "0x",
+      "status": "EMPTY_CODE"
+    },
+    "AFTER_T02": {
+      "block": 26300753,
+      "code": "0xef010063e842b054bd624a465454d533c33f573e9c6fae",
+      "status": "DELEGATION_MATCH"
+    },
+    "BEFORE_T03_BLOCK": {
+      "block": 26300769,
+      "code": "0xef010063e842b054bd624a465454d533c33f573e9c6fae",
+      "status": "DELEGATION_MATCH"
+    },
+    "AFTER_T17": {
+      "block": 26301896,
+      "code": "0x",
+      "status": "EMPTY_CODE"
+    }
+  },
+  "t03_execution_block": 26300770,
+  "t03_transaction_level_prestate": "NOT_VERIFIED",
+  "unauthorized_status": "UNKNOWN"
+}
