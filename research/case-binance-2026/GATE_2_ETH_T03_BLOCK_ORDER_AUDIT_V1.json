@@ -1,0 +1,14 @@
+{
+  "network": "Ethereum Mainnet",
+  "provider": "Alchemy",
+  "method": "eth_getBlockByNumber",
+  "block_number": 26300770,
+  "block_hash": "0x087c33a63526887180f40a8fa2b66658fa0a3e83565ab5de0c956ffdd8eab727",
+  "t03_txid": "0x53bd38b816c23e74134786c29a8c18d792777998a3b9326047b583100e88e2f3",
+  "t03_transaction_index": 189,
+  "prior_transaction_count": 189,
+  "prior_type4_transaction_hashes": [],
+  "result": "NO_PRIOR_TYPE4",
+  "conclusion": "No earlier EIP-7702 authorization transaction in T03 block",
+  "limitation": "Does not independently establish delegated code execution or corporate authorization"
+}
