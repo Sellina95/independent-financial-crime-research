@@ -1,0 +1,52 @@
+{
+  "case": "AXIOM T03",
+  "network": "Ethereum Mainnet",
+  "provider": "Alchemy historical JSON-RPC",
+  "method": "eth_call balanceOf(address)",
+  "before_block_end": 26300769,
+  "after_block_end": 26300770,
+  "wallet": "0x28c6c06298d514db089934071355e5743bf21d60",
+  "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+  "token_balances_raw_units": {
+    "FAILED_TOKEN": {
+      "contract": "0x904567252d8f48555b7447c67dca23f0372e16be",
+      "balances": {
+        "wallet": {
+          "before": "27497421185603088084771380",
+          "after": "27497421185603088084771380",
+          "delta": "0"
+        },
+        "recipient": {
+          "before": "0",
+          "after": "0",
+          "delta": "0"
+        }
+      }
+    },
+    "USDT": {
+      "contract": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "balances": {
+        "wallet": {
+          "before": "1615409498973240",
+          "after": "0",
+          "delta": "-1615409498973240"
+        },
+        "recipient": {
+          "before": "0",
+          "after": "1615409498973240",
+          "delta": "1615409498973240"
+        }
+      }
+    }
+  },
+  "usdt_delta_human_units": "1615409498.97324",
+  "observed": [
+    "USDT wallet decrease equals recipient increase.",
+    "Failed-token balances are unchanged at both endpoints."
+  ],
+  "limitations": [
+    "Block-end differences may contain effects of other transactions.",
+    "Not a transaction-level prestate/poststate comparison.",
+    "Corporate authorization and recipient ownership remain unknown."
+  ]
+}
