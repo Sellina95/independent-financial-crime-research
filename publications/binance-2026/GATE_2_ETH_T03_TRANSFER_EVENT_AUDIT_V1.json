@@ -1,0 +1,471 @@
+{
+  "case": "AXIOM T03",
+  "method": "Call trace versus receipt ERC20 Transfer event",
+  "source_sha256": {
+    "call_trace": "c8c45dd42d9ce965988ac15d6d98624278e1b293495fe0cd3002d3930df4b0f8",
+    "receipt": "08b5bb08e7c82a6dc32950314932bbdcebe7481c5611585f68bad500f20e4961"
+  },
+  "wallet": "0x28c6c06298d514db089934071355e5743bf21d60",
+  "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+  "receipt_status": "0x1",
+  "attempted_transfer_calls": 64,
+  "matching_transfer_events": 63,
+  "without_matching_event": 1,
+  "errored_calls": 1,
+  "attempts": [
+    {
+      "token": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 1615409498973240,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x8292bb45bf1ee4d140127049757c2e0ff06317ed",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 62597239679797044969015518,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0xa2e3356610840701bdf5611a53974510ae27e2e1",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 29934013163146020067927,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x68749665ff8d2d112fa859aa293f07a622782f38",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 11372474505,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 6189795754065382206854614,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 27760801816896471320891162,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x57e114b691db790c35207b2e685d4a43181e6061",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 198369716750508766521812144,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x6982508145454ce325ddbe47a25d4ec3d2311933",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 7175249471426366625166645550511,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x514910771af9ca656af840dff83e8264ecf986ca",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 2263172082715661320297317,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 127853358980556282284061,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 9707546773204598785601727,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 21844883659222511570894959,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x45804880de22913dafe09f4980848ece6ecbaf78",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 1898473314842689716147,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x163f8c2467924be0ae7b5347228cabf260318753",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 17317869012723827497623979,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0xa12cc123ba206d4031d1c7f6223d1c2ec249f4f3",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 87536535479131097852910399,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x419d0d8bdd9af5e606ae2232ed285aff190e711b",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 71491134400837754,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x6985884c4392d348587b19cb9eaaf157f13271cd",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 3601631162981804936636057,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x320623b8e4ff03373931769a31fc52a4e78b5d70",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 3381874989774759202441382794,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0xfc82bb4ba86045af6f327323a46e80412b91b27d",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 911917566223117742273585,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 8254351401,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x58d97b57bb95320f9a05dc918aef65434969c2b2",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 1762717673702729673844021,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0xde30da39c46104798bb5aa3fe8b9e0e1f348163f",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 14457610138737493544626994,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0xc5f0f7b66764f6ec8c8dff7ba683102295e16409",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 3454894923080018305112463,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0xaea46a60368a7bd060eec7df8cba43b7ef41ad85",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 19393579709435716153984136,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x62d0a8458ed7719fdaf978fe5929c6d342b0bfce",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 984249380289818649027468455,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x808507121b80c02388fad14726482e061b8da827",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 1680932636002673109015357,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x904567252d8f48555b7447c67dca23f0372e16be",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 27497421185603088084771380,
+      "call_error": "execution reverted",
+      "matching_transfer_event": false
+    },
+    {
+      "token": "0xe2ad0bf751834f2fbdc62a41014f84d67ca1de2a",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 38603848935213817280136568,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x3845badade8e6dff049820680d1f14bd3903a5d0",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 58394929209173655699131855,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x4a220e6096b25eadb88358cb44068a3248254675",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 6902013522136061380230,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0xda5e1988097297dcdc1f90d4dfe7909e847cbef6",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 48525612007680240499693533,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0xec53bf9167f50cdeb3ae105f56099aaab9061f83",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 13024086769895420192025058,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0xd533a949740bb3306d119cc777fa900ba034cd52",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 8148735009458259185285243,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x6b7774cb12ed7573a7586e7d0e62a2a563ddd3f0",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 1693247180546698021872626186,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 499067016878215462419840037596,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 6244624492298031064280373,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x7cf9a80db3b29ee8efe3710aadb7b95270572d47",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 32674294176786,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0xfe0c30065b384f05761f15d0cc899d4f9f9cc0eb",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 3414721297490244527791671,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0xc43c6bfeda065fe2c4c11765bf838789bd0bb5de",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 11955689546251646882572239,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 81714323586448172197531,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 8405741578047242292666519,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x111111111117dc0aa78b770fa6a738034120c302",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 19034040188979962646782079,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x0fc2a55d5bd13033f1ee0cdd11f60f7efe66f467",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 27959136702249697544916028,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 9258136282411374706092852,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 668132228390272982085,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x8207c1ffc5b6804f6024322ccf34f29c3541ae26",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 59129667589970432733949240,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0xbb0e17ef65f82ab018d8edd776e8dd940327b28b",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 1544867758562810532103137,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0xb8c77482e45f1f44de1745f52c74426c631bdd52",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 1936943327346786375659,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0xcccccccccc33d538dbc2ee4feab0a7a1ff4e8a94",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 12731967064871607906670299,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x526526528f35ac738177003b8773b402b8df8143",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 3620559670471093768186479,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x1776e1f26f98b1a5df9cd347953a26dd3cb46671",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 127141454377099413004075,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 235232054020043491921784,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x6c5ba91642f10282b576d91922ae6448c9d52f4e",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 25917840741530162748082750,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x9c7beba8f6ef6643abd725e45a4e8387ef260649",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 324356073899507705142876653,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 569267763064489008117,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x643c4e15d7d62ad0abec4a9bd4b001aa3ef52d66",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 5779551427121723970838001,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0xe53ec727dbdeb9e2d5456c3be40cff031ab40a55",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 6525851915579130530187564,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0xf57e7e7c23978c3caec3c3548e3d615c346e79ff",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 8197792737146262094904757,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0xddb3422497e61e13543bea06989c0789117555c5",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 68849376011900100816143418,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x4d224452801aced8b2f0aebe155379bb5d594381",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 8815018804907549935130844,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 541770235934315966698916,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x4c1746a800d224393fe2470c70a35717ed4ea5f1",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 66315587465925278165394319,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0xdc035d45d973e3ec169d2276ddab16f1e407384f",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 1014445385338046096540901,
+      "call_error": null,
+      "matching_transfer_event": true
+    },
+    {
+      "token": "0x31c8eacbffdd875c74b94b077895bd78cf1e64a3",
+      "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "raw_amount": 4040898236649155150676695,
+      "call_error": null,
+      "matching_transfer_event": true
+    }
+  ],
+  "limitations": [
+    "Transfer events corroborate emitted transfers, not independently verified net balance changes.",
+    "Missing event does not alone prove no balance movement.",
+    "Matching uses token, sender, recipient and raw amount.",
+    "Actual sender authorization and recipient ownership remain unknown."
+  ]
+}

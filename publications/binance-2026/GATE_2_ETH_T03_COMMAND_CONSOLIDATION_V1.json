@@ -1,0 +1,25 @@
+{
+  "case": "AXIOM T03",
+  "txid": "0x53bd38b816c23e74134786c29a8c18d792777998a3b9326047b583100e88e2f3",
+  "calldata_sha256": "c067153af542ced034003c40230dfcde2a0f059bea7ee023c5479b9ce2455691",
+  "selector": "0x8a179be4",
+  "recipient": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+  "array_entries": 65,
+  "zero_address_entries": 1,
+  "unique_token_addresses": 64,
+  "token_addresses_match_runtime": true,
+  "eth_call_recipient_match": true,
+  "eth_call_wei": "167464247856558836135296",
+  "eth_call_error": null,
+  "token_transfer_attempts": 64,
+  "matched_transfer_events": 63,
+  "unmatched_transfer_attempts": 1,
+  "observation": "Calldata token list and recipient match runtime calls.",
+  "inference": "Zero address likely denotes ETH processing.",
+  "unknown": [
+    "Instruction-level execution proof",
+    "Independent token balance delta verification",
+    "Recipient beneficial ownership",
+    "Corporate authorization"
+  ]
+}
