@@ -1,0 +1,3 @@
+source_type,publisher,publication_date_utc,source_url,claim,verification_status,notes
+OFFICIAL,Binance,2026-10-30 02:23,https://www.binance.com/en-GB/support/announcement/security-incident-update-2026-10-30-c5a8729a97ac486d963784d96c5642d7,Estimated impact USD 6.3B; approximately USD 3B frozen on-chain; initial compromise hypothesis,OFFICIAL_STATEMENT_VERIFIED,Wallet addresses not disclosed in this statement
+OFFICIAL,Binance,2026-10-30 19:33,https://www.binance.com/en-GB/support/announcement/security-incident-update-2-2026-10-30-d3306d9dca5243548c813b605e1d1751,Hot-wallet compromise around 2026-10-29 20:05 UTC; unauthorized withdrawals; multiple affected assets,OFFICIAL_STATEMENT_VERIFIED,Incident attribution of research wallets remains UNKNOWN
