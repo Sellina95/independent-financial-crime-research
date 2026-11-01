@@ -4,60 +4,66 @@
 
 An independent research project examining how far publicly accessible financial and blockchain evidence can reconstruct transactions, asset movements, and investigative mechanisms.
 
-The objective is to distinguish what the available evidence establishes from what remains inferred or unknown.
+The objective is to distinguish **what the evidence establishes, what can reasonably be inferred, and what remains unknown**. Findings are documented with source references, reproducible checks, and explicit evidentiary limitations.
 
 ## Published Research
 
-### Binance 2026 — Anatomy of a Delegated Wallet Drain
+### 01 — [Binance 2026: Anatomy of a Delegated Wallet Drain](publications/binance-2026/README.md)
 
 *An Independent Reconstruction of EIP-7702 Authorization, Batch Execution, and Asset Movements*
 
-An evidence-based technical reconstruction of selected Ethereum transactions associated by external investigators with the October 2026 Binance security incident.
+**Network:** Ethereum · **Research status:** Completed, scope-limited technical reconstruction
 
-The investigation examines:
+This investigation examines selected Ethereum transactions associated with the October 2026 Binance security incident by named external investigators. It reconstructs an EIP-7702 authorization sequence, delegated asset movement, and the subsequent removal of delegation, without claiming to independently establish corporate authorization or the full incident-wide flow of funds.
 
-- EIP-7702 authorization signatures and nonce conditions.
-- Historical account-code and delegation changes.
-- Delegated execution and asset-transfer records.
-- Failure-tolerant batch execution.
-- Historical USDT balances and selected downstream transfers.
-- The limits of transaction attribution and public blockchain evidence.
+**Selected findings:**
 
-**[Read the Full Investigation](publications/binance-2026/README.md)**
+- **50** EIP-7702 authorization signatures recovering to the same wallet address; **one** nonce-applicable authorization identified in a nonce-only replay.
+- Approximately **167,464 ETH** moved in the audited execution, alongside **64 ERC-20 transfer attempts** and **63 matching Transfer events**.
+- The **27th token-transfer call reverted**; **37 subsequent calls continued** without recorded call errors, while the parent transaction succeeded.
+- Historical USDT balances showed corresponding **1,615,409,498.97324 USDT** block-end changes. Two later transfers totaling **700 million USDT** were audited, without establishing exclusive provenance from the earlier transaction.
 
-[View Figures and Supporting Evidence](publications/binance-2026/)
+**[Read the Full Investigation](publications/binance-2026/README.md)** · [Figures & Supporting Evidence](publications/binance-2026/)
 
-**Research status:** Completed bounded technical reconstruction. Incident-wide attribution, full fund conservation, and corporate authorization remain unresolved.
+> **Evidence boundary:** This is a bounded reconstruction of selected transactions, not an independent verification of the entire reported incident. Transaction-level incident attribution, internal approval, beneficial ownership, and complete fund conservation remain unresolved.
 
-### Bitcoin — Silk Road / Individual X (2020)
+### 02 — [Bitcoin: Silk Road / Individual X (2020)](publications/silk-road-2020/README.md)
 
 *Retrospective Bitcoin Transaction Reconstruction & DOJ Evidence Review*
 
-A completed, scope-limited reconstruction examining publicly observable Bitcoin movements and their relationship to U.S. Department of Justice records.
+**Network:** Bitcoin · **Research status:** Completed, scope-limited review · **Final finding:** PARTIALLY VERIFIED
 
-**Final finding:** PARTIALLY VERIFIED. Public blockchain evidence supports a partial transaction reconstruction, but independent identity attribution and the complete historical transaction chain were not established.
+This case compares observable Bitcoin transaction links with the U.S. Department of Justice's publicly documented Silk Road / Individual X forfeiture case.
 
-**[Read the Bitcoin Investigation](publications/silk-road-2020/README.md)**
+**Selected findings:**
+
+- Reconstructed a documented link between a **2,500 BTC output in 2012** and a **69,471.082201 BTC consolidation in 2013**.
+- Examined a separate **2020 transaction** and DOJ allegations as distinct categories of evidence.
+- Identified the evidentiary gap: the complete intervening transaction path and independent identity-attribution process were **not** reproduced.
+
+**[Read the Full Bitcoin Investigation](publications/silk-road-2020/README.md)**
+
+> **Evidence boundary:** The research supports a partial on-chain reconstruction. It does not independently establish the complete transaction history, beneficial ownership, or the DOJ's identity-attribution process.
 
 ## Research Methodology
 
-Material findings are evaluated using four evidence classifications:
+Every material finding is assessed using explicit evidence classifications:
 
 | Classification | Meaning |
 |---|---|
-| OBSERVED | Supported by identifiable evidence |
-| INFERRED | Reasoned interpretation requiring qualification |
-| UNKNOWN | Not established by available evidence |
-| DISPROVEN | Contradicted by reliable evidence |
+| **OBSERVED** | Directly supported by identifiable, checkable evidence |
+| **INFERRED** | An interpretation supported by evidence but not independently established |
+| **UNKNOWN** | Not established by the available evidence |
+| **DISPROVEN** | A hypothesis contradicted by reliable evidence |
 
-Public blockchain records can establish transaction activity but do not independently establish criminal intent, beneficial ownership, or corporate authorization.
+The research distinguishes **transaction time from information availability**, **retrospective reconstruction from real-time detection**, and **on-chain connectivity from real-world identity or criminal responsibility**.
 
-## Ongoing Research
+## Research in Progress
 
-Additional investigations are maintained separately from this publication-oriented main branch. Research findings are promoted here only after a defined scope, supporting evidence, and limitations have been reviewed.
+Ongoing investigations and intermediate working files are maintained on separate research branches. Only scope-defined, reviewed findings are selected for presentation on `main`. Branch separation is for organization and **does not make research branches private** in this public repository.
 
 ## Research Philosophy
 
 **Follow the evidence. Document the uncertainty. Never turn an inference into a fact.**
 
-This is independent research, not an official investigation or a finding of criminal responsibility.
+*Independent research, not an official investigation or a finding of criminal responsibility.*
