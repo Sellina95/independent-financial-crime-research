@@ -1,0 +1,4 @@
+network,receiver_address,por_exact_match_rows,por_match_status,history_query_status,history_records_examined,preincident_records_in_examined_sample,preincident_activity_evidence,binance_control_at_incident,receiver_unauthorized_control,H1_unauthorized,H2_internal_transfer,H3_incident_response,limitations
+BTC,bc1q0mtc2f5agpkvlq6hhahmfr3hlr55kyfjhl2mnm,0,NOT_LISTED_IN_SUPPLIED_CSV,RECENT_PAGE_ONLY,18,0,NOT_ESTABLISHED,UNKNOWN,UNKNOWN,OPEN,OPEN,OPEN,First address history page only; not exhaustive
+TRX,TG5iBMQPrDzJJAUM8GMVBf1hRaJ1wvzsGi,0,NOT_LISTED_IN_SUPPLIED_CSV,RECENT_PAGE_ONLY,3,0,NOT_ESTABLISHED,UNKNOWN,UNKNOWN,OPEN,OPEN,OPEN,"TRX transfers only, first page; not exhaustive"
+XRP,rK21t6nGLy4MNDqhvy3pGwcLFy25qgfzMx,0,NOT_LISTED_IN_SUPPLIED_CSV,COMPLETE_ACCOUNT_HISTORY,14,0,NOT_ESTABLISHED,UNKNOWN,UNKNOWN,OPEN,OPEN,OPEN,Account history; account participation does not establish sender control
