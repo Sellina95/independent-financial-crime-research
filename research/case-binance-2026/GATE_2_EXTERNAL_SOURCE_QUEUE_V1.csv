@@ -1,0 +1,3 @@
+source_id,publisher,url,reported_scope,verification_status,extracted_wallet_count,notes
+EXT_001,Bitquery,https://bitquery.io/investigations/binance-hack,Reported multi-wallet and multi-chain incident analysis,PENDING_DIRECT_SOURCE_REVIEW,,Prior conversation mentioned 17 wallets and 9 chains; numbers not independently verified here
+EXT_002,GCSA,https://media.gcsa.com/en-US/news-3730400,Reported Ethereum transaction investigation,PENDING_DIRECT_SOURCE_REVIEW,,No wallet address or incident attribution imported without primary-source review
