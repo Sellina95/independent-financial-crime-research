@@ -1,0 +1,19 @@
+{
+  "cutoff_utc": "2026-10-29T20:05:00Z",
+  "official_por_url": "https://www.binance.com/en/proof-of-reserves",
+  "retrieval_utc": "2026-11-01T05:35:01.841584+00:00",
+  "sources": [
+    {
+      "source_type": "CURRENT_OFFICIAL_PAGE",
+      "url": "https://www.binance.com/en/proof-of-reserves",
+      "archive_timestamp": null,
+      "sha256": "d9713bef18ee6f7c35990748a9588202b553ce7f04b9354f1cb0ad464fe61805",
+      "size_bytes": 2110,
+      "preincident_eligible": false
+    }
+  ],
+  "errors": [
+    "Archive returned unexpected URL"
+  ],
+  "warning": "HTML text matching alone never establishes control, ownership or unauthorized withdrawal. Dynamic content and historical provenance require separate review."
+}

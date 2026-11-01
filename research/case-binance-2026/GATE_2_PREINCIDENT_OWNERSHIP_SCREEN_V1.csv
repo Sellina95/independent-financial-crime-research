@@ -1,0 +1,12 @@
+chain,candidate_address,preincident_text_match,non_preincident_text_match,evidence_status,preincident_source_urls,other_source_urls,binance_ownership_confirmed,incident_attribution_confirmed,manual_review_required
+Ethereum,0x28c6c06298d514db089934071355e5743bf21d60,False,False,NO_MATCH_IN_RETRIEVED_SOURCES,,,NO,NO,YES
+Ethereum,0xdfd5293d8e347dfe59e90efd55b2956a1343963d,False,False,NO_MATCH_IN_RETRIEVED_SOURCES,,,NO,NO,YES
+Ethereum,0xee7ae85f2fe2239e27d9c1e23fffe168d63b4055,False,False,NO_MATCH_IN_RETRIEVED_SOURCES,,,NO,NO,YES
+Bitcoin,bc1qm34lsc65zpw79lxes69zkqmk6ee3ewf0j77s3h,False,False,NO_MATCH_IN_RETRIEVED_SOURCES,,,NO,NO,YES
+TRON,TDqSquXBgUCLYvYC4XZgrprLK589dkhSCf,False,False,NO_MATCH_IN_RETRIEVED_SOURCES,,,NO,NO,YES
+Solana,5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9,False,False,NO_MATCH_IN_RETRIEVED_SOURCES,,,NO,NO,YES
+XRPL,rDAE53VfMvftPB4ogpWGWvzkQxfht6JPxr,False,False,NO_MATCH_IN_RETRIEVED_SOURCES,,,NO,NO,YES
+XRPL,rBtttd61FExHC68vsZ8dqmS3DfjFEceA1A,False,False,NO_MATCH_IN_RETRIEVED_SOURCES,,,NO,NO,YES
+XRPL,rfQ9EcLkU6WnNmkS3EwUkFeXeN47Rk8Cvi,False,False,NO_MATCH_IN_RETRIEVED_SOURCES,,,NO,NO,YES
+XRPL,rarG6FaeYhnzSKSS5EEPofo4gFsPn2bZKk,False,False,NO_MATCH_IN_RETRIEVED_SOURCES,,,NO,NO,YES
+XRPL,rNU4eAowPuixS5ZCWaRL72UUeKgxcKExpK,False,False,NO_MATCH_IN_RETRIEVED_SOURCES,,,NO,NO,YES
