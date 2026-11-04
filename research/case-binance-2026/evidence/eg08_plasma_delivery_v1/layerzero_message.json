@@ -1,0 +1,161 @@
+{
+  "data": [
+    {
+      "config": {
+        "error": false,
+        "inboundConfig": {
+          "confirmations": 65,
+          "optionalDVNCount": 0,
+          "optionalDVNNames": [],
+          "optionalDVNThreshold": 0,
+          "optionalDVNs": [],
+          "requiredDVNCount": 3,
+          "requiredDVNNames": [
+            "LayerZero Labs",
+            "Canary Sponsored",
+            "USDT0"
+          ],
+          "requiredDVNs": [
+            "0x282b3386571f7f794450d5789911a9804fa346b4",
+            "0x2cad582a78e71c5756e7e4851c365d86d95645b4",
+            "0xdcdd4628f858b45260c31d6ad076bd2c3d3c2f73"
+          ]
+        },
+        "outboundConfig": {
+          "confirmations": 65,
+          "executor": "0x173272739Bd7Aa6e4e214714048a9fE699453059",
+          "optionalDVNCount": 0,
+          "optionalDVNNames": [],
+          "optionalDVNThreshold": 0,
+          "optionalDVNs": [],
+          "requiredDVNCount": 3,
+          "requiredDVNNames": [
+            "USDT0",
+            "LayerZero Labs",
+            "Canary Sponsored"
+          ],
+          "requiredDVNs": [
+            "0x3b0531eb02ab4ad72e7a531180beef9493a00dd2",
+            "0x589dedbd617e0cbcb916a9223f4d1300c294236b",
+            "0xf9d2c0915cac4c75b7ae359089333c8ac258e12c"
+          ]
+        },
+        "receiveLibrary": "0xe1844c5D63a9543023008D332Bd3d2e6f1FE1043",
+        "sendLibrary": "0xbB2Ea70C9E858123480642Cf96acbcCE1372dCe1",
+        "ulnReceiveVersion": "V302",
+        "ulnSendVersion": "V302"
+      },
+      "created": "2026-10-30T17:24:27.000Z",
+      "destination": {
+        "lzCompose": {
+          "status": "N/A"
+        },
+        "nativeDrop": {
+          "status": "N/A"
+        },
+        "status": "SUCCEEDED",
+        "tx": {
+          "blockHash": "0xdfc44772c86cfcfa76e33249c1b58d236a128ef203f94f550d05f1db835eaaf3",
+          "blockNumber": 36440003,
+          "blockTimestamp": 1793382008,
+          "txHash": "0xa2e90c60008700b31605275112d9a3ec17fe96dc3582391a5e781cc340218029"
+        }
+      },
+      "guid": "0xdb41c20c03f2591813b8a6714c5eccff01fc00b9b393b36f5cafb1f82fe0655f",
+      "pathway": {
+        "dstEid": 30383,
+        "id": "30101-30383-0x6c96de32cea08842dcc4058c14d3aaad7fa41dee-0x02ca37966753bdddf11216b73b16c1de756a7cf9",
+        "nonce": 25154,
+        "receiver": {
+          "address": "0x02ca37966753bdddf11216b73b16c1de756a7cf9",
+          "chain": "plasma",
+          "id": "usdt0",
+          "name": "USDT0"
+        },
+        "sender": {
+          "address": "0x6c96de32cea08842dcc4058c14d3aaad7fa41dee",
+          "chain": "ethereum",
+          "id": "usdt0",
+          "name": "USDT0"
+        },
+        "srcEid": 30101
+      },
+      "source": {
+        "status": "SUCCEEDED",
+        "tx": {
+          "blockHash": "0xefe4a3a5bc655f4f93ebfeffd2a9bd3b49d99716ab562b9357fad25c63b61f62",
+          "blockNumber": "26307046",
+          "blockTimestamp": 1793381051,
+          "from": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+          "options": {
+            "lzReceive": {
+              "gas": "160000",
+              "value": "0"
+            },
+            "ordered": false
+          },
+          "payload": "0x000000000000000000000000b8734a14fbd4aa2d44e6aa830405ffc861ba313c00001977420dc000",
+          "readinessTimestamp": 1793381831,
+          "txHash": "0xbb2744d79ded511ce6bfdf85792fd4d8794ed6cae681f95fdc7de844c05c4f7a"
+        }
+      },
+      "status": {
+        "message": "Executor transaction confirmed",
+        "name": "DELIVERED"
+      },
+      "updated": "2026-10-30T17:40:20.000Z",
+      "verification": {
+        "dvn": {
+          "dvns": {
+            "0x282b3386571f7f794450d5789911a9804fa346b4": {
+              "blockHash": "0x044ccce3e409f8f08882be654d0c26adebdc205370a76124b70618d7f518820c",
+              "blockNumber": 36439833,
+              "blockTimestamp": 1793381838,
+              "optional": false,
+              "proof": {
+                "packetHeader": "0x010000000000006242000075950000000000000000000000006c96de32cea08842dcc4058c14d3aaad7fa41dee000076af00000000000000000000000002ca37966753bdddf11216b73b16c1de756a7cf9",
+                "payloadHash": "0xd8043865a8cbf2d2370e3534978c78d0178ac38c3ed43b118374d0346cc29c8d"
+              },
+              "status": "SUCCEEDED",
+              "txHash": "0xd1a5aaae9c097790a2d86b042097fde807fadbf44bae111cdc73b56039cad2a1"
+            },
+            "0x2cad582a78e71c5756e7e4851c365d86d95645b4": {
+              "blockHash": "0x044ccce3e409f8f08882be654d0c26adebdc205370a76124b70618d7f518820c",
+              "blockNumber": 36439833,
+              "blockTimestamp": 1793381838,
+              "optional": false,
+              "proof": {
+                "packetHeader": "0x010000000000006242000075950000000000000000000000006c96de32cea08842dcc4058c14d3aaad7fa41dee000076af00000000000000000000000002ca37966753bdddf11216b73b16c1de756a7cf9",
+                "payloadHash": "0xd8043865a8cbf2d2370e3534978c78d0178ac38c3ed43b118374d0346cc29c8d"
+              },
+              "status": "SUCCEEDED",
+              "txHash": "0x2bf2ccf94a92420f0ef5c850af4ac53aa317fcd55c32830acb49e690690bb08f"
+            },
+            "0xdcdd4628f858b45260c31d6ad076bd2c3d3c2f73": {
+              "blockHash": "0xcdfa7cf88150b69aeb67dec4f5bfdd875d78984401026b32e0abcc19278de853",
+              "blockNumber": 36439987,
+              "blockTimestamp": 1793381992,
+              "optional": false,
+              "proof": {
+                "packetHeader": "0x010000000000006242000075950000000000000000000000006c96de32cea08842dcc4058c14d3aaad7fa41dee000076af00000000000000000000000002ca37966753bdddf11216b73b16c1de756a7cf9",
+                "payloadHash": "0xd8043865a8cbf2d2370e3534978c78d0178ac38c3ed43b118374d0346cc29c8d"
+              },
+              "status": "SUCCEEDED",
+              "txHash": "0x139294e212e9d872c81b812890e4c4842300d931e4480b25d778ce1d62a9e90d"
+            }
+          },
+          "status": "SUCCEEDED"
+        },
+        "sealer": {
+          "status": "SUCCEEDED",
+          "tx": {
+            "blockHash": "0x9e0c3fb617121f061a9fac68d1751e1eba85c9b9cbbf36af5126a22d2ecaaf0f",
+            "blockNumber": 36439991,
+            "blockTimestamp": 1793381996,
+            "txHash": "0xb8a038cd1360525b060ba152722a9c839778028099748cf794ad5fb0e13c878f"
+          }
+        }
+      }
+    }
+  ]
+}

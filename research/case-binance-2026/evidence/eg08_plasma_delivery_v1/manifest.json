@@ -1,0 +1,16 @@
+{
+  "files_sha256": {
+    "ethereum_chain_id.json": "72d2643a99d297c0d6bfb0e0df93a133d0753c49f2bf59a96d84399625cd6d02",
+    "ethereum_source_receipt.json": "3007649f09d932cb39fb1f4e6900d5c755a14bb4cb4ab716f516a7b9d414157f",
+    "ethereum_source_transaction.json": "e6d06e166c27be7107c78a5978818d0d3ba124c45da4ae9800d5a468d9878985",
+    "layerzero_message.json": "fa3ecfd3d13479da1c34af3cf60ad3a3fb921a34b2dabe21a3400034275c6534",
+    "plasma_chain_id.json": "4b38b3ff97d70e9cfc36f0c670c6e174153f03076e2aecd647e10668cb9cf012",
+    "plasma_destination_receipt.json": "3d7668ef252a48f97adf3194e297e7e2cdae82a652d41287ebcb6442a52503da",
+    "verified_summary.json": "7b3eaa5387d2080cd08a2289eecd45f3918462e40749e11b7b0ab67509210313"
+  },
+  "layerzero_scan": "https://scan.layerzero-api.com/v1/messages/guid/0xdb41c20c03f2591813b8a6714c5eccff01fc00b9b393b36f5cafb1f82fe0655f",
+  "rpc_sources": [
+    "https://eth.drpc.org",
+    "https://rpc.plasma.to"
+  ]
+}

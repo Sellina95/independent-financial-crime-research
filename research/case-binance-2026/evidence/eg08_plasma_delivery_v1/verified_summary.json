@@ -1,0 +1,21 @@
+{
+  "classification": "CROSS_CHAIN_DELIVERY_VERIFIED",
+  "delivery_verified": true,
+  "destination_eid": 30383,
+  "destination_oapp": "0x02ca37966753bdddf11216b73b16c1de756a7cf9",
+  "double_count_rule": "28M source and destination are linked legs, not additive incident funds",
+  "ethereum_source_block": 26307046,
+  "ethereum_source_tx": "0xbb2744d79ded511ce6bfdf85792fd4d8794ed6cae681f95fdc7de844c05c4f7a",
+  "freeze_or_recovery_status": "UNKNOWN",
+  "guid": "0xdb41c20c03f2591813b8a6714c5eccff01fc00b9b393b36f5cafb1f82fe0655f",
+  "incident_fund_attribution": "UNKNOWN",
+  "plasma_destination_block": 36440003,
+  "plasma_destination_tx": "0xa2e90c60008700b31605275112d9a3ec17fe96dc3582391a5e781cc340218029",
+  "received_usdt0_raw": 28000000000000,
+  "recipient": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+  "research_gap": "EG-08",
+  "sent_usdt_raw": 28000000000000,
+  "source_eid": 30101,
+  "source_oapp": "0x6c96de32cea08842dcc4058c14d3aaad7fa41dee",
+  "subsequent_plasma_fund_flow": "UNKNOWN"
+}

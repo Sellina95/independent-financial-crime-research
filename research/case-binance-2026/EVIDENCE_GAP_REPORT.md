@@ -265,3 +265,41 @@ and B `0x1c3b25019ed4e4876e7af7903cc3e1e23287c337`.
 
 **Status:** PARTIAL PASS — address-group conservation verified;
 incident-fund attribution and downstream restriction status unresolved.
+
+### EG-08 — Verified Ethereum-to-Plasma Delivery
+
+**Status:** CROSS-CHAIN DELIVERY VERIFIED (incident attribution unresolved).
+
+**OBSERVED — Ethereum**
+- Source transaction: `0xbb2744d79ded511ce6bfdf85792fd4d8794ed6cae681f95fdc7de844c05c4f7a`; block `26307046`.
+- 28,000,000 USDT transferred to Ethereum USDT0 adapter `0x6c96de32cea08842dcc4058c14d3aaad7fa41dee`.
+- `OFTSent` event GUID: `0xdb41c20c03f2591813b8a6714c5eccff01fc00b9b393b36f5cafb1f82fe0655f`.
+- Destination LayerZero EID: `30383` (Plasma).
+
+**OBSERVED — Plasma**
+- Destination transaction: `0xa2e90c60008700b31605275112d9a3ec17fe96dc3582391a5e781cc340218029`; block `36440003`, status success.
+- Plasma chain ID: `9745`.
+- `OFTReceived` event GUID matches Ethereum `OFTSent`.
+- Destination OFT contract: `0x02ca37966753bdddf11216b73b16c1de756a7cf9`.
+- Receiver: `0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c`.
+- Amount received: **28,000,000 USDT0**.
+- LayerZero Scan reports `DELIVERED` and destination `SUCCEEDED`.
+- Ethereum and Plasma raw receipts independently checked against RPCs.
+
+**RECONCILIATION**
+- Ethereum 28M USDT and Plasma 28M USDT0 represent linked
+  cross-chain legs, **not 56M of separate incident funds**.
+- GUID, recipient, chain, and amount checks: PASS.
+
+**UNKNOWN / NOT CLAIMED**
+- Whether the entire 28M is attributable to the original incident;
+  upstream wallets had commingled balances.
+- Subsequent movements on Plasma.
+- Whether these funds were frozen, recovered, or should have been
+  designated by a particular institution.
+- Common ownership of addresses on different chains.
+
+**Raw evidence:** `research/case-binance-2026/evidence/eg08_plasma_delivery_v1/`
+
+**Next test:** Plasma recipient's subsequent USDT0 balance and
+Transfer events, with contract and time-basis validation.
