@@ -30,11 +30,53 @@ Preserved flow evidence includes Central → 500M → 175M branch and Central �
 
 Existing source directories: `evidence/central_blacklist_audit_v1/`, `evidence/blacklist_balance_175m_v1/`, `evidence/blacklist_event_175m_v1/`, `evidence/30m_blacklist_audit_v1/`, `evidence/root_usdt_outflows_v1/`, `evidence/second_hop_receipts_v1/`, `evidence/30m_upstream_bridge_v1/`. Key reports: `USDT_FREEZE_TIMELINE_CHECKPOINT_V4.md`, `BLACKLIST_175M_CASE_AUDIT_V1.md`. Raw original evidence takes precedence over older narrative claims when they conflict; do not silently edit the older document.
 
+## EG-01 — Blacklist Execution-Time Balance Audit
+
+**Status: SUBSTANTIALLY VERIFIED**
+**Evidence classification: OBSERVED + STRONGLY INFERRED**
+
+### Verification results
+
+| Address | Blacklist block | TX index | USDT balance | Result |
+|---|---:|---:|---:|---|
+| Central | 26300954 | 88 | 971,149,299.483240 | PASS |
+| 175M recipient | 26301021 | 199 | 174,999,872.327520 | PASS |
+| 30M recipient | 26301041 | 13 | 30,000,000.000000 | PASS |
+
+All three addresses passed:
+
+- Successful blacklist transaction receipt.
+- Matching USDT blacklist event.
+- Identical previous-block and blacklist-block ending balances.
+- Zero target-related USDT Transfer events in blacklist block.
+- Block-level balance reconciliation PASS.
+
+**OBSERVED:** Historical balances, transaction receipts,
+blacklist events and block-wide Transfer logs.
+
+**STRONGLY INFERRED:** Execution-instant USDT balances matched
+the corresponding block-end balances.
+
+**REMAINING LIMITATION:** Direct intra-transaction state
+reconstruction and independent provider confirmation.
+
+**CRITICAL:** These balances were observed at different blocks.
+Their sum must not be represented as an incident-wide frozen
+or recovered total without EG-03 conservation analysis.
+
+Evidence:
+`evidence/eg01_execution_time_v1/manifest.json`
+
+Detailed audit:
+`EG01_EXECUTION_TIME_AUDIT_V1.md`
+
+---
+
 ## 3. Research gap register — prioritized
 
 | ID | Research question | Current evidence | Acceptance test | Priority |
 |---|---|---|---|---|
-| EG-01 | How much USDT was actually present **at each blacklist execution instant**? | Block-end balances and matching events; exact transaction-level state not fully reproduced | Same chain/token/address/receipt; intra-block ordering; full Transfer reconciliation and trace where needed; distinguish inferred vs observed execution-time balance | **P0** |
+| EG-01 | How much USDT was actually present **at each blacklist execution instant**? | **SUBSTANTIALLY VERIFIED** — three addresses: blacklist receipts/events, block-wide Transfer reconciliation, adjacent-block balances PASS; execution-instant balances strongly inferred, not directly traced | Same chain/token/address/receipt; intra-block ordering; full Transfer reconciliation and trace where needed; distinguish inferred vs observed execution-time balance | **P0** |
 | EG-02 | What **post-blacklist inflows** changed later restricted balance? Is restricted value distinct from initial balance and recovered assets? | Incomplete post-event ledger; mechanism discussed publicly | Time-stamped address/token ledger, inflows/outflows, blacklist state, token semantics, recoveries and redemptions kept separately | **P0** |
 | EG-03 | Are three event-time address balances double counted or incomparable because of asynchronous snapshots? | Branches trace to Central; arithmetic is correct | Time-indexed conservation, synchronized snapshots where possible, recipient-identity and transfer-link checks; report scope-specific estimate only | **P0** |
 | EG-04 | Does a genuine discrepancy persist against institutional freeze numbers after basis normalization? | Not established | Normalize UTC cutoff, chain, token, pricing, frozen/intercepted/recovered definitions; verify underlying receipt evidence and alternative explanations | P1 |
@@ -96,3 +138,13 @@ Existing source directories: `evidence/central_blacklist_audit_v1/`, `evidence/b
 4. Choose **one** falsifiable TRM mechanism pilot only after the earlier gates.
 
 **Success is not finding more wallets. Success is resolving a material evidence gap with a result another investigator can verify, challenge, and use.**
+
+### EG-01 audit checkpoint
+
+**SUBSTANTIALLY VERIFIED** — three blacklist addresses.
+Block-level receipt, Transfer-log and historical balance checks PASS.
+Execution-instant balances remain strongly inferred rather than
+directly observed through intra-transaction tracing.
+
+See `EG01_EXECUTION_TIME_AUDIT_V1.md` and
+`evidence/eg01_execution_time_v1/manifest.json`.

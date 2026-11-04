@@ -1,0 +1,21 @@
+{
+  "captured_at_utc": "2026-11-04T14:16:48.902185+00:00",
+  "provider": "https://eth.drpc.org",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_call",
+    "params": [
+      {
+        "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "data": "0x70a08231000000000000000000000000aa246bf639586a6ba46762d378ce50ca4fc654a0"
+      },
+      "0x191525c"
+    ]
+  },
+  "response": {
+    "id": 1,
+    "jsonrpc": "2.0",
+    "result": "0x00000000000000000000000000000000000000000000000000009f295539cf60"
+  }
+}

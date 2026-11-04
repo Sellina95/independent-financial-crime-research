@@ -1,0 +1,11 @@
+{
+  "case": "AXIOM EG-02",
+  "network": "Ethereum Mainnet",
+  "token": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+  "target": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+  "files_sha256": {
+    "balance_26300954.json": "6f84519de1eca04056d3d6bddfd99e274eda322c4a36c9cbb8f1ae22c8c97c17",
+    "balance_26300968.json": "d2fdc4351fbb3b812af7451442c44958b29352f30df80a8ad2d88b24cd573348",
+    "balance_26301167.json": "a64ab9f0b900ffc9f8989fdbf2eb5407ddb10995ff1d10824f5ba2c6e66c737d"
+  }
+}
