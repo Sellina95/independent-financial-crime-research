@@ -1,0 +1,16 @@
+{
+  "case": "STEP71_55M_SOURCE_AUDIT_V1",
+  "chain_id": 1,
+  "rpc_endpoint": "https://eth.drpc.org",
+  "collected_at_utc": "2026-11-04T18:03:46.782600+00:00",
+  "transaction_hash": "0xd4e08d3ef0cb02a75922913c61984fbf7fe4bbc4b95324735ef27f908fd6c49c",
+  "status": "ONCHAIN_TRANSFER_VERIFIED",
+  "incident_attribution": "UNRESOLVED",
+  "files": {
+    "transaction.json": "2eb4a008b3f061b86a0ccea082361c27dc49be55d7d6f6115a388279a9f61df7",
+    "receipt.json": "02a7d6e3a829e2035a4093d0a07fec8a5ad15c9d704adcc8baccd8d870cccc05",
+    "block.json": "666072fcfbdd5fc1fba507e68ff6595b9f3534f8669b95a53b42affd49f04ddc",
+    "balance_and_code_audit.json": "59955e34f15e70e26c2acd9a4d3a7057506b4fac37a6106de940b8f52900eb69",
+    "por_crosswalk_matches.json": "d26f8b762cc2528ead4779f2667fe8e17555421c263114ddcbb460c7e2f05253"
+  }
+}

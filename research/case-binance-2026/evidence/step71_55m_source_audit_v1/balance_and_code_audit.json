@@ -1,0 +1,21 @@
+{
+  "source": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+  "central": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+  "before_block": 26300771,
+  "after_block": 26300772,
+  "source_balance_before_raw": "56451656004169",
+  "source_balance_after_raw": "711019744169",
+  "central_balance_before_raw": "1615409498973240",
+  "central_balance_after_raw": "1671149299473240",
+  "source_code_before": "0x",
+  "source_code_after": "0x",
+  "matched_transfer_events": [
+    {
+      "logIndex": "0x25",
+      "source": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+      "destination": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "amount_raw": 55739800500000
+    }
+  ],
+  "caution": "Block-end balances are not isolated transaction-level state changes."
+}
