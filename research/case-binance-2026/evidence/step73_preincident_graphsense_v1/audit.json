@@ -1,0 +1,18 @@
+{
+  "status": "PREINCIDENT_HISTORICAL_LISTING_VERIFIED",
+  "collected_at_utc": "2026-11-04T18:09:24.938409+00:00",
+  "address": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+  "repository": "graphsense/graphsense-tagpacks",
+  "path": "packs/exchange-wallets-binance.yaml",
+  "commit_sha": "4291546db584a40c03d77af32e27ac7ad6e90bac",
+  "commit_date_utc": "2023-02-24T15:41:11Z",
+  "commit_url": "https://github.com/graphsense/graphsense-tagpacks/commit/4291546db584a40c03d77af32e27ac7ad6e90bac",
+  "raw_source_url": "https://raw.githubusercontent.com/graphsense/graphsense-tagpacks/4291546db584a40c03d77af32e27ac7ad6e90bac/packs/exchange-wallets-binance.yaml",
+  "listing_found": true,
+  "limitations": [
+    "Historical third-party listing, not direct Binance signature.",
+    "Historical listing does not prove ownership at incident time.",
+    "It does not prove the transfer was unauthorized.",
+    "GraphSense labels may rely on older Binance source material."
+  ]
+}
