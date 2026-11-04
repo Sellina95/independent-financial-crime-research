@@ -1,0 +1,15 @@
+{
+  "files_sha256": {
+    "balance_A_26306503.json": "d9a5f91d7dbc6abcb933594d610e4b4dbecdbd00287098dbb043d2b7a7b08b10",
+    "balance_A_26311867.json": "7338308148fb48ab874e969fd0bdb28faea3a440c3303e374976dda8504d294b",
+    "balance_B_26306503.json": "e25baab254ac6b2e4b9baba2c442882d343f43bdecbace39ef0dfd97099e6d35",
+    "balance_B_26311867.json": "efe12cc26c16a15a30c489d2e4f7cfd416869a842c982800430c5c8a95404489",
+    "external_28m_transfer_log.json": "810970733760e38ddc166b1330f2b9c9308a3d8c08dbc07c72788c28a2e6389e",
+    "original_25m_A_to_B.json": "deea4d882418c982dfe7517dc74a99d6ed8ceb1252deb0431ffd6e7296865932",
+    "previous_terminal_audit_summary.json": "e7177d5e3b5aeb875b660c8071424baba68e3d51f91de42580197c241c6415ad",
+    "return_28m_B_to_A.json": "1de98e43e5d060a32888867e2b2beb846c03642c338961b5cfff3b857b48dd11",
+    "return_50m_B_to_A.json": "2ed274d2e021788960abf7566795b1266ad566d9939ac29a642f7e3a79358dea"
+  },
+  "rpc": "https://eth.drpc.org",
+  "token": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+}

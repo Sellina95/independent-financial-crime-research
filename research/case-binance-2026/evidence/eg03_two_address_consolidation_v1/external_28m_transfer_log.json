@@ -1,0 +1,22 @@
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "result": [
+    {
+      "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "blockHash": "0xefe4a3a5bc655f4f93ebfeffd2a9bd3b49d99716ab562b9357fad25c63b61f62",
+      "blockNumber": "0x19169e6",
+      "blockTimestamp": "0x6ae4d2bb",
+      "data": "0x00000000000000000000000000000000000000000000000000001977420dc000",
+      "logIndex": "0x19a",
+      "removed": false,
+      "topics": [
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "0x000000000000000000000000b8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+        "0x0000000000000000000000006c96de32cea08842dcc4058c14d3aaad7fa41dee"
+      ],
+      "transactionHash": "0xbb2744d79ded511ce6bfdf85792fd4d8794ed6cae681f95fdc7de844c05c4f7a",
+      "transactionIndex": "0xb6"
+    }
+  ]
+}

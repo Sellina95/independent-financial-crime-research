@@ -72,13 +72,88 @@ Detailed audit:
 
 ---
 
+## EG-03 — Time-Indexed Conservation and Double-Counting Audit
+
+**Status: PARTIAL PASS — scope-limited conservation verified**
+
+### Synchronized USDT snapshots
+
+| Address | Block 26301041 | Block 26301167 |
+|---|---:|---:|
+| Central | 975,066,939.251167 | 1,175,464,711.075362 |
+| 175M recipient | 174,999,872.327520 | 174,999,872.327520 |
+| 30M recipient | 30,000,000.000000 | 30,000,000.000000 |
+| **Three-address total** | **1,180,066,811.578687** | **1,380,464,583.402882** |
+
+All snapshots are Ethereum USDT end-of-block balances.
+These totals are NOT incident-wide frozen or recovered assets.
+
+### Verified intermediate distribution
+
+| Wallet | Verified incoming | Verified outgoing | End balance at block 26301041 |
+|---|---:|---:|---:|
+| 190M receiver | 190M | 10M + 50M + 130M = 190M | 0 |
+| 130M receiver | 130M | 50M distributed + 80M = 130M | 0 |
+| 80M receiver | 80M | 50M distributed + 30M = 80M | 0 |
+
+The three intermediate wallets do not retain the previously
+suspected 160M USDT at either synchronized snapshot.
+
+**OBSERVED:** Corresponding USDT Transfer logs, successful
+saved receipts for the previously traced path, and historical
+balances for the three intermediate wallets.
+
+**RECONCILED:** The specified upstream inflows and the queried
+outgoing Transfer events account for the 190M, 130M, and 80M
+intermediate distributions through block 26301041.
+
+**NOT ESTABLISHED:** Final destination, restriction status,
+recovery, or ownership of the distributed funds; incident-wide
+conservation or completeness across every affected wallet.
+
+### EG-03 recipient blacklist checkpoint
+
+Historical Ethereum USDT `isBlackListed(address)` at block 26301167.
+These are address restrictions, NOT recovered-asset amounts.
+
+| Receiving address | Branch inflow | Blacklist status |
+|---|---:|---|
+| `0x56534741cd8b152df6d48adf7ac51f75169a83b2` | 13.54M USDT | NOT BLACKLISTED |
+| `0x9db9e0e53058c89e5b94e29621a205198648425b` | 7.52M USDT | NOT BLACKLISTED |
+| `0x11b815efb8f581194ae79006d24e0d814b7697f6` | 4.15M USDT | NOT BLACKLISTED |
+| `0xc7bbec68d12a0d1830360f8ec58fa599ba1b0e9b` | 1.96M USDT | NOT BLACKLISTED |
+| `0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852` | 1.61M USDT | NOT BLACKLISTED |
+| `0x3416cf6c708da44db2624d63ea0aaef7113527c6` | 0.93M USDT | NOT BLACKLISTED |
+| `0x3041cbd36888becc7bbcbc0045e3b1f144466f5f` | 0.33M USDT | NOT BLACKLISTED |
+| `0xc5af84701f98fa483ece78af83f11b6c38aca71d` | 0.15M USDT | NOT BLACKLISTED |
+
+The three largest recipients (60M, 37.74M, 32.07M USDT)
+were separately checked at this block and were NOT BLACKLISTED.
+Central was BLACKLISTED and served as a positive control.
+
+**LIMITATION:** No claim that received tokens remained in these
+addresses, were recoverable, or were attributable to one owner.
+Source: `evidence/eg03_recipient_blacklist_v1.json`.
+
+### Next acceptance tests
+
+1. Deduplicate Transfer events by transaction hash and log index.
+2. Trace recipient overlap and later movements of distributed funds.
+3. Verify blacklist state for relevant terminal addresses.
+4. Compare synchronized, scope-defined balances without adding
+   historical transfer amounts to current holdings.
+5. Preserve original RPC responses and evidence hashes for the
+   new queries before institutional submission.
+
+---
+
 ## 3. Research gap register — prioritized
 
 | ID | Research question | Current evidence | Acceptance test | Priority |
 |---|---|---|---|---|
 | EG-01 | How much USDT was actually present **at each blacklist execution instant**? | **SUBSTANTIALLY VERIFIED** — three addresses: blacklist receipts/events, block-wide Transfer reconciliation, adjacent-block balances PASS; execution-instant balances strongly inferred, not directly traced | Same chain/token/address/receipt; intra-block ordering; full Transfer reconciliation and trace where needed; distinguish inferred vs observed execution-time balance | **P0** |
 | EG-02 | What **post-blacklist inflows** changed later restricted balance? Is restricted value distinct from initial balance and recovered assets? | Incomplete post-event ledger; mechanism discussed publicly | Time-stamped address/token ledger, inflows/outflows, blacklist state, token semantics, recoveries and redemptions kept separately | **P0** |
-| EG-03 | Are three event-time address balances double counted or incomparable because of asynchronous snapshots? | Branches trace to Central; arithmetic is correct | Time-indexed conservation, synchronized snapshots where possible, recipient-identity and transfer-link checks; report scope-specific estimate only | **P0** |
+| EG-03 | Are three event-time address balances double counted or incomparable because of asynchronous snapshots? | **PARTIAL PASS** — synchronized balances and three intermediate-wallet distributions reconciled; downstream recipient coverage and restriction status remain open | Time-indexed conservation, synchronized snapshots where possible, recipient-identity and transfer-link checks; report scope-specific estimate only | **P0** |
 | EG-04 | Does a genuine discrepancy persist against institutional freeze numbers after basis normalization? | Not established | Normalize UTC cutoff, chain, token, pricing, frozen/intercepted/recovered definitions; verify underlying receipt evidence and alternative explanations | P1 |
 | EG-05 | What do **64 attempts / 37 failures** refer to, and why did they fail? | **Population and denominator unverified** | Locate original claim/dataset; classify external tx vs internal call vs batch item, status, revert, nonce, gas, execution environment; compare with officially reported 50 signing transactions without equating counts | **P1** |
 | EG-06 | Do Binance's EIP-7702 account, authorization revocation, and **T02/T03/T17** align chronologically? | Official November 3 narrative available, T02/T03/T17 meaning not yet recovered from original case evidence | Resolve ID definitions first; compare broadcast vs confirmation times, UTC, blocks, indexes, execution privileges and revocation | P1 |
@@ -148,3 +223,45 @@ directly observed through intra-transaction tracing.
 
 See `EG01_EXECUTION_TIME_AUDIT_V1.md` and
 `evidence/eg01_execution_time_v1/manifest.json`.
+
+### EG-03 · Two-Address Consolidation Audit (Research Checkpoint)
+
+**Scope:** A `0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c`
+and B `0x1c3b25019ed4e4876e7af7903cc3e1e23287c337`.
+
+**Period:** Ethereum blocks 26306503–26311867.
+
+**OBSERVED / independently rechecked in this checkpoint**
+- Combined USDT balance at baseline: 80,265,235.424359.
+- Combined USDT balance at end: 265,245.424479.
+- B → A: 50,000,000 and 28,000,000 USDT, verified in receipts.
+- A → `0x6c96de32cea08842dcc4058c14d3aaad7fa41dee`:
+  28,000,000 USDT, confirmed in USDT Transfer log.
+- Earlier A → B transfer of 25,000,000 USDT: receipt rechecked.
+
+**RECONCILED FROM EARLIER TERMINAL AUDIT**
+- Internal transfers during the consolidation period: 78,000,000 USDT.
+- External inflows: 0.000120 USDT.
+- External outflows: 79,999,990.000000 USDT.
+- Group net movement: -79,999,989.999880 USDT.
+- Balance reconciliation difference: 0 USDT.
+- Earlier full audit reported 14 unique Transfer events.
+- The complete 14-event population was not independently re-fetched
+  or archived by this preservation checkpoint.
+
+**INFERRED**
+- Counting A ↔ B transfers as new external movement would
+  double-count flows within the selected analytical boundary.
+
+**UNKNOWN / NOT CLAIMED**
+- Common ownership or control of A and B.
+- Exact attribution of the 80M external outflow to incident funds.
+- Whether the new 28M recipient was subject to later restrictions.
+- Whether any institutional actor overlooked a freeze opportunity.
+- This does not establish laundering, recovery, or control failure.
+
+**Evidence directory:**
+`research/case-binance-2026/evidence/eg03_two_address_consolidation_v1/`
+
+**Status:** PARTIAL PASS — address-group conservation verified;
+incident-fund attribution and downstream restriction status unresolved.

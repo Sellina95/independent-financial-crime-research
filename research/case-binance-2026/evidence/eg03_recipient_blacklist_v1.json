@@ -1,0 +1,185 @@
+{
+  "case": "AXIOM EG-03",
+  "chain": "Ethereum",
+  "token": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+  "block": 26301167,
+  "rpc": "https://eth.drpc.org",
+  "records": [
+    {
+      "label": "13.54M",
+      "address": "0x56534741cd8b152df6d48adf7ac51f75169a83b2",
+      "blacklisted": false,
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_call",
+        "params": [
+          {
+            "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "data": "0xe47d606000000000000000000000000056534741cd8b152df6d48adf7ac51f75169a83b2"
+          },
+          "0x19152ef"
+        ]
+      },
+      "response": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "label": "7.52M",
+      "address": "0x9db9e0e53058c89e5b94e29621a205198648425b",
+      "blacklisted": false,
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_call",
+        "params": [
+          {
+            "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "data": "0xe47d60600000000000000000000000009db9e0e53058c89e5b94e29621a205198648425b"
+          },
+          "0x19152ef"
+        ]
+      },
+      "response": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "label": "4.15M",
+      "address": "0x11b815efb8f581194ae79006d24e0d814b7697f6",
+      "blacklisted": false,
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_call",
+        "params": [
+          {
+            "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "data": "0xe47d606000000000000000000000000011b815efb8f581194ae79006d24e0d814b7697f6"
+          },
+          "0x19152ef"
+        ]
+      },
+      "response": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "label": "1.96M",
+      "address": "0xc7bbec68d12a0d1830360f8ec58fa599ba1b0e9b",
+      "blacklisted": false,
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_call",
+        "params": [
+          {
+            "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "data": "0xe47d6060000000000000000000000000c7bbec68d12a0d1830360f8ec58fa599ba1b0e9b"
+          },
+          "0x19152ef"
+        ]
+      },
+      "response": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "label": "1.61M",
+      "address": "0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852",
+      "blacklisted": false,
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_call",
+        "params": [
+          {
+            "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "data": "0xe47d60600000000000000000000000000d4a11d5eeaac28ec3f61d100daf4d40471f1852"
+          },
+          "0x19152ef"
+        ]
+      },
+      "response": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "label": "0.93M",
+      "address": "0x3416cf6c708da44db2624d63ea0aaef7113527c6",
+      "blacklisted": false,
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_call",
+        "params": [
+          {
+            "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "data": "0xe47d60600000000000000000000000003416cf6c708da44db2624d63ea0aaef7113527c6"
+          },
+          "0x19152ef"
+        ]
+      },
+      "response": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "label": "0.33M",
+      "address": "0x3041cbd36888becc7bbcbc0045e3b1f144466f5f",
+      "blacklisted": false,
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_call",
+        "params": [
+          {
+            "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "data": "0xe47d60600000000000000000000000003041cbd36888becc7bbcbc0045e3b1f144466f5f"
+          },
+          "0x19152ef"
+        ]
+      },
+      "response": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "label": "0.15M",
+      "address": "0xc5af84701f98fa483ece78af83f11b6c38aca71d",
+      "blacklisted": false,
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_call",
+        "params": [
+          {
+            "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "data": "0xe47d6060000000000000000000000000c5af84701f98fa483ece78af83f11b6c38aca71d"
+          },
+          "0x19152ef"
+        ]
+      },
+      "response": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    }
+  ]
+}

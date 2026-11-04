@@ -1,0 +1,13 @@
+{
+  "baseline_block": 26306503,
+  "caution": "Not independently re-fetched as a complete event population in this preservation step",
+  "end_block": 26311867,
+  "external_in_raw": 120,
+  "external_out_raw": 79999990000000,
+  "group_baseline_raw": 80265235424359,
+  "group_end_raw": 265245424479,
+  "internal_transfer_raw": 78000000000000,
+  "previous_full_audit_unique_events": 14,
+  "provenance": "Previously executed Codespaces terminal audit",
+  "scope": "two-address group A+B"
+}
