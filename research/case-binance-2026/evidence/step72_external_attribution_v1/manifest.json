@@ -1,0 +1,8 @@
+{
+  "files_sha256": {
+    "BITQUERY.html": "980ba818038c9bf8e06e326809e566a71b11d56487d1ebfab586d75dd06b1309",
+    "IMD.html": "ea36ccb4165f52404fb8caf77ef7335cd466c15517ac4c0f5032d60abd61dc3c",
+    "attribution_audit.json": "0c698d45cdcca3edfc79e6c5f7158333c1a2be7b4142bf35f4b626867c7565d9"
+  },
+  "note": "Each hash covers the saved file bytes. This is local integrity evidence, not independent source authenticity."
+}

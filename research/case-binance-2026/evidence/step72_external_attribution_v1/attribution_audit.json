@@ -1,0 +1,42 @@
+{
+  "case": "STEP72_EXTERNAL_ATTRIBUTION_V1",
+  "created_at_utc": "2026-11-04T18:05:55.067350+00:00",
+  "source_address": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+  "central_address": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+  "transaction_hash": "0xd4e08d3ef0cb02a75922913c61984fbf7fe4bbc4b95324735ef27f908fd6c49c",
+  "block": 26300772,
+  "usdt_amount": "55739800.500000",
+  "prior_evidence": "research/case-binance-2026/evidence/step71_55m_source_audit_v1",
+  "prior_sha256_manifest_valid": true,
+  "onchain_transfer": "OBSERVED_STEP71",
+  "external_incident_classification": "REPORTED_BY_SOURCES",
+  "independent_unauthorized_proof": "NOT_ESTABLISHED",
+  "binance_official_tx_confirmation": "NOT_ESTABLISHED",
+  "source_independence": "UNKNOWN_REPORTS_MAY_SHARE_PRIOR_INFORMATION",
+  "sources": [
+    {
+      "id": "BITQUERY",
+      "url": "https://www.bitquery.io/investigations/binance-hack",
+      "claim": "Identifies the source address as a second Binance hot wallet drained around 20:24 UTC.",
+      "expected_address": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+      "retrieved_at_utc": "2026-11-04T18:05:51.847291+00:00",
+      "capture_status": "CAPTURED_ADDRESS_MATCH",
+      "address_present": true,
+      "amount_present": false,
+      "sha256": "980ba818038c9bf8e06e326809e566a71b11d56487d1ebfab586d75dd06b1309"
+    },
+    {
+      "id": "IMD",
+      "url": "https://explorer.imd.fun/jobs/4c8fb87a-7d9d-46a1-83fb-f9a4a47c9982",
+      "claim": "Reports Binance 16 transferring 55,739,800.5 USDT in block 26300772.",
+      "expected_address": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+      "retrieved_at_utc": "2026-11-04T18:05:54.561227+00:00",
+      "capture_status": "CAPTURED_ADDRESS_MATCH",
+      "address_present": true,
+      "amount_present": true,
+      "sha256": "ea36ccb4165f52404fb8caf77ef7335cd466c15517ac4c0f5032d60abd61dc3c"
+    }
+  ],
+  "interpretation": "The same wallet is described as incident-related by external investigators. This corroborates an incident-link hypothesis but does not independently prove unauthorized intent or corporate authorization.",
+  "next_test": "Obtain pre-incident original Binance PoR publication provenance and an official address/TX attribution, if publicly available."
+}
