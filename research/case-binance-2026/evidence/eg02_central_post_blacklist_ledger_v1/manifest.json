@@ -1,0 +1,8 @@
+{
+  "audit": "EG02_CENTRAL_POST_BLACKLIST_LEDGER_V1",
+  "files_sha256": {
+    "audit.json": "3c904450e37c740f877e0fff3673037466e284636baf3883f8f9a41ec37e785c",
+    "raw_logs.json": "4659e59fcb487ce9092c8ee137304a47476da7f3055f840f3f32586f6d61e04f",
+    "transfer_ledger.json": "77cc9f1bd38f32571361fab82baa7ced67696548ca94252f457c7ef7e47dd081"
+  }
+}

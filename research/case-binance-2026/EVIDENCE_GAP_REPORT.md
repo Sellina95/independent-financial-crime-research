@@ -303,3 +303,156 @@ incident-fund attribution and downstream restriction status unresolved.
 
 **Next test:** Plasma recipient's subsequent USDT0 balance and
 Transfer events, with contract and time-basis validation.
+
+
+---
+
+## 2026-11-05 Research Progress Update
+
+This section updates existing research status only.
+It does not change the original research charter or priorities.
+
+### EG-02 — Central Post-Blacklist Inbound Reconciliation
+
+**Status: SCOPED RECONCILIATION PASS**
+
+Period: Ethereum blocks 26300955–26301167.
+
+Central wallet:
+`0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c`
+
+USDT contract:
+`0xdac17f958d2ee523a2206206994597c13d831ec7`
+
+| Item | USDT |
+|---|---:|
+| Opening balance, block 26300954 | 971,149,299.483240 |
+| Inflow 1, block 26300968 | 3,917,639.767927 |
+| Inflow 2, block 26301167 | 200,397,771.824195 |
+| Total inflows | 204,315,411.592122 |
+| Outflows in scoped interval | 0 |
+| Ending balance, block 26301167 | 1,175,464,711.075362 |
+| Reconciliation difference | 0 |
+
+Both incoming ERC-20 Transfer events identify Binance 14
+as the token sender.
+
+Transaction 1:
+`0x31c4c9fe287d54fb9d3b79980477a8c793a11f774b98d0a9a92de1dad888a91d`
+
+Transaction 2:
+`0x55ba4dabc41b468e580751373ad31acdee6f5ba398682df2c93e5a8340870556`
+
+Transaction initiator:
+`0x7c8601d4645b93cea45f71e118a729332e6b5ca0`
+
+**OBSERVED:** Two inbound Transfer events, zero outbound
+Transfer events in the scoped interval, and matching
+historical balance changes.
+
+**NOT ESTABLISHED:** Recovery, redemption, ultimate ownership,
+or incident-wide frozen asset totals.
+
+Evidence directory:
+`evidence/eg02_central_post_blacklist_ledger_v1/`
+
+Files:
+- `raw_logs.json`
+- `transfer_ledger.json`
+- `audit.json`
+- `manifest.json`
+
+**Remaining work:** Verify evidence hashes, preserve the
+ledger in Git, and separately investigate blacklist semantics
+and the subsequent disposition of the assets.
+
+### EG-06 — EIP-7702 Delegation-to-Sweep Linkage
+
+**Status: EXISTING TECHNICAL RESEARCH — DO NOT REPEAT**
+
+The T02 → T03 → T17 sequence has already been investigated
+and documented in the existing delegated-wallet case study.
+
+T02 — Authorization:
+- Block: 26300753
+- Transaction:
+  `0xad99264d5532ae0dd04b2004eebda05f25657e70dacb764f7ac8d4ccd051298b`
+- Type: EIP-7702, transaction type 4.
+- 50 authorization entries were examined.
+- Authority recovery identified Binance 14 as the authority.
+- The matching authorization nonce was identified after
+  accounting for the wallet's earlier transaction in the block.
+
+T03 — Initial sweep:
+- Block: 26300770.
+- Binance 14 was the delegated account.
+- The operator initiated the transaction.
+- The existing transaction and execution-trace research
+  documents delegated execution and asset-transfer calls.
+- Initial USDT sweep to Central:
+  1,615,409,498.973240 USDT.
+
+T17 — Delegation removal:
+- Block: 26301896.
+- Existing research records the subsequent removal checkpoint.
+
+Existing research artifact:
+`BINANCE_2026_DELEGATED_WALLET_DRAIN_CASE_STUDY.md`
+
+**VERDICT:** The technical delegation-to-execution sequence
+is an existing research result. Do not repeat authorization
+recovery or initial sweep tracing without contradictory evidence.
+
+**IMPORTANT OPEN QUESTION:**
+
+Did delegated execution continue to move assets after
+Binance's internal withdrawal suspension became effective?
+
+This requires an independently defensible off-chain
+suspension timestamp and comparison against subsequent
+on-chain transactions.
+
+Do not equate:
+- Public announcement time
+- Internal withdrawal suspension time
+- Transaction broadcast time
+- Block inclusion time
+- Final asset movement time
+
+**UNKNOWN:** Exact internal suspension timestamp, the
+effectiveness of the off-chain controls, and whether
+delegation remained usable after those controls became
+effective.
+
+**Next decisive test:** Establish the suspension cutoff
+from an authenticated source, then compare it with the
+already documented post-T03 transactions.
+
+### Updated Research Priorities
+
+| ID | Current status | Next action |
+|---|---|---|
+| EG-01 | Substantially verified | Independent replay only if material |
+| EG-02 | Scoped reconciliation PASS | Preserve ledger and investigate disposition |
+| EG-03 | Partial PASS | Downstream attribution and deduplication |
+| EG-04 | Open | Normalize institutional figures |
+| EG-05 | Open | Establish definitions of 64 attempts / 37 failures |
+| EG-06 | Technical linkage already researched | Establish internal suspension cutoff |
+| EG-07 | Open | Bounded TRON mechanism pilot |
+| EG-08 | Cross-chain delivery verified | Downstream tracing if decision-relevant |
+
+### Research Control
+
+1. Do not repeat completed forensic steps.
+2. Do not change the original research methodology without
+   an explicit reason and approval.
+3. Do not claim incident attribution from commingled balances.
+4. Do not describe restricted balances as recovered assets.
+5. New research must resolve a material evidence gap.
+6. Keep all unfinished research on
+   `research/case-binance-2026`.
+7. No publication to main without explicit approval.
+
+The next research question is the timing and effectiveness
+of Binance's withdrawal suspension relative to subsequent
+delegated-wallet execution.
