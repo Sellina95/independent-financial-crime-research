@@ -1,0 +1,52 @@
+{
+  "PRE": {
+    "block": 36872191,
+    "values_raw": {
+      "user_atoken": 409896732634837,
+      "total_supply": 710217233271547,
+      "underlying_held_by_atoken": 34610053022673
+    },
+    "raw_responses": {
+      "user_atoken": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x000000000000000000000000000000000000000000000000000174cc8524aed5"
+      },
+      "total_supply": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x000000000000000000000000000000000000000000000000000285f055e70afb"
+      },
+      "underlying_held_by_atoken": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x00000000000000000000000000000000000000000000000000001f7a47ea83d1"
+      }
+    }
+  },
+  "POST": {
+    "block": 36872192,
+    "values_raw": {
+      "user_atoken": 409896732384015,
+      "total_supply": 710217233569627,
+      "underlying_held_by_atoken": 34610052022673
+    },
+    "raw_responses": {
+      "user_atoken": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x000000000000000000000000000000000000000000000000000174cc8520db0f"
+      },
+      "total_supply": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x000000000000000000000000000000000000000000000000000285f055eb975b"
+      },
+      "underlying_held_by_atoken": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x00000000000000000000000000000000000000000000000000001f7a47db4191"
+      }
+    }
+  }
+}

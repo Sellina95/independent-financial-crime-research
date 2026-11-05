@@ -1,0 +1,11 @@
+{
+  "scaled_user_delta_raw": -960476,
+  "scaled_total_supply_delta_raw": -960476,
+  "nominal_user_balance_delta_raw": -250822,
+  "nominal_total_supply_delta_raw": 298080,
+  "block_transaction_count": 4,
+  "target_transaction_index": 0,
+  "single_transaction_block": false,
+  "expected_scaled_user_delta_raw": -960475,
+  "scaled_user_delta_matches_withdrawal": null
+}

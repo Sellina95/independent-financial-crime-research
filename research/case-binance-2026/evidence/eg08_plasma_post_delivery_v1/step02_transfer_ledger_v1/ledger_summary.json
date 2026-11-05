@@ -1,0 +1,22 @@
+{
+  "classification": "POST_DELIVERY_TRANSFER_LEDGER",
+  "chain_id": 9745,
+  "token": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+  "decimals": 6,
+  "recipient": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+  "start_block_exclusive_of_destination": 36440004,
+  "end_block": 36941764,
+  "unique_transfer_events": 3,
+  "incoming_event_count": 1,
+  "outgoing_event_count": 2,
+  "self_transfer_event_count": 0,
+  "incoming_raw": 1000000,
+  "outgoing_raw": 28000005000000,
+  "incoming_usdt0": 1.0,
+  "outgoing_usdt0": 28000005.0,
+  "net_transfer_usdt0": -28000004.0,
+  "timestamp_blocks_verified": 3,
+  "duplicate_events": 0,
+  "snapshot_time_utc": "2026-11-05T13:26:18.464080+00:00",
+  "limitation": "Transfer-event ledger only. Does not establish internal contract accounting, beneficial ownership, freeze status or recovery."
+}

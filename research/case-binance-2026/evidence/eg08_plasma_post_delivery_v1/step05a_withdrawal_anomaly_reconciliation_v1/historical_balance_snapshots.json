@@ -1,0 +1,14 @@
+{
+  "PRE_BLOCK": {
+    "block": 36872191,
+    "atoken_user_balance_raw": 409896732634837,
+    "atoken_total_supply_raw": 710217233271547,
+    "underlying_atoken_contract_balance_raw": 34610053022673
+  },
+  "POST_BLOCK": {
+    "block": 36872192,
+    "atoken_user_balance_raw": 409896732384015,
+    "atoken_total_supply_raw": 710217233569627,
+    "underlying_atoken_contract_balance_raw": 34610052022673
+  }
+}

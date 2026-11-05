@@ -1,0 +1,56 @@
+{
+  "USER_OUT": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": []
+  },
+  "USER_IN": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": [
+      {
+        "address": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x000000000000000000000000b8734a14fbd4aa2d44e6aa830405ffc861ba313c"
+        ],
+        "data": "0x00000000000000000000000000000000000000000000000000000037a430f50b",
+        "blockHash": "0xf25ca962e4065f98a84a0c493ecc3bd8bc0d097233d42dcb9964adaf4f431b80",
+        "blockNumber": "0x232a000",
+        "blockTimestamp": "0x6aeb7276",
+        "transactionHash": "0x1591952b757543c429d35789e51030f0201b21484ff2ddd8c3cb3ca7c33dd7c8",
+        "transactionIndex": "0x0",
+        "logIndex": "0x1",
+        "removed": false
+      }
+    ]
+  },
+  "MINT": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": [
+      {
+        "address": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x000000000000000000000000b8734a14fbd4aa2d44e6aa830405ffc861ba313c"
+        ],
+        "data": "0x00000000000000000000000000000000000000000000000000000037a430f50b",
+        "blockHash": "0xf25ca962e4065f98a84a0c493ecc3bd8bc0d097233d42dcb9964adaf4f431b80",
+        "blockNumber": "0x232a000",
+        "blockTimestamp": "0x6aeb7276",
+        "transactionHash": "0x1591952b757543c429d35789e51030f0201b21484ff2ddd8c3cb3ca7c33dd7c8",
+        "transactionIndex": "0x0",
+        "logIndex": "0x1",
+        "removed": false
+      }
+    ]
+  },
+  "BURN": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": []
+  }
+}

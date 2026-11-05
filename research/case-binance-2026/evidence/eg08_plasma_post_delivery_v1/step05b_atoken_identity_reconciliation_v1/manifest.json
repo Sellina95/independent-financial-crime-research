@@ -1,0 +1,14 @@
+{
+  "step": "05B",
+  "baseline_commit": "72a118a4d0658ddb6b95933a491320008a43b0f1",
+  "provider": "https://rpc.plasma.to",
+  "files_sha256": {
+    "chain_identity.json": "4c5994f868fefbfa85ac3ece1c63c5ec714e8094e15c6736a3e2b4745f34e3c9",
+    "exact_block_logs.json": "2090af8ca90c0c1cb16fb7dd1cd331c2ca6725069884be6d823e9ccf5eeabf47",
+    "historical_balances.json": "852054165fda5b90ea8bb5efe009bcc2c1fddc18a6144c0392bde3d517a9bc07",
+    "receipt_transfer_events.json": "f528f421dca1559ce85f0cb5c864f6c1f343b042f512aeba400b08e8c1ae6343",
+    "reserve_identity.json": "906ab498d089ff1f87972ddffbd27343cf1edbe643267b3a2dd7ac34c680bfa8",
+    "summary.json": "c9ae354383c1a74abb90423954d0c891dc88dd12137538146a2ed4aae2170c20",
+    "token_metadata.json": "6d60b0b868817212db7c5ff87c9db8a4dc30cab1f85502de6e5212d72be31070"
+  }
+}

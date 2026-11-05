@@ -1,0 +1,12 @@
+{
+  "chain_id": 9745,
+  "rpc_provider": "https://rpc.plasma.to",
+  "token": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+  "recipient": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+  "start_block": 36440004,
+  "end_block": 36941764,
+  "snapshot_block": 36941764,
+  "snapshot_time_utc": "2026-11-05T13:24:22.872911+00:00",
+  "baseline_commit": "72a118a4d0658ddb6b95933a491320008a43b0f1",
+  "chunk_size": 5000
+}

@@ -1,0 +1,23 @@
+{
+  "pool": "0x925a2a7214ed92428b5b1b090f80b25700095e12",
+  "atoken": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+  "underlying_asset": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+  "user": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+  "derivation": "Pool derived from the destination of both existing Supply-selector transactions. aToken derived from Transfer mint events in both receipts.",
+  "aToken_mint_candidates": {
+    "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948": [
+      {
+        "transaction_hash": "0x0afec5af8279b61f6310dac91a1f5d77caffccbff8401a816c53d9691b9ecfb8",
+        "amount_raw": 353472621239,
+        "amount": 353472.621239,
+        "log_index": 3
+      },
+      {
+        "transaction_hash": "0xbb10859843b57a67a820f52cf64fbfd02489626525e6ba5ae19dbe9788c5316e",
+        "amount_raw": 27647788771845,
+        "amount": 27647788.771845,
+        "log_index": 3
+      }
+    ]
+  }
+}

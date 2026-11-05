@@ -1,0 +1,20 @@
+{
+  "research": "EG-08 Plasma Post-Delivery Investigation",
+  "step": "05",
+  "baseline_commit": "72a118a4d0658ddb6b95933a491320008a43b0f1",
+  "rpc_provider": "https://rpc.plasma.to",
+  "snapshot_block": 36941764,
+  "files_sha256": {
+    "atoken_user_transfer_ledger.json": "7fdbe40d7b94d00182873ad946ceb11009101d1a90678ad2a7c99cffc9eaa3bd",
+    "derived_aave_contracts.json": "a2857479bd32f00464e36b7f2c6490611ff224dfa7d7a88f9c6c240654c05ba2",
+    "existing_supply_receipts.json": "d7f8704e9217ccde146868b9e00a6d78e6f7d3c8f161a1e7f365d4dc0782f48e",
+    "existing_supply_transactions.json": "d0b33a6aecbccf1bb070b59487a059abee809e082b3e898e5e6bef7a5fedfb70",
+    "other_pool_events_for_user.json": "c691ea164009ff303532fbe44de8832f829993251f8b7a1e23ddab368aa14428",
+    "pool_user_matching_logs.json": "5b2d2d27633746bf5b6d24fa505075846eb09810c573396c52750e4bdce728ad",
+    "raw_atoken_user_logs.jsonl": "80f585333c5bfeaedaeb24dddaf136417d98e4daaf38241bb507f64b2ebd3de2",
+    "raw_pool_user_logs.jsonl": "095f59cae1f189fb4ecde8dfddba052e4e0f7d5848e0ed52520f203f0ef9c24a",
+    "withdrawal_audit_summary.json": "764e617a9c3450447fda6240986e9d41a41f8cc2d78d49fcb0c12f0d149543f2",
+    "withdrawal_events.json": "a5f07cc9950295048b9eb0ca3925876a2efb170d953bd41232e7cc29440480c0",
+    "withdrawal_receipts.json": "3e6c7188a7dd8da1e8cc74b2ee3a191693e9955728f981638f413a030ca6be72"
+  }
+}

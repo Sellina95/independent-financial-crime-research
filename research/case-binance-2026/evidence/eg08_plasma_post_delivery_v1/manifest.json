@@ -1,0 +1,17 @@
+{
+  "research": "EG-08 Plasma Post-Delivery Investigation",
+  "step": "01",
+  "baseline_commit": "72a118a4d0658ddb6b95933a491320008a43b0f1",
+  "rpc_provider": "https://rpc.plasma.to",
+  "files_sha256": {
+    "balance_destination_block_end.json": "1ba9a08572b893a62d5b0984989c2dc7acbaa8ece19dff032b3b5761a9e63f95",
+    "balance_pre_destination_block.json": "f96ab3b07cae7d167e935db5a4b4ede9f2b95c00dd788d35fe5b9e376039a4e2",
+    "destination_block_all_usdt0_transfer_logs.json": "f268614bd6303a3bd008635b37e2b6b902318e735be6025b557a2442a2cb0bf0",
+    "destination_block_full.json": "04d80d3ed157e82f6d41eb365899528a9899066e94c4e139a05115c727dc0885",
+    "destination_block_recipient_transfer_logs.json": "6323d29bd01a3be1a9555d29b39aeae039fb2b3a2640ed9ce33947a938935610",
+    "destination_receipt.json": "3d68e4bf32643cde10c3a93361f5f1939f234915983f6f749512a9e2c49b06da",
+    "destination_transaction.json": "2893428f58b382a8aa6b8a53bc7987762adb2540ea41d5d24744a11b4ca30581",
+    "plasma_chain_id.json": "4c5994f868fefbfa85ac3ece1c63c5ec714e8094e15c6736a3e2b4745f34e3c9",
+    "provenance.json": "4876759ee8a0eca9bea4791e9718be8408fdd32a2770f99faf535e17cc5470b1"
+  }
+}

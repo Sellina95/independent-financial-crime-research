@@ -1,0 +1,16 @@
+{
+  "withdrawal_amount_raw": 1000000,
+  "mint_event_value_raw": 238977873163,
+  "mint_event_balance_increase_raw": 238978873164,
+  "mint_event_index": 1041151093445833705227020749,
+  "previous_index_before": 1040544079300952006564674152,
+  "scaled_balance_before": 393695723862140,
+  "calculated_accrued_interest_raw": 238978873164,
+  "calculated_scaled_burn_raw": 960475,
+  "nominal_value_of_scaled_burn_raw": 1000000,
+  "mint_plus_nominal_burn_raw": 238978873163,
+  "balance_increase_minus_reconstructed_raw": 1,
+  "mint_index_matches_post_reserve_index": true,
+  "mint_matches_interest_netting": true,
+  "accrued_interest_exceeds_withdrawal": true
+}

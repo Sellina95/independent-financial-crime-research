@@ -1,0 +1,17 @@
+{
+  "research": "EG-08 Plasma Post-Delivery Investigation",
+  "step": "01",
+  "classification": "RAW_RPC_EVIDENCE",
+  "baseline_commit": "72a118a4d0658ddb6b95933a491320008a43b0f1",
+  "rpc_provider": "https://rpc.plasma.to",
+  "chain_id": 9745,
+  "token": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+  "token_decimals": 6,
+  "recipient": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+  "destination_tx": "0xa2e90c60008700b31605275112d9a3ec17fe96dc3582391a5e781cc340218029",
+  "destination_block": 36440003,
+  "pre_balance_block": 36440002,
+  "balance_semantics": "eth_call balanceOf at block-end state; not transaction-instant prestate/poststate",
+  "transfer_log_scope": "All USDT0 Transfer events in destination block",
+  "collection_time_utc": "2026-11-05T13:22:14.083734+00:00"
+}

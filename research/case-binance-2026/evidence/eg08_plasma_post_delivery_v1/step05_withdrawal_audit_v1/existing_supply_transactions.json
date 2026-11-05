@@ -1,0 +1,18 @@
+[
+  {
+    "hash": "0x0afec5af8279b61f6310dac91a1f5d77caffccbff8401a816c53d9691b9ecfb8",
+    "block": 36440195,
+    "amount_usdt0_transfer": 352335.0,
+    "pool": "0x925a2a7214ed92428b5b1b090f80b25700095e12",
+    "selector": "0x617ba037",
+    "receipt_status": "0x1"
+  },
+  {
+    "hash": "0xbb10859843b57a67a820f52cf64fbfd02489626525e6ba5ae19dbe9788c5316e",
+    "block": 36440301,
+    "amount_usdt0_transfer": 27647670.0,
+    "pool": "0x925a2a7214ed92428b5b1b090f80b25700095e12",
+    "selector": "0x617ba037",
+    "receipt_status": "0x1"
+  }
+]

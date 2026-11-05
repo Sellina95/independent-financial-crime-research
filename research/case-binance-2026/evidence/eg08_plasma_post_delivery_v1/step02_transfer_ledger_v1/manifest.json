@@ -1,0 +1,15 @@
+{
+  "research": "EG-08 Plasma Post-Delivery Investigation",
+  "step": "02",
+  "baseline_commit": "72a118a4d0658ddb6b95933a491320008a43b0f1",
+  "rpc_provider": "https://rpc.plasma.to",
+  "files_sha256": {
+    "block_timestamp_index.json": "e01d370d000e8b0a8a949e11a9ccd58515395d11054d4b0e482d0b5ce6a879c6",
+    "ledger_summary.json": "28027a4ced6bae994bc7722a36dcc4587ddbb174158dbf4e88b8ac707193f66a",
+    "raw_incoming_logs.jsonl": "520fcb3d34dcf78f925ba0a0f2c42d62f75f77b0402b8a6a3f93291c84ff4ca7",
+    "raw_outgoing_logs.jsonl": "f68d949d81629a1a938e17f59531fb5de1da24de1447e82e0058fc457b2fc79e",
+    "scan_snapshot.json": "1deb2bd4489dedbc87129199f31b63a5fc6416cb252908f31af64c053ba20907",
+    "transfer_ledger.csv": "92e540ae73ea5ef8baa67b2132207f5ccffc0cdcb8b10a23bcb09d207a700df0",
+    "transfer_ledger.json": "13ecb1714cf878b3369a80908090ea9e994fcb840d91e6fd91c2a7354cc0e663"
+  }
+}

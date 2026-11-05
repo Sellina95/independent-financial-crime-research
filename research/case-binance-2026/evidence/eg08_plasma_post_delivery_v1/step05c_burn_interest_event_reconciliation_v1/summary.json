@@ -1,0 +1,252 @@
+{
+  "classification": "INTEREST_NETTING_PATTERN_SUPPORTED",
+  "transaction": "0x1591952b757543c429d35789e51030f0201b21484ff2ddd8c3cb3ca7c33dd7c8",
+  "block": 36872192,
+  "pool": "0x925a2a7214ed92428b5b1b090f80b25700095e12",
+  "atoken": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+  "user": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+  "underlying": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+  "withdrawal_amount_raw": 1000000,
+  "withdrawal_amount_usdt0": 1.0,
+  "pool_withdraw_event_count": 1,
+  "matching_aave_mint_event_count": 1,
+  "matching_aave_burn_event_count": 0,
+  "interest_netting_formula": {
+    "withdrawal_amount_raw": 1000000,
+    "mint_event_value_raw": 238977873163,
+    "mint_event_balance_increase_raw": 238978873164,
+    "mint_event_index": 1041151093445833705227020749,
+    "previous_index_before": 1040544079300952006564674152,
+    "scaled_balance_before": 393695723862140,
+    "calculated_accrued_interest_raw": 238978873164,
+    "calculated_scaled_burn_raw": 960475,
+    "nominal_value_of_scaled_burn_raw": 1000000,
+    "mint_plus_nominal_burn_raw": 238978873163,
+    "balance_increase_minus_reconstructed_raw": 1,
+    "mint_index_matches_post_reserve_index": true,
+    "mint_matches_interest_netting": true,
+    "accrued_interest_exceeds_withdrawal": true
+  },
+  "scaled_state_reconciliation": {
+    "scaled_user_delta_raw": -960476,
+    "scaled_total_supply_delta_raw": -960476,
+    "nominal_user_balance_delta_raw": -250822,
+    "nominal_total_supply_delta_raw": 298080,
+    "block_transaction_count": 4,
+    "target_transaction_index": 0,
+    "single_transaction_block": false,
+    "expected_scaled_user_delta_raw": -960475,
+    "scaled_user_delta_matches_withdrawal": null
+  },
+  "block_end_snapshots": {
+    "PRE": {
+      "block": 36872191,
+      "scaled_user_balance": 393695723862140,
+      "scaled_total_supply": 682146173634670,
+      "scaled_pair_user": 393695723862140,
+      "scaled_pair_total": 682146173634670,
+      "previous_index": 1040544079300952006564674152,
+      "nominal_user_balance": 409896732634837,
+      "nominal_total_supply": 710217233271547,
+      "reserve": {
+        "block": 36872191,
+        "liquidity_index": 1041151049678283859213402422,
+        "liquidity_rate": 57639109779774589595760195,
+        "last_update_timestamp": 1793815135,
+        "atoken": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+        "raw": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x100000000000000000000003e80389fd98002bcf35c001f4850628d21e7800000000000000000000000000000000000000000000035d384f7f5189f890cfc1360000000000000000000000000000000000000000002fad8e66f47d2969af364300000000000000000000000000000000000000000365e6e18ec9cdcd3df5c70200000000000000000000000000000000000000000034c2209d2e531f1c4536450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006aeb725f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000005d72a9d9a9510cd8cbdba12ac62593a58930a9480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000cbbc427b5658672768e11bfda00879839db4785f0000000000000000000000002b16e93bdb1897f517881b3c388babd0c62c6cdc0000000000000000000000000000000000000000000000000000000090e1895900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "raw_responses": {
+        "scaled_pair": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x000000000000000000000000000000000000000000000000000166106dc5387c00000000000000000000000000000000000000000000000000026c68885d486e"
+        },
+        "scaled_balance": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x000000000000000000000000000000000000000000000000000166106dc5387c"
+        },
+        "scaled_supply": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x00000000000000000000000000000000000000000000000000026c68885d486e"
+        },
+        "previous_index": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000035cb7c791375d8931967a68"
+        },
+        "nominal_balance": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x000000000000000000000000000000000000000000000000000174cc8524aed5"
+        },
+        "nominal_supply": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x000000000000000000000000000000000000000000000000000285f055e70afb"
+        }
+      }
+    },
+    "POST": {
+      "block": 36872192,
+      "scaled_user_balance": 393695722901664,
+      "scaled_total_supply": 682146172674194,
+      "scaled_pair_user": 393695722901664,
+      "scaled_pair_total": 682146172674194,
+      "previous_index": 1041151093445833705227020749,
+      "nominal_user_balance": 409896732384015,
+      "nominal_total_supply": 710217233569627,
+      "reserve": {
+        "block": 36872192,
+        "liquidity_index": 1041151093445833705227020749,
+        "liquidity_rate": 57639115256840738047684420,
+        "last_update_timestamp": 1793815158,
+        "atoken": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+        "raw": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x100000000000000000000003e80389fd98002bcf35c001f4850628d21e7800000000000000000000000000000000000000000000035d3851deb71caa5da7e9cd0000000000000000000000000000000000000000002fad8eb2f6efce177a6f4400000000000000000000000000000000000000000365e6e435aea73e82f583a600000000000000000000000000000000000000000034c220ee0979a9f378bab80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006aeb727600000000000000000000000000000000000000000000000000000000000000000000000000000000000000005d72a9d9a9510cd8cbdba12ac62593a58930a9480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000cbbc427b5658672768e11bfda00879839db4785f0000000000000000000000002b16e93bdb1897f517881b3c388babd0c62c6cdc0000000000000000000000000000000000000000000000000000000090f890e400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "raw_responses": {
+        "scaled_pair": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x000000000000000000000000000000000000000000000000000166106db690a000000000000000000000000000000000000000000000000000026c68884ea092"
+        },
+        "scaled_balance": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x000000000000000000000000000000000000000000000000000166106db690a0"
+        },
+        "scaled_supply": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x00000000000000000000000000000000000000000000000000026c68884ea092"
+        },
+        "previous_index": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000035d3851deb71caa5da7e9cd"
+        },
+        "nominal_balance": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x000000000000000000000000000000000000000000000000000174cc8520db0f"
+        },
+        "nominal_supply": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x000000000000000000000000000000000000000000000000000285f055eb975b"
+        }
+      }
+    }
+  },
+  "event_inventory": [
+    {
+      "address": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+      "topics": [
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "0x000000000000000000000000b8734a14fbd4aa2d44e6aa830405ffc861ba313c"
+      ],
+      "log_index": 1,
+      "raw": {
+        "address": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x000000000000000000000000b8734a14fbd4aa2d44e6aa830405ffc861ba313c"
+        ],
+        "data": "0x00000000000000000000000000000000000000000000000000000037a430f50b",
+        "blockHash": "0xf25ca962e4065f98a84a0c493ecc3bd8bc0d097233d42dcb9964adaf4f431b80",
+        "blockNumber": "0x232a000",
+        "blockTimestamp": "0x6aeb7276",
+        "transactionHash": "0x1591952b757543c429d35789e51030f0201b21484ff2ddd8c3cb3ca7c33dd7c8",
+        "transactionIndex": "0x0",
+        "logIndex": "0x1",
+        "removed": false
+      },
+      "event": "ERC20_TRANSFER",
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+      "value": 238977873163
+    },
+    {
+      "address": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+      "topics": [
+        "0x458f5fa412d0f69b08dd84872b0215675cc67bc1d5b6fd93300a1c3878b86196",
+        "0x000000000000000000000000b8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+        "0x000000000000000000000000b8734a14fbd4aa2d44e6aa830405ffc861ba313c"
+      ],
+      "log_index": 2,
+      "raw": {
+        "address": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+        "topics": [
+          "0x458f5fa412d0f69b08dd84872b0215675cc67bc1d5b6fd93300a1c3878b86196",
+          "0x000000000000000000000000b8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+          "0x000000000000000000000000b8734a14fbd4aa2d44e6aa830405ffc861ba313c"
+        ],
+        "data": "0x00000000000000000000000000000000000000000000000000000037a430f50b00000000000000000000000000000000000000000000000000000037a440374c0000000000000000000000000000000000000000035d3851deb71caa5da7e9cd",
+        "blockHash": "0xf25ca962e4065f98a84a0c493ecc3bd8bc0d097233d42dcb9964adaf4f431b80",
+        "blockNumber": "0x232a000",
+        "blockTimestamp": "0x6aeb7276",
+        "transactionHash": "0x1591952b757543c429d35789e51030f0201b21484ff2ddd8c3cb3ca7c33dd7c8",
+        "transactionIndex": "0x0",
+        "logIndex": "0x2",
+        "removed": false
+      },
+      "event": "AAVE_MINT",
+      "caller": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+      "on_behalf_of": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+      "value": 238977873163,
+      "balance_increase": 238978873164,
+      "index": 1041151093445833705227020749
+    },
+    {
+      "address": "0x925a2a7214ed92428b5b1b090f80b25700095e12",
+      "topics": [
+        "0x3115d1449a7b732c986cba18244e897a450f61e1bb8d589cd2e69e6c8924f9f7",
+        "0x000000000000000000000000b8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+        "0x000000000000000000000000b8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+        "0x000000000000000000000000b8734a14fbd4aa2d44e6aa830405ffc861ba313c"
+      ],
+      "log_index": 4,
+      "raw": {
+        "address": "0x925a2a7214ed92428b5b1b090f80b25700095e12",
+        "topics": [
+          "0x3115d1449a7b732c986cba18244e897a450f61e1bb8d589cd2e69e6c8924f9f7",
+          "0x000000000000000000000000b8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+          "0x000000000000000000000000b8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+          "0x000000000000000000000000b8734a14fbd4aa2d44e6aa830405ffc861ba313c"
+        ],
+        "data": "0x00000000000000000000000000000000000000000000000000000000000f4240",
+        "blockHash": "0xf25ca962e4065f98a84a0c493ecc3bd8bc0d097233d42dcb9964adaf4f431b80",
+        "blockNumber": "0x232a000",
+        "blockTimestamp": "0x6aeb7276",
+        "transactionHash": "0x1591952b757543c429d35789e51030f0201b21484ff2ddd8c3cb3ca7c33dd7c8",
+        "transactionIndex": "0x0",
+        "logIndex": "0x4",
+        "removed": false
+      },
+      "event": "POOL_WITHDRAW",
+      "asset": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+      "user": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+      "recipient": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+      "amount": 1000000
+    }
+  ],
+  "limitations": [
+    "Historical eth_call values are block-end states.",
+    "The block may contain transactions after the target transaction.",
+    "A source-code pattern is not proof of the exact deployed implementation unless implementation identity is independently verified.",
+    "No beneficial ownership or recovery conclusion."
+  ],
+  "collection_time_utc": "2026-11-05T13:57:17.329227+00:00"
+}

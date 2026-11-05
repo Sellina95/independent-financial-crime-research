@@ -1,0 +1,16 @@
+{
+  "step": "05C",
+  "baseline_commit": "72a118a4d0658ddb6b95933a491320008a43b0f1",
+  "rpc_provider": "https://rpc.plasma.to",
+  "transaction": "0x1591952b757543c429d35789e51030f0201b21484ff2ddd8c3cb3ca7c33dd7c8",
+  "files_sha256": {
+    "block.json": "da17243b8f4925a4d2f916e288aa22a284b20c9d79375aaefbdab584d1010f2c",
+    "decoded_events.json": "14fc228ce5602c4f8eeb8194658385f31fabd02c5b1e4a7119910bbbd37e5f46",
+    "interest_netting_calculation.json": "fdae59a41721750ece3239b90bfbe8626a7eaa800473e9d48402e9713c560dae",
+    "receipt.json": "86deb42ca5923c7ce6cf946593647196e06a626f60fac2b4b40d4e2322f6d182",
+    "scaled_balance_snapshots.json": "541d421325913ef51de2cb1adaac713f5f05c342d25126050ae8bb2d7a4891d6",
+    "state_reconciliation.json": "b39c687a1c6b9924e6921a073a6fc576c523dc67093ae79ef2cf0f39b0bb7cc2",
+    "summary.json": "ec50ba3d31ef234ff38512b1de2c639aea76d117e847d523087a63a313b9eec0",
+    "transaction.json": "b66ffa212c429979a68ab3522d7fc3d42bf6236064755949c344af277cbb1b71"
+  }
+}

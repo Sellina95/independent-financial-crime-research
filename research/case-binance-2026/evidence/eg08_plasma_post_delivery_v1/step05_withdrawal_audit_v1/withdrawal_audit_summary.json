@@ -1,0 +1,71 @@
+{
+  "classification": "AAVE_WITHDRAWAL_AUDIT",
+  "chain_id": 9745,
+  "snapshot_block": 36941764,
+  "pool": "0x925a2a7214ed92428b5b1b090f80b25700095e12",
+  "atoken_candidate": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+  "underlying_asset": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+  "original_user": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+  "supply_transactions_reused": [
+    {
+      "hash": "0x0afec5af8279b61f6310dac91a1f5d77caffccbff8401a816c53d9691b9ecfb8",
+      "block": 36440195,
+      "amount_usdt0_transfer": 352335.0,
+      "pool": "0x925a2a7214ed92428b5b1b090f80b25700095e12",
+      "selector": "0x617ba037",
+      "receipt_status": "0x1"
+    },
+    {
+      "hash": "0xbb10859843b57a67a820f52cf64fbfd02489626525e6ba5ae19dbe9788c5316e",
+      "block": 36440301,
+      "amount_usdt0_transfer": 27647670.0,
+      "pool": "0x925a2a7214ed92428b5b1b090f80b25700095e12",
+      "selector": "0x617ba037",
+      "receipt_status": "0x1"
+    }
+  ],
+  "pool_user_matching_log_count": 3,
+  "withdrawal_event_count": 1,
+  "withdrawal_total_raw": 1000000,
+  "withdrawal_total_usdt0": 1.0,
+  "withdrawal_destinations": [
+    {
+      "transaction_hash": "0x1591952b757543c429d35789e51030f0201b21484ff2ddd8c3cb3ca7c33dd7c8",
+      "block_number": 36872192,
+      "destination": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+      "amount_usdt0": 1.0,
+      "underlying_transfers": [
+        {
+          "token_contract": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+          "from": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+          "to": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+          "amount_raw": 1000000,
+          "amount_usdt0": 1.0,
+          "transaction_hash": "0x1591952b757543c429d35789e51030f0201b21484ff2ddd8c3cb3ca7c33dd7c8",
+          "block_number": 36872192,
+          "log_index": 3
+        }
+      ],
+      "atoken_transfers": [
+        {
+          "token_contract": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+          "from": "0x0000000000000000000000000000000000000000",
+          "to": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+          "amount_raw": 238977873163,
+          "amount_usdt0": 238977.873163,
+          "transaction_hash": "0x1591952b757543c429d35789e51030f0201b21484ff2ddd8c3cb3ca7c33dd7c8",
+          "block_number": 36872192,
+          "log_index": 1
+        }
+      ]
+    }
+  ],
+  "atoken_user_transfer_event_count": 3,
+  "atoken_burn_count": 0,
+  "atoken_outgoing_count": 0,
+  "atoken_incoming_count": 0,
+  "underlying_transfer_from_atoken_count": 1,
+  "other_pool_event_count": 2,
+  "limitation": "Transfer and Pool event audit. Does not alone establish beneficial ownership, complete economic position, freeze status or recovery.",
+  "collection_time_utc": "2026-11-05T13:38:30.685456+00:00"
+}

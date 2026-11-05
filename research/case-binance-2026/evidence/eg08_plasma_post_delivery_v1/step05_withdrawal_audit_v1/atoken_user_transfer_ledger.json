@@ -1,0 +1,35 @@
+[
+  {
+    "token_contract": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+    "amount_raw": 353472621239,
+    "amount_usdt0": 353472.621239,
+    "transaction_hash": "0x0afec5af8279b61f6310dac91a1f5d77caffccbff8401a816c53d9691b9ecfb8",
+    "block_number": 36440195,
+    "log_index": 3,
+    "direction": "MINT"
+  },
+  {
+    "token_contract": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+    "amount_raw": 27647788771845,
+    "amount_usdt0": 27647788.771845,
+    "transaction_hash": "0xbb10859843b57a67a820f52cf64fbfd02489626525e6ba5ae19dbe9788c5316e",
+    "block_number": 36440301,
+    "log_index": 3,
+    "direction": "MINT"
+  },
+  {
+    "token_contract": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+    "amount_raw": 238977873163,
+    "amount_usdt0": 238977.873163,
+    "transaction_hash": "0x1591952b757543c429d35789e51030f0201b21484ff2ddd8c3cb3ca7c33dd7c8",
+    "block_number": 36872192,
+    "log_index": 1,
+    "direction": "MINT"
+  }
+]

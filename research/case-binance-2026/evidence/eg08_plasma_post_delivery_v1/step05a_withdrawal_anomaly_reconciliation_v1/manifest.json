@@ -1,0 +1,15 @@
+{
+  "research": "EG-08 Withdrawal Anomaly Reconciliation",
+  "step": "05A",
+  "baseline_commit": "72a118a4d0658ddb6b95933a491320008a43b0f1",
+  "rpc_provider": "https://rpc.plasma.to",
+  "files_sha256": {
+    "anomaly_reconciliation_summary.json": "c06d7ec0ba5ec6c64304d52d22b1620f4432ae2d0ac7beb0b416b3eef6f0a506",
+    "atoken_exact_block_log_queries.json": "b5229bdb4591bfe651b2646ec58a20942c5bada6c5720de633d818ee8f3bfaad",
+    "historical_balance_snapshots.json": "b7251c40419e839bb4a9f03330be315bb47d0d24cdbfb67e03e70326651a625a",
+    "withdrawal_block.json": "da17243b8f4925a4d2f916e288aa22a284b20c9d79375aaefbdab584d1010f2c",
+    "withdrawal_receipt.json": "514a36ed46dbdb1b16c43c96cd1cd1f75c6018fad432a242a8253e126fb154b9",
+    "withdrawal_receipt_transfer_decoding.json": "f7d8add2c375ee1f14d69fe4d98dbc3015b11f1a78369ad8c25b9fbe61c222fb",
+    "withdrawal_transaction.json": "b6efd9c934755a14e9773fb3dedb5009c56e1f372d4f708e4a8dc539c9ed46d7"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "classification": "WITHDRAWAL_ANOMALY_RECONCILIATION",
+  "chain_id": 9745,
+  "transaction_hash": "0x1591952b757543c429d35789e51030f0201b21484ff2ddd8c3cb3ca7c33dd7c8",
+  "block_number": 36872192,
+  "transaction_index": 0,
+  "withdrawal_call": {
+    "selector": "0x69328dec",
+    "asset": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+    "amount_raw": 1000000,
+    "amount_usdt0": 1.0,
+    "destination": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c"
+  },
+  "receipt_status": "0x1",
+  "receipt_transfer_event_count": 2,
+  "atoken_mint_transfer_count": 1,
+  "atoken_mint_raw_total": 238977873163,
+  "atoken_mint_amount_6_decimals": 238977.873163,
+  "atoken_burn_transfer_count": 0,
+  "atoken_burn_raw_total": 0,
+  "underlying_transfer_from_atoken_count": 1,
+  "underlying_transfer_raw_total": 1000000,
+  "exact_block_query_counts": {
+    "USER_OUTGOING": 0,
+    "USER_INCOMING": 1,
+    "MINT_TO_USER": 1,
+    "BURN_FROM_USER": 0
+  },
+  "historical_block_end_balances": {
+    "PRE_BLOCK": {
+      "block": 36872191,
+      "atoken_user_balance_raw": 409896732634837,
+      "atoken_total_supply_raw": 710217233271547,
+      "underlying_atoken_contract_balance_raw": 34610053022673
+    },
+    "POST_BLOCK": {
+      "block": 36872192,
+      "atoken_user_balance_raw": 409896732384015,
+      "atoken_total_supply_raw": 710217233569627,
+      "underlying_atoken_contract_balance_raw": 34610052022673
+    }
+  },
+  "classification_notes": [
+    "Transfer from zero to user is a mint-style Transfer event.",
+    "It is not automatically a new principal supply.",
+    "A missing burn event must be independently reconciled.",
+    "Block-end balances are not transaction-instant balances.",
+    "No conclusion about beneficial ownership or recovery."
+  ],
+  "collection_time_utc": "2026-11-05T13:41:05.109985+00:00"
+}

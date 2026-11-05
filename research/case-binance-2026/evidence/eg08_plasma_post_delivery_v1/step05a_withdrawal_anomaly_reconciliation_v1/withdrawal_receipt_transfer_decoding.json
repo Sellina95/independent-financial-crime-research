@@ -1,0 +1,24 @@
+[
+  {
+    "contract": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+    "amount_raw": 238977873163,
+    "amount_6_decimals": 238977.873163,
+    "log_index": 1,
+    "transaction_hash": "0x1591952b757543c429d35789e51030f0201b21484ff2ddd8c3cb3ca7c33dd7c8",
+    "is_atoken": true,
+    "is_underlying": false
+  },
+  {
+    "contract": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+    "from": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+    "to": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+    "amount_raw": 1000000,
+    "amount_6_decimals": 1.0,
+    "log_index": 3,
+    "transaction_hash": "0x1591952b757543c429d35789e51030f0201b21484ff2ddd8c3cb3ca7c33dd7c8",
+    "is_atoken": false,
+    "is_underlying": true
+  }
+]
