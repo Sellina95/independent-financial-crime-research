@@ -1,0 +1,43 @@
+{
+  "status": "PARTIAL_AUDIT_PASS",
+  "audited_at_utc": "2026-11-05T11:12:40.098686+00:00",
+  "coverage": [
+    26250512,
+    26251511
+  ],
+  "next_block": 26251512,
+  "complete_7_day_scan": false,
+  "chunk_count": 10,
+  "unique_events": 53,
+  "total_inbound_usdt": "1616374.401633",
+  "preincident_counterparty": "0x5aae4d2f360e156de3416936049837a7bb685588",
+  "counterparty_matches": [
+    {
+      "tx_hash": "0x1f20197f20e39a0822acba0d34b92c9d5857dbb8120fe379ad29262c58082032",
+      "block": 26251021,
+      "log_index": 49,
+      "usdt": "114589.789942"
+    }
+  ],
+  "incident_attribution": "UNRESOLVED",
+  "limitations": [
+    "Only the first 1000 blocks of the planned scan were collected",
+    "RPC data not independently re-queried in this audit",
+    "No outbound balance reconciliation",
+    "No incident attribution established"
+  ],
+  "files_sha256": {
+    "checkpoint.json": "743a5d88dd4a139472747c483e149f34c551e0deca707bb3b2e6e7b9e6a66208",
+    "chunks/chunk_26250512_26250611.json": "18bcd22ebf3a0f9eedb9a09b5cdd7de14365a44c8452a26fa4e3917bf637103d",
+    "chunks/chunk_26250612_26250711.json": "0e138e09f6185cc1c8058abb2c78d6d93c2225cff8ee24959a1dcca87c1edce0",
+    "chunks/chunk_26250712_26250811.json": "e0ac4f312b1660f041d19c85c8bee3c3a48c8dcc3e7b281c37143c232ca9130c",
+    "chunks/chunk_26250812_26250911.json": "cc18647e845654f06475a3f06294754a5303686758d925ad7b8ff3e94788db01",
+    "chunks/chunk_26250912_26251011.json": "5c5f11a06a49e81a6f59ef818da169051f16422da7626a03236230b93be369ff",
+    "chunks/chunk_26251012_26251111.json": "b7d4e2dabc12e12ea3ef6d561bc156d1d256a6f01d455bebeba0ca24e419c4af",
+    "chunks/chunk_26251112_26251211.json": "56f717c3b4584e1f1c75ea8448e06c950068cf9a2663593725b594a52d886e79",
+    "chunks/chunk_26251212_26251311.json": "4746662ca5d3e63f276df08fb9e0e30e32a5aa665655469d26c150e22af9f77b",
+    "chunks/chunk_26251312_26251411.json": "d8171752b9ce6b0be97eeea06d222c3882f40802b138840a5a761ce2bc160303",
+    "chunks/chunk_26251412_26251511.json": "69198869a764451b736a0119762f3c921db6bba8193732c7cbd7c5f7227e2a7a",
+    "meta.json": "3e345b3dfc989c8375b398ad1a352624ac047d3aad6ff59f732c7ef2c2deb27a"
+  }
+}

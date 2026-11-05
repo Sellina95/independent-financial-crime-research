@@ -1,0 +1,12 @@
+{
+  "balance_reconciliation": "NOT_PERFORMED",
+  "distinct_senders": 31,
+  "incident_attribution": "UNRESOLVED",
+  "last_scanned_block": 26251511,
+  "next_block": 26251512,
+  "start_block": 26250512,
+  "status": "PARTIAL",
+  "total_inbound_usdt": "1616374.401633",
+  "unique_events": 53,
+  "updated_at_utc": "2026-11-05T11:09:03.053981+00:00"
+}

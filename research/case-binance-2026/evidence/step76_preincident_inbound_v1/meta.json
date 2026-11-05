@@ -1,0 +1,9 @@
+{
+  "chunk_size": 100,
+  "direction": "INBOUND_ONLY",
+  "end_block": 26300752,
+  "rpc": "https://eth.drpc.org",
+  "start_block": 26250512,
+  "token": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+  "wallet": "0x23878914efe38d27c4d67ab83ed1b93a74d4086a"
+}
