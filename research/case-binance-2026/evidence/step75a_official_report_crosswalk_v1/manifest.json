@@ -1,0 +1,8 @@
+{
+  "audit": "STEP75A_OFFICIAL_REPORT_CROSSWALK",
+  "files_sha256": {
+    "STEP75A_REPORT.md": "1c5564b6c46dc7dce80753de9f5d4e60deb755d9d3abf85023694af3b568a7b2",
+    "crosswalk.json": "c3be49aad16a4bb9b734ba3f2e1a6e18201be9514c4358aad0ed00c9d4664bbe",
+    "official_report_excerpt.txt": "955b0061acea6b3be3f804638e568b74b1cb7cbccaf53d003cf06c42127b6630"
+  }
+}

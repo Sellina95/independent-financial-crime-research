@@ -1,0 +1,35 @@
+{
+  "audit": "STEP75A_OFFICIAL_REPORT_CROSSWALK",
+  "date_utc": "2026-11-05T10:55:58.498147+00:00",
+  "official_source": {
+    "url": "https://www.binance.com/en/blog/community/3229153443759566763",
+    "publication_date": "2026-11-03",
+    "retrieval_method": "RENDERED_OFFICIAL_ARTICLE_REVIEW",
+    "raw_html_captured": false,
+    "direct_python_http": "AWS_WAF_CHALLENGE_202"
+  },
+  "xrp_crosswalk": {
+    "validated_transactions": 5,
+    "observed_total_xrp": "233461943.1",
+    "official_reported_millions": "233.46",
+    "observed_rounded_millions": "233.46",
+    "first_transaction_utc": "2026-10-29T20:05:00+00:00",
+    "last_transaction_utc": "2026-10-29T20:09:20+00:00",
+    "amount_match": true,
+    "time_match": true,
+    "five_source_matrix_match": true,
+    "official_individual_address_confirmation": "NOT_DISCLOSED"
+  },
+  "usdt_55m": {
+    "address": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+    "official_individual_address_confirmation": "NOT_DISCLOSED",
+    "incident_attribution": "UNRESOLVED"
+  },
+  "usdt_195m": {
+    "address": "0x23878914efe38d27c4d67ab83ed1b93a74d4086a",
+    "official_individual_address_confirmation": "NOT_DISCLOSED",
+    "incident_attribution": "UNRESOLVED"
+  },
+  "conclusion": "XRP_AGGREGATE_AND_TIMING_CORROBORATED",
+  "ownership_and_attribution": "NOT_ESTABLISHED"
+}

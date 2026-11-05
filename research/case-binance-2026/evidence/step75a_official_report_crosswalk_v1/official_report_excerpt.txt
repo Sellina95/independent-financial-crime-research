@@ -1,0 +1,33 @@
+SOURCE: Binance Official Blog
+TITLE: 29 October 2026 Binance Security Incident:
+       Initial Findings and Response Update
+PUBLICATION DATE: 2026-11-03
+URL: https://www.binance.com/en/blog/community/3229153443759566763
+
+VERIFIED OFFICIAL STATEMENTS:
+
+1. Between 20:05 UTC and 20:09 UTC,
+   five Binance hot wallets sent 233.46 million XRP
+   to an attacker-controlled address.
+
+2. Binance hot wallets on Solana and Optimism
+   sent approximately 970,500 SOL and 44.2 million OP.
+
+3. A Binance hot wallet sent 18,270 BTC
+   to an attacker-controlled address.
+
+4. The attacker exploited Ethereum's EIP-7702
+   authorization mechanism.
+
+5. The final unauthorized transfer of 2,961.9 ETH
+   finalized on-chain at 23:56 UTC.
+
+6. At 00:10 UTC on 30 October,
+   Binance executed a new authorization from Binance14
+   to the zero address, clearing the delegation code.
+
+CAPTURE LIMITATION:
+The official article was reviewed through its rendered
+web version. Direct Python retrieval returned an AWS WAF
+challenge (HTTP 202). This is a textual evidence extract,
+NOT the original HTML response.
