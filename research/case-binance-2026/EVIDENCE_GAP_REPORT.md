@@ -309,150 +309,474 @@ Transfer events, with contract and time-basis validation.
 
 ## 2026-11-05 Research Progress Update
 
-This section updates existing research status only.
-It does not change the original research charter or priorities.
+This section consolidates the latest research evidence.
+Earlier historical research and original methodology are preserved.
 
-### EG-02 — Central Post-Blacklist Inbound Reconciliation
+### 1. Overall Research Status
 
-**Status: SCOPED RECONCILIATION PASS**
+| Area | Status | Remaining gap |
+|---|---|---|
+| Gate 1 | COMPLETE_WITH_LIMITATIONS | Independent incident-wide reconciliation |
+| Gate 2 | OPEN | Victim-wallet ownership and unauthorized outflows |
+| Gate 3 | PARTIAL | Source provenance and downstream disposition |
+| EG-01 | SUBSTANTIALLY VERIFIED | Independent replay and execution-time state |
+| EG-02 | SCOPED RECONCILIATION PASS | Second-provider replay and disposition |
+| EG-03 | PARTIAL | Reconcile accounting boundaries |
+| EG-04 | OPEN | Normalize institutional freeze figures |
+| EG-05 | TECHNICAL RESULT DOCUMENTED | External 64/37 claim population |
+| EG-06 | PARTIAL — CURRENT PRIORITY | Suspension cutoff and independent transaction replay |
+| EG-07 | OPEN | Bounded TRON mechanism reproduction |
+| EG-08 | DELIVERY VERIFIED | Attribution and subsequent disposition |
 
-Period: Ethereum blocks 26300955–26301167.
+### 2. Gate 2 — Transaction Verification
 
-Central wallet:
-`0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c`
+**Bitcoin**
 
-USDT contract:
-`0xdac17f958d2ee523a2206206994597c13d831ec7`
+Reference: `GATE_2_BITCOIN_11TX_AUDIT_V1.md`
+
+- 11 transactions examined.
+- Receiver outputs: 18,270.20000000 BTC.
+- Inputs from reported source: 18,333.70635832 BTC.
+- Other outputs: 63.50277682 BTC.
+- Fees: 0.00358150 BTC.
+- 513 unique spent input outpoints.
+- Conservation and duplicate checks: PASS.
+
+**TRON**
+
+Reference: `GATE_2_TRON_NATIVE_TX_AUDIT_V1.md`
+
+- Two native TRX transfers.
+- Total: 46,394,098 TRX.
+- Source, receiver, amount, block and timestamp matched.
+- Both transactions SUCCESS.
+- TRC-20 coverage excluded.
+
+**XRP Ledger**
+
+Reference: `GATE_2_XRPL_FIVE_SOURCE_AUDIT_V1.md`
+
+- Five source accounts.
+- Total: 233,461,943.1 XRP.
+- Ledger inclusion, success, amount and duplicate checks PASS.
+
+**STEP 75A official crosswalk**
+
+- Official rounded aggregate: 233.46M XRP.
+- Reported time: 20:05:00–20:09:20 UTC.
+- Amount/time/address crosswalk PASS.
+
+**Proof of Reserves**
+
+Reference: `GATE_2_POR_OWNERSHIP_AUDIT_V1.md`
+
+- 11/11 chain-and-address matches.
+- 98 asset-level rows, not 98 separate wallets.
+- Three addresses also appear in Binance's 2022 disclosure.
+- Original CSV provenance and incident-time control remain unverified.
+
+Gate 2 remains OPEN. Transaction verification does not establish
+victim-wallet ownership or unauthorized conduct.
+
+### 3. Gate 3 — T03 and 700M First-Hop Distribution
+
+References:
+
+- `GATE_3_T03_TO_700M_LINKAGE_AUDIT_V1.md`
+- `700M_FIRST_HOP_DISTRIBUTION_AUDIT_V1.md`
+
+T03 initial USDT sweep: 1,615,409,498.973240 USDT.
+
+Examined first-hop distribution:
+
+500M + 200M = 700M USDT.
+
+- 20 Transfer events.
+- 13 unique transactions.
+- 13 archived receipts.
+- Zero missing receipts.
+- Zero duplicate transaction/log-index pairs.
+- Receipt SHA256 and Transfer-log matching PASS.
+- Reconciliation difference: 0 USDT.
+
+The 175M and 30M paths are downstream branches.
+Do not add them again to the 700M first-hop total.
+
+Exclusive provenance, recipient ownership and incident-wide
+conservation remain unestablished.
+
+### 4. EG-01 — Blacklist-Time Balance Audit
+
+References:
+
+- `USDT_FREEZE_TIMELINE_CHECKPOINT_V4.md`
+- `EG01_EXECUTION_TIME_AUDIT_V1.md`
+
+Eight AddedBlackList events were observed in the examined window.
+
+Three addresses had positive balances at their respective
+blacklist block boundaries:
+
+| Address | Block | USDT |
+|---|---:|---:|
+| Central | 26300954 | 971,149,299.483240 |
+| 175M branch | 26301021 | 174,999,872.327520 |
+| 30M branch | 26301041 | 30,000,000.000000 |
+
+Five other examined addresses had zero balances at their
+respective blacklist block boundaries.
+
+These are asynchronous address-specific observations,
+not an incident-wide frozen or recovered total.
+
+### 5. EG-02 — Central Post-Blacklist Ledger
+
+**SCOPED RECONCILIATION PASS — committed in 022f516.**
+
+Evidence:
+`evidence/eg02_central_post_blacklist_ledger_v1/`
+
+Interval: blocks 26300955–26301167.
 
 | Item | USDT |
 |---|---:|
-| Opening balance, block 26300954 | 971,149,299.483240 |
-| Inflow 1, block 26300968 | 3,917,639.767927 |
-| Inflow 2, block 26301167 | 200,397,771.824195 |
-| Total inflows | 204,315,411.592122 |
-| Outflows in scoped interval | 0 |
-| Ending balance, block 26301167 | 1,175,464,711.075362 |
+| Opening balance | 971,149,299.483240 |
+| Inflow, block 26300968 | 3,917,639.767927 |
+| Inflow, block 26301167 | 200,397,771.824195 |
+| Total inbound | 204,315,411.592122 |
+| Outgoing Transfer events | 0 |
+| Ending balance | 1,175,464,711.075362 |
 | Reconciliation difference | 0 |
 
-Both incoming ERC-20 Transfer events identify Binance 14
-as the token sender.
+Both incoming Transfer events identify Binance 14 as token sender.
 
-Transaction 1:
-`0x31c4c9fe287d54fb9d3b79980477a8c793a11f774b98d0a9a92de1dad888a91d`
+Transactions:
 
-Transaction 2:
-`0x55ba4dabc41b468e580751373ad31acdee6f5ba398682df2c93e5a8340870556`
+1. `0x31c4c9fe287d54fb9d3b79980477a8c793a11f774b98d0a9a92de1dad888a91d`
+2. `0x55ba4dabc41b468e580751373ad31acdee6f5ba398682df2c93e5a8340870556`
 
-Transaction initiator:
-`0x7c8601d4645b93cea45f71e118a729332e6b5ca0`
+Four evidence files preserved:
+- audit.json
+- manifest.json
+- raw_logs.json
+- transfer_ledger.json
 
-**OBSERVED:** Two inbound Transfer events, zero outbound
-Transfer events in the scoped interval, and matching
-historical balance changes.
+SHA256 integrity PASS.
 
-**NOT ESTABLISHED:** Recovery, redemption, ultimate ownership,
-or incident-wide frozen asset totals.
+Limitations:
+- Block-end rather than execution-instant balances.
+- One address and Ethereum USDT only.
+- No independent second-provider replay.
+- No proof of recovery or ultimate ownership.
 
-Evidence directory:
-`evidence/eg02_central_post_blacklist_ledger_v1/`
+The balance increase must not be described as recovered assets.
 
-Files:
-- `raw_logs.json`
-- `transfer_ledger.json`
-- `audit.json`
-- `manifest.json`
+### 6. EG-03 — Conditional Source Accounting, STEP 60–66
 
-**Remaining work:** Verify evidence hashes, preserve the
-ledger in Git, and separately investigate blacklist semantics
-and the subsequent disposition of the assets.
+Reference:
+`INCIDENT_FUND_ATTRIBUTION_CHECKPOINT_2026-11-05.md`
 
-### EG-06 — EIP-7702 Delegation-to-Sweep Linkage
+Status: PARTIAL — conditional fungible-balance accounting.
 
-**Status: EXISTING TECHNICAL RESEARCH — DO NOT REPEAT**
+- STEP 60: 190M source branch; 60M outflow and 130M ending balance reconciled.
+- STEP 61: 200M inflow, 190M onward and 10M other outflow reconciled.
+- STEP 62: conditional Binance 14 allocation of 144,260,199.490000 USDT.
+- STEP 63–64: 55,739,800.500000 USDT plus 0.010000 USDT from another source; pre-baseline provenance UNKNOWN.
+- STEP 65: 35,868,038.335205 USDT of other inflows from 45 addresses; conditional allocation of target 25M to designated source: 0–25M.
+- STEP 66: pooled A/B model; 28M bridge outflow; conditional contribution from designated 25M source: 0–25M.
 
-The T02 → T03 → T17 sequence has already been investigated
-and documented in the existing delegated-wallet case study.
+These are conditional fungible-balance calculations,
+not legal taint, ownership or exclusive incident provenance.
 
-T02 — Authorization:
-- Block: 26300753
-- Transaction:
-  `0xad99264d5532ae0dd04b2004eebda05f25657e70dacb764f7ac8d4ccd051298b`
-- Type: EIP-7702, transaction type 4.
-- 50 authorization entries were examined.
-- Authority recovery identified Binance 14 as the authority.
-- The matching authorization nonce was identified after
-  accounting for the wallet's earlier transaction in the block.
+The 0–25M range applies only to the designated tagged source.
 
-T03 — Initial sweep:
-- Block: 26300770.
-- Binance 14 was the delegated account.
-- The operator initiated the transaction.
-- The existing transaction and execution-trace research
-  documents delegated execution and asset-transfer calls.
-- Initial USDT sweep to Central:
-  1,615,409,498.973240 USDT.
+The earlier two-address checkpoint and STEP 66 pooled checkpoint
+have different reported baselines and flow totals.
+Their accounting boundaries have not been demonstrated identical.
 
-T17 — Delegation removal:
-- Block: 26301896.
-- Existing research records the subsequent removal checkpoint.
+Do not merge these accounting models.
 
-Existing research artifact:
+STEP 60–66 raw RPC bundles and reproducible scripts
+are not archived in the checkpoint.
+
+### 7. Attribution Research — STEP 71–73
+
+**STEP 71 — On-chain source transfer**
+
+Evidence:
+`evidence/step71_55m_source_audit_v1/`
+
+- Source: `0xdfd5293d8e347dfe59e90efd55b2956a1343963d`
+- Recipient: Central.
+- Amount: 55,739,800.500000 USDT.
+- Block: 26300772.
+
+The saved audit records the transfer and block-level evidence.
+
+**STEP 72 — External attribution cross-check**
+
+Evidence:
+`evidence/step72_external_attribution_v1/`
+
+- Bitquery: address present; amount absent.
+- IMD: address and amount present.
+- On-chain transfer: OBSERVED.
+- Incident linkage: REPORTED_BY_SOURCES.
+- Independent proof of unauthorized transfer: NOT ESTABLISHED.
+- Official Binance transaction-level confirmation: NOT ESTABLISHED.
+- Independence of external sources: UNKNOWN.
+
+This corroborates an incident-link hypothesis,
+not unauthorized intent or exclusive provenance.
+
+**STEP 73 — Historical GraphSense listing**
+
+Evidence:
+`evidence/step73_preincident_graphsense_v1/`
+
+The source address appears in GraphSense's Binance exchange-wallet
+tagpack at commit:
+
+`4291546db584a40c03d77af32e27ac7ad6e90bac`
+
+Date: 2023-02-24.
+
+This is a historical third-party listing,
+not a direct Binance attestation or proof of incident-time control.
+
+### 8. STEP 75A — Official Report Crosswalk
+
+Evidence:
+`evidence/step75a_official_report_crosswalk_v1/`
+
+XRP:
+- Five transactions.
+- 233,461,943.1 XRP.
+- Official rounded aggregate: 233.46M XRP.
+- Reported time: 20:05:00–20:09:20 UTC.
+- Crosswalk PASS.
+
+USDT:
+- Individual official confirmation of the 55.74M source: NOT DISCLOSED.
+- Individual official confirmation of the 195M mixed wallet: NOT DISCLOSED.
+- Incident attribution: UNRESOLVED.
+
+Raw HTML was not captured due to AWS WAF.
+The preserved excerpt documents the source and retrieval limitation.
+
+Do not extend aggregate XRP corroboration to individual USDT attribution.
+
+### 9. STEP 76 — Pre-Incident Inbound Scan
+
+Evidence:
+`evidence/step76_preincident_inbound_v1/`
+
+Audit timestamp: 2026-11-05 11:12:40 UTC.
+
+- Blocks: 26250512–26251511.
+- Coverage: 1,000 blocks across ten chunks.
+- Unique inbound events: 53.
+- Total inbound: 1,616,374.401633 USDT.
+- Distinct senders: 31.
+- Counterparty match:
+  `0x5aae4d2f360e156de3416936049837a7bb685588`
+- Matching transfer: 114,589.789942 USDT at block 26251021.
+- Next block: 26251512.
+
+Status: PARTIAL_AUDIT_PASS.
+
+Not a complete seven-day scan.
+RPC data was not independently re-queried.
+No outbound balance reconciliation was performed.
+Incident attribution remains UNRESOLVED.
+
+Do not describe this as a completed pre-incident funding audit.
+
+### 10. EG-05 — T03 Failure-Tolerance Mechanism
+
+Status: TECHNICAL RESULT DOCUMENTED; EXTERNAL CLAIM POPULATION OPEN.
+
+Observed:
+- 64 ERC-20 transfer calls.
+- 63 matching Transfer events.
+- One child token call reverted at position 27.
+- 37 subsequent calls continued without recorded call errors.
+- Parent transaction receipt succeeded.
+
+The 37 subsequent non-error calls are not 37 failures.
+
+The separate external 64 attempts / 37 failures claim
+has not been linked to this technical population.
+
+### 11. EG-06 — Withdrawal Suspension Versus Delegated Execution
+
+**CURRENT RESEARCH PRIORITY.**
+
+Completed technical research — DO NOT REPEAT:
+
+T02:
+- Block 26300753.
+- Type-4 EIP-7702 transaction.
+- 50 authorization entries examined.
+- Authority recovery identified Binance 14.
+- Matching authorization nonce resolved.
+
+T03:
+- Block 26300770.
+- Delegated execution documented.
+- Initial USDT sweep: 1,615,409,498.973240 USDT.
+
+T17:
+- Block 26301896.
+- Delegation-removal checkpoint documented.
+
+Existing case study:
 `BINANCE_2026_DELEGATED_WALLET_DRAIN_CASE_STUDY.md`
 
-**VERDICT:** The technical delegation-to-execution sequence
-is an existing research result. Do not repeat authorization
-recovery or initial sweep tracing without contradictory evidence.
+**TechCrunch — October 29, 2026**
 
-**IMPORTANT OPEN QUESTION:**
+https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/
 
-Did delegated execution continue to move assets after
-Binance's internal withdrawal suspension became effective?
+Publication time: 22:27 UTC.
 
-This requires an independently defensible off-chain
-suspension timestamp and comparison against subsequent
-on-chain transactions.
+Reported that a Binance spokesperson confirmed temporary
+withdrawal suspension across multiple networks.
 
-Do not equate:
-- Public announcement time
-- Internal withdrawal suspension time
-- Transaction broadcast time
-- Block inclusion time
-- Final asset movement time
+Classification: REPORTED_BY_SOURCE.
 
-**UNKNOWN:** Exact internal suspension timestamp, the
-effectiveness of the off-chain controls, and whether
-delegation remained usable after those controls became
-effective.
+This establishes public confirmation by 22:27 UTC,
+not the exact internal suspension timestamp.
 
-**Next decisive test:** Establish the suspension cutoff
-from an authenticated source, then compare it with the
-already documented post-T03 transactions.
+**Binance retrospective — November 3**
 
-### Updated Research Priorities
+https://www.binance.com/en-IN/blog/community/3229153443759566763
 
-| ID | Current status | Next action |
-|---|---|---|
-| EG-01 | Substantially verified | Independent replay only if material |
-| EG-02 | Scoped reconciliation PASS | Preserve ledger and investigate disposition |
-| EG-03 | Partial PASS | Downstream attribution and deduplication |
-| EG-04 | Open | Normalize institutional figures |
-| EG-05 | Open | Establish definitions of 64 attempts / 37 failures |
-| EG-06 | Technical linkage already researched | Establish internal suspension cutoff |
-| EG-07 | Open | Bounded TRON mechanism pilot |
-| EG-08 | Cross-chain delivery verified | Downstream tracing if decision-relevant |
+Binance reported:
+- Final unauthorized transfer of 2,961.9 ETH finalized at 23:56 UTC on October 29.
+- The transaction had been broadcast earlier and remained pending.
+- Delegation removal at 00:10 UTC on October 30.
 
-### Research Control
+The earlier broadcast timestamp has not been independently established.
 
-1. Do not repeat completed forensic steps.
-2. Do not change the original research methodology without
-   an explicit reason and approval.
-3. Do not claim incident attribution from commingled balances.
-4. Do not describe restricted balances as recovered assets.
-5. New research must resolve a material evidence gap.
-6. Keep all unfinished research on
-   `research/case-binance-2026`.
-7. No publication to main without explicit approval.
+**Candidate transaction**
 
-The next research question is the timing and effectiveness
-of Binance's withdrawal suspension relative to subsequent
-delegated-wallet execution.
+`0x4a4aed833556814c16fe176fc8abc70ce124eadc73da3bcdf42a67ef44f9ad6b`
+
+Explorer-reported:
+- Block 26301444.
+- Timestamp 2026-10-29 22:39:35 UTC.
+- Outer sender: `0x7c8601d4645b93cea45f71e118a729332e6b5ca0`.
+- Target: Binance 14.
+- Internal ETH transfer: 128.491139212075057017 ETH.
+- Recipient: `0xa97bf7836f8a08f9ed91d41453d371493fae8d10`.
+
+Classification: REPORTED_BY_EXPLORER; NOT INDEPENDENTLY REPLAYED.
+
+Block inclusion is 12 minutes and 35 seconds after the TechCrunch
+publication. This does not establish transaction broadcast time
+or prove execution occurred after internal suspension.
+
+**UNKNOWN**
+- Exact internal withdrawal suspension timestamp.
+- Candidate transaction broadcast time.
+- Independent receipt and execution trace.
+- Historical delegation state at candidate block.
+- Whether a new instruction was submitted after suspension.
+- Whether all relevant signing and delegated-execution capabilities
+  were disabled by withdrawal suspension.
+
+**Next tests**
+1. Retrieve raw transaction, receipt and block from two providers.
+2. Preserve execution trace and provider provenance.
+3. Verify internal ETH transfer and child-call outcomes.
+4. Verify historical Binance 14 delegation state at block 26301444.
+5. Reconcile with Binance's reported 23:56 UTC final transfer.
+6. Seek authenticated evidence of the internal suspension cutoff.
+7. Keep announcement, suspension, broadcast, inclusion and final movement separate.
+
+Do not repeat T02/T03/T17 technical research.
+
+### 12. EG-07 — TRON Mechanism
+
+Status: OPEN.
+
+TRM's described self-minted-token, liquidity-pool,
+receipt-token and bridge mechanism has not been independently reproduced.
+
+If resumed, use one bounded route:
+- Contract events.
+- Liquidity changes.
+- Mint/sell/redeem accounting.
+- Bridge events.
+- Competing explanations and falsification tests.
+
+Defer broad expansion until a material testable route is identified.
+
+### 13. EG-08 — Ethereum-to-Plasma Delivery
+
+Status: CROSS-CHAIN DELIVERY VERIFIED; ATTRIBUTION UNKNOWN.
+
+Evidence:
+`evidence/eg08_plasma_delivery_v1/`
+
+- Ethereum source block: 26307046.
+- Plasma destination block: 36440003.
+- 28M USDT sent.
+- 28M USDT0 received.
+- Matching LayerZero GUID.
+- Successful destination execution.
+- Seven SHA256 entries recorded.
+
+This is one linked bridge transfer, not 56M of separate funds.
+
+Subsequent Plasma movements, restriction status, recovery
+and incident attribution remain UNKNOWN.
+
+### 14. Publication Readiness
+
+References:
+- `AXIOM_PUBLICATION_CLAIMS_AUDIT_V1.md`
+- `AXIOM_PUBLICATION_EVIDENCE_INVENTORY_V1.csv`
+
+Recorded automated checks:
+- 15 evidence inventory files checked.
+- 15 SHA256 matches.
+- Nine structured claim checks passed.
+- Zero structured claim-check failures.
+
+Automated consistency: PASS.
+Publication approval: NOT GRANTED.
+
+Human review remains required for source authenticity,
+transaction and trace reproducibility, citations,
+alternative explanations, claim boundaries and sensitive-material review.
+
+Internal research is appropriate.
+LinkedIn publication remains a possibility after human review.
+Institutional submission is not yet ready.
+No incident-wide attribution or criminal allegation is established.
+
+### 15. Research Priorities
+
+1. EG-06: independently replay the 22:39:35 UTC candidate and establish the suspension cutoff.
+2. EG-03: reproduce STEP 60–66 and reconcile accounting boundaries.
+3. STEP 76: assess whether the counterparty match justifies extending the historical scan.
+4. EG-04: normalize freeze figures by chain, asset, cutoff, valuation and definition.
+5. Defer unrelated tracing and broad TRON expansion.
+
+### 16. Permanent Controls
+
+- Preserve the fixed AXIOM methodology.
+- Do not repeat completed T02/T03/T17 or 700M first-hop work.
+- Distinguish OBSERVED, REPORTED_BY_SOURCE, INFERRED and UNKNOWN.
+- Never infer ownership or criminal intent from wallet labels.
+- Do not equate blacklisted, frozen, intercepted, replenished and recovered.
+- Keep conditional fungible-balance accounting separate from ownership or legal taint.
+- Do not double-count intermediary transfers or bridge legs.
+- Preserve raw evidence, provenance and SHA256 manifests.
+- Keep unfinished work on `research/case-binance-2026`.
+- No publication to main without explicit approval.
+
+The immediate unresolved research question remains the timing
+and effectiveness of Binance's withdrawal suspension relative
+to subsequent delegated-wallet execution.
