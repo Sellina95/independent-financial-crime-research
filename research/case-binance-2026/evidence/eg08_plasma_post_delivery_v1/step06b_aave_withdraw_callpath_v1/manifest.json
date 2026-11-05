@@ -1,0 +1,12 @@
+{
+  "classification": "STEP_06B_01_EVIDENCE_MANIFEST",
+  "file_count": 6,
+  "sha256": {
+    "implementation_slot_history.json": "6dfe60a710ecfc81cd043d6ac417a298863daa5507ac7a5453da808ad572beb4",
+    "provenance.json": "6abbde93c1b63587804b0856b7e475acbfc03218bda6a3e7bfe3cafe87454c30",
+    "runtime_code_inventory.json": "bae0c896e9236a0c46d2563d297188e7aeb93e0d7dced1dc0416a86268c5b3f7",
+    "source_verification_lookup.json": "cacc3131f379d51a1f4172dfd353b40fea6a82ea30d82a5814cc957711d02219",
+    "withdrawal_call_trace.json": "8a9e2e3cae1c2576dad5486d9063ebdc1e7730f73cb84724e1d3efd960fdaa75",
+    "withdrawal_eth_call.json": "37a9ea45c02a43d5545c6ef8d7c0e493b91dcc3ab9d50df120cd42bcda624303"
+  }
+}

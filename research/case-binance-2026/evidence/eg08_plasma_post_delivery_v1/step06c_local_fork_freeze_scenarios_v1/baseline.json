@@ -1,0 +1,8 @@
+{
+  "user_atoken_balance_raw": 409936842265982,
+  "aave_underlying_balance_raw": 41462618740921,
+  "atoken_total_supply_raw": 708947724990317,
+  "usdt0_total_supply_raw": 857766424787224,
+  "withdraw_call": "SUCCESS",
+  "withdraw_return_data": "0x00000000000000000000000000000000000000000000000000000000000f4240"
+}

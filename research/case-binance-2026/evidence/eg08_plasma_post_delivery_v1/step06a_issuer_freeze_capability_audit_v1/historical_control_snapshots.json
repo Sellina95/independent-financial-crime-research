@@ -1,0 +1,1904 @@
+{
+  "36440002": {
+    "labels": [
+      "PRE_DELIVERY"
+    ],
+    "block": 36440002,
+    "block_header": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": {
+          "hash": "0xaf7371e9593f63f52bec574ec2fe54cf77327b6ed30f5c8c808dbe77cbcab9f6",
+          "parentHash": "0x1f1e15e47ce8bdda677916b9d9763d15705ebf72835e3a2e1b36c1d7195c8e92",
+          "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+          "miner": "0x000000000000000000000000000000000a11b005",
+          "stateRoot": "0xd921750a72671e527c02a0f896f4ea998ed016e960dbbec8ebf7c0d94d4d8adf",
+          "transactionsRoot": "0x7afd9de801aaf045bc221232238dac3879950487f764aa4b0c4f1f959e216c91",
+          "receiptsRoot": "0xa3e09ed52f61d4b2d9f029a8c09c6dd9338a7efef078e1b6f851985b36042672",
+          "logsBloom": "0x00000000400000020000000000000000000000004000000000000000000000000008000000000000000080010000000002000000080020000000020400200000020000000000000800001008000000000040000000000000000000000010004000000000020800000002000000000800000000200080000000000910000800000000000000000000000000040000000000000000000000000000000000000000020000000000000040400000000000000000000000000000000002000001002000000002010000404001020000000000000000100000000000000000000020080010000000000000000000000000000280000000000040001000000100000000",
+          "difficulty": "0x0",
+          "number": "0x22c07c2",
+          "gasLimit": "0x2255100",
+          "gasUsed": "0x83d0b5",
+          "timestamp": "0x6ae4d677",
+          "extraData": "0x726574682f76312e31312e332f6c696e7578",
+          "mixHash": "0x281463b9a1df181f2332ee579141a5f5ee8077197445776729e53f5aee574f95",
+          "nonce": "0x0000000000000000",
+          "baseFeePerGas": "0x8",
+          "withdrawalsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+          "blobGasUsed": "0x0",
+          "excessBlobGas": "0x0",
+          "parentBeaconBlockRoot": "0xd5ba6498d9d4cfb800ce2d6407b4468b269e38e2860c14ed596173a5f0c8526c",
+          "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": "0x3311",
+          "uncles": [],
+          "transactions": [
+            "0x61c82cff6543aba485afa8a63c1737b9766c7997d908604093984cd8e0e17287",
+            "0x9847af278a618bc8490ab99a55cbeb02f0afe90a7b86a4e94bb17117eec6edcb",
+            "0x02c2a80e86c60eb60b63a36bb96d646fb85d83880b48b30a37911745e3d6e1a4",
+            "0xa96e96278450b8e940af6d548e880d0a7debd982ce7fcd6cbfcfa4ca2cc6638c",
+            "0x8fc51eca0905d31894e340eea79719b267f91d13574648d0ca428eb7eff67caf",
+            "0xd711b84289524d051908f8e4ba9833e1d33ff4651864db5b941d15a9573a87cb",
+            "0xf4f9acb5e4c169ee4c3216750ecdf3cf248ce4f3657813f4b9de022cc43ca519"
+          ],
+          "withdrawals": []
+        }
+      }
+    },
+    "proxy_implementation_slot": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x000000000000000000000000f555a12bffaef20cc201a74ae6513cb4aadb34b9"
+      }
+    },
+    "proxy_admin_slot": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x000000000000000000000000779ded0c9e1022225f8e0630b35a9b54be713736"
+      }
+    },
+    "implementation_address": "0xf555a12bffaef20cc201a74ae6513cb4aadb34b9",
+    "proxy_admin_address": "0x779ded0c9e1022225f8e0630b35a9b54be713736",
+    "owner_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x0000000000000000000000004dff9b5b0143e642a3f63a5bcf2d1c328e600bf8"
+      }
+    },
+    "owner_address": "0x4dff9b5b0143e642a3f63a5bcf2d1c328e600bf8",
+    "oft_contract_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x00000000000000000000000002ca37966753bdddf11216b73b16c1de756a7cf9"
+      }
+    },
+    "oft_contract_address": "0x02ca37966753bdddf11216b73b16c1de756a7cf9",
+    "isBlocked_raw": {
+      "original_user": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "aave_atoken": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "aave_pool": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "usdt0_proxy": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "implementation": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "proxy_admin": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "token_owner": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "oft_contract": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      }
+    },
+    "isTrusted_raw": {
+      "original_user": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "aave_atoken": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "aave_pool": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "usdt0_proxy": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "implementation": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "proxy_admin": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "token_owner": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "oft_contract": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      }
+    },
+    "usdt0_balances_raw": {
+      "original_user": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x00000000000000000000000000000000000000000000000000000000004c4b40"
+        }
+      },
+      "aave_atoken": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x00000000000000000000000000000000000000000000000000000154de82c7dc"
+        }
+      },
+      "aave_pool": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      }
+    },
+    "aToken_user_balance_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x00000000000000000000000000000000000000000000000000015b1d8a8f9658"
+      }
+    },
+    "aToken_total_supply_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x00000000000000000000000000000000000000000000000000027c449441deac"
+      }
+    },
+    "usdt0_total_supply_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x00000000000000000000000000000000000000000000000000026cc55d68d5b6"
+      }
+    },
+    "paused_probe": {
+      "ok": false,
+      "error": "{'code': 3, 'message': 'execution reverted'}"
+    }
+  },
+  "36440003": {
+    "labels": [
+      "POST_DELIVERY"
+    ],
+    "block": 36440003,
+    "block_header": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": {
+          "hash": "0xdfc44772c86cfcfa76e33249c1b58d236a128ef203f94f550d05f1db835eaaf3",
+          "parentHash": "0xaf7371e9593f63f52bec574ec2fe54cf77327b6ed30f5c8c808dbe77cbcab9f6",
+          "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+          "miner": "0x000000000000000000000000000000000a11b005",
+          "stateRoot": "0x32f42b9d50db8cafc5e533c79a799039c7210d0e3a2f6a6cca2b1f62c6976654",
+          "transactionsRoot": "0x3a74cb352f9216204c5903eceff2559acc4476171bc0cd050022f1fec0eb12a2",
+          "receiptsRoot": "0x2c317cbabf17380262b4e904263b6f5fe22b60027cae412addde829400547aff",
+          "logsBloom": "0x00000000400010020000000000000000000000000000400000000000000000000000000002000000000000000000000002000000080220000000000400200000000000000020000800000008000000000140100000000200000000201010004800000008060000000002000000000800000000200080400000000110000800000000000000000000000000040000000000000040200000000000000000200004020080000000000000000000000000000000000000000000000000000001202002000042010000004000000000000000000000100000000000000000000020084010000000000000000000000040000200000000000000001000000140010000",
+          "difficulty": "0x0",
+          "number": "0x22c07c3",
+          "gasLimit": "0x2255100",
+          "gasUsed": "0x8564af",
+          "timestamp": "0x6ae4d678",
+          "extraData": "0x726574682f76312e31312e332f6c696e7578",
+          "mixHash": "0xcddc61c21f682c0263c05255eb0c89d592d34bc94b4d75c5919f19f9c488c2b3",
+          "nonce": "0x0000000000000000",
+          "baseFeePerGas": "0x8",
+          "withdrawalsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+          "blobGasUsed": "0x0",
+          "excessBlobGas": "0x0",
+          "parentBeaconBlockRoot": "0xf599effe26e69a4abbed7f29c77af8fa478592677583582cdcbcabd0f571180f",
+          "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": "0x32e4",
+          "uncles": [],
+          "transactions": [
+            "0x864b8cdaf498251293ea4fcfd098c101d1d9470dc549725fd5fdb47412ac6388",
+            "0x5d14110839a9549b25ccde653771ff5d438cb19dbccbe46df0cca6d18b408e04",
+            "0xa2e90c60008700b31605275112d9a3ec17fe96dc3582391a5e781cc340218029",
+            "0x3d85aceaf42b5c067bf7b3deab628d92afa02b5fd9207b47143f7ac21be5684e",
+            "0x117709b7f65124bcc8a0e4de5a40f02e34c7c161a8a708096a5281dd76226e5a",
+            "0xb82f429ae51f81e2c05439308fadea4fe14917481596ca0497404edd4848f9f9",
+            "0x30f41b3661df69769896dde08fc047799d76a24e6e5d868aaec3a447f2b567c4",
+            "0x9dafa20e809d9b97f14ccc222e4b77c973e530952ed83a45a4c8afba2e51323f"
+          ],
+          "withdrawals": []
+        }
+      }
+    },
+    "proxy_implementation_slot": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x000000000000000000000000f555a12bffaef20cc201a74ae6513cb4aadb34b9"
+      }
+    },
+    "proxy_admin_slot": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x000000000000000000000000779ded0c9e1022225f8e0630b35a9b54be713736"
+      }
+    },
+    "implementation_address": "0xf555a12bffaef20cc201a74ae6513cb4aadb34b9",
+    "proxy_admin_address": "0x779ded0c9e1022225f8e0630b35a9b54be713736",
+    "owner_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x0000000000000000000000004dff9b5b0143e642a3f63a5bcf2d1c328e600bf8"
+      }
+    },
+    "owner_address": "0x4dff9b5b0143e642a3f63a5bcf2d1c328e600bf8",
+    "oft_contract_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x00000000000000000000000002ca37966753bdddf11216b73b16c1de756a7cf9"
+      }
+    },
+    "oft_contract_address": "0x02ca37966753bdddf11216b73b16c1de756a7cf9",
+    "isBlocked_raw": {
+      "original_user": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "aave_atoken": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "aave_pool": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "usdt0_proxy": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "implementation": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "proxy_admin": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "token_owner": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "oft_contract": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      }
+    },
+    "isTrusted_raw": {
+      "original_user": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "aave_atoken": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "aave_pool": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "usdt0_proxy": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "implementation": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "proxy_admin": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "token_owner": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "oft_contract": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      }
+    },
+    "usdt0_balances_raw": {
+      "original_user": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x00000000000000000000000000000000000000000000000000001977425a0b40"
+        }
+      },
+      "aave_atoken": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x00000000000000000000000000000000000000000000000000000154de82c7dc"
+        }
+      },
+      "aave_pool": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      }
+    },
+    "aToken_user_balance_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x00000000000000000000000000000000000000000000000000015b1d8aa0c20d"
+      }
+    },
+    "aToken_total_supply_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x00000000000000000000000000000000000000000000000000027c4494615812"
+      }
+    },
+    "usdt0_total_supply_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x0000000000000000000000000000000000000000000000000002863c9f7695b6"
+      }
+    },
+    "paused_probe": {
+      "ok": false,
+      "error": "{'code': 3, 'message': 'execution reverted'}"
+    }
+  },
+  "36440195": {
+    "labels": [
+      "POST_SUPPLY_1"
+    ],
+    "block": 36440195,
+    "block_header": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": {
+          "hash": "0xf1c6f7b3bd0df6782d2d85c28e3d3f3cf2be67c99189df561e130f2f9fd8df8a",
+          "parentHash": "0xdab6586f3c952774a69234cc2b6c6f079961847663bfc8a70aa1293d15e170af",
+          "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+          "miner": "0x000000000000000000000000000000000a11b005",
+          "stateRoot": "0xd7a986cd21e5ac2898825ca539ede359e9739614b1a4970d557d77b87c318e8c",
+          "transactionsRoot": "0xc841ef898a8c1067477bc4e5e0986bf96d2b2c38bc655e2da738a24b56191998",
+          "receiptsRoot": "0xf142a0e89c239a0f938792edec7652f5492cd66beeff84d27a88999d56f10b2d",
+          "logsBloom": "0x000040014000000220000004008000000008000000000000100000000020002000080000010000000000000100040001000080000c0000000000020041200000000000000000000021000008000000000440040000000000000080040000004840000000020802000001000000000800000001000000002040000010004000000000010000002000100000000000000000000000000000000000040010000005c2000000000082000040800000000000000000000000000002000600040431000200000200402040200100244000100000000008000000e000000000000020000030000000000000003000000240000240000000000100001000484000008000",
+          "difficulty": "0x0",
+          "number": "0x22c0883",
+          "gasLimit": "0x2255100",
+          "gasUsed": "0x322d83",
+          "timestamp": "0x6ae4d738",
+          "extraData": "0x726574682f76312e31312e332f6c696e7578",
+          "mixHash": "0xe987027b312148421e259b4870587b52571c7a318e7c60c5e09ec5a700024f8a",
+          "nonce": "0x0000000000000000",
+          "baseFeePerGas": "0x8",
+          "withdrawalsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+          "blobGasUsed": "0x0",
+          "excessBlobGas": "0x0",
+          "parentBeaconBlockRoot": "0xfff4fc82503420215990f48759e154c4f10e785a5906dc81df69c894e31179c5",
+          "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": "0x376f",
+          "uncles": [],
+          "transactions": [
+            "0x0afec5af8279b61f6310dac91a1f5d77caffccbff8401a816c53d9691b9ecfb8",
+            "0x40f33d5edd3f3667bf1542bec61f9915561de359800a5be363fe5b3d34b3c8f7",
+            "0x66167b93093de05d80fef1881caf7140910ca5a7ca81628fd9657b604c4d798a",
+            "0xff1cc117d9c1ca271cc58a7e8a14c1af5587bdaad353afcf4a3eb4a03e595302",
+            "0x25e3ecfefa3259d5f6a3fb6148592d528df6afb6c27b34fa7b1977e9571cb0c3",
+            "0x6b4ee35041f1e525f0bbc6b1d8145feef010e5b4f06be2b87a655cec0d7e9405",
+            "0x9f70da5dd9d27bb756636604716e9092e342385bdd932ec6b85bd5369793a45f",
+            "0x9806522fc408431d835b4f1f18a151c0b685935265ead16ef1fd29c7fdd24180"
+          ],
+          "withdrawals": []
+        }
+      }
+    },
+    "proxy_implementation_slot": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x000000000000000000000000f555a12bffaef20cc201a74ae6513cb4aadb34b9"
+      }
+    },
+    "proxy_admin_slot": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x000000000000000000000000779ded0c9e1022225f8e0630b35a9b54be713736"
+      }
+    },
+    "implementation_address": "0xf555a12bffaef20cc201a74ae6513cb4aadb34b9",
+    "proxy_admin_address": "0x779ded0c9e1022225f8e0630b35a9b54be713736",
+    "owner_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x0000000000000000000000004dff9b5b0143e642a3f63a5bcf2d1c328e600bf8"
+      }
+    },
+    "owner_address": "0x4dff9b5b0143e642a3f63a5bcf2d1c328e600bf8",
+    "oft_contract_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x00000000000000000000000002ca37966753bdddf11216b73b16c1de756a7cf9"
+      }
+    },
+    "oft_contract_address": "0x02ca37966753bdddf11216b73b16c1de756a7cf9",
+    "isBlocked_raw": {
+      "original_user": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "aave_atoken": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "aave_pool": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "usdt0_proxy": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "implementation": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "proxy_admin": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "token_owner": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "oft_contract": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      }
+    },
+    "isTrusted_raw": {
+      "original_user": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "aave_atoken": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "aave_pool": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "usdt0_proxy": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "implementation": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "proxy_admin": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "token_owner": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "oft_contract": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      }
+    },
+    "usdt0_balances_raw": {
+      "original_user": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x00000000000000000000000000000000000000000000000000001925398c9980"
+        }
+      },
+      "aave_atoken": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x000000000000000000000000000000000000000000000000000001a6e6eeffab"
+        }
+      },
+      "aave_pool": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      }
+    },
+    "aToken_user_balance_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x00000000000000000000000000000000000000000000000000015b6fa04efbff"
+      }
+    },
+    "aToken_total_supply_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x00000000000000000000000000000000000000000000000000027c96b4689d4a"
+      }
+    },
+    "usdt0_total_supply_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x0000000000000000000000000000000000000000000000000002863c9f7695b6"
+      }
+    },
+    "paused_probe": {
+      "ok": false,
+      "error": "{'code': 3, 'message': 'execution reverted'}"
+    }
+  },
+  "36440301": {
+    "labels": [
+      "POST_SUPPLY_2"
+    ],
+    "block": 36440301,
+    "block_header": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": {
+          "hash": "0x0d5d4e7878eb4cecf05a86aeca83e65b5aff6bc58d219c211ffb8bb0412bcaf2",
+          "parentHash": "0x76986203a298d6adf43eff033f566ee5ebb0c2521ae848e17d6552fe1bbb3f2e",
+          "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+          "miner": "0x000000000000000000000000000000000a11b005",
+          "stateRoot": "0xa60a9284fd43ebd372e6bc74e7d9b95bf5ec4de3b9f524ab1be77fc7ade12b73",
+          "transactionsRoot": "0x3cdbf3fb09220138a4f55585f8fe8b9ed46170c19456d8768ce21d9797dd91fa",
+          "receiptsRoot": "0x35c8af056a2a2f07d4ff8b08c0c8f959f0f7977d4eb70c342779d4aa7dd8cdf0",
+          "logsBloom": "0x02004001400004020000000400800100400000040000000002040200000000308a080000010000000000000184040001000000000c00000000000a0000200000000000100000000020000c080001020200400000000000000000800400000048002080000208020200050000000008000000005000000200020008100000000000000910000080001000000000000000008008020000000000000400000002040200000000000000804110004000010100000020000000000a00060004003100020008220000004000210024400000000000082800000020000000a0000020000010000004000400001000000000010240000000000000005000400080008000",
+          "difficulty": "0x0",
+          "number": "0x22c08ed",
+          "gasLimit": "0x2255100",
+          "gasUsed": "0x291806",
+          "timestamp": "0x6ae4d7a2",
+          "extraData": "0x726574682f76312e31312e332f6c696e7578",
+          "mixHash": "0xcada33e66d91c2d633b5144fc3141db48fd2678a698a3f47e628314376bd4bec",
+          "nonce": "0x0000000000000000",
+          "baseFeePerGas": "0x8",
+          "withdrawalsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+          "blobGasUsed": "0x0",
+          "excessBlobGas": "0x0",
+          "parentBeaconBlockRoot": "0x046e474909eeb56f1dcedd791047f3bc3745db1715073f634ac2f840f675e3b5",
+          "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": "0x1765",
+          "uncles": [],
+          "transactions": [
+            "0xbff037aea379b9baa904d1639e409c127ecc82d641c82088c236619b7221366e",
+            "0xbb10859843b57a67a820f52cf64fbfd02489626525e6ba5ae19dbe9788c5316e",
+            "0x99f73fe6d0789f01e7acc36976ef1479de7862e8ea2a57629ff231184e4c91e9",
+            "0x297d6f4c30d2d9f00f619442987ed5bebbd278b71090eca300f3a3b34581f8d5",
+            "0xc3236336709d6c26a3565a9f03ab769ae3906c0e7ae73754f83a73e6a1eaeb91",
+            "0x314a87f17a144469f4fdf9669b42af22003c0d96863bd5ea2440758461d16d85",
+            "0x6e1b932c5cb34c763c948cb40902046def28f6bf5693527cf0dba6ad5514b7a9",
+            "0xb43529cf4f496f1dd082c50d163544e4676875014d26a19a3bf5cf573360d7b2",
+            "0xd82848b58f0aec40d079a891ae2e26a659d9adee06029c9b001971bb9de1f4da",
+            "0x1b5c5492b561abf76c235c638f5f63728d13f3b52aa122da806c43eb324a109b",
+            "0x37b8b425957f796f9076e2e03efea46bce6eb389c9fce5b0c877bc0d3d743534",
+            "0x07060f82e8192ab1c9c033117112ee7dc12387f9daebfaadefc31f74af415469"
+          ],
+          "withdrawals": []
+        }
+      }
+    },
+    "proxy_implementation_slot": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x000000000000000000000000f555a12bffaef20cc201a74ae6513cb4aadb34b9"
+      }
+    },
+    "proxy_admin_slot": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x000000000000000000000000779ded0c9e1022225f8e0630b35a9b54be713736"
+      }
+    },
+    "implementation_address": "0xf555a12bffaef20cc201a74ae6513cb4aadb34b9",
+    "proxy_admin_address": "0x779ded0c9e1022225f8e0630b35a9b54be713736",
+    "owner_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x0000000000000000000000004dff9b5b0143e642a3f63a5bcf2d1c328e600bf8"
+      }
+    },
+    "owner_address": "0x4dff9b5b0143e642a3f63a5bcf2d1c328e600bf8",
+    "oft_contract_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x00000000000000000000000002ca37966753bdddf11216b73b16c1de756a7cf9"
+      }
+    },
+    "oft_contract_address": "0x02ca37966753bdddf11216b73b16c1de756a7cf9",
+    "isBlocked_raw": {
+      "original_user": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "aave_atoken": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "aave_pool": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "usdt0_proxy": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "implementation": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "proxy_admin": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "token_owner": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "oft_contract": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      }
+    },
+    "isTrusted_raw": {
+      "original_user": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "aave_atoken": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "aave_pool": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "usdt0_proxy": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "implementation": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "proxy_admin": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "token_owner": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "oft_contract": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      }
+    },
+    "usdt0_balances_raw": {
+      "original_user": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "aave_atoken": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x00000000000000000000000000000000000000000000000000001acc202e3e74"
+        }
+      },
+      "aave_pool": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      }
+    },
+    "aToken_user_balance_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x00000000000000000000000000000000000000000000000000017494e0efe604"
+      }
+    },
+    "aToken_total_supply_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x000000000000000000000000000000000000000000000000000295bbfaa077bf"
+      }
+    },
+    "usdt0_total_supply_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x0000000000000000000000000000000000000000000000000002863c9f7695b6"
+      }
+    },
+    "paused_probe": {
+      "ok": false,
+      "error": "{'code': 3, 'message': 'execution reverted'}"
+    }
+  },
+  "36872192": {
+    "labels": [
+      "POST_WITHDRAWAL"
+    ],
+    "block": 36872192,
+    "block_header": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": {
+          "hash": "0xf25ca962e4065f98a84a0c493ecc3bd8bc0d097233d42dcb9964adaf4f431b80",
+          "parentHash": "0x3eee50ee4687a8fae57df2980a17f0eb184889c9b02a80a2c82f34d29172ebd7",
+          "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+          "miner": "0x000000000000000000000000000000000a11b005",
+          "stateRoot": "0xa7388748d30032cc8c720cc4e3703ec81f9c2645c25b7c7bde596fcd9bc2c144",
+          "transactionsRoot": "0x13121db34ed92bdfdfef3d015845c0af152fedde5d3d00b8c2408e63f9ffd034",
+          "receiptsRoot": "0xb69378cd8ad601d0e4051e2e48d5a499e660b857f512e5e67be5f82788221446",
+          "logsBloom": "0x00000000400000020000000000800000008000000000000000000000000000000000000001000000000000000004000100000000080000000000000000000000000000000000000000000008000000000000000000000000000000040000004800000000020002000001000000000800000000000000020000000010000000000000010000000000000000000000000000000000000000000000040000000004000000000080000000000000000000000000000000000000020000000400310002000002000000000000002400000000000000000000000000000000000020000000000000000000000000000000000200000000000000001000000000008000",
+          "difficulty": "0x0",
+          "number": "0x232a000",
+          "gasLimit": "0x2255100",
+          "gasUsed": "0x192ad6",
+          "timestamp": "0x6aeb7276",
+          "extraData": "0x726574682f76312e31312e332f6c696e7578",
+          "mixHash": "0x301a0ac98909a3e7ff333881d8a5369b63d70d8885b2c96e99fe545a4449771a",
+          "nonce": "0x0000000000000000",
+          "baseFeePerGas": "0x8",
+          "withdrawalsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+          "blobGasUsed": "0x0",
+          "excessBlobGas": "0x0",
+          "parentBeaconBlockRoot": "0x9c44aff832b4d9a00e3f006841021981213d8c4f6f1ff65e157b4c5f731d48bc",
+          "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": "0x63a",
+          "uncles": [],
+          "transactions": [
+            "0x1591952b757543c429d35789e51030f0201b21484ff2ddd8c3cb3ca7c33dd7c8",
+            "0x88ca452087285e8013b5fc33b9a71a7dd9ee28af6348f68169c9452e0b0fa392",
+            "0xe15fe0611a29709f4f921e470fba4103a01d7ccae69729a024325b0b4fa184a0",
+            "0x74e0f13e504f9f61467431a79c35dd35c333e66f8fa4ea048d33ba04520b9f98"
+          ],
+          "withdrawals": []
+        }
+      }
+    },
+    "proxy_implementation_slot": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x000000000000000000000000f555a12bffaef20cc201a74ae6513cb4aadb34b9"
+      }
+    },
+    "proxy_admin_slot": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x000000000000000000000000779ded0c9e1022225f8e0630b35a9b54be713736"
+      }
+    },
+    "implementation_address": "0xf555a12bffaef20cc201a74ae6513cb4aadb34b9",
+    "proxy_admin_address": "0x779ded0c9e1022225f8e0630b35a9b54be713736",
+    "owner_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x0000000000000000000000004dff9b5b0143e642a3f63a5bcf2d1c328e600bf8"
+      }
+    },
+    "owner_address": "0x4dff9b5b0143e642a3f63a5bcf2d1c328e600bf8",
+    "oft_contract_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x00000000000000000000000002ca37966753bdddf11216b73b16c1de756a7cf9"
+      }
+    },
+    "oft_contract_address": "0x02ca37966753bdddf11216b73b16c1de756a7cf9",
+    "isBlocked_raw": {
+      "original_user": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "aave_atoken": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "aave_pool": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "usdt0_proxy": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "implementation": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "proxy_admin": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "token_owner": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "oft_contract": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      }
+    },
+    "isTrusted_raw": {
+      "original_user": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "aave_atoken": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "aave_pool": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "usdt0_proxy": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "implementation": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "proxy_admin": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "token_owner": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "oft_contract": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      }
+    },
+    "usdt0_balances_raw": {
+      "original_user": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x00000000000000000000000000000000000000000000000000000000000f4240"
+        }
+      },
+      "aave_atoken": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x00000000000000000000000000000000000000000000000000001f7a47db4191"
+        }
+      },
+      "aave_pool": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      }
+    },
+    "aToken_user_balance_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x000000000000000000000000000000000000000000000000000174cc8520db0f"
+      }
+    },
+    "aToken_total_supply_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x000000000000000000000000000000000000000000000000000285f055eb975b"
+      }
+    },
+    "usdt0_total_supply_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x0000000000000000000000000000000000000000000000000002ed8bf1e116a0"
+      }
+    },
+    "paused_probe": {
+      "ok": false,
+      "error": "{'code': 3, 'message': 'execution reverted'}"
+    }
+  },
+  "36941764": {
+    "labels": [
+      "PREVIOUS_AUDIT_SNAPSHOT"
+    ],
+    "block": 36941764,
+    "block_header": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": {
+          "hash": "0x1588371892b08997e5392f4f9274b7d6ba4ffe19cc5f10c06d50c2fe96e2ba5e",
+          "parentHash": "0x2879e757f3be366e29f448bcc7ab9e5cedefb69f88adbb9dc0f77ff6147f4d42",
+          "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+          "miner": "0x000000000000000000000000000000000a11b005",
+          "stateRoot": "0x753a7c8ed0496bba1520db59284ed31d595334f508feebb1f1b9bd212e5f6419",
+          "transactionsRoot": "0x3e5b511314c43c420529eadc505dc6996d84242fc834c5e4718a9e5d4f8b1368",
+          "receiptsRoot": "0x38e53bba97b97735ff6f5510322995de972a36685f0573fdb518b049202cc177",
+          "logsBloom": "0x00040000400000020000000000000000000000000800000000000000000000000000080000000000000000000000000000000000080200040000000000000200000000000000000000000008000000000000004000000000000000080000004000000000000000000000000000000000000000200000000000000010000000000000000000000000000000000000000000000000000080000020000000000000008000000000004000000000000000000000000800000000000000000000000000000002000000002000000000000000000000000000004004000000000000000008000000000000000000000000000200000000000000001000000000000000",
+          "difficulty": "0x0",
+          "number": "0x233afc4",
+          "gasLimit": "0x2255100",
+          "gasUsed": "0x17714d",
+          "timestamp": "0x6aec8386",
+          "extraData": "0x726574682f76312e31312e332f6c696e7578",
+          "mixHash": "0x8b904774f630b9e38262445f4db0259fd0b94b8d1e19589cc1b06524eaa5c9c8",
+          "nonce": "0x0000000000000000",
+          "baseFeePerGas": "0x8",
+          "withdrawalsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+          "blobGasUsed": "0x0",
+          "excessBlobGas": "0x0",
+          "parentBeaconBlockRoot": "0xae099fbc0dfb4469936cba9250de960ddd55d7132263180cc389eaaabc713e04",
+          "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": "0x7ea",
+          "uncles": [],
+          "transactions": [
+            "0xf5ab441c7f3dd6cb9a7315d32e9904ca295084295c035e6a901f3d68c2081369",
+            "0xf35853b25fc678d6f8664790b7ee4863b86c736d8015d2b193d4c1e5c2db524a",
+            "0x5d9c0849bf1ffcd5b29b1511bde5ab0dce80573d83a9f1bae5ff94a7b0aa8b2d",
+            "0x1b4bb76051fda39ad4ac312dcb380119967364864266e3d08289e98b2b0c336b",
+            "0x6a4114c41807f596e6217d7399c60de73c1c9d1bc60cdde2145b3058e7469ec1"
+          ],
+          "withdrawals": []
+        }
+      }
+    },
+    "proxy_implementation_slot": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x000000000000000000000000f555a12bffaef20cc201a74ae6513cb4aadb34b9"
+      }
+    },
+    "proxy_admin_slot": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x000000000000000000000000779ded0c9e1022225f8e0630b35a9b54be713736"
+      }
+    },
+    "implementation_address": "0xf555a12bffaef20cc201a74ae6513cb4aadb34b9",
+    "proxy_admin_address": "0x779ded0c9e1022225f8e0630b35a9b54be713736",
+    "owner_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x0000000000000000000000004dff9b5b0143e642a3f63a5bcf2d1c328e600bf8"
+      }
+    },
+    "owner_address": "0x4dff9b5b0143e642a3f63a5bcf2d1c328e600bf8",
+    "oft_contract_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x00000000000000000000000002ca37966753bdddf11216b73b16c1de756a7cf9"
+      }
+    },
+    "oft_contract_address": "0x02ca37966753bdddf11216b73b16c1de756a7cf9",
+    "isBlocked_raw": {
+      "original_user": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "aave_atoken": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "aave_pool": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "usdt0_proxy": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "implementation": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "proxy_admin": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "token_owner": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "oft_contract": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      }
+    },
+    "isTrusted_raw": {
+      "original_user": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "aave_atoken": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "aave_pool": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "usdt0_proxy": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "implementation": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "proxy_admin": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "token_owner": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "oft_contract": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      }
+    },
+    "usdt0_balances_raw": {
+      "original_user": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x00000000000000000000000000000000000000000000000000000000000f4240"
+        }
+      },
+      "aave_atoken": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x00000000000000000000000000000000000000000000000000002685c99f83c0"
+        }
+      },
+      "aave_pool": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      }
+    },
+    "aToken_user_balance_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x000000000000000000000000000000000000000000000000000174d55f407a6a"
+      }
+    },
+    "aToken_total_supply_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x00000000000000000000000000000000000000000000000000028597ee9bf952"
+      }
+    },
+    "usdt0_total_supply_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x00000000000000000000000000000000000000000000000000030982a5b4f2f8"
+      }
+    },
+    "paused_probe": {
+      "ok": false,
+      "error": "{'code': 3, 'message': 'execution reverted'}"
+    }
+  },
+  "36944474": {
+    "labels": [
+      "LATEST"
+    ],
+    "block": 36944474,
+    "block_header": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": {
+          "hash": "0x61229ebb2690f395226ff80cd0c35e37f7cfe12cc8ad5b56f2ae7f40ba29c977",
+          "parentHash": "0x7a910485fd6883a9f7581df72133653b9a1b456306c0d6b6645c4f24ab6dd488",
+          "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+          "miner": "0x000000000000000000000000000000000a11b005",
+          "stateRoot": "0x0b3a938e4b761713f946b2bc15af3be0627fb0ab11bd7f015bd707f3e8a6d2a4",
+          "transactionsRoot": "0xb456767cf2543b636911d1ab862da7cd153bba728fc09d7a8bce7b96c0c5fa7c",
+          "receiptsRoot": "0xad41d2291e450f6cc75a67e5f505c20e78f9504280033723fe89905f9745ccbd",
+          "logsBloom": "0x0000000040000002000020000000000000000000000000000000100000000000000800000000000000000001000000100000000208010000000002104002020100000000040000020000000800000000004040004000000400000008000000c0000000000208100000000000000018000000000008000000000000100041000000001000000000000000000000000000000010000000000000004000100000004100000000000000004080000000000000000000000000000000020000000000000000028000004020010000000010000000000000020040000040000080204000a0000000001000000000000040100200000000010200001000000800000000",
+          "difficulty": "0x0",
+          "number": "0x233ba5a",
+          "gasLimit": "0x2255100",
+          "gasUsed": "0x1cda51",
+          "timestamp": "0x6aec8e1c",
+          "extraData": "0x726574682f76312e31312e332f6c696e7578",
+          "mixHash": "0x79e55190f71438214b761969bcde8751b3cbadef478872c76ebb8d7f9b8f400a",
+          "nonce": "0x0000000000000000",
+          "baseFeePerGas": "0x8",
+          "withdrawalsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+          "blobGasUsed": "0x0",
+          "excessBlobGas": "0x0",
+          "parentBeaconBlockRoot": "0x29a343c67b48d8252839d8e8b9d3db068087f3c1e5d2ff2d4ab0aeded85dd8a8",
+          "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": "0x1384",
+          "uncles": [],
+          "transactions": [
+            "0xb2759e31646c96703f67991a99c02276a0232df89a4b8fb475a7e259ff49f3df",
+            "0xbd8c08ace58cd51f032b12712357813fd37c67ca2ce6782b651e7015a17b4ffe",
+            "0x9f0d2bc7c68e318993d28c0d2888668e148b84031f99e92814b36369cf1ab54c",
+            "0x2c77e873bde9675c51310b7975cdf37bb4c331bd8ece3601e22bd996b79883ba",
+            "0x3a0b0d7205bd54979475298816d1d40ee6efd82e39dccdfe7fd6235be4339a6f",
+            "0x60105f971aaf3dbfa6be2db52441700144bb2306eaa0dd04c51780b4e391c59c",
+            "0xdf9f9968199af23fc1abdded4dde363d9a2a3756de010f2ce6b1fb7f2dd7ce3e",
+            "0xa431cf82a4160693e0aae3f9dc241716ea9de8135844f962b15abab5cd35427e",
+            "0x1d507709505b7fe91691d2d3791b90682733b3bbb02feb8addd219385ab4f708",
+            "0xb600b3ff59761c9257bbc26320624b743e9d26801304eeb77fa5fb911cba82bd"
+          ],
+          "withdrawals": []
+        }
+      }
+    },
+    "proxy_implementation_slot": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x000000000000000000000000f555a12bffaef20cc201a74ae6513cb4aadb34b9"
+      }
+    },
+    "proxy_admin_slot": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x000000000000000000000000779ded0c9e1022225f8e0630b35a9b54be713736"
+      }
+    },
+    "implementation_address": "0xf555a12bffaef20cc201a74ae6513cb4aadb34b9",
+    "proxy_admin_address": "0x779ded0c9e1022225f8e0630b35a9b54be713736",
+    "owner_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x0000000000000000000000004dff9b5b0143e642a3f63a5bcf2d1c328e600bf8"
+      }
+    },
+    "owner_address": "0x4dff9b5b0143e642a3f63a5bcf2d1c328e600bf8",
+    "oft_contract_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x00000000000000000000000002ca37966753bdddf11216b73b16c1de756a7cf9"
+      }
+    },
+    "oft_contract_address": "0x02ca37966753bdddf11216b73b16c1de756a7cf9",
+    "isBlocked_raw": {
+      "original_user": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "aave_atoken": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "aave_pool": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "usdt0_proxy": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "implementation": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "proxy_admin": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "token_owner": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "oft_contract": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      }
+    },
+    "isTrusted_raw": {
+      "original_user": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "aave_atoken": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "aave_pool": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "usdt0_proxy": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "implementation": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "proxy_admin": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "token_owner": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "oft_contract": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      }
+    },
+    "usdt0_balances_raw": {
+      "original_user": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x00000000000000000000000000000000000000000000000000000000000f4240"
+        }
+      },
+      "aave_atoken": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x000000000000000000000000000000000000000000000000000026291b9e6469"
+        }
+      },
+      "aave_pool": {
+        "ok": true,
+        "response": {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      }
+    },
+    "aToken_user_balance_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x000000000000000000000000000000000000000000000000000174d5b5dbf5cd"
+      }
+    },
+    "aToken_total_supply_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x0000000000000000000000000000000000000000000000000002853bd683cf36"
+      }
+    },
+    "usdt0_total_supply_raw": {
+      "ok": true,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x00000000000000000000000000000000000000000000000000030c3c0fc7e40c"
+      }
+    },
+    "paused_probe": {
+      "ok": false,
+      "error": "{'code': 3, 'message': 'execution reverted'}"
+    }
+  }
+}

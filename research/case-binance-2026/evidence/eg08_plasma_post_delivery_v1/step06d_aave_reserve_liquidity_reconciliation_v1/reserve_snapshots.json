@@ -1,0 +1,268 @@
+[
+  {
+    "label": "PRE_DELIVERY",
+    "block_number": 36440002,
+    "block_hash": "0xaf7371e9593f63f52bec574ec2fe54cf77327b6ed30f5c8c808dbe77cbcab9f6",
+    "timestamp": 1793382007,
+    "reserve": {
+      "liquidity_index_raw": 1040542798566624905549002758,
+      "liquidity_rate_raw": 92982626995369084704281287,
+      "variable_borrow_index_raw": 1050959856523648840500739694,
+      "variable_borrow_rate_raw": 98081703756843391231996748,
+      "stable_borrow_rate_raw": 0,
+      "last_update_timestamp": 1793381888,
+      "reserve_id": 0,
+      "addresses": {
+        "aToken": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+        "stableDebtToken": "0x0000000000000000000000000000000000000000",
+        "variableDebtToken": "0xcbbc427b5658672768e11bfda00879839db4785f",
+        "interestRateStrategy": "0x2b16e93bdb1897f517881b3c388babd0c62c6cdc"
+      },
+      "raw_word_count": 15
+    },
+    "underlying_cash_raw": 1464021993436,
+    "pool_direct_balance_raw": 0,
+    "atoken_total_supply_raw": 699583940386476,
+    "user_atoken_balance_raw": 381657413555800,
+    "stable_debt_raw": 0,
+    "variable_debt_raw": 698125373723491,
+    "total_debt_raw": 698125373723491,
+    "cash_plus_debt_raw": 699589395716927,
+    "cash_debt_minus_atoken_supply_raw": 5455330451,
+    "usdt0_total_supply_raw": 682544884929974,
+    "user_usdt0_balance_raw": 5000000,
+    "blocklist": {
+      "USER": false,
+      "ATOKEN": false,
+      "POOL": false
+    }
+  },
+  {
+    "label": "POST_DELIVERY",
+    "block_number": 36440003,
+    "block_hash": "0xdfc44772c86cfcfa76e33249c1b58d236a128ef203f94f550d05f1db835eaaf3",
+    "timestamp": 1793382008,
+    "reserve": {
+      "liquidity_index_raw": 1040542798566624905549002758,
+      "liquidity_rate_raw": 92982626995369084704281287,
+      "variable_borrow_index_raw": 1050959856523648840500739694,
+      "variable_borrow_rate_raw": 98081703756843391231996748,
+      "stable_borrow_rate_raw": 0,
+      "last_update_timestamp": 1793381888,
+      "reserve_id": 0,
+      "addresses": {
+        "aToken": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+        "stableDebtToken": "0x0000000000000000000000000000000000000000",
+        "variableDebtToken": "0xcbbc427b5658672768e11bfda00879839db4785f",
+        "interestRateStrategy": "0x2b16e93bdb1897f517881b3c388babd0c62c6cdc"
+      },
+      "raw_word_count": 15
+    },
+    "underlying_cash_raw": 1464021993436,
+    "pool_direct_balance_raw": 0,
+    "atoken_total_supply_raw": 699583942449170,
+    "user_atoken_balance_raw": 381657414681101,
+    "stable_debt_raw": 0,
+    "variable_debt_raw": 698125375894766,
+    "total_debt_raw": 698125375894766,
+    "cash_plus_debt_raw": 699589397888202,
+    "cash_debt_minus_atoken_supply_raw": 5455439032,
+    "usdt0_total_supply_raw": 710544884929974,
+    "user_usdt0_balance_raw": 28000005000000,
+    "blocklist": {
+      "USER": false,
+      "ATOKEN": false,
+      "POOL": false
+    }
+  },
+  {
+    "label": "POST_SUPPLY_1",
+    "block_number": 36440195,
+    "block_hash": "0xf1c6f7b3bd0df6782d2d85c28e3d3f3cf2be67c99189df561e130f2f9fd8df8a",
+    "timestamp": 1793382200,
+    "reserve": {
+      "liquidity_index_raw": 1040543755782423316469795342,
+      "liquidity_rate_raw": 92499527087921640986268762,
+      "variable_borrow_index_raw": 1050960876340854028084799215,
+      "variable_borrow_rate_raw": 97621250357280201141545343,
+      "stable_borrow_rate_raw": 0,
+      "last_update_timestamp": 1793382200,
+      "reserve_id": 0,
+      "addresses": {
+        "aToken": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+        "stableDebtToken": "0x0000000000000000000000000000000000000000",
+        "variableDebtToken": "0xcbbc427b5658672768e11bfda00879839db4785f",
+        "interestRateStrategy": "0x2b16e93bdb1897f517881b3c388babd0c62c6cdc"
+      },
+      "raw_word_count": 15
+    },
+    "underlying_cash_raw": 1816350621611,
+    "pool_direct_balance_raw": 0,
+    "atoken_total_supply_raw": 699936667114826,
+    "user_atoken_balance_raw": 382009965739007,
+    "stable_debt_raw": 0,
+    "variable_debt_raw": 698125792779690,
+    "total_debt_raw": 698125792779690,
+    "cash_plus_debt_raw": 699942143401301,
+    "cash_debt_minus_atoken_supply_raw": 5476286475,
+    "usdt0_total_supply_raw": 710544884929974,
+    "user_usdt0_balance_raw": 27647670000000,
+    "blocklist": {
+      "USER": false,
+      "ATOKEN": false,
+      "POOL": false
+    }
+  },
+  {
+    "label": "POST_SUPPLY_2",
+    "block_number": 36440301,
+    "block_hash": "0x0d5d4e7878eb4cecf05a86aeca83e65b5aff6bc58d219c211ffb8bb0412bcaf2",
+    "timestamp": 1793382306,
+    "reserve": {
+      "liquidity_index_raw": 1040544079300952006564674152,
+      "liquidity_rate_raw": 57316295873223980611158622,
+      "variable_borrow_index_raw": 1050961221190873408830350803,
+      "variable_borrow_rate_raw": 62879260814609542283513089,
+      "stable_borrow_rate_raw": 0,
+      "last_update_timestamp": 1793382306,
+      "reserve_id": 0,
+      "addresses": {
+        "aToken": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+        "stableDebtToken": "0x0000000000000000000000000000000000000000",
+        "variableDebtToken": "0xcbbc427b5658672768e11bfda00879839db4785f",
+        "interestRateStrategy": "0x2b16e93bdb1897f517881b3c388babd0c62c6cdc"
+      },
+      "raw_word_count": 15
+    },
+    "underlying_cash_raw": 29464015552116,
+    "pool_direct_balance_raw": 0,
+    "atoken_total_supply_raw": 727584549664703,
+    "user_atoken_balance_raw": 409657754510852,
+    "stable_debt_raw": 0,
+    "variable_debt_raw": 698126021854529,
+    "total_debt_raw": 698126021854529,
+    "cash_plus_debt_raw": 727590037406645,
+    "cash_debt_minus_atoken_supply_raw": 5487741942,
+    "usdt0_total_supply_raw": 710544884929974,
+    "user_usdt0_balance_raw": 0,
+    "blocklist": {
+      "USER": false,
+      "ATOKEN": false,
+      "POOL": false
+    }
+  },
+  {
+    "label": "POST_WITHDRAWAL",
+    "block_number": 36872192,
+    "block_hash": "0xf25ca962e4065f98a84a0c493ecc3bd8bc0d097233d42dcb9964adaf4f431b80",
+    "timestamp": 1793815158,
+    "reserve": {
+      "liquidity_index_raw": 1041151093445833705227020749,
+      "liquidity_rate_raw": 57639115256840738047684420,
+      "variable_borrow_index_raw": 1051646891262034593881359270,
+      "variable_borrow_rate_raw": 63780889165822213620284088,
+      "stable_borrow_rate_raw": 0,
+      "last_update_timestamp": 1793815158,
+      "reserve_id": 0,
+      "addresses": {
+        "aToken": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+        "stableDebtToken": "0x0000000000000000000000000000000000000000",
+        "variableDebtToken": "0xcbbc427b5658672768e11bfda00879839db4785f",
+        "interestRateStrategy": "0x2b16e93bdb1897f517881b3c388babd0c62c6cdc"
+      },
+      "raw_word_count": 15
+    },
+    "underlying_cash_raw": 34610052022673,
+    "pool_direct_balance_raw": 0,
+    "atoken_total_supply_raw": 710217233569627,
+    "user_atoken_balance_raw": 409896732384015,
+    "stable_debt_raw": 0,
+    "variable_debt_raw": 675609720201281,
+    "total_debt_raw": 675609720201281,
+    "cash_plus_debt_raw": 710219772223954,
+    "cash_debt_minus_atoken_supply_raw": 2538654327,
+    "usdt0_total_supply_raw": 824135267718816,
+    "user_usdt0_balance_raw": 1000000,
+    "blocklist": {
+      "USER": false,
+      "ATOKEN": false,
+      "POOL": false
+    }
+  },
+  {
+    "label": "FORK_BASELINE",
+    "block_number": 36945646,
+    "block_hash": "0x95d31d374540a2cc8ddd2f0311b762f43c253f01af6b7ea47cef94fa62d6d626",
+    "timestamp": 1793888944,
+    "reserve": {
+      "liquidity_index_raw": 1041252542966472349040112079,
+      "liquidity_rate_raw": 42508785923629433588097016,
+      "variable_borrow_index_raw": 1051761493920927137498938596,
+      "variable_borrow_rate_raw": 47525608301596984375564067,
+      "stable_borrow_rate_raw": 0,
+      "last_update_timestamp": 1793888637,
+      "reserve_id": 0,
+      "addresses": {
+        "aToken": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+        "stableDebtToken": "0x0000000000000000000000000000000000000000",
+        "variableDebtToken": "0xcbbc427b5658672768e11bfda00879839db4785f",
+        "interestRateStrategy": "0x2b16e93bdb1897f517881b3c388babd0c62c6cdc"
+      },
+      "raw_word_count": 15
+    },
+    "underlying_cash_raw": 41462618740921,
+    "pool_direct_balance_raw": 0,
+    "atoken_total_supply_raw": 708947724990317,
+    "user_atoken_balance_raw": 409936842265982,
+    "stable_debt_raw": 0,
+    "variable_debt_raw": 667486591834649,
+    "total_debt_raw": 667486591834649,
+    "cash_plus_debt_raw": 708949210575570,
+    "cash_debt_minus_atoken_supply_raw": 1485585253,
+    "usdt0_total_supply_raw": 857766424787224,
+    "user_usdt0_balance_raw": 1000000,
+    "blocklist": {
+      "USER": false,
+      "ATOKEN": false,
+      "POOL": false
+    }
+  },
+  {
+    "label": "LATEST",
+    "block_number": 36947050,
+    "block_hash": "0x699d5e2a6d121430534ffec7a4293f128762465106c6e708d70ed558986baf74",
+    "timestamp": 1793890348,
+    "reserve": {
+      "liquidity_index_raw": 1041254786809826519757516206,
+      "liquidity_rate_raw": 42495856354413866549730460,
+      "variable_borrow_index_raw": 1051764027913652019028581310,
+      "variable_borrow_rate_raw": 47511577621378175028323847,
+      "stable_borrow_rate_raw": 0,
+      "last_update_timestamp": 1793890236,
+      "reserve_id": 0,
+      "addresses": {
+        "aToken": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+        "stableDebtToken": "0x0000000000000000000000000000000000000000",
+        "variableDebtToken": "0xcbbc427b5658672768e11bfda00879839db4785f",
+        "interestRateStrategy": "0x2b16e93bdb1897f517881b3c388babd0c62c6cdc"
+      },
+      "raw_word_count": 15
+    },
+    "underlying_cash_raw": 41469057660632,
+    "pool_direct_balance_raw": 0,
+    "atoken_total_supply_raw": 708955505284868,
+    "user_atoken_balance_raw": 409937617887284,
+    "stable_debt_raw": 0,
+    "variable_debt_raw": 667488003811601,
+    "total_debt_raw": 667488003811601,
+    "cash_plus_debt_raw": 708957061472233,
+    "cash_debt_minus_atoken_supply_raw": 1556187365,
+    "usdt0_total_supply_raw": 857774947421282,
+    "user_usdt0_balance_raw": 1000000,
+    "blocklist": {
+      "USER": false,
+      "ATOKEN": false,
+      "POOL": false
+    }
+  }
+]

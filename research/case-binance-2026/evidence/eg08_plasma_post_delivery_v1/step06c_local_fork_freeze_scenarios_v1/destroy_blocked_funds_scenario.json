@@ -1,0 +1,61 @@
+{
+  "target": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+  "local_fork_only": true,
+  "block_tx": "0xb8161207203a20333d3bbe0f358da0ec77cbfbe3f5d1c02c3be983022ff47e73",
+  "receipt_status": 1,
+  "transaction_hash": "0x0444e028984c74bb7e824e4936b0bdf6704984c1fde75531b63fafb40f461625",
+  "logs": [
+    {
+      "address": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+      "topics": [
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "0x0000000000000000000000005d72a9d9a9510cd8cbdba12ac62593a58930a948",
+        "0x0000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "data": "0x000000000000000000000000000000000000000000000000000025b5c4a958b9",
+      "blockHash": "0xc003237c373951179dc9fbdb66f11d1042add8048239dda280689e3cb0057949",
+      "blockNumber": "0x233bef0",
+      "blockTimestamp": "0x6aec92c9",
+      "transactionHash": "0x0444e028984c74bb7e824e4936b0bdf6704984c1fde75531b63fafb40f461625",
+      "transactionIndex": "0x0",
+      "logIndex": "0x0",
+      "removed": false
+    },
+    {
+      "address": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+      "topics": [
+        "0x6a2859ae7902313752498feb80a014e6e7275fe964c79aa965db815db1c7f1e9",
+        "0x0000000000000000000000005d72a9d9a9510cd8cbdba12ac62593a58930a948"
+      ],
+      "data": "0x000000000000000000000000000000000000000000000000000025b5c4a958b9",
+      "blockHash": "0xc003237c373951179dc9fbdb66f11d1042add8048239dda280689e3cb0057949",
+      "blockNumber": "0x233bef0",
+      "blockTimestamp": "0x6aec92c9",
+      "transactionHash": "0x0444e028984c74bb7e824e4936b0bdf6704984c1fde75531b63fafb40f461625",
+      "transactionIndex": "0x0",
+      "logIndex": "0x1",
+      "removed": false
+    }
+  ],
+  "before": {
+    "underlying_balance": 41462618740921,
+    "usdt0_total_supply": 857766424787224,
+    "atoken_total_supply": 708947746969622,
+    "user_atoken_balance": 409936854975137
+  },
+  "after": {
+    "underlying_balance": 0,
+    "usdt0_total_supply": 816303806046303,
+    "atoken_total_supply": 708947748880866,
+    "user_atoken_balance": 409936856080281
+  },
+  "underlying_delta": -41462618740921,
+  "usdt0_supply_delta": -41462618740921,
+  "atoken_supply_delta": 1911244,
+  "user_atoken_delta": 1105144,
+  "withdrawal_after_destroy": {
+    "tx_hash": "0x59d813f7a497298234d6455e0d28bb9eaec798c4d0f5721f44dfe95897cebf35",
+    "receipt_status": 0,
+    "logs": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "amount_raw": 1000000,
+  "amount_usdt0": 1.0,
+  "asset": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+  "block": 36945392,
+  "chain_id": 9745,
+  "classification": "READ_ONLY_ETH_CALL",
+  "pool": "0x925a2a7214ed92428b5b1b090f80b25700095e12",
+  "recipient": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+  "return_data": "0x00000000000000000000000000000000000000000000000000000000000f4240",
+  "sender": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+  "state_modified": false,
+  "status": "CALL_SUCCESS",
+  "transaction_broadcast": false
+}

@@ -1,0 +1,42 @@
+{
+  "classification": "ISSUER_FREEZE_CAPABILITY_AUDIT",
+  "chain_id": 9745,
+  "latest_block": 36944474,
+  "token_proxy": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+  "implementation": "0xf555a12bffaef20cc201a74ae6513cb4aadb34b9",
+  "proxy_admin": "0x779ded0c9e1022225f8e0630b35a9b54be713736",
+  "token_owner": "0x4dff9b5b0143e642a3f63a5bcf2d1c328e600bf8",
+  "oft_contract": "0x02ca37966753bdddf11216b73b16c1de756a7cf9",
+  "addresses": {
+    "original_user": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+    "aave_atoken": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+    "aave_pool": "0x925a2a7214ed92428b5b1b090f80b25700095e12"
+  },
+  "latest_blocklist_state": {
+    "original_user": 0,
+    "aave_atoken": 0,
+    "aave_pool": 0,
+    "usdt0_proxy": 0
+  },
+  "latest_usdt0_balances_raw": {
+    "original_user": 1000000,
+    "aave_atoken": 41957998879849,
+    "aave_pool": 0
+  },
+  "control_event_counts": {
+    "BlockPlaced_relevant": 0,
+    "BlockReleased_relevant": 0,
+    "DestroyedBlockedFunds_relevant": 0
+  },
+  "destroyed_blocked_funds_events": [],
+  "limitations": [
+    "Blocklist snapshots are block-end states.",
+    "Event scan starts at the 28M delivery block.",
+    "Pre-delivery blocklist state is separately queried.",
+    "Function ABI presence does not prove successful execution.",
+    "No transaction was submitted or simulated.",
+    "No conclusion about beneficial ownership or recovery.",
+    "Aave withdrawal consequences require a separate call-path and implementation audit."
+  ],
+  "collection_time_utc": "2026-11-05T14:13:22.506047+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "file_count": 5,
+  "sha256": {
+    "baseline.json": "fadc3be1354bd0bb863206b850340102bfaa32494cfd3ad1ae5e7f1355306b58",
+    "destroy_blocked_funds_scenario.json": "796bb18f13b125a7929844122f588b854efc9bc5ebffe2363aec6f051dbbad1f",
+    "fork_context.json": "96dcc235e15ac5266e7684a4c6c68756d52d9671c4aec4a7b573ac7f6edb6016",
+    "fork_restoration.json": "d56262678db7cee142a737f7eed197d5edba2851503441289a402e113cd8b61d",
+    "freeze_scenarios.json": "7c361c6fd9445a0eed0e8da7a494c41f1d96d6b5f6ff491c200014f27bbdd316"
+  }
+}

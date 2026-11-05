@@ -1,0 +1,25 @@
+{
+  "classification": "AAVE_RESERVE_LIQUIDITY_AND_DEBT_RECONCILIATION",
+  "chain_id": 9745,
+  "pool": "0x925a2a7214ed92428b5b1b090f80b25700095e12",
+  "token": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+  "atoken": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+  "tracked_user": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+  "tracked_outgoing_raw": 28000005000000,
+  "tracked_incoming_raw": 1000000,
+  "tracked_net_outflow_raw": 28000004000000,
+  "tracked_net_outflow_usdt0": 28000004.0,
+  "user_atoken_balance_delta_raw": 28000340955052,
+  "successful_snapshots": 7,
+  "failed_snapshots": 0,
+  "errors": [],
+  "limitations": [
+    "Historical RPC block-end snapshots.",
+    "aToken underlying cash is not total reserve assets.",
+    "Debt token supplies are approximate outstanding debt measures.",
+    "Cash plus debt is not a complete Aave accounting reconciliation.",
+    "Treasury accrual, unbacked amounts, deficit and rounding require separate checks.",
+    "No beneficial ownership or criminal attribution established."
+  ],
+  "collection_time_utc": "2026-11-05T14:53:08.784894+00:00"
+}

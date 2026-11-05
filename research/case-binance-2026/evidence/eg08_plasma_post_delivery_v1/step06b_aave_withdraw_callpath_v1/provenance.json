@@ -1,0 +1,34 @@
+{
+  "chain_id": 9745,
+  "classification": "AAVE_WITHDRAW_CALLPATH_DISCOVERY",
+  "collection_time_utc": "2026-11-05T14:25:10.320835+00:00",
+  "contracts": {
+    "ATOKEN_PROXY": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+    "POOL_PROXY": "0x925a2a7214ed92428b5b1b090f80b25700095e12",
+    "USDT0_PROXY": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb"
+  },
+  "historical_blocks": {
+    "DELIVERY": 36440003,
+    "LATEST": 36945392,
+    "SUPPLY_1": 36440195,
+    "SUPPLY_2": 36440301,
+    "WITHDRAWAL": 36872192
+  },
+  "limitations": [
+    "No transaction broadcast.",
+    "eth_call tests current state only.",
+    "It does not simulate hypothetical blocklist changes.",
+    "Implementation slot interpretation must be checked against proxy bytecode.",
+    "Runtime bytecode alone does not establish source-level control flow.",
+    "Unverified source must remain UNKNOWN."
+  ],
+  "operations": [
+    "eth_getStorageAt",
+    "eth_getCode",
+    "eth_call",
+    "debug_traceCall",
+    "Sourcify metadata lookup"
+  ],
+  "research_step": "STEP_06B_01",
+  "rpc": "https://rpc.plasma.to"
+}

@@ -1,0 +1,15 @@
+{
+  "research_question": "What issuer freeze capabilities apply to the 28M USDT0 position after Aave supply?",
+  "provider": "https://rpc.plasma.to",
+  "chain_id": 9745,
+  "token_proxy": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+  "official_documentation": [
+    "https://docs.usdt0.to/technical-documentation/token-features/additional-behavior",
+    "https://docs.usdt0.to/technical-documentation/deployments"
+  ],
+  "explorer_sources": [
+    "https://plasmascan.to/address/0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+    "https://plasmascan.to/address/0xf555a12bffaef20cc201a74ae6513cb4aadb34b9"
+  ],
+  "collection_time_utc": "2026-11-05T14:13:22.506243+00:00"
+}

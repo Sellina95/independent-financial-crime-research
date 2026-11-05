@@ -1,0 +1,9 @@
+{
+  "file_count": 4,
+  "sha256": {
+    "provenance.json": "26eca2b0ffd0d36342e9f8c980a7b3211b392d03b2799437a5a49e256beca8bd",
+    "raw_reserve_data.json": "81139bd860948090198c3d544c609a8b5aaddcb4c64d0b53aaaea4297a1f119a",
+    "reserve_snapshots.json": "7a537508a9a8855e676e756a477a9744704341eb9ae97b10fa22755f04040d3e",
+    "summary.json": "51c0e0fe17ef3103ebf25dc05a7bd08637efa1d868378e6508e4f26fcaacafe7"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "DELIVERY": {
+    "ATOKEN_PROXY": {
+      "block": 36440003,
+      "implementation": "0x2ffb265d591809fb1c4baba84996507e3c168406",
+      "implementation_slot": "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+      "proxy": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+      "raw_storage": "0x0000000000000000000000002ffb265d591809fb1c4baba84996507e3c168406",
+      "status": "READ_SUCCESS"
+    },
+    "POOL_PROXY": {
+      "block": 36440003,
+      "implementation": "0xcd23ff25e658395e0fe1ce4803059144707a6223",
+      "implementation_slot": "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+      "proxy": "0x925a2a7214ed92428b5b1b090f80b25700095e12",
+      "raw_storage": "0x000000000000000000000000cd23ff25e658395e0fe1ce4803059144707a6223",
+      "status": "READ_SUCCESS"
+    },
+    "USDT0_PROXY": {
+      "block": 36440003,
+      "implementation": "0xf555a12bffaef20cc201a74ae6513cb4aadb34b9",
+      "implementation_slot": "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+      "proxy": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+      "raw_storage": "0x000000000000000000000000f555a12bffaef20cc201a74ae6513cb4aadb34b9",
+      "status": "READ_SUCCESS"
+    }
+  },
+  "LATEST": {
+    "ATOKEN_PROXY": {
+      "block": 36945392,
+      "implementation": "0x2ffb265d591809fb1c4baba84996507e3c168406",
+      "implementation_slot": "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+      "proxy": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+      "raw_storage": "0x0000000000000000000000002ffb265d591809fb1c4baba84996507e3c168406",
+      "status": "READ_SUCCESS"
+    },
+    "POOL_PROXY": {
+      "block": 36945392,
+      "implementation": "0xcd23ff25e658395e0fe1ce4803059144707a6223",
+      "implementation_slot": "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+      "proxy": "0x925a2a7214ed92428b5b1b090f80b25700095e12",
+      "raw_storage": "0x000000000000000000000000cd23ff25e658395e0fe1ce4803059144707a6223",
+      "status": "READ_SUCCESS"
+    },
+    "USDT0_PROXY": {
+      "block": 36945392,
+      "implementation": "0xf555a12bffaef20cc201a74ae6513cb4aadb34b9",
+      "implementation_slot": "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+      "proxy": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+      "raw_storage": "0x000000000000000000000000f555a12bffaef20cc201a74ae6513cb4aadb34b9",
+      "status": "READ_SUCCESS"
+    }
+  },
+  "SUPPLY_1": {
+    "ATOKEN_PROXY": {
+      "block": 36440195,
+      "implementation": "0x2ffb265d591809fb1c4baba84996507e3c168406",
+      "implementation_slot": "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+      "proxy": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+      "raw_storage": "0x0000000000000000000000002ffb265d591809fb1c4baba84996507e3c168406",
+      "status": "READ_SUCCESS"
+    },
+    "POOL_PROXY": {
+      "block": 36440195,
+      "implementation": "0xcd23ff25e658395e0fe1ce4803059144707a6223",
+      "implementation_slot": "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+      "proxy": "0x925a2a7214ed92428b5b1b090f80b25700095e12",
+      "raw_storage": "0x000000000000000000000000cd23ff25e658395e0fe1ce4803059144707a6223",
+      "status": "READ_SUCCESS"
+    },
+    "USDT0_PROXY": {
+      "block": 36440195,
+      "implementation": "0xf555a12bffaef20cc201a74ae6513cb4aadb34b9",
+      "implementation_slot": "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+      "proxy": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+      "raw_storage": "0x000000000000000000000000f555a12bffaef20cc201a74ae6513cb4aadb34b9",
+      "status": "READ_SUCCESS"
+    }
+  },
+  "SUPPLY_2": {
+    "ATOKEN_PROXY": {
+      "block": 36440301,
+      "implementation": "0x2ffb265d591809fb1c4baba84996507e3c168406",
+      "implementation_slot": "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+      "proxy": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+      "raw_storage": "0x0000000000000000000000002ffb265d591809fb1c4baba84996507e3c168406",
+      "status": "READ_SUCCESS"
+    },
+    "POOL_PROXY": {
+      "block": 36440301,
+      "implementation": "0xcd23ff25e658395e0fe1ce4803059144707a6223",
+      "implementation_slot": "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+      "proxy": "0x925a2a7214ed92428b5b1b090f80b25700095e12",
+      "raw_storage": "0x000000000000000000000000cd23ff25e658395e0fe1ce4803059144707a6223",
+      "status": "READ_SUCCESS"
+    },
+    "USDT0_PROXY": {
+      "block": 36440301,
+      "implementation": "0xf555a12bffaef20cc201a74ae6513cb4aadb34b9",
+      "implementation_slot": "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+      "proxy": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+      "raw_storage": "0x000000000000000000000000f555a12bffaef20cc201a74ae6513cb4aadb34b9",
+      "status": "READ_SUCCESS"
+    }
+  },
+  "WITHDRAWAL": {
+    "ATOKEN_PROXY": {
+      "block": 36872192,
+      "implementation": "0x2ffb265d591809fb1c4baba84996507e3c168406",
+      "implementation_slot": "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+      "proxy": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+      "raw_storage": "0x0000000000000000000000002ffb265d591809fb1c4baba84996507e3c168406",
+      "status": "READ_SUCCESS"
+    },
+    "POOL_PROXY": {
+      "block": 36872192,
+      "implementation": "0xcd23ff25e658395e0fe1ce4803059144707a6223",
+      "implementation_slot": "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+      "proxy": "0x925a2a7214ed92428b5b1b090f80b25700095e12",
+      "raw_storage": "0x000000000000000000000000cd23ff25e658395e0fe1ce4803059144707a6223",
+      "status": "READ_SUCCESS"
+    },
+    "USDT0_PROXY": {
+      "block": 36872192,
+      "implementation": "0xf555a12bffaef20cc201a74ae6513cb4aadb34b9",
+      "implementation_slot": "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+      "proxy": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+      "raw_storage": "0x000000000000000000000000f555a12bffaef20cc201a74ae6513cb4aadb34b9",
+      "status": "READ_SUCCESS"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "ORIGINAL_USER": {
+    "error": "{'code': 3, 'message': 'execution reverted'}"
+  },
+  "AAVE_ATOKEN": {
+    "error": "{'code': 3, 'message': 'execution reverted'}"
+  },
+  "AAVE_POOL": {
+    "error": "{'code': 3, 'message': 'execution reverted'}"
+  },
+  "USDT0_TOKEN": {
+    "error": "{'code': 3, 'message': 'execution reverted'}"
+  }
+}

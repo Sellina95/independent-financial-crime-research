@@ -1,0 +1,19 @@
+{
+  "step": "06A",
+  "classification": "ISSUER_FREEZE_CAPABILITY_AUDIT",
+  "provider": "https://rpc.plasma.to",
+  "chain_id": 9745,
+  "start_block": 36440003,
+  "end_block": 36944474,
+  "files_sha256": {
+    "capability_inventory.json": "9fda3010cced41b55ac363772ee0e6b24c487df1aa3f56e3c282c55ecc4f43b2",
+    "chain_identity.json": "ca1aa38c8770595a03cf4e38b41509dfb06f948ed32ee4aaa4eff481a2fbb63e",
+    "contract_code_inventory.json": "60f7215955f106d42f042caca3e618f1a4dbf1363cae22445d4d7153aed51e1d",
+    "event_scan_summary.json": "61799ad5c7362c027386d0b6886dae0b944fda1ea120766a3e71ecb1e43074fa",
+    "historical_control_snapshots.json": "75ef840d90c64791bab85e83faa22102fb6dc4c419ae481b2125c75dabb7ea7c",
+    "provenance.json": "a389eadd9f4d7d13456831d3a83406358de8854c639e882e9845b4c1dc4a9d67",
+    "raw_event_logs.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "relevant_control_events.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "summary.json": "f0a079356220ef1261c6228371031f6fdab8b70a141a2d0d454e4ce3a9ee70e1"
+  }
+}

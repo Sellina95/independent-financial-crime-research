@@ -1,0 +1,36 @@
+{
+  "rpc": "https://rpc.plasma.to",
+  "method": "eth_call",
+  "read_only": true,
+  "mainnet_transactions_sent": false,
+  "snapshots": [
+    [
+      "PRE_DELIVERY",
+      36440002
+    ],
+    [
+      "POST_DELIVERY",
+      36440003
+    ],
+    [
+      "POST_SUPPLY_1",
+      36440195
+    ],
+    [
+      "POST_SUPPLY_2",
+      36440301
+    ],
+    [
+      "POST_WITHDRAWAL",
+      36872192
+    ],
+    [
+      "FORK_BASELINE",
+      36945646
+    ],
+    [
+      "LATEST",
+      36947050
+    ]
+  ]
+}

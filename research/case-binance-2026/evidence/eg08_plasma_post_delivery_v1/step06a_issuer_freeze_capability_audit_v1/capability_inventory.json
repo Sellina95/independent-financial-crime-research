@@ -1,0 +1,86 @@
+{
+  "proxy": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+  "implementation": "0xf555a12bffaef20cc201a74ae6513cb4aadb34b9",
+  "implementation_name_reported_by_explorer": "TetherTokenOFTExtension",
+  "capabilities": {
+    "owner": {
+      "signature": "owner()",
+      "selector": "0x8da5cb5b",
+      "listed_in_verified_explorer_abi": true,
+      "selector_pattern_in_runtime_bytecode": true
+    },
+    "oftContract": {
+      "signature": "oftContract()",
+      "selector": "0x232849c3",
+      "listed_in_verified_explorer_abi": true,
+      "selector_pattern_in_runtime_bytecode": true
+    },
+    "isBlocked": {
+      "signature": "isBlocked(address)",
+      "selector": "0xfbac3951",
+      "listed_in_verified_explorer_abi": true,
+      "selector_pattern_in_runtime_bytecode": true
+    },
+    "isTrusted": {
+      "signature": "isTrusted(address)",
+      "selector": "0x96d64879",
+      "listed_in_verified_explorer_abi": true,
+      "selector_pattern_in_runtime_bytecode": true
+    },
+    "balanceOf": {
+      "signature": "balanceOf(address)",
+      "selector": "0x70a08231",
+      "listed_in_verified_explorer_abi": true,
+      "selector_pattern_in_runtime_bytecode": true
+    },
+    "totalSupply": {
+      "signature": "totalSupply()",
+      "selector": "0x18160ddd",
+      "listed_in_verified_explorer_abi": true,
+      "selector_pattern_in_runtime_bytecode": true
+    },
+    "decimals": {
+      "signature": "decimals()",
+      "selector": "0x313ce567",
+      "listed_in_verified_explorer_abi": true,
+      "selector_pattern_in_runtime_bytecode": true
+    },
+    "addToBlockedList": {
+      "signature": "addToBlockedList(address)",
+      "selector": "0x3c7c9b90",
+      "listed_in_verified_explorer_abi": true,
+      "selector_pattern_in_runtime_bytecode": true
+    },
+    "removeFromBlockedList": {
+      "signature": "removeFromBlockedList(address)",
+      "selector": "0x1a14f449",
+      "listed_in_verified_explorer_abi": true,
+      "selector_pattern_in_runtime_bytecode": true
+    },
+    "destroyBlockedFunds": {
+      "signature": "destroyBlockedFunds(address)",
+      "selector": "0x0e27a385",
+      "listed_in_verified_explorer_abi": true,
+      "selector_pattern_in_runtime_bytecode": true
+    },
+    "paused": {
+      "signature": "paused()",
+      "selector": "0x5c975abb",
+      "listed_in_verified_explorer_abi": false,
+      "selector_pattern_in_runtime_bytecode": false
+    },
+    "pause": {
+      "signature": "pause()",
+      "selector": "0x8456cb59",
+      "listed_in_verified_explorer_abi": false,
+      "selector_pattern_in_runtime_bytecode": false
+    },
+    "unpause": {
+      "signature": "unpause()",
+      "selector": "0x3f4ba83a",
+      "listed_in_verified_explorer_abi": false,
+      "selector_pattern_in_runtime_bytecode": false
+    }
+  },
+  "interpretation_limit": "ABI and selector presence establish exposed interfaces, not complete authorization semantics. Owner/admin execution conditions require source-level and historical state verification."
+}

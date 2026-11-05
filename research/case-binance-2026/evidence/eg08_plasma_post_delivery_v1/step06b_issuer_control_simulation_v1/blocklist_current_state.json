@@ -1,0 +1,22 @@
+{
+  "ORIGINAL_USER": {
+    "address": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+    "status": "QUERY_FAILED",
+    "error": "{'code': 3, 'message': 'execution reverted'}"
+  },
+  "AAVE_ATOKEN": {
+    "address": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+    "status": "QUERY_FAILED",
+    "error": "{'code': 3, 'message': 'execution reverted'}"
+  },
+  "AAVE_POOL": {
+    "address": "0x925a2a7214ed92428b5b1b090f80b25700095e12",
+    "status": "QUERY_FAILED",
+    "error": "{'code': 3, 'message': 'execution reverted'}"
+  },
+  "USDT0_TOKEN": {
+    "address": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+    "status": "QUERY_FAILED",
+    "error": "{'code': 3, 'message': 'execution reverted'}"
+  }
+}

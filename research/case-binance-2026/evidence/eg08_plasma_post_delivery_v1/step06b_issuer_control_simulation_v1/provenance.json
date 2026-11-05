@@ -1,0 +1,20 @@
+{
+  "classification": "READ_ONLY_ISSUER_AUTHORITY_SIMULATION",
+  "chain_id": 9745,
+  "block": 36945646,
+  "collection_time_utc": "2026-11-05T14:29:11.648348+00:00",
+  "methods": [
+    "eth_call",
+    "owner()",
+    "isBlocked(address)",
+    "addToBlockedList(address)"
+  ],
+  "transaction_broadcast": false,
+  "state_modified": false,
+  "limitations": [
+    "Simulated owner calls do not establish multisig approval.",
+    "No actual blocklist state was changed.",
+    "Successful addToBlockedList simulation does not alone prove transfer restrictions.",
+    "Transfer implementation and Aave withdrawal consequences require separate verification."
+  ]
+}

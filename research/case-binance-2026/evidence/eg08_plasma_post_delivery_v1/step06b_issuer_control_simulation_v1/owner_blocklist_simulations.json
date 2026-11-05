@@ -1,0 +1,30 @@
+{
+  "ORIGINAL_USER": {
+    "target": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+    "caller": "0x4dff9b5b0143e642a3f63a5bcf2d1c328e600bf8",
+    "status": "CALL_SUCCESS",
+    "return_data": "0x",
+    "state_persisted": false
+  },
+  "AAVE_ATOKEN": {
+    "target": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+    "caller": "0x4dff9b5b0143e642a3f63a5bcf2d1c328e600bf8",
+    "status": "CALL_SUCCESS",
+    "return_data": "0x",
+    "state_persisted": false
+  },
+  "AAVE_POOL": {
+    "target": "0x925a2a7214ed92428b5b1b090f80b25700095e12",
+    "caller": "0x4dff9b5b0143e642a3f63a5bcf2d1c328e600bf8",
+    "status": "CALL_SUCCESS",
+    "return_data": "0x",
+    "state_persisted": false
+  },
+  "USDT0_TOKEN": {
+    "target": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+    "caller": "0x4dff9b5b0143e642a3f63a5bcf2d1c328e600bf8",
+    "status": "CALL_SUCCESS",
+    "return_data": "0x",
+    "state_persisted": false
+  }
+}
