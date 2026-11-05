@@ -2,7 +2,7 @@
 ## Binance 2026 | Independent Financial Crime & Fund-Preservation Research
 
 **Status:** ACTIVE RESEARCH CHARTER — NOT A COMPLETED FORENSIC FINDING  
-**Evidence cutoff:** 2026-11-04  
+**Evidence cutoff:** 2026-11-05
 **Working branch:** `research/case-binance-2026`  
 **Publication gate:** No changes to `main` or the existing public report without explicit approval after audit.
 
@@ -152,17 +152,17 @@ Source: `evidence/eg03_recipient_blacklist_v1.json`.
 | ID | Research question | Current evidence | Acceptance test | Priority |
 |---|---|---|---|---|
 | EG-01 | How much USDT was actually present **at each blacklist execution instant**? | **SUBSTANTIALLY VERIFIED** — three addresses: blacklist receipts/events, block-wide Transfer reconciliation, adjacent-block balances PASS; execution-instant balances strongly inferred, not directly traced | Same chain/token/address/receipt; intra-block ordering; full Transfer reconciliation and trace where needed; distinguish inferred vs observed execution-time balance | **P0** |
-| EG-02 | What **post-blacklist inflows** changed later restricted balance? Is restricted value distinct from initial balance and recovered assets? | Incomplete post-event ledger; mechanism discussed publicly | Time-stamped address/token ledger, inflows/outflows, blacklist state, token semantics, recoveries and redemptions kept separately | **P0** |
+| EG-02 | What **post-blacklist inflows** changed later restricted balance? Is restricted value distinct from initial balance and recovered assets? | **SCOPED RECONCILIATION PASS** — Central, blocks 26300955–26301167: 204,315,411.592122 USDT inbound, zero outgoing Transfer events, ending balance 1,175,464,711.075362 USDT; difference 0; evidence committed in `eg02_central_post_blacklist_ledger_v1/` | Independent second-provider replay; execution-time rather than block-end state; wider address/chain coverage; distinguish balance increase from recovery | **P0** |
 | EG-03 | Are three event-time address balances double counted or incomparable because of asynchronous snapshots? | **PARTIAL PASS** — synchronized balances and three intermediate-wallet distributions reconciled; downstream recipient coverage and restriction status remain open | Time-indexed conservation, synchronized snapshots where possible, recipient-identity and transfer-link checks; report scope-specific estimate only | **P0** |
 | EG-04 | Does a genuine discrepancy persist against institutional freeze numbers after basis normalization? | Not established | Normalize UTC cutoff, chain, token, pricing, frozen/intercepted/recovered definitions; verify underlying receipt evidence and alternative explanations | P1 |
 | EG-05 | What do **64 attempts / 37 failures** refer to, and why did they fail? | **Population and denominator unverified** | Locate original claim/dataset; classify external tx vs internal call vs batch item, status, revert, nonce, gas, execution environment; compare with officially reported 50 signing transactions without equating counts | **P1** |
-| EG-06 | Do Binance's EIP-7702 account, authorization revocation, and **T02/T03/T17** align chronologically? | Official November 3 narrative available, T02/T03/T17 meaning not yet recovered from original case evidence | Resolve ID definitions first; compare broadcast vs confirmation times, UTC, blocks, indexes, execution privileges and revocation | P1 |
+| EG-06 | Did delegated execution or asset movement continue after Binance's withdrawal suspension became effective? | **PARTIAL — CURRENT PRIORITY**. T02/T03/T17 technical linkage is documented; TechCrunch reports public confirmation by 22:27 UTC; Binance retrospectively reports a final 2,961.9 ETH transfer finalized at 23:56 UTC and delegation removal at 00:10 UTC. The 22:39:35 UTC candidate remains explorer-reported and not independently replayed. Exact internal suspension cutoff is UNKNOWN. | Authenticate the actual suspension cutoff; independently retrieve candidate transaction, receipt, trace and historical delegation state from two providers; compare broadcast, inclusion and finalization separately | **P0** |
 | EG-07 | Can a TRM-reported **TRON pool / self-minted-token / receipt-token value transfer** be reproduced independently? | TRM's public account, not independently reproduced | One bounded route, raw pool/token events, liquidity, mint/sell/redeem, accounting and falsification test | P2 |
 | EG-08 | Can chained **cross-chain bridge** value links be established rather than guessed from amount/time similarity? | Not reproduced | Bridge IDs, deposit/withdrawal events, token changes, fees, plausible competing matches; uncertainty labels | P2 |
 
-**Sequence:** Close EG-01–03 to a scoped PASS / FAIL / OPEN WITH LIMIT verdict; then prioritize EG-05–06 based on source definability; only then run a small EG-07/08 pilot. Unavailable archive-RPC access must be recorded, not endlessly retried and not declared PASS.
+**Updated sequence (2026-11-05):** EG-01–03 now have scoped checkpoints, with EG-02 at SCOPED RECONCILIATION PASS and EG-03 still PARTIAL. EG-06 is the immediate priority because the internal withdrawal-suspension cutoff remains UNKNOWN. EG-05's external 64/37 population remains open. EG-04, EG-07 and EG-08 remain deferred behind a decisive EG-06 test and bounded reconciliation work. Unavailable archive-RPC access must be recorded, not endlessly retried and not declared PASS.
 
-## 4. Public-source comparison ledger — cutoff 2026-11-04
+## 4. Public-source comparison ledger — cutoff 2026-11-05
 
 - **Binance, November 3, 2026:** reported a compromise involving wallet-signing service, EIP-7702 delegation, 50 signing transactions, MPC-related complexity in revocation, final unauthorized transfer confirmation at 23:56 UTC on October 29 and removal of delegation at 00:10 UTC October 30. Reported figures and causal account remain attributed to Binance until independently verified. Source: https://www.binance.com/fr-AF/blog/community/3229153443759566763
 - **TRM Labs, November 3, 2026:** described self-minted TRON tokens, liquidity pools, lending receipt tokens and chained bridges as economic-value transfer patterns. Independently reproduce one bounded case before treating specific inferred wallet linkages as facts. Source: https://www.trmlabs.com/resources/blog/binance-hack-update-north-korea-launders-proceeds-through-self-minted-tokens-and-chained-bridges
@@ -181,9 +181,9 @@ Source: `evidence/eg03_recipient_blacklist_v1.json`.
 
 ## 6. Research gates and stopping conditions
 
-**Phase 1 — Fund preservation / EG-01–03:** Record exact blacklist events and state basis, pre/post movements, time-aware conservation, uncertain claims and independent archive replay status. If independent historical access is blocked, leave that element `OPEN_GAP` and conclude the narrower verified checkpoint; do not call the entire incident-wide freeze figure verified.
+**Phase 1 — Fund preservation / EG-01–03:** Scoped checkpoints now exist. EG-01 is substantially verified with execution-instant state still inferred; EG-02 has a scoped Central post-blacklist ledger reconciliation pass; EG-03 has scoped conservation checkpoints but attribution and downstream coverage remain unresolved. Independent replay and wider-population completeness remain open. Do not call the incident-wide freeze figure verified.
 
-**Phase 2 — Control failure / EG-05–06:** Before coding, recover evidence defining `64`, `37`, `T02`, `T03`, `T17`. Treat 50 official signing transactions as a **different population until proven otherwise**. Never infer causes of failed operations from a single `status` flag.
+**Phase 2 — Control failure / EG-05–06:** T02/T03/T17 technical work is already documented and must not be repeated. EG-06 now concerns the independently defensible internal withdrawal-suspension cutoff and whether any relevant delegated asset movement occurred after it. EG-05 remains open only for the external `64 attempts / 37 failures` population and denominator. Treat the 50 official signing transactions as a **different population until proven otherwise**. Never infer causes of failed operations from a single `status` flag.
 
 **Phase 3 — TRON / cross-chain value transfer / EG-07–08:** Select one public, high-confidence, falsifiable example. Require a full value-conservation narrative and distinguish identity-free economic linkage from proven wallet control. Stop if amount and timing are the only evidence.
 
@@ -205,12 +205,13 @@ Source: `evidence/eg03_recipient_blacklist_v1.json`.
 - Store new evidence as versioned additions with SHA256 and manifests; do not overwrite raw evidence.
 - The charter is stable. Change its mission, ordering or verification gates only with a documented reason and explicit approval. Findings belong in separate evidence/checkpoint files.
 
-## 9. Immediate next actions
+## 9. Immediate next actions — updated 2026-11-05
 
-1. Close the three-address USDT freeze checkpoint with its **limited** claim and explicitly list remaining independent verification gaps.
-2. Perform **one targeted post-blacklist inflow and same-time conservation audit** from preserved receipts, not another simple sum.
-3. Inventory the exact source defining **64/37** and the IDs **T02/T03/T17**; mark `UNKNOWN` if unrecoverable rather than inventing causes.
-4. Choose **one** falsifiable TRM mechanism pilot only after the earlier gates.
+1. **EG-06 (P0):** establish an authenticated, UTC-normalized withdrawal-suspension cutoff. Separate public announcement, internal suspension, transaction broadcast, block inclusion and final asset movement. Independently replay the 22:39:35 UTC candidate before drawing any post-suspension conclusion.
+2. **EG-03 (P1):** reproduce STEP 60–66 from archived/raw RPC evidence and resolve the differing accounting boundaries; do not merge the two conditional models.
+3. **STEP 76 (P1):** decide whether the 114,589.789942 USDT counterparty match warrants a bounded extension of the pre-incident scan. The current 1,000-block result remains partial, not a seven-day audit.
+4. **EG-05 (P1):** identify the original source and denominator for the external 64 attempts / 37 failures claim. Keep it separate from the observed 64 ERC-20 calls / 63 Transfer events / one reverted child call.
+5. Defer EG-04 normalization and broad EG-07/08 expansion until a decisive test or material new evidence justifies the effort.
 
 **Success is not finding more wallets. Success is resolving a material evidence gap with a result another investigator can verify, challenge, and use.**
 
