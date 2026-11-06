@@ -1,0 +1,12 @@
+{
+  "plasma": {
+    "atoken_inbound_events": [],
+    "total_inbound_raw": 0,
+    "reserve_supply_event_count": 43
+  },
+  "mantle": {
+    "atoken_inbound_events": [],
+    "total_inbound_raw": 0,
+    "reserve_supply_event_count": 2
+  }
+}

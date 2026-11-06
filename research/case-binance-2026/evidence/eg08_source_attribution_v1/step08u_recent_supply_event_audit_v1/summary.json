@@ -1,0 +1,45 @@
+{
+  "step": "08U",
+  "status": "BOUNDED_SUPPLY_EVENT_AUDIT",
+  "collected_utc": "2026-11-06T14:18:15.574941+00:00",
+  "source_commit": "08T checkpoint",
+  "tracked_address": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+  "chains": {
+    "plasma": {
+      "chain_id": 9745,
+      "pool": "0x925a2a7214ed92428b5b1b090f80b25700095e12",
+      "asset": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+      "atoken": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+      "start_block": 36347427,
+      "end_block": 36367426,
+      "event_count": 0,
+      "total_supply_raw": 0,
+      "underlying_transfer_matched_count": 0,
+      "rpc_provider": "https://rpc.plasma.to"
+    },
+    "mantle": {
+      "chain_id": 5000,
+      "pool": "0x458f293454fe0d67ec0655f3672301301dd51422",
+      "asset": "0x779ded0c9e1022225f8e0630b35a9b54be713736",
+      "atoken": "0x7053bad224f0c021839f6ac645bdae5f8b585b69",
+      "start_block": 102569551,
+      "end_block": 102589550,
+      "event_count": 0,
+      "total_supply_raw": 0,
+      "underlying_transfer_matched_count": 0,
+      "rpc_provider": "https://rpc.mantle.xyz"
+    }
+  },
+  "complete_scoped_scan": true,
+  "original_historical_funding_verified": false,
+  "incident_attribution": "UNKNOWN",
+  "limitations": [
+    "Only the selected 20000-block windows were examined",
+    "An event with onBehalfOf=A does not identify beneficial ownership",
+    "Supply activity outside the window remains unexamined",
+    "Historical balance changes can also reflect accrued interest",
+    "Token transfer match is checked per receipt, not only by amount",
+    "One RPC provider per chain",
+    "No incident attribution established"
+  ]
+}

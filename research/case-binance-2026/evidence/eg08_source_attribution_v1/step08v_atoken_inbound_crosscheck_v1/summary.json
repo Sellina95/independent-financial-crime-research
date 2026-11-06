@@ -1,0 +1,14 @@
+{
+  "step": "08V",
+  "source_commit": "53f744c",
+  "scope": "RECENT_WINDOW_ONLY",
+  "complete_scoped_scan": true,
+  "incident_attribution": "UNKNOWN",
+  "note": "No inbound does not prove absence of earlier supplies or historical token holdings",
+  "limitations": [
+    "Aave aToken balances accrue interest",
+    "Supply event and aToken Transfer are distinct evidence populations",
+    "One RPC endpoint per chain",
+    "No beneficial ownership or incident attribution"
+  ]
+}

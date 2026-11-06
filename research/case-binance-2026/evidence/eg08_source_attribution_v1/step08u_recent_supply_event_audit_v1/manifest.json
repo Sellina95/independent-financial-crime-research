@@ -1,0 +1,9 @@
+{
+  "file_count": 4,
+  "sha256": {
+    "raw_supply_receipts.json": "b7cab2596c9bb67f0f1857a7ae13850fbbb58cb53bf55bafdef8742bcbdae87f",
+    "scan_coverage.json": "f8b47dfa5f99a313746966f98742dd81f47a204ca6b4c20d7b7c0b6fee3842d1",
+    "summary.json": "e0f42c0b325eb3da8a8aeb0908e845416224b6193e0e76dab62abc5a7947266a",
+    "supply_events.json": "88d42edb3ba2dc17da0c0afafe25c879a1d673e691e6c2cfa6657c1ace67f9f4"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "file_count": 3,
+  "sha256": {
+    "results.json": "d01c1cb768816aed66a58c6b2665ff0bcd939e1676a256a35b9bf6880d1849cd",
+    "summary.json": "5a8719d1e1fa5d27217c7f8ae00b722b452958ff7b287c97ab5ec53fc7668ee7",
+    "coverage.json": "59c162b192c81c8b431142792983e6f1441914ce5956a8f0831cdff3d7d4c369"
+  }
+}
