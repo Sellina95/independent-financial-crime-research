@@ -1,0 +1,9 @@
+{
+  "file_count": 4,
+  "sha256": {
+    "attribution_boundary.json": "a0744616c9b7ba10d7428c758b82908fa11e3f96185eab110e3f3f171a9b5794",
+    "claim_by_claim_comparison.json": "57d6850c705d2ed4a5343b3e5ef051ec6b34017df38c87c3579e856f8a9a0471",
+    "crystal_source_claims.json": "8679828013b10bd77a36fb1722944c8924aa401702ed0d66c884603fefc0655f",
+    "summary.json": "c8c883d9f78175e52a74ae9a7391c2846f18429b01f12e8e4d2cd02c8be82cc6"
+  }
+}

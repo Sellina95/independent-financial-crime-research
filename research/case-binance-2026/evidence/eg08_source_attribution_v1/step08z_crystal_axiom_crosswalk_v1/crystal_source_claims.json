@@ -1,0 +1,45 @@
+{
+  "publisher": "Crystal Intelligence",
+  "author": "Nicholas Smart",
+  "original_publication": "2026-10-30",
+  "observed_update": "2026-11-05",
+  "url": "https://crystalintelligence.com/investigations/binance-hack-what-we-know-what-teams-should-do-now/",
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "Binance14 EIP-7702 incident wallet",
+      "address": "0x28c6c06298d514db089934071355e5743bf21d60",
+      "evidence_type": "EXTERNAL_ANALYST_ATTRIBUTION"
+    },
+    {
+      "id": "C02",
+      "claim": "Binance14 to Central main movement",
+      "sender": "0x28c6c06298d514db089934071355e5743bf21d60",
+      "receiver": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+      "approx_usdt": 1615000000,
+      "evidence_type": "EXTERNAL_ANALYST_TRANSACTION_CONTEXT"
+    },
+    {
+      "id": "C03",
+      "claim": "Onward 190M USDT between reported wallets",
+      "approx_usdt": 190000000,
+      "evidence_type": "EXTERNAL_ANALYST_GRAPH_CONTEXT"
+    },
+    {
+      "id": "C04",
+      "claim": "60M USDT deposited into Aave as collateral",
+      "approx_usdt": 60000000,
+      "reported_window_utc": [
+        "2026-10-29T20:58:00Z",
+        "2026-10-29T21:01:00Z"
+      ],
+      "evidence_type": "EXTERNAL_ANALYST_PROTOCOL_CLAIM"
+    },
+    {
+      "id": "C05",
+      "claim": "Aave collateral enabled borrowing 19762 WETH",
+      "approx_weth": 19762,
+      "evidence_type": "EXTERNAL_ANALYST_PROTOCOL_CLAIM"
+    }
+  ]
+}

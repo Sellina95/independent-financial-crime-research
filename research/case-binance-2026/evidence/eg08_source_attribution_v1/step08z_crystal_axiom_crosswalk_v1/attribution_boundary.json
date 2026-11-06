@@ -1,0 +1,26 @@
+{
+  "chain": "Ethereum",
+  "token": "USDT",
+  "main_drain_raw": 1615409498973240,
+  "central_to_hop1_raw": 200000000000000,
+  "hop1_to_hop2_raw": 190000000000000,
+  "hop2_to_mixed_raw": 60000000000000,
+  "mixed_to_a_raw": 25000000000000,
+  "a_to_b_raw": 25000000000000,
+  "previous_step62_conditional_central_200m_range_raw": [
+    144260199490000,
+    200000000000000
+  ],
+  "previous_step65_conditional_mixed_to_a_range_raw": [
+    0,
+    25000000000000
+  ],
+  "reported_step65_other_inflows_usdt": "35868038.335205",
+  "reported_step65_baseline_usdt": "195865280.403528",
+  "legal_attribution": "UNKNOWN",
+  "identifiable_incident_units": "NOT_ESTABLISHED",
+  "same_beneficial_owner": "NOT_ESTABLISHED",
+  "aave_60m_same_path": "NOT_ESTABLISHED",
+  "fresh_attribution_calculation_performed": false,
+  "report_finding": "External analysis corroborates incident root; AXIOM preserves directed transfer path, not unique USDT units through the mixed wallet"
+}

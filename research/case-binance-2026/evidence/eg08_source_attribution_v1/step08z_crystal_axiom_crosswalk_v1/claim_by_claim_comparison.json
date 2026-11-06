@@ -1,0 +1,51 @@
+[
+  {
+    "claim_id": "C01",
+    "classification": "CORROBORATED_BY_NAMED_ANALYST",
+    "axiom_evidence": [
+      "research/case-binance-2026/GATE_2_ETH_EXTERNAL_INCIDENT_LINK_V1.md",
+      "research/case-binance-2026/GATE_2_ERC20_TRANSFER_EVIDENCE_V1.csv"
+    ],
+    "observation": "Exact B14 address occurs in Crystal-attributed external analysis and AXIOM incident investigation",
+    "not_proven": "Binance's own exact-address publication and authority of signatures"
+  },
+  {
+    "claim_id": "C02",
+    "classification": "EXACT_ONCHAIN_TRANSFER_MATCH",
+    "axiom_evidence": [
+      "research/case-binance-2026/GATE_2_ERC20_TRANSFER_EVIDENCE_V1.csv"
+    ],
+    "observation": "B14 -> Central 1,615,409,498.973240 USDT is recorded in Gate-2",
+    "not_proven": "Legal ownership and unauthorized status from the transaction alone"
+  },
+  {
+    "claim_id": "C03",
+    "classification": "AMOUNT_AND_CONTEXT_MATCH_NOT_EXACT_REPORT_TXID_MATCH",
+    "axiom_evidence": [
+      "research/case-binance-2026/evidence/eg08_source_attribution_v1/step08y_forward_edge_preservation_v1/forward_candidates.json"
+    ],
+    "observation": "A specific 190M USDT transfer after Central's 200M transfer is preserved with a receipt",
+    "candidate_tx": "0xc0fab33d0ec562d3feef6b23946402b1af80dade21ab4f5fbea7384cc4615183",
+    "not_proven": "Crystal's report does not establish the same full transaction hash in the article text"
+  },
+  {
+    "claim_id": "C04",
+    "classification": "NOT_YET_CROSSWALKED",
+    "axiom_evidence": [
+      "research/case-binance-2026/evidence/eg08_source_attribution_v1/step08y_forward_edge_preservation_v1/forward_candidates.json"
+    ],
+    "observation": "AXIOM verifies 10M + 50M to MIXED, which is not itself a verified Aave collateral deposit",
+    "candidate_txs": [
+      "0x420e74015336a44f3056c00bf5a1313889a7f6ed30a053ad59832d4a4a1f14eb",
+      "0x65bd82f19985a569ef87b3926dd5f2247ba7bd06640141060f1b2d9ddedec3f6"
+    ],
+    "not_proven": "The report's 60M Aave collateral claim refers to the same transaction path"
+  },
+  {
+    "claim_id": "C05",
+    "classification": "NOT_YET_CROSSWALKED",
+    "axiom_evidence": [],
+    "observation": "19762 WETH loan is an external analytical statement, not established by this crosswalk",
+    "not_proven": "Borrow event, collateral account, and exact transaction IDs"
+  }
+]

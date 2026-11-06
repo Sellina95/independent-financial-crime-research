@@ -1,0 +1,25 @@
+{
+  "step": "08Z",
+  "source_commit": "114bca2",
+  "created_utc": "2026-11-06T14:45:20.817763+00:00",
+  "classification": "EXTERNAL_ANALYST_TO_LOCAL_EVIDENCE_CROSSWALK",
+  "source_url": "https://crystalintelligence.com/investigations/binance-hack-what-we-know-what-teams-should-do-now/",
+  "local_source_snapshot_archived": false,
+  "new_rpc_queries": 0,
+  "comparisons": 5,
+  "incident_root_external_corroboration": true,
+  "continuous_directed_path": true,
+  "unique_stolen_fund_allocation": "UNKNOWN",
+  "mixed_25m_range_usdt": [
+    0,
+    25000000
+  ],
+  "new_crime_attribution_claim": false,
+  "limitations": [
+    "External article may have been updated since its original publication",
+    "Article statements are researcher-reviewed claims, not machine-archived full page evidence",
+    "Report 60M Aave deposit not proven identical to AXIOM 60M MIXED path",
+    "Prior STEP 60-66 accounting bounds reused, not independently recalculated here",
+    "A directed edge path does not prove that particular fungible USDT units continued downstream"
+  ]
+}
