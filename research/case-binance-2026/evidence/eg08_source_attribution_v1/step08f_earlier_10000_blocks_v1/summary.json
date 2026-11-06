@@ -1,0 +1,27 @@
+{
+  "step": "08F",
+  "classification": "OBSERVED_SINGLE_PROVIDER",
+  "source_commit": "68bf184",
+  "rpc_provider": "https://eth.drpc.org",
+  "chain_id": 1,
+  "tracked_address": "0x1c3b25019ed4e4876e7af7903cc3e1e23287c337",
+  "start_block": 26294034,
+  "end_block": 26304033,
+  "opening_balance_raw": 1178547506043,
+  "closing_balance_raw": 80479547506043,
+  "inbound_raw": 79301000000000,
+  "outbound_raw": 0,
+  "difference_raw": 0,
+  "event_count": 4,
+  "inbound_source_count": 1,
+  "complete_scanned_chunks": 100,
+  "previous_step_boundary_matches": true,
+  "incident_attribution": "UNKNOWN",
+  "limitations": [
+    "Historical results from one RPC provider",
+    "Balances are fungible and not uniquely traceable",
+    "Opening balance can originate before scan window",
+    "Counterparty does not establish beneficial ownership",
+    "No verified link to an incident victim address"
+  ]
+}
