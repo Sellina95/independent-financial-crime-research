@@ -1,0 +1,8 @@
+{
+  "source_rpc": "https://rpc.plasma.to",
+  "chain_id": 9745,
+  "source_commit": "38755afbba76856e42170ed71d6d124172763774",
+  "read_only": true,
+  "mainnet_transactions_sent": false,
+  "evidence_input": "Existing EG08 ledger + historical reserve snapshots + original receipt"
+}

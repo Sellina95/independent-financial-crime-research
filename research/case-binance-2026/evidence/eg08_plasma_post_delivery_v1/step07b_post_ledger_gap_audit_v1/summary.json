@@ -1,0 +1,25 @@
+{
+  "classification": "EG08_POST_LEDGER_GAP_AUDIT",
+  "chain_id": 9745,
+  "original_ledger_end_block": 36941764,
+  "gap_first_block": 36941765,
+  "gap_last_block": 36947581,
+  "gap_last_block_hash": "0x6e7d6b63cd07c78a9534277625ed6d443b09f26923ec1f34e2425aa2cf6855cb",
+  "transfer_events": [],
+  "transfer_event_count": 0,
+  "balance_at_original_ledger_end_raw": 1000000,
+  "net_gap_transfer_delta_raw": 0,
+  "calculated_end_balance_raw": 1000000,
+  "observed_end_balance_raw": 1000000,
+  "prior_07a_end_balance_raw": 1000000,
+  "balance_conservation_pass": true,
+  "matches_07a_snapshot": true,
+  "scan_scope": "USDT0 Transfer logs with original user as sender or recipient",
+  "limitations": [
+    "Confirms only the specified post-ledger block interval.",
+    "Assumes token balance changes are reflected by Transfer events.",
+    "Does not establish ownership, criminal origin, or Aave reserve-wide conservation.",
+    "Separately verify the original ledger's coverage endpoint."
+  ],
+  "collected_utc": "2026-11-06T12:09:14.227548+00:00"
+}

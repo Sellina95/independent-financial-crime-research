@@ -1,0 +1,11 @@
+{
+  "arrival_receipt_verified": true,
+  "user_token_identity_balanced": true,
+  "pre_existing_atoken_usdt0": "381,657,413.555800",
+  "new_principal_usdt0": "28,000,000.000000",
+  "user_atoken_delta_usdt0": "28,000,340.955052",
+  "unattributed_delta_usdt0": "340.955052",
+  "reserve_cash_delta_usdt0": "27,999,993.558680",
+  "reserve_atoken_supply_delta_usdt0": "28,000,609.278227",
+  "provisional_not_publication_final": true
+}

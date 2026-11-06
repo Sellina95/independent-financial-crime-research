@@ -1,0 +1,9 @@
+{
+  "rpc": "https://rpc.plasma.to",
+  "network": "Plasma",
+  "chain_id": 9745,
+  "read_only": true,
+  "mainnet_transactions_sent": false,
+  "snapshot_block": 36947581,
+  "snapshot_hash": "0x6e7d6b63cd07c78a9534277625ed6d443b09f26923ec1f34e2425aa2cf6855cb"
+}

@@ -1,0 +1,41 @@
+{
+  "classification": "EG08_STEP07A_CONSERVATION_AUDIT",
+  "chain_id": 9745,
+  "tracked_user": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+  "token": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+  "initial_mint": {
+    "tx": "0xa2e90c60008700b31605275112d9a3ec17fe96dc3582391a5e781cc340218029",
+    "block": 36440003,
+    "amount_raw": 28000000000000,
+    "receipt_verified": true
+  },
+  "user_token_accounting": {
+    "pre_arrival_balance_raw": 5000000,
+    "post_arrival_balance_raw": 28000005000000,
+    "post_arrival_incoming_raw": 1000000,
+    "post_arrival_outgoing_raw": 28000005000000,
+    "calculated_final_balance_raw": 1000000,
+    "observed_final_balance_raw": 1000000,
+    "identity_balanced": true,
+    "caution": "Ledger coverage and later live snapshot time bounds must be checked before calling this a complete through-latest transaction audit."
+  },
+  "aave_claim_accounting": {
+    "pre_existing_user_atoken_raw": 381657413555800,
+    "post_supply_user_atoken_raw": 409657754510852,
+    "user_atoken_delta_raw": 28000340955052,
+    "new_mint_principal_raw": 28000000000000,
+    "unattributed_delta_raw": 340955052,
+    "reserve_cash_delta_raw": 27999993558680,
+    "reserve_atoken_supply_delta_raw": 28000609278227,
+    "claim_delta_equals_principal": false,
+    "caution": "Residual may include interest accrual and other activity; not uniquely attributable to new 28M."
+  },
+  "scope_limits": [
+    "Token balance identity uses the existing transfer ledger's scanned window, not an independently rescanned window through the newer live snapshot.",
+    "Only the original arrival receipt is independently revalidated here; supply and withdrawal event receipts require cross-check against earlier case evidence.",
+    "aToken positions are pooled claims and do not identify individually segregated underlying USDT0 units.",
+    "Issuer freeze test results are counterfactual local fork simulations, not mainnet actions.",
+    "28M attribution to the alleged Binance incident remains UNKNOWN."
+  ],
+  "collected_utc": "2026-11-06T12:06:23.755428+00:00"
+}

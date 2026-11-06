@@ -1,0 +1,9 @@
+{
+  "file_count": 4,
+  "sha256": {
+    "conservation_report.json": "c0ed3fd2d59dc1297e042cf5e1e9ec0a14d291437cde2bafbf8a9fb2ee202a7c",
+    "original_arrival_receipt.json": "23a11f1163a7adc175ec7a213d3ed9309edbd362d8edb75c93d39290f7e2c09e",
+    "provenance.json": "eb64b700dc3d28be321fd3c19a9acbea6220ecc4a321e86d9580e002e29fcf08",
+    "summary.json": "cbf682742244ca00ca72c70e5ea9c1b29d5b3e49f9261b767e166b26efba3648"
+  }
+}
