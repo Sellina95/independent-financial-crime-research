@@ -1,0 +1,21 @@
+{
+  "step": "08Y",
+  "source_commit": "c5f4281",
+  "created_utc": "2026-11-06T14:39:43.836247+00:00",
+  "root_tx": "0x53bd38b816c23e74134786c29a8c18d792777998a3b9326047b583100e88e2f3",
+  "root_source": "existing Gate-2 CSV",
+  "a_to_b_source": "existing 08W receipt",
+  "scope_blocks": [
+    26300770,
+    26301104
+  ],
+  "verified_route_count": 1,
+  "root_official_incident_identity": "PENDING_EXACT_ADDRESS_CROSSWALK",
+  "attributable_mixed_to_a_25m": "UNRESOLVED",
+  "conditional_25m_allocation_range_usdt": [
+    0,
+    25000000
+  ],
+  "incident_attribution": "UNKNOWN",
+  "warning": "A directed transaction path does not trace distinguishable fungible USDT units through mixed balances"
+}

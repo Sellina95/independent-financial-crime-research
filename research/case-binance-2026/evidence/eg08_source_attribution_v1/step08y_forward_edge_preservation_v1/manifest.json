@@ -1,0 +1,9 @@
+{
+  "file_count": 4,
+  "sha256": {
+    "forward_candidates.json": "61a24418237c1717372708a1063aca8cfde2e635984aec4a6ec3e318a8de944e",
+    "outgoing_scan_coverage.json": "6d0883e83b01fb005a6e6b0714d888eccbce136548a7c335d48aac0cfed4d2d4",
+    "raw_intermediate_receipts.json": "1129314e62d6c2d334053c262c99fa041d9e4bf698a68f2e7ca9eb3f291c6568",
+    "summary.json": "78b1ff39778e879b28701337d0ecaa1d33ec1cdd9cba691b872c591a6f1f555c"
+  }
+}

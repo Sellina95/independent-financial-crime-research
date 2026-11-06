@@ -1,0 +1,90 @@
+{
+  "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c": [
+    {
+      "from_block": 26300770,
+      "to_block": 26300869,
+      "count": 3
+    },
+    {
+      "from_block": 26300870,
+      "to_block": 26300969,
+      "count": 1
+    },
+    {
+      "from_block": 26300970,
+      "to_block": 26301069,
+      "count": 0
+    },
+    {
+      "from_block": 26301070,
+      "to_block": 26301104,
+      "count": 0
+    }
+  ],
+  "0x0ddf0480016e6bcb2c1f5d190d221fba1320697e": [
+    {
+      "from_block": 26300770,
+      "to_block": 26300869,
+      "count": 0
+    },
+    {
+      "from_block": 26300870,
+      "to_block": 26300969,
+      "count": 9
+    },
+    {
+      "from_block": 26300970,
+      "to_block": 26301069,
+      "count": 0
+    },
+    {
+      "from_block": 26301070,
+      "to_block": 26301104,
+      "count": 0
+    }
+  ],
+  "0x8d53903625b8e839b9df4bd28b0efb1cd6b8639a": [
+    {
+      "from_block": 26300770,
+      "to_block": 26300869,
+      "count": 0
+    },
+    {
+      "from_block": 26300870,
+      "to_block": 26300969,
+      "count": 3
+    },
+    {
+      "from_block": 26300970,
+      "to_block": 26301069,
+      "count": 0
+    },
+    {
+      "from_block": 26301070,
+      "to_block": 26301104,
+      "count": 0
+    }
+  ],
+  "0x23878914efe38d27c4d67ab83ed1b93a74d4086a": [
+    {
+      "from_block": 26300770,
+      "to_block": 26300869,
+      "count": 9
+    },
+    {
+      "from_block": 26300870,
+      "to_block": 26300969,
+      "count": 13
+    },
+    {
+      "from_block": 26300970,
+      "to_block": 26301069,
+      "count": 15
+    },
+    {
+      "from_block": 26301070,
+      "to_block": 26301104,
+      "count": 6
+    }
+  ]
+}
