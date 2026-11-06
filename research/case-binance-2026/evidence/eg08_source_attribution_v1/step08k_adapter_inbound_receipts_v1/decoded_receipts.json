@@ -1,0 +1,110 @@
+[
+  {
+    "tx_hash": "0x8af59fb7a203ce63505642e6975c12a78359f041306a16248d3dd2afd2e17e99",
+    "block": 26301816,
+    "timestamp_utc_unix": 1793318063,
+    "transaction_executor": "0x73a063c96b5d67863deaa7b163207e769a7c2cee",
+    "transaction_to": "0x173272739bd7aa6e4e214714048a9fe699453059",
+    "input_selector": "0xcfc32570",
+    "usdt_received_raw": 17000000000000,
+    "adapter_to_a_transfer_verified": true,
+    "matching_08j_ledger": true,
+    "other_contract_logs": [
+      {
+        "address": "0x6c96de32cea08842dcc4058c14d3aaad7fa41dee",
+        "topic0": "0xefed6d3500546b29533b128a29e3a94d70788727f0507505ac12eaf2e578fd9c",
+        "topic_count": 3,
+        "log_index": 108
+      },
+      {
+        "address": "0x1a44076050125825900e736c501f859c50fe728c",
+        "topic0": "0x3cd5e48f9730b129dc7550f0fcea9c767b7be37837cd10e55eb35f734f4bca04",
+        "topic_count": 1,
+        "log_index": 109
+      }
+    ],
+    "all_usdt_transfers": [
+      {
+        "from": "0x6c96de32cea08842dcc4058c14d3aaad7fa41dee",
+        "to": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+        "amount_raw": 17000000000000,
+        "log_index": 107
+      }
+    ],
+    "cross_chain_origin_verified": false,
+    "original_funder_verified": false,
+    "incident_attribution": "UNKNOWN"
+  },
+  {
+    "tx_hash": "0x3f4c4ed8e8fecfeed169df97b44ffe228385cd4fa4e967cd74666e47698650bd",
+    "block": 26302024,
+    "timestamp_utc_unix": 1793320595,
+    "transaction_executor": "0xd0dcacd0135d463b553bf7ac8c68f32fa178c279",
+    "transaction_to": "0x173272739bd7aa6e4e214714048a9fe699453059",
+    "input_selector": "0xcfc32570",
+    "usdt_received_raw": 16900000000000,
+    "adapter_to_a_transfer_verified": true,
+    "matching_08j_ledger": true,
+    "other_contract_logs": [
+      {
+        "address": "0x6c96de32cea08842dcc4058c14d3aaad7fa41dee",
+        "topic0": "0xefed6d3500546b29533b128a29e3a94d70788727f0507505ac12eaf2e578fd9c",
+        "topic_count": 3,
+        "log_index": 618
+      },
+      {
+        "address": "0x1a44076050125825900e736c501f859c50fe728c",
+        "topic0": "0x3cd5e48f9730b129dc7550f0fcea9c767b7be37837cd10e55eb35f734f4bca04",
+        "topic_count": 1,
+        "log_index": 619
+      }
+    ],
+    "all_usdt_transfers": [
+      {
+        "from": "0x6c96de32cea08842dcc4058c14d3aaad7fa41dee",
+        "to": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+        "amount_raw": 16900000000000,
+        "log_index": 617
+      }
+    ],
+    "cross_chain_origin_verified": false,
+    "original_funder_verified": false,
+    "incident_attribution": "UNKNOWN"
+  },
+  {
+    "tx_hash": "0x98fa5f526a98a1f8f063501a2c596dc7ae93ff3b0cc004c924bcaadcec414fd4",
+    "block": 26302474,
+    "timestamp_utc_unix": 1793325995,
+    "transaction_executor": "0xc02f045299e095ed3f4eebc7847f9138bb55b0ba",
+    "transaction_to": "0x173272739bd7aa6e4e214714048a9fe699453059",
+    "input_selector": "0xcfc32570",
+    "usdt_received_raw": 20401000000000,
+    "adapter_to_a_transfer_verified": true,
+    "matching_08j_ledger": true,
+    "other_contract_logs": [
+      {
+        "address": "0x6c96de32cea08842dcc4058c14d3aaad7fa41dee",
+        "topic0": "0xefed6d3500546b29533b128a29e3a94d70788727f0507505ac12eaf2e578fd9c",
+        "topic_count": 3,
+        "log_index": 27
+      },
+      {
+        "address": "0x1a44076050125825900e736c501f859c50fe728c",
+        "topic0": "0x3cd5e48f9730b129dc7550f0fcea9c767b7be37837cd10e55eb35f734f4bca04",
+        "topic_count": 1,
+        "log_index": 28
+      }
+    ],
+    "all_usdt_transfers": [
+      {
+        "from": "0x6c96de32cea08842dcc4058c14d3aaad7fa41dee",
+        "to": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+        "amount_raw": 20401000000000,
+        "log_index": 26
+      }
+    ],
+    "cross_chain_origin_verified": false,
+    "original_funder_verified": false,
+    "incident_attribution": "UNKNOWN"
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "step": "08K",
+  "classification": "OBSERVED_SINGLE_PROVIDER",
+  "source_commit": "d4e7c02",
+  "rpc_provider": "https://eth.drpc.org",
+  "chain_id": 1,
+  "target_address": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+  "adapter_address": "0x6c96de32cea08842dcc4058c14d3aaad7fa41dee",
+  "transactions_verified": 3,
+  "total_received_raw": 54301000000000,
+  "distinct_executors": [
+    "0x73a063c96b5d67863deaa7b163207e769a7c2cee",
+    "0xc02f045299e095ed3f4eebc7847f9138bb55b0ba",
+    "0xd0dcacd0135d463b553bf7ac8c68f32fa178c279"
+  ],
+  "input_selectors": [
+    "0xcfc32570"
+  ],
+  "all_receipts_verified": true,
+  "source_chain_origin_verified": false,
+  "incident_attribution": "UNKNOWN",
+  "limitations": [
+    "Ethereum USDT Transfer events identify token movement",
+    "An adapter payout does not identify original sender",
+    "Cross-chain origin must be verified separately",
+    "Contract event topics are not yet semantically decoded",
+    "A shared executor is not proof of common ownership",
+    "One RPC provider used for historical evidence"
+  ]
+}

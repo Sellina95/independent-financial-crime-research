@@ -1,0 +1,8 @@
+{
+  "file_count": 3,
+  "sha256": {
+    "decoded_receipts.json": "9bb76cb2e5d037d86fc6cf9ea9b7a5e65bd270ec8a91631a8b5a4ceb2c9d7418",
+    "raw_rpc_evidence.json": "e8a6bf12f5606146f2f0903c98ce70da03837a6306a688b6aefb3ee1da8ac357",
+    "summary.json": "03206e956292687db5ea82d84e1322b48e0639e14c6766d7540c38fd23f6710c"
+  }
+}
