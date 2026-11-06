@@ -1,0 +1,161 @@
+{
+  "step": "08AC",
+  "created_utc": "2026-11-06T14:55:04.274317+00:00",
+  "source_commit": "59b560a",
+  "existing_withdraw_verified": true,
+  "withdraw_position_owner": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+  "supply_position_owner": "0x8d53903625b8e839b9df4bd28b0efb1cd6b8639a",
+  "incident_attribution": "UNKNOWN",
+  "historical_checkpoints": {
+    "pre_incident": {
+      "block": 26300769,
+      "balance_raw": 25004647909954,
+      "rpc": "https://eth.drpc.org"
+    },
+    "pre_withdraw": {
+      "block": 26301076,
+      "balance_raw": 25004768970602,
+      "rpc": "https://eth.drpc.org"
+    }
+  },
+  "a_token_inbound": [],
+  "a_token_outbound": [],
+  "aave_supply_events": [],
+  "coverage": {
+    "a_token_inbound": [
+      {
+        "start": 26300770,
+        "end": 26300819,
+        "count": 0,
+        "rpc": "https://eth.drpc.org"
+      },
+      {
+        "start": 26300820,
+        "end": 26300869,
+        "count": 0,
+        "rpc": "https://eth.drpc.org"
+      },
+      {
+        "start": 26300870,
+        "end": 26300919,
+        "count": 0,
+        "rpc": "https://eth.drpc.org"
+      },
+      {
+        "start": 26300920,
+        "end": 26300969,
+        "count": 0,
+        "rpc": "https://eth.drpc.org"
+      },
+      {
+        "start": 26300970,
+        "end": 26301019,
+        "count": 0,
+        "rpc": "https://eth.drpc.org"
+      },
+      {
+        "start": 26301020,
+        "end": 26301069,
+        "count": 0,
+        "rpc": "https://eth.drpc.org"
+      },
+      {
+        "start": 26301070,
+        "end": 26301076,
+        "count": 0,
+        "rpc": "https://eth.drpc.org"
+      }
+    ],
+    "a_token_outbound": [
+      {
+        "start": 26300770,
+        "end": 26300819,
+        "count": 0,
+        "rpc": "https://eth.drpc.org"
+      },
+      {
+        "start": 26300820,
+        "end": 26300869,
+        "count": 0,
+        "rpc": "https://eth.drpc.org"
+      },
+      {
+        "start": 26300870,
+        "end": 26300919,
+        "count": 0,
+        "rpc": "https://eth.drpc.org"
+      },
+      {
+        "start": 26300920,
+        "end": 26300969,
+        "count": 0,
+        "rpc": "https://eth.drpc.org"
+      },
+      {
+        "start": 26300970,
+        "end": 26301019,
+        "count": 0,
+        "rpc": "https://eth.drpc.org"
+      },
+      {
+        "start": 26301020,
+        "end": 26301069,
+        "count": 0,
+        "rpc": "https://eth.drpc.org"
+      },
+      {
+        "start": 26301070,
+        "end": 26301076,
+        "count": 0,
+        "rpc": "https://eth.drpc.org"
+      }
+    ],
+    "aave_supply_events": [
+      {
+        "start": 26300770,
+        "end": 26300819,
+        "count": 0,
+        "rpc": "https://eth.drpc.org"
+      },
+      {
+        "start": 26300820,
+        "end": 26300869,
+        "count": 0,
+        "rpc": "https://eth.drpc.org"
+      },
+      {
+        "start": 26300870,
+        "end": 26300919,
+        "count": 0,
+        "rpc": "https://eth.drpc.org"
+      },
+      {
+        "start": 26300920,
+        "end": 26300969,
+        "count": 0,
+        "rpc": "https://eth.drpc.org"
+      },
+      {
+        "start": 26300970,
+        "end": 26301019,
+        "count": 0,
+        "rpc": "https://eth.drpc.org"
+      },
+      {
+        "start": 26301020,
+        "end": 26301069,
+        "count": 0,
+        "rpc": "https://eth.drpc.org"
+      },
+      {
+        "start": 26301070,
+        "end": 26301076,
+        "count": 0,
+        "rpc": "https://eth.drpc.org"
+      }
+    ]
+  },
+  "errors": [],
+  "rpc_status": "CONNECTED",
+  "position_finding": "SUFFICIENT_PREINCIDENT_POSITION"
+}
