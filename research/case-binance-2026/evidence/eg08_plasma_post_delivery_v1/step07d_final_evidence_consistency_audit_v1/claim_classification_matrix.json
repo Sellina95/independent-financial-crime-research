@@ -1,0 +1,57 @@
+[
+  {
+    "claim": "28M USDT0 minted to tracked address",
+    "status": "OBSERVED",
+    "evidence": "STEP07A original receipt"
+  },
+  {
+    "claim": "28,000,005 USDT0 supplied into Aave",
+    "status": "OBSERVED",
+    "evidence": "STEP07C underlying Transfer receipts"
+  },
+  {
+    "claim": "Tracked address token balance reconciled",
+    "status": "OBSERVED",
+    "evidence": "STEP07A and STEP07B",
+    "limit": "Through pinned snapshot block only"
+  },
+  {
+    "claim": "aToken claim change fits indexed accounting",
+    "status": "OBSERVED_AND_MODELED",
+    "evidence": "STEP07C scaledBalance and income index",
+    "limit": "Index identity does not prove every economic cause"
+  },
+  {
+    "claim": "Blocking aToken contract prevents Aave withdrawal",
+    "status": "SIMULATED",
+    "evidence": "STEP06C and STEP06F local fork"
+  },
+  {
+    "claim": "Destroying blocked aToken-held USDT0 removes pooled cash",
+    "status": "SIMULATED",
+    "evidence": "STEP06C local fork",
+    "limit": "No real issuer destruction or established depositor loss"
+  },
+  {
+    "claim": "Tracked addresses not blocked at pinned production snapshot",
+    "status": "OBSERVED",
+    "evidence": "STEP06E"
+  },
+  {
+    "claim": "28M originated in Binance incident",
+    "status": "UNKNOWN"
+  },
+  {
+    "claim": "28M overlaps published institutional Aave position",
+    "status": "UNKNOWN"
+  },
+  {
+    "claim": "Issuer actually froze or burned these assets",
+    "status": "NOT_ESTABLISHED",
+    "limit": "Snapshots and relevant event scans only"
+  },
+  {
+    "claim": "Aave-wide solvency impact or actual losses",
+    "status": "UNKNOWN"
+  }
+]

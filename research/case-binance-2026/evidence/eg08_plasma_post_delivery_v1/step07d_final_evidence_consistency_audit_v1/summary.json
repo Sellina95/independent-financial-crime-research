@@ -1,0 +1,109 @@
+{
+  "classification": "EG08_STEP07D_CONSISTENCY_AUDIT",
+  "source_commit": "6be4c68",
+  "evidence_groups_verified": 15,
+  "files_verified": 91,
+  "inventory": [
+    {
+      "step": "step02_transfer_ledger_v1",
+      "files_verified": 7,
+      "sha256_pass": true
+    },
+    {
+      "step": "step05_withdrawal_audit_v1",
+      "files_verified": 11,
+      "sha256_pass": true
+    },
+    {
+      "step": "step05a_withdrawal_anomaly_reconciliation_v1",
+      "files_verified": 7,
+      "sha256_pass": true
+    },
+    {
+      "step": "step05b_atoken_identity_reconciliation_v1",
+      "files_verified": 7,
+      "sha256_pass": true
+    },
+    {
+      "step": "step05c_burn_interest_event_reconciliation_v1",
+      "files_verified": 8,
+      "sha256_pass": true
+    },
+    {
+      "step": "step06a_issuer_freeze_capability_audit_v1",
+      "files_verified": 9,
+      "sha256_pass": true
+    },
+    {
+      "step": "step06b_aave_withdraw_callpath_v1",
+      "files_verified": 6,
+      "sha256_pass": true
+    },
+    {
+      "step": "step06b_issuer_control_simulation_v1",
+      "files_verified": 6,
+      "sha256_pass": true
+    },
+    {
+      "step": "step06c_local_fork_freeze_scenarios_v1",
+      "files_verified": 5,
+      "sha256_pass": true
+    },
+    {
+      "step": "step06d_aave_reserve_liquidity_reconciliation_v1",
+      "files_verified": 4,
+      "sha256_pass": true
+    },
+    {
+      "step": "step06e_scenario_accounting_reconciliation_v1",
+      "files_verified": 4,
+      "sha256_pass": true
+    },
+    {
+      "step": "step06f_withdrawal_revert_diagnostics_v1",
+      "files_verified": 5,
+      "sha256_pass": true
+    },
+    {
+      "step": "step07a_28m_conservation_audit_v1",
+      "files_verified": 4,
+      "sha256_pass": true
+    },
+    {
+      "step": "step07b_post_ledger_gap_audit_v1",
+      "files_verified": 3,
+      "sha256_pass": true
+    },
+    {
+      "step": "step07c_atoken_interest_reconciliation_v1",
+      "files_verified": 5,
+      "sha256_pass": true
+    }
+  ],
+  "mint_raw": 28000000000000,
+  "underlying_supplied_raw": 28000005000000,
+  "claim_delta_raw": 28000340955052,
+  "model_error_raw_decimal": "0.036907645520643033321993466",
+  "gap_events": 0,
+  "simulated_destroyed_underlying_raw": 41462618740921,
+  "live_snapshot_block": 36947581,
+  "gates": {
+    "original_arrival_verified": true,
+    "supply_receipts_verified": true,
+    "user_conservation_verified": true,
+    "atoken_index_accounting_verified": true,
+    "freeze_locally_reproduced": true,
+    "destruction_locally_reproduced": true,
+    "incident_attribution_verified": false,
+    "institutional_novelty_verified": false,
+    "reserve_wide_loss_accounting_verified": false,
+    "publication_ready": false
+  },
+  "publication_blockers": [
+    "Incident attribution not established",
+    "Institutional overlap and novelty not established",
+    "Full reserve-wide solvency/recovery behavior unresolved",
+    "Counterfactual simulations must not be presented as real actions"
+  ],
+  "audit_time_utc": "2026-11-06T12:30:09.888973+00:00"
+}

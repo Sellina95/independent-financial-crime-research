@@ -1,0 +1,8 @@
+{
+  "file_count": 3,
+  "sha256": {
+    "claim_classification_matrix.json": "2ca2a632e0c7cd2fb0c0285285fa48640b0ac68048ad40bbb9b576966fcfe011",
+    "provenance.json": "f7e13b1295dd2086c06316b0f2e09c5274f50498bea312d26b1782e89f38a279",
+    "summary.json": "75f37c1ff42948fd3de78037bcde12fafa7e95642380db9c401db997c5527d49"
+  }
+}

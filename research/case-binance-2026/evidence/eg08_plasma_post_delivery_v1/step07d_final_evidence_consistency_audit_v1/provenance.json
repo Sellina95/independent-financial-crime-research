@@ -1,0 +1,7 @@
+{
+  "classification": "OFFLINE_CROSS_EVIDENCE_AUDIT",
+  "source_commit": "6be4c68",
+  "existing_evidence_modified": false,
+  "rpc_calls": 0,
+  "mainnet_transactions_sent": false
+}
