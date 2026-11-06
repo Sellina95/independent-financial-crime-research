@@ -1,0 +1,26 @@
+{
+  "plasma": [
+    {
+      "block": 36367427,
+      "index": 3,
+      "tx": "0xe2573e79d1db8511051714390e3391b4a93687e37568bffa3ddf839f4894ff10",
+      "from": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+      "to": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+      "amount_raw": 33900000000000,
+      "block_hash": "0xcc3d8217ac44c7e275c544f171873aa31f6a519deee9da17397384b972e91960",
+      "timestamp_utc": "2026-10-29T21:27:29+00:00"
+    }
+  ],
+  "mantle": [
+    {
+      "block": 102589551,
+      "index": 3,
+      "tx": "0xb388679f9150b521729a0dbfb6a8833f6438a749355b6169ea143308c889d5f6",
+      "from": "0x7053bad224f0c021839f6ac645bdae5f8b585b69",
+      "to": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+      "amount_raw": 20400000000000,
+      "block_hash": "0x4aedda33242960a00af90804f2f3da86a2896194db362557970905e20b5e023b",
+      "timestamp_utc": "2026-10-29T21:30:14+00:00"
+    }
+  ]
+}

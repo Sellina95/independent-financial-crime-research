@@ -1,0 +1,486 @@
+{
+  "plasma": [
+    {
+      "start": 36366397,
+      "end": 36366496,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36366497,
+      "end": 36366596,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36366597,
+      "end": 36366696,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36366697,
+      "end": 36366796,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36366797,
+      "end": 36366896,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36366897,
+      "end": 36366996,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36366997,
+      "end": 36367096,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36367097,
+      "end": 36367196,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36367197,
+      "end": 36367296,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36367297,
+      "end": 36367396,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36367397,
+      "end": 36367496,
+      "in_logs": 1,
+      "out_logs": 0
+    },
+    {
+      "start": 36367497,
+      "end": 36367596,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36367597,
+      "end": 36367696,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36367697,
+      "end": 36367796,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36367797,
+      "end": 36367896,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36367897,
+      "end": 36367996,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36367997,
+      "end": 36368096,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36368097,
+      "end": 36368196,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36368197,
+      "end": 36368296,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36368297,
+      "end": 36368396,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36368397,
+      "end": 36368496,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36368497,
+      "end": 36368596,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36368597,
+      "end": 36368696,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36368697,
+      "end": 36368796,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36368797,
+      "end": 36368896,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36368897,
+      "end": 36368996,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36368997,
+      "end": 36369096,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36369097,
+      "end": 36369196,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36369197,
+      "end": 36369296,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36369297,
+      "end": 36369396,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36369397,
+      "end": 36369496,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36369497,
+      "end": 36369596,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36369597,
+      "end": 36369696,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36369697,
+      "end": 36369796,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36369797,
+      "end": 36369896,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36369897,
+      "end": 36369996,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36369997,
+      "end": 36370096,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36370097,
+      "end": 36370196,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36370197,
+      "end": 36370296,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 36370297,
+      "end": 36370396,
+      "in_logs": 0,
+      "out_logs": 0
+    }
+  ],
+  "mantle": [
+    {
+      "start": 102587822,
+      "end": 102587921,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102587922,
+      "end": 102588021,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102588022,
+      "end": 102588121,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102588122,
+      "end": 102588221,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102588222,
+      "end": 102588321,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102588322,
+      "end": 102588421,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102588422,
+      "end": 102588521,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102588522,
+      "end": 102588621,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102588622,
+      "end": 102588721,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102588722,
+      "end": 102588821,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102588822,
+      "end": 102588921,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102588922,
+      "end": 102589021,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102589022,
+      "end": 102589121,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102589122,
+      "end": 102589221,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102589222,
+      "end": 102589321,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102589322,
+      "end": 102589421,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102589422,
+      "end": 102589521,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102589522,
+      "end": 102589621,
+      "in_logs": 1,
+      "out_logs": 0
+    },
+    {
+      "start": 102589622,
+      "end": 102589721,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102589722,
+      "end": 102589821,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102589822,
+      "end": 102589921,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102589922,
+      "end": 102590021,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102590022,
+      "end": 102590121,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102590122,
+      "end": 102590221,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102590222,
+      "end": 102590321,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102590322,
+      "end": 102590421,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102590422,
+      "end": 102590521,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102590522,
+      "end": 102590621,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102590622,
+      "end": 102590721,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102590722,
+      "end": 102590821,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102590822,
+      "end": 102590921,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102590922,
+      "end": 102591021,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102591022,
+      "end": 102591121,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102591122,
+      "end": 102591221,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102591222,
+      "end": 102591321,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102591322,
+      "end": 102591421,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102591422,
+      "end": 102591521,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102591522,
+      "end": 102591621,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102591622,
+      "end": 102591721,
+      "in_logs": 0,
+      "out_logs": 0
+    },
+    {
+      "start": 102591722,
+      "end": 102591821,
+      "in_logs": 0,
+      "out_logs": 0
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "step": "08Q",
+  "status": "BOUNDED_INFLOW_LEDGER_RECONCILED",
+  "source_commit": "2af4d4b",
+  "collected_utc": "2026-11-06T14:07:07.697514+00:00",
+  "tracked_address": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+  "chains": {
+    "plasma": {
+      "chain_id": 9745,
+      "token": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+      "start_block": 36366397,
+      "end_block": 36370396,
+      "opening_raw": 55000000,
+      "closing_raw": 33900055000000,
+      "incoming_raw": 33900000000000,
+      "outgoing_raw": 0,
+      "difference_raw": 0,
+      "event_count": 1,
+      "inbound_sources": [
+        {
+          "address": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+          "amount_raw": 33900000000000,
+          "count": 1
+        }
+      ],
+      "rpc_provider": "https://rpc.plasma.to"
+    },
+    "mantle": {
+      "chain_id": 5000,
+      "token": "0x779ded0c9e1022225f8e0630b35a9b54be713736",
+      "start_block": 102587822,
+      "end_block": 102591821,
+      "opening_raw": 1863000000,
+      "closing_raw": 20401863000000,
+      "incoming_raw": 20400000000000,
+      "outgoing_raw": 0,
+      "difference_raw": 0,
+      "event_count": 1,
+      "inbound_sources": [
+        {
+          "address": "0x7053bad224f0c021839f6ac645bdae5f8b585b69",
+          "amount_raw": 20400000000000,
+          "count": 1
+        }
+      ],
+      "rpc_provider": "https://rpc.mantle.xyz"
+    }
+  },
+  "conservation_pass": true,
+  "incident_attribution": "UNKNOWN",
+  "limitations": [
+    "Source of inbound token transfer not automatically established",
+    "A zero-address mint requires separate mint-authority or bridge confirmation",
+    "An address transfer does not prove beneficial ownership",
+    "Only 4000 blocks examined per chain",
+    "One RPC provider per chain",
+    "Source incident attribution is not proven by timing alone"
+  ]
+}
