@@ -1,0 +1,11 @@
+{
+  "classification": "STEP_06F_EVIDENCE_MANIFEST",
+  "file_count": 5,
+  "files_sha256": {
+    "anvil.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "baseline.json": "dd1bfdcf05d2fcd9fec1419b64c4b9b1328d6a6cffb554f57752776ed70838b0",
+    "comparison.json": "41522f81366c53ed75c6d2ab0d550e66a505717ed54de4bc2867410de9331754",
+    "provenance.json": "5cfba10570df913391308abda24dc9c8a48b391115f091939ecc433568707940",
+    "scenario_results.json": "0891fbbb1f3fe0bc1de48ab54bb2ba7fd7030fe39bb3764ae6f8530e4dae672d"
+  }
+}

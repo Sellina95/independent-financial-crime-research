@@ -1,0 +1,15 @@
+{
+  "classification": "LOCAL_FORK_COUNTERFACTUAL",
+  "target": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+  "underlying_cash_before": "41462618.740921",
+  "underlying_cash_after": "0",
+  "underlying_cash_removed": "41462618.740921",
+  "usdt0_supply_removed": "41462618.740921",
+  "atoken_supply_delta": "1.911244",
+  "user_atoken_balance_delta": "1.105144",
+  "withdrawal_after_destruction": 0,
+  "cash_and_supply_delta_match": true,
+  "atoken_claim_tokens_burned": false,
+  "user_claim_tokens_burned": false,
+  "local_fork_only": true
+}

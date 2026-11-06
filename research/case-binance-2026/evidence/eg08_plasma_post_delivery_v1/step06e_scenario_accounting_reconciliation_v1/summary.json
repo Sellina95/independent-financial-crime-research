@@ -1,0 +1,61 @@
+{
+  "classification": "EG08_STEP06E_RECONCILIATION",
+  "freeze_scenarios": {
+    "USER": {
+      "target": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+      "blocklist_verified": true,
+      "withdrawal_receipt_status": 1,
+      "direct_transfer_receipt_status": 0
+    },
+    "ATOKEN": {
+      "target": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+      "blocklist_verified": true,
+      "withdrawal_receipt_status": 0,
+      "direct_transfer_receipt_status": null
+    },
+    "POOL": {
+      "target": "0x925a2a7214ed92428b5b1b090f80b25700095e12",
+      "blocklist_verified": true,
+      "withdrawal_receipt_status": 1,
+      "direct_transfer_receipt_status": 1
+    }
+  },
+  "destruction_accounting": {
+    "classification": "LOCAL_FORK_COUNTERFACTUAL",
+    "target": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+    "underlying_cash_before": "41462618.740921",
+    "underlying_cash_after": "0",
+    "underlying_cash_removed": "41462618.740921",
+    "usdt0_supply_removed": "41462618.740921",
+    "atoken_supply_delta": "1.911244",
+    "user_atoken_balance_delta": "1.105144",
+    "withdrawal_after_destruction": 0,
+    "cash_and_supply_delta_match": true,
+    "atoken_claim_tokens_burned": false,
+    "user_claim_tokens_burned": false,
+    "local_fork_only": true
+  },
+  "latest_live_block": 36947581,
+  "latest_live_blocklist": {
+    "USER": false,
+    "ATOKEN": false,
+    "POOL": false,
+    "TOKEN_PROXY": false
+  },
+  "latest_live_reserve_cash": "41468857.660634",
+  "limitations": [
+    "Local fork simulations are counterfactual, not production transactions.",
+    "The Aave aToken contract holds pooled underlying liquidity.",
+    "The destroyed balance is not an individually segregated 28M tranche.",
+    "aToken balances represent claims, not separately identifiable USDT0 units.",
+    "Reserve debt, treasury accrual, deficits and unbacked amounts require complete accounting.",
+    "No beneficial ownership or criminal attribution is established."
+  ],
+  "next_required_audit": [
+    "Exact withdrawal revert reason",
+    "Reserve debt and treasury reconciliation",
+    "Final conservation analysis",
+    "Evidence gap report",
+    "External publication review"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "rpc": "https://rpc.plasma.to",
+  "chain_id": 9745,
+  "live_snapshot_block": 36947581,
+  "baseline_git_commit": "bb2de48",
+  "existing_evidence_used": [
+    "step06c_local_fork_freeze_scenarios_v1",
+    "step06d_aave_reserve_liquidity_reconciliation_v1"
+  ],
+  "collection_type": "READ_ONLY_LIVE_RPC_AND_LOCAL_EVIDENCE_RECONCILIATION"
+}

@@ -1,0 +1,52 @@
+{
+  "USER": {
+    "target": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+    "block_transaction_local": "0x7bf48260bd6246cf6040293de45c5c7978caf04b0779e361f12ab14b13f62118",
+    "block_receipt_status": 1,
+    "blocklist_verified": true,
+    "withdrawal": {
+      "status": "SUCCESS",
+      "return_data": "0x00000000000000000000000000000000000000000000000000000000000f4240"
+    },
+    "direct_transfer": {
+      "status": "REVERTED",
+      "error": {
+        "code": 3,
+        "message": "execution reverted: TetherToken: from is blocked",
+        "data": "0x08c379a00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000001c546574686572546f6b656e3a2066726f6d20697320626c6f636b656400000000"
+      }
+    }
+  },
+  "ATOKEN": {
+    "target": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+    "block_transaction_local": "0xd595329722186f6469adf813b58c2df44e7c42171779cd4f16495b93f4e99b26",
+    "block_receipt_status": 1,
+    "blocklist_verified": true,
+    "withdrawal": {
+      "status": "REVERTED",
+      "error": {
+        "code": 3,
+        "message": "execution reverted: TetherToken: from is blocked",
+        "data": "0x08c379a00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000001c546574686572546f6b656e3a2066726f6d20697320626c6f636b656400000000"
+      }
+    },
+    "direct_transfer": {
+      "status": "SUCCESS",
+      "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001"
+    }
+  },
+  "POOL": {
+    "target": "0x925a2a7214ed92428b5b1b090f80b25700095e12",
+    "block_transaction_local": "0xbbc51bbaef99569284ec117fbfcc7f145c9fd6f802d688ef35ea7463ddbf6a83",
+    "block_receipt_status": 1,
+    "blocklist_verified": true,
+    "withdrawal": {
+      "status": "SUCCESS",
+      "return_data": "0x00000000000000000000000000000000000000000000000000000000000f4240"
+    },
+    "direct_transfer": {
+      "status": "SUCCESS",
+      "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001"
+    }
+  }
+}

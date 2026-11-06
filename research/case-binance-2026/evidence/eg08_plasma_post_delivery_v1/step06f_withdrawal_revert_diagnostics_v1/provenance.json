@@ -1,0 +1,34 @@
+{
+  "classification": "LOCAL_FORK_REVERT_DIAGNOSTICS",
+  "research_step": "06F",
+  "chain_id": 9745,
+  "fork_block": 36945646,
+  "fork_block_hash": "0x95d31d374540a2cc8ddd2f0311b762f43c253f01af6b7ea47cef94fa62d6d626",
+  "token": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+  "atoken": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+  "pool": "0x925a2a7214ed92428b5b1b090f80b25700095e12",
+  "user": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+  "owner": "0x4dff9b5b0143e642a3f63a5bcf2d1c328e600bf8",
+  "baseline_git_commit": "bb2de48",
+  "source_evidence": [
+    "step06c_local_fork_freeze_scenarios_v1",
+    "step06e_scenario_accounting_reconciliation_v1"
+  ],
+  "test_scope": [
+    "Baseline withdrawal",
+    "User blocklist",
+    "aToken blocklist",
+    "Pool blocklist",
+    "Withdrawal revert diagnostics"
+  ],
+  "classification_notes": [
+    "These are counterfactual local-fork simulations.",
+    "No real issuer freeze was executed.",
+    "No production blockchain transaction was broadcast.",
+    "Account impersonation does not establish multisig approval.",
+    "The 28M criminal-origin attribution remains UNKNOWN.",
+    "Results do not prove effects on every possible depositor.",
+    "Prior results are preserved without modification."
+  ],
+  "recovery_time_utc": "2026-11-06T12:03:03.797329+00:00"
+}

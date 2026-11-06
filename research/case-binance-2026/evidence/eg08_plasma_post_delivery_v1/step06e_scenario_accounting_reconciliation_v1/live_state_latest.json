@@ -1,0 +1,32 @@
+{
+  "classification": "LIVE_CHAIN_BLOCK_PINNED_SNAPSHOT",
+  "chain_id": 9745,
+  "rpc": "https://rpc.plasma.to",
+  "block_number": 36947581,
+  "block_hash": "0x6e7d6b63cd07c78a9534277625ed6d443b09f26923ec1f34e2425aa2cf6855cb",
+  "block_timestamp": 1793890879,
+  "token_owner": "0x4dff9b5b0143e642a3f63a5bcf2d1c328e600bf8",
+  "blocklist": {
+    "USER": false,
+    "ATOKEN": false,
+    "POOL": false,
+    "TOKEN_PROXY": false
+  },
+  "balances_raw": {
+    "original_user": 1000000,
+    "aave_atoken_underlying": 41468857660634,
+    "aave_pool_underlying": 0,
+    "usdt0_total_supply": 857774947421282,
+    "user_atoken_balance": 409937911217101,
+    "atoken_total_supply": 708955812576048
+  },
+  "balances_usdt0": {
+    "original_user": "1",
+    "aave_atoken_underlying": "41468857.660634",
+    "aave_pool_underlying": "0",
+    "usdt0_total_supply": "857774947.421282",
+    "user_atoken_balance": "409937911.217101",
+    "atoken_total_supply": "708955812.576048"
+  },
+  "decimals": 6
+}

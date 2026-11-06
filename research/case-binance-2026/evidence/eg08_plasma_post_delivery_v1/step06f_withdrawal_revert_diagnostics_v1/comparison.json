@@ -1,0 +1,35 @@
+{
+  "USER": {
+    "expected_previous_result": [
+      "SUCCESS",
+      "REVERTED"
+    ],
+    "actual_result": [
+      "SUCCESS",
+      "REVERTED"
+    ],
+    "matches_previous_result": true
+  },
+  "ATOKEN": {
+    "expected_previous_result": [
+      "REVERTED",
+      "SUCCESS"
+    ],
+    "actual_result": [
+      "REVERTED",
+      "SUCCESS"
+    ],
+    "matches_previous_result": true
+  },
+  "POOL": {
+    "expected_previous_result": [
+      "SUCCESS",
+      "SUCCESS"
+    ],
+    "actual_result": [
+      "SUCCESS",
+      "SUCCESS"
+    ],
+    "matches_previous_result": true
+  }
+}
