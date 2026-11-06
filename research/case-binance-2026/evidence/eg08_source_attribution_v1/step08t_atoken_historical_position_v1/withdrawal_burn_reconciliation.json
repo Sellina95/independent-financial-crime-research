@@ -1,0 +1,120 @@
+{
+  "plasma": {
+    "chain_id": 9745,
+    "pool": "0x925a2a7214ed92428b5b1b090f80b25700095e12",
+    "atoken": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+    "underlying": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+    "withdraw_tx": "0xe2573e79d1db8511051714390e3391b4a93687e37568bffa3ddf839f4894ff10",
+    "withdraw_block": 36367427,
+    "withdraw_requested_raw": 33900000000000,
+    "underlying_paid_raw": 33900000000000,
+    "burn_event_raw": 33849207206740,
+    "payout_minus_burn_event_raw": 50792793260,
+    "burn_and_payout_receipt_verified": true,
+    "historical_checkpoint_count": 9,
+    "candidate_change_intervals": [
+      {
+        "earlier_block": 35367427,
+        "later_block": 36067427,
+        "atoken_balance_change_raw": 367217322754
+      },
+      {
+        "earlier_block": 36067427,
+        "later_block": 36267427,
+        "atoken_balance_change_raw": -19900552711565
+      },
+      {
+        "earlier_block": 36267427,
+        "later_block": 36347427,
+        "atoken_balance_change_raw": -14957840451701
+      },
+      {
+        "earlier_block": 36347427,
+        "later_block": 36362427,
+        "atoken_balance_change_raw": 7915201271
+      },
+      {
+        "earlier_block": 36362427,
+        "later_block": 36366427,
+        "atoken_balance_change_raw": 2055857242
+      },
+      {
+        "earlier_block": 36366427,
+        "later_block": 36367327,
+        "atoken_balance_change_raw": 655504967
+      },
+      {
+        "earlier_block": 36367327,
+        "later_block": 36367426,
+        "atoken_balance_change_raw": 82207747
+      },
+      {
+        "earlier_block": 36367426,
+        "later_block": 36367427,
+        "atoken_balance_change_raw": -33899999162983
+      }
+    ],
+    "first_supply_transaction_verified": false,
+    "original_funding_verified": false,
+    "rpc_provider": "https://rpc.plasma.to"
+  },
+  "mantle": {
+    "chain_id": 5000,
+    "pool": "0x458f293454fe0d67ec0655f3672301301dd51422",
+    "atoken": "0x7053bad224f0c021839f6ac645bdae5f8b585b69",
+    "underlying": "0x779ded0c9e1022225f8e0630b35a9b54be713736",
+    "withdraw_tx": "0xb388679f9150b521729a0dbfb6a8833f6438a749355b6169ea143308c889d5f6",
+    "withdraw_block": 102589551,
+    "withdraw_requested_raw": 20400000000000,
+    "underlying_paid_raw": 20400000000000,
+    "burn_event_raw": 20388775377232,
+    "payout_minus_burn_event_raw": 11224622768,
+    "burn_and_payout_receipt_verified": true,
+    "historical_checkpoint_count": 9,
+    "candidate_change_intervals": [
+      {
+        "earlier_block": 101589551,
+        "later_block": 102289551,
+        "atoken_balance_change_raw": 286202272170
+      },
+      {
+        "earlier_block": 102289551,
+        "later_block": 102489551,
+        "atoken_balance_change_raw": 47922102078
+      },
+      {
+        "earlier_block": 102489551,
+        "later_block": 102569551,
+        "atoken_balance_change_raw": 59006608141
+      },
+      {
+        "earlier_block": 102569551,
+        "later_block": 102584551,
+        "atoken_balance_change_raw": 3495411199
+      },
+      {
+        "earlier_block": 102584551,
+        "later_block": 102588551,
+        "atoken_balance_change_raw": 930507609
+      },
+      {
+        "earlier_block": 102588551,
+        "later_block": 102589451,
+        "atoken_balance_change_raw": 217101386
+      },
+      {
+        "earlier_block": 102589451,
+        "later_block": 102589550,
+        "atoken_balance_change_raw": 26156513
+      },
+      {
+        "earlier_block": 102589550,
+        "later_block": 102589551,
+        "atoken_balance_change_raw": -20399999735794
+      }
+    ],
+    "first_supply_transaction_verified": false,
+    "original_funding_verified": false,
+    "rpc_provider": "https://rpc.mantle.xyz"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "plasma": [
+    {
+      "block": 35367427,
+      "utc": "2026-10-18T07:33:27+00:00",
+      "atoken_balance_raw": 449945771830171,
+      "underlying_balance_raw": 3000000
+    },
+    {
+      "block": 36067427,
+      "utc": "2026-10-26T10:00:27+00:00",
+      "atoken_balance_raw": 450312989152925,
+      "underlying_balance_raw": 4000000
+    },
+    {
+      "block": 36267427,
+      "utc": "2026-10-28T17:33:52+00:00",
+      "atoken_balance_raw": 430412436441360,
+      "underlying_balance_raw": 54000000
+    },
+    {
+      "block": 36347427,
+      "utc": "2026-10-29T15:49:09+00:00",
+      "atoken_balance_raw": 415454595989659,
+      "underlying_balance_raw": 55000000
+    },
+    {
+      "block": 36362427,
+      "utc": "2026-10-29T20:04:09+00:00",
+      "atoken_balance_raw": 415462511190930,
+      "underlying_balance_raw": 55000000
+    },
+    {
+      "block": 36366427,
+      "utc": "2026-10-29T21:10:49+00:00",
+      "atoken_balance_raw": 415464567048172,
+      "underlying_balance_raw": 55000000
+    },
+    {
+      "block": 36367327,
+      "utc": "2026-10-29T21:25:49+00:00",
+      "atoken_balance_raw": 415465222553139,
+      "underlying_balance_raw": 55000000
+    },
+    {
+      "block": 36367426,
+      "utc": "2026-10-29T21:27:28+00:00",
+      "atoken_balance_raw": 415465304760886,
+      "underlying_balance_raw": 55000000
+    },
+    {
+      "block": 36367427,
+      "utc": "2026-10-29T21:27:29+00:00",
+      "atoken_balance_raw": 381565305597903,
+      "underlying_balance_raw": 33900055000000
+    }
+  ],
+  "mantle": [
+    {
+      "block": 101589551,
+      "utc": "2026-10-06T17:56:54+00:00",
+      "atoken_balance_raw": 134369011028075,
+      "underlying_balance_raw": 1809000000
+    },
+    {
+      "block": 102289551,
+      "utc": "2026-10-22T22:50:14+00:00",
+      "atoken_balance_raw": 134655213300245,
+      "underlying_balance_raw": 1812000000
+    },
+    {
+      "block": 102489551,
+      "utc": "2026-10-27T13:56:54+00:00",
+      "atoken_balance_raw": 134703135402323,
+      "underlying_balance_raw": 1862000000
+    },
+    {
+      "block": 102569551,
+      "utc": "2026-10-29T10:23:34+00:00",
+      "atoken_balance_raw": 134762142010464,
+      "underlying_balance_raw": 1863000000
+    },
+    {
+      "block": 102584551,
+      "utc": "2026-10-29T18:43:34+00:00",
+      "atoken_balance_raw": 134765637421663,
+      "underlying_balance_raw": 1863000000
+    },
+    {
+      "block": 102588551,
+      "utc": "2026-10-29T20:56:54+00:00",
+      "atoken_balance_raw": 134766567929272,
+      "underlying_balance_raw": 1863000000
+    },
+    {
+      "block": 102589451,
+      "utc": "2026-10-29T21:26:54+00:00",
+      "atoken_balance_raw": 134766785030658,
+      "underlying_balance_raw": 1863000000
+    },
+    {
+      "block": 102589550,
+      "utc": "2026-10-29T21:30:12+00:00",
+      "atoken_balance_raw": 134766811187171,
+      "underlying_balance_raw": 1863000000
+    },
+    {
+      "block": 102589551,
+      "utc": "2026-10-29T21:30:14+00:00",
+      "atoken_balance_raw": 114366811451377,
+      "underlying_balance_raw": 20401863000000
+    }
+  ]
+}

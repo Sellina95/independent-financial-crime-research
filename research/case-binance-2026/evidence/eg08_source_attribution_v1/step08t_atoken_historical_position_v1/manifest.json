@@ -1,0 +1,8 @@
+{
+  "file_count": 3,
+  "sha256": {
+    "historical_atoken_checkpoints.json": "a25d6f346cadb7a805a5b2050977123b5f69134052ecb208e1308c616755dac7",
+    "summary.json": "d9b9cb00944f116e782160380aeb319bfdfbbdd77cbd1ea772ac8ccca5d20309",
+    "withdrawal_burn_reconciliation.json": "1b0c7316dd1417061d367a5e162d0004c29b585684c3e5ade3d7a1f56f750048"
+  }
+}
