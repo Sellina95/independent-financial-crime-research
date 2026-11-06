@@ -1,0 +1,28 @@
+{
+  "step": "08L",
+  "status": "DESTINATION_MESSAGE_DECODE_VERIFIED",
+  "source_commit": "20cf8d8",
+  "source_eid_groups": {
+    "30383": [
+      "0x8af59fb7a203ce63505642e6975c12a78359f041306a16248d3dd2afd2e17e99",
+      "0x3f4c4ed8e8fecfeed169df97b44ffe228385cd4fa4e967cd74666e47698650bd"
+    ],
+    "30181": [
+      "0x98fa5f526a98a1f8f063501a2c596dc7ae93ff3b0cc004c924bcaadcec414fd4"
+    ]
+  },
+  "message_count": 3,
+  "total_usdt_raw": 54301000000000,
+  "distinct_guid_count": 3,
+  "destination_event_pair_check": "PASS",
+  "source_transaction_crosswalk": "NOT_YET_VERIFIED",
+  "source_chain_name": "NOT_YET_RESOLVED",
+  "incident_attribution": "UNKNOWN",
+  "limitations": [
+    "GUID and origin metadata decoded from destination receipts",
+    "Source-side OFTSent and original transaction not yet checked",
+    "Source sender is a messaging peer, not necessarily the fund owner",
+    "Matching LayerZero message does not prove incident attribution",
+    "No claim that relayer or executor controls bridged assets"
+  ]
+}
