@@ -1,0 +1,31 @@
+{
+  "step": "08J",
+  "classification": "OBSERVED_SINGLE_PROVIDER",
+  "source_commit": "478b35e",
+  "provider": "https://eth.drpc.org",
+  "address_a": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+  "address_b": "0x1c3b25019ed4e4876e7af7903cc3e1e23287c337",
+  "start_block": 26301104,
+  "end_block": 26307046,
+  "coverage_chunks": 60,
+  "a_opening_balance_raw": 25000000000000,
+  "a_inbound_raw": 134300997522314,
+  "a_outbound_raw": 159300990000000,
+  "a_closing_balance_raw": 7522314,
+  "a_difference_raw": 0,
+  "a_event_count": 15,
+  "merged_unique_event_count": 16,
+  "external_sources": 2,
+  "tagged_25m_transfer_present": true,
+  "bridge_28m_transfer_present": true,
+  "attribution_bound_recomputed": false,
+  "incident_attribution": "UNKNOWN",
+  "limitations": [
+    "Single-provider historical logs",
+    "B window after block 26307033 is not complete",
+    "A opening balance predates the window",
+    "Block-end balances do not resolve same-block ordering",
+    "A/B internal movements must not be counted as external funds",
+    "Tagged 25M is not proven Binance incident property"
+  ]
+}
