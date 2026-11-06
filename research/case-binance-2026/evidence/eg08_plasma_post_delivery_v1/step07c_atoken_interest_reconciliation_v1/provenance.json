@@ -1,0 +1,8 @@
+{
+  "rpc": "https://rpc.plasma.to",
+  "chain_id": 9745,
+  "source_commit": "60e9590",
+  "read_only": true,
+  "mainnet_transactions_sent": false,
+  "method": "Block-pinned scaledBalanceOf and normalizedIncome plus supply receipt verification"
+}

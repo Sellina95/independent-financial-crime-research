@@ -1,0 +1,58 @@
+{
+  "classification": "EG08_AAVE_SCALED_BALANCE_RECONCILIATION",
+  "chain_id": 9745,
+  "checkpoints": [
+    {
+      "label": "PRE_DELIVERY",
+      "block": 36440002,
+      "block_hash": "0xaf7371e9593f63f52bec574ec2fe54cf77327b6ed30f5c8c808dbe77cbcab9f6",
+      "timestamp": 1793382007,
+      "scaled_balance_raw": 366786719557051,
+      "normalized_income_ray": 1040543163658454766936508114,
+      "observed_atoken_balance_raw": 381657413555800,
+      "reconstructed_balance_raw": 381657413555800,
+      "rounding_or_implementation_difference_raw": 0
+    },
+    {
+      "label": "POST_SUPPLY_1",
+      "block": 36440195,
+      "block_hash": "0xf1c6f7b3bd0df6782d2d85c28e3d3f3cf2be67c99189df561e130f2f9fd8df8a",
+      "timestamp": 1793382200,
+      "scaled_balance_raw": 367125326173103,
+      "normalized_income_ray": 1040543755782423316469795342,
+      "observed_atoken_balance_raw": 382009965739007,
+      "reconstructed_balance_raw": 382009965739008,
+      "rounding_or_implementation_difference_raw": -1
+    },
+    {
+      "label": "POST_SUPPLY_2",
+      "block": 36440301,
+      "block_hash": "0x0d5d4e7878eb4cecf05a86aeca83e65b5aff6bc58d219c211ffb8bb0412bcaf2",
+      "timestamp": 1793382306,
+      "scaled_balance_raw": 393695723862140,
+      "normalized_income_ray": 1040544079300952006564674152,
+      "observed_atoken_balance_raw": 409657754510852,
+      "reconstructed_balance_raw": 409657754510852,
+      "rounding_or_implementation_difference_raw": 0
+    }
+  ],
+  "underlying_supplied_raw": 28000005000000,
+  "atoken_mint_transfer_total_raw": 28001261393084,
+  "actual_atoken_balance_delta_raw": 28000340955052,
+  "delta_above_supplied_underlying_raw": 335955052,
+  "old_scaled_position_index_accrual_raw_decimal": "335845507.849549340530897358841633938",
+  "scaled_position_change_at_final_index_raw_decimal": "28000005109544.187358304989745674480359528",
+  "model_total_change_raw_decimal": "28000340955052.036907645520643033321993466",
+  "model_minus_observed_raw_decimal": "0.036907645520643033321993466",
+  "observed_minus_model_raw_decimal": "-0.036907645520643033321993466",
+  "limitations": [
+    "Snapshot differences include every state transition during the interval.",
+    "Index-based decomposition is an accounting identity, not proof of the economic source of all scaled balance changes.",
+    "Mint events must be interpreted with Aave's interest accounting.",
+    "Pre-existing position interest may explain part of the observed claim growth.",
+    "Historical balances are block-end snapshots, not transaction-internal balances.",
+    "The original 28M is not separately identifiable once pooled.",
+    "Binance incident attribution remains UNKNOWN."
+  ],
+  "collected_utc": "2026-11-06T12:12:55.769693+00:00"
+}

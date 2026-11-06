@@ -1,0 +1,11 @@
+{
+  "input_integrity_pass": true,
+  "transaction_receipts_verified": 2,
+  "supply_total_usdt0": "28000005",
+  "atoken_claim_delta_usdt0": "28000340.955052",
+  "claim_growth_above_supply_usdt0": "335.955052",
+  "existing_position_index_accrual_usdt0": "335.845507849549340530897358841633938",
+  "scaled_position_change_at_final_index_usdt0": "28000005.109544187358304989745674480359528",
+  "model_discrepancy_usdt0": "-3.6907645520643033321993466E-8",
+  "publication_final": false
+}
