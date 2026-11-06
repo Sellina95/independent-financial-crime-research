@@ -1,0 +1,33 @@
+{
+  "plasma": [
+    {
+      "block": 36374397,
+      "index": 0,
+      "tx": "0xc8fa711bcdc90eea8aec9765d4649ba8503266a428c88a3aacc6294e86cd47df",
+      "from": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+      "to": "0x0000000000000000000000000000000000000000",
+      "amount_raw": 17000000000000,
+      "block_hash": "0xf7ebba61b90368a109523ed273b2a3d25d57e6862f3692dc35bb7cc4763c2bc9"
+    },
+    {
+      "block": 36376928,
+      "index": 0,
+      "tx": "0x454b4f6d50f056e3163aa062f2cf34e2058a9f9d2d49b2c240b694520c070895",
+      "from": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+      "to": "0x0000000000000000000000000000000000000000",
+      "amount_raw": 16900000000000,
+      "block_hash": "0xf11ce0d94f4ea62244cd07f9fb20dd032ff4d1526e59218d60e068cdff50cc8f"
+    }
+  ],
+  "mantle": [
+    {
+      "block": 102595822,
+      "index": 18,
+      "tx": "0xf16b1656a8673ee324ccd6ace7d3762f1b56e264894647b750e6998227061e7b",
+      "from": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+      "to": "0x0000000000000000000000000000000000000000",
+      "amount_raw": 20401000000000,
+      "block_hash": "0x5184ce84684e8f5b111a45cfaaad67c0ea867d705db7bfd731e78ba945d773a8"
+    }
+  ]
+}

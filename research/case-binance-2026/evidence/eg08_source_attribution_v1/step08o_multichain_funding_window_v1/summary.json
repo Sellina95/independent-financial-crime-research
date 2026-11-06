@@ -1,0 +1,59 @@
+{
+  "step": "08O",
+  "status": "BOUNDED_SOURCE_FUNDING_WINDOWS_RECONCILED",
+  "source_commit": "9449605",
+  "collected_utc": "2026-11-06T14:01:02.902991+00:00",
+  "tracked_address": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+  "chain_results": {
+    "plasma": {
+      "chain_id": 9745,
+      "token": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+      "start_block": 36371397,
+      "end_block": 36376928,
+      "opening_balance_raw": 33900055000000,
+      "inbound_raw": 0,
+      "outbound_raw": 33900000000000,
+      "closing_balance_raw": 55000000,
+      "difference_raw": 0,
+      "event_count": 2,
+      "coverage_chunks": 56,
+      "known_burns_verified": [
+        "0xc8fa711bcdc90eea8aec9765d4649ba8503266a428c88a3aacc6294e86cd47df",
+        "0x454b4f6d50f056e3163aa062f2cf34e2058a9f9d2d49b2c240b694520c070895"
+      ],
+      "inbound_sources": [],
+      "rpc_provider": "https://rpc.plasma.to"
+    },
+    "mantle": {
+      "chain_id": 5000,
+      "token": "0x779ded0c9e1022225f8e0630b35a9b54be713736",
+      "start_block": 102592822,
+      "end_block": 102595822,
+      "opening_balance_raw": 20401863000000,
+      "inbound_raw": 0,
+      "outbound_raw": 20401000000000,
+      "closing_balance_raw": 863000000,
+      "difference_raw": 0,
+      "event_count": 1,
+      "coverage_chunks": 31,
+      "known_burns_verified": [
+        "0xf16b1656a8673ee324ccd6ace7d3762f1b56e264894647b750e6998227061e7b"
+      ],
+      "inbound_sources": [],
+      "rpc_provider": "https://rpc.mantle.xyz"
+    }
+  },
+  "windows_complete": true,
+  "conservation_all_pass": true,
+  "original_funding_provenance_verified": false,
+  "incident_attribution": "UNKNOWN",
+  "limitations": [
+    "Only fixed historical windows examined",
+    "Opening balances may predate scan windows",
+    "One RPC provider per chain",
+    "Cross-chain movements may recycle the same funds",
+    "Token-unit equivalence does not prove economic ownership",
+    "Same address string across chains is not proof of common beneficial ownership",
+    "No verified Binance incident attribution"
+  ]
+}
