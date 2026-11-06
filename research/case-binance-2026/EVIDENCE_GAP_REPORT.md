@@ -781,3 +781,148 @@ No incident-wide attribution or criminal allegation is established.
 The immediate unresolved research question remains the timing
 and effectiveness of Binance's withdrawal suspension relative
 to subsequent delegated-wallet execution.
+
+
+---
+
+## EG-08 Post-Delivery Audit Update — 2026-11-06
+
+**Status: POST-DELIVERY MECHANICS VERIFIED WITHIN AUDITED
+WINDOW; INCIDENT ATTRIBUTION UNKNOWN; PUBLICATION NOT APPROVED.**
+
+This section supersedes the earlier EG-08 statement that all
+subsequent Plasma movements and restriction states are unknown.
+The earlier section remains preserved as a historical checkpoint.
+
+### A. Verified transaction path — OBSERVED
+
+- Plasma arrival: 28,000,000 USDT0 at block 36440003.
+- Original tracked address had 5 USDT0 immediately before arrival.
+- Two subsequent transfers to the Aave aToken contract:
+  352,335 and 27,647,670 USDT0.
+- Total supplied underlying: 28,000,005 USDT0.
+- One independently verified 1 USDT0 withdrawal occurred
+  during the audited period.
+- Tracked address token balance reconciled to 1 USDT0.
+- Subsequent gap scan through block 36947581 found zero
+  additional relevant USDT0 Transfer events.
+
+**Conservation boundary:** These results concern the original
+tracked address and its verified transfer events, not an
+individualized 28M balance held separately inside Aave.
+
+### B. Aave claim accounting — OBSERVED AND MODELED
+
+- Pre-existing tracked-address aToken position:
+  381,657,413.555800 USDT0-equivalent.
+- Post-supply aToken position:
+  409,657,754.510852 USDT0-equivalent.
+- Position increase: 28,000,340.955052.
+- Supplied underlying: 28,000,005.
+- Difference: 335.955052.
+
+The scaled-balance / normalized-income reconciliation
+accounts for the difference at sub-raw-unit numerical
+precision.
+
+The reconciliation is an accounting identity, not proof
+that every economic source of the position change was
+independently established.
+
+The prior aToken position must not be attributed to the
+new 28M transfer.
+
+### C. Issuer-control experiments — LOCAL FORK ONLY
+
+Using a locally forked Plasma state at block 36945646:
+
+- Blocking the original user address:
+  Aave withdrawal succeeded; subsequent direct
+  USDT0 transfer reverted.
+- Blocking the Aave aToken address:
+  Aave withdrawal reverted with
+  `TetherToken: from is blocked`.
+- Blocking the Aave Pool address:
+  the tested withdrawal and direct transfer succeeded.
+
+A separate local-only experiment blocked the aToken
+contract and executed `destroyBlockedFunds`.
+It removed 41,462,618.740921 USDT0 from that
+contract's underlying balance and reduced USDT0
+total supply by the same amount.
+
+The aToken claims were not simultaneously burned.
+A tested withdrawal afterward failed.
+
+**Critical boundary:** The destroyed amount was the
+aToken contract's pooled underlying liquidity at the
+fork state, NOT a segregated 28M balance.
+
+No production issuer action, real depositor loss,
+or irreversible Aave insolvency is established.
+
+### D. Production snapshot — OBSERVED
+
+At pinned Plasma block 36947581:
+
+- Original user: not blocklisted.
+- Aave aToken contract: not blocklisted.
+- Aave Pool: not blocklisted.
+- Aave aToken underlying balance:
+  41,468,857.660634 USDT0.
+- Original user: 1 USDT0.
+- Tracked user's aToken balance:
+  409,937,911.217101 USDT0-equivalent.
+
+This is a block-pinned observation, not a guarantee
+about later blockchain states.
+
+### E. Outstanding evidence gaps — OPEN
+
+1. **Incident provenance:** No independent proof that
+   this 28M belongs to the reported Binance incident.
+   A matching bridge movement alone is insufficient.
+2. **Institutional overlap:** Confirm whether the traced
+   Aave position overlaps existing institutional reports.
+   Do not claim novelty without address-, chain-,
+   transaction- and time-level comparison.
+3. **Complete reserve-wide impact:** Token cash,
+   outstanding borrowing, accrued treasury balances,
+   liquidity availability, protocol deficit and recovery
+   controls require bounded additional verification
+   before reserve-wide loss claims.
+4. **Real-world issuer action:** The freeze and destruction
+   experiments are counterfactual. Production action,
+   asset recovery or enforcement outcomes are not
+   established by these experiments.
+5. **Current status:** Future claims must use a refreshed,
+   pinned chain snapshot and specify its observation time.
+
+### F. Final audit checkpoint
+
+Source:
+`evidence/eg08_plasma_post_delivery_v1/step07d_final_evidence_consistency_audit_v1/`
+
+- Evidence groups checked: 15.
+- SHA256-verified files: 91.
+- Original tracked-address conservation: PASS.
+- Indexed aToken accounting: PASS.
+- Local-fork control mechanism: REPRODUCED.
+- Incident attribution: UNKNOWN.
+- Institutional novelty: NOT VERIFIED.
+- External publication approval: NOT GRANTED.
+
+### G. Publication gate
+
+Eligible subject for further review:
+**Issuer-controlled USDT0 transfer restrictions and
+their locally reproduced interaction with Aave's
+pooled underlying liquidity and user claims.**
+
+Not eligible as an established claim:
+**A newly discovered Binance-linked criminal transfer,
+an actual issuer destruction, confirmed recovery,
+or actual depositor losses.**
+
+Maintain the permanent AXIOM methodology and
+research/main publication separation.
