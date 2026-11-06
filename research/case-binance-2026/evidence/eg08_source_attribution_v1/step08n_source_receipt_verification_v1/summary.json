@@ -1,0 +1,21 @@
+{
+  "step": "08N",
+  "status": "SOURCE_OFT_EVENT_CROSSWALK_VERIFIED",
+  "collected_utc": "2026-11-06T13:55:39.364849+00:00",
+  "source_commit": "35ac0e9",
+  "source_receipt_count": 3,
+  "source_chains": [
+    "mantle",
+    "plasma"
+  ],
+  "amount_raw_match_count": 3,
+  "full_source_funding_provenance_verified": false,
+  "incident_attribution": "UNKNOWN",
+  "limitations": [
+    "Cross-chain OFT sender is not necessarily beneficial owner",
+    "One verified RPC per source chain, not independent RPC consensus",
+    "Token decimals and fee mechanisms require separate accounting if raw amounts differ",
+    "A valid LayerZero route does not prove incident attribution",
+    "Funding of each OFT sender before send remains unverified"
+  ]
+}

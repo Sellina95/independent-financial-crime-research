@@ -1,0 +1,8 @@
+{
+  "file_count": 3,
+  "sha256": {
+    "source_oft_crosswalk.json": "326cef6544850b4e4869feda7780adb7b267e865204483b491faca66a167f743",
+    "source_transactions_and_receipts.json": "9d934ee1036012f31de42fa9bdd998248c8d780c0a51491775afd3533efdea53",
+    "summary.json": "414322a26f63e6257acec073c991d5cf7ad302a71039194437e758b5acf1a1c8"
+  }
+}
