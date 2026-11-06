@@ -1,0 +1,9 @@
+{
+  "file_count": 4,
+  "sha256": {
+    "direct_transfer_receipt.json": "0a5b45d50f794a9291f905b7665d31bb03810f7c08e82e278194536540702bd3",
+    "events.json": "12aeba2a6d840cc7bdbb1f052c13e52e06a3af273acad909042d0d282e4ee3c7",
+    "inbound_sources.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "summary.json": "a464d5ce66ab5a947a6e555ea5bcec0a3fe8c7a1089192c80880e50e63ebfd7f"
+  }
+}

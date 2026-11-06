@@ -1,0 +1,29 @@
+{
+  "classification": "OBSERVED_SINGLE_PROVIDER",
+  "research": "EG08_SOURCE_ATTRIBUTION",
+  "source_commit": "7918ced",
+  "chain": "Ethereum mainnet",
+  "chain_id": 1,
+  "rpc_provider": "https://eth.drpc.org",
+  "tracked_address": "0x1c3b25019ed4e4876e7af7903cc3e1e23287c337",
+  "start_block": 26304034,
+  "end_block": 26307033,
+  "opening_balance_raw": 80479547506043,
+  "inbound_raw": 0,
+  "outbound_raw": 52214309603998,
+  "closing_balance_raw": 28265237902045,
+  "difference_raw": 0,
+  "event_count": 2,
+  "inbound_source_count": 0,
+  "direct_28m_transfer_verified": true,
+  "direct_28m_transaction": "0x3d0eb0db944c9de0ac3d5a220c2272787f097232667b8bec60e49a8d83b09440",
+  "source_attribution": "UNKNOWN",
+  "incident_attribution": "UNKNOWN",
+  "limitations": [
+    "Single RPC provider; independent cross-provider check pending",
+    "Historical opening balance may predate scan",
+    "USDT balances are fungible; matching amounts do not prove provenance",
+    "Counterparty addresses do not establish common ownership",
+    "No Binance incident attribution established"
+  ]
+}
