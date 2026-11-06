@@ -1,0 +1,18 @@
+{
+  "step": "08M",
+  "classification": "EXTERNAL_API_LEADS_NOT_ONCHAIN_VERIFIED",
+  "source_commit": "35ac0e9",
+  "api_base": "https://scan.layerzero-api.com/v1/messages/guid/",
+  "collected_utc": "2026-11-06T13:47:11.996421+00:00",
+  "message_count": 3,
+  "total_amount_raw": 54301000000000,
+  "source_transaction_verified_count": 0,
+  "incident_attribution": "UNKNOWN",
+  "limitations": [
+    "API results are discovery leads, not independently verified blockchain evidence",
+    "Source transaction hash must be checked against source-chain receipt",
+    "Match GUID, source EID, sending contract, amount and recipient",
+    "Message sender contract is not necessarily beneficial owner",
+    "Do not infer Binance incident attribution from a bridge path"
+  ]
+}
