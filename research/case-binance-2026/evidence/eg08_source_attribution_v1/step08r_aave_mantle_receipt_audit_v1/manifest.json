@@ -1,0 +1,8 @@
+{
+  "file_count": 3,
+  "sha256": {
+    "decoded_transaction_context.json": "6f196aa8b0652ddd2d973d58d1c10f1f91ca472d1ab37ec34efe0d3a1af927c4",
+    "raw_receipts.json": "ddefe6eb019321b8d991be200b3ef89266d527a5ccd5da9d4913261a1648f1e7",
+    "summary.json": "223eaad2a899e323062cd63abd86c9f540432b6d73177ec698229974b9a43561"
+  }
+}

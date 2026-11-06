@@ -1,0 +1,110 @@
+[
+  {
+    "chain": "plasma",
+    "tx": "0xe2573e79d1db8511051714390e3391b4a93687e37568bffa3ddf839f4894ff10",
+    "block": 36367427,
+    "utc": "2026-10-29T21:27:29+00:00",
+    "executor": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+    "tx_to": "0x925a2a7214ed92428b5b1b090f80b25700095e12",
+    "selector": "0x69328dec",
+    "source": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+    "recipient": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+    "amount_raw": 33900000000000,
+    "source_has_contract_code": true,
+    "transfer_log_count": 1,
+    "token_transfers": [
+      {
+        "from": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+        "to": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+        "amount_raw": 33900000000000,
+        "log_index": 3
+      }
+    ],
+    "other_logs": [
+      {
+        "contract": "0x925a2a7214ed92428b5b1b090f80b25700095e12",
+        "topic0": "0x804c9b842b2748a22bb64b345453a3de7ca54a6ca45ce00d415894979e22897a",
+        "topic_count": 2,
+        "data_bytes": 160,
+        "index": 0
+      },
+      {
+        "contract": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+        "topic0": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "topic_count": 3,
+        "data_bytes": 32,
+        "index": 1
+      },
+      {
+        "contract": "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+        "topic0": "0x4cf25bc1d991c17529c25213d3cc0cda295eeaad5f13f361969b12ea48015f90",
+        "topic_count": 3,
+        "data_bytes": 96,
+        "index": 2
+      },
+      {
+        "contract": "0x925a2a7214ed92428b5b1b090f80b25700095e12",
+        "topic0": "0x3115d1449a7b732c986cba18244e897a450f61e1bb8d589cd2e69e6c8924f9f7",
+        "topic_count": 4,
+        "data_bytes": 32,
+        "index": 4
+      }
+    ],
+    "source_role_verified": false,
+    "incident_attribution": "UNKNOWN"
+  },
+  {
+    "chain": "mantle",
+    "tx": "0xb388679f9150b521729a0dbfb6a8833f6438a749355b6169ea143308c889d5f6",
+    "block": 102589551,
+    "utc": "2026-10-29T21:30:14+00:00",
+    "executor": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+    "tx_to": "0x458f293454fe0d67ec0655f3672301301dd51422",
+    "selector": "0x69328dec",
+    "source": "0x7053bad224f0c021839f6ac645bdae5f8b585b69",
+    "recipient": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+    "amount_raw": 20400000000000,
+    "source_has_contract_code": true,
+    "transfer_log_count": 1,
+    "token_transfers": [
+      {
+        "from": "0x7053bad224f0c021839f6ac645bdae5f8b585b69",
+        "to": "0xb8734a14fbd4aa2d44e6aa830405ffc861ba313c",
+        "amount_raw": 20400000000000,
+        "log_index": 3
+      }
+    ],
+    "other_logs": [
+      {
+        "contract": "0x458f293454fe0d67ec0655f3672301301dd51422",
+        "topic0": "0x804c9b842b2748a22bb64b345453a3de7ca54a6ca45ce00d415894979e22897a",
+        "topic_count": 2,
+        "data_bytes": 160,
+        "index": 0
+      },
+      {
+        "contract": "0x7053bad224f0c021839f6ac645bdae5f8b585b69",
+        "topic0": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "topic_count": 3,
+        "data_bytes": 32,
+        "index": 1
+      },
+      {
+        "contract": "0x7053bad224f0c021839f6ac645bdae5f8b585b69",
+        "topic0": "0x4cf25bc1d991c17529c25213d3cc0cda295eeaad5f13f361969b12ea48015f90",
+        "topic_count": 3,
+        "data_bytes": 96,
+        "index": 2
+      },
+      {
+        "contract": "0x458f293454fe0d67ec0655f3672301301dd51422",
+        "topic0": "0x3115d1449a7b732c986cba18244e897a450f61e1bb8d589cd2e69e6c8924f9f7",
+        "topic_count": 4,
+        "data_bytes": 32,
+        "index": 4
+      }
+    ],
+    "source_role_verified": false,
+    "incident_attribution": "UNKNOWN"
+  }
+]

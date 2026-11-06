@@ -1,0 +1,16 @@
+{
+  "step": "08R",
+  "status": "SOURCE_TRANSFER_RECEIPTS_VERIFIED",
+  "source_commit": "08Q checkpoint",
+  "verified_count": 2,
+  "plasma_aave_withdrawal_verified": false,
+  "mantle_sender_role_verified": false,
+  "incident_attribution": "UNKNOWN",
+  "limitations": [
+    "Transfer receipt alone does not prove Aave withdrawal",
+    "Protocol event meaning needs verified ABI",
+    "Contract code does not establish beneficial ownership",
+    "Same-chain transfer does not establish original funding",
+    "One RPC endpoint per chain"
+  ]
+}
