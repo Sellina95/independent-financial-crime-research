@@ -1,0 +1,27 @@
+[
+  {
+    "id": "G1",
+    "question": "Is Binance14 an independently verified incident victim/source address?",
+    "status": "NOT_ESTABLISHED_BY_THIS_AUDIT"
+  },
+  {
+    "id": "G2",
+    "question": "Is the Binance14 to Central transfer authenticated and incident-linked?",
+    "status": "PENDING_TRANSACTION_LEVEL_CROSSWALK"
+  },
+  {
+    "id": "G3",
+    "question": "Are all intermediary transfer edges through the mixed wallet proven?",
+    "status": "PENDING_EDGE_BY_EDGE_RECONCILIATION"
+  },
+  {
+    "id": "G4",
+    "question": "What portion of the mixed wallet to A transfer is incident-attributable?",
+    "status": "UNKNOWN_0_TO_25M_CONDITIONAL_BOUND"
+  },
+  {
+    "id": "G5",
+    "question": "Did A transfer 25M USDT to B?",
+    "status": "VERIFIED_ONCHAIN_NOT_INCIDENT_ATTRIBUTION"
+  }
+]

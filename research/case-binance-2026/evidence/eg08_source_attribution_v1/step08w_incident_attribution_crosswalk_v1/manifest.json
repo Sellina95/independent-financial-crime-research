@@ -1,0 +1,9 @@
+{
+  "file_count": 4,
+  "sha256": {
+    "attribution_gates.json": "b4bd55ffacfbc433aa115a4cab43ae264d411cfce5bdeea101910d72cf87d5ef",
+    "existing_evidence_index.json": "e280dd09a3311ee6a7c9cbf1f74982c79c7b64ad3cba23513e3718773d333eae",
+    "summary.json": "0f26384a4c6536b8adadd2de830747c4a8d89aefe33dfe188e7b61ad0440f192",
+    "verified_a_to_b_receipt.json": "2941d55e6ae2407b8e7140a390edfddf3dd47b35b2d53321c2ddd1a0931524e0"
+  }
+}

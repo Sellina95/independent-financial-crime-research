@@ -1,0 +1,45 @@
+{
+  "step": "08W",
+  "source_commit": "3bb2acf",
+  "collected_utc": "2026-11-06T14:31:16.998874+00:00",
+  "purpose": "INCIDENT_ATTRIBUTION_EVIDENCE_CROSSWALK",
+  "gates": [
+    {
+      "id": "G1",
+      "question": "Is Binance14 an independently verified incident victim/source address?",
+      "status": "NOT_ESTABLISHED_BY_THIS_AUDIT"
+    },
+    {
+      "id": "G2",
+      "question": "Is the Binance14 to Central transfer authenticated and incident-linked?",
+      "status": "PENDING_TRANSACTION_LEVEL_CROSSWALK"
+    },
+    {
+      "id": "G3",
+      "question": "Are all intermediary transfer edges through the mixed wallet proven?",
+      "status": "PENDING_EDGE_BY_EDGE_RECONCILIATION"
+    },
+    {
+      "id": "G4",
+      "question": "What portion of the mixed wallet to A transfer is incident-attributable?",
+      "status": "UNKNOWN_0_TO_25M_CONDITIONAL_BOUND"
+    },
+    {
+      "id": "G5",
+      "question": "Did A transfer 25M USDT to B?",
+      "status": "VERIFIED_ONCHAIN_NOT_INCIDENT_ATTRIBUTION"
+    }
+  ],
+  "verified_anchor": "A_TO_B_25M_USDT",
+  "official_victim_address_verified": false,
+  "continuous_incident_fund_provenance_verified": false,
+  "incident_attribution": "UNKNOWN",
+  "critical_limitations": [
+    "Text references are candidates, not verified transaction edges",
+    "A verified A-to-B transaction does not establish provenance",
+    "Binance14 label alone does not establish official victim status",
+    "Mixed-wallet funds are fungible and require explicit attribution bounds",
+    "Some large or unreadable evidence files may be skipped",
+    "Single Ethereum receipt confirmed through one successful provider"
+  ]
+}
