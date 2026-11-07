@@ -255,3 +255,42 @@ Novelty assessment:
 Classification:
 Next decisive test:
 Stopping condition:
+
+
+## 12. Incident Timeline — Audited Checkpoint
+
+Status: PARTIAL — existing evidence only.
+
+| Block | UTC | Event | USDT amount |
+|---:|---|---|---:|
+| 26300770 | 2026-10-29 20:24:23 UTC | Initial Binance14 → Central | 1,615,409,498.973240 |
+| 26300799 | UTC NOT YET PINNED | Central → 500M branch | 500,000,000 |
+| 26300815 | UTC NOT YET PINNED | Central → 200M branch | 200,000,000 |
+| 26300942 | 2026-10-29 20:59:11 UTC | 500M branch → 175M recipient | 175,000,000 |
+| 26300954 | UTC NOT YET PINNED | Central blacklist event | 971,149,299.483240 |
+| 26300988 | UTC NOT YET PINNED | 175M recipient → terminal address | 175,000,000 |
+| 26301011 | UTC NOT YET PINNED | Terminal address outgoing | 127.672480 |
+| 26301021 | UTC NOT YET PINNED | 175M terminal blacklist event | 174,999,872.327520 |
+| 26301041 | UTC NOT YET PINNED | 30M terminal blacklist event | 30,000,000 |
+
+### Evidence boundaries
+
+- Initial transfer timestamp: USDT_FUND_FLOW_AND_FREEZE_V2.md.
+- Second-hop timestamps: archived transfer_logs.json where available.
+- Other event ordering: preserved block numbers, not invented UTC times.
+- Blacklist amounts are historical address-balance checkpoints.
+- Blacklist registration is not proof of asset recovery.
+- Initial and downstream amounts must not be summed as separate losses.
+
+### RED TEAM — historical report correction
+
+The older USDT_FUND_FLOW_AND_FREEZE_V2.md recorded
+a 127.672380 USDT discrepancy.
+The later BLACKLIST_175M_CASE_AUDIT_V1.md reconciled
+the 127.672480 USDT outgoing transfer and
+174,999,872.327520 USDT historical remaining balance.
+The later verified reconciliation takes precedence.
+Original documents remain unchanged.
+
+Incident-specific attribution remains UNKNOWN where
+independent source authentication is unavailable.
