@@ -651,3 +651,51 @@ qualifying asset transfers and delegation state.
   incident-fund provenance.
 - Do not repeat the discredited Aave tracing claim.
 - Only reopen these questions on material new evidence.
+
+## 19. EG-02 Post-Blacklist Raw-Log Crosscheck
+
+**Status: ARCHIVED RAW-LOG / LEDGER CROSSCHECK PASS**
+
+- Token: Ethereum USDT, 6 decimals.
+- Sender: `0x28c6c06298d514db089934071355e5743bf21d60` (publicly labeled Binance 14).
+- Receiver: `0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c` (Central).
+- Opening blacklist block: 26300954.
+- Scope ending block: 26301167.
+- Two distinct archived Transfer events match the ledger.
+- Post-blacklist inbound: 204,315,411.592122 USDT.
+- Observed outbound in this scoped ledger: 0 USDT.
+- Source-to-recipient attribution is transaction-level;
+  source ownership and authorization are not established.
+
+| Block | TXID | Amount (USDT) |
+|---:|---|---:|
+| 26300968 | `0x31c4c9fe287d54fb9d3b79980477a8c793a11f774b98d0a9a92de1dad888a91d` (log 882) | 3,917,639.767927 |
+| 26301167 | `0x55ba4dabc41b468e580751373ad31acdee6f5ba398682df2c93e5a8340870556` (log 809) | 200,397,771.824195 |
+
+### External comparison
+
+- Bitquery publicly reports approximately 204M USDT
+  post-blacklist inflow, including approximately 200M
+  from Binance (external report claim).
+- Source: https://bitquery.io/investigations/binance-hack
+- The archived raw events support the same broad pattern;
+  no material discrepancy established.
+- External report's precise population/cutoff and
+  ownership assumptions are not independently audited.
+- No claim of institutional novelty, recovery or
+  incident-wide freeze value.
+
+### Immutable evidence SHA256
+
+- `evidence/eg02_central_post_blacklist_ledger_v1/raw_logs.json` SHA256 `4659e59fcb487ce9092c8ee137304a47476da7f3055f840f3f32586f6d61e04f`
+- `evidence/eg02_central_post_blacklist_ledger_v1/transfer_ledger.json` SHA256 `77cc9f1bd38f32571361fab82baa7ced67696548ca94252f457c7ef7e47dd081`
+- `evidence/eg02_central_post_blacklist_ledger_v1/audit.json` SHA256 `3c904450e37c740f877e0fff3673037466e284636baf3883f8f9a41ec37e785c`
+
+### Audit boundary
+
+- Reproduction uses archived provider logs and ledger.
+- No independent second-provider replay in this step.
+- Treat blacklist designation, restricted balance
+  and asset recovery as separate propositions.
+- EG-02 novelty claim: STOP_LOW_VALUE unless new
+  material conflicting evidence appears.
