@@ -303,7 +303,7 @@ Status: REPORT-LINKED / RAW RECEIPT REPLAY PENDING
 |---:|---|---|---|---|---|
 | 26300770 | Initial USDT transfer | `0x53bd38b816c23e74134786c29a8c18d792777998a3b9326047b583100e88e2f3` | 2026-10-29 20:24:23 | `USDT_FUND_FLOW_AND_FREEZE_V2.md` | TRANSFER |
 | 26300799 | Central 500M distribution | `0x68d7d69deaeb9750c38020b4f8d3728146ca8d2267eba1e38cf9b56722ad659a` | UNKNOWN | `USDT_FUND_FLOW_AND_FREEZE_V2.md` | TRANSFER |
-| 26300815 | Central 200M distribution | `NOT YET LINKED` | UNKNOWN | `GATE_3_T03_TO_700M_LINKAGE_AUDIT_V1.md` | TRANSFER |
+| 26300815 | Central 200M distribution | `0x1fc0ef33a767132edad434834a5555b30fcb5a171206c03b86175ef6dafac81c` | UNKNOWN | `GATE_3_T03_TO_700M_LINKAGE_AUDIT_V1.md` | TRANSFER |
 | 26300942 | 175M transfer | `0x1fb992f92a45afec23d7d5740c7958a644fb90ef0cba19ca39bd2c6534fb670b` | 2026-10-29 20:59:11 | `GATE_2_175M_PATH_CONTINUITY_AUDIT_V1.md` | TRANSFER |
 | 26300954 | Central blacklist | `0x7baba482077843514d9c72bac0110ba0916b0814288a72917e2c3bb27a9d8659` | UNKNOWN | `USDT_FREEZE_TIMELINE_CHECKPOINT_V4.md` | BLACKLIST |
 | 26300988 | 175M onward transfer | `0xb6d7d3ffcbdd0465e1ab743a8d943218176cac7b15edefa7b7bcd5e853e4266f` | UNKNOWN | `BLACKLIST_175M_CASE_AUDIT_V1.md` | TRANSFER |
@@ -331,3 +331,17 @@ outflow documented in BLACKLIST_175M_CASE_AUDIT_V1.md.
 
 Next: verify the 200M TXID and missing event timestamps
 from existing archived records before attempting new RPC calls.
+
+### STEP 18 — 200M original receipt verification
+
+- Transaction: `0x1fc0ef33a767132edad434834a5555b30fcb5a171206c03b86175ef6dafac81c`
+- Block: `26300815`
+- USDT amount: `200,000,000.000000`
+- Receipt status: SUCCESS
+- Transfer log index: `0x394`
+- Source: Central address
+- Destination: 200M branch address
+- Two preserved receipt files independently matched.
+- Classification: OBSERVED, ARCHIVED RECEIPT CROSS-CHECK PASS.
+- UTC timestamp: NOT YET PINNED.
+- Incident-specific unauthorized transfer attribution: UNKNOWN.
