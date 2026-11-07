@@ -436,3 +436,43 @@ Cross-reference saved downstream evidence and public
 institutional reports before any new branch tracing.
 Prioritize a genuinely unresolved mechanism or control
 question rather than repeating documented movements.
+
+## 15. Preserved 175M and 190M Follow-on Audit
+
+**Status: SCOPED RECEIPT VERIFICATION PASS**
+
+| Block | From | To | USDT | TXID |
+|---:|---|---|---:|---|
+| 26300936 | `0x8d53903625b8e839b9df4bd28b0efb1cd6b8639a` | `0x23878914efe38d27c4d67ab83ed1b93a74d4086a` | 10,000,000.000000 | `0x420e74015336a44f3056c00bf5a1313889a7f6ed30a053ad59832d4a4a1f14eb` |
+| 26300947 | `0x8d53903625b8e839b9df4bd28b0efb1cd6b8639a` | `0x23878914efe38d27c4d67ab83ed1b93a74d4086a` | 50,000,000.000000 | `0x65bd82f19985a569ef87b3926dd5f2247ba7bd06640141060f1b2d9ddedec3f6` |
+| 26300956 | `0x8d53903625b8e839b9df4bd28b0efb1cd6b8639a` | `0x77edef23fbd05921c26fe29fcc3a65e14d2ac3eb` | 130,000,000.000000 | `0xd2e7e5e6ee32a3552de469d97e90d83b707d314ffe7b8747786de92daa3fc3d8` |
+| 26300988 | `0x811f15855476156ebf86ba3b84fafb8ceaa4e84c` | `0xaa246bf639586a6ba46762d378ce50ca4fc654a0` | 175,000,000.000000 | `0xb6d7d3ffcbdd0465e1ab743a8d943218176cac7b15edefa7b7bcd5e853e4266f` |
+
+### Scoped reconciliation
+
+- 175M intermediary: 175M observed outgoing; difference 0.
+- 190M intermediary: 10M + 50M + 130M = 190M.
+- Both checks cover preserved receipts only.
+- Zero scoped difference does NOT prove complete history.
+- These are downstream movements, not additional incident losses.
+
+### Protocol and attribution boundary
+
+- The 10M and 50M transfers reach an Aave-associated address.
+- No direct 60M Supply -> 25M withdrawal attribution is supported.
+- The pre-existing aUSDT position correction remains controlling.
+- Wallet ownership and incident-specific attribution: UNKNOWN.
+- Do not re-open the discredited 25M attribution path.
+
+### Original evidence SHA256
+
+- `evidence/blacklist_flow_175m_v1/inflow_receipt.json` — `5a7dcf937bba60abb091d43884013b6882a7beba9b47b863184a11fbf3042aa4`
+- `evidence/30m_upstream_bridge_v1/130m_receipt.json` — `f69ff4b030582007513a308a260837adc6b54863c004322190eddc3d3c704603`
+- `evidence/eg08_source_attribution_v1/step08y_forward_edge_preservation_v1/raw_intermediate_receipts.json` — `1129314e62d6c2d334053c262c99fa041d9e4bf698a68f2e7ca9eb3f291c6568`
+
+### Research decision
+
+Mark these two intermediary distributions as
+SCOPED RECONCILIATION PASS, not FINAL TRACE COMPLETE.
+Link existing 130M and blacklist studies without
+re-running their original transaction investigations.
