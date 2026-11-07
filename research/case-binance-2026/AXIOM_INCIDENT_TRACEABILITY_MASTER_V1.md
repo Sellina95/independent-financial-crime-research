@@ -367,3 +367,72 @@ wall-clock timestamp for each individual transaction.
 Transaction index determines order within a block.
 
 Original evidence and earlier reports remain unchanged.
+
+## 14. Fund Flow Network — 700M Scoped Ledger
+
+**Status: OBSERVED / SCOPED RECONCILIATION PASS**
+
+Network: Ethereum Mainnet
+Token: USDT (6 decimals)
+Scope: Two first-hop recipients of Central.
+
+### Evidence provenance
+
+- Raw source: `evidence/second_hop_usdt_v1/transfer_logs.json`
+- SHA256: `7b8e0b68f6cabebe2c9789e5b4a76437a0b44b7c8f85a81925e2054a894d2300`
+- Identity key: `(transactionHash, logIndex)`.
+- Amount arithmetic: exact integer token units.
+
+### Verified distribution table
+
+| Sender | Recipient | USDT | Events |
+|---|---|---:|---:|
+| `0x9749292d74fd460982d0912ea9515ea24736c762` | `0x811f15855476156ebf86ba3b84fafb8ceaa4e84c` | 175,000,000.000000 | 1 |
+| `0x9749292d74fd460982d0912ea9515ea24736c762` | `0xbeef02961503351625926ea9a11ae13b29f5c555` | 144,999,999.999999 | 4 |
+| `0x9749292d74fd460982d0912ea9515ea24736c762` | `0x0000000000be226afde21672a5e4adc45692e69d` | 100,000,000.000000 | 1 |
+| `0x9749292d74fd460982d0912ea9515ea24736c762` | `0x74edc79fea13bdf1f7841570227127cec493bdd9` | 50,000,000.000000 | 1 |
+| `0x9749292d74fd460982d0912ea9515ea24736c762` | `0x9b1303ebf09bc51b7fac376c9e421e8daae63b82` | 28,600,454.367187 | 1 |
+| `0x9749292d74fd460982d0912ea9515ea24736c762` | `0xec4fb7e7c35c241e1138a2d8cfbb09f3ad1ccb22` | 1,399,545.632814 | 2 |
+| `0x9749292d74fd460982d0912ea9515ea24736c762` | `0x8477f676e781ffbca3c3cb853b09fe1c33b57f20` | 0.000000 | 1 |
+
+**Branch `0x9749292d74fd460982d0912ea9515ea24736c762` reconciliation:**
+500,000,000.000000 expected; 500,000,000.000000 observed; 0.000000 USDT difference.
+
+| `0x0ddf0480016e6bcb2c1f5d190d221fba1320697e` | `0x8d53903625b8e839b9df4bd28b0efb1cd6b8639a` | 190,000,000.000000 | 1 |
+| `0x0ddf0480016e6bcb2c1f5d190d221fba1320697e` | `0x000000000004444c5dc75cb358380d2e3de08a90` | 4,120,000.000000 | 1 |
+| `0x0ddf0480016e6bcb2c1f5d190d221fba1320697e` | `0x4e68ccd3e89f51c3074ca5072bbac773960dfa36` | 3,390,000.000000 | 1 |
+| `0x0ddf0480016e6bcb2c1f5d190d221fba1320697e` | `0x56534741cd8b152df6d48adf7ac51f75169a83b2` | 1,390,000.000000 | 1 |
+| `0x0ddf0480016e6bcb2c1f5d190d221fba1320697e` | `0x9db9e0e53058c89e5b94e29621a205198648425b` | 500,000.000000 | 1 |
+| `0x0ddf0480016e6bcb2c1f5d190d221fba1320697e` | `0x11b815efb8f581194ae79006d24e0d814b7697f6` | 330,000.000000 | 1 |
+| `0x0ddf0480016e6bcb2c1f5d190d221fba1320697e` | `0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852` | 110,000.000000 | 1 |
+| `0x0ddf0480016e6bcb2c1f5d190d221fba1320697e` | `0xc7bbec68d12a0d1830360f8ec58fa599ba1b0e9b` | 100,000.000000 | 1 |
+| `0x0ddf0480016e6bcb2c1f5d190d221fba1320697e` | `0x3416cf6c708da44db2624d63ea0aaef7113527c6` | 60,000.000000 | 1 |
+
+**Branch `0x0ddf0480016e6bcb2c1f5d190d221fba1320697e` reconciliation:**
+200,000,000.000000 expected; 200,000,000.000000 observed; 0.000000 USDT difference.
+
+### Scope and limitations
+
+- Selected branch inflows: 700,000,000.000000 USDT.
+- Selected branch outflows: 700,000,000.000000 USDT.
+- Reconciliation difference: 0.000000 USDT.
+- Unique transaction hashes: 13.
+- Unique Transfer events: 20.
+- Distinct recorded recipient addresses: 16.
+- One recipient has a zero-value Transfer event.
+- Zero-value events do not increase transferred value.
+- These are recipient addresses, not 16 proven owners.
+- Later swaps, protocol interactions and pooled liquidity
+  must not be interpreted as direct actor-controlled custody.
+- This is NOT incident-wide transfer completeness.
+- This is NOT proof of stolen-funds attribution.
+- These downstream movements are NOT additional losses.
+- This checkpoint records existing observations;
+  it does not claim a newly discovered transaction path.
+
+### Next research boundary
+
+Cross-reference saved downstream evidence and public
+institutional reports before any new branch tracing.
+Prioritize a genuinely unresolved mechanism or control
+question rather than repeating documented movements.
