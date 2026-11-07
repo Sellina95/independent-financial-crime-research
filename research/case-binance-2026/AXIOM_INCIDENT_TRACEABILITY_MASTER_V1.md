@@ -476,3 +476,59 @@ Mark these two intermediary distributions as
 SCOPED RECONCILIATION PASS, not FINAL TRACE COMPLETE.
 Link existing 130M and blacklist studies without
 re-running their original transaction investigations.
+
+## 16. 130M Path and Blacklist Control Checkpoint
+
+Status: SCOPED RECEIPT AUDIT / CONTROL CHECKPOINT
+
+### A. Preserved 130M -> 80M -> 30M route
+
+| Block | Sender | Recipient | USDT | TXID | Log index |
+|---:|---|---|---:|---|---:|
+| 26300956 | `0x8d53903625b8e839b9df4bd28b0efb1cd6b8639a` | `0x77edef23fbd05921c26fe29fcc3a65e14d2ac3eb` | 130,000,000.000000 | `0xd2e7e5e6ee32a3552de469d97e90d83b707d314ffe7b8747786de92daa3fc3d8` | 382 |
+| 26300980 | `0x77edef23fbd05921c26fe29fcc3a65e14d2ac3eb` | `0x7aa4d3029e4c6a8e916300014ad95b6d6c03bfd1` | 80,000,000.000000 | `0x279d12e9a7f594eeaf0eb83fe649f7f2cdf82ced156a82f85014dc56369b36d8` | 701 |
+| 26301002 | `0x7aa4d3029e4c6a8e916300014ad95b6d6c03bfd1` | `0xccbef95633adb5cd2b5038db5a38d77e726ca263` | 30,000,000.000000 | `0x9a7645882a20445c5a731a15f34e1757f0b6c52e8f51a4ddb8c09cdc424295ce` | 424 |
+| 26301027 | `0xccbef95633adb5cd2b5038db5a38d77e726ca263` | `0xb171ca86f82070282138352ff7111b494060c8c3` | 30,000,000.000000 | `0x1e6f851d072ae0ad448dca2446552cbb4e76516029b34980d5189e4353aae7a7` | 132 |
+
+### B. Reconciliation boundaries
+
+- Verified movements: 130M -> 80M -> 30M -> 30M.
+- 130M less 80M = 50M unaccounted for in this
+  selected outgoing sample, NOT a verified residual balance.
+- 80M less 30M = 50M likewise NOT a verified balance.
+- The two successive 30M transfers are the same
+  observed path, not 60M of distinct loss.
+- These selected receipts do not prove full coverage.
+- Incident-specific ownership/attribution: UNKNOWN.
+
+### C. Blacklist-time balance checkpoints
+
+| Address group | Block | USDT balance |
+|---|---:|---:|
+| Central | 26300954 | 971,149,299.483240 |
+| 175M recipient | 26301021 | 174,999,872.327520 |
+| 30M recipient | 26301041 | 30,000,000.000000 |
+
+- Source: `EG01_EXECUTION_TIME_AUDIT_V1.md`.
+- Classification: OBSERVED historical block-end balance;
+  execution-instant balance STRONGLY INFERRED.
+- Three checkpoints occur at different block times.
+- Their arithmetic sum is NOT incident-wide frozen
+  value, recovered assets or synchronized holdings.
+- Transfer restriction, subsequent incoming funds,
+  redemption and recovery must be kept separate.
+
+### D. Raw receipt provenance
+
+- `evidence/30m_upstream_bridge_v1/130m_receipt.json` SHA256 `f69ff4b030582007513a308a260837adc6b54863c004322190eddc3d3c704603`
+- `evidence/30m_upstream_bridge_v1/80m_receipt.json` SHA256 `20edcee810398d3d140e4c985ff5472bb10e801672f0b70801aaea447c59a2d7`
+- `evidence/30m_upstream_bridge_v1/30m_a_receipt.json` SHA256 `2f1a843b67efafa45f4b5d4c324ec28f289438a62b5e84afca896b85db131363`
+- `evidence/30m_upstream_bridge_v1/30m_b_receipt.json` SHA256 `8a3c9f2e1e3ecb7872b7e730d0fa0f923b0ac85ae03d8876e91b8f4a0519c5bb`
+
+### E. Research decision
+
+- Existing 130M/80M/30M path: DO NOT RETRACE.
+- Existing blacklist event/balance audit: REUSE.
+- No new actor attribution or institutional omission claim.
+- Next priority: compare source/designation evidence and
+  public institutional interpretations before new tracing.
