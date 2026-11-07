@@ -532,3 +532,50 @@ Status: SCOPED RECEIPT AUDIT / CONTROL CHECKPOINT
 - No new actor attribution or institutional omission claim.
 - Next priority: compare source/designation evidence and
   public institutional interpretations before new tracing.
+
+## 17. EG-06 Control-Timing Evidence Boundary
+
+**Status: PARTIAL / CONTROL FAILURE NOT ESTABLISHED**
+
+### Evidence register
+
+| UTC | Event or claim | Classification |
+|---|---|---|
+| 2026-10-29 22:27 | Public confirmation reported by TechCrunch | REPORTED_BY_SOURCE |
+| 2026-10-29 22:39:35 | Candidate transaction time in research charter | UNVERIFIED CANDIDATE |
+| 2026-10-29 23:56 | Last unauthorized 2,961.9 ETH transfer, per Binance | REPORTED_BY_SOURCE |
+| 2026-10-30 00:10:35 | Delegation revocation candidate, block 26301896 | INDEXED EVIDENCE / RAW REPLAY PENDING |
+
+Revocation candidate TXID:
+`0xafbf94c92a8d749988411669fa14d4f8866d9b4420b4ebd299f28e958dac7209`
+
+### Critical unknowns
+
+- Exact internal withdrawal-suspension effective timestamp: UNKNOWN.
+- Whether the 22:39:35 candidate is a verified qualifying transaction: UNKNOWN.
+- Relevant broadcast, inclusion and finalization times are not interchangeable.
+- Whether a specific transaction bypassed an effective control: NOT ESTABLISHED.
+- Public confirmation time is not an internal suspension timestamp.
+- Cryptographic signing does not establish corporate authorization.
+
+### Institutional interpretation
+
+No control failure may be asserted from these timestamps alone.
+The unresolved question is whether authenticated internal
+control timing can be compared to independently verified
+qualifying asset transfers and delegation state.
+
+### Evidence provenance
+
+- `EVIDENCE_GAP_REPORT.md` SHA256 `1834a50d03490fec9e1cf83b9b3f6bc90fc7e4c78cab67979ded6ce6835cefec`
+- `evidence/step75a_official_report_crosswalk_v1/official_report_excerpt.txt` SHA256 `955b0061acea6b3be3f804638e568b74b1cb7cbccaf53d003cf06c42127b6630`
+- `evidence/eg08_source_attribution_v1/step08w_incident_attribution_crosswalk_v1/existing_evidence_index.json` SHA256 `e280dd09a3311ee6a7c9cbf1f74982c79c7b64ad3cba23513e3718773d333eae`
+
+### Research decision
+
+- EG-06 remains OPEN.
+- Do not repeat T02/T03/T17 technical audits.
+- Do not claim an institution missed a control failure.
+- Resume only with authenticated suspension timing
+  or a material, independently reproducible transaction.
+- Otherwise retain UNKNOWN and prioritize other gaps.
