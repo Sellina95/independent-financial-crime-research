@@ -579,3 +579,75 @@ qualifying asset transfers and delegation state.
 - Resume only with authenticated suspension timing
   or a material, independently reproducible transaction.
 - Otherwise retain UNKNOWN and prioritize other gaps.
+
+## 18. EG-03 Accounting Boundary and Aave Attribution Correction
+
+**Status: INTERPRETATION CORRECTION / NO NEW TRANSACTION DISCOVERY**
+
+### A. Intermediate-wallet reconciliation
+
+- The four selected receipts in Section 16 establish a
+  130M -> 80M -> 30M -> 30M path.
+- The earlier EG-03 audit additionally records 50M
+  distributed by the 130M receiver and 50M distributed
+  by the 80M receiver.
+- Consequently the earlier 50M differences are not
+  evidence of 50M retained balances.
+- Earlier audit: 130M = 80M + 50M; 80M = 30M + 50M.
+- The earlier audit reports zero balances for these
+  intermediate receivers at block 26301041.
+- This correction has NOT independently replayed the
+  two additional 50M transfer receipts.
+- The two 50M distributions are distinct transfer
+  observations, not another 100M of incident loss.
+- Ultimate recipients, restrictions and ownership
+  remain outside this verified scope.
+
+### B. STEP 60 timing boundary
+
+- STEP 60 reports 130M as an ending balance after
+  the selected 10M and 50M outgoing transfers.
+- A subsequent 130M outgoing transaction is preserved
+  at block 26300956.
+- The original STEP 60 terminal audit's exact
+  state cutoff has NOT been independently recovered.
+- Therefore the reported 130M checkpoint and the
+  later zero balance are not proven contradictory.
+- Never describe 130M as the final retained balance.
+
+### C. Source accounting versus incident attribution
+
+- STEP 62's 144,260,199.490000 to 200M USDT
+  range is conditional fungible-balance accounting.
+- It is NOT proof that an equivalent amount was stolen
+  or exclusively attributable to one incident source.
+- STEP 65/66 legacy 0-to-25M tagged-source accounting
+  must NOT be promoted to incident attribution.
+- The later STEP 08AC protocol audit established a
+  pre-existing Aave aUSDT position and rejected the
+  alleged direct 60M Supply -> 25M Withdraw linkage.
+- Aave pool liquidity remains fungible; the correction
+  does not prove that all pooled units were unrelated.
+- The earlier A/B consolidation model and STEP 66
+  pooled model have different accounting boundaries.
+- Their populations and temporal cutoffs must not
+  be merged without a source-level reconciliation.
+
+### D. Source integrity
+
+- `EVIDENCE_GAP_REPORT.md` SHA256 `1834a50d03490fec9e1cf83b9b3f6bc90fc7e4c78cab67979ded6ce6835cefec`
+- `INCIDENT_FUND_ATTRIBUTION_CHECKPOINT_2026-11-05.md` SHA256 `f7a15fbb79901c0709fd9bf8d862c9b8de853c11223926b3d5f4069e710c42b9`
+- `EG08_AAVE_POSITION_ATTRIBUTION_CORRECTION_V1.md` SHA256 `ed14c419adfef34cc90c3264dee91014cc56a1201b628601feb714ec5b0e9149`
+
+### E. Audit disposition
+
+- OBSERVED: preserved transfer evidence and the
+  separately documented EG-03 scoped reconciliation.
+- INFERRED: a change in accounting cutoff can explain
+  the difference between 130M and later zero balance.
+- DISPROVEN: direct incident-source entitlement claim
+  for the 25M Aave withdrawal.
+- UNKNOWN: final ownership, legal taint and full
+  incident-fund provenance.
+- Do not repeat the discredited Aave tracing claim.
+- Only reopen these questions on material new evidence.
