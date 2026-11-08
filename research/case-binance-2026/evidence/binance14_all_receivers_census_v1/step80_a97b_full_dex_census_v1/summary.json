@@ -1,0 +1,27 @@
+{
+  "total_events": 1186,
+  "unique_transactions": 1184,
+  "transaction_classifications": {
+    "DEX_WETH_PATTERN": 1124,
+    "OTHER_OR_UNCLASSIFIED": 57,
+    "DEX_ROUTER_OTHER": 3
+  },
+  "event_classifications": {
+    "OTHER_OR_UNCLASSIFIED": 57,
+    "DEX_WETH_PATTERN": 1126,
+    "DEX_ROUTER_OTHER": 3
+  },
+  "dex_weth_transaction_share_pct": 94.93,
+  "dex_weth_event_share_pct": 94.94,
+  "scope": "Bounded STEP70 transfer events",
+  "exact_swap_count_proven": false,
+  "final_eth_settlement_verified": false,
+  "incident_provenance": "UNKNOWN",
+  "limitations": [
+    "Known-router WETH patterns only; other DEX paths may exist",
+    "Event counts are not unique swap counts",
+    "A transaction may perform multiple operations",
+    "Native ETH internal settlement not independently replayed",
+    "Binance incident provenance not established"
+  ]
+}

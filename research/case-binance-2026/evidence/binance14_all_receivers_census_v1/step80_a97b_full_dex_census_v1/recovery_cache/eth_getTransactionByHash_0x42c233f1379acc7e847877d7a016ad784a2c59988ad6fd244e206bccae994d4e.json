@@ -1,0 +1,25 @@
+{
+  "method": "eth_getTransactionByHash",
+  "params": [
+    "0x42c233f1379acc7e847877d7a016ad784a2c59988ad6fd244e206bccae994d4e"
+  ],
+  "result": {
+    "type": "0x0",
+    "chainId": "0x1",
+    "nonce": "0x36d",
+    "gasPrice": "0x1752cbfa",
+    "gas": "0x186a0",
+    "to": "0x71ab77b7dbb4fa7e017bc15090b2163221420282",
+    "value": "0x0",
+    "input": "0xa9059cbb000000000000000000000000d0ec028a3d21533fdd200838f39c85b03679285d00000000000000000000000000000000000000000004121f3dc2a42140000000",
+    "r": "0x9576c7920d3d8df12a3399b29940c62a470cf6a18333abda05e11d1303a7f57e",
+    "s": "0x5f842c05fdaadd16574883e19f3773ae9e5189c127ce426eef040e7050331347",
+    "v": "0x25",
+    "hash": "0x42c233f1379acc7e847877d7a016ad784a2c59988ad6fd244e206bccae994d4e",
+    "blockHash": "0xa254494e9602b4fc5a4ea36e1578c5b4ed56142def9dab326b35045d57f5640f",
+    "blockNumber": "0x1915b68",
+    "transactionIndex": "0x52",
+    "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "blockTimestamp": "0x6ae42443"
+  }
+}
