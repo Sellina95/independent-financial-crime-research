@@ -261,6 +261,19 @@ Stopping condition:
 
 Status: PARTIAL — existing evidence only.
 
+**Scope update (2026-11-08):**
+This table is a partial USDT movement and blacklist
+checkpoint, NOT a complete cross-asset control timeline.
+The historical KITE pause is preserved in Section 21.
+The EIP-7702 revocation candidate and timing limitations
+are preserved in Section 17.
+
+Proposed Section 22 will integrate these evidence
+populations only after an archived-evidence audit of
+timestamps, block ordering, transaction ordering,
+source integrity, and control effectiveness boundaries.
+
+
 | Block | UTC | Event | USDT amount |
 |---:|---|---|---:|
 | 26300770 | 2026-10-29 20:24:23 UTC | Initial Binance14 → Central | 1,615,409,498.973240 |
@@ -777,8 +790,15 @@ reverting the full transaction.
   observed transaction-level behavior.
 - NOT YET VERIFIED: complete executed opcode/stack sequence
   for the 27th failed call.
-- UNKNOWN: the failed token's underlying revert cause,
-  authorship and subjective intent of the programmer or attacker.
+- HISTORICAL RESEARCH STATUS: at the Section 20
+  checkpoint, the failed token's underlying revert cause
+  had not yet been independently corroborated.
+- SECTION 21 UPDATE: historical paused-state evidence,
+  a Safe-compatible KITE pause transaction, and the
+  T03 EnforcedPause()-matching revert strongly corroborate
+  pause enforcement as the reason for the failed child call.
+- Complete instruction-level causal replay remains open.
+- Authorship and subjective intent remain UNKNOWN.
 - The separate external "64 attempts / 37 failures"
   population remains unverified.
 - This mechanism has already been described in the
@@ -862,3 +882,47 @@ reverting the full transaction.
 - Do not characterize token-level protection as
   a wallet-wide or Ethereum-wide transaction freeze.
 - No separate publication or modification of `main`.
+
+### F. Evidence-status reconciliation
+
+- Section 20's earlier UNKNOWN token-specific revert
+  cause is superseded by Section 21's
+  STRONGLY CORROBORATED assessment.
+- This is an evidence-status progression, not a claim
+  of first discovery or of wallet-wide protection.
+- The 2026-08-05 pause transaction does not alone prove
+  uninterrupted pause through the incident.
+- The separate incident-adjacent historical paused()
+  snapshot supports pause state near T03.
+- Token pause motive, administrator identity, and
+  token-migration causal explanation remain UNKNOWN.
+
+### G. Proposed Section 22 — audit gate
+
+**Status: NOT CREATED / ARCHIVED-EVIDENCE AUDIT PENDING**
+
+Research question:
+After EIP-7702 delegation, when did each relevant
+control become effective, and which assets or
+permissions did it actually restrict?
+
+Required controls:
+- KITE token-level pause.
+- USDT address-specific blacklist and balance states.
+- EIP-7702 delegation and revocation checkpoints.
+- ETH transfers and their applicable control boundary.
+
+Audit requirements:
+- Reuse archived evidence before new RPC requests.
+- Validate SHA256, block number, transaction index,
+  event/log index and UTC provenance.
+- Separate OBSERVED, REPORTED_BY_SOURCE,
+  INFERRED and UNKNOWN.
+- Separate public announcements from internal
+  suspension-effective times.
+- Separate blocked transfers, restricted balances,
+  authority revocation and recovered assets.
+- Do not sum asynchronous balance checkpoints.
+- Do not infer control bypass or failure from
+  unauthenticated internal timing.
+- Create Section 22 only after the scoped audit.
