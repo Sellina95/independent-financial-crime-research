@@ -1,0 +1,22 @@
+{
+  "transactions": 1015,
+  "results": {
+    "MATCHED_TRANSFER_THEN_WITHDRAWAL": 1015
+  },
+  "unique_first_receivers": 4,
+  "existing_trace_candidates": [],
+  "trace_candidate_count": 0,
+  "source_sha256": {
+    "research/case-binance-2026/A97B/dex_weth_settlement_audit_v1/DEX_WETH_SETTLEMENT_TIMELINE_V1.csv": "c98292729bdab73c37a2bc23c8e2960e4ec14e912a694a940d515d13a40433a4",
+    "research/case-binance-2026/A97B/dex_weth_settlement_audit_v1/WETH_WRAP_UNWRAP_EVENTS_V1.csv": "95b27a1f2cb6b65bf52578881fdeb073d8885153f024fd471f7c11812da27e84",
+    "research/case-binance-2026/A97B/dex_transaction_paths_v1/DEX_ALL_VERIFIED_TOKEN_LEGS_V1.csv": "2ec34d286c1ac6cc0807ba45e3abe433ae298ebffefba2692a06efced50ce688"
+  },
+  "limitations": [
+    "Withdrawal caller receives ETH from WETH9",
+    "First recipient is not necessarily final beneficiary",
+    "Transfer and withdrawal pairing is checked by amount and order",
+    "Trace files discovered but not validated or replayed",
+    "Gross ETH withdrawal total is not established incident proceeds",
+    "Native ETH onward transfers require execution traces"
+  ]
+}

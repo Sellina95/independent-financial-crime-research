@@ -1,0 +1,20 @@
+{
+  "tx_audited": 1015,
+  "patterns": {
+    "WITHDRAWAL_BY_WETH_RECIPIENT_IN_TX": 1015
+  },
+  "weth_withdrawal_events": 1015,
+  "transactions_with_withdrawal": 1015,
+  "source_sha256": {
+    "research/case-binance-2026/A97B/dex_transaction_paths_v1/DEX_ALL_VERIFIED_TOKEN_LEGS_V1.csv": "2ec34d286c1ac6cc0807ba45e3abe433ae298ebffefba2692a06efced50ce688",
+    "research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step80_a97b_full_dex_census_v1/transaction_classification.csv": "a2405ad3c334be9b41b013b78f48503a0d37a28bdd5251fef1466745db85d15d"
+  },
+  "limitations": [
+    "WETH withdrawal events do not establish final ETH recipient",
+    "Native ETH internal transfers require execution traces",
+    "DEX swap semantics and beneficiary still unverified",
+    "Transaction-level WETH gross logs are not net proceeds",
+    "109 missing receipts remain outside this audit",
+    "No freeze or incident-value attribution"
+  ]
+}
