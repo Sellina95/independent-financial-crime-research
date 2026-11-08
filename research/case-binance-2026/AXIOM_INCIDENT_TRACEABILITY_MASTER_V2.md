@@ -47,8 +47,8 @@ Status definitions:
 | G01 | Authenticate incident source and initial unauthorized outflows | PARTIAL | Primary incident claims, chain-specific origin transactions and authorization boundaries independently crosswalked | Complete only material source gaps |
 | G02 | Reconstruct EIP-7702 delegation, execution and removal | DONE_SCOPED | T02 signatures, T03 execution, historical delegation states and T17 block-end status documented | STOP repeated technical checks; internal compromise remains unknown |
 | G03 | Explain ERC-20 failure behavior and KITE restriction | CORROBORATED | Safe pause-origin, historical paused state, revert, receipt and failure-handler evidence connected | STOP unless contrary evidence warrants opcode replay |
-| G04 | Build evidence-linked fund-flow network | PARTIAL | Material edges have chain, token, from/to, amount, tx/log, UTC and provenance | Identify only genuinely unresolved material edges |
-| G05 | Reconcile assets and eliminate duplicate counting | PARTIAL | Comparable cutoffs, intermediary flows, pooled funds and transformed assets reconciled | Review remaining accounting boundaries |
+| G04 | Build evidence-linked fund-flow network | PARTIAL | 700M first-hop distributions and selected 175M/190M/130M/80M/30M continuations audited; full recipient coverage remains open | Review archived follow-on evidence for the 145M, 100M, 50M and 28.6M recipients before any new RPC |
+| G05 | Reconcile assets and eliminate duplicate counting | PARTIAL | Scoped 500M/200M distributions reconcile; incident-wide provenance and transformed-asset conservation remain open | Preserve fungible-source uncertainty and stop counting repeated hops as new losses |
 | G06 | Determine asset-level restriction and freeze effects | PARTIAL | Historical blacklist events, asset-specific coverage and time-specific balances reconciled | Separate restricted balances from recovered funds |
 | G07 | Assess institutional response and delegation controls | PARTIAL | Authenticated suspension-effective time, qualifying movements and delegation-state timeline compared | If internal cutoff unavailable, retain UNKNOWN |
 | G08 | Reproduce selected cross-chain or protocol mechanisms | PARTIAL | One or more material routes with event-level conservation and explicit attribution boundary | Reopen only on material new source anchor |
@@ -143,6 +143,4 @@ independently revalidated in this status update.
 10. Keep main and public reports unchanged until
     explicit publication approval.
 
-**Current next action:** P0 source-only EG-06 review.
-If the internal suspension cutoff remains unavailable,
-retain UNKNOWN and move to the P1 evidence gaps.
+**Current next action:** G04 archived-evidence continuation review, starting with the 145M USDT recipient. Check existing reports and raw receipts before any new RPC. G07 internal suspension cutoff remains UNKNOWN unless new primary evidence emerges.

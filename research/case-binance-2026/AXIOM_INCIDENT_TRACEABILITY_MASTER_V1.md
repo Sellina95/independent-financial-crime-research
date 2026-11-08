@@ -1082,3 +1082,92 @@ new discrepancy. No final publication approval.
   effective times remain UNKNOWN.
 - No evidence of a particular post-suspension bypass or
   institution-wide control failure is established.
+
+## 23. Existing USDT Branch Coverage Review
+
+**Status: EXISTING-EVIDENCE COVERAGE SCREEN / NOT A NEW ON-CHAIN DISCOVERY**
+
+### Scope
+
+Cross-reference archived research files against the existing 500M USDT first-hop recipient set.
+
+- Tracked research files: 446
+- Text files searched: 434
+- Large text files omitted (>4 MB): 0
+- Read errors: 0
+- No RPC or new transactions fetched.
+- A filename reference or address mention is not proof of a downstream transaction.
+- This is not a full cross-asset or incident-wide coverage certificate.
+
+### Existing branch candidates
+
+| Branch | Recorded recipient amount (USDT) | Existing-file references | Interpretation |
+|---|---:|---:|---|
+| 145M | 144,999,999.999999 | 4 | Follow-on coverage requires semantic review |
+| 100M | 100,000,000.000000 | 1 | Follow-on coverage requires semantic review |
+| 50M | 50,000,000.000000 | 1 | Follow-on coverage requires semantic review |
+| 28.6M | 28,600,454.367187 | 1 | Follow-on coverage requires semantic review |
+
+### Evidence search results
+
+#### 145M USDT
+
+- Recipient: `0xbeef02961503351625926ea9a11ae13b29f5c555`
+- Original record: 500M branch; four recorded Transfer events
+- Matching tracked text files: 4
+- Classification: RECEIPT-LINKED INCOMING ONLY UNTIL FOLLOW-ON EVIDENCE IS REVIEWED.
+- No theft attribution or terminal balance inferred.
+
+- `evidence/second_hop_receipts_v1/7b0ad8b5814a048086dab1236284e677e430cac142c84ab6bbbc985da1f282e6_receipt.json`
+- `evidence/second_hop_receipts_v1/a861a556b73df4e084aca07663d63b26eec33136ed7328712a7418361d856f36_receipt.json`
+- `evidence/second_hop_receipts_v1/e5ccc3a8b32f7c52683390fa75f57cec53394421bd05132400806533e661843a_receipt.json`
+- `evidence/second_hop_receipts_v1/fa949551eeec164133714f7658e232bf7eb8140a67d8f5edb95ea41b31b93a72_receipt.json`
+
+#### 100M USDT
+
+- Recipient: `0x0000000000be226afde21672a5e4adc45692e69d`
+- Original record: 500M branch; one recorded Transfer event
+- Matching tracked text files: 1
+- Classification: RECEIPT-LINKED INCOMING ONLY UNTIL FOLLOW-ON EVIDENCE IS REVIEWED.
+- No theft attribution or terminal balance inferred.
+
+- `evidence/second_hop_receipts_v1/4fa182626c85ca0cdc18ba736930bdbdfbcf5d201d373913317df6ec58d23d61_receipt.json`
+
+#### 50M USDT
+
+- Recipient: `0x74edc79fea13bdf1f7841570227127cec493bdd9`
+- Original record: 500M branch; one recorded Transfer event
+- Matching tracked text files: 1
+- Classification: RECEIPT-LINKED INCOMING ONLY UNTIL FOLLOW-ON EVIDENCE IS REVIEWED.
+- No theft attribution or terminal balance inferred.
+
+- `evidence/second_hop_receipts_v1/290e94a9d14294b1c22bbc5d167343fd91fe91233e89434f20532fe5fe7e8668_receipt.json`
+
+#### 28.6M USDT
+
+- Recipient: `0x9b1303ebf09bc51b7fac376c9e421e8daae63b82`
+- Original record: 500M branch; one recorded Transfer event
+- Matching tracked text files: 1
+- Classification: RECEIPT-LINKED INCOMING ONLY UNTIL FOLLOW-ON EVIDENCE IS REVIEWED.
+- No theft attribution or terminal balance inferred.
+
+- `evidence/second_hop_receipts_v1/3fd5ec345eaf60faca94c652f5ac5c0dca77b4ef3c355fb12cb8f5108464a0b6_receipt.json`
+
+### Reconciliation and attribution boundaries
+
+- Existing first-hop audit: 500M and 200M branches each reconcile within the archived transfer-event scope.
+- That zero difference does not establish downstream completeness.
+- The 175M follow-on and selected 190M/130M/80M/30M routes are already audited.
+- The direct 60M Aave Supply -> 25M withdrawal attribution hypothesis was rejected by the pre-existing aUSDT-position audit.
+- Central's mixed inflows mean that address continuity alone cannot establish exclusive provenance of the 700M distributed USDT.
+- No amount listed here is an additional incident loss or confirmed unrecovered value.
+
+### Decision
+
+Prioritize the 145M recipient only AFTER checking all matching archived files for an already verified downstream continuation.
+
+If already audited: mark the exact scope complete and move to the next candidate.
+
+If not audited: define a bounded forward-flow and asset-conservation test before querying RPC.
+
+Do not restart completed 175M, T02/T03/T17, KITE or Aave attribution research.
