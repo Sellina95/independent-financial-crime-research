@@ -1,0 +1,23 @@
+{
+  "status": "DEX_WETH_OBSERVED_LOG_AUDIT",
+  "events": 1126,
+  "unique_tx": 1124,
+  "receipt_checks": {
+    "OBSERVED_LOG_MATCH": 1015,
+    "RECEIPT_UNAVAILABLE": 109,
+    "TRANSFER_LOG_UNMATCHED": 2
+  },
+  "source_sha256": {
+    "A97B_EVENT_TIMELINE_V1.csv": "d925611866367c68af008dfa91b377208aa737d0814a79dd2b3c3de50cc1b96f",
+    "remaining_60_event_register.csv": "3d6f558468889173ac73f9542b15fdf4d34f8474583a5cacf80846ff470b3141",
+    "transaction_classification.csv": "a2405ad3c334be9b41b013b78f48503a0d37a28bdd5251fef1466745db85d15d"
+  },
+  "limitations": [
+    "WETH receipt totals repeated in event file; use TX summary for aggregation",
+    "Transfer log match is not proof of swap execution",
+    "WETH wrap/unwrap native ETH balance changes not independently replayed",
+    "Source amounts and token decimals not independently verified",
+    "FBI/Elliptic and freeze checks pending",
+    "No inference of final beneficiary or stolen-fund fraction"
+  ]
+}

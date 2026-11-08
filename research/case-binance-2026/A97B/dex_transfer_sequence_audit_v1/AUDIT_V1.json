@@ -1,0 +1,17 @@
+{
+  "transactions": 1015,
+  "patterns": {
+    "TOKEN_LOG_BEFORE_WETH_LOG": 579,
+    "WETH_LOG_BEFORE_TOKEN_LOG": 382,
+    "NO_DIRECT_ADDRESS_LINK": 54
+  },
+  "exceptions": 436,
+  "scope": "ERC20 Transfer log order and shared addresses",
+  "limitations": [
+    "Log order does not by itself prove swap causality",
+    "Shared intermediary does not prove contract identity",
+    "No native ETH execution replay",
+    "No swap price or net proceeds established",
+    "Missing 109 receipts outside audit scope"
+  ]
+}

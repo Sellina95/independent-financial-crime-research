@@ -1,0 +1,21 @@
+{
+  "status": "DEX_INTERNAL_EVENT_EXTRACTION",
+  "unique_transactions": 1124,
+  "receipt_status": {
+    "SUCCESSFUL_RECEIPT": 1015,
+    "RECEIPT_MISSING": 109
+  },
+  "transfer_logs": 2130,
+  "swap_event_candidates": 0,
+  "transactions_with_swap_logs": 0,
+  "transactions_with_weth_logs": 1015,
+  "source_sha256": "95c50beb9a6fa093d36e53852dae55cf3f864a580b33e7187c02e91e55873c74",
+  "limitations": [
+    "Swap signature detection alone does not establish swap beneficiary",
+    "Token contract decimals not decoded",
+    "Native ETH internal movements not replayed",
+    "No downstream transaction tracing",
+    "No FBI/Elliptic/freeze conclusion yet",
+    "Missing receipts remain unknown"
+  ]
+}

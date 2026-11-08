@@ -1,0 +1,24 @@
+{
+  "status": "TRANSACTION_TRANSFER_PATH_RECONSTRUCTION_COMPLETE",
+  "verified_transaction_paths": 1015,
+  "missing_receipts": 109,
+  "transfer_legs": 2130,
+  "unique_addresses": 101,
+  "patterns": {
+    "TOKEN_OUT_WETH_MOVES_ELSEWHERE": 1015
+  },
+  "source_sha256": {
+    "transfers": "15144ee5e01e5153a6fe6a74bf33fac042aa20ee70ee95fcf0ed706c918a7f79",
+    "summary": "7dc2a2e0b056f2bbf727e9463d3e5d9fc6bf64d9e13a825a87f56110fdcd9be4"
+  },
+  "limitations": [
+    "A shared TX does not prove a particular token-to-WETH conversion",
+    "WETH volume includes intermediary transfers and is not net proceeds",
+    "Non-WETH token decimals require verification",
+    "Zero detected Swap logs does not exclude other execution protocols",
+    "Native ETH traces and actual balance deltas not included",
+    "No post-transaction downstream tracing yet",
+    "No freeze or external attribution determination yet",
+    "109 missing receipts require separate recovery"
+  ]
+}

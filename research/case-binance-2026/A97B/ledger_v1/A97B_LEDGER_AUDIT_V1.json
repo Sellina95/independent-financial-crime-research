@@ -1,0 +1,20 @@
+{
+  "status": "STRUCTURAL_LEDGER_NOT_ECONOMICALLY_RECONCILED",
+  "source_sha256": "0939350402418eb636c3105a9cf9891061af85e4e57947fc97793006dfa5ac45",
+  "b14_to_a97b_inflows": 2,
+  "a97b_outgoing_events": 1186,
+  "a97b_unique_outer_tx": 1184,
+  "combined_rows": 1188,
+  "categories": {
+    "INTERNAL_ETH": 2,
+    "external": 4,
+    "erc20": 1182
+  },
+  "limitations": [
+    "Raw token amounts are not summed",
+    "DEX-compatible events are not verified swaps",
+    "Event count is not independent fund-flow count",
+    "Mixed-fund attribution remains unresolved",
+    "Original STEP70 data unchanged"
+  ]
+}

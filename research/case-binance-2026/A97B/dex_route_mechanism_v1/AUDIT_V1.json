@@ -1,0 +1,21 @@
+{
+  "status": "TRANSACTION_LEVEL_LOG_RELATIONSHIP_AUDIT",
+  "transactions": 1015,
+  "structures": {
+    "TOKEN_RECIPIENT_ALSO_WETH_SENDER": 961,
+    "NO_DIRECT_LOG_ADDRESS_LINK": 54
+  },
+  "weth_receivers": 4,
+  "source_hashes": {
+    "A97B/dex_transaction_paths_v1/DEX_ALL_VERIFIED_TOKEN_LEGS_V1.csv": "2b4068db4b99f2866fa1a96833021d1aff965f7be0f13fe1ac33c76c163d6504",
+    "evidence/binance14_all_receivers_census_v1/step80_a97b_full_dex_census_v1/transaction_classification.csv": "a2405ad3c334be9b41b013b78f48503a0d37a28bdd5251fef1466745db85d15d",
+    "A97B/dex_external_screening_v1/DEX_ADDRESS_EXTERNAL_LISTING_V1.csv": "cdecdc867cbfd596c0406d2b1ca52f0e750128025bfeaaa8637cf3152fe1a610"
+  },
+  "limitations": [
+    "Shared address and transaction do not prove a swap",
+    "WETH totals are gross log movements, not proceeds",
+    "Router identity not proven by target address alone",
+    "Freeze status has not been tested",
+    "Incident provenance remains unresolved"
+  ]
+}

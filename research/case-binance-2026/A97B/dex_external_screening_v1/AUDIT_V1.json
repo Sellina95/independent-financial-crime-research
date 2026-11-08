@@ -1,0 +1,20 @@
+{
+  "addresses_screened": 101,
+  "counts": {
+    "NOT_IN_PRESERVED_LISTS": 100,
+    "ELLIPTIC_ONLY": 1
+  },
+  "fbi_source_files": [
+    "research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step83_official_attribution_crosswalk_v1/source_snapshots/fbi_eth_addresses.txt"
+  ],
+  "elliptic_source_files": [
+    "research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step83_official_attribution_crosswalk_v1/source_snapshots/elliptic_source.txt"
+  ],
+  "status": "PRESERVED_SNAPSHOT_EXACT_ADDRESS_MATCH",
+  "limitations": [
+    "Snapshot listing is not evidence of asset freezing",
+    "Absence from a snapshot is not proof of non-involvement",
+    "Listing time is not established",
+    "No downstream ownership attribution"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "unique_transactions": 1015,
+  "weth_transfer_legs": 1015,
+  "unique_weth_routes": 83,
+  "weth_roles": {
+    "WETH_BETWEEN_OTHER_ADDRESSES": 1015
+  },
+  "externally_listed_addresses": {
+    "0xa97bf7836f8a08f9ed91d41453d371493fae8d10": "ELLIPTIC_ONLY"
+  },
+  "limitations": [
+    "WETH movement is not proof of swap consideration",
+    "WETH log volume is not net proceeds",
+    "Address listing is not freezing",
+    "Restriction time and balances unverified",
+    "Incident fund fraction unknown"
+  ]
+}

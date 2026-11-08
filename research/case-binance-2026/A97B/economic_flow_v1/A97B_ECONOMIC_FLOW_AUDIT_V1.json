@@ -1,0 +1,25 @@
+{
+  "status": "OBSERVED_MOVEMENT_LEDGER_CREATED",
+  "total_rows": 1188,
+  "source_sha256": "d925611866367c68af008dfa91b377208aa737d0814a79dd2b3c3de50cc1b96f",
+  "directions": {
+    "IN": 2,
+    "OUT": 1186
+  },
+  "receipt_checks": {
+    "NOT_APPLICABLE": 6,
+    "RECEIPT_LOG_MATCH": 1062,
+    "RECEIPT_NOT_AVAILABLE": 118,
+    "RECEIPT_LOG_UNMATCHED": 2
+  },
+  "limitations": [
+    "ERC20 transfer-log matching is not balance-delta verification",
+    "Unverified tokens may include spoof or worthless assets",
+    "Context movements do not imply A97B balance changes",
+    "Native internal ETH movements rely on earlier Alchemy evidence",
+    "ETH and WETH are separate assets",
+    "This is not a proven DEX swap ledger",
+    "Mixed funds cannot be uniquely attributed to the incident",
+    "Receipt gaps and scale mismatches require review"
+  ]
+}

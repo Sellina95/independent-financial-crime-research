@@ -1,0 +1,16 @@
+{
+  "events": 1126,
+  "unique_transactions": 1124,
+  "transaction_patterns": {
+    "TOKEN_OUT_NO_A97B_WETH_LOG": 1015,
+    "UNKNOWN_NO_RECEIPT": 109
+  },
+  "status": "TRANSFER_LOG_STRUCTURE_ONLY",
+  "limitations": [
+    "No swap claim from paired logs alone",
+    "Transaction-level WETH amounts repeat across event rows",
+    "No native ETH balance-delta replay",
+    "No verified downstream beneficiary",
+    "External listings and freezes not yet checked"
+  ]
+}
