@@ -1,0 +1,23 @@
+{
+  "step": "77",
+  "scope": "Four archived DEX-router transaction samples",
+  "source_step73_manifest_sha256": "f96673d3ef0fe89fc4fd0ae17756902f18f27a390a3442725ab29d0b8c10c4c6",
+  "samples": 4,
+  "successes": 4,
+  "total_standard_erc20_events": 8,
+  "raw_transaction_receipts_preserved_in_step73": true,
+  "independent_execution_replay": false,
+  "swap_input_output_fully_decoded": false,
+  "native_eth_internal_traces_available": false,
+  "ownership": "UNKNOWN",
+  "incident_attribution": "UNKNOWN",
+  "limitations": [
+    "Router labels are hypotheses requiring verification",
+    "ERC20 Transfer logs alone do not prove swap purpose",
+    "Native ETH internal movements are not covered",
+    "Multicall subcalls are not decoded",
+    "ERC20 transfer amounts are raw units, not token display units",
+    "Only four transactions sampled",
+    "No proof these funds originated from Binance incident"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "cadence_groups": 9,
+  "new_transactions": 18,
+  "dex_weth_router_pattern": 18,
+  "other_or_unconfirmed": 0,
+  "selection": "Two new transactions per cadence group",
+  "native_eth_receipt": "NOT_TRACED",
+  "independent_provenance": "UNKNOWN",
+  "limitations": [
+    "Sample-based audit, not a census of 1186 events",
+    "DEX router and WETH event patterns do not prove final ETH receipt",
+    "Some swaps may use different tokens or routes",
+    "60-second proximity is not proof of automation",
+    "Incident fund attribution remains unverified"
+  ]
+}

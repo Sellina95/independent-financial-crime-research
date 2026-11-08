@@ -1,0 +1,8 @@
+{
+  "status": "FOUR_ROUTER_RECEIPT_SCREEN_COMPLETE",
+  "files_sha256": {
+    "dex_router_samples.json": "8c4b58899f954b85da74fd99a6cbac66b017fa41f5b2ba048c27e239c7e1b093",
+    "erc20_transfer_events.csv": "6fa9802f7a02bbe7659c4b254c80968195130afe38636ae59d1b3d298605c138",
+    "audit.json": "a2c84ff02bd9a2ec879159d5883ee2fb105c8c9c1e22c6d8ceef242ba56eba67"
+  }
+}

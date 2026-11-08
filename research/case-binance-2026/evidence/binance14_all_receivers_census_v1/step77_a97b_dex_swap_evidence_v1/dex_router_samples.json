@@ -1,0 +1,90 @@
+[
+  {
+    "router_label": "PANCAKESWAP_ROUTER_CANDIDATE",
+    "router": "0x1b81d678ffb9c0263b24a97847620c99d213eb14",
+    "tx_hash": "0x80682a73261cdd7046c6656533918f2f1ac8e879cd822601441ee0857b908110",
+    "block": 26302323,
+    "transaction_success": true,
+    "selector": "0xac9650d8",
+    "native_eth_tx_value_wei": "0",
+    "receipt_log_count": 5,
+    "standard_erc20_transfer_count": 2,
+    "target_sent_token_events": 1,
+    "target_received_token_events": 0,
+    "target_sent_tokens": [
+      "0x152649ea73beab28c5b49b26eb48f7ead6d4c898"
+    ],
+    "target_received_tokens": [],
+    "classification": "TARGET_TOKEN_OUTFLOW_ONLY",
+    "swap_execution": "NOT_FULLY_DECODED",
+    "native_eth_internal_flow": "NOT_TRACED",
+    "fund_provenance": "UNKNOWN",
+    "incident_attribution": "UNKNOWN"
+  },
+  {
+    "router_label": "UNISWAP_ROUTER_CANDIDATE",
+    "router": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+    "tx_hash": "0x1ecdf6b62e99cf42f47dd7f370e3657ccccf388943fd5970e28841c69e7ed42b",
+    "block": 26302495,
+    "transaction_success": true,
+    "selector": "0x5ae401dc",
+    "native_eth_tx_value_wei": "0",
+    "receipt_log_count": 4,
+    "standard_erc20_transfer_count": 2,
+    "target_sent_token_events": 1,
+    "target_received_token_events": 0,
+    "target_sent_tokens": [
+      "0x0f5d2fb29fb7d3cfee444a200298f468908cc942"
+    ],
+    "target_received_tokens": [],
+    "classification": "TARGET_TOKEN_OUTFLOW_ONLY",
+    "swap_execution": "NOT_FULLY_DECODED",
+    "native_eth_internal_flow": "NOT_TRACED",
+    "fund_provenance": "UNKNOWN",
+    "incident_attribution": "UNKNOWN"
+  },
+  {
+    "router_label": "UNISWAP_V2_ROUTER_CANDIDATE",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "tx_hash": "0x02df5e701aee32cf5e70e07f53783b455b1e08d2da40ba34a60fea7e26d7a289",
+    "block": 26302952,
+    "transaction_success": true,
+    "selector": "0x791ac947",
+    "native_eth_tx_value_wei": "0",
+    "receipt_log_count": 5,
+    "standard_erc20_transfer_count": 2,
+    "target_sent_token_events": 1,
+    "target_received_token_events": 0,
+    "target_sent_tokens": [
+      "0x56a3ba04e95d34268a19b2a4474dc979babdaf76"
+    ],
+    "target_received_tokens": [],
+    "classification": "TARGET_TOKEN_OUTFLOW_ONLY",
+    "swap_execution": "NOT_FULLY_DECODED",
+    "native_eth_internal_flow": "NOT_TRACED",
+    "fund_provenance": "UNKNOWN",
+    "incident_attribution": "UNKNOWN"
+  },
+  {
+    "router_label": "SUSHISWAP_ROUTER_CANDIDATE",
+    "router": "0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f",
+    "tx_hash": "0x0d72826f52852f2f4d6b7c1caa96f2f28928049683a052df6e4c8427abd9cf8e",
+    "block": 26302337,
+    "transaction_success": true,
+    "selector": "0x791ac947",
+    "native_eth_tx_value_wei": "0",
+    "receipt_log_count": 6,
+    "standard_erc20_transfer_count": 2,
+    "target_sent_token_events": 1,
+    "target_received_token_events": 0,
+    "target_sent_tokens": [
+      "0x0f2d719407fdbeff09d87557abb7232601fd9f29"
+    ],
+    "target_received_tokens": [],
+    "classification": "TARGET_TOKEN_OUTFLOW_ONLY",
+    "swap_execution": "NOT_FULLY_DECODED",
+    "native_eth_internal_flow": "NOT_TRACED",
+    "fund_provenance": "UNKNOWN",
+    "incident_attribution": "UNKNOWN"
+  }
+]
