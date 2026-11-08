@@ -1,0 +1,35 @@
+{
+  "research": "A97B integrated event audit",
+  "total_outbound_events": 1186,
+  "dex_weth_events": 1126,
+  "previously_audited_exception_events": 60,
+  "dex_unique_transactions": 1124,
+  "eth_return_matched_transactions": 1015,
+  "eth_direct_return_total": "6829.199984950999210044",
+  "original_missing_receipt_transactions": 109,
+  "recovered_receipt_transactions": 109,
+  "unresolved_events": 0,
+  "verification_status_counts": {
+    "STEP81_AUDIT_PRESENT": 60,
+    "DEX_TX_ETH_DIRECT_RETURN_MATCHED": 1017,
+    "RECEIPT_RECOVERED_ALL_EVENTS_MATCHED": 109
+  },
+  "rpc_failures": {},
+  "source_sha256": {
+    "evidence/binance14_all_receivers_census_v1/step70_a97b_forward_census_v1/A97B_FORWARD_TRANSFER_LEDGER_V1.csv": "0939350402418eb636c3105a9cf9891061af85e4e57947fc97793006dfa5ac45",
+    "evidence/binance14_all_receivers_census_v1/step81_a97b_remaining_60_audit_v1/remaining_60_event_register.csv": "3d6f558468889173ac73f9542b15fdf4d34f8474583a5cacf80846ff470b3141",
+    "A97B/dex_transaction_paths_v1/DEX_MISSING_RECEIPTS_V1.csv": "262ed22205657e492097b698dfd10cf1efb0290c1c384e751b42e29e97647c2e",
+    "A97B/eth_address_receipts_v1/A97B_ADDRESS_ETH_RETURN_V1.csv": "4f2c27670a1e155506f70f3f850151340293a890c626b5f4baaeb38845fe4eef"
+  },
+  "limitations": [
+    "1186 counts event records, not distinct transactions",
+    "1126 DEX/WETH events do not equal 1126 transactions",
+    "1015 ETH-return findings are transaction-level observations",
+    "Recovered receipts are matched against source Transfer logs",
+    "Prior 60 events retain their earlier audit classifications",
+    "Receipt recovery does not prove incident provenance",
+    "ETH direct return is gross receipt, not net profit",
+    "Institutional listings do not prove freezing",
+    "Ownership and ultimate beneficiary remain unverified"
+  ]
+}
