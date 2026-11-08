@@ -699,3 +699,90 @@ qualifying asset transfers and delegation state.
   and asset recovery as separate propositions.
 - EG-02 novelty claim: STOP_LOW_VALUE unless new
   material conflicting evidence appears.
+
+
+## 20. EG-05 Failure-Tolerance Mechanism — Bytecode and Receipt Crosscheck
+
+**Status: STATIC BYTECODE / CALL TRACE / RECEIPT CORROBORATION PASS**
+
+### A. Observed transaction behavior
+
+- Ethereum T03: `0x53bd38b816c23e74134786c29a8c18d792777998a3b9326047b583100e88e2f3`
+- Delegated wallet: `0x28c6c06298d514db089934071355e5743bf21d60`.
+- Implementation: `0x63e842b054bd624a465454d533c33f573e9c6fae`.
+- The preserved call trace contains 64 ERC-20 transfer attempts.
+- The 27th token transfer call reverted.
+- Reverted token: `0x904567252d8f48555b7447c67dca23f0372e16be`.
+- The subsequent 37 token-transfer calls had no recorded call errors.
+- Parent call: no recorded error.
+- Parent transaction receipt: status `0x1`.
+- A no-error call does not, by itself, prove asset transfer.
+
+### B. Verified implementation bytecode
+
+- Runtime byte length: 1674.
+- Runtime bytecode SHA256: `7235599d1e4088edcc48d2461f987475c3130897dea39c87ea1757603673bd56`.
+- Bytecode was manually obtained from a public explorer and
+  independently matched to the SHA256 documented in the earlier audit.
+- Historical deployment-state linkage relies on the existing
+  archived EIP-7702 historical-code evidence.
+- This crosscheck is not an instruction-by-instruction EVM execution replay.
+
+Selected static instructions and branch structure:
+
+- PC `0x0261`: `CALL`.
+- PC `0x026b`: `ISZERO`.
+- PC `0x026c`: `PUSH2 0x0277`.
+- PC `0x026f`: `JUMPI`.
+- PC `0x0277`: failure-handler `JUMPDEST`.
+- PC `0x02a2`: `LOG2`.
+- PC `0x02a3` onward: return toward normal continuation.
+- PC `0x021d` and `0x0142`: loop-continuation destinations.
+
+The code structure is consistent with inspecting a failed child
+call, recording an event, and continuing the batch instead of
+reverting the full transaction.
+
+### C. Independent evidence-type crosscheck
+
+- The receipt contains one matching failure event.
+- Event topic0: `0x394e1e4ba4d16d4e4c835649c554cd62437474ccefbb493591e6af3ce7c6c479`.
+- Event topic1: indexed failed token `0x904567252d8f48555b7447c67dca23f0372e16be`.
+- Event data: integer `2`.
+- Log index: `0x221`.
+- Event emitter: `0x28c6c06298d514db089934071355e5743bf21d60`.
+- The same failure-event topic occurs in verified runtime bytecode.
+- The code-2 event is consistent with the reconstructed
+  transfer-call failure branch.
+
+### D. Evidence provenance
+
+- Call trace SHA256: `c8c45dd42d9ce965988ac15d6d98624278e1b293495fe0cd3002d3930df4b0f8`.
+- Receipt SHA256: `08b5bb08e7c82a6dc32950314932bbdcebe7481c5611585f68bad500f20e4961`.
+- Runtime bytecode SHA256: `7235599d1e4088edcc48d2461f987475c3130897dea39c87ea1757603673bd56`.
+- Preserved inputs:
+  `evidence/initial_tx_v1/call_trace.json` and
+  `evidence/initial_tx_v1/receipt.json`.
+- Existing audit:
+  `GATE_2_ETH_T03_FAILURE_TOLERANCE_V1.json`.
+- The runtime bytecode was hash-verified during research
+  but is not newly archived in this section.
+
+### E. Boundaries and research decision
+
+- OBSERVED: one reverted child call, successful parent receipt,
+  subsequent non-error calls and matching failure event.
+- VERIFIED STATIC: failure-handling branch and event opcode.
+- CORROBORATED: the static failure handler explains the
+  observed transaction-level behavior.
+- NOT YET VERIFIED: complete executed opcode/stack sequence
+  for the 27th failed call.
+- UNKNOWN: the failed token's underlying revert cause,
+  authorship and subjective intent of the programmer or attacker.
+- The separate external "64 attempts / 37 failures"
+  population remains unverified.
+- This mechanism has already been described in the
+  existing technical case study; do not claim new discovery
+  or institutional oversight without a like-for-like comparison.
+- Next technical test, if justified: bounded instruction-level
+  replay of the relevant failed-call and handler frames only.
