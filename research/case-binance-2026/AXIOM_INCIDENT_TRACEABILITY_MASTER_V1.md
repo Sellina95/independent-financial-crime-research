@@ -548,7 +548,7 @@ Status: SCOPED RECEIPT AUDIT / CONTROL CHECKPOINT
 
 ## 17. EG-06 Control-Timing Evidence Boundary
 
-**Status: PARTIAL / CONTROL FAILURE NOT ESTABLISHED**
+**Status: PARTIAL / HISTORICAL DELEGATION BLOCK-END STATES VERIFIED / CONTROL FAILURE NOT ESTABLISHED**
 
 ### Evidence register
 
@@ -557,7 +557,7 @@ Status: SCOPED RECEIPT AUDIT / CONTROL CHECKPOINT
 | 2026-10-29 22:27 | Public confirmation reported by TechCrunch | REPORTED_BY_SOURCE |
 | 2026-10-29 22:39:35 | Candidate transaction time in research charter | UNVERIFIED CANDIDATE |
 | 2026-10-29 23:56 | Last unauthorized 2,961.9 ETH transfer, per Binance | REPORTED_BY_SOURCE |
-| 2026-10-30 00:10:35 | Delegation revocation candidate, block 26301896 | INDEXED EVIDENCE / RAW REPLAY PENDING |
+| 2026-10-30 00:10:35 | T17 revocation-associated transaction, block 26301896 | TX RECEIPT SCREENED; HISTORICAL BLOCK-END CODE EMPTY |
 
 Revocation candidate TXID:
 `0xafbf94c92a8d749988411669fa14d4f8866d9b4420b4ebd299f28e958dac7209`
@@ -568,6 +568,15 @@ Revocation candidate TXID:
 - Whether the 22:39:35 candidate is a verified qualifying transaction: UNKNOWN.
 - Relevant broadcast, inclusion and finalization times are not interchangeable.
 - Whether a specific transaction bypassed an effective control: NOT ESTABLISHED.
+- Existing archived Alchemy eth_getCode audit documents the
+  Binance 14 delegation pointer at block-end 26300753 and
+  26300769, and empty code at block-end 26301896.
+- Existing transaction validation CSV records the T17 candidate
+  transaction at block 26301896 with receipt status 1.
+- These records corroborate delegation removal by the end of
+  block 26301896, not the exact intra-block mutation point.
+- This update reuses historical research outputs; it does not
+  constitute a new independent raw-response replay.
 - Public confirmation time is not an internal suspension timestamp.
 - Cryptographic signing does not establish corporate authorization.
 
@@ -952,7 +961,7 @@ reconstruction of every incident transaction.
 | 2026-10-29 21:01:35 UTC | 26300954 | Central USDT blacklist event and historical balance checkpoint | OBSERVED IN EARLIER EVIDENCE |
 | Later than central blacklist | 26300968 and 26301167 | Two verified Central USDT inbound Transfer events, totaling 204,315,411.592122 USDT | OBSERVED IN EG-02 SCOPE |
 | 2026-10-29 23:56 UTC | Not revalidated here | Last unauthorized ETH transfer per Binance | REPORTED_BY_SOURCE |
-| 2026-10-30 approximately 00:10 UTC | 26301896 candidate | EIP-7702 delegation-revocation candidate | INDEXED CANDIDATE; RAW REPLAY OPEN |
+| 2026-10-30 approximately 00:10 UTC | 26301896 candidate | T17-associated delegation removal | HISTORICAL BLOCK-END STATE VERIFIED; INTRA-BLOCK EFFECT POINT OPEN |
 
 Block order is verified for the selected numerical
 checkpoints. UTC timestamps not independently reproduced
@@ -968,7 +977,7 @@ to be interchangeable.
 | KITE token pause | KITE was paused immediately before T03; T03 token call reverted; pause enforcement strongly corroborated | Why administrator initiated pause; uninterrupted state history; wallet-wide protection |
 | USDT address blacklist | Central designation event and scoped historical USDT balances; later inbound Transfers reconciled | Incident-wide frozen amount; recovery; prevention of all subsequent incoming transfers |
 | EIP-7702 delegation | Existing T02/T03 evidence documents delegated execution | Internal signing authorization, complete incident-wide delegation population |
-| EIP-7702 revocation | Candidate transaction and block preserved in Section 17 | Independent raw replay and exact control-effective execution point |
+| EIP-7702 revocation | Existing historical code audit records empty Binance 14 code at block-end 26301896; T17 receipt previously screened | Exact intra-block change point, internal authorization and withdrawal-suspension cutoff |
 | Native ETH | ETH movement is documented in existing incident research; token issuer blacklist cannot be assumed to govern native ETH | Whether another effective control prevented a particular ETH movement |
 
 ### D. KITE mechanism and Section 20 status update
@@ -1032,10 +1041,11 @@ pause state for every intervening block.
 **PARTIAL CONTROL TIMELINE ACCEPTED.**
 
 Next decisive tests, in priority order:
-1. Locate already archived revocation transaction,
-   receipt and historical delegation evidence.
-   Verify exact chain/block/transaction and state
-   semantics before asserting revocation effectiveness.
+1. Reuse the existing T17 transaction screen and
+   historical delegation-code audit; do not repeat
+   completed block-end state queries. A finer
+   intra-block replay is optional only if it would
+   materially change a control-timing conclusion.
 2. Attempt to authenticate the internal suspension
    cutoff using disclosed primary evidence, or
    preserve UNKNOWN and stop unsupported inference.
@@ -1046,3 +1056,29 @@ Next decisive tests, in priority order:
 Do not re-run the completed KITE pause-origin or
 EG-02 scoped USDT ledger audit without a material
 new discrepancy. No final publication approval.
+
+
+### H. Reused T17 historical evidence — status reconciliation
+
+**ARCHIVED STUDY VERIFIED / NO NEW RPC IN THIS UPDATE**
+
+- `GATE_2_ETH_HISTORICAL_CODE_AUDIT_V1.json`:
+  - Block-end 26300752: `0x` (empty code).
+  - Block-end 26300753: EIP-7702 delegation pointer present.
+  - Block-end 26300769: same pointer present.
+  - Block-end 26301896: `0x` (empty code).
+- `GATE_2_INITIAL_TX_ONCHAIN_VALIDATION_V1.csv`:
+  T17-associated transaction at block 26301896, receipt status 1.
+- `GATE_2_ETH_HISTORICAL_RECONCILIATION_V1.md`:
+  pre-existing synthesis identifies delegation code absent after T17.
+- Conclusion: delegation was absent at the end of the
+  documented T17 block, based on preserved historical
+  query results. This is stronger than an explorer-only
+  revocation candidate.
+- Limit: archived audit results are reused without
+  independently replaying raw RPC responses in this step.
+  The exact intra-block state-transition point remains open.
+- Limit: Binance internal detection and suspension
+  effective times remain UNKNOWN.
+- No evidence of a particular post-suspension bypass or
+  institution-wide control failure is established.
