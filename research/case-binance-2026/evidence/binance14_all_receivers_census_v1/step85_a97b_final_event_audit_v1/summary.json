@@ -1,0 +1,58 @@
+{
+  "status": "EVENT_STRUCTURE_RECONCILIATION_COMPLETE",
+  "created_utc": "2026-11-08T12:11:23.803109+00:00",
+  "wallet": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+  "scope": "Previously indexed A97B outgoing movement events",
+  "total_events": 1186,
+  "total_distinct_outer_transactions_from_step80": 1184,
+  "event_classes": {
+    "dex_weth_pattern_events": 1126,
+    "direct_native_eth_events": 4,
+    "other_dex_router_pattern_events": 3,
+    "erc20_exception_events": 53
+  },
+  "erc20_subgroups": {
+    "OTHER_FUNCTION_STRUCTURE": 8,
+    "DIRECT_TRANSFER_STRUCTURE": 28,
+    "EXTERNAL_CALLER_STRUCTURE": 17
+  },
+  "direct_eth": {
+    "transactions": 4,
+    "unique_recipients": 3,
+    "total_eth": "10647.2",
+    "total_wei": "10647200000000000000000",
+    "recipient_totals_wei": {
+      "0xc2096a12ebe0944f4d39e59979f485afd92d850a": 3000000000000000000000,
+      "0xa3b3dee870f01560fdbe5af659c9c9135748886f": 100000000000000000,
+      "0x54401f80da97893a15d43566184635b6674bc942": 7647100000000000000000
+    }
+  },
+  "external_address_listing": {
+    "research_addresses": 124,
+    "fbi_and_elliptic": 1,
+    "elliptic_only": 5,
+    "neither_list": 118
+  },
+  "source_manifest_sha256": {
+    "step70": "482e14109da256e426742974065c4840f1730dd71ea1bd712ba24c8092f8fe8e",
+    "step80": "4d700adea2a8167f57883eee8a80de4eb6c58bcd06395310df25d0c7041043f5",
+    "step81": "292c4e614544e01beb922f669f06237d94abfbd9865448d99dc7b14037f609f6",
+    "step83": "4b7f7bcb0828c96d72a4e1879c46176f3437eec28f8bebe650b54752bd365637",
+    "step84": "ec42539d8887fb39a9e828d8bc6801424a18aebc00a38c6b11245c4931b4204f"
+  },
+  "audit_boundaries": [
+    "Event count reconciliation is complete for the indexed dataset.",
+    "DEX/WETH is a pattern classification, not definitive swap decoding.",
+    "Direct ETH values are transaction-level observations.",
+    "28 ERC20 exceptions match direct transfer structure.",
+    "17 ERC20 exceptions have external-caller execution structure.",
+    "8 ERC20 exceptions involve other function selectors.",
+    "All 53 source ERC20 events matched cached transaction receipts.",
+    "The 17 external-caller events include non-standard token behavior.",
+    "Token balance changes remain unverified for relevant exceptions.",
+    "External address listing is not proof of on-chain freeze.",
+    "Mixed-source fund provenance is not established.",
+    "Beneficial ownership and final destinations are not established.",
+    "This audit is not a complete historical wallet reconstruction."
+  ]
+}
