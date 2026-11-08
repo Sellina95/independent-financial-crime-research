@@ -926,3 +926,123 @@ Audit requirements:
 - Do not infer control bypass or failure from
   unauthenticated internal timing.
 - Create Section 22 only after the scoped audit.
+
+
+## 22. Cross-Asset Control Timeline — Evidence-Scoped V1
+
+**Status: PARTIAL / ARCHIVED-EVIDENCE AUDIT PASS /
+CONTROL EFFECTIVENESS NOT FULLY ESTABLISHED**
+
+### A. Research question
+
+After EIP-7702 delegated execution became available,
+when were relevant asset-specific and wallet-level
+controls observed, and what did each actually restrict?
+
+This is an evidence-scoped timeline, not a complete
+reconstruction of every incident transaction.
+
+### B. UTC and block-order timeline
+
+| UTC / order | Block | Event | Evidence status |
+|---|---:|---|---|
+| 2026-08-05 20:39:35 UTC | 25691174 | Safe-compatible execution calls KITE `pause()`; `Paused` event and FALSE-to-TRUE state transition | OBSERVED |
+| 2026-10-29, before T03 | Not independently normalized here | EIP-7702 delegation establishment; see existing T02 evidence | EXISTING AUDIT; TIME NOT REVALIDATED HERE |
+| 2026-10-29 20:24:23 UTC | 26300770 | T03 asset movement; 27th ERC-20 KITE transfer call reverts; delegated batch continues | OBSERVED IN EARLIER EVIDENCE |
+| 2026-10-29 21:01:35 UTC | 26300954 | Central USDT blacklist event and historical balance checkpoint | OBSERVED IN EARLIER EVIDENCE |
+| Later than central blacklist | 26300968 and 26301167 | Two verified Central USDT inbound Transfer events, totaling 204,315,411.592122 USDT | OBSERVED IN EG-02 SCOPE |
+| 2026-10-29 23:56 UTC | Not revalidated here | Last unauthorized ETH transfer per Binance | REPORTED_BY_SOURCE |
+| 2026-10-30 approximately 00:10 UTC | 26301896 candidate | EIP-7702 delegation-revocation candidate | INDEXED CANDIDATE; RAW REPLAY OPEN |
+
+Block order is verified for the selected numerical
+checkpoints. UTC timestamps not independently reproduced
+in this step retain their cited earlier evidence or
+source-report status. No transaction broadcast time,
+block inclusion time and finalization time are assumed
+to be interchangeable.
+
+### C. Control-scope comparison
+
+| Control | Observed or reported effect | Not established |
+|---|---|---|
+| KITE token pause | KITE was paused immediately before T03; T03 token call reverted; pause enforcement strongly corroborated | Why administrator initiated pause; uninterrupted state history; wallet-wide protection |
+| USDT address blacklist | Central designation event and scoped historical USDT balances; later inbound Transfers reconciled | Incident-wide frozen amount; recovery; prevention of all subsequent incoming transfers |
+| EIP-7702 delegation | Existing T02/T03 evidence documents delegated execution | Internal signing authorization, complete incident-wide delegation population |
+| EIP-7702 revocation | Candidate transaction and block preserved in Section 17 | Independent raw replay and exact control-effective execution point |
+| Native ETH | ETH movement is documented in existing incident research; token issuer blacklist cannot be assumed to govern native ETH | Whether another effective control prevented a particular ETH movement |
+
+### D. KITE mechanism and Section 20 status update
+
+Section 20's then-UNKNOWN token-specific revert cause
+is superseded by Section 21's STRONGLY CORROBORATED
+pause-enforcement explanation.
+
+Evidence chain:
+1. A Safe-compatible transaction called KITE `pause()`
+   at block 25691174, with a matching `Paused` event.
+2. KITE `paused()` was TRUE at block 26300769.
+3. The selected 27th T03 child call reverted with
+   output `0xd93c0665`, matching `EnforcedPause()`.
+4. The batch implementation's failure handler,
+   call trace, and receipt support continuation after
+   the failed child call.
+
+This does not prove the attacker's subjective intent,
+the exact token-level opcode path, or a continuous
+pause state for every intervening block.
+
+### E. Accounting and causal limitations
+
+- The Central blacklist-block balance checkpoint was
+  971,149,299.483240 USDT, under the previously
+  audited historical time/state definition.
+- Two later incoming Transfer events totaled
+  204,315,411.592122 USDT in the scoped ledger.
+- An address blacklist event is not identical to
+  a frozen-value recovery or a complete asset census.
+- Do not sum initial outflows and subsequent hops as
+  independent losses.
+- Do not sum address balances at different block
+  times and label the result an incident-wide freeze.
+- The exact internal withdrawal-suspension-effective
+  timestamp is UNKNOWN.
+- No post-suspension control bypass is established.
+- No evidence that KITE pause triggered institutional
+  incident detection or response is established.
+- A technically valid wallet delegation is not proof
+  of legitimate corporate authorization.
+
+### F. Evidence references
+
+- Section 12: partial incident USDT timeline.
+- Section 16: USDT blacklist historical balances.
+- Section 17: EG-06 control timing and revocation candidate.
+- Section 19: post-blacklist Central USDT ledger.
+- Section 20: T03 failure-handling mechanism.
+- Section 21: historical KITE pause-origin audit.
+- `evidence/eg05_kite_pause_origin_v1/manifest.json`
+  and five archived raw RPC responses.
+- `evidence/eg05_kite_historical_pause_v1/manifest.json`.
+- `evidence/eg02_central_post_blacklist_ledger_v1/`.
+- `EVIDENCE_GAP_REPORT.md` for official claims,
+  evidence gaps and publication boundaries.
+
+### G. Research decision and stopping rule
+
+**PARTIAL CONTROL TIMELINE ACCEPTED.**
+
+Next decisive tests, in priority order:
+1. Locate already archived revocation transaction,
+   receipt and historical delegation evidence.
+   Verify exact chain/block/transaction and state
+   semantics before asserting revocation effectiveness.
+2. Attempt to authenticate the internal suspension
+   cutoff using disclosed primary evidence, or
+   preserve UNKNOWN and stop unsupported inference.
+3. Compare restriction types, execution cutoffs,
+   affected asset populations and reported figures
+   before calculating any incident-wide total.
+
+Do not re-run the completed KITE pause-origin or
+EG-02 scoped USDT ledger audit without a material
+new discrepancy. No final publication approval.
