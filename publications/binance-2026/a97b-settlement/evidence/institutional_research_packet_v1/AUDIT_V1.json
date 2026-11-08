@@ -1,0 +1,28 @@
+{
+  "status": "RESEARCH_DRAFT_REQUIRES_HUMAN_REVIEW",
+  "event_rows": 1188,
+  "integrated_outbound_event_rows": 1186,
+  "matched_eth_return_transactions": 1015,
+  "return_eth_gross": "6829.199984950999210044",
+  "receipt_recovery_transactions": 109,
+  "direct_eth_outflows": 4,
+  "direct_eth_outflow_gross": "10647.2",
+  "bitquery_minute_matching_tx": "0x16a76cdb8e480358041d9607407599828c42f7fbe20ecb59fb3216fdce91d7de",
+  "historical_cases": 4,
+  "historical_tx_level_comparison": "NOT_TESTED",
+  "source_sha256": {
+    "ledger_v1/A97B_EVENT_TIMELINE_V1.csv": "428960ec8ac40a6669b079b0047357c2237219495adea3bcf3a2453672cd4270",
+    "eth_address_receipts_v1/A97B_ADDRESS_ETH_RETURN_V1.csv": "4f2c27670a1e155506f70f3f850151340293a890c626b5f4baaeb38845fe4eef",
+    "integrated_event_audit_v1/A97B_INTEGRATED_EVENT_LEDGER_V1.csv": "eaf5350c5cdb37ba18708fec7c55f46d0f769b916187e16b57cc9a7660c9d2fc",
+    "integrated_event_audit_v1/RECOVERED_109_RECEIPT_AUDIT_V1.csv": "c46fcf1596c1f187799932d1c0bc80a4fd46dbb5150f69d0fe089fe4231df558",
+    "bitquery_withdrawal_crosswalk_v1/A97B_DIRECT_ETH_WITHDRAWAL_CROSSWALK_V1.csv": "277c588a0a39e8db58c415770cbf17fba57a7f05d1afabd1dac7d2e921a797f9",
+    "eth_first_recipient_audit_v1/ETH_FIRST_RECIPIENT_LEDGER_V1.csv": "c6e7acd1955df1d9d7d51f9686693bc587ddae2c830b971ecb913dcdfe787c1a"
+  },
+  "limitations": [
+    "Gross flows not attributable to incident without further evidence",
+    "Historical similarity qualitative only",
+    "No same-controller or same-actor inference",
+    "No net-flow conservation audit",
+    "Minute match is not institution-confirmed TX match"
+  ]
+}

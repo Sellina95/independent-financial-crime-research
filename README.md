@@ -23,7 +23,9 @@ This investigation examines selected Ethereum transactions associated with the O
 - The **27th token-transfer call reverted**; **37 subsequent calls continued** without recorded call errors, while the parent transaction succeeded.
 - Historical USDT balances showed corresponding **1,615,409,498.97324 USDT** block-end changes. Two later transfers totaling **700 million USDT** were audited, without establishing exclusive provenance from the earlier transaction.
 
-**[Read the Full Investigation](publications/binance-2026/README.md)** · [Figures & Supporting Evidence](publications/binance-2026/)
+**[Read the Full Investigation](publications/binance-2026/README.md)**
+
+**Part II — A97B DEX Settlement and ETH Return:** [Read the transaction-level reconstruction](publications/binance-2026/a97b-settlement/README.md). The scope-limited audit documents 1,015 ETH-return transactions and subsequent direct ETH outflows. Incident-fund provenance and ultimate ownership remain unresolved. · [Figures & Supporting Evidence](publications/binance-2026/)
 
 > **Evidence boundary:** This is a bounded reconstruction of selected transactions, not an independent verification of the entire reported incident. Transaction-level incident attribution, internal approval, beneficial ownership, and complete fund conservation remain unresolved.
 
