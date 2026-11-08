@@ -1,0 +1,48 @@
+{
+  "files": {
+    "README.md": "710ce8b8b934e31ff54c97c5d778aff20612a6db4eb856d0a1d663c44c9f33ad",
+    "alchemy_asset_transfers_raw.json": "9b3ec96f7061b0066bd930a97bc6a3825862b00a1111faa13cb8eaa48fe572d0",
+    "all_receivers_summary.csv": "0164ce617004e266395fbcead9a84e911660fa82a06b98e1b35a3ccad91b51d4",
+    "audit.json": "e61b78156e5441b6ef363b62f402f81f988365aa6397718482c19f5a5da63528",
+    "standard_transfer_logs_raw.json": "d9dcc6cf73eb8af4459d43100ed0a62bbb51b7a8c03767551fe30825d43c325c",
+    "transaction_summary.csv": "5ad3fdef83c57787fd3fc8cad0e2221928f97fefd2fdf520145fc2ab4bff5032",
+    "transfer_events_normalized.csv": "5429e2c48067801096733a4fb1afccc17743a4798d2158fe71727791b685c45d"
+  },
+  "scope": {
+    "chain": "Ethereum Mainnet",
+    "provider": "Alchemy",
+    "source": "0x28c6c06298d514db089934071355e5743bf21d60",
+    "block_range": [
+      26300753,
+      26301896
+    ],
+    "categories": [
+      "external",
+      "internal",
+      "erc20",
+      "erc721",
+      "erc1155",
+      "specialnft"
+    ],
+    "results": {
+      "indexed_transfers": 382,
+      "standard_transfer_logs": 285,
+      "normalized_rows": 667,
+      "unique_receivers": 81,
+      "distinct_transactions": 98,
+      "api_erc20_erc721_log_ids": 285,
+      "raw_log_ids": 285,
+      "matched": 285,
+      "api_only": 0,
+      "raw_only": 0
+    },
+    "limitations": [
+      "Bounded block range only",
+      "Alchemy indexed and raw log queries share one provider",
+      "ERC1155 relies on indexed results",
+      "Internal ETH traces not independently replayed",
+      "Nonstandard token movements not fully covered",
+      "No attribution inferred from receiver address"
+    ]
+  }
+}

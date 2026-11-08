@@ -1,0 +1,27 @@
+{
+  "step": "66",
+  "scope": "Binance 14 direct receiver identity audit",
+  "chain_id": 1,
+  "source": "0x28c6c06298d514db089934071355e5743bf21d60",
+  "receiver_count": 23,
+  "erc20_events": 285,
+  "eth_records": 7,
+  "unique_transactions": 70,
+  "rpc_requests": 279,
+  "sha256_validation": "PASS",
+  "erc20_receipt_reconciliation": "PASS",
+  "utc_validation": "PASS",
+  "transaction_index_validation": "PASS",
+  "block_hash_validation": "PASS",
+  "external_eth_validation": "PASS",
+  "internal_eth_trace": "NOT_VERIFIED",
+  "ownership_attribution": "UNKNOWN",
+  "incident_attribution": "UNKNOWN",
+  "institutional_crosswalk": "PENDING",
+  "outputs": {
+    "transaction_receipt_block_evidence.json": "dbff324ecc4b9127279240272529009cb74a5e6f363f62c4d1bfd9e882fefe99",
+    "receiver_code_classification.json": "8432b43ef5685920af74f1567599aa8c464408a9a89579304086c08d35128e66",
+    "RECEIVER_IDENTITY_REGISTER_V1.csv": "6f27887f1d3c49abb0234135d20925ec13ba2f87082590942efe344d0eaea5ea",
+    "audit.md": "9f92176f17fe29a8fef1756d25675d92adc87199e8b8a6d51123d70050982d0d"
+  }
+}

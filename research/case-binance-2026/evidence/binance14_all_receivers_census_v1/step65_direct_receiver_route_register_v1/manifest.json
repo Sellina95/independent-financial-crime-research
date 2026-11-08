@@ -1,0 +1,37 @@
+{
+  "scope": "Binance 14 direct outflows",
+  "chain": "Ethereum Mainnet",
+  "source": "0x28c6c06298d514db089934071355e5743bf21d60",
+  "reference_transaction": "0x53bd38b816c23e74134786c29a8c18d792777998a3b9326047b583100e88e2f3",
+  "reference_block": 26300770,
+  "reference_transaction_index": 189,
+  "erc20_events": 285,
+  "positive_eth_events": 7,
+  "total_events": 292,
+  "unique_receivers": 23,
+  "ownership_attribution": "NOT_ESTABLISHED",
+  "incident_attribution": "NOT_ESTABLISHED_FOR_EACH_RECEIVER",
+  "rpc_used": false,
+  "input_files": [
+    {
+      "path": "research/case-binance-2026/evidence/binance14_all_receivers_census_v1/alchemy_asset_transfers_raw.json",
+      "sha256": "9b3ec96f7061b0066bd930a97bc6a3825862b00a1111faa13cb8eaa48fe572d0"
+    },
+    {
+      "path": "research/case-binance-2026/evidence/binance14_all_receivers_census_v1/audit.json",
+      "sha256": "e61b78156e5441b6ef363b62f402f81f988365aa6397718482c19f5a5da63528"
+    },
+    {
+      "path": "research/case-binance-2026/evidence/binance14_all_receivers_census_v1/manifest.json",
+      "sha256": "0caf658575cb16e751aae6a62368cd4ff196ee4cb2b98c4558fb50abf0780e5f"
+    },
+    {
+      "path": "research/case-binance-2026/evidence/binance14_all_receivers_census_v1/standard_transfer_logs_raw.json",
+      "sha256": "d9dcc6cf73eb8af4459d43100ed0a62bbb51b7a8c03767551fe30825d43c325c"
+    }
+  ],
+  "outputs": {
+    "DIRECT_RECEIVER_TRANSACTION_LEDGER_V1.csv": "d0ce069d9760791cbb1af103b3b3193fe3a8479dcf3fa72fe7e49a6ca393f97a",
+    "DIRECT_RECEIVER_REGISTER_V1.csv": "46f556ea05e500a08df13711b643511ccf781da6685d125ec350ebe168008b79"
+  }
+}
