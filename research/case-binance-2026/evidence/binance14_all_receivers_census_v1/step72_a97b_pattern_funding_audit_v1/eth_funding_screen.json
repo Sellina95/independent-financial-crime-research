@@ -1,0 +1,38 @@
+{
+  "window_start_block": 26301444,
+  "window_end_block": 26309096,
+  "incoming_pagination_complete": true,
+  "incoming_native_eth_records": 1136,
+  "incoming_from_binance14_wei": "3090401960150360151765",
+  "incoming_from_other_sources_wei": "7557738266679943367267",
+  "incoming_from_binance14_eth": "3090.401960150360151765",
+  "incoming_from_other_sources_eth": "7557.738266679943367267",
+  "distinct_other_inbound_sources": 13,
+  "incoming_missing_raw_amount": 0,
+  "outgoing_eth_records_from_step70": 4,
+  "outgoing_eth_display_sum": "10647.2",
+  "historical_balances": {
+    "BEFORE_FIRST_RECEIPT_BLOCK": {
+      "block": 26301443,
+      "balance_wei": "0",
+      "balance_eth": "0",
+      "status": "RPC_OBSERVED"
+    },
+    "END_OF_SCREEN_WINDOW": {
+      "block": 26309096,
+      "balance_wei": "365155713620591969",
+      "balance_eth": "0.365155713620591969",
+      "status": "RPC_OBSERVED"
+    }
+  },
+  "limitations": [
+    "This is a bounded time-window census",
+    "Other funds may predate the initial block",
+    "Alchemy transfer records are indexer evidence",
+    "Display ETH sums are not exact wei accounting",
+    "Gas costs are not reconciled",
+    "Same-asset flows do not prove identical funds",
+    "No transaction-level conservation proof",
+    "No ownership or criminal attribution"
+  ]
+}

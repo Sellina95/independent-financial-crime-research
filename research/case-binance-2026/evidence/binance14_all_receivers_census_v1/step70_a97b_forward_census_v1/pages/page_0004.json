@@ -1,0 +1,2108 @@
+{
+  "request_page_key": "018c0b3d-2eda-4b77-98d1-63310fc65964",
+  "response": {
+    "transfers": [
+      {
+        "blockNum": "0x1915890",
+        "uniqueId": "0xa2191167fcc865de65e0a4c37c8b010a85acf50682dc3e75667ca13b8a1c7665:log:125",
+        "hash": "0xa2191167fcc865de65e0a4c37c8b010a85acf50682dc3e75667ca13b8a1c7665",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x4d1eff861316396dd1915f69b49f4c2d7b11590d",
+        "value": 1479734.2341023034,
+        "erc721TokenId": null,
+        "erc1155Metadata": null,
+        "tokenId": null,
+        "asset": "JASMY",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x139588db67c11139fe27b",
+          "address": "0x7420b4b9a0110cdc71fb720908340c03f9bc03ec",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:33:59.000Z"
+        }
+      },
+      {
+        "blockNum": "0x1915891",
+        "uniqueId": "0xc5a0b2cacdaac70028d190fd004943bf400bada6f2b87f496daff97c53862282:log:150",
+        "hash": "0xc5a0b2cacdaac70028d190fd004943bf400bada6f2b87f496daff97c53862282",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x2e81ec0b8b4022fac83a21b2f2b4b8f5ed744d70",
+        "value": 332703.6413185525,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "GRT",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x4673e6897fc8bf21c865",
+          "address": "0xc944e90c64b2c07662a292be6244bdf05cda44a7",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:34:11.000Z"
+        }
+      },
+      {
+        "blockNum": "0x1915891",
+        "uniqueId": "0xa92d7437cd986d8603210268740a365c88751c470e6e52a92bd3d2cd78a6a160:log:156",
+        "hash": "0xa92d7437cd986d8603210268740a365c88751c470e6e52a92bd3d2cd78a6a160",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x4a86c01d67965f8cb3d0aaa2c655705e64097c31",
+        "value": 30467.08667517697,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "SYN",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x6739fc39587b084d09c",
+          "address": "0x0f2d719407fdbeff09d87557abb7232601fd9f29",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:34:11.000Z"
+        }
+      },
+      {
+        "blockNum": "0x1915893",
+        "uniqueId": "0xd27c38f517cc41cd8532656cfd65f65ea9e4625d82a9bd6bae17bb9a32f8795d:log:67",
+        "hash": "0xd27c38f517cc41cd8532656cfd65f65ea9e4625d82a9bd6bae17bb9a32f8795d",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x123fca7e8272a8e9c3bb7113c259abc4901e792b",
+        "value": 8464.06417723,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "CVC",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0xc511c0fd3b",
+          "address": "0x41e5560054824ea6b0732e656e3ad64e20e94e45",
+          "decimal": "0x8"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:34:35.000Z"
+        }
+      },
+      {
+        "blockNum": "0x1915894",
+        "uniqueId": "0x7d1174adfaed1bdf1c99615610c93920b0e0462250b7f8b656e7b5af02f2e4cb:log:42",
+        "hash": "0x7d1174adfaed1bdf1c99615610c93920b0e0462250b7f8b656e7b5af02f2e4cb",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x8661ae7918c0115af9e3691662f605e9c550ddc9",
+        "value": 30418.559578950808,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "MANA",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x670fe50b49eb2a16054",
+          "address": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:34:47.000Z"
+        }
+      },
+      {
+        "blockNum": "0x1915895",
+        "uniqueId": "0x1e34177e6bc90a0e2394cb3eba47a029e3d41f9755f4de8979f231abca046bea:log:106",
+        "hash": "0x1e34177e6bc90a0e2394cb3eba47a029e3d41f9755f4de8979f231abca046bea",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x307c4d0a83931c3eebe501f8f0c0b4c249bcf206",
+        "value": 41.1850888549289,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "TRB",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x23b8ed41b08efbc01",
+          "address": "0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a0",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:34:59.000Z"
+        }
+      },
+      {
+        "blockNum": "0x1915895",
+        "uniqueId": "0x4e28829f1e060aadd2bfd131d8ff36a1ddc1e623ea15bc54f8492750ef02d1b4:log:151",
+        "hash": "0x4e28829f1e060aadd2bfd131d8ff36a1ddc1e623ea15bc54f8492750ef02d1b4",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0xb003df4b243f938132e8cadbeb237abc5a889fb4",
+        "value": 1114.8380703520932,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "EUL",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x3c6f7c7651ea74a7e1",
+          "address": "0xd9fcd98c322942075a5c3860693e9f4f03aae07b",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:34:59.000Z"
+        }
+      },
+      {
+        "blockNum": "0x1915896",
+        "uniqueId": "0xc363b71979e35aac7a45713932129dde98d8eb53432359204d260aa0cf4e22e2:log:66",
+        "hash": "0xc363b71979e35aac7a45713932129dde98d8eb53432359204d260aa0cf4e22e2",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0xa4dcdb1bcf688bcaa53b24f15ca859cfb83a3921",
+        "value": 2.90307088,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "BBTC",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x114dbc10",
+          "address": "0x9be89d2a4cd102d8fecc6bf9da793be995c22541",
+          "decimal": "0x8"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:35:11.000Z"
+        }
+      },
+      {
+        "blockNum": "0x1915897",
+        "uniqueId": "0xa8b5e424986133a6429d3faf282eb6475d8a8043f8321521adebf8a0ecd401cd:log:46",
+        "hash": "0xa8b5e424986133a6429d3faf282eb6475d8a8043f8321521adebf8a0ecd401cd",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x4d1eff861316396dd1915f69b49f4c2d7b11590d",
+        "value": 706324.9706165461,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "JASMY",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x9591f410c9aafa02e6cb",
+          "address": "0x7420b4b9a0110cdc71fb720908340c03f9bc03ec",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:35:23.000Z"
+        }
+      },
+      {
+        "blockNum": "0x1915897",
+        "uniqueId": "0x8251407ede34eefa43e01352c5ec130e97515619eae2dc4f04390724c342fdb7:log:50",
+        "hash": "0x8251407ede34eefa43e01352c5ec130e97515619eae2dc4f04390724c342fdb7",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x2e81ec0b8b4022fac83a21b2f2b4b8f5ed744d70",
+        "value": 144102.26464609805,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "GRT",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x1e83cca6c11b44b43b6f",
+          "address": "0xc944e90c64b2c07662a292be6244bdf05cda44a7",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:35:23.000Z"
+        }
+      },
+      {
+        "blockNum": "0x1915898",
+        "uniqueId": "0x250638ef55845812c3718ac76d8d2aab97f8e1f002ccf307fdde3adf59a4309d:log:66",
+        "hash": "0x250638ef55845812c3718ac76d8d2aab97f8e1f002ccf307fdde3adf59a4309d",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x4a86c01d67965f8cb3d0aaa2c655705e64097c31",
+        "value": 30467.08667517697,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "SYN",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x6739fc39587b084d09c",
+          "address": "0x0f2d719407fdbeff09d87557abb7232601fd9f29",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:35:35.000Z"
+        }
+      },
+      {
+        "blockNum": "0x1915899",
+        "uniqueId": "0xc4348fda5949482c711f79378c1d4a0b81783a638923f8ab204c2d2fd9aad24a:log:25",
+        "hash": "0xc4348fda5949482c711f79378c1d4a0b81783a638923f8ab204c2d2fd9aad24a",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x8661ae7918c0115af9e3691662f605e9c550ddc9",
+        "value": 151332.33390528025,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "MANA",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x200bbe04b5c8b8afa5a3",
+          "address": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:35:47.000Z"
+        }
+      },
+      {
+        "blockNum": "0x191589a",
+        "uniqueId": "0xea642d2402b03c1505889e41c9073e0973b6a575be6aff17eb3bb97e97ab3013:log:9",
+        "hash": "0xea642d2402b03c1505889e41c9073e0973b6a575be6aff17eb3bb97e97ab3013",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0xe96c108da71dbdb2aa1056bc55c3a073061a2fa1",
+        "value": 1112.6606522459367,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "EUL",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x3c5144b816c17f6d8e",
+          "address": "0xd9fcd98c322942075a5c3860693e9f4f03aae07b",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:35:59.000Z"
+        }
+      },
+      {
+        "blockNum": "0x191589b",
+        "uniqueId": "0x5cb3c5ccbff2b50e48e7d03024cf7f9f6ce18f8cd5a86a8f71285400952ca053:log:202",
+        "hash": "0x5cb3c5ccbff2b50e48e7d03024cf7f9f6ce18f8cd5a86a8f71285400952ca053",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x13dc0a39dc00f394e030b97b0b569dedbe634c0d",
+        "value": 146545.73804179294,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "ANKR",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x1f0842a81c6a04b18ed0",
+          "address": "0x8290333cef9e6d528dd5618fb97a76f268f3edd4",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:36:11.000Z"
+        }
+      },
+      {
+        "blockNum": "0x191589b",
+        "uniqueId": "0x9bec9288fa38121b41b8731c1d2fa9b3154b7726fdabe12556c12166d9aee024:log:488",
+        "hash": "0x9bec9288fa38121b41b8731c1d2fa9b3154b7726fdabe12556c12166d9aee024",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x123fca7e8272a8e9c3bb7113c259abc4901e792b",
+        "value": 12384.93619356,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "CVC",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x1205bf8e49c",
+          "address": "0x41e5560054824ea6b0732e656e3ad64e20e94e45",
+          "decimal": "0x8"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:36:11.000Z"
+        }
+      },
+      {
+        "blockNum": "0x191589c",
+        "uniqueId": "0xf26510b88066e6a22cc2bde6f09bca371e55c7aa41b80fd637f003085984f2f1:log:0",
+        "hash": "0xf26510b88066e6a22cc2bde6f09bca371e55c7aa41b80fd637f003085984f2f1",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x4a86c01d67965f8cb3d0aaa2c655705e64097c31",
+        "value": 30467.08667517697,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "SYN",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x6739fc39587b084d09c",
+          "address": "0x0f2d719407fdbeff09d87557abb7232601fd9f29",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:36:23.000Z"
+        }
+      },
+      {
+        "blockNum": "0x191589c",
+        "uniqueId": "0x5af82ab6f12ecb9ad73dedc7df12d99d28e87c6688bcfa6e2b178e9919f330fc:log:7",
+        "hash": "0x5af82ab6f12ecb9ad73dedc7df12d99d28e87c6688bcfa6e2b178e9919f330fc",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x83b486a0ca1c32f642e54b6f031ad346067f82b9",
+        "value": 1.35018006,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "BBTC",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x80c3616",
+          "address": "0x9be89d2a4cd102d8fecc6bf9da793be995c22541",
+          "decimal": "0x8"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:36:23.000Z"
+        }
+      },
+      {
+        "blockNum": "0x191589d",
+        "uniqueId": "0x8499bc052222783153602e85b980c9dd9ac571a9cb154ae8e795def7bc578275:log:24",
+        "hash": "0x8499bc052222783153602e85b980c9dd9ac571a9cb154ae8e795def7bc578275",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x307c4d0a83931c3eebe501f8f0c0b4c249bcf206",
+        "value": 28.301878247496454,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "TRB",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x188c47850fa618adf",
+          "address": "0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a0",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:36:35.000Z"
+        }
+      },
+      {
+        "blockNum": "0x191589e",
+        "uniqueId": "0xe905622fcc043702d38f018771509e523b6697c03499f03dec010463feb54a1f:log:7",
+        "hash": "0xe905622fcc043702d38f018771509e523b6697c03499f03dec010463feb54a1f",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x8661ae7918c0115af9e3691662f605e9c550ddc9",
+        "value": 259156.62181279244,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "MANA",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x36e0e89b441aef799874",
+          "address": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:36:47.000Z"
+        }
+      },
+      {
+        "blockNum": "0x191589f",
+        "uniqueId": "0xe18a8c66c87a18ccd40291bd9a1cf4afd25c18bee7a963509118d70d19f623eb:log:65",
+        "hash": "0xe18a8c66c87a18ccd40291bd9a1cf4afd25c18bee7a963509118d70d19f623eb",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0xe96c108da71dbdb2aa1056bc55c3a073061a2fa1",
+        "value": 1110.4874869095188,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "EUL",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x3c331c15bab61eadd7",
+          "address": "0xd9fcd98c322942075a5c3860693e9f4f03aae07b",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:36:59.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158a0",
+        "uniqueId": "0x1319a4745468892caeeba1aa4e329082073b88cc708e73864e5b84ad3ab8ad7a:log:53",
+        "hash": "0x1319a4745468892caeeba1aa4e329082073b88cc708e73864e5b84ad3ab8ad7a",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x123fca7e8272a8e9c3bb7113c259abc4901e792b",
+        "value": 20795.02469071,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "CVC",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x1e42c0187cf",
+          "address": "0x41e5560054824ea6b0732e656e3ad64e20e94e45",
+          "decimal": "0x8"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:37:11.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158a2",
+        "uniqueId": "0x8957ba53655a14a7c7fcc6c39750852e8c33dbc6b4d43883c3f9809a864e62b7:log:29",
+        "hash": "0x8957ba53655a14a7c7fcc6c39750852e8c33dbc6b4d43883c3f9809a864e62b7",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x0e2c4be9f3408e5b1ff631576d946eb8c224b5ed",
+        "value": 819838.955647265,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "GRT",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0xad9b8f10243cf75581b1",
+          "address": "0xc944e90c64b2c07662a292be6244bdf05cda44a7",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:37:35.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158a2",
+        "uniqueId": "0x2925d28dcc7d3973fb0577702eaf2c6b02175ead412f8ca1ae37eadd640ef6ce:log:34",
+        "hash": "0x2925d28dcc7d3973fb0577702eaf2c6b02175ead412f8ca1ae37eadd640ef6ce",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x83b486a0ca1c32f642e54b6f031ad346067f82b9",
+        "value": 0.26503534,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "BBTC",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x194696e",
+          "address": "0x9be89d2a4cd102d8fecc6bf9da793be995c22541",
+          "decimal": "0x8"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:37:35.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158a3",
+        "uniqueId": "0xec6ec05c933718b6cd2359aac61692d4540ba4df28f6a3a41cf8dfa2ba03d6fe:log:18",
+        "hash": "0xec6ec05c933718b6cd2359aac61692d4540ba4df28f6a3a41cf8dfa2ba03d6fe",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x8661ae7918c0115af9e3691662f605e9c550ddc9",
+        "value": 77588.56050678065,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "MANA",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x106e15943b1af24e1e68",
+          "address": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:37:47.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158a3",
+        "uniqueId": "0x0397ea2cdac512d93c4b0d5d1b8c5c1e8f818c15d96f4d441287126f69aaa3b0:log:28",
+        "hash": "0x0397ea2cdac512d93c4b0d5d1b8c5c1e8f818c15d96f4d441287126f69aaa3b0",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x4d1eff861316396dd1915f69b49f4c2d7b11590d",
+        "value": 1607393.825988797,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "JASMY",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x15460fe70cf53b8f4513f",
+          "address": "0x7420b4b9a0110cdc71fb720908340c03f9bc03ec",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:37:47.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158a4",
+        "uniqueId": "0x8da30acd1746cc31188c27739cb453f07c62c95df9120239b4d341617b625e28:log:0",
+        "hash": "0x8da30acd1746cc31188c27739cb453f07c62c95df9120239b4d341617b625e28",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x4a86c01d67965f8cb3d0aaa2c655705e64097c31",
+        "value": 18470.67129682604,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "SYN",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x3e94c0e92a70fd084de",
+          "address": "0x0f2d719407fdbeff09d87557abb7232601fd9f29",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:37:59.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158a5",
+        "uniqueId": "0x3912767c7ba5b2aecb310528c774ab523d329a513a911c89de19dfbe320525c4:log:60",
+        "hash": "0x3912767c7ba5b2aecb310528c774ab523d329a513a911c89de19dfbe320525c4",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0xe96c108da71dbdb2aa1056bc55c3a073061a2fa1",
+        "value": 1108.3185660366487,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "EUL",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x3c150287afd8c39e80",
+          "address": "0xd9fcd98c322942075a5c3860693e9f4f03aae07b",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:38:11.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158a6",
+        "uniqueId": "0x6edcdf9340f0ec15ec3a9cdb9eeda2306de82445bac51070e177c4acc5c3e458:log:66",
+        "hash": "0x6edcdf9340f0ec15ec3a9cdb9eeda2306de82445bac51070e177c4acc5c3e458",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x83b486a0ca1c32f642e54b6f031ad346067f82b9",
+        "value": 0.00171742,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "BBTC",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x29ede",
+          "address": "0x9be89d2a4cd102d8fecc6bf9da793be995c22541",
+          "decimal": "0x8"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:38:23.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158a6",
+        "uniqueId": "0xe1faa7fd9790aa3945a4530d045d62e0214ba532aceb2774ed70624d60afc428:log:73",
+        "hash": "0xe1faa7fd9790aa3945a4530d045d62e0214ba532aceb2774ed70624d60afc428",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x4d1eff861316396dd1915f69b49f4c2d7b11590d",
+        "value": 1607393.825988797,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "JASMY",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x15460fe70cf53b8f4513f",
+          "address": "0x7420b4b9a0110cdc71fb720908340c03f9bc03ec",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:38:23.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158a8",
+        "uniqueId": "0x5e575ba91e7ba9f1392c2fb64487f4eaef11fe4196dcb408098c5e613f20ee99:log:60",
+        "hash": "0x5e575ba91e7ba9f1392c2fb64487f4eaef11fe4196dcb408098c5e613f20ee99",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x13dc0a39dc00f394e030b97b0b569dedbe634c0d",
+        "value": 76717.63671429615,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "ANKR",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x103edf155c315023b4a3",
+          "address": "0x8290333cef9e6d528dd5618fb97a76f268f3edd4",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:38:47.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158a9",
+        "uniqueId": "0xaa13ac7e17078254d75b54e9f1ad752310fab2f7c5f12fcbd54458f25653ebe3:log:48",
+        "hash": "0xaa13ac7e17078254d75b54e9f1ad752310fab2f7c5f12fcbd54458f25653ebe3",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0xe96c108da71dbdb2aa1056bc55c3a073061a2fa1",
+        "value": 1106.1538813373584,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "EUL",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x3bf6f8066c00d73cb1",
+          "address": "0xd9fcd98c322942075a5c3860693e9f4f03aae07b",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:38:59.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158a9",
+        "uniqueId": "0x0e6f2577e1d83de7769eb27ba8d9414c75821908cdf1fd26a22050bb461d00d4:log:70",
+        "hash": "0x0e6f2577e1d83de7769eb27ba8d9414c75821908cdf1fd26a22050bb461d00d4",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x11b1f53204d03e5529f09eb3091939e4fd8c9cf3",
+        "value": 38794.28025339032,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "MANA",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x8370aca1d8d79270f34",
+          "address": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:38:59.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158aa",
+        "uniqueId": "0xbbfbc87bacd38493c1cf79be934dab706de78004de77dc172b093ae1175f87fd:log:152",
+        "hash": "0xbbfbc87bacd38493c1cf79be934dab706de78004de77dc172b093ae1175f87fd",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x307c4d0a83931c3eebe501f8f0c0b4c249bcf206",
+        "value": 25.697251179891545,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "TRB",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x1649ef9cc596c57db",
+          "address": "0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a0",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:39:11.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158ab",
+        "uniqueId": "0x8ea7cf3349c34b643e5d7484b9e26433f96a4a33802fe40f40ef4d8e354dded8:log:9",
+        "hash": "0x8ea7cf3349c34b643e5d7484b9e26433f96a4a33802fe40f40ef4d8e354dded8",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x4d1eff861316396dd1915f69b49f4c2d7b11590d",
+        "value": 1575245.949469021,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "JASMY",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x14d92410827572b03e939",
+          "address": "0x7420b4b9a0110cdc71fb720908340c03f9bc03ec",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:39:23.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158ac",
+        "uniqueId": "0x78c02de4612084d1f8192dc3fa6f738300785ea391938364db3e0cd2334c29c8:log:51",
+        "hash": "0x78c02de4612084d1f8192dc3fa6f738300785ea391938364db3e0cd2334c29c8",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x123fca7e8272a8e9c3bb7113c259abc4901e792b",
+        "value": 18230.04792263,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "CVC",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x1a8738d95c7",
+          "address": "0x41e5560054824ea6b0732e656e3ad64e20e94e45",
+          "decimal": "0x8"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:39:35.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158ac",
+        "uniqueId": "0xe8678a2d4461386bb19c431fba9f524932c9d96a52d6f52ce23d45c8eb090fdf:log:57",
+        "hash": "0xe8678a2d4461386bb19c431fba9f524932c9d96a52d6f52ce23d45c8eb090fdf",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x0e2c4be9f3408e5b1ff631576d946eb8c224b5ed",
+        "value": 877483.8822162133,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "GRT",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0xb9d07f1f46c940b984cf",
+          "address": "0xc944e90c64b2c07662a292be6244bdf05cda44a7",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:39:35.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158ad",
+        "uniqueId": "0x846a9b7638f7e1b9e084e297b5b5e2a3aec15c3c5a70c0f3d0fbca4051b0ed80:log:52",
+        "hash": "0x846a9b7638f7e1b9e084e297b5b5e2a3aec15c3c5a70c0f3d0fbca4051b0ed80",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x4a86c01d67965f8cb3d0aaa2c655705e64097c31",
+        "value": 15630.805584939037,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "SYN",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x34f5900cff1db249e85",
+          "address": "0x0f2d719407fdbeff09d87557abb7232601fd9f29",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:39:47.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158ae",
+        "uniqueId": "0xfa6985b4d82e7d00e8bb7afbeaaeaccd26314f7b89364e647659337c01e89c14:log:37",
+        "hash": "0xfa6985b4d82e7d00e8bb7afbeaaeaccd26314f7b89364e647659337c01e89c14",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x307c4d0a83931c3eebe501f8f0c0b4c249bcf206",
+        "value": 32.10354249261197,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "TRB",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x1bd86b1ce1fcb95fd",
+          "address": "0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a0",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:39:59.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158ae",
+        "uniqueId": "0xa06a04eb0e64c845557c3e139192cdaf433fbd6046872b2d20ec5a66cbebc3c5:log:41",
+        "hash": "0xa06a04eb0e64c845557c3e139192cdaf433fbd6046872b2d20ec5a66cbebc3c5",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x8661ae7918c0115af9e3691662f605e9c550ddc9",
+        "value": 129525.50530624141,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "MANA",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x1b6d977a747ce4aef4c3",
+          "address": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:39:59.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158af",
+        "uniqueId": "0x0563a90a2169ce4e5c31365c12c1bffa06f79f6f5b93ca744831992f5cffde11:log:22",
+        "hash": "0x0563a90a2169ce4e5c31365c12c1bffa06f79f6f5b93ca744831992f5cffde11",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x4d1eff861316396dd1915f69b49f4c2d7b11590d",
+        "value": 974683.4312339568,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "JASMY",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0xce65b1d6a52455d0d1e7",
+          "address": "0x7420b4b9a0110cdc71fb720908340c03f9bc03ec",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:40:11.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158af",
+        "uniqueId": "0xd3cd6efb80591a56838826e6a206cec8b92b3b8b4f9e4e51e3ec49064d123f76:log:27",
+        "hash": "0xd3cd6efb80591a56838826e6a206cec8b92b3b8b4f9e4e51e3ec49064d123f76",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x0e2c4be9f3408e5b1ff631576d946eb8c224b5ed",
+        "value": 1214774.4354332795,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "GRT",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x1013d0dd96bc4887d1ed0",
+          "address": "0xc944e90c64b2c07662a292be6244bdf05cda44a7",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:40:11.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158b1",
+        "uniqueId": "0x7255d07ed48fea25a0d28ccd5cc8c6ffb1bc2c67708b1ad6df3a1a33657726a2:log:79",
+        "hash": "0x7255d07ed48fea25a0d28ccd5cc8c6ffb1bc2c67708b1ad6df3a1a33657726a2",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0xe96c108da71dbdb2aa1056bc55c3a073061a2fa1",
+        "value": 1103.9934245378713,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "EUL",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x3bd8fc8a68cad6d113",
+          "address": "0xd9fcd98c322942075a5c3860693e9f4f03aae07b",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:40:35.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158b2",
+        "uniqueId": "0x35568e47792c3a9e39d711a9bd5790589f3d44d453f152d91a24e835626f211a:log:50",
+        "hash": "0x35568e47792c3a9e39d711a9bd5790589f3d44d453f152d91a24e835626f211a",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x4a86c01d67965f8cb3d0aaa2c655705e64097c31",
+        "value": 15374.611601967279,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "SYN",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x3417598f1ce4b110594",
+          "address": "0x0f2d719407fdbeff09d87557abb7232601fd9f29",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:40:47.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158b3",
+        "uniqueId": "0xc87511950d4f6d9b6e7a9bfecead58adc9927df42d8b1d6fbd57115112d1aa38:log:55",
+        "hash": "0xc87511950d4f6d9b6e7a9bfecead58adc9927df42d8b1d6fbd57115112d1aa38",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x5201883feeb05822ce25c9af8ab41fc78ca73fa9",
+        "value": 53786.4547649961,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "ANKR",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0xb63c50193e9c93b3d1a",
+          "address": "0x8290333cef9e6d528dd5618fb97a76f268f3edd4",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:40:59.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158b4",
+        "uniqueId": "0x9c07b3b66a43563092d453618ed0f24a123c1cce9ec72432b2e047b2419ca7ec:log:34",
+        "hash": "0x9c07b3b66a43563092d453618ed0f24a123c1cce9ec72432b2e047b2419ca7ec",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x4d1eff861316396dd1915f69b49f4c2d7b11590d",
+        "value": 824825.8536817359,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "JASMY",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0xaea9e62d00df1194dfb6",
+          "address": "0x7420b4b9a0110cdc71fb720908340c03f9bc03ec",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:41:11.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158b5",
+        "uniqueId": "0x7d389d6990b7eaf2dbdc151f36d6071e18230ba45ddb811d12f4534fd77c69e4:log:130",
+        "hash": "0x7d389d6990b7eaf2dbdc151f36d6071e18230ba45ddb811d12f4534fd77c69e4",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x123fca7e8272a8e9c3bb7113c259abc4901e792b",
+        "value": 13481.73311031,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "CVC",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x139e5642c37",
+          "address": "0x41e5560054824ea6b0732e656e3ad64e20e94e45",
+          "decimal": "0x8"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:41:23.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158b5",
+        "uniqueId": "0x9df24f8d0856a3bd846a91ed1f402a89fee6b86ee9f6594c2ca019533f2a4673:log:135",
+        "hash": "0x9df24f8d0856a3bd846a91ed1f402a89fee6b86ee9f6594c2ca019533f2a4673",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x4a86c01d67965f8cb3d0aaa2c655705e64097c31",
+        "value": 29058.31319008434,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "SYN",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x627411ac0d711153fb4",
+          "address": "0x0f2d719407fdbeff09d87557abb7232601fd9f29",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:41:23.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158b7",
+        "uniqueId": "0xc17f6e061778f9266f89c8fa62af9a71452fc58683271d13d444b7d28127d760:log:76",
+        "hash": "0xc17f6e061778f9266f89c8fa62af9a71452fc58683271d13d444b7d28127d760",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0xe96c108da71dbdb2aa1056bc55c3a073061a2fa1",
+        "value": 1101.8371873805709,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "EUL",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x3bbb100c23967165aa",
+          "address": "0xd9fcd98c322942075a5c3860693e9f4f03aae07b",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:41:47.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158b8",
+        "uniqueId": "0xbe346d2225c59391dd1a1e8643a50c0b2359c1840925bfb08f9f997c2f6d2f04:log:12",
+        "hash": "0xbe346d2225c59391dd1a1e8643a50c0b2359c1840925bfb08f9f997c2f6d2f04",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x0e2c4be9f3408e5b1ff631576d946eb8c224b5ed",
+        "value": 911944.8364469733,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "GRT",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0xc11ca0eec1b3a50a0183",
+          "address": "0xc944e90c64b2c07662a292be6244bdf05cda44a7",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:41:59.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158b9",
+        "uniqueId": "0x667a76a9ff0ff6b127c8e969b37d011ce1d6415cf18d2611adf46565939a95af:log:64",
+        "hash": "0x667a76a9ff0ff6b127c8e969b37d011ce1d6415cf18d2611adf46565939a95af",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x13dc0a39dc00f394e030b97b0b569dedbe634c0d",
+        "value": 67213.68963724014,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "ANKR",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0xe3ba95293ae0c90bc90",
+          "address": "0x8290333cef9e6d528dd5618fb97a76f268f3edd4",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:42:11.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158b9",
+        "uniqueId": "0x41e9744e07c455604aa5e3f1c153779d748a7f8ce2436d0707e5acb5b8fa3dc1:log:699",
+        "hash": "0x41e9744e07c455604aa5e3f1c153779d748a7f8ce2436d0707e5acb5b8fa3dc1",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x123fca7e8272a8e9c3bb7113c259abc4901e792b",
+        "value": 20263.57759077,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "CVC",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x1d7cc559c65",
+          "address": "0x41e5560054824ea6b0732e656e3ad64e20e94e45",
+          "decimal": "0x8"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:42:11.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158bb",
+        "uniqueId": "0xeac6b711ab1ea38b75c8c48c44ffa0cf845bf41884ef1eb878a235cb41a1c917:log:25",
+        "hash": "0xeac6b711ab1ea38b75c8c48c44ffa0cf845bf41884ef1eb878a235cb41a1c917",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x4d1eff861316396dd1915f69b49f4c2d7b11590d",
+        "value": 824825.8536817359,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "JASMY",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0xaea9e62d00df1194dfb6",
+          "address": "0x7420b4b9a0110cdc71fb720908340c03f9bc03ec",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:42:35.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158bc",
+        "uniqueId": "0x6e23a1cf55f384b554613ae1677bd8e2a2ccc85fd64cd32942324a3f6d660b46:log:8",
+        "hash": "0x6e23a1cf55f384b554613ae1677bd8e2a2ccc85fd64cd32942324a3f6d660b46",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x8661ae7918c0115af9e3691662f605e9c550ddc9",
+        "value": 421659.48873236007,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "MANA",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x594a34e96a5cface7631",
+          "address": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:42:47.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158bd",
+        "uniqueId": "0x859f4b89e84cddfd2d8d67c544a2b6a6a07a96c99ec7a052d48cd9a33be702e2:log:16",
+        "hash": "0x859f4b89e84cddfd2d8d67c544a2b6a6a07a96c99ec7a052d48cd9a33be702e2",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0xe96c108da71dbdb2aa1056bc55c3a073061a2fa1",
+        "value": 1099.6851616239683,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "EUL",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x3b9d32841d84a62cf7",
+          "address": "0xd9fcd98c322942075a5c3860693e9f4f03aae07b",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:42:59.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158be",
+        "uniqueId": "0x94d31449758ba747920845c533263d9ef56a22d5003247df5b2cfe24d39e45db:log:70",
+        "hash": "0x94d31449758ba747920845c533263d9ef56a22d5003247df5b2cfe24d39e45db",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x0e2c4be9f3408e5b1ff631576d946eb8c224b5ed",
+        "value": 470718.893991109,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "GRT",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x63adb8ed8d53885291bf",
+          "address": "0xc944e90c64b2c07662a292be6244bdf05cda44a7",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:43:11.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158be",
+        "uniqueId": "0x296d39ff44592370066e0b1586a0ce1537cf939c2425d79875cbc30d062cfca0:log:658",
+        "hash": "0x296d39ff44592370066e0b1586a0ce1537cf939c2425d79875cbc30d062cfca0",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x123fca7e8272a8e9c3bb7113c259abc4901e792b",
+        "value": 18490.95514517,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "CVC",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x1ae86ae6995",
+          "address": "0x41e5560054824ea6b0732e656e3ad64e20e94e45",
+          "decimal": "0x8"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:43:11.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158c0",
+        "uniqueId": "0x5c0e755b17b91c15d806ac6ddb49584669de54af23fc9c3306d480d8bb0b4ddd:log:73",
+        "hash": "0x5c0e755b17b91c15d806ac6ddb49584669de54af23fc9c3306d480d8bb0b4ddd",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x4a86c01d67965f8cb3d0aaa2c655705e64097c31",
+        "value": 12585.88190045528,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "SYN",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x2aa4832c99a973d3412",
+          "address": "0x0f2d719407fdbeff09d87557abb7232601fd9f29",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:43:35.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158c1",
+        "uniqueId": "0x5682f69ee6455d3471446376e18ee6eadf93fbd4f94370426e4ffeb7e38378ea:log:34",
+        "hash": "0x5682f69ee6455d3471446376e18ee6eadf93fbd4f94370426e4ffeb7e38378ea",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x8661ae7918c0115af9e3691662f605e9c550ddc9",
+        "value": 668087.2041328537,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "MANA",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x8d791474c11e7f04a84a",
+          "address": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:43:47.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158c1",
+        "uniqueId": "0x12d9cf34e6e5d4d334122913b2c4eff75fb5a3602367016e217d99e71977f79a:log:262",
+        "hash": "0x12d9cf34e6e5d4d334122913b2c4eff75fb5a3602367016e217d99e71977f79a",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x0e2c4be9f3408e5b1ff631576d946eb8c224b5ed",
+        "value": 951200.7925342399,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "GRT",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0xc96cb2c2ec19fe0326e8",
+          "address": "0xc944e90c64b2c07662a292be6244bdf05cda44a7",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:43:47.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158c2",
+        "uniqueId": "0xd0d07c90acb16f16cb2815ca3c6e3c2045a1209f823c3cddb62eb21a760c59dd:log:138",
+        "hash": "0xd0d07c90acb16f16cb2815ca3c6e3c2045a1209f823c3cddb62eb21a760c59dd",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0xe96c108da71dbdb2aa1056bc55c3a073061a2fa1",
+        "value": 1097.5373390426714,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "EUL",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x3b7f63eadb75e3d9e1",
+          "address": "0xd9fcd98c322942075a5c3860693e9f4f03aae07b",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:43:59.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158c3",
+        "uniqueId": "0x9d7466cfad2a964aa3ed7327954f6c56fa364338a723597bafb85c74243c80fa:log:25",
+        "hash": "0x9d7466cfad2a964aa3ed7327954f6c56fa364338a723597bafb85c74243c80fa",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x123fca7e8272a8e9c3bb7113c259abc4901e792b",
+        "value": 21250.45515523,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "CVC",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x1eec6954503",
+          "address": "0x41e5560054824ea6b0732e656e3ad64e20e94e45",
+          "decimal": "0x8"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:44:11.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158c3",
+        "uniqueId": "0x74bdbd9e636443ec44f3120d274e38da7d06a7a509a7d19f4eb2b035ee69ce01:log:84",
+        "hash": "0x74bdbd9e636443ec44f3120d274e38da7d06a7a509a7d19f4eb2b035ee69ce01",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x4a86c01d67965f8cb3d0aaa2c655705e64097c31",
+        "value": 15663.523333925985,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "SYN",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x3511f0d9b4d649f2b67",
+          "address": "0x0f2d719407fdbeff09d87557abb7232601fd9f29",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:44:11.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158c6",
+        "uniqueId": "0x50ccb891ca39ce9505578a4944d3d179c7c5c41da90351a642840e5734ed83b6:log:175",
+        "hash": "0x50ccb891ca39ce9505578a4944d3d179c7c5c41da90351a642840e5734ed83b6",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x5201883feeb05822ce25c9af8ab41fc78ca73fa9",
+        "value": 73482.08526676729,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "ANKR",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0xf8f78c97959f5422f3b",
+          "address": "0x8290333cef9e6d528dd5618fb97a76f268f3edd4",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:44:47.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158c6",
+        "uniqueId": "0xcce151b00d805a5399e4d6e7dd23c70ff0d3e14a3e23f3196d5a819c4b3bdb9e:log:929",
+        "hash": "0xcce151b00d805a5399e4d6e7dd23c70ff0d3e14a3e23f3196d5a819c4b3bdb9e",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x0e2c4be9f3408e5b1ff631576d946eb8c224b5ed",
+        "value": 656803.567873251,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "GRT",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x8b15648bde47153b482c",
+          "address": "0xc944e90c64b2c07662a292be6244bdf05cda44a7",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:44:47.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158c7",
+        "uniqueId": "0xe1b4fc53d656647dd12ce3b113afc26bb56cb7d7b369a0e70484ef591ef4ba08:log:35",
+        "hash": "0xe1b4fc53d656647dd12ce3b113afc26bb56cb7d7b369a0e70484ef591ef4ba08",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x123fca7e8272a8e9c3bb7113c259abc4901e792b",
+        "value": 30973.17126564,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "CVC",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x2d1267cb1a4",
+          "address": "0x41e5560054824ea6b0732e656e3ad64e20e94e45",
+          "decimal": "0x8"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:44:59.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158c8",
+        "uniqueId": "0x7eb6b0841d047e3c3eb7bb4eb093c90cfa87946956d327480220129187dcccd0:log:242",
+        "hash": "0x7eb6b0841d047e3c3eb7bb4eb093c90cfa87946956d327480220129187dcccd0",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x4a86c01d67965f8cb3d0aaa2c655705e64097c31",
+        "value": 12237.910780796372,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "SYN",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x2976b2107e7731884e7",
+          "address": "0x0f2d719407fdbeff09d87557abb7232601fd9f29",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:45:11.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158c9",
+        "uniqueId": "0x409237bf9549e4bee1e8c06b154f58764e66b06a8a078b619e8132c5e9216a12:log:21",
+        "hash": "0x409237bf9549e4bee1e8c06b154f58764e66b06a8a078b619e8132c5e9216a12",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x307c4d0a83931c3eebe501f8f0c0b4c249bcf206",
+        "value": 27.566720877128652,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "TRB",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x17e90aa953f9916e4",
+          "address": "0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a0",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:45:23.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158cb",
+        "uniqueId": "0x940379c0b1834f54bc8ba9174cc523a35babca6f4c992df41de83b6f78d37084:log:74",
+        "hash": "0x940379c0b1834f54bc8ba9174cc523a35babca6f4c992df41de83b6f78d37084",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x4d1eff861316396dd1915f69b49f4c2d7b11590d",
+        "value": 824825.8536817359,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "JASMY",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0xaea9e62d00df1194dfb6",
+          "address": "0x7420b4b9a0110cdc71fb720908340c03f9bc03ec",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:45:47.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158cd",
+        "uniqueId": "0x9ac75a06958038b76b70c8c466df66a1e4bcb804b6d78e99c9446b304595ba61:log:94",
+        "hash": "0x9ac75a06958038b76b70c8c466df66a1e4bcb804b6d78e99c9446b304595ba61",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x4a86c01d67965f8cb3d0aaa2c655705e64097c31",
+        "value": 27699.16604661778,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "SYN",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x5dd93261aed6dc5de39",
+          "address": "0x0f2d719407fdbeff09d87557abb7232601fd9f29",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:46:11.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158ce",
+        "uniqueId": "0x652a0a9e7b6ee414f615232c1960478ab07e22357073999a181a912e4d907a4f:log:166",
+        "hash": "0x652a0a9e7b6ee414f615232c1960478ab07e22357073999a181a912e4d907a4f",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x68fa181c720c07b7ff7412220e2431ce90a65a14",
+        "value": 399519.7719951665,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "DODO",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x549a029eeb21d94a2bed",
+          "address": "0x43dfc4159d86f3a37a5a4b3d4580b888ad7d4ddd",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:46:23.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158ce",
+        "uniqueId": "0x08b1756cb360fc438bc49f65dbd9e10ce5e4cc6cc8390a41ab1181b8748f0a61:log:172",
+        "hash": "0x08b1756cb360fc438bc49f65dbd9e10ce5e4cc6cc8390a41ab1181b8748f0a61",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x13dc0a39dc00f394e030b97b0b569dedbe634c0d",
+        "value": 2295088.7026570723,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "ANKR",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x1e6010203fd82b51391de",
+          "address": "0x8290333cef9e6d528dd5618fb97a76f268f3edd4",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:46:23.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158cf",
+        "uniqueId": "0x5dde6cb20d05841fdedebdb26ef8ca2cf3fe7b10251b80598604b7e44866e2c5:log:99",
+        "hash": "0x5dde6cb20d05841fdedebdb26ef8ca2cf3fe7b10251b80598604b7e44866e2c5",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0xeb4626c5149894022c2066120ea7f20f217995fb",
+        "value": 89003.09516496,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "ACH",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x81843c980d0",
+          "address": "0xed04915c23f00a313a544955524eb7dbd823143d",
+          "decimal": "0x8"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:46:35.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158d0",
+        "uniqueId": "0x51217170ddfdb8f08621192b6744ff9433f9d1fdf74924acd09b3431fcdb49e8:log:22",
+        "hash": "0x51217170ddfdb8f08621192b6744ff9433f9d1fdf74924acd09b3431fcdb49e8",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x4d1eff861316396dd1915f69b49f4c2d7b11590d",
+        "value": 824825.8536817359,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "JASMY",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0xaea9e62d00df1194dfb6",
+          "address": "0x7420b4b9a0110cdc71fb720908340c03f9bc03ec",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:46:47.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158d0",
+        "uniqueId": "0x0758175474ba7211675ddf264345175371e989afadf7781c8ccf45b74f20ce19:log:68",
+        "hash": "0x0758175474ba7211675ddf264345175371e989afadf7781c8ccf45b74f20ce19",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x307c4d0a83931c3eebe501f8f0c0b4c249bcf206",
+        "value": 25.044855061448185,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "TRB",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x15b9132fc2cc35110",
+          "address": "0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a0",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:46:47.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158d1",
+        "uniqueId": "0x0ef108c3aac567c7fb3438ff728484a484237c103ab2b97272d8b711a6a5d351:log:70",
+        "hash": "0x0ef108c3aac567c7fb3438ff728484a484237c103ab2b97272d8b711a6a5d351",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x8661ae7918c0115af9e3691662f605e9c550ddc9",
+        "value": 385131.11909861735,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "MANA",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x518dfff2f41232ec4a30",
+          "address": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:46:59.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158d2",
+        "uniqueId": "0xd3729a2fc0c8fb13b6d60c1de546195df8c86bee8be53601fb83c64bf6d71383:log:228",
+        "hash": "0xd3729a2fc0c8fb13b6d60c1de546195df8c86bee8be53601fb83c64bf6d71383",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x123fca7e8272a8e9c3bb7113c259abc4901e792b",
+        "value": 22399.37305367,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "CVC",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x20986aadb17",
+          "address": "0x41e5560054824ea6b0732e656e3ad64e20e94e45",
+          "decimal": "0x8"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:47:11.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158d3",
+        "uniqueId": "0x640d299093c40a921f088f833eba5f82b8b857492bcffa5b5d0d36c4ca67af40:log:1182",
+        "hash": "0x640d299093c40a921f088f833eba5f82b8b857492bcffa5b5d0d36c4ca67af40",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0xeb4626c5149894022c2066120ea7f20f217995fb",
+        "value": 126869.14413469,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "ACH",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0xb89e706e39d",
+          "address": "0xed04915c23f00a313a544955524eb7dbd823143d",
+          "decimal": "0x8"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:47:23.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158d4",
+        "uniqueId": "0x3f6c93d8e9e6a07d5ca4a877c4071c1868d787f8178fda55b841197d58e4caff:log:125",
+        "hash": "0x3f6c93d8e9e6a07d5ca4a877c4071c1868d787f8178fda55b841197d58e4caff",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x0e2c4be9f3408e5b1ff631576d946eb8c224b5ed",
+        "value": 840337.2769296333,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "GRT",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0xb1f2c66a8dca9d21a8e0",
+          "address": "0xc944e90c64b2c07662a292be6244bdf05cda44a7",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:47:35.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158d6",
+        "uniqueId": "0x8cbea19244a0c222463fc27f3bce907a572798f3941d38d8f750c0061560a93e:log:63",
+        "hash": "0x8cbea19244a0c222463fc27f3bce907a572798f3941d38d8f750c0061560a93e",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x13dc0a39dc00f394e030b97b0b569dedbe634c0d",
+        "value": 2417600.6837067897,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "ANKR",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x1fff2654ae1ef312dc568",
+          "address": "0x8290333cef9e6d528dd5618fb97a76f268f3edd4",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:47:59.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158d7",
+        "uniqueId": "0x478f20c138cddf8360080651b432b9d4c40859186a0f33abd83796fd5b3d9c59:log:7",
+        "hash": "0x478f20c138cddf8360080651b432b9d4c40859186a0f33abd83796fd5b3d9c59",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x4a86c01d67965f8cb3d0aaa2c655705e64097c31",
+        "value": 14042.932618782772,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "SYN",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x2f944d6ce231d1cc8cc",
+          "address": "0x0f2d719407fdbeff09d87557abb7232601fd9f29",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:48:11.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158d7",
+        "uniqueId": "0x1b04802025a8f34693f8eb5629e9b2eec19e17ee36b12338c61dc291532eacfc:log:13",
+        "hash": "0x1b04802025a8f34693f8eb5629e9b2eec19e17ee36b12338c61dc291532eacfc",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x68fa181c720c07b7ff7412220e2431ce90a65a14",
+        "value": 374549.7862454686,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "DODO",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x4f506274fc6fbbb5892e",
+          "address": "0x43dfc4159d86f3a37a5a4b3d4580b888ad7d4ddd",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:48:11.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158d8",
+        "uniqueId": "0x2411cd8542559f8a6d7b1f2106ff0754536daf816f650a54882f7b7a32f65c9c:log:13",
+        "hash": "0x2411cd8542559f8a6d7b1f2106ff0754536daf816f650a54882f7b7a32f65c9c",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x307c4d0a83931c3eebe501f8f0c0b4c249bcf206",
+        "value": 31.282859083446525,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "TRB",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x1b2230a97bb6e96cd",
+          "address": "0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a0",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:48:23.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158d9",
+        "uniqueId": "0x3078ff65b6df8d64fd0a2c4deeb960708ab82d2965df4b9bd3905295f0e260e3:log:48",
+        "hash": "0x3078ff65b6df8d64fd0a2c4deeb960708ab82d2965df4b9bd3905295f0e260e3",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x4d1eff861316396dd1915f69b49f4c2d7b11590d",
+        "value": 1516753.6215147218,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "JASMY",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x1412f60ea868a7343823e",
+          "address": "0x7420b4b9a0110cdc71fb720908340c03f9bc03ec",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:48:35.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158da",
+        "uniqueId": "0x87ffe44a022ae52bfdffb1a5b5dcdba5b5d237aa9b2c33eb39b726a2e5dabde4:log:51",
+        "hash": "0x87ffe44a022ae52bfdffb1a5b5dcdba5b5d237aa9b2c33eb39b726a2e5dabde4",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x8661ae7918c0115af9e3691662f605e9c550ddc9",
+        "value": 245126.1401539309,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "MANA",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x33e8508f280c63665187",
+          "address": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:48:47.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158da",
+        "uniqueId": "0x4c6b8af143736d9f86505051de057c494f816f1a043ef92e96d00689b5078c67:log:59",
+        "hash": "0x4c6b8af143736d9f86505051de057c494f816f1a043ef92e96d00689b5078c67",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x123fca7e8272a8e9c3bb7113c259abc4901e792b",
+        "value": 32917.85511765,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "CVC",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x2fe6db4c355",
+          "address": "0x41e5560054824ea6b0732e656e3ad64e20e94e45",
+          "decimal": "0x8"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:48:47.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158db",
+        "uniqueId": "0x3be5d8bcda9defcaf92d4db931fcbb6e631202bf2643f50898a25250a77e28ca:log:31",
+        "hash": "0x3be5d8bcda9defcaf92d4db931fcbb6e631202bf2643f50898a25250a77e28ca",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0xb003df4b243f938132e8cadbeb237abc5a889fb4",
+        "value": 21909.2763324977,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "EUL",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x4a3b449b815ee7d9f4e",
+          "address": "0xd9fcd98c322942075a5c3860693e9f4f03aae07b",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:48:59.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158dc",
+        "uniqueId": "0xaf33fcf2475b416517ea3aea892d0fefbcf478da57e9b9ddbc5ef3747a35ba26:log:0",
+        "hash": "0xaf33fcf2475b416517ea3aea892d0fefbcf478da57e9b9ddbc5ef3747a35ba26",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x68fa181c720c07b7ff7412220e2431ce90a65a14",
+        "value": 351140.4246051268,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "DODO",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x4a5b5c4daca8bffa309b",
+          "address": "0x43dfc4159d86f3a37a5a4b3d4580b888ad7d4ddd",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:49:11.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158dd",
+        "uniqueId": "0xb55791232963f97935889a545ff6720719296e7623c9ce34125523d885851a8d:log:33",
+        "hash": "0xb55791232963f97935889a545ff6720719296e7623c9ce34125523d885851a8d",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0xeb4626c5149894022c2066120ea7f20f217995fb",
+        "value": 128611.91385038,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "ACH",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0xbb27abe6fce",
+          "address": "0xed04915c23f00a313a544955524eb7dbd823143d",
+          "decimal": "0x8"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:49:23.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158dd",
+        "uniqueId": "0x80112dd56b2c6a064e4177c7a059e9ebd967457d0423bcfd49beda685f723dde:log:43",
+        "hash": "0x80112dd56b2c6a064e4177c7a059e9ebd967457d0423bcfd49beda685f723dde",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x307c4d0a83931c3eebe501f8f0c0b4c249bcf206",
+        "value": 39.07681478081414,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "TRB",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x21e4cbc015c291965",
+          "address": "0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a0",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:49:23.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158df",
+        "uniqueId": "0x96991363fe02831c1a85219fa52c694d839658ad317177a5e3406e59bea39f84:log:25",
+        "hash": "0x96991363fe02831c1a85219fa52c694d839658ad317177a5e3406e59bea39f84",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x4d1eff861316396dd1915f69b49f4c2d7b11590d",
+        "value": 1516753.6215147218,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "JASMY",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x1412f60ea868a7343823e",
+          "address": "0x7420b4b9a0110cdc71fb720908340c03f9bc03ec",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:49:47.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158e0",
+        "uniqueId": "0xb7a78f8744e6d27c3b9a754ab0090067594182cf4628b1c3eb098145722a367a:log:139",
+        "hash": "0xb7a78f8744e6d27c3b9a754ab0090067594182cf4628b1c3eb098145722a367a",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0xb003df4b243f938132e8cadbeb237abc5a889fb4",
+        "value": 26316.06440033095,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "EUL",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x59298c1f79dbd49a1e1",
+          "address": "0xd9fcd98c322942075a5c3860693e9f4f03aae07b",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:49:59.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158e0",
+        "uniqueId": "0x15f9dd52673aae2274b6fb2b9e9fad76ce5f260ca26ec4a982aa2479a7fff619:log:152",
+        "hash": "0x15f9dd52673aae2274b6fb2b9e9fad76ce5f260ca26ec4a982aa2479a7fff619",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x13dc0a39dc00f394e030b97b0b569dedbe634c0d",
+        "value": 3462628.7259114143,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "ANKR",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x2dd3d7ab7272d139d452c",
+          "address": "0x8290333cef9e6d528dd5618fb97a76f268f3edd4",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:49:59.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158e1",
+        "uniqueId": "0x154a36e017966a80a9814168605610524e92ef9a28a8b133d5d84f621920873a:log:361",
+        "hash": "0x154a36e017966a80a9814168605610524e92ef9a28a8b133d5d84f621920873a",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x0e2c4be9f3408e5b1ff631576d946eb8c224b5ed",
+        "value": 1628153.4740511645,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "GRT",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x158c6606e72b890713732",
+          "address": "0xc944e90c64b2c07662a292be6244bdf05cda44a7",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:50:11.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158e2",
+        "uniqueId": "0x8f8f66814676f77313b978b6c3f444b7c5cd5b78b9d39f95de5c1267d60de3fc:log:74",
+        "hash": "0x8f8f66814676f77313b978b6c3f444b7c5cd5b78b9d39f95de5c1267d60de3fc",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x4a86c01d67965f8cb3d0aaa2c655705e64097c31",
+        "value": 20994.184265080243,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "SYN",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x47218d59d229333fe1d",
+          "address": "0x0f2d719407fdbeff09d87557abb7232601fd9f29",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:50:23.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158e3",
+        "uniqueId": "0xc632b79da021909fee8ef57952d81994b862bad14f947ab35d5b6cdf615b97fe:log:17",
+        "hash": "0xc632b79da021909fee8ef57952d81994b862bad14f947ab35d5b6cdf615b97fe",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x123fca7e8272a8e9c3bb7113c259abc4901e792b",
+        "value": 23042.49858235,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "CVC",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x2187ffe88bb",
+          "address": "0x41e5560054824ea6b0732e656e3ad64e20e94e45",
+          "decimal": "0x8"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:50:35.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158e4",
+        "uniqueId": "0x14b1bcd3452d975e797e6546d424bf218869e68974bd91c3fa6192941627e33b:log:75",
+        "hash": "0x14b1bcd3452d975e797e6546d424bf218869e68974bd91c3fa6192941627e33b",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x8661ae7918c0115af9e3691662f605e9c550ddc9",
+        "value": 718188.9498834983,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "MANA",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x981519da36e79fc5cbdb",
+          "address": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:50:47.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158e5",
+        "uniqueId": "0x8a6769fe9856f04e11f7b5784c137e5f5cde152422c1ea4bf616755e1b3e72f0:log:70",
+        "hash": "0x8a6769fe9856f04e11f7b5784c137e5f5cde152422c1ea4bf616755e1b3e72f0",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0xeb4626c5149894022c2066120ea7f20f217995fb",
+        "value": 89572.72532814,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "ACH",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x825870c274e",
+          "address": "0xed04915c23f00a313a544955524eb7dbd823143d",
+          "decimal": "0x8"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:50:59.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158e5",
+        "uniqueId": "0xe35802e6956be81c4287a33654e6404e9d9058bb75e5d6ef2791929ad237853d:log:74",
+        "hash": "0xe35802e6956be81c4287a33654e6404e9d9058bb75e5d6ef2791929ad237853d",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x68fa181c720c07b7ff7412220e2431ce90a65a14",
+        "value": 285301.5949916655,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "DODO",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x3c6a3aff1c491bfb477d",
+          "address": "0x43dfc4159d86f3a37a5a4b3d4580b888ad7d4ddd",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:50:59.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158e5",
+        "uniqueId": "0xf9440dcc6256aec6312913def71746bdc8f61e0fb5e3116ae8875495d0211001:log:80",
+        "hash": "0xf9440dcc6256aec6312913def71746bdc8f61e0fb5e3116ae8875495d0211001",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0xb003df4b243f938132e8cadbeb237abc5a889fb4",
+        "value": 26316.06440033095,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "EUL",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x59298c1f79dbd49a1e1",
+          "address": "0xd9fcd98c322942075a5c3860693e9f4f03aae07b",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:50:59.000Z"
+        }
+      },
+      {
+        "blockNum": "0x19158e7",
+        "uniqueId": "0x9959566a4f0e800417532dda5a540677cdd95c88177625ddfad0346b9b07aceb:log:115",
+        "hash": "0x9959566a4f0e800417532dda5a540677cdd95c88177625ddfad0346b9b07aceb",
+        "from": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "to": "0x0e2c4be9f3408e5b1ff631576d946eb8c224b5ed",
+        "value": 1908114.4639142624,
+        "erc721TokenId": null,
+        "erc1155Metadata": [],
+        "tokenId": null,
+        "asset": "GRT",
+        "category": "erc20",
+        "rawContract": {
+          "value": "0x1940f17a4aa50151b3606",
+          "address": "0xc944e90c64b2c07662a292be6244bdf05cda44a7",
+          "decimal": "0x12"
+        },
+        "metadata": {
+          "blockTimestamp": "2026-10-30T02:51:23.000Z"
+        }
+      }
+    ],
+    "pageKey": "a15947e6-7ffa-40b5-8049-254942988cf8"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "step": "STEP 72",
+  "target": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+  "scope": "Repeated destinations and ETH funding screen",
+  "top_destinations_examined": 15,
+  "incoming_eth_pagination_complete": true,
+  "verification": "INDEXER_AND_RPC_OBSERVATIONS",
+  "independent_provenance_proved": false,
+  "incident_attribution": "UNKNOWN",
+  "ownership": "UNKNOWN",
+  "eip7702_note": "Historical code checks are not proof of ownership or complete execution behavior."
+}

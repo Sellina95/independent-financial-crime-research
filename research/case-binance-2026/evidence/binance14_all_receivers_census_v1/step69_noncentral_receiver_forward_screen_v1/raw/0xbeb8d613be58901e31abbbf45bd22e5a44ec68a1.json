@@ -1,0 +1,116 @@
+{
+  "address": "0xbeb8d613be58901e31abbbf45bd22e5a44ec68a1",
+  "from_block": 26300766,
+  "to_block": 26309096,
+  "records": [
+    {
+      "blockNum": "0x19161ee",
+      "uniqueId": "0x4b54b9066bdcf52ce01e1e17698aa661e25e28c8147dd429fa48b40d0a861010:log:311",
+      "hash": "0x4b54b9066bdcf52ce01e1e17698aa661e25e28c8147dd429fa48b40d0a861010",
+      "from": "0xbeb8d613be58901e31abbbf45bd22e5a44ec68a1",
+      "to": "0xc80afd311c9626528de66d86814770361fe92416",
+      "value": 5878.33,
+      "erc721TokenId": null,
+      "erc1155Metadata": [],
+      "tokenId": null,
+      "asset": "UMA",
+      "category": "erc20",
+      "rawContract": {
+        "value": "0x13eaa376645d9f90000",
+        "address": "0x04fa0d235c4abf4bcf4787af4cf447de572ef828",
+        "decimal": "0x12"
+      },
+      "metadata": {
+        "blockTimestamp": "2026-10-30T10:34:47.000Z"
+      }
+    },
+    {
+      "blockNum": "0x191636a",
+      "uniqueId": "0x5be6872ab0a45fdf2b709763dd633203f51d7bbb26e022c9a2dcbd4cee4d771d:log:289",
+      "hash": "0x5be6872ab0a45fdf2b709763dd633203f51d7bbb26e022c9a2dcbd4cee4d771d",
+      "from": "0xbeb8d613be58901e31abbbf45bd22e5a44ec68a1",
+      "to": "0xc80afd311c9626528de66d86814770361fe92416",
+      "value": 247819.0,
+      "erc721TokenId": null,
+      "erc1155Metadata": [],
+      "tokenId": null,
+      "asset": "BLUR",
+      "category": "erc20",
+      "rawContract": {
+        "value": "0x347a4b7f2aaa514c0000",
+        "address": "0x5283d291dbcf85356a21ba090e6db59121208b44",
+        "decimal": "0x12"
+      },
+      "metadata": {
+        "blockTimestamp": "2026-10-30T11:50:47.000Z"
+      }
+    },
+    {
+      "blockNum": "0x191647b",
+      "uniqueId": "0x072234a8bd19839dbb207880847f0d724e7185d9dd82bd7b58a82797943cc710:log:570",
+      "hash": "0x072234a8bd19839dbb207880847f0d724e7185d9dd82bd7b58a82797943cc710",
+      "from": "0xbeb8d613be58901e31abbbf45bd22e5a44ec68a1",
+      "to": "0xc80afd311c9626528de66d86814770361fe92416",
+      "value": 182073.0,
+      "erc721TokenId": null,
+      "erc1155Metadata": [],
+      "tokenId": null,
+      "asset": "STORJ",
+      "category": "erc20",
+      "rawContract": {
+        "value": "0x108f37a61900",
+        "address": "0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac",
+        "decimal": "0x8"
+      },
+      "metadata": {
+        "blockTimestamp": "2026-10-30T12:45:59.000Z"
+      }
+    },
+    {
+      "blockNum": "0x19164b8",
+      "uniqueId": "0xc4137ec266425321fa8f125309b4b8ced8a3f8e487d070f4f045e3e4f21b998d:log:429",
+      "hash": "0xc4137ec266425321fa8f125309b4b8ced8a3f8e487d070f4f045e3e4f21b998d",
+      "from": "0xbeb8d613be58901e31abbbf45bd22e5a44ec68a1",
+      "to": "0xc80afd311c9626528de66d86814770361fe92416",
+      "value": 500000.0,
+      "erc721TokenId": null,
+      "erc1155Metadata": [],
+      "tokenId": null,
+      "asset": "XCN",
+      "category": "erc20",
+      "rawContract": {
+        "value": "0x69e10de76676d0800000",
+        "address": "0xa2cd3d43c775978a96bdbf12d733d5a1ed94fb18",
+        "decimal": "0x12"
+      },
+      "metadata": {
+        "blockTimestamp": "2026-10-30T12:58:11.000Z"
+      }
+    },
+    {
+      "blockNum": "0x1916d20",
+      "uniqueId": "0x1142710078b26b52d8da59f3be648aa068b88a26a6f6d8d888139903c9bb6f6c:log:670",
+      "hash": "0x1142710078b26b52d8da59f3be648aa068b88a26a6f6d8d888139903c9bb6f6c",
+      "from": "0xbeb8d613be58901e31abbbf45bd22e5a44ec68a1",
+      "to": "0xc80ad9e14c05b9c0a99b9d0f18016cc04ba72416",
+      "value": 1.82073e-05,
+      "erc721TokenId": null,
+      "erc1155Metadata": [],
+      "tokenId": null,
+      "asset": "ERC",
+      "category": "erc20",
+      "rawContract": {
+        "value": "0x108f37a61900",
+        "address": "0x785e679e111796a7f77227d477119c4d93e1eb2f",
+        "decimal": "0x12"
+      },
+      "metadata": {
+        "blockTimestamp": "2026-10-30T20:09:47.000Z"
+      }
+    }
+  ],
+  "pagination_complete": true,
+  "next_page_exists": false,
+  "source": "Alchemy Transfers API",
+  "verification": "INDEXER_SCREEN_ONLY"
+}

@@ -1,0 +1,8 @@
+{
+  "method": "eth_getBalance",
+  "params": [
+    "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "0x1915403"
+  ],
+  "result": "0x0"
+}

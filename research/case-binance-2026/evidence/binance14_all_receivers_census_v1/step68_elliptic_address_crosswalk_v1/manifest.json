@@ -1,0 +1,8 @@
+{
+  "status": "CROSSWALK_COMPLETE",
+  "files_sha256": {
+    "elliptic_blocklist_snapshot.csv": "98b8f8df11810d3531a7f5649e00709d48faa02264caa850bff2ab277346c660",
+    "DIRECT_RECEIVER_ELLIPTIC_CROSSWALK_V1.csv": "64b80d7396f205d9e131c82650d200c8c523ddd01d4dc28242721d01d1be736c",
+    "audit.json": "8a34d0858853249281a360a95f913a62aa047931e15e3c09725c137ca93ac33a"
+  }
+}

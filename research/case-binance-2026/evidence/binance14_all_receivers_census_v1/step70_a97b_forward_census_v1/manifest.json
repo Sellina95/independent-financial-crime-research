@@ -1,0 +1,22 @@
+{
+  "status": "BOUNDED_FORWARD_CENSUS_COMPLETE",
+  "input_step65_manifest_sha256": "8b1bfc6eadbb260a0f57f69df4c117c88276402140452c22ea0ad376765efb3d",
+  "input_step69_manifest_sha256": "73d8bff9bccd471a931141e9d246da6a53c07cf3446d9b69d285d5130d0abf3b",
+  "files_sha256": {
+    "A97B_FORWARD_TRANSFER_LEDGER_V1.csv": "0939350402418eb636c3105a9cf9891061af85e4e57947fc97793006dfa5ac45",
+    "A97B_ASSET_SUMMARY_V1.csv": "9c9f923f73a223cff1a4874b1ef884bc181b5a8dca53eec6e4906a171685ecf4",
+    "audit.json": "98f6f5c938b57c44164efab2d57e4307e2d98025171ee1ebdcd1baaa1f32f44d",
+    "pages/page_0001.json": "9c340db6c7c67e8b20f5f72fc91fc67745ec6d946025a90bee529f32b5894575",
+    "pages/page_0002.json": "ca947932cb80d6b04ff2cb9718205a1e05642eeccf9782992c6a4e3ddb3be8ff",
+    "pages/page_0003.json": "3c8b697fa88a9db4e4201e7f897672dd0fa9f003a2052156b0d6205db8a7d772",
+    "pages/page_0004.json": "2d686d25786b2c1d8b67ff1e87af011aa796af7c943642ddb60659c74cb6299c",
+    "pages/page_0005.json": "12adc41c58bde4febdbe21421c53b8f041d74f082e26d117abedc13b4d376872",
+    "pages/page_0006.json": "61979f9cbb21b524e4da7c4ac49aaf00112281f674c6088a159a266a50f7459e",
+    "pages/page_0007.json": "e43d956d73c527e90f280bbd8c255099895e4cd705c1734982023ba57edab509",
+    "pages/page_0008.json": "0eaa8e9346958738634d3502f16f77666876ed55aa60bc46eb8880e39976c4d6",
+    "pages/page_0009.json": "c11a21e7e6d2029f1fce817aa9683ca77fc75732e28df88f66f56b8219f35fe4",
+    "pages/page_0010.json": "c9b63f4ba96a246e7c0cdc4b4169912e8e0d3019fc707ce5abb3f07bd5052927",
+    "pages/page_0011.json": "27b8ddb3dca240572ad916dd8d66c8f94e3e0897390bd27289099ed38da9b7b9",
+    "pages/page_0012.json": "d12c67a8b94855b34ac9efe08c245238953e48749f5c2c7ef4621403ccd45cb7"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "scope": "22 direct recipients excluding Central",
+  "source": "Alchemy Transfers API",
+  "from_block": "per-address first observed receipt block",
+  "to_block": 26309096,
+  "pagination_limit_pages_per_address": 3,
+  "page_size": 100,
+  "coverage_complete": false,
+  "classification_counts": {
+    "FORWARD_CANDIDATE": 14,
+    "NO_OUTGOING_IN_WINDOW": 6,
+    "OUTGOING_BUT_NO_LATER_SAME_ASSET_MATCH": 2
+  },
+  "limitations": [
+    "Bounded post-receipt block window only",
+    "No attribution of ownership or stolen funds",
+    "Outgoing transfer does not prove provenance",
+    "Same-asset later-block transfer is a candidate only",
+    "Same-block ordering not independently established",
+    "High-activity addresses may be truncated",
+    "ERC20 events can involve contract addresses",
+    "No conservation or balance replay performed"
+  ]
+}

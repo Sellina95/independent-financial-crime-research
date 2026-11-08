@@ -1,0 +1,32 @@
+{
+  "address": "0xeb814ee8d833aa42c6dd30e233aa3bfed4b2a01d",
+  "from_block": 26300762,
+  "to_block": 26309096,
+  "records": [
+    {
+      "blockNum": "0x191609d",
+      "uniqueId": "0x72c8a3570abcb5fc3d3f93fcb6d80a6963516925e3456faebdc406e1ddb21552:log:571",
+      "hash": "0x72c8a3570abcb5fc3d3f93fcb6d80a6963516925e3456faebdc406e1ddb21552",
+      "from": "0xeb814ee8d833aa42c6dd30e233aa3bfed4b2a01d",
+      "to": "0x6872b6630a3afcd3117191a8403c2002e13df7de",
+      "value": 177.8,
+      "erc721TokenId": null,
+      "erc1155Metadata": [],
+      "tokenId": null,
+      "asset": "USDT",
+      "category": "erc20",
+      "rawContract": {
+        "value": "0xa990340",
+        "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "decimal": "0x6"
+      },
+      "metadata": {
+        "blockTimestamp": "2026-10-30T09:27:23.000Z"
+      }
+    }
+  ],
+  "pagination_complete": true,
+  "next_page_exists": false,
+  "source": "Alchemy Transfers API",
+  "verification": "INDEXER_SCREEN_ONLY"
+}

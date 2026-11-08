@@ -1,0 +1,10 @@
+{
+  "address": "0x57fd09d184cd68b3ec64cf7e5e0b3063d49b5eca",
+  "from_block": 26300807,
+  "to_block": 26309096,
+  "records": [],
+  "pagination_complete": true,
+  "next_page_exists": false,
+  "source": "Alchemy Transfers API",
+  "verification": "INDEXER_SCREEN_ONLY"
+}

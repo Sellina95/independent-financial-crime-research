@@ -1,0 +1,74 @@
+{
+  "address": "0xc59850229ce488de27fa54580f28c8067bc4a776",
+  "from_block": 26300854,
+  "to_block": 26309096,
+  "records": [
+    {
+      "blockNum": "0x191530c",
+      "uniqueId": "0xa82e3954fcf275d1dbf100c10dd387d64b4b034f193aa9a8fb6fa2a93dae2dde:external",
+      "hash": "0xa82e3954fcf275d1dbf100c10dd387d64b4b034f193aa9a8fb6fa2a93dae2dde",
+      "from": "0xc59850229ce488de27fa54580f28c8067bc4a776",
+      "to": "0xcf536129a9c8fd2caeeed99ce3e76d4c05e98be0",
+      "value": 0.308260964135606,
+      "erc721TokenId": null,
+      "erc1155Metadata": null,
+      "tokenId": null,
+      "asset": "ETH",
+      "category": "external",
+      "rawContract": {
+        "value": "0x44729b6b16c1706",
+        "address": null,
+        "decimal": "0x12"
+      },
+      "metadata": {
+        "blockTimestamp": "2026-10-29T21:49:59.000Z"
+      }
+    },
+    {
+      "blockNum": "0x191559c",
+      "uniqueId": "0xdca95bf6764ecbe4fd71783d29cf5e939e4050e324437d5a036dc9fd2e0f0491:external",
+      "hash": "0xdca95bf6764ecbe4fd71783d29cf5e939e4050e324437d5a036dc9fd2e0f0491",
+      "from": "0xc59850229ce488de27fa54580f28c8067bc4a776",
+      "to": "0xcf536129a9c8fd2caeeed99ce3e76d4c05e98be0",
+      "value": 0.26674291604986017,
+      "erc721TokenId": null,
+      "erc1155Metadata": null,
+      "tokenId": null,
+      "asset": "ETH",
+      "category": "external",
+      "rawContract": {
+        "value": "0x3b3a944d580f648",
+        "address": null,
+        "decimal": "0x12"
+      },
+      "metadata": {
+        "blockTimestamp": "2026-10-30T00:01:35.000Z"
+      }
+    },
+    {
+      "blockNum": "0x19155c1",
+      "uniqueId": "0xed6c1635b6dcac394a9126747800d87c94c2fe8d93745990c93ca3b60354682a:external",
+      "hash": "0xed6c1635b6dcac394a9126747800d87c94c2fe8d93745990c93ca3b60354682a",
+      "from": "0xc59850229ce488de27fa54580f28c8067bc4a776",
+      "to": "0x367f15576fdd253407a6f9d55933004f553d9db7",
+      "value": 0.8869201958657851,
+      "erc721TokenId": null,
+      "erc1155Metadata": null,
+      "tokenId": null,
+      "asset": "ETH",
+      "category": "external",
+      "rawContract": {
+        "value": "0xc4ef93812b332e5",
+        "address": null,
+        "decimal": "0x12"
+      },
+      "metadata": {
+        "blockTimestamp": "2026-10-30T00:09:11.000Z"
+      }
+    }
+  ],
+  "pagination_complete": true,
+  "next_page_exists": false,
+  "source": "Alchemy Transfers API",
+  "verification": "INDEXER_SCREEN_ONLY"
+}

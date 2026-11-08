@@ -1,0 +1,18 @@
+{
+  "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv",
+  "retrieved_utc": "2026-11-08T09:27:43.221691+00:00",
+  "verification_type": "PUBLIC_BLOCKLIST_MEMBERSHIP",
+  "direct_receivers": 23,
+  "matched": 2,
+  "not_listed": 21,
+  "central_listed": true,
+  "snapshot_sha256": "98b8f8df11810d3531a7f5649e00709d48faa02264caa850bff2ab277346c660",
+  "input_register_sha256": "46f556ea05e500a08df13711b643511ccf781da6685d125ec350ebe168008b79",
+  "limitations": [
+    "Public list changes over time",
+    "Not listed does not mean unrelated",
+    "Listed does not independently prove ownership",
+    "This is not a financial flow trace",
+    "EVM address matching does not establish chain identity"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "scope": "A97B ETH accounting and top-15 execution samples",
+  "sampled_transactions": 30,
+  "sampled_destinations": 15,
+  "source_step70_manifest_sha256": "482e14109da256e426742974065c4840f1730dd71ea1bd712ba24c8092f8fe8e",
+  "source_step72_manifest_sha256": "b59d0942ae5f344663ac90624de397ee12b08cadedfe4418c486b6ff150ef5f5",
+  "independent_execution_replay": false,
+  "complete_gas_reconciliation": false,
+  "fund_provenance": "UNKNOWN",
+  "incident_attribution": "UNKNOWN",
+  "ownership": "UNKNOWN",
+  "conservation_screen": "RESIDUAL_REQUIRES_RECONCILIATION",
+  "limitations": [
+    "Selectors alone do not identify a contract function",
+    "Outer caller does not describe all internal execution",
+    "Sampling two transactions per destination is not a complete census",
+    "Historical code existence is not contract ownership attribution",
+    "ETH accounting residual remains unresolved unless independently reconciled"
+  ]
+}

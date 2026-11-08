@@ -1,0 +1,212 @@
+[
+  {
+    "address": "0x41fce5f6cb8d68d2fd8ff333cfff584f8d17fa68",
+    "events": 112,
+    "unique_transactions": 112,
+    "asset_contracts": {
+      "0x56a3ba04e95d34268a19b2a4474dc979babdaf76": 112
+    },
+    "first_block": 26302948,
+    "last_block": 26303723,
+    "median_interevent_seconds": 60,
+    "zero_second_intervals": 0,
+    "historical_code_status": "CODE_PRESENT_AT_BLOCK",
+    "pattern_attribution": "UNKNOWN"
+  },
+  {
+    "address": "0x99b42f2b49c395d2a77d973f6009abb5d67da343",
+    "events": 107,
+    "unique_transactions": 107,
+    "asset_contracts": {
+      "0x25f8087ead173b73d6e8b84329989a8eea16cf73": 107
+    },
+    "first_block": 26302941,
+    "last_block": 26303645,
+    "median_interevent_seconds": 60.0,
+    "zero_second_intervals": 0,
+    "historical_code_status": "CODE_PRESENT_AT_BLOCK",
+    "pattern_attribution": "UNKNOWN"
+  },
+  {
+    "address": "0x4a86c01d67965f8cb3d0aaa2c655705e64097c31",
+    "events": 76,
+    "unique_transactions": 76,
+    "asset_contracts": {
+      "0x0f2d719407fdbeff09d87557abb7232601fd9f29": 76
+    },
+    "first_block": 26302330,
+    "last_block": 26303419,
+    "median_interevent_seconds": 60,
+    "zero_second_intervals": 0,
+    "historical_code_status": "CODE_PRESENT_AT_BLOCK",
+    "pattern_attribution": "UNKNOWN"
+  },
+  {
+    "address": "0x123fca7e8272a8e9c3bb7113c259abc4901e792b",
+    "events": 67,
+    "unique_transactions": 67,
+    "asset_contracts": {
+      "0x41e5560054824ea6b0732e656e3ad64e20e94e45": 67
+    },
+    "first_block": 26302421,
+    "last_block": 26302965,
+    "median_interevent_seconds": 72.0,
+    "zero_second_intervals": 0,
+    "historical_code_status": "CODE_PRESENT_AT_BLOCK",
+    "pattern_attribution": "UNKNOWN"
+  },
+  {
+    "address": "0x2e81ec0b8b4022fac83a21b2f2b4b8f5ed744d70",
+    "events": 64,
+    "unique_transactions": 64,
+    "asset_contracts": {
+      "0xc944e90c64b2c07662a292be6244bdf05cda44a7": 64
+    },
+    "first_block": 26302277,
+    "last_block": 26303416,
+    "median_interevent_seconds": 60,
+    "zero_second_intervals": 0,
+    "historical_code_status": "CODE_PRESENT_AT_BLOCK",
+    "pattern_attribution": "UNKNOWN"
+  },
+  {
+    "address": "0x517f451b0a9e1b87dc0ae98a05ee033c3310f046",
+    "events": 45,
+    "unique_transactions": 44,
+    "asset_contracts": {
+      "0x152649ea73beab28c5b49b26eb48f7ead6d4c898": 45
+    },
+    "first_block": 26302323,
+    "last_block": 26302602,
+    "median_interevent_seconds": 60.0,
+    "zero_second_intervals": 0,
+    "historical_code_status": "CODE_PRESENT_AT_BLOCK",
+    "pattern_attribution": "UNKNOWN"
+  },
+  {
+    "address": "0x4d1eff861316396dd1915f69b49f4c2d7b11590d",
+    "events": 37,
+    "unique_transactions": 37,
+    "asset_contracts": {
+      "0x7420b4b9a0110cdc71fb720908340c03f9bc03ec": 37
+    },
+    "first_block": 26302560,
+    "last_block": 26303705,
+    "median_interevent_seconds": 84.0,
+    "zero_second_intervals": 0,
+    "historical_code_status": "CODE_PRESENT_AT_BLOCK",
+    "pattern_attribution": "UNKNOWN"
+  },
+  {
+    "address": "0xe56c60b5f9f7b5fc70de0eb79c6ee7d00efa2625",
+    "events": 37,
+    "unique_transactions": 37,
+    "asset_contracts": {
+      "0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c": 37
+    },
+    "first_block": 26303105,
+    "last_block": 26303512,
+    "median_interevent_seconds": 60.0,
+    "zero_second_intervals": 0,
+    "historical_code_status": "CODE_PRESENT_AT_BLOCK",
+    "pattern_attribution": "UNKNOWN"
+  },
+  {
+    "address": "0x8661ae7918c0115af9e3691662f605e9c550ddc9",
+    "events": 31,
+    "unique_transactions": 30,
+    "asset_contracts": {
+      "0x0f5d2fb29fb7d3cfee444a200298f468908cc942": 31
+    },
+    "first_block": 26302495,
+    "last_block": 26302738,
+    "median_interevent_seconds": 78.0,
+    "zero_second_intervals": 0,
+    "historical_code_status": "CODE_PRESENT_AT_BLOCK",
+    "pattern_attribution": "UNKNOWN"
+  },
+  {
+    "address": "0x307c4d0a83931c3eebe501f8f0c0b4c249bcf206",
+    "events": 31,
+    "unique_transactions": 31,
+    "asset_contracts": {
+      "0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a0": 31
+    },
+    "first_block": 26302545,
+    "last_block": 26303680,
+    "median_interevent_seconds": 120.0,
+    "zero_second_intervals": 0,
+    "historical_code_status": "CODE_PRESENT_AT_BLOCK",
+    "pattern_attribution": "UNKNOWN"
+  },
+  {
+    "address": "0x0f8086d08a69ebd8e3a130a87a3b6a260723976f",
+    "events": 30,
+    "unique_transactions": 30,
+    "asset_contracts": {
+      "0xa9b1eb5908cfc3cdf91f9b8b3a74108598009096": 30
+    },
+    "first_block": 26302999,
+    "last_block": 26303132,
+    "median_interevent_seconds": 60,
+    "zero_second_intervals": 0,
+    "historical_code_status": "CODE_PRESENT_AT_BLOCK",
+    "pattern_attribution": "UNKNOWN"
+  },
+  {
+    "address": "0x88ada7b1dd1c728ea87404cea7a0780139eb35d1",
+    "events": 27,
+    "unique_transactions": 27,
+    "asset_contracts": {
+      "0x455e53cbb86018ac2b8092fdcd39d8444affc3f6": 27
+    },
+    "first_block": 26302252,
+    "last_block": 26302408,
+    "median_interevent_seconds": 60.0,
+    "zero_second_intervals": 0,
+    "historical_code_status": "CODE_PRESENT_AT_BLOCK",
+    "pattern_attribution": "UNKNOWN"
+  },
+  {
+    "address": "0xeb4626c5149894022c2066120ea7f20f217995fb",
+    "events": 22,
+    "unique_transactions": 22,
+    "asset_contracts": {
+      "0xed04915c23f00a313a544955524eb7dbd823143d": 22
+    },
+    "first_block": 26302671,
+    "last_block": 26303536,
+    "median_interevent_seconds": 84,
+    "zero_second_intervals": 0,
+    "historical_code_status": "CODE_PRESENT_AT_BLOCK",
+    "pattern_attribution": "UNKNOWN"
+  },
+  {
+    "address": "0xac4fd96fcf729390a3c8044422a529028ec36751",
+    "events": 21,
+    "unique_transactions": 21,
+    "asset_contracts": {
+      "0xca14007eff0db1f8135f4c25b34de49ab0d42766": 21
+    },
+    "first_block": 26302314,
+    "last_block": 26302439,
+    "median_interevent_seconds": 60.0,
+    "zero_second_intervals": 0,
+    "historical_code_status": "CODE_PRESENT_AT_BLOCK",
+    "pattern_attribution": "UNKNOWN"
+  },
+  {
+    "address": "0x520e9f24e0f7e7d9c8ff37a137885c3d55a98e37",
+    "events": 21,
+    "unique_transactions": 21,
+    "asset_contracts": {
+      "0xcdf7028ceab81fa0c6971208e83fa7872994bee5": 21
+    },
+    "first_block": 26302988,
+    "last_block": 26303088,
+    "median_interevent_seconds": 60.0,
+    "zero_second_intervals": 0,
+    "historical_code_status": "CODE_PRESENT_AT_BLOCK",
+    "pattern_attribution": "UNKNOWN"
+  }
+]
