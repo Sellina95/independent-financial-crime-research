@@ -1,0 +1,58 @@
+{
+  "case": "EG05 KITE paused-state audit",
+  "network": "Ethereum mainnet",
+  "provider": "Alchemy",
+  "captured_utc": "2026-11-08T05:30:56.713824+00:00",
+  "token": "0x904567252d8f48555b7447c67dca23f0372e16be",
+  "t03_block": 26300770,
+  "t03_transaction_index": 189,
+  "requests": [
+    {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x904567252d8f48555b7447c67dca23f0372e16be",
+          "data": "0x5c975abb"
+        },
+        "0x1915161"
+      ]
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 2,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "address": "0x904567252d8f48555b7447c67dca23f0372e16be",
+          "fromBlock": "0x1915162",
+          "toBlock": "0x1915162",
+          "topics": [
+            [
+              "0x62e78cea01bee320cd4e420270b5ea74000d11b0c9f74754ebdbfc544b05a258",
+              "0x5db9ee0a495bf2e6ff9c91a7834c1ba4fdd244a5e8aa4e537bd38aeae4b073aa"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "observed": {
+    "paused_previous_block_end": true,
+    "matching_pause_events_in_t03_block": 0,
+    "matching_events_before_t03": 0,
+    "existing_t03_receipt_status": "0x1"
+  },
+  "sha256": {
+    "paused_response.json": "db4796fef52c36f78989daa650510ae045136f8ce6ff5ea321cd80081e7ed2af",
+    "events_response.json": "925600f4bd6f91ca25b4b78328bfdb7a47a420e7cba791c09e856089d71dcb48"
+  },
+  "limitations": [
+    "Previous block-end is not transaction-isolated prestate.",
+    "Event filter checks only standard pause/unpause topics.",
+    "No opcode-level execution replay of the KITE revert.",
+    "EnforcedPause linkage remains strongly corroborated.",
+    "Attacker intent and institutional novelty are unknown."
+  ]
+}
