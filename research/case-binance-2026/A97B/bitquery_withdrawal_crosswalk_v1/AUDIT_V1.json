@@ -1,0 +1,29 @@
+{
+  "status": "TIME_WINDOW_CROSSWALK_NOT_EXACT_SOURCE_TX_CONFIRMATION",
+  "a97b_direct_eth_outflow_transactions": 4,
+  "a97b_direct_eth_outflow_gross": "10647.2",
+  "dex_eth_return_transactions": 1015,
+  "dex_eth_return_gross": "6829.199984950999210044",
+  "bitquery_claim": {
+    "source": "https://www.bitquery.io/investigations/binance-hack",
+    "description": "A97B sent its ETH to a stash at 06:36 UTC on 30 Oct",
+    "timestamp_precision": "MINUTE",
+    "matching_direct_tx_hashes": [
+      "0x16a76cdb8e480358041d9607407599828c42f7fbe20ecb59fb3216fdce91d7de"
+    ],
+    "exact_tx_disclosed_by_bitquery": "NOT_VERIFIED"
+  },
+  "source_sha256": {
+    "evidence/binance14_all_receivers_census_v1/step70_a97b_forward_census_v1/A97B_FORWARD_TRANSFER_LEDGER_V1.csv": "0939350402418eb636c3105a9cf9891061af85e4e57947fc97793006dfa5ac45",
+    "A97B/integrated_event_audit_v1/A97B_INTEGRATED_EVENT_LEDGER_V1.csv": "eaf5350c5cdb37ba18708fec7c55f46d0f769b916187e16b57cc9a7660c9d2fc",
+    "A97B/eth_address_receipts_v1/A97B_ADDRESS_ETH_RETURN_V1.csv": "4f2c27670a1e155506f70f3f850151340293a890c626b5f4baaeb38845fe4eef"
+  },
+  "limitations": [
+    "Matching time does not prove Bitquery references the same TX",
+    "Gross DEX ETH returns are not incident-attributed proceeds",
+    "Outflows include funds with potentially mixed provenance",
+    "No balance conservation or initial inventory reconciliation",
+    "No proof of common ownership or final beneficiary",
+    "External institutional knowledge cannot be inferred"
+  ]
+}

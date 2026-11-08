@@ -1,0 +1,21 @@
+{
+  "snapshot_utc": "2026-11-08T15:10:17.538747+00:00",
+  "target_address": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+  "target_tx_count": 1015,
+  "exact_return_amount_eth": "6829.199984950999210044",
+  "sources_tested": 8,
+  "sources_fetched": 8,
+  "exact_tx_hash_matches": 0,
+  "source_sha256": "4f2c27670a1e155506f70f3f850151340293a890c626b5f4baaeb38845fe4eef",
+  "status": "PUBLIC_HTML_OVERLAP_SCREENING_ONLY",
+  "limitations": [
+    "No match means not found in fetched HTML, not undisclosed",
+    "Images, charts, PDFs, downloadable datasets and private intelligence excluded",
+    "JS-rendered content may be missing",
+    "A shortened address may be missed or ambiguous",
+    "Exact amount matches are textual, not semantic verification",
+    "Publication dates must be independently checked",
+    "Source list is not exhaustive",
+    "No claim about what institutions know internally"
+  ]
+}
