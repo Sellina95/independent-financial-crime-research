@@ -786,3 +786,79 @@ reverting the full transaction.
   or institutional oversight without a like-for-like comparison.
 - Next technical test, if justified: bounded instruction-level
   replay of the relevant failed-call and handler frames only.
+
+
+## 21. EG-05 KITE Pause Origin — Safe Execution and Historical State
+
+**Status: SCOPED RAW-RPC AND ABI CROSSCHECK PASS**
+
+### A. Historical state transition
+
+- Failed T03 token: `0x904567252d8f48555b7447c67dca23f0372e16be`.
+- Block 25691173: `paused()` = FALSE.
+- Block 25691174: `paused()` = TRUE.
+- Transition transaction UTC: `2026-08-05T20:39:35+00:00`.
+- This identifies one observed FALSE-to-TRUE block transition,
+  not necessarily the first pause in contract history.
+
+### B. Pause transaction and execution path
+
+- Transaction: `0xd907729a47b3860f35292f99d52c113e6921a87566dfb3b64ec6944bedb47292`.
+- Transaction status: SUCCESS.
+- Transaction sender: `0x938e486a0d4b2d46d0806f92717069558df203cf`.
+- Transaction target: `0x725e318e181d7e1bb26c0d77ddc58ff6ba463fd8`.
+- Outer selector: `0x6a761202` (`execTransaction`-compatible).
+- ABI-decoded inner destination: `0x904567252d8f48555b7447c67dca23f0372e16be`.
+- Inner operation: `0` (CALL).
+- Inner value: 0 wei.
+- Inner calldata: `0x8456cb59` (`pause()` selector).
+- Token `Paused` event: transaction log index 346.
+- Event emitter: `0x904567252d8f48555b7447c67dca23f0372e16be`.
+- Event data encodes `0x725e318e181d7e1bb26c0d77ddc58ff6ba463fd8`.
+- Safe signature threshold, owners, and approval
+  details were not audited.
+
+### C. Connection to T03
+
+- Earlier archived EG05 audit: `paused()` = TRUE at
+  block 26300769, immediately preceding T03 block 26300770.
+- Earlier T03 call trace: 27th token-transfer call reverted,
+  with output `0xd93c0665`.
+- Earlier T03 receipt: matching failure event, code 2,
+  and successful parent transaction.
+- This strongly corroborates paused-token enforcement
+  as the reason for the failed KITE transfer.
+- The exact token-level EVM revert path remains unreplayed.
+- The observed static batch handler explains why a
+  failed child call did not revert the parent transaction.
+
+### D. New raw evidence and integrity
+
+- Evidence folder: `research/case-binance-2026/evidence/eg05_kite_pause_origin_v1`.
+- Five archived Alchemy JSON-RPC responses:
+  adjacent block states, transaction, receipt, block header.
+- Query parameters and response SHA256 are preserved
+  in `manifest.json`.
+- Existing incident-time archive:
+  `evidence/eg05_kite_historical_pause_v1`.
+- `state_before.json` SHA256 `d6270a96c74e698681cb7c0012a25d17a018228bca3a631fd19a384e561ca22a`.
+- `state_after.json` SHA256 `d47f4f6f059dc327f692f72012c6c426cffbab5befdd809565bff0ede4025b2c`.
+- `pause_tx.json` SHA256 `7ffb2c31d1992eef867b7e68fcca4644205540baafe01ea773472ac6fe351255`.
+- `pause_receipt.json` SHA256 `fa2f3ec8372b1bd135a4ec1482a433e43752472f452de49d9fd74f4eaf2d1aca`.
+- `pause_block.json` SHA256 `6981e72f18966fee4c2a894c64fbbe3d26c57e9c8b0a55eb989d8d1bf3e543c7`.
+
+
+### E. Institutional and causal boundaries
+
+- OBSERVED: Safe-compatible call targeted the KITE
+  pause selector, with a token Paused event and state transition.
+- STRONGLY CORROBORATED: pre-existing KITE pause explains
+  the selected T03 child-call failure.
+- UNKNOWN: reason for initiating the administrative pause,
+  including any direct token-migration decision.
+- UNKNOWN: identity or subjective intent of relevant actors.
+- UNKNOWN: whether external investigative teams already
+  privately identified this pause-origin sequence.
+- Do not characterize token-level protection as
+  a wallet-wide or Ethereum-wide transaction freeze.
+- No separate publication or modification of `main`.

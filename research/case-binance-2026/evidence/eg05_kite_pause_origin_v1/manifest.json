@@ -1,0 +1,89 @@
+{
+  "case": "EG05 KITE pause-origin audit",
+  "network": "Ethereum Mainnet",
+  "provider": "Alchemy",
+  "captured_utc": "2026-11-08T05:58:38.613005+00:00",
+  "token": "0x904567252d8f48555b7447c67dca23f0372e16be",
+  "safe_candidate": "0x725e318e181d7e1bb26c0d77ddc58ff6ba463fd8",
+  "transaction": "0xd907729a47b3860f35292f99d52c113e6921a87566dfb3b64ec6944bedb47292",
+  "transition_blocks": [
+    25691173,
+    25691174
+  ],
+  "pause_event_log_index": 346,
+  "requests": {
+    "state_before": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x904567252d8f48555b7447c67dca23f0372e16be",
+          "data": "0x5c975abb"
+        },
+        "0x1880425"
+      ]
+    },
+    "state_after": {
+      "jsonrpc": "2.0",
+      "id": 2,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x904567252d8f48555b7447c67dca23f0372e16be",
+          "data": "0x5c975abb"
+        },
+        "0x1880426"
+      ]
+    },
+    "pause_tx": {
+      "jsonrpc": "2.0",
+      "id": 3,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0xd907729a47b3860f35292f99d52c113e6921a87566dfb3b64ec6944bedb47292"
+      ]
+    },
+    "pause_receipt": {
+      "jsonrpc": "2.0",
+      "id": 4,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0xd907729a47b3860f35292f99d52c113e6921a87566dfb3b64ec6944bedb47292"
+      ]
+    },
+    "pause_block": {
+      "jsonrpc": "2.0",
+      "id": 5,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x1880426",
+        false
+      ]
+    }
+  },
+  "response_sha256": {
+    "state_before.json": "d6270a96c74e698681cb7c0012a25d17a018228bca3a631fd19a384e561ca22a",
+    "state_after.json": "d47f4f6f059dc327f692f72012c6c426cffbab5befdd809565bff0ede4025b2c",
+    "pause_tx.json": "7ffb2c31d1992eef867b7e68fcca4644205540baafe01ea773472ac6fe351255",
+    "pause_receipt.json": "fa2f3ec8372b1bd135a4ec1482a433e43752472f452de49d9fd74f4eaf2d1aca",
+    "pause_block.json": "6981e72f18966fee4c2a894c64fbbe3d26c57e9c8b0a55eb989d8d1bf3e543c7"
+  },
+  "observed": {
+    "previous_block_paused": false,
+    "transition_block_paused": true,
+    "safe_exec_transaction_selector": "0x6a761202",
+    "inner_destination": "0x904567252d8f48555b7447c67dca23f0372e16be",
+    "inner_operation": 0,
+    "inner_selector": "0x8456cb59",
+    "paused_event_present": true
+  },
+  "limitations": [
+    "Shows one FALSE-to-TRUE transition, not necessarily the first ever.",
+    "ABI decoding and receipt do not independently audit Safe signatures or owners.",
+    "Administrative motive and token-migration causal link remain UNKNOWN.",
+    "No proof that the token stayed continuously paused without a complete intervening-state audit.",
+    "Historical T03 paused state is preserved in the prior EG05 audit.",
+    "No institution-first or attacker-attribution claim."
+  ]
+}
