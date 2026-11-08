@@ -418,3 +418,44 @@ external attribution, inference and unknowns.
 
 **Research status: EVIDENCE-BOUNDED CHECKPOINT**
 **Publication status: NOT APPROVED**
+
+---
+
+## External Incident Attribution Update — 2026-11-08
+
+This update supersedes the earlier blanket UNKNOWN
+classification for the Binance 14 → A97B incident link.
+Earlier text is retained as an audit trail.
+
+### Updated findings
+
+- Binance 14 compromise: OFFICIALLY REPORTED.
+- Binance 14 → A97B ETH inflows:
+  STRONGLY CORROBORATED INCIDENT ASSOCIATION.
+- Two observed inflows:
+  128.491139212075057017 ETH and
+  2961.910820938285094748 ETH.
+- Combined observed inflow:
+  **3090.401960150360151765 ETH**.
+- A97B Elliptic incident-list inclusion:
+  CONFIRMED IN PRESERVED SNAPSHOT.
+- The 7647 ETH recipient:
+  FBI AND ELLIPTIC ADDRESS-LIST MATCH.
+- All 10647.2 ETH outflows as stolen funds:
+  NOT ESTABLISHED.
+- A97B-specific freeze:
+  NOT VERIFIED.
+- Post-freeze movement:
+  UNKNOWN.
+
+### New evidence register
+
+`research/case-binance-2026/A97B/evidence/EXTERNAL_ATTRIBUTION_V1.md`
+
+The incident link is supported by official
+reporting and independent external corroboration.
+
+Exact source-fund allocation through mixed
+ETH balances remains unresolved.
+
+Publication: NOT APPROVED.
