@@ -1,0 +1,13 @@
+{
+  "status": "SECOND_INDEXER_CROSSCHECK_PASS",
+  "files_sha256": {
+    "crosscheck_results.json": "df8ae3d6443dcea544d4f706e86017b3abc890c41bdacc19cb6a19f24ad71fe5",
+    "audit.json": "84afe43c3328f256b3e83241dec673ac64003d55a8390af609d878123ff86911",
+    "transactions/0x31c4c9fe287d54fb9d3b79980477a8c793a11f774b98d0a9a92de1dad888a91d.json": "e50ac22748a1efb2f22cbbcdb8adace92bdaa88d5b6b35d1d0b4349d7b38f140",
+    "transactions/0x4395d51dc3f3c51230329efc3548f74edbced353ff3f795c517cc57fa650f89b.json": "b4736b975acf8dea32b09b69dee50e3256fcf85c8183894521ef3cfbd6241ec7",
+    "transactions/0x4a4aed833556814c16fe176fc8abc70ce124eadc73da3bcdf42a67ef44f9ad6b.json": "0482e991db11a7ddbaf9f516f63a5eac056b1b52278f1809217e7174ef85ee9a",
+    "transactions/0x53bd38b816c23e74134786c29a8c18d792777998a3b9326047b583100e88e2f3.json": "4447ca5b1fce5993e2353e9275c310eea0c5af22289daac1ac6735cc93bc37bb",
+    "transactions/0x55ba4dabc41b468e580751373ad31acdee6f5ba398682df2c93e5a8340870556.json": "6d92242bb208c9846fdfbe7c712b5746e8ba57f669e851dfcf29fe3002c33aba"
+  },
+  "input_ledger_sha256": "d0ce069d9760791cbb1af103b3b3193fe3a8479dcf3fa72fe7e49a6ca393f97a"
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "tx_hash": "0x53bd38b816c23e74134786c29a8c18d792777998a3b9326047b583100e88e2f3",
+    "block": "26300770",
+    "utc": "2026-10-29T20:24:23.000Z",
+    "from": "0x28c6c06298d514db089934071355e5743bf21d60",
+    "to": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+    "indexer_eth": "167464.24785655882",
+    "blockscout_wei": "167464247856558836135296",
+    "matched_calls": [
+      {
+        "value_wei": "167464247856558836135296",
+        "type": "call",
+        "index": 1
+      }
+    ],
+    "difference_wei": "16135296.0000",
+    "status": "SECOND_INDEXER_MATCH",
+    "ownership": "UNKNOWN",
+    "incident_attribution": "UNKNOWN"
+  },
+  {
+    "tx_hash": "0x31c4c9fe287d54fb9d3b79980477a8c793a11f774b98d0a9a92de1dad888a91d",
+    "block": "26300968",
+    "utc": "2026-10-29T21:04:23.000Z",
+    "from": "0x28c6c06298d514db089934071355e5743bf21d60",
+    "to": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+    "indexer_eth": "1699.9228879153704",
+    "blockscout_wei": "1699922887915370408256",
+    "matched_calls": [
+      {
+        "value_wei": "1699922887915370408256",
+        "type": "call",
+        "index": 1
+      }
+    ],
+    "difference_wei": "8256.000000",
+    "status": "SECOND_INDEXER_MATCH",
+    "ownership": "UNKNOWN",
+    "incident_attribution": "UNKNOWN"
+  },
+  {
+    "tx_hash": "0x55ba4dabc41b468e580751373ad31acdee6f5ba398682df2c93e5a8340870556",
+    "block": "26301167",
+    "utc": "2026-10-29T21:44:11.000Z",
+    "from": "0x28c6c06298d514db089934071355e5743bf21d60",
+    "to": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+    "indexer_eth": "369.8318569955806",
+    "blockscout_wei": "369831856995580626695",
+    "matched_calls": [
+      {
+        "value_wei": "369831856995580626695",
+        "type": "call",
+        "index": 1
+      }
+    ],
+    "difference_wei": "26695.0000000",
+    "status": "SECOND_INDEXER_MATCH",
+    "ownership": "UNKNOWN",
+    "incident_attribution": "UNKNOWN"
+  },
+  {
+    "tx_hash": "0x4a4aed833556814c16fe176fc8abc70ce124eadc73da3bcdf42a67ef44f9ad6b",
+    "block": "26301444",
+    "utc": "2026-10-29T22:39:35.000Z",
+    "from": "0x28c6c06298d514db089934071355e5743bf21d60",
+    "to": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "indexer_eth": "128.49113921207507",
+    "blockscout_wei": "128491139212075057017",
+    "matched_calls": [
+      {
+        "value_wei": "128491139212075057017",
+        "type": "call",
+        "index": 1
+      }
+    ],
+    "difference_wei": "12983.0000000",
+    "status": "SECOND_INDEXER_MATCH",
+    "ownership": "UNKNOWN",
+    "incident_attribution": "UNKNOWN"
+  },
+  {
+    "tx_hash": "0x4395d51dc3f3c51230329efc3548f74edbced353ff3f795c517cc57fa650f89b",
+    "block": "26301828",
+    "utc": "2026-10-29T23:56:47.000Z",
+    "from": "0x28c6c06298d514db089934071355e5743bf21d60",
+    "to": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "indexer_eth": "2961.9108209382853",
+    "blockscout_wei": "2961910820938285094748",
+    "matched_calls": [
+      {
+        "value_wei": "2961910820938285094748",
+        "type": "call",
+        "index": 1
+      }
+    ],
+    "difference_wei": "205252.000000",
+    "status": "SECOND_INDEXER_MATCH",
+    "ownership": "UNKNOWN",
+    "incident_attribution": "UNKNOWN"
+  }
+]

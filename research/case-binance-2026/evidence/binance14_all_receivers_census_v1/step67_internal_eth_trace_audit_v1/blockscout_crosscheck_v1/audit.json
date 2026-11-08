@@ -1,0 +1,12 @@
+{
+  "scope": "5 internal ETH records from Binance 14",
+  "source": "Blockscout indexed internal transactions",
+  "verification_level": "SECOND_INDEXER_CROSSCHECK",
+  "independent_execution_replay": false,
+  "complete_page_collection": true,
+  "tolerance_wei": "1000000000",
+  "matched": 5,
+  "unresolved": 0,
+  "ownership": "UNKNOWN",
+  "incident_attribution": "UNKNOWN"
+}
