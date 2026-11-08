@@ -1,0 +1,12 @@
+{
+  "status": "INITIAL_RECEIPT_AUDIT_COMPLETE",
+  "source_step80_manifest_sha256": "4d700adea2a8167f57883eee8a80de4eb6c58bcd06395310df25d0c7041043f5",
+  "source_step81_manifest_sha256": "292c4e614544e01beb922f669f06237d94abfbd9865448d99dc7b14037f609f6",
+  "source_step83_manifest_sha256": "4b7f7bcb0828c96d72a4e1879c46176f3437eec28f8bebe650b54752bd365637",
+  "files_sha256": {
+    "erc20_53_event_register.csv": "2efe500b30ca57583a18d0fae444d85f7146320329f36533376a2a65f33c5e56",
+    "manual_review_queue.csv": "2efe500b30ca57583a18d0fae444d85f7146320329f36533376a2a65f33c5e56",
+    "summary.json": "c8f7147f6fce415ed135bce475c700d7386be02d708a80521b9347718146ae82",
+    "ERC20_EXCEPTION_AUDIT_V1.md": "02ab3ef7d94bc557d02872e95022ba7090d31eb4bdcb6ed8b1858c197f8a9249"
+  }
+}

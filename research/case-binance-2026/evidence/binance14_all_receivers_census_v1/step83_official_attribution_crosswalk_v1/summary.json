@@ -1,0 +1,41 @@
+{
+  "run_utc": "2026-11-08T11:26:11.129637+00:00",
+  "status": "CROSSWALK_COMPLETE",
+  "research_addresses": 124,
+  "binance14_direct_receivers": 23,
+  "fbi_eth_addresses": 608,
+  "elliptic_evm_addresses": 4665,
+  "external_list_overlap": 554,
+  "all_research_tiers": {
+    "NO_DIRECT_LIST_MATCH": 118,
+    "ELLIPTIC_DIRECT_ONLY": 5,
+    "BOTH_DIRECT_LISTINGS": 1
+  },
+  "direct_receiver_tiers": {
+    "NO_DIRECT_LIST_MATCH": 21,
+    "ELLIPTIC_DIRECT_ONLY": 2
+  },
+  "fbi_research_matches": 1,
+  "elliptic_research_matches": 6,
+  "source_provenance": {
+    "fbi": {
+      "source": "USER_SUPPLIED_EXTRACT",
+      "claimed_publication_date": "2026-10-31",
+      "sha256": "63f1d9a84833e60e8d2d507627623a62d528701ddbd722ad71f741f3ef4d686d",
+      "raw_fbi_html_verified": false
+    },
+    "elliptic": {
+      "source": "USER_SUPPLIED_TEXT",
+      "sha256": "c16534b0297603acabde23109b57cf9773ac77c99a0a5daf247a1e88be214cde",
+      "retrieval_time_independently_verified": false
+    }
+  },
+  "limitations": [
+    "Direct listing is an external attribution claim",
+    "An address match does not establish exact stolen-fund provenance",
+    "An address can receive mixed-source funds",
+    "No listing does not imply unrelated funds",
+    "Transactions cannot alone establish beneficial ownership",
+    "This crosswalk is limited to the constructed research universe"
+  ]
+}

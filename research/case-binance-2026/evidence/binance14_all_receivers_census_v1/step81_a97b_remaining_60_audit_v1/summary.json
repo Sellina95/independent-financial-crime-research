@@ -1,0 +1,22 @@
+{
+  "scope": "Remaining STEP80 non-DEX-WETH-pattern events",
+  "total_events": 60,
+  "unique_transactions": 60,
+  "classifications": {
+    "DIRECT_NATIVE_ETH_TX_MATCH": 4,
+    "ERC20_INTERNAL_EXECUTION_REVIEW": 23,
+    "KNOWN_DEX_ROUTER_OTHER_PATTERN": 3,
+    "NON_WHITELISTED_ROUTER_ERC20_OUTFLOW": 30
+  },
+  "full_transaction_receipts_available": true,
+  "native_eth_internal_execution_replayed": false,
+  "contract_ownership_verified": false,
+  "incident_provenance_verified": false,
+  "limitations": [
+    "Known DEX router list is not exhaustive",
+    "Direct ETH classification requires exact outer transaction value match",
+    "Internal native ETH routes need execution tracing",
+    "ERC20 outflow does not independently establish the final beneficiary",
+    "No independent criminal or victim-fund attribution"
+  ]
+}

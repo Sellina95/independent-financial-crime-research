@@ -1,0 +1,8 @@
+{
+  "status": "REMAINING_60_SCREEN_COMPLETE",
+  "source_step80_manifest_sha256": "4d700adea2a8167f57883eee8a80de4eb6c58bcd06395310df25d0c7041043f5",
+  "files_sha256": {
+    "remaining_60_event_register.csv": "3d6f558468889173ac73f9542b15fdf4d34f8474583a5cacf80846ff470b3141",
+    "summary.json": "9876f17796e423aadb04da858a83cd9d4d79344b9bedfbadfa7be5f974e05897"
+  }
+}

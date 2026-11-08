@@ -1,0 +1,21 @@
+{
+  "status": "INITIAL_RECEIPT_AUDIT_COMPLETE",
+  "created_utc": "2026-11-08T11:40:42.037079+00:00",
+  "events": 53,
+  "transactions": 53,
+  "classifications": {
+    "TOKEN_OUTFLOW_CONFIRMED_PURPOSE_UNKNOWN": 53
+  },
+  "manual_review_events": 53,
+  "a97b_outer_caller_events": 30,
+  "other_outer_caller_events": 23,
+  "exact_source_log_matches": 53,
+  "additional_rpc_calls": 0,
+  "limits": [
+    "Exchange-compatible does not prove a swap",
+    "Token movement does not prove asset provenance or beneficial ownership",
+    "Other caller does not establish authorized execution",
+    "A direct address listing is not proof of a token freeze",
+    "Final recipient and event purpose may remain unknown"
+  ]
+}

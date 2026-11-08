@@ -1,0 +1,13 @@
+{
+  "status": "EXTERNAL_ATTRIBUTION_CROSSWALK_COMPLETE",
+  "source_step65_manifest_sha256": "8b1bfc6eadbb260a0f57f69df4c117c88276402140452c22ea0ad376765efb3d",
+  "source_step70_manifest_sha256": "482e14109da256e426742974065c4840f1730dd71ea1bd712ba24c8092f8fe8e",
+  "source_step81_manifest_sha256": "292c4e614544e01beb922f669f06237d94abfbd9865448d99dc7b14037f609f6",
+  "files_sha256": {
+    "source_snapshots/fbi_eth_addresses.txt": "63f1d9a84833e60e8d2d507627623a62d528701ddbd722ad71f741f3ef4d686d",
+    "source_snapshots/elliptic_source.txt": "c16534b0297603acabde23109b57cf9773ac77c99a0a5daf247a1e88be214cde",
+    "address_attribution_crosswalk.csv": "d5c0f884538bff6b673ca9597e89d3755e4e55eee8288f2e16165758c124951a",
+    "summary.json": "db7b50c294a3ebf0096bebbf6473cb8df3219d1fbac95db9c3a37e26736f5821",
+    "CROSSWALK_AUDIT_V1.md": "c205279f240bc4ee050fecbb6c168fd97e35d70d3593b79404ea1b89783739b2"
+  }
+}
