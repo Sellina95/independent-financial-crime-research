@@ -328,3 +328,93 @@ Update this master file only after verified new findings.
 
 **Publication gate:** Explicit approval required.
 **Main branch:** Protected.
+
+
+---
+
+## A97B Evidence Closure Checkpoint — 2026-11-08
+
+### 1. Incident Attribution
+
+**Status: EXTERNAL ADDRESS LINK CONFIRMED / FUND PROVENANCE UNKNOWN**
+
+- A97B appears in the preserved Elliptic incident-address snapshot.
+- The FBI source snapshot does not directly list A97B.
+- Binance 14 → A97B: two Alchemy-recorded internal ETH movements,
+  totaling 3,090.401960150360151765 ETH by raw-value decoding.
+- These internal ETH movements have not been independently
+  revalidated in this checkpoint.
+- A97B has mixed-source funding.
+- No claim that the entire 10,647.2 ETH of observed direct outflows
+  is attributable to the incident.
+
+### 2. Restriction Timeline
+
+**Status: ADDRESS LISTING VERIFIED / ACTUAL FREEZE NOT VERIFIED**
+
+- Elliptic direct address-list match: confirmed in preserved snapshot.
+- First-added listing timestamp: UNKNOWN.
+- A97B-specific issuer blacklist or freeze transaction: NOT VERIFIED.
+- Relevant ETH recipient address listings are not evidence of freezing.
+- Existing USDT freeze research for other wallets cannot be applied
+  to A97B without address-specific transaction evidence.
+
+### 3. Post-Restriction Activity
+
+**Status: UNKNOWN**
+
+- Existing A97B outgoing ledger spans
+  2026-10-30 01:17:47 UTC to 09:16:35 UTC.
+- 1,186 indexed outgoing movement events were reconciled.
+- A verified A97B restriction execution timestamp is unavailable.
+- Later wallet coverage has not been established.
+- Post-listing or post-freeze movements cannot be inferred
+  from the current dataset.
+
+### 4. Conservation & Evidence Closure
+
+**Status: STRUCTURAL PASS / ECONOMIC PROVENANCE OPEN**
+
+- Outgoing event reconciliation: 1,186 / 1,186.
+- DEX/WETH-compatible patterns: 1,126 events.
+- Direct native ETH transfers: 4 transactions / 10,647.2 ETH.
+- Other router patterns: 3 events.
+- ERC-20 exceptions: 53 events.
+- Address-level external listing crosswalk: 6 of 124 research
+  addresses matched at least one preserved external list.
+- Full asset-level inflow/outflow conservation: NOT ESTABLISHED.
+- Actual balance effects of selected nonstandard ERC-20 events:
+  NOT ESTABLISHED.
+- Specific incident-fund attribution: UNKNOWN.
+
+### Publication Claim Boundary
+
+**Supported for a research report:**
+- Observed transaction structure and reconciled event counts.
+- Direct ETH transfer amounts and immediate recipients.
+- Elliptic/FBI address-list matches, with source attribution.
+- Evidence gaps in fund provenance and restriction verification.
+
+**Not supported:**
+- All A97B transfers were stolen incident funds.
+- A97B assets were frozen.
+- Transfers continued after a verified A97B freeze.
+- Address-listing proves wallet ownership.
+- A97B demonstrates failure of issuer freeze controls.
+
+### Next Reporting Action
+
+Prepare the five-section LinkedIn research report:
+
+1. What happened?
+2. How did funds move?
+3. What was restricted — and what happened afterward?
+4. Has this pattern appeared before?
+5. What does this reveal about financial infrastructure?
+
+Section 4 requires separately verified historical comparisons.
+The other sections must distinguish observations,
+external attribution, inference and unknowns.
+
+**Research status: EVIDENCE-BOUNDED CHECKPOINT**
+**Publication status: NOT APPROVED**
