@@ -6,6 +6,72 @@
 
 > **Research status:** Technical mechanism strongly corroborated. Official transaction-level incident attribution remains unresolved. This is a bounded technical case study, not a complete incident investigation.
 
+## Master Investigation Overview
+
+This publication brings together two completed, scope-limited investigations of Ethereum transactions associated with the October 2026 Binance security incident.
+
+The objective is to reconstruct observable transaction mechanisms and asset movements while distinguishing verified blockchain evidence from external incident attribution and unresolved questions.
+
+### Research at a Glance
+
+| Research area | Audited observations |
+|---|---|
+| EIP-7702 authorization | 50 signatures recovered to the same wallet address; one nonce-applicable authorization in a nonce-only replay |
+| Delegated execution | Approximately 167,464 ETH moved; 64 ERC-20 transfer attempts and 63 matching Transfer events |
+| Execution behavior | One token-transfer call reverted while later calls continued |
+| USDT reconciliation | Corresponding block-end balance changes of approximately 1.615 billion USDT; exclusive downstream provenance unresolved |
+| Binance14 to A97B | Two direct ETH transfers totaling 3,090.402 ETH |
+| A97B DEX/WETH settlement | 1,015 matched transactions; 6,829.200 ETH in gross direct returns |
+| A97B direct ETH outflows | Four transfers totaling 10,647.2 ETH to three recipient addresses |
+| External cross-reference | The recipient of a 7,647 ETH transfer appears on the FBI's published incident-related address list |
+
+These figures describe different transaction populations and accounting categories. They must not be summed as an incident loss estimate or treated as a conserved flow of exclusively stolen assets.
+
+### Part I — Delegated Wallet Execution
+
+**[Read Part I: Technical Mechanism and Initial Asset Movements](README.md#executive-summary)**
+
+This investigation reconstructs selected EIP-7702 authorization, delegated execution, and delegation-removal transactions (T02, T03, and T17).
+
+Its evidence includes cryptographic signer recovery, historical account-code checks, execution traces, token-transfer events, and block-end balance comparisons.
+
+**Boundary:** The findings do not independently establish corporate authorization, how signing access was obtained, or complete incident-wide asset movements.
+
+### Part II — A97B DEX Settlement and ETH Returns
+
+**[Read Part II: Transaction-Level Audit](a97b-settlement/README.md)**
+
+This investigation reconstructs two direct Binance14-to-A97B ETH inflows, 1,015 matched WETH Withdrawal and direct ETH-return transactions, and four subsequent direct native ETH outflows.
+
+**[Explore the Illustrated Report and Three Infographics](a97b-settlement/visual-report/README.md)**
+
+The visual report explains the transaction chronology, DEX/WETH settlement observations, historical comparisons, and evidentiary limitations for a wider audience.
+
+**Boundary:** The 6,829.200 ETH gross direct returns are not established as exclusively stolen assets. The separate 10,647.2 ETH outflows cannot automatically be attributed to those returns.
+
+### Consolidated Research Conclusion
+
+Public blockchain evidence supports a bounded reconstruction of authorization mechanisms, transaction execution, and selected subsequent asset movements.
+
+However, the available evidence does not establish a complete incident-attributed fund ledger, exclusive economic provenance for all observed assets, or the real-world identities of the addresses' controllers.
+
+**Reconstructing how assets moved is not the same as proving how much of that activity originated from stolen funds.**
+
+### Outstanding Questions
+
+- What proportion of the observed downstream asset activity can be attributed to the reported incident?
+- Can event-time balances and asset provenance be fully reconciled across the relevant addresses?
+- Which downstream transfers can be linked through transaction-level evidence rather than timing or address association alone?
+- What remains unknown about the ultimate disposition and beneficial ownership of the assets?
+
+Both published studies remain independent, scope-limited reconstructions. Their findings should not be interpreted as a complete investigation of the reported multi-chain incident.
+
+---
+
+**Original Part I technical report follows below.**
+
+---
+
 ## Executive Summary
 
 On October 29, 2026, Binance experienced a major security incident involving unauthorized withdrawals from its hot wallets. In its official updates published on October 30, Binance reported an estimated impact of approximately **USD 6.3 billion**, with approximately **USD 3 billion frozen on-chain** at that time. These are Binance-reported incident-wide figures, not amounts independently reconstructed in this case study.
