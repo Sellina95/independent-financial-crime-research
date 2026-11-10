@@ -135,7 +135,7 @@ Historical account-code queries identified an empty code state before T02 and an
 
 *Figure 2. EIP-7702 authorization recovery and nonce-only replay.*
 
-**Evidence:** [Signer recovery](GATE_2_ETH_T02_SIGNATURE_RECOVERY_V1.json) · [Nonce-only replay](GATE_2_ETH_T02_AUTHORIZATION_REPLAY_V1.json) · [Historical code](GATE_2_ETH_HISTORICAL_CODE_AUDIT_V1.json).
+**Evidence:** [Signer recovery](evidence/technical-audits/GATE_2_ETH_T02_SIGNATURE_RECOVERY_V1.json) · [Nonce-only replay](evidence/technical-audits/GATE_2_ETH_T02_AUTHORIZATION_REPLAY_V1.json) · [Historical code](evidence/technical-audits/GATE_2_ETH_HISTORICAL_CODE_AUDIT_V1.json).
 
 **Boundary:** Cryptographic recovery demonstrates address-level signer correspondence, not corporate approval. The replay models nonce conditions and is not a full EVM execution replay.
 
@@ -166,7 +166,7 @@ The preserved execution trace identified:
 
 *Figure 3. Delegated execution and observed asset-transfer calls.*
 
-**Evidence:** [Command consolidation](GATE_2_ETH_T03_COMMAND_CONSOLIDATION_V1.json) · [Transfer-event audit](GATE_2_ETH_T03_TRANSFER_EVENT_AUDIT_V1.json) · [Caller restriction](GATE_2_ETH_T03_CALLER_RESTRICTION_V1.md).
+**Evidence:** [Command consolidation](evidence/technical-audits/GATE_2_ETH_T03_COMMAND_CONSOLIDATION_V1.json) · [Transfer-event audit](evidence/technical-audits/GATE_2_ETH_T03_TRANSFER_EVENT_AUDIT_V1.json) · [Caller restriction](evidence/technical-audits/GATE_2_ETH_T03_CALLER_RESTRICTION_V1.md).
 
 **Boundary:** This strongly corroborates delegated batch execution, but a complete instruction-level EVM replay has not been performed.
 
@@ -182,7 +182,7 @@ A custom event associated with the failed token appeared in the receipt. Histori
 
 *Figure 4. A reverted token call followed by continued batch execution.*
 
-**Evidence:** [Failure-tolerance audit](GATE_2_ETH_T03_FAILURE_TOLERANCE_V1.json) · [Historical balance audit](GATE_2_ETH_T03_HISTORICAL_BALANCE_AUDIT_V1.json).
+**Evidence:** [Failure-tolerance audit](evidence/technical-audits/GATE_2_ETH_T03_FAILURE_TOLERANCE_V1.json) · [Historical balance audit](evidence/technical-audits/GATE_2_ETH_T03_HISTORICAL_BALANCE_AUDIT_V1.json).
 
 The combined trace and receipt evidence supports failure-tolerant batch processing. The precise interpretation of every custom event field remains unresolved.
 
@@ -197,7 +197,7 @@ Historical USDT balance queries compared the block immediately preceding T03 wit
 
 The observed differences reconcile exactly.
 
-**Evidence:** [Historical balance audit](GATE_2_ETH_T03_HISTORICAL_BALANCE_AUDIT_V1.json).
+**Evidence:** [Historical balance audit](evidence/technical-audits/GATE_2_ETH_T03_HISTORICAL_BALANCE_AUDIT_V1.json).
 
 These observations are block-end balance differences, not isolated transaction-level prestate and poststate. Other activity within the block cannot be excluded by this comparison alone.
 
@@ -209,7 +209,7 @@ The shared address and chronological order were corroborated. Exclusive economic
 
 *Figure 5. Historical USDT balance comparison and subsequent transfers.*
 
-**Evidence:** [T03-to-700M linkage audit](GATE_3_T03_TO_700M_LINKAGE_AUDIT_V1.md) · [First-hop distribution audit](700M_FIRST_HOP_DISTRIBUTION_AUDIT_V1.md).
+**Evidence:** [T03-to-700M linkage audit](evidence/technical-audits/GATE_3_T03_TO_700M_LINKAGE_AUDIT_V1.md) · [First-hop distribution audit](evidence/technical-audits/700M_FIRST_HOP_DISTRIBUTION_AUDIT_V1.md).
 
 Downstream transfers must not be double-counted as additional initial asset outflows.
 
@@ -221,7 +221,7 @@ Historical code queries found the earlier delegation code absent at the checked 
 
 Together, T02, T03, and T17 form an observed sequence of authorization, delegated execution, and subsequent delegation removal.
 
-**Evidence:** [Historical code audit](GATE_2_ETH_HISTORICAL_CODE_AUDIT_V1.json).
+**Evidence:** [Historical code audit](evidence/technical-audits/GATE_2_ETH_HISTORICAL_CODE_AUDIT_V1.json).
 
 ## 7. What the Evidence Does Not Establish
 
@@ -259,12 +259,12 @@ This report remains a bounded technical reconstruction, not a complete investiga
 
 The technical evidence, methodological limitations, and unresolved attribution questions are documented in the `research/case-binance-2026` branch.
 
-- [Technical evidence assessment](GATE_2_ETH_TECHNICAL_EVIDENCE_ASSESSMENT_V1.md)
-- [Historical evidence reconciliation](GATE_2_ETH_HISTORICAL_RECONCILIATION_V1.md)
-- [T03 to 700M linkage audit](GATE_3_T03_TO_700M_LINKAGE_AUDIT_V1.md)
-- [Publication claims audit](AXIOM_PUBLICATION_CLAIMS_AUDIT_V1.md)
-- [Citation map](PUBLICATION_CITATION_MAP_V1.csv)
-- [Fixed research roadmap](AXIOM_BINANCE_2026_FIXED_RESEARCH_MAP_V1.md)
+- [Technical evidence assessment](evidence/technical-audits/GATE_2_ETH_TECHNICAL_EVIDENCE_ASSESSMENT_V1.md)
+- [Historical evidence reconciliation](evidence/technical-audits/GATE_2_ETH_HISTORICAL_RECONCILIATION_V1.md)
+- [T03 to 700M linkage audit](evidence/technical-audits/GATE_3_T03_TO_700M_LINKAGE_AUDIT_V1.md)
+- [Publication claims audit](evidence/technical-audits/AXIOM_PUBLICATION_CLAIMS_AUDIT_V1.md)
+- [Citation map](evidence/technical-audits/PUBLICATION_CITATION_MAP_V1.csv)
+- [Fixed research roadmap](evidence/technical-audits/AXIOM_BINANCE_2026_FIXED_RESEARCH_MAP_V1.md)
 
 **Research disclosure:** Independent, bounded technical case study. Findings reflect the cited evidence and stated methodological limits. Corporate authorization, recipient identity, and incident-wide fund conservation remain unresolved. Credential screening was limited to selected patterns and does not constitute a comprehensive security audit. Corrections will be documented in repository history.
 
