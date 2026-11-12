@@ -1,0 +1,83 @@
+{
+  "network": "Ethereum Mainnet",
+  "address": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+  "primary_query": {
+    "tool": "bitquery-eth_transfers_out",
+    "input": {
+      "address": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+      "after_time": "2026-10-29 22:39:35",
+      "include_internal": 1,
+      "limit": 10000,
+      "sort": "recent",
+      "format": "columnar"
+    },
+    "filters_not_set": [
+      "before_time",
+      "contract",
+      "currency",
+      "min_amount",
+      "max_amount"
+    ],
+    "response_file": "bitquery_a97b_outgoing.json",
+    "response_rows": 1274,
+    "response_unique_transactions": 1274,
+    "response_sha256": "6d3c31280f4b7d4520be19b08d5e9125b2d68d957f76f7bd6646832e8b3f2cb2"
+  },
+  "supporting_queries": [
+    {
+      "tool": "bitquery-eth_tx_transfers",
+      "input": {
+        "tx_hash": "0x4dae9089b113b4dfeb2a30926c23342e83143f781028a876fc4a6934289cf26c|0x791e4ba4d7a78079fe8d83d7e8ed93a4515d794809a4c47ac3e8df234f717d7c",
+        "include_internal": 1,
+        "limit": 1000,
+        "format": "columnar"
+      },
+      "response_file": "bitquery_duplicate_tx_transfers.json"
+    },
+    {
+      "tool": "bitquery-eth_tx_events",
+      "input": {
+        "tx_hash": "0x4dae9089b113b4dfeb2a30926c23342e83143f781028a876fc4a6934289cf26c|0x791e4ba4d7a78079fe8d83d7e8ed93a4515d794809a4c47ac3e8df234f717d7c",
+        "event": "Withdrawal",
+        "limit": 1000,
+        "format": "rows",
+        "only_successful": 1
+      },
+      "response_file": "bitquery_duplicate_tx_withdrawals.json"
+    }
+  ],
+  "historical_pagination_checks": [
+    {
+      "tool": "bitquery-eth_transfers_out",
+      "input": {
+        "address": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "after_time": "2026-11-02 23:05:24",
+        "include_internal": 0,
+        "limit": 1000,
+        "sort": "recent",
+        "format": "columnar"
+      },
+      "reported_result": "no rows",
+      "raw_response_status": "MISSING_RAW"
+    },
+    {
+      "tool": "bitquery-eth_transfers_out",
+      "input": {
+        "address": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+        "cursor": "2026-10-30 01:17:47|26302230|19|3271539040717308055",
+        "include_internal": 0,
+        "limit": 1000,
+        "sort": "recent",
+        "format": "columnar"
+      },
+      "reported_result": "no rows",
+      "raw_response_status": "MISSING_RAW"
+    }
+  ],
+  "source_ledger": {
+    "path": "research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step70_a97b_forward_census_v1/A97B_FORWARD_TRANSFER_LEDGER_V1.csv",
+    "rows": 1186,
+    "sha256": "0939350402418eb636c3105a9cf9891061af85e4e57947fc97793006dfa5ac45"
+  },
+  "provenance_note": "The primary and supporting response files are actual Bitquery tool outputs. Historical pagination follow-up responses were not available as raw files and were not reconstructed."
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "Arguments": [
+      {
+        "Indexed": 1,
+        "Name": "src",
+        "Type": "address",
+        "Value": "0x1b81d678ffb9c0263b24a97847620c99d213eb14"
+      },
+      {
+        "Indexed": 0,
+        "Name": "wad",
+        "Type": "uint256",
+        "Value": "15394099363667365182"
+      }
+    ],
+    "Block": 26302532,
+    "CallFrom": "0x1b81d678ffb9c0263b24a97847620c99d213eb14",
+    "CallIndex": 45,
+    "CallPath": [
+      1,
+      1
+    ],
+    "CallSuccess": 1,
+    "CallTo": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "Data": "0x000000000000000000000000000000000000000000000000d5a2d3cf5075cd3e",
+    "Emitter": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "Event": "Withdrawal",
+    "LogInCall": 0,
+    "Parsed": 1,
+    "Removed": 0,
+    "Reverted": 0,
+    "Signature": "Withdrawal(address,uint256)",
+    "Time": "2026-10-30T02:18:35Z",
+    "Topic0": "0x7fcf532c15f0a6db0bd6d0e038bea71d30d808c7d98cb3bf7268a95bf5081b65",
+    "Topics": [
+      "0x7fcf532c15f0a6db0bd6d0e038bea71d30d808c7d98cb3bf7268a95bf5081b65",
+      "0x0000000000000000000000001b81d678ffb9c0263b24a97847620c99d213eb14"
+    ],
+    "Tx": "0x4dae9089b113b4dfeb2a30926c23342e83143f781028a876fc4a6934289cf26c",
+    "TxFrom": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "TxSuccess": 1
+  },
+  {
+    "Arguments": [
+      {
+        "Indexed": 1,
+        "Name": "src",
+        "Type": "address",
+        "Value": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+      },
+      {
+        "Indexed": 0,
+        "Name": "wad",
+        "Type": "uint256",
+        "Value": "8972619288974622539"
+      }
+    ],
+    "Block": 26302532,
+    "CallFrom": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+    "CallIndex": 10,
+    "CallPath": [
+      1,
+      1
+    ],
+    "CallSuccess": 1,
+    "CallTo": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "Data": "0x0000000000000000000000000000000000000000000000007c8525b450267f4b",
+    "Emitter": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "Event": "Withdrawal",
+    "LogInCall": 0,
+    "Parsed": 1,
+    "Removed": 0,
+    "Reverted": 0,
+    "Signature": "Withdrawal(address,uint256)",
+    "Time": "2026-10-30T02:18:35Z",
+    "Topic0": "0x7fcf532c15f0a6db0bd6d0e038bea71d30d808c7d98cb3bf7268a95bf5081b65",
+    "Topics": [
+      "0x7fcf532c15f0a6db0bd6d0e038bea71d30d808c7d98cb3bf7268a95bf5081b65",
+      "0x00000000000000000000000068b3465833fb72a70ecdf485a3fb72a70ecdf485a"
+    ],
+    "Tx": "0x791e4ba4d7a78079fe8d83d7e8ed93a4515d794809a4c47ac3e8df234f717d7c",
+    "TxFrom": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "TxSuccess": 1
+  }
+]
