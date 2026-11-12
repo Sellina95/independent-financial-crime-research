@@ -1,0 +1,13 @@
+{
+  "manifest_version": "V1",
+  "algorithm": "SHA-256",
+  "files": {
+    "A97B_BITQUERY_CROSSCHECK_V1.csv": "53b5fd73c5091f80dee8a59f43fc3174e56a1132858dc7c42a058dee1ce06fab",
+    "AUDIT_V1.json": "5c540ac8c63ab3f3f727d880adf38d7f7c2bc372b36e122019bfdaf3331db6be",
+    "ETH_TX_EVENTS_BATCH5_RAW_V1.json": "29f4b99856fef755bf7deef8ddb03e856dab800fbcd27dce685f64c479d629a5",
+    "ETH_TX_EVENTS_SINGLE_D0BF_RAW_V1.json": "8b9e4410fa956cff0048a38e500c5f0466488386426855a24ca715a8e3eb81a4",
+    "ETH_TX_TRANSFERS_BATCH5_RAW_V1.json": "8c8afffec86904cabf03dc89963664c5dfe74bf8cf8ad4daaa0328d309129fd7",
+    "ETH_TX_TRANSFERS_SINGLE_D0BF_RAW_V1.json": "f296d888a9d5ba6f9334d64f2860654cbf0c92b75e9e9002ba0d4316742e6f64"
+  },
+  "manifest_self_hash": "NOT_INCLUDED"
+}

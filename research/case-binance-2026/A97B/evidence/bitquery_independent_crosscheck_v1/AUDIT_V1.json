@@ -1,0 +1,84 @@
+{
+  "case": "A97B",
+  "network": "Ethereum Mainnet",
+  "status": "READ_ONLY_CROSSCHECK_CAPTURE",
+  "transaction_count": 6,
+  "tool_calls": [
+    {
+      "tool": "bitquery-eth_tx_events",
+      "scope": "single",
+      "tx_hash": "0xd0bf6957d547142e3701929dde1e6816a4b035c7d6aba01a5e9ec0f912bea856",
+      "limit": 200,
+      "only_successful": 1,
+      "format": "rows"
+    },
+    {
+      "tool": "bitquery-eth_tx_transfers",
+      "scope": "single",
+      "tx_hash": "0xd0bf6957d547142e3701929dde1e6816a4b035c7d6aba01a5e9ec0f912bea856",
+      "include_internal": 1,
+      "limit": 200,
+      "format": "rows"
+    },
+    {
+      "tool": "bitquery-eth_tx_events",
+      "scope": "batch",
+      "tx_hashes": [
+        "0x1b5c47cfdfd78a4cf310019646847bcd3f6b0f778e0118226e69588ac04dafb3",
+        "0x19804e06787f47b1dadf0146440a86b2ad16130d73c7222fb0863256e0b31cba",
+        "0x1b04802025a8f34693f8eb5629e9b2eec19e17ee36b12338c61dc291532eacfc",
+        "0x5aaabda6db62c5c2af7ccf42954e0df338004459db7d5cbdbafb77d27ce3b968",
+        "0x8c3f2b7b490c9187adeb9a6bed1ac3972599a54d901431030396015717b74003"
+      ],
+      "limit": 1000,
+      "only_successful": 1,
+      "format": "rows"
+    },
+    {
+      "tool": "bitquery-eth_tx_transfers",
+      "scope": "batch",
+      "tx_hashes": [
+        "0x1b5c47cfdfd78a4cf310019646847bcd3f6b0f778e0118226e69588ac04dafb3",
+        "0x19804e06787f47b1dadf0146440a86b2ad16130d73c7222fb0863256e0b31cba",
+        "0x1b04802025a8f34693f8eb5629e9b2eec19e17ee36b12338c61dc291532eacfc",
+        "0x5aaabda6db62c5c2af7ccf42954e0df338004459db7d5cbdbafb77d27ce3b968",
+        "0x8c3f2b7b490c9187adeb9a6bed1ac3972599a54d901431030396015717b74003"
+      ],
+      "include_internal": 1,
+      "limit": 1000,
+      "format": "rows"
+    }
+  ],
+  "raw_response_capture": {
+    "status": "CAPTURED",
+    "files": [
+      "ETH_TX_EVENTS_SINGLE_D0BF_RAW_V1.json",
+      "ETH_TX_TRANSFERS_SINGLE_D0BF_RAW_V1.json",
+      "ETH_TX_EVENTS_BATCH5_RAW_V1.json",
+      "ETH_TX_TRANSFERS_BATCH5_RAW_V1.json"
+    ],
+    "representation": "Actual Bitquery tool-returned row objects; JSON array containers preserve the returned row fields.",
+    "missing_raw": [],
+    "row_counts": {
+      "ETH_TX_EVENTS_SINGLE_D0BF_RAW_V1.json": 5,
+      "ETH_TX_TRANSFERS_SINGLE_D0BF_RAW_V1.json": 5,
+      "ETH_TX_EVENTS_BATCH5_RAW_V1.json": 24,
+      "ETH_TX_TRANSFERS_BATCH5_RAW_V1.json": 25
+    }
+  },
+  "blockscout_baseline": {
+    "source": "research/case-binance-2026/A97B/eth_address_receipts_v1/A97B_ADDRESS_ETH_RETURN_V1.csv",
+    "sha256": "4f2c27670a1e155506f70f3f850151340293a890c626b5f4baaeb38845fe4eef"
+  },
+  "verification_summary": {
+    "weth_contract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "a97b": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "withdrawal_events": 6,
+    "withdrawal_amounts_vs_blockscout": "All six raw wad values match the decimal Blockscout baseline at wei precision.",
+    "eth_internal_transfers_to_a97b": "Observed for all six; transfer Amount values are rounded display values.",
+    "precision_limitation": "eth_tx_transfers returns ETH Amount values rounded to eight decimal places; these are marked PRECISION_LIMITED and are not treated as exact matches.",
+    "duplicate_counting": "WETH-contract-to-router and router-to-A97B transfers are sequential hops; amounts are not summed.",
+    "call_relationship": "UNKNOWN_DIRECT_CALL_RELATIONSHIP. Matching transaction, amount and route do not alone prove direct causality between the Withdrawal event and the A97B transfer.",
+    "incident_attribution": "NOT_ESTABLISHED"
+  }
+}

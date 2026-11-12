@@ -1,0 +1,7 @@
+[
+  {"Amount": 57918.33413378, "Currency": "POL", "Internal": 0, "Method": "transferFrom(address,address,uint256)", "Receiver": "0x88ada7b1dd1c728ea87404cea7a0780139eb35d1", "Sender": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10", "Tx": "0xd0bf6957d547142e3701929dde1e6816a4b035c7d6aba01a5e9ec0f912bea856"},
+  {"Amount": 1.9864302, "Currency": "WETH", "Internal": 0, "Method": "transfer(address,uint256)", "Receiver": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45", "Sender": "0x88ada7b1dd1c728ea87404cea7a0780139eb35d1", "Tx": "0xd0bf6957d547142e3701929dde1e6816a4b035c7d6aba01a5e9ec0f912bea856"},
+  {"Amount": 1.9864302, "Currency": "WETH", "Internal": 0, "Method": "withdraw(uint256)", "Receiver": "0x0000000000000000000000000000000000000000", "Sender": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45", "Tx": "0xd0bf6957d547142e3701929dde1e6816a4b035c7d6aba01a5e9ec0f912bea856"},
+  {"Amount": 1.9864302, "Currency": "ETH", "Internal": 1, "Method": "", "Receiver": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45", "Sender": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2", "Tx": "0xd0bf6957d547142e3701929dde1e6816a4b035c7d6aba01a5e9ec0f912bea856"},
+  {"Amount": 1.9864302, "Currency": "ETH", "Internal": 1, "Method": "", "Receiver": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10", "Sender": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45", "Tx": "0xd0bf6957d547142e3701929dde1e6816a4b035c7d6aba01a5e9ec0f912bea856"}
+]

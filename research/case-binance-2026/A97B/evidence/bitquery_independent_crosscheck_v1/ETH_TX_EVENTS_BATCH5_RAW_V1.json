@@ -1,0 +1,1239 @@
+[
+  {
+    "Arguments": [
+      {
+        "Indexed": 1,
+        "Name": "_owner",
+        "Type": "address",
+        "Value": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10"
+      },
+      {
+        "Indexed": 1,
+        "Name": "_spender",
+        "Type": "address",
+        "Value": "0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f"
+      },
+      {
+        "Indexed": 0,
+        "Name": "_value",
+        "Type": "uint256",
+        "Value": "708657397"
+      }
+    ],
+    "Block": 26303633,
+    "CallFrom": "0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f",
+    "CallIndex": 1,
+    "CallPath": [
+      0
+    ],
+    "CallSuccess": 1,
+    "CallTo": "0xcc8fa225d80b9c7d42f96e9570156c65d6caaa25",
+    "Data": "0x000000000000000000000000000000000000000000000000000000002a3d40f5",
+    "Emitter": "0xcc8fa225d80b9c7d42f96e9570156c65d6caaa25",
+    "Event": "Approval",
+    "LogInCall": 0,
+    "Parsed": 1,
+    "Removed": 0,
+    "Reverted": 0,
+    "Signature": "Approval(address,address,uint256)",
+    "Time": "2026-10-30T05:59:23Z",
+    "Topic0": "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+    "Topics": [
+      "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+      "0x000000000000000000000000a97bf7836f8a08f9ed91d41453d371493fae8d10",
+      "0x000000000000000000000000d9e1ce17f2641f24ae83637ab66a2cca9c378b9f"
+    ],
+    "Tx": "0x19804e06787f47b1dadf0146440a86b2ad16130d73c7222fb0863256e0b31cba",
+    "TxFrom": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "TxSuccess": 1
+  },
+  {
+    "Arguments": [
+      {
+        "Indexed": 1,
+        "Name": "_from",
+        "Type": "address",
+        "Value": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10"
+      },
+      {
+        "Indexed": 1,
+        "Name": "_to",
+        "Type": "address",
+        "Value": "0x8597fa0773888107e2867d36dd87fe5bafeab328"
+      },
+      {
+        "Indexed": 0,
+        "Name": "_value",
+        "Type": "uint256",
+        "Value": "8451641"
+      }
+    ],
+    "Block": 26303633,
+    "CallFrom": "0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f",
+    "CallIndex": 1,
+    "CallPath": [
+      0
+    ],
+    "CallSuccess": 1,
+    "CallTo": "0xcc8fa225d80b9c7d42f96e9570156c65d6caaa25",
+    "Data": "0x000000000000000000000000000000000000000000000000000000000080f639",
+    "Emitter": "0xcc8fa225d80b9c7d42f96e9570156c65d6caaa25",
+    "Event": "Transfer",
+    "LogInCall": 1,
+    "Parsed": 1,
+    "Removed": 0,
+    "Reverted": 0,
+    "Signature": "Transfer(address,address,uint256)",
+    "Time": "2026-10-30T05:59:23Z",
+    "Topic0": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+    "Topics": [
+      "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+      "0x000000000000000000000000a97bf7836f8a08f9ed91d41453d371493fae8d10",
+      "0x0000000000000000000000008597fa0773888107e2867d36dd87fe5bafeab328"
+    ],
+    "Tx": "0x19804e06787f47b1dadf0146440a86b2ad16130d73c7222fb0863256e0b31cba",
+    "TxFrom": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "TxSuccess": 1
+  },
+  {
+    "Arguments": [
+      {
+        "Indexed": 0,
+        "Name": "reserve0",
+        "Type": "uint112",
+        "Value": "1024622237401242164"
+      },
+      {
+        "Indexed": 0,
+        "Name": "reserve1",
+        "Type": "uint112",
+        "Value": "17628463"
+      }
+    ],
+    "Block": 26303633,
+    "CallFrom": "0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f",
+    "CallIndex": 4,
+    "CallPath": [
+      3
+    ],
+    "CallSuccess": 1,
+    "CallTo": "0x8597fa0773888107e2867d36dd87fe5bafeab328",
+    "Data": "0x0000000000000000000000000000000000000000000000000e38307f09445a3400000000000000000000000000000000000000000000000000000000010cfd2f",
+    "Emitter": "0x8597fa0773888107e2867d36dd87fe5bafeab328",
+    "Event": "Sync",
+    "LogInCall": 0,
+    "Parsed": 1,
+    "Removed": 0,
+    "Reverted": 0,
+    "Signature": "Sync(uint112,uint112)",
+    "Time": "2026-10-30T05:59:23Z",
+    "Topic0": "0x1c411e9a96e071241c2f21f7726b17ae89e3cab4c78be50e062b03a9fffbbad1",
+    "Topics": [
+      "0x1c411e9a96e071241c2f21f7726b17ae89e3cab4c78be50e062b03a9fffbbad1"
+    ],
+    "Tx": "0x19804e06787f47b1dadf0146440a86b2ad16130d73c7222fb0863256e0b31cba",
+    "TxFrom": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "TxSuccess": 1
+  },
+  {
+    "Arguments": [
+      {
+        "Indexed": 1,
+        "Name": "sender",
+        "Type": "address",
+        "Value": "0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f"
+      },
+      {
+        "Indexed": 0,
+        "Name": "amount0In",
+        "Type": "uint256",
+        "Value": "0"
+      },
+      {
+        "Indexed": 0,
+        "Name": "amount1In",
+        "Type": "uint256",
+        "Value": "8451641"
+      },
+      {
+        "Indexed": 0,
+        "Name": "amount0Out",
+        "Type": "uint256",
+        "Value": "940822443019890274"
+      },
+      {
+        "Indexed": 0,
+        "Name": "amount1Out",
+        "Type": "uint256",
+        "Value": "0"
+      },
+      {
+        "Indexed": 1,
+        "Name": "to",
+        "Type": "address",
+        "Value": "0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f"
+      }
+    ],
+    "Block": 26303633,
+    "CallFrom": "0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f",
+    "CallIndex": 4,
+    "CallPath": [
+      3
+    ],
+    "CallSuccess": 1,
+    "CallTo": "0x8597fa0773888107e2867d36dd87fe5bafeab328",
+    "Data": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080f6390000000000000000000000000000000000000000000000000d0e7906f8ea6e620000000000000000000000000000000000000000000000000000000000000000",
+    "Emitter": "0x8597fa0773888107e2867d36dd87fe5bafeab328",
+    "Event": "Swap",
+    "LogInCall": 1,
+    "Parsed": 1,
+    "Removed": 0,
+    "Reverted": 0,
+    "Signature": "Swap(address,uint256,uint256,uint256,uint256,address)",
+    "Time": "2026-10-30T05:59:23Z",
+    "Topic0": "0xd78ad95fa46c994b6551d0da85fc275fe613ce37657fb8d5e3d130840159d822",
+    "Topics": [
+      "0xd78ad95fa46c994b6551d0da85fc275fe613ce37657fb8d5e3d130840159d822",
+      "0x000000000000000000000000d9e1ce17f2641f24ae83637ab66a2cca9c378b9f",
+      "0x000000000000000000000000d9e1ce17f2641f24ae83637ab66a2cca9c378b9f"
+    ],
+    "Tx": "0x19804e06787f47b1dadf0146440a86b2ad16130d73c7222fb0863256e0b31cba",
+    "TxFrom": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "TxSuccess": 1
+  },
+  {
+    "Arguments": [
+      {
+        "Indexed": 1,
+        "Name": "src",
+        "Type": "address",
+        "Value": "0x8597fa0773888107e2867d36dd87fe5bafeab328"
+      },
+      {
+        "Indexed": 1,
+        "Name": "dst",
+        "Type": "address",
+        "Value": "0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f"
+      },
+      {
+        "Indexed": 0,
+        "Name": "wad",
+        "Type": "uint256",
+        "Value": "940822443019890274"
+      }
+    ],
+    "Block": 26303633,
+    "CallFrom": "0x8597fa0773888107e2867d36dd87fe5bafeab328",
+    "CallIndex": 5,
+    "CallPath": [
+      3,
+      0
+    ],
+    "CallSuccess": 1,
+    "CallTo": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "Data": "0x0000000000000000000000000000000000000000000000000d0e7906f8ea6e62",
+    "Emitter": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "Event": "Transfer",
+    "LogInCall": 0,
+    "Parsed": 1,
+    "Removed": 0,
+    "Reverted": 0,
+    "Signature": "Transfer(address,address,uint256)",
+    "Time": "2026-10-30T05:59:23Z",
+    "Topic0": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+    "Topics": [
+      "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+      "0x0000000000000000000000008597fa0773888107e2867d36dd87fe5bafeab328",
+      "0x000000000000000000000000d9e1ce17f2641f24ae83637ab66a2cca9c378b9f"
+    ],
+    "Tx": "0x19804e06787f47b1dadf0146440a86b2ad16130d73c7222fb0863256e0b31cba",
+    "TxFrom": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "TxSuccess": 1
+  },
+  {
+    "Arguments": [
+      {
+        "Indexed": 1,
+        "Name": "src",
+        "Type": "address",
+        "Value": "0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f"
+      },
+      {
+        "Indexed": 0,
+        "Name": "wad",
+        "Type": "uint256",
+        "Value": "940822443019890274"
+      }
+    ],
+    "Block": 26303633,
+    "CallFrom": "0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f",
+    "CallIndex": 9,
+    "CallPath": [
+      5
+    ],
+    "CallSuccess": 1,
+    "CallTo": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "Data": "0x0000000000000000000000000000000000000000000000000d0e7906f8ea6e62",
+    "Emitter": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "Event": "Withdrawal",
+    "LogInCall": 0,
+    "Parsed": 1,
+    "Removed": 0,
+    "Reverted": 0,
+    "Signature": "Withdrawal(address,uint256)",
+    "Time": "2026-10-30T05:59:23Z",
+    "Topic0": "0x7fcf532c15f0a6db0bd6d0e038bea71d30d808c7d98cb3bf7268a95bf5081b65",
+    "Topics": [
+      "0x7fcf532c15f0a6db0bd6d0e038bea71d30d808c7d98cb3bf7268a95bf5081b65",
+      "0x000000000000000000000000d9e1ce17f2641f24ae83637ab66a2cca9c378b9f"
+    ],
+    "Tx": "0x19804e06787f47b1dadf0146440a86b2ad16130d73c7222fb0863256e0b31cba",
+    "TxFrom": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "TxSuccess": 1
+  },
+  {
+    "Arguments": [
+      {
+        "Indexed": 1,
+        "Name": "from",
+        "Type": "address",
+        "Value": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10"
+      },
+      {
+        "Indexed": 1,
+        "Name": "to",
+        "Type": "address",
+        "Value": "0x68fa181c720c07b7ff7412220e2431ce90a65a14"
+      },
+      {
+        "Indexed": 0,
+        "Name": "amount",
+        "Type": "uint256",
+        "Value": "374549786245468572191022"
+      }
+    ],
+    "Block": 26302679,
+    "CallFrom": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "CallIndex": 1,
+    "CallPath": [
+      0
+    ],
+    "CallSuccess": 1,
+    "CallTo": "0x43dfc4159d86f3a37a5a4b3d4580b888ad7d4ddd",
+    "Data": "0x000000000000000000000000000000000000000000004f506274fc6fbbb5892e",
+    "Emitter": "0x43dfc4159d86f3a37a5a4b3d4580b888ad7d4ddd",
+    "Event": "Transfer",
+    "LogInCall": 0,
+    "Parsed": 1,
+    "Removed": 0,
+    "Reverted": 0,
+    "Signature": "Transfer(address,address,uint256)",
+    "Time": "2026-10-30T02:48:11Z",
+    "Topic0": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+    "Topics": [
+      "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+      "0x000000000000000000000000a97bf7836f8a08f9ed91d41453d371493fae8d10",
+      "0x00000000000000000000000068fa181c720c07b7ff7412220e2431ce90a65a14"
+    ],
+    "Tx": "0x1b04802025a8f34693f8eb5629e9b2eec19e17ee36b12338c61dc291532eacfc",
+    "TxFrom": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "TxSuccess": 1
+  },
+  {
+    "Arguments": [
+      {
+        "Indexed": 0,
+        "Name": "reserve0",
+        "Type": "uint112",
+        "Value": "2209280514155911398002643"
+      },
+      {
+        "Indexed": 0,
+        "Name": "reserve1",
+        "Type": "uint112",
+        "Value": "16107212670709773910"
+      }
+    ],
+    "Block": 26302679,
+    "CallFrom": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "CallIndex": 4,
+    "CallPath": [
+      3
+    ],
+    "CallSuccess": 1,
+    "CallTo": "0x68fa181c720c07b7ff7412220e2431ce90a65a14",
+    "Data": "0x00000000000000000000000000000000000000000001d3d5562ef2f8e20b8fd3000000000000000000000000000000000000000000000000df8850959753b656",
+    "Emitter": "0x68fa181c720c07b7ff7412220e2431ce90a65a14",
+    "Event": "Sync",
+    "LogInCall": 0,
+    "Parsed": 1,
+    "Removed": 0,
+    "Reverted": 0,
+    "Signature": "Sync(uint112,uint112)",
+    "Time": "2026-10-30T02:48:11Z",
+    "Topic0": "0x1c411e9a96e071241c2f21f7726b17ae89e3cab4c78be50e062b03a9fffbbad1",
+    "Topics": [
+      "0x1c411e9a96e071241c2f21f7726b17ae89e3cab4c78be50e062b03a9fffbbad1"
+    ],
+    "Tx": "0x1b04802025a8f34693f8eb5629e9b2eec19e17ee36b12338c61dc291532eacfc",
+    "TxFrom": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "TxSuccess": 1
+  },
+  {
+    "Arguments": [
+      {
+        "Indexed": 1,
+        "Name": "sender",
+        "Type": "address",
+        "Value": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d"
+      },
+      {
+        "Indexed": 0,
+        "Name": "amount0In",
+        "Type": "uint256",
+        "Value": "374549786245468572191022"
+      },
+      {
+        "Indexed": 0,
+        "Name": "amount1In",
+        "Type": "uint256",
+        "Value": "0"
+      },
+      {
+        "Indexed": 0,
+        "Name": "amount0Out",
+        "Type": "uint256",
+        "Value": "0"
+      },
+      {
+        "Indexed": 0,
+        "Name": "amount1Out",
+        "Type": "uint256",
+        "Value": "3278330771996408660"
+      },
+      {
+        "Indexed": 1,
+        "Name": "to",
+        "Type": "address",
+        "Value": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d"
+      }
+    ],
+    "Block": 26302679,
+    "CallFrom": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "CallIndex": 4,
+    "CallPath": [
+      3
+    ],
+    "CallSuccess": 1,
+    "CallTo": "0x68fa181c720c07b7ff7412220e2431ce90a65a14",
+    "Data": "0x000000000000000000000000000000000000000000004f506274fc6fbbb5892e000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002d7ef877c113fb54",
+    "Emitter": "0x68fa181c720c07b7ff7412220e2431ce90a65a14",
+    "Event": "Swap",
+    "LogInCall": 1,
+    "Parsed": 1,
+    "Removed": 0,
+    "Reverted": 0,
+    "Signature": "Swap(address,uint256,uint256,uint256,uint256,address)",
+    "Time": "2026-10-30T02:48:11Z",
+    "Topic0": "0xd78ad95fa46c994b6551d0da85fc275fe613ce37657fb8d5e3d130840159d822",
+    "Topics": [
+      "0xd78ad95fa46c994b6551d0da85fc275fe613ce37657fb8d5e3d130840159d822",
+      "0x0000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d",
+      "0x0000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d"
+    ],
+    "Tx": "0x1b04802025a8f34693f8eb5629e9b2eec19e17ee36b12338c61dc291532eacfc",
+    "TxFrom": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "TxSuccess": 1
+  },
+  {
+    "Arguments": [
+      {
+        "Indexed": 1,
+        "Name": "src",
+        "Type": "address",
+        "Value": "0x68fa181c720c07b7ff7412220e2431ce90a65a14"
+      },
+      {
+        "Indexed": 1,
+        "Name": "dst",
+        "Type": "address",
+        "Value": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d"
+      },
+      {
+        "Indexed": 0,
+        "Name": "wad",
+        "Type": "uint256",
+        "Value": "3278330771996408660"
+      }
+    ],
+    "Block": 26302679,
+    "CallFrom": "0x68fa181c720c07b7ff7412220e2431ce90a65a14",
+    "CallIndex": 5,
+    "CallPath": [
+      3,
+      0
+    ],
+    "CallSuccess": 1,
+    "CallTo": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "Data": "0x0000000000000000000000000000000000000000000000002d7ef877c113fb54",
+    "Emitter": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "Event": "Transfer",
+    "LogInCall": 0,
+    "Parsed": 1,
+    "Removed": 0,
+    "Reverted": 0,
+    "Signature": "Transfer(address,address,uint256)",
+    "Time": "2026-10-30T02:48:11Z",
+    "Topic0": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+    "Topics": [
+      "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+      "0x00000000000000000000000068fa181c720c07b7ff7412220e2431ce90a65a14",
+      "0x0000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d"
+    ],
+    "Tx": "0x1b04802025a8f34693f8eb5629e9b2eec19e17ee36b12338c61dc291532eacfc",
+    "TxFrom": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "TxSuccess": 1
+  },
+  {
+    "Arguments": [
+      {
+        "Indexed": 1,
+        "Name": "src",
+        "Type": "address",
+        "Value": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d"
+      },
+      {
+        "Indexed": 0,
+        "Name": "wad",
+        "Type": "uint256",
+        "Value": "3278330771996408660"
+      }
+    ],
+    "Block": 26302679,
+    "CallFrom": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "CallIndex": 9,
+    "CallPath": [
+      5
+    ],
+    "CallSuccess": 1,
+    "CallTo": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "Data": "0x0000000000000000000000000000000000000000000000002d7ef877c113fb54",
+    "Emitter": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "Event": "Withdrawal",
+    "LogInCall": 0,
+    "Parsed": 1,
+    "Removed": 0,
+    "Reverted": 0,
+    "Signature": "Withdrawal(address,uint256)",
+    "Time": "2026-10-30T02:48:11Z",
+    "Topic0": "0x7fcf532c15f0a6db0bd6d0e038bea71d30d808c7d98cb3bf7268a95bf5081b65",
+    "Topics": [
+      "0x7fcf532c15f0a6db0bd6d0e038bea71d30d808c7d98cb3bf7268a95bf5081b65",
+      "0x0000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d"
+    ],
+    "Tx": "0x1b04802025a8f34693f8eb5629e9b2eec19e17ee36b12338c61dc291532eacfc",
+    "TxFrom": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "TxSuccess": 1
+  },
+  {
+    "Arguments": [
+      {
+        "Indexed": 1,
+        "Name": "sender",
+        "Type": "address",
+        "Value": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+      },
+      {
+        "Indexed": 1,
+        "Name": "recipient",
+        "Type": "address",
+        "Value": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+      },
+      {
+        "Indexed": 0,
+        "Name": "amount0",
+        "Type": "int256",
+        "Value": "-9313945199026881"
+      },
+      {
+        "Indexed": 0,
+        "Name": "amount1",
+        "Type": "int256",
+        "Value": "4605401745373369869137"
+      },
+      {
+        "Indexed": 0,
+        "Name": "sqrtPriceX96",
+        "Type": "uint160",
+        "Value": "72681825044344260695375112740498"
+      },
+      {
+        "Indexed": 0,
+        "Name": "liquidity",
+        "Type": "uint128",
+        "Value": "11880571013434059246"
+      },
+      {
+        "Indexed": 0,
+        "Name": "tick",
+        "Type": "int24",
+        "Value": "136437"
+      }
+    ],
+    "Block": 26303595,
+    "CallFrom": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+    "CallIndex": 2,
+    "CallPath": [
+      0,
+      0
+    ],
+    "CallSuccess": 1,
+    "CallTo": "0x98459d59d59056bc7bdb9e954e8be6a8346c15a4",
+    "Data": "0xffffffffffffffffffffffffffffffffffffffffffffffffffdee90424f45d3f0000000000000000000000000000000000000000000000f9a8c9c6f3efb2235100000000000000000000000000000000000003955fa48fc87838022e2f0e9e92000000000000000000000000000000000000000000000000a4e04464088a29ee00000000000000000000000000000000000000000000000000000000000214f5",
+    "Emitter": "0x98459d59d59056bc7bdb9e954e8be6a8346c15a4",
+    "Event": "Swap",
+    "LogInCall": 0,
+    "Parsed": 1,
+    "Removed": 0,
+    "Reverted": 0,
+    "Signature": "Swap(address,address,int256,int256,uint160,uint128,int24)",
+    "Time": "2026-10-30T05:51:47Z",
+    "Topic0": "0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67",
+    "Topics": [
+      "0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67",
+      "0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+      "0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+    ],
+    "Tx": "0x1b5c47cfdfd78a4cf310019646847bcd3f6b0f778e0118226e69588ac04dafb3",
+    "TxFrom": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "TxSuccess": 1
+  },
+  {
+    "Arguments": [
+      {
+        "Indexed": 1,
+        "Name": "src",
+        "Type": "address",
+        "Value": "0x98459d59d59056bc7bdb9e954e8be6a8346c15a4"
+      },
+      {
+        "Indexed": 1,
+        "Name": "dst",
+        "Type": "address",
+        "Value": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+      },
+      {
+        "Indexed": 0,
+        "Name": "wad",
+        "Type": "uint256",
+        "Value": "9313945199026881"
+      }
+    ],
+    "Block": 26303595,
+    "CallFrom": "0x98459d59d59056bc7bdb9e954e8be6a8346c15a4",
+    "CallIndex": 3,
+    "CallPath": [
+      0,
+      0,
+      0
+    ],
+    "CallSuccess": 1,
+    "CallTo": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "Data": "0x000000000000000000000000000000000000000000000000002116fbdb0ba2c1",
+    "Emitter": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "Event": "Transfer",
+    "LogInCall": 0,
+    "Parsed": 1,
+    "Removed": 0,
+    "Reverted": 0,
+    "Signature": "Transfer(address,address,uint256)",
+    "Time": "2026-10-30T05:51:47Z",
+    "Topic0": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+    "Topics": [
+      "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+      "0x00000000000000000000000098459d59d59056bc7bdb9e954e8be6a8346c15a4",
+      "0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+    ],
+    "Tx": "0x1b5c47cfdfd78a4cf310019646847bcd3f6b0f778e0118226e69588ac04dafb3",
+    "TxFrom": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "TxSuccess": 1
+  },
+  {
+    "Arguments": [
+      {
+        "Indexed": 1,
+        "Name": "from",
+        "Type": "address",
+        "Value": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10"
+      },
+      {
+        "Indexed": 1,
+        "Name": "to",
+        "Type": "address",
+        "Value": "0x98459d59d59056bc7bdb9e954e8be6a8346c15a4"
+      },
+      {
+        "Indexed": 0,
+        "Name": "value",
+        "Type": "uint256",
+        "Value": "4605401745373369869137"
+      }
+    ],
+    "Block": 26303595,
+    "CallFrom": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+    "CallIndex": 6,
+    "CallPath": [
+      0,
+      0,
+      2,
+      0
+    ],
+    "CallSuccess": 1,
+    "CallTo": "0xe6bfd33f52d82ccb5b37e16d3dd81f9ffdabb195",
+    "Data": "0x0000000000000000000000000000000000000000000000f9a8c9c6f3efb22351",
+    "Emitter": "0xe6bfd33f52d82ccb5b37e16d3dd81f9ffdabb195",
+    "Event": "Transfer",
+    "LogInCall": 0,
+    "Parsed": 1,
+    "Removed": 0,
+    "Reverted": 0,
+    "Signature": "Transfer(address,address,uint256)",
+    "Time": "2026-10-30T05:51:47Z",
+    "Topic0": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+    "Topics": [
+      "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+      "0x000000000000000000000000a97bf7836f8a08f9ed91d41453d371493fae8d10",
+      "0x00000000000000000000000098459d59d59056bc7bdb9e954e8be6a8346c15a4"
+    ],
+    "Tx": "0x1b5c47cfdfd78a4cf310019646847bcd3f6b0f778e0118226e69588ac04dafb3",
+    "TxFrom": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "TxSuccess": 1
+  },
+  {
+    "Arguments": [
+      {
+        "Indexed": 1,
+        "Name": "src",
+        "Type": "address",
+        "Value": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+      },
+      {
+        "Indexed": 0,
+        "Name": "wad",
+        "Type": "uint256",
+        "Value": "9313945199026881"
+      }
+    ],
+    "Block": 26303595,
+    "CallFrom": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+    "CallIndex": 10,
+    "CallPath": [
+      1,
+      1
+    ],
+    "CallSuccess": 1,
+    "CallTo": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "Data": "0x000000000000000000000000000000000000000000000000002116fbdb0ba2c1",
+    "Emitter": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "Event": "Withdrawal",
+    "LogInCall": 0,
+    "Parsed": 1,
+    "Removed": 0,
+    "Reverted": 0,
+    "Signature": "Withdrawal(address,uint256)",
+    "Time": "2026-10-30T05:51:47Z",
+    "Topic0": "0x7fcf532c15f0a6db0bd6d0e038bea71d30d808c7d98cb3bf7268a95bf5081b65",
+    "Topics": [
+      "0x7fcf532c15f0a6db0bd6d0e038bea71d30d808c7d98cb3bf7268a95bf5081b65",
+      "0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+    ],
+    "Tx": "0x1b5c47cfdfd78a4cf310019646847bcd3f6b0f778e0118226e69588ac04dafb3",
+    "TxFrom": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "TxSuccess": 1
+  },
+  {
+    "Arguments": [
+      {
+        "Indexed": 1,
+        "Name": "sender",
+        "Type": "address",
+        "Value": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+      },
+      {
+        "Indexed": 1,
+        "Name": "recipient",
+        "Type": "address",
+        "Value": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+      },
+      {
+        "Indexed": 0,
+        "Name": "amount0",
+        "Type": "int256",
+        "Value": "3745184249191631803800620"
+      },
+      {
+        "Indexed": 0,
+        "Name": "amount1",
+        "Type": "int256",
+        "Value": "-17572749103025391488"
+      },
+      {
+        "Indexed": 0,
+        "Name": "sqrtPriceX96",
+        "Type": "uint160",
+        "Value": "4295128740"
+      },
+      {
+        "Indexed": 0,
+        "Name": "liquidity",
+        "Type": "uint128",
+        "Value": "0"
+      },
+      {
+        "Indexed": 0,
+        "Name": "tick",
+        "Type": "int24",
+        "Value": "-887272"
+      }
+    ],
+    "Block": 26303738,
+    "CallFrom": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+    "CallIndex": 2,
+    "CallPath": [
+      0,
+      0
+    ],
+    "CallSuccess": 1,
+    "CallTo": "0xd2e0add90e86079b9961fa232178049503e06401",
+    "Data": "0x000000000000000000000000000000000000000000031912d84fbb36192a5c2cffffffffffffffffffffffffffffffffffffffffffffffff0c210dcb931b788000000000000000000000000000000000000000000000000000000001000276a40000000000000000000000000000000000000000000000000000000000000000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff27618",
+    "Emitter": "0xd2e0add90e86079b9961fa232178049503e06401",
+    "Event": "Swap",
+    "LogInCall": 0,
+    "Parsed": 1,
+    "Removed": 0,
+    "Reverted": 0,
+    "Signature": "Swap(address,address,int256,int256,uint160,uint128,int24)",
+    "Time": "2026-10-30T06:20:23Z",
+    "Topic0": "0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67",
+    "Topics": [
+      "0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67",
+      "0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+      "0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+    ],
+    "Tx": "0x5aaabda6db62c5c2af7ccf42954e0df338004459db7d5cbdbafb77d27ce3b968",
+    "TxFrom": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "TxSuccess": 1
+  },
+  {
+    "Arguments": [
+      {
+        "Indexed": 1,
+        "Name": "src",
+        "Type": "address",
+        "Value": "0xd2e0add90e86079b9961fa232178049503e06401"
+      },
+      {
+        "Indexed": 1,
+        "Name": "dst",
+        "Type": "address",
+        "Value": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+      },
+      {
+        "Indexed": 0,
+        "Name": "wad",
+        "Type": "uint256",
+        "Value": "17572749103025391488"
+      }
+    ],
+    "Block": 26303738,
+    "CallFrom": "0xd2e0add90e86079b9961fa232178049503e06401",
+    "CallIndex": 3,
+    "CallPath": [
+      0,
+      0,
+      0
+    ],
+    "CallSuccess": 1,
+    "CallTo": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "Data": "0x000000000000000000000000000000000000000000000000f3def2346ce48780",
+    "Emitter": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "Event": "Transfer",
+    "LogInCall": 0,
+    "Parsed": 1,
+    "Removed": 0,
+    "Reverted": 0,
+    "Signature": "Transfer(address,address,uint256)",
+    "Time": "2026-10-30T06:20:23Z",
+    "Topic0": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+    "Topics": [
+      "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+      "0x000000000000000000000000d2e0add90e86079b9961fa232178049503e06401",
+      "0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+    ],
+    "Tx": "0x5aaabda6db62c5c2af7ccf42954e0df338004459db7d5cbdbafb77d27ce3b968",
+    "TxFrom": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "TxSuccess": 1
+  },
+  {
+    "Arguments": [
+      {
+        "Indexed": 1,
+        "Name": "from",
+        "Type": "address",
+        "Value": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10"
+      },
+      {
+        "Indexed": 1,
+        "Name": "to",
+        "Type": "address",
+        "Value": "0xd2e0add90e86079b9961fa232178049503e06401"
+      },
+      {
+        "Indexed": 0,
+        "Name": "value",
+        "Type": "uint256",
+        "Value": "3745184249191631803800620"
+      }
+    ],
+    "Block": 26303738,
+    "CallFrom": "0x18aaa7115705e8be94bffebde57af9bfc265b998",
+    "CallIndex": 8,
+    "CallPath": [
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "CallSuccess": 1,
+    "CallTo": "0x930c746a6e92ca8122682df48cd5020bc1771b32",
+    "Data": "0x000000000000000000000000000000000000000000031912d84fbb36192a5c2c",
+    "Emitter": "0x18aaa7115705e8be94bffebde57af9bfc265b998",
+    "Event": "Transfer",
+    "LogInCall": 0,
+    "Parsed": 1,
+    "Removed": 0,
+    "Reverted": 0,
+    "Signature": "Transfer(address,address,uint256)",
+    "Time": "2026-10-30T06:20:23Z",
+    "Topic0": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+    "Topics": [
+      "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+      "0x000000000000000000000000a97bf7836f8a08f9ed91d41453d371493fae8d10",
+      "0x000000000000000000000000d2e0add90e86079b9961fa232178049503e06401"
+    ],
+    "Tx": "0x5aaabda6db62c5c2af7ccf42954e0df338004459db7d5cbdbafb77d27ce3b968",
+    "TxFrom": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "TxSuccess": 1
+  },
+  {
+    "Arguments": [
+      {
+        "Indexed": 1,
+        "Name": "owner",
+        "Type": "address",
+        "Value": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10"
+      },
+      {
+        "Indexed": 1,
+        "Name": "spender",
+        "Type": "address",
+        "Value": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+      },
+      {
+        "Indexed": 0,
+        "Name": "value",
+        "Type": "uint256",
+        "Value": "19651690228104432406394352"
+      }
+    ],
+    "Block": 26303738,
+    "CallFrom": "0x18aaa7115705e8be94bffebde57af9bfc265b998",
+    "CallIndex": 8,
+    "CallPath": [
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "CallSuccess": 1,
+    "CallTo": "0x930c746a6e92ca8122682df48cd5020bc1771b32",
+    "Data": "0x000000000000000000000000000000000000000000104168430cefcf10ae75f0",
+    "Emitter": "0x18aaa7115705e8be94bffebde57af9bfc265b998",
+    "Event": "Approval",
+    "LogInCall": 1,
+    "Parsed": 1,
+    "Removed": 0,
+    "Reverted": 0,
+    "Signature": "Approval(address,address,uint256)",
+    "Time": "2026-10-30T06:20:23Z",
+    "Topic0": "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+    "Topics": [
+      "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+      "0x000000000000000000000000a97bf7836f8a08f9ed91d41453d371493fae8d10",
+      "0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+    ],
+    "Tx": "0x5aaabda6db62c5c2af7ccf42954e0df338004459db7d5cbdbafb77d27ce3b968",
+    "TxFrom": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "TxSuccess": 1
+  },
+  {
+    "Arguments": [
+      {
+        "Indexed": 1,
+        "Name": "src",
+        "Type": "address",
+        "Value": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+      },
+      {
+        "Indexed": 0,
+        "Name": "wad",
+        "Type": "uint256",
+        "Value": "17572749103025391488"
+      }
+    ],
+    "Block": 26303738,
+    "CallFrom": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+    "CallIndex": 13,
+    "CallPath": [
+      1,
+      1
+    ],
+    "CallSuccess": 1,
+    "CallTo": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "Data": "0x000000000000000000000000000000000000000000000000f3def2346ce48780",
+    "Emitter": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "Event": "Withdrawal",
+    "LogInCall": 0,
+    "Parsed": 1,
+    "Removed": 0,
+    "Reverted": 0,
+    "Signature": "Withdrawal(address,uint256)",
+    "Time": "2026-10-30T06:20:23Z",
+    "Topic0": "0x7fcf532c15f0a6db0bd6d0e038bea71d30d808c7d98cb3bf7268a95bf5081b65",
+    "Topics": [
+      "0x7fcf532c15f0a6db0bd6d0e038bea71d30d808c7d98cb3bf7268a95bf5081b65",
+      "0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+    ],
+    "Tx": "0x5aaabda6db62c5c2af7ccf42954e0df338004459db7d5cbdbafb77d27ce3b968",
+    "TxFrom": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "TxSuccess": 1
+  },
+  {
+    "Arguments": [
+      {
+        "Indexed": 1,
+        "Name": "sender",
+        "Type": "address",
+        "Value": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+      },
+      {
+        "Indexed": 1,
+        "Name": "recipient",
+        "Type": "address",
+        "Value": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+      },
+      {
+        "Indexed": 0,
+        "Name": "amount0",
+        "Type": "int256",
+        "Value": "2349846918292402867416829"
+      },
+      {
+        "Indexed": 0,
+        "Name": "amount1",
+        "Type": "int256",
+        "Value": "-100648880344946284816"
+      },
+      {
+        "Indexed": 0,
+        "Name": "sqrtPriceX96",
+        "Type": "uint160",
+        "Value": "8292433161751300542291826"
+      },
+      {
+        "Indexed": 0,
+        "Name": "liquidity",
+        "Type": "uint128",
+        "Value": "70117844272947978790"
+      },
+      {
+        "Indexed": 0,
+        "Name": "tick",
+        "Type": "int24",
+        "Value": "-183305"
+      }
+    ],
+    "Block": 26302986,
+    "CallFrom": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+    "CallIndex": 2,
+    "CallPath": [
+      0,
+      0
+    ],
+    "CallSuccess": 1,
+    "CallTo": "0xc76cdb74d781e219e8c8855a99584dd2e4580046",
+    "Data": "0x00000000000000000000000000000000000000000001f19974e9b46227722efdfffffffffffffffffffffffffffffffffffffffffffffffa8b3758963eae66f000000000000000000000000000000000000000000006dbfdb3d44af0816bdf72000000000000000000000000000000000000000000000003cd149fddb138e226fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd33f7",
+    "Emitter": "0xc76cdb74d781e219e8c8855a99584dd2e4580046",
+    "Event": "Swap",
+    "LogInCall": 0,
+    "Parsed": 1,
+    "Removed": 0,
+    "Reverted": 0,
+    "Signature": "Swap(address,address,int256,int256,uint160,uint128,int24)",
+    "Time": "2026-10-30T03:49:47Z",
+    "Topic0": "0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67",
+    "Topics": [
+      "0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67",
+      "0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+      "0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+    ],
+    "Tx": "0x8c3f2b7b490c9187adeb9a6bed1ac3972599a54d901431030396015717b74003",
+    "TxFrom": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "TxSuccess": 1
+  },
+  {
+    "Arguments": [
+      {
+        "Indexed": 1,
+        "Name": "src",
+        "Type": "address",
+        "Value": "0xc76cdb74d781e219e8c8855a99584dd2e4580046"
+      },
+      {
+        "Indexed": 1,
+        "Name": "dst",
+        "Type": "address",
+        "Value": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+      },
+      {
+        "Indexed": 0,
+        "Name": "wad",
+        "Type": "uint256",
+        "Value": "100648880344946284816"
+      }
+    ],
+    "Block": 26302986,
+    "CallFrom": "0xc76cdb74d781e219e8c8855a99584dd2e4580046",
+    "CallIndex": 3,
+    "CallPath": [
+      0,
+      0,
+      0
+    ],
+    "CallSuccess": 1,
+    "CallTo": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "Data": "0x00000000000000000000000000000000000000000000000574c8a769c1519910",
+    "Emitter": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "Event": "Transfer",
+    "LogInCall": 0,
+    "Parsed": 1,
+    "Removed": 0,
+    "Reverted": 0,
+    "Signature": "Transfer(address,address,uint256)",
+    "Time": "2026-10-30T03:49:47Z",
+    "Topic0": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+    "Topics": [
+      "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+      "0x000000000000000000000000c76cdb74d781e219e8c8855a99584dd2e4580046",
+      "0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+    ],
+    "Tx": "0x8c3f2b7b490c9187adeb9a6bed1ac3972599a54d901431030396015717b74003",
+    "TxFrom": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "TxSuccess": 1
+  },
+  {
+    "Arguments": [
+      {
+        "Indexed": 1,
+        "Name": "from",
+        "Type": "address",
+        "Value": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10"
+      },
+      {
+        "Indexed": 1,
+        "Name": "to",
+        "Type": "address",
+        "Value": "0xc76cdb74d781e219e8c8855a99584dd2e4580046"
+      },
+      {
+        "Indexed": 0,
+        "Name": "value",
+        "Type": "uint256",
+        "Value": "2349846918292402867416829"
+      }
+    ],
+    "Block": 26302986,
+    "CallFrom": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+    "CallIndex": 6,
+    "CallPath": [
+      0,
+      0,
+      2,
+      0
+    ],
+    "CallSuccess": 1,
+    "CallTo": "0x6bef15d938d4e72056ac92ea4bdd0d76b1c4ad29",
+    "Data": "0x00000000000000000000000000000000000000000001f19974e9b46227722efd",
+    "Emitter": "0x6bef15d938d4e72056ac92ea4bdd0d76b1c4ad29",
+    "Event": "Transfer",
+    "LogInCall": 0,
+    "Parsed": 1,
+    "Removed": 0,
+    "Reverted": 0,
+    "Signature": "Transfer(address,address,uint256)",
+    "Time": "2026-10-30T03:49:47Z",
+    "Topic0": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+    "Topics": [
+      "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+      "0x000000000000000000000000a97bf7836f8a08f9ed91d41453d371493fae8d10",
+      "0x000000000000000000000000c76cdb74d781e219e8c8855a99584dd2e4580046"
+    ],
+    "Tx": "0x8c3f2b7b490c9187adeb9a6bed1ac3972599a54d901431030396015717b74003",
+    "TxFrom": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "TxSuccess": 1
+  },
+  {
+    "Arguments": [
+      {
+        "Indexed": 1,
+        "Name": "src",
+        "Type": "address",
+        "Value": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+      },
+      {
+        "Indexed": 0,
+        "Name": "wad",
+        "Type": "uint256",
+        "Value": "100648880344946284816"
+      }
+    ],
+    "Block": 26302986,
+    "CallFrom": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+    "CallIndex": 10,
+    "CallPath": [
+      1,
+      1
+    ],
+    "CallSuccess": 1,
+    "CallTo": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "Data": "0x00000000000000000000000000000000000000000000000574c8a769c1519910",
+    "Emitter": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "Event": "Withdrawal",
+    "LogInCall": 0,
+    "Parsed": 1,
+    "Removed": 0,
+    "Reverted": 0,
+    "Signature": "Withdrawal(address,uint256)",
+    "Time": "2026-10-30T03:49:47Z",
+    "Topic0": "0x7fcf532c15f0a6db0bd6d0e038bea71d30d808c7d98cb3bf7268a95bf5081b65",
+    "Topics": [
+      "0x7fcf532c15f0a6db0bd6d0e038bea71d30d808c7d98cb3bf7268a95bf5081b65",
+      "0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+    ],
+    "Tx": "0x8c3f2b7b490c9187adeb9a6bed1ac3972599a54d901431030396015717b74003",
+    "TxFrom": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "TxSuccess": 1
+  }
+]
