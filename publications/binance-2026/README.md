@@ -27,6 +27,8 @@ The objective is to reconstruct observable transaction mechanisms and asset move
 
 These figures describe different transaction populations and accounting categories. They must not be summed as an incident loss estimate or treated as a conserved flow of exclusively stolen assets.
 
+**Independent Bitquery MCP verification:** 1,015 / 1,015 WETH Withdrawal transactions passed cross-provider event and amount verification; 0 required review. The audit preserved 21 raw response batches and passed SHA-256 integrity checks. Native ETH return paths and incident-fund provenance were not independently established by this check.
+
 ### Part I — Delegated Wallet Execution
 
 **[Read Part I: Technical Mechanism and Initial Asset Movements](README.md#executive-summary)**
@@ -342,6 +344,30 @@ In the verified transactions, I was able to reconcile WETH Withdrawal events wit
 Importantly, **this does not mean that the same ETH was circulated 1,015 times, nor does it establish that all 6,829 ETH originated from the Binance theft.**
 
 What the evidence establishes is the observed transaction execution structure and direct ETH return amounts across these 1,015 transactions.
+
+#### Independent Cross-Provider Verification — Bitquery MCP
+
+Following the original Blockscout-based reconstruction, I conducted an additional independent cross-check using **Bitquery's Model Context Protocol (MCP) integration**.
+
+The audit examined the same 1,015 transaction hashes and compared the WETH Withdrawal event evidence and amounts against the previously preserved research ledger.
+
+| Verification measure | Result |
+|---|---:|
+| Distinct transactions checked | 1,015 |
+| Transactions passing verification | **1,015 / 1,015** |
+| Transactions requiring review | **0** |
+| Preserved raw response batches | 21 |
+| SHA-256 integrity audit | **PASS** |
+
+This provides independent-provider corroboration of the WETH Withdrawal events and amounts, beyond the original Blockscout-based consistency checks.
+
+The verification does not independently establish the provenance of every asset, all native ETH transfer paths, or the identity of the ultimate beneficiaries.
+
+**Audit evidence:** [Bitquery MCP Independent Audit — Commit f80f375](https://github.com/Sellina95/independent-financial-crime-research/tree/f80f375/research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1)
+
+**Research status:** A97B node investigation closed at the documented evidence boundary.
+
+---
 
 ### 4. Why Did This Activity Attract My Attention?
 
