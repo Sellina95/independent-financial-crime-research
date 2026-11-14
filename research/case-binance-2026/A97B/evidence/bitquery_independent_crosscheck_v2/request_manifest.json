@@ -1,0 +1,236 @@
+{
+  "case": "A97B",
+  "stage": "v2_first_50_new_transactions_plus_pilot_reread",
+  "network": "Ethereum mainnet",
+  "source_ledger": "research/case-binance-2026/A97B/eth_address_receipts_v1/A97B_ADDRESS_ETH_RETURN_V1.csv",
+  "source_ledger_sha256": "4f2c27670a1e155506f70f3f850151340293a890c626b5f4baaeb38845fe4eef",
+  "prior_crosscheck_source": "research/case-binance-2026/A97B/evidence/bitquery_independent_crosscheck_v1/A97B_BITQUERY_CROSSCHECK_V1.csv",
+  "prior_crosscheck_sha256": "53b5fd73c5091f80dee8a59f43fc3174e56a1132858dc7c42a058dee1ce06fab",
+  "ledger_rows": 1015,
+  "prior_checks_excluded": 6,
+  "pilot_hashes_reread": 10,
+  "new_candidates_total": 999,
+  "new_candidates_queried_this_stage": 50,
+  "mcp_tool": "bitquery-eth_tx_events",
+  "successful_calls": [
+    {
+      "call_id": "pilot10",
+      "requested_count": 10,
+      "requested_hashes": [
+        "0x19a2f106b11de40c18f73216d68c9765563d2ee391db05fe80fb071432084c04",
+        "0x1aaeaedc22c0b7153c6504f1439e4ef04f447ef00cfebca421dc7e799725d46e",
+        "0x1acda90f747b12430b894300ed113684d914ab7aa5c7b6612b80991e70ba999d",
+        "0x1aceac95cbe2afe8dc4d413a6541dce9b05725fa428c4f802638dfa89b9c9e1d",
+        "0x1b0913ca627684b2f741f3144be8b5343610790fb1368e99599f64501b8457f4",
+        "0x1b9318dd08fd8ba6ce152da936970061c8dc4cfc8441f484f5f9e1d760d54271",
+        "0x1ba4ce26e4f55c2bc626fa1828ebdbd5bfbd04df98660a38535770d55af4ba91",
+        "0x1bbcb3823dc03fbd2026a013f27e530f8f3e02929b7d814cbbdd56dac837c26d",
+        "0x1c0828c5a155c5b3360b88d484bd6d3f0b733ce3228931f87a8b67213f1ea383",
+        "0x1c0e7a71bb5396a55bf0e3f81c1a244ea7c04d034f5206e633a411f72c8b743b"
+      ],
+      "response_file": "pilot10_events.json",
+      "returned_rows": 10,
+      "status": "success",
+      "returned_hashes": [
+        "0x19a2f106b11de40c18f73216d68c9765563d2ee391db05fe80fb071432084c04",
+        "0x1aaeaedc22c0b7153c6504f1439e4ef04f447ef00cfebca421dc7e799725d46e",
+        "0x1acda90f747b12430b894300ed113684d914ab7aa5c7b6612b80991e70ba999d",
+        "0x1aceac95cbe2afe8dc4d413a6541dce9b05725fa428c4f802638dfa89b9c9e1d",
+        "0x1b0913ca627684b2f741f3144be8b5343610790fb1368e99599f64501b8457f4",
+        "0x1b9318dd08fd8ba6ce152da936970061c8dc4cfc8441f484f5f9e1d760d54271",
+        "0x1ba4ce26e4f55c2bc626fa1828ebdbd5bfbd04df98660a38535770d55af4ba91",
+        "0x1bbcb3823dc03fbd2026a013f27e530f8f3e02929b7d814cbbdd56dac837c26d",
+        "0x1c0828c5a155c5b3360b88d484bd6d3f0b733ce3228931f87a8b67213f1ea383",
+        "0x1c0e7a71bb5396a55bf0e3f81c1a244ea7c04d034f5206e633a411f72c8b743b"
+      ],
+      "missing_hashes": [],
+      "duplicate_rows": 0,
+      "at_limit": false
+    },
+    {
+      "call_id": "batch_001",
+      "requested_count": 10,
+      "requested_hashes": [
+        "0x1ce8795874ac45fa31e72ed23d2bdd4fa427ab239bbce8d170744deb57cb6b24",
+        "0x1cf6074b9a86a0fce604fc74fb5f66d322d7fa7398f328ba5b312073f7f8bba1",
+        "0x1d22707a275b7a3a76db89517ae9bc3b13f5bef07517bcfe021aed3298138db9",
+        "0x1d59b458e6b572c89881e38fd9180e2c1d98ef20a8032eb668c013e30f1310a0",
+        "0x1d7fe5ac728d561222f6d9c33f3c625ca728cf0a1d1d3e253fa2a879efa77a5a",
+        "0x1de80d3b51ad25b13fdc54afec806e65c23710796fc04dd5160abbccc0affc22",
+        "0x1debbac7430b7d27020e1e61a89a94140aecb2084066b127fe62d77ccd0f41e3",
+        "0x1dee099a1264991e5b674cb25e59e422a8d131ccb5fafafd99ae4bd37a52627c",
+        "0x1e28fdf432d866f11ac1ad95869123ffeeb2da43bfbb391c7f61302f710c2157",
+        "0x1e34177e6bc90a0e2394cb3eba47a029e3d41f9755f4de8979f231abca046bea"
+      ],
+      "response_file": "batch_001_events.json",
+      "returned_rows": 10,
+      "status": "success",
+      "returned_hashes": [
+        "0x1ce8795874ac45fa31e72ed23d2bdd4fa427ab239bbce8d170744deb57cb6b24",
+        "0x1cf6074b9a86a0fce604fc74fb5f66d322d7fa7398f328ba5b312073f7f8bba1",
+        "0x1d22707a275b7a3a76db89517ae9bc3b13f5bef07517bcfe021aed3298138db9",
+        "0x1d59b458e6b572c89881e38fd9180e2c1d98ef20a8032eb668c013e30f1310a0",
+        "0x1d7fe5ac728d561222f6d9c33f3c625ca728cf0a1d1d3e253fa2a879efa77a5a",
+        "0x1de80d3b51ad25b13fdc54afec806e65c23710796fc04dd5160abbccc0affc22",
+        "0x1debbac7430b7d27020e1e61a89a94140aecb2084066b127fe62d77ccd0f41e3",
+        "0x1dee099a1264991e5b674cb25e59e422a8d131ccb5fafafd99ae4bd37a52627c",
+        "0x1e28fdf432d866f11ac1ad95869123ffeeb2da43bfbb391c7f61302f710c2157",
+        "0x1e34177e6bc90a0e2394cb3eba47a029e3d41f9755f4de8979f231abca046bea"
+      ],
+      "missing_hashes": [],
+      "duplicate_rows": 0,
+      "at_limit": false
+    },
+    {
+      "call_id": "batch_002",
+      "requested_count": 10,
+      "requested_hashes": [
+        "0x1e63e4f72ecc8aad05617e5d284c55586b166fa88c3fb2615fdb53578960f471",
+        "0x1e64f33036398dfd0337b4c97d08d7cef787708844e7dd8a8f24418544b66dcf",
+        "0x1e75ce0eeff076c78b32a12e1522d0d25a3d5536b372159942a039fc01385c3a",
+        "0x1e8fdf4ffb2650b0e047c1e4bb856365f1a92ac5d0d7f67a13f12e340f118119",
+        "0x1ecdf6b62e99cf42f47dd7f370e3657ccccf388943fd5970e28841c69e7ed42b",
+        "0x1f38e2dd95deb07645c75e5dc9cf16b887eef0720faa8c900d8ecfff27db9e43",
+        "0x1f7c13dcdd640e6b3a891d1b2541aeb09aa850c74c850e4afdfac0a4678e3034",
+        "0x1f956efec7ea2b6a6cf386012e4a559af2da3a4f4fed3b9eac7cc5c1aa96ea9e",
+        "0x1f973cb0c8daf8bff464489c138273e23bc5e7dd06cb0fa2f1fd91493c6ee5bd",
+        "0x1fef53831f404b10ac108e2e1345dfaf3ea313477351e131cac89a1b5bda3050"
+      ],
+      "response_file": "batch_002_events.json",
+      "returned_rows": 10,
+      "status": "success",
+      "returned_hashes": [
+        "0x1e63e4f72ecc8aad05617e5d284c55586b166fa88c3fb2615fdb53578960f471",
+        "0x1e64f33036398dfd0337b4c97d08d7cef787708844e7dd8a8f24418544b66dcf",
+        "0x1e75ce0eeff076c78b32a12e1522d0d25a3d5536b372159942a039fc01385c3a",
+        "0x1e8fdf4ffb2650b0e047c1e4bb856365f1a92ac5d0d7f67a13f12e340f118119",
+        "0x1ecdf6b62e99cf42f47dd7f370e3657ccccf388943fd5970e28841c69e7ed42b",
+        "0x1f38e2dd95deb07645c75e5dc9cf16b887eef0720faa8c900d8ecfff27db9e43",
+        "0x1f7c13dcdd640e6b3a891d1b2541aeb09aa850c74c850e4afdfac0a4678e3034",
+        "0x1f956efec7ea2b6a6cf386012e4a559af2da3a4f4fed3b9eac7cc5c1aa96ea9e",
+        "0x1f973cb0c8daf8bff464489c138273e23bc5e7dd06cb0fa2f1fd91493c6ee5bd",
+        "0x1fef53831f404b10ac108e2e1345dfaf3ea313477351e131cac89a1b5bda3050"
+      ],
+      "missing_hashes": [],
+      "duplicate_rows": 0,
+      "at_limit": false
+    },
+    {
+      "call_id": "batch_003",
+      "requested_count": 10,
+      "requested_hashes": [
+        "0x208257472ee9760ffc687947ac72947fcf60515339af22e6991cbce766de8bea",
+        "0x20a3510d11351c52059ce4f4dc5690c55909e212bd726d81320a5dd9e5419fa9",
+        "0x20cb13a911a7cc7343d33aa55b44cef6bb7f4fdd4651a5e3bff4e5cfdacdcea9",
+        "0x20f32ebe60a96c60e153ef8b17a3ae211aed404d2f9112ef753ecc9cd568e04a",
+        "0x20f5bec0677adad4f93e43dfe847cf46faabe7e206aae7dfa1fa96671c819ac6",
+        "0x2134020a7359dc09bd4b6c68d594ae35e3a4f2c60bdd0b9f2e3a26bedfabf6c8",
+        "0x21479ff965533f489565e35234ea5cad9e1833562692ac0997128d9d70d7a12b",
+        "0x215c152665bd83452f17f7113d8cc552b7550bf5486c0aebd5b00d6b1c5ed1ce",
+        "0x22118611845e318b20b30ffe374bcaf3e72511758ebfaaa1de8ba7e568f16e5f",
+        "0x22ca87d04f97f004ceb4970753d78dce8d54d4cc71f491ec4baf89e725e07854"
+      ],
+      "response_file": "batch_003_events.json",
+      "returned_rows": 10,
+      "status": "success",
+      "returned_hashes": [
+        "0x208257472ee9760ffc687947ac72947fcf60515339af22e6991cbce766de8bea",
+        "0x20a3510d11351c52059ce4f4dc5690c55909e212bd726d81320a5dd9e5419fa9",
+        "0x20cb13a911a7cc7343d33aa55b44cef6bb7f4fdd4651a5e3bff4e5cfdacdcea9",
+        "0x20f32ebe60a96c60e153ef8b17a3ae211aed404d2f9112ef753ecc9cd568e04a",
+        "0x20f5bec0677adad4f93e43dfe847cf46faabe7e206aae7dfa1fa96671c819ac6",
+        "0x2134020a7359dc09bd4b6c68d594ae35e3a4f2c60bdd0b9f2e3a26bedfabf6c8",
+        "0x21479ff965533f489565e35234ea5cad9e1833562692ac0997128d9d70d7a12b",
+        "0x215c152665bd83452f17f7113d8cc552b7550bf5486c0aebd5b00d6b1c5ed1ce",
+        "0x22118611845e318b20b30ffe374bcaf3e72511758ebfaaa1de8ba7e568f16e5f",
+        "0x22ca87d04f97f004ceb4970753d78dce8d54d4cc71f491ec4baf89e725e07854"
+      ],
+      "missing_hashes": [],
+      "duplicate_rows": 0,
+      "at_limit": false
+    },
+    {
+      "call_id": "batch_004",
+      "requested_count": 10,
+      "requested_hashes": [
+        "0x236c5fd9e8697944041fb0a0d0122dfe2fb2685f6be32f5484a677742b8a080b",
+        "0x2411cd8542559f8a6d7b1f2106ff0754536daf816f650a54882f7b7a32f65c9c",
+        "0x244ec4e2c04b0d7df28baa88ce9dfd8930a552d8ae9a7ebf341506887d32e154",
+        "0x245892092236bcc7a767ca92fbe8e9f168048eba722c1ee88bdd519cf4548019",
+        "0x249cfc1a2950f50eb31c64c5413687eb3eca068536b9bcf26536e51130dd5288",
+        "0x24a633f8b288c45671ff278ef5d20e144a07d3dfe38b9cd87dd17ed44d795046",
+        "0x24eeb3a29b35dae7931a59fa3509ab878060e844a48981d2cef0839136a1b7c7",
+        "0x250638ef55845812c3718ac76d8d2aab97f8e1f002ccf307fdde3adf59a4309d",
+        "0x25171bdc936f647ef84b54b83693171cb20bdbf2be93c79eec0be9099ed7a681",
+        "0x252d3c3027ccee0b9c6408e074fa68771b7a87b36d5e40f74f6bc950c15ee59f"
+      ],
+      "response_file": "batch_004_events.json",
+      "returned_rows": 10,
+      "status": "success",
+      "returned_hashes": [
+        "0x236c5fd9e8697944041fb0a0d0122dfe2fb2685f6be32f5484a677742b8a080b",
+        "0x2411cd8542559f8a6d7b1f2106ff0754536daf816f650a54882f7b7a32f65c9c",
+        "0x244ec4e2c04b0d7df28baa88ce9dfd8930a552d8ae9a7ebf341506887d32e154",
+        "0x245892092236bcc7a767ca92fbe8e9f168048eba722c1ee88bdd519cf4548019",
+        "0x249cfc1a2950f50eb31c64c5413687eb3eca068536b9bcf26536e51130dd5288",
+        "0x24a633f8b288c45671ff278ef5d20e144a07d3dfe38b9cd87dd17ed44d795046",
+        "0x24eeb3a29b35dae7931a59fa3509ab878060e844a48981d2cef0839136a1b7c7",
+        "0x250638ef55845812c3718ac76d8d2aab97f8e1f002ccf307fdde3adf59a4309d",
+        "0x25171bdc936f647ef84b54b83693171cb20bdbf2be93c79eec0be9099ed7a681",
+        "0x252d3c3027ccee0b9c6408e074fa68771b7a87b36d5e40f74f6bc950c15ee59f"
+      ],
+      "missing_hashes": [],
+      "duplicate_rows": 0,
+      "at_limit": false
+    },
+    {
+      "call_id": "batch_005",
+      "requested_count": 10,
+      "requested_hashes": [
+        "0x259c856f82df7b344f66484a932f7466b585ac3ebe4b1d932bd06bce41600949",
+        "0x26671b414bb2e24c0158f043d50cf43f6f6183a4c54bb761cd3d86146cbb12fc",
+        "0x266c36e491f1b2ee39bd6fded1747b04df2f1680c0e0041b6ef76b55c2b80a31",
+        "0x26916df9f3114c08c3b515ec177ac4e3783306476f77d5b790ae50888f8cf737",
+        "0x2694867c9a646e0f6a887d386acd83282569fd2bfd0a7fcbc9a29adbe3ab2f27",
+        "0x26c150686e2c37b034f55b72e045671f0f2ff102268ce805bb7213a0068b3227",
+        "0x26ccaf32419f4682134220729080675f1045e04d244244b08cd0a0b8a69dab24",
+        "0x27141316b8d0c3e6d697f69bbd727117df4b5d330b58b0da6233f0a848f4e6fd",
+        "0x27481057b9c80e035f870fd10d567e9c16fe941bbc4656e984282cec60a59b8c",
+        "0x27e944455c0bd68dd0c9bfcccc16c02739ef699974481851057114a6e83b519d"
+      ],
+      "response_file": "batch_005_events.json",
+      "returned_rows": 10,
+      "status": "success",
+      "returned_hashes": [
+        "0x259c856f82df7b344f66484a932f7466b585ac3ebe4b1d932bd06bce41600949",
+        "0x26671b414bb2e24c0158f043d50cf43f6f6183a4c54bb761cd3d86146cbb12fc",
+        "0x266c36e491f1b2ee39bd6fded1747b04df2f1680c0e0041b6ef76b55c2b80a31",
+        "0x26916df9f3114c08c3b515ec177ac4e3783306476f77d5b790ae50888f8cf737",
+        "0x2694867c9a646e0f6a887d386acd83282569fd2bfd0a7fcbc9a29adbe3ab2f27",
+        "0x26c150686e2c37b034f55b72e045671f0f2ff102268ce805bb7213a0068b3227",
+        "0x26ccaf32419f4682134220729080675f1045e04d244244b08cd0a0b8a69dab24",
+        "0x27141316b8d0c3e6d697f69bbd727117df4b5d330b58b0da6233f0a848f4e6fd",
+        "0x27481057b9c80e035f870fd10d567e9c16fe941bbc4656e984282cec60a59b8c",
+        "0x27e944455c0bd68dd0c9bfcccc16c02739ef699974481851057114a6e83b519d"
+      ],
+      "missing_hashes": [],
+      "duplicate_rows": 0,
+      "at_limit": false
+    }
+  ],
+  "rejected_attempts": {
+    "count": 4,
+    "details": "Four requests were rejected by MCP parameter validation for malformed tx_hash strings before chain data was queried. They returned no event rows and are not counted as missing hashes. The successful calls below cover all requested pilot and new-target hashes."
+  },
+  "actual_mcp_parameters": {
+    "event": "Withdrawal",
+    "only_successful": 1,
+    "format": "rows",
+    "limit": 1000
+  },
+  "verification_constraints": {
+    "weth_contract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "event_signature": "Withdrawal(address,uint256)",
+    "topic0": "0x7fcf532c15f0a6db0bd6d0e038bea71d30d808c7d98cb3bf7268a95bf5081b65"
+  }
+}
