@@ -10,24 +10,42 @@ The objective is to distinguish **what the evidence establishes, what can reason
 
 ### 01 — [Binance 2026: Anatomy of a Delegated Wallet Drain](publications/binance-2026/README.md)
 
-*An Independent Reconstruction of EIP-7702 Authorization, Batch Execution, and Asset Movements*
+*Independent Reconstruction of EIP-7702 Execution and DEX/WETH Settlement*
 
-**Network:** Ethereum · **Research status:** Completed, scope-limited technical reconstruction
+**Network:** Ethereum
 
-This investigation examines selected Ethereum transactions associated with the October 2026 Binance security incident by named external investigators. It reconstructs an EIP-7702 authorization sequence, delegated asset movement, and the subsequent removal of delegation, without claiming to independently establish corporate authorization or the full incident-wide flow of funds.
+**Research status:** Two completed, scope-limited technical reconstructions
 
-**Selected findings:**
+This investigation examines selected Ethereum transactions associated with the October 2026 Binance security incident. It reconstructs observable transaction activity while separating verified on-chain evidence from unresolved questions about incident-fund provenance, authorization, and beneficial ownership.
 
-- **50** EIP-7702 authorization signatures recovering to the same wallet address; **one** nonce-applicable authorization identified in a nonce-only replay.
-- Approximately **167,464 ETH** moved in the audited execution, alongside **64 ERC-20 transfer attempts** and **63 matching Transfer events**.
-- The **27th token-transfer call reverted**; **37 subsequent calls continued** without recorded call errors, while the parent transaction succeeded.
-- Historical USDT balances showed corresponding **1,615,409,498.97324 USDT** block-end changes. Two later transfers totaling **700 million USDT** were audited, without establishing exclusive provenance from the earlier transaction.
+#### Part I — EIP-7702 Delegated Wallet Execution
 
-**[Read the Full Investigation](publications/binance-2026/README.md)**
+- Recovered **50 EIP-7702 authorization signatures** to the same wallet address, with **one nonce-applicable authorization** identified in a nonce-only replay.
+- Reconstructed approximately **167,464 ETH** in delegated asset movement, alongside **64 ERC-20 transfer attempts** and **63 matching Transfer events**.
+- Identified a reverted **27th token-transfer call**, followed by **37 subsequent calls** without recorded call errors; the parent transaction succeeded.
+- Audited historical USDT block-end balance changes of **1,615,409,498.97324 USDT** and two later transfers totaling **700 million USDT**, without establishing exclusive provenance.
 
-**Part II — A97B DEX Settlement and ETH Return:** [Read the transaction-level reconstruction](publications/binance-2026/a97b-settlement/README.md). The scope-limited audit documents 1,015 ETH-return transactions and subsequent direct ETH outflows. Incident-fund provenance and ultimate ownership remain unresolved. · [Figures & Supporting Evidence](publications/binance-2026/)
+[Read Part I — Master Investigation](publications/binance-2026/README.md)
 
-> **Evidence boundary:** This is a bounded reconstruction of selected transactions, not an independent verification of the entire reported incident. Transaction-level incident attribution, internal approval, beneficial ownership, and complete fund conservation remain unresolved.
+#### Part II — A97B DEX/WETH Settlement
+
+- Reconstructed **1,015 transactions** with matched WETH Withdrawal events and direct native ETH returns.
+- Reconciled approximately **6,829.200 ETH** in gross direct returns.
+- Documented **four separate direct ETH outflows totaling 10,647.2 ETH**.
+
+[Read Part II — Transaction-Level Technical Report](publications/binance-2026/a97b-settlement/README.md) · [View Visual Report](publications/binance-2026/a97b-settlement/visual-report/README.md)
+
+#### Independent Verification — Bitquery MCP
+
+A subsequent independent-provider audit cross-checked the WETH Withdrawal events and amounts associated with the 1,015 reconciled transactions.
+
+**Result: 1,015 / 1,015 PASS · 0 requiring review**
+
+The audit preserved **21 raw response batches** and passed SHA-256 integrity checks. This cross-provider verification does not independently establish every native ETH return path or the provenance of the funds.
+
+> **Evidence boundary:** These are completed, scope-limited reconstructions, not a complete independent verification of the Binance incident. Incident-wide fund conservation, transaction-level incident attribution, internal authorization, and beneficial ownership remain unresolved.
+
+---
 
 ### 02 — [Bitcoin: Silk Road / Individual X (2020)](publications/silk-road-2020/README.md)
 
