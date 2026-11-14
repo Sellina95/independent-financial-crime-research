@@ -22,6 +22,10 @@ Four direct native ETH outflows from A97B total **10647.2 ETH**, including a **7
 
 ---
 
+**Subsequent independent-provider verification:** Bitquery MCP cross-checked WETH Withdrawal event evidence and amounts for **1,015 / 1,015 transactions** against the preserved research ledger, with **0 requiring review**. The audit preserved 21 raw response batches and passed SHA-256 integrity checks. This does not independently verify all native ETH return paths or incident-fund provenance.
+
+---
+
 ## 1. Incident context and event chronology
 
 Earlier research identified two direct native ETH transfers from Binance14 to A97B:
@@ -86,6 +90,20 @@ Individual smart-contract execution may contain additional intermediate steps. T
 The ETH amount received by A97B was reconciled against the corresponding WETH withdrawal amount at transaction level.
 
 Original address-centric Blockscout records were preserved, and the research also compared overlapping records against earlier transaction-centric Blockscout retrievals. These are consistency checks within the same provider, not independent-provider corroboration.
+
+### Independent Cross-Provider Verification — Bitquery MCP
+
+A subsequent audit used Bitquery MCP as a separate data provider to cross-check the previously preserved WETH Withdrawal events and amounts.
+
+| Verification measure | Result |
+|---|---:|
+| Distinct transactions checked | 1,015 |
+| Transactions passing verification | **1,015 / 1,015** |
+| Transactions requiring review | **0** |
+| Preserved raw response batches | 21 |
+| SHA-256 integrity audit | **PASS** |
+
+This provides independent-provider corroboration of the WETH Withdrawal event evidence and amounts, beyond the original Blockscout consistency checks. It does not independently establish every native ETH payment path, asset provenance, or beneficial ownership.
 
 ### Representative transactions
 
@@ -178,7 +196,7 @@ Historical research sources carried forward for verification:
 5. **External publication overlap:** Public HTML screening is not a complete institutional intelligence comparison.
 6. **Identity:** Blockchain address interaction does not prove shared ownership, actor identity or criminal intent.
 7. **Historical analogies:** Historical cases were not transaction-by-transaction reproduced in this research packet.
-8. **Provider independence:** Two Blockscout retrieval routes do not constitute independent provider corroboration.
+8. **Provider independence:** Two Blockscout retrieval routes alone do not constitute independent-provider corroboration. Subsequent Bitquery MCP verification corroborated the WETH Withdrawal event evidence and amounts for 1,015 transactions, but did not independently verify all native ETH return paths or asset provenance.
 9. **Withdrawals:** Downstream custody, beneficiary, and subsequent disposition require separate verification.
 
 ## 8. Reproducibility and evidence index
@@ -197,6 +215,11 @@ Historical research sources carried forward for verification:
 - [WETH first-recipient audit ledger](evidence/eth_first_recipient_audit_v1/ETH_FIRST_RECIPIENT_LEDGER_V1.csv)
 - [STEP 86 reconciliation metadata](evidence/integrated_event_audit_v1/AUDIT_V1.json)
 - [Research packet SHA-256 manifest](evidence/institutional_research_packet_v1/SHA256_MANIFEST_V1.json)
+
+### Independent-provider audit
+
+- [Bitquery MCP independent audit — commit f80f375](https://github.com/Sellina95/independent-financial-crime-research/tree/f80f375/research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1)
+- Scope: 1,015 WETH Withdrawal event-and-amount cross-checks; 21 preserved raw response batches; SHA-256 PASS.
 
 ### Historical and public-source crosswalk
 
@@ -220,4 +243,4 @@ Four separate direct native ETH outflows were identified, including the 7,647 ET
 
 The incremental public contribution is a reproducible, fine-grained settlement audit for a previously identified address—not discovery of a new attacker or definitive tracing of stolen-fund ownership.
 
-**Publication gate:** Research branch only. External release and incident-fund attribution require explicit review.
+**Publication status:** This scope-limited technical report is published on `main`. Supporting research evidence is preserved at the cited commit. Additional claims concerning incident-fund attribution, asset provenance, or beneficial ownership require separate evidence review and explicit publication approval.
