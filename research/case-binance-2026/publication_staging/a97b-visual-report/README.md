@@ -69,6 +69,30 @@ Importantly, **this does not mean that the same ETH was circulated 1,015 times, 
 
 What the evidence establishes is the observed transaction execution structure and direct ETH return amounts across these 1,015 transactions.
 
+### Independent Cross-Provider Verification — Bitquery MCP
+
+Following the original Blockscout-based reconstruction, I conducted an additional independent cross-check using **Bitquery's Model Context Protocol (MCP) integration**.
+
+The audit examined the same 1,015 transaction hashes and compared the WETH Withdrawal event evidence and amounts against the previously preserved research ledger.
+
+| Verification measure | Result |
+|---|---:|
+| Distinct transactions checked | 1,015 |
+| Transactions passing verification | **1,015 / 1,015** |
+| Transactions requiring review | **0** |
+| Preserved raw response batches | 21 |
+| SHA-256 integrity audit | **PASS** |
+
+This provides independent-provider corroboration of the WETH Withdrawal events and amounts, beyond the original Blockscout-based consistency checks.
+
+The verification does not independently establish the provenance of every asset, all native ETH transfer paths, or the identity of the ultimate beneficiaries.
+
+**Audit evidence:** [Bitquery MCP Independent Audit — Commit f80f375](https://github.com/Sellina95/independent-financial-crime-research/tree/f80f375/research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1)
+
+**Research status:** A97B node investigation closed at the documented evidence boundary.
+
+---
+
 ## 4. Why Did This Activity Attract My Attention?
 
 DEX-based asset conversions have also been observed in previous major cryptocurrency theft investigations.
