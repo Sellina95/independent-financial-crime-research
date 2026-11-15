@@ -354,6 +354,47 @@ $("fetchTx").onclick=async ()=>{
    "Internal ETH traces are not included. No data saved yet.";
   box.append(warning);
 
+  const context=data.execution_context||{};
+  const withdrawals=context.weth_withdrawals||[];
+  const deliveries=context.reported_internal_eth||[];
+
+  if(withdrawals.length||deliveries.length){
+   const title=document.createElement("h3");
+   title.textContent="WETH → ETH Execution Context";
+   box.append(title);
+
+   withdrawals.forEach(w=>{
+    const div=document.createElement("div");
+    div.className="record";
+    div.textContent=
+     "WETH Withdrawal · "+w.amount_eth+
+     " ETH · logIndex "+w.log_index+
+     " · Withdrawer: "+w.withdrawer+
+     " · Receipt verified";
+    box.append(div);
+   });
+
+   deliveries.forEach(d=>{
+    const div=document.createElement("div");
+    div.className="record";
+    div.textContent=
+     "Reported internal ETH · "+d.amount_display+
+     " ETH · "+d.sender+" → "+d.receiver+
+     " · "+d.precision+
+     " · Exact internal trace NOT verified"+
+     " · Incident attribution NOT established";
+    box.append(div);
+   });
+
+   const note=document.createElement("p");
+   note.className="notice";
+   note.textContent=
+    "Execution context only. Not an additional "+
+    "verified inflow. Internal ETH is not selectable "+
+    "or saved automatically.";
+   box.append(note);
+  }
+
   if(data.transfers.length===0){
    const empty=document.createElement("p");
    empty.textContent=
@@ -639,6 +680,23 @@ class Handler(BaseHTTPRequestHandler):
                 query = parse_qs(urlsplit(self.path).query)
                 tx_hash = query.get("tx", [""])[0]
                 result = module.lookup_transaction(tx_hash)
+
+                context_path = ROOT / "weth_eth_context.py"
+                context_spec = importlib.util.spec_from_file_location(
+                    "binance_weth_context", context_path
+                )
+                context_module = importlib.util.module_from_spec(
+                    context_spec
+                )
+                context_spec.loader.exec_module(context_module)
+
+                receipt = module.rpc(
+                    "eth_getTransactionReceipt", [tx_hash]
+                )
+
+                result["execution_context"] = (
+                    context_module.build(receipt, tx_hash)
+                )
 
                 for item in result["transfers"]:
                     state = registration_status(
