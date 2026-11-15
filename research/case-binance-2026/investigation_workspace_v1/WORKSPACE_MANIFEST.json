@@ -1,0 +1,18 @@
+{
+  "workspace": "Binance 14 Investigation Workspace",
+  "version": "26A",
+  "source_file": "research/case-binance-2026/analysis/master_flow_map_v1/EDGE_REGISTER_V1.csv",
+  "source_sha256": "996b86eb1059105377832a9151dd49c5c80deffeb6e979f9fc6211373a33b81a",
+  "source_events": 1057,
+  "unique_addresses": 153,
+  "unique_tx_hashes": 824,
+  "evidence_status_counts": {
+    "DIRECT": 292,
+    "PRELIMINARY": 762,
+    "RECEIPT_VERIFIED": 3
+  },
+  "draft_events": 0,
+  "route_reviews": 0,
+  "publication_approved": false,
+  "main_modified": false
+}
