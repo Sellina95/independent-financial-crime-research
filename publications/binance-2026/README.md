@@ -6,6 +6,8 @@
 
 > **Research status:** Two published, scope-limited reconstructions. The delegated execution mechanism and selected downstream ETH movements are documented; complete incident-fund provenance, beneficial ownership, and incident-wide conservation remain unresolved.
 
+🪙 **[Explore the Interactive Binance 14 Investigation Map](https://sellina95.github.io/independent-financial-crime-research/)**
+
 ## Master Investigation Overview
 
 This publication brings together two completed, scope-limited investigations of Ethereum transactions associated with the October 2026 Binance security incident.
