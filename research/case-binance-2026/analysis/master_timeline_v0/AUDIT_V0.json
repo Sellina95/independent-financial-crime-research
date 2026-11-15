@@ -1,0 +1,39 @@
+{
+  "status": "RESEARCH_PREVIEW",
+  "publication_approved": false,
+  "base_commit": "650e409792508348e2a88e6103fb8120edd2e907",
+  "input_sha256": {
+    "direct": "d0ce069d9760791cbb1af103b3b3193fe3a8479dcf3fa72fe7e49a6ca393f97a",
+    "forward": "a3fa2add39daa300bc666234493ce9cb735c13a854cb8746b1547cea266145e2",
+    "hops": "4474ef5ab2b06480ee51199a595e2f2e41bea4252eb7a618aca4aca84e83c1f0"
+  },
+  "counts": {
+    "DIRECT": 292,
+    "PRELIMINARY": 762,
+    "RECEIPT_VERIFIED": 3
+  },
+  "total_events": 1057,
+  "excluded_duplicate_source_ids": [
+    "0x4dae9089b113b4dfeb2a30926c23342e83143f781028a876fc4a6934289cf26c:log:421",
+    "0x791e4ba4d7a78079fe8d83d7e8ed93a4515d794809a4c47ac3e8df234f717d7c:log:432"
+  ],
+  "canonical_timestamp": {
+    "block": 26302532,
+    "utc": "2026-10-30 02:18:35",
+    "basis": "Canonical block header and two audited receipts"
+  },
+  "unknown_timestamps": 3,
+  "limitations": [
+    "Partial research timeline, not full incident flow",
+    "STEP69 forward screen is incomplete",
+    "Preliminary events are not incident-attributed",
+    "Internal ETH traces require independent audit",
+    "Direct internal ETH uses source-row identifiers",
+    "Unknown within-block transaction positions",
+    "Cross-source native ETH overlaps not fully audited",
+    "Token decimals unresolved for some assets",
+    "A97B detailed flows not yet integrated",
+    "USDT downstream routes not yet integrated",
+    "E16 swaps and E17 ETH transfers not yet integrated"
+  ]
+}

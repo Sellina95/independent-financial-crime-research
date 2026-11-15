@@ -1,0 +1,39 @@
+{
+  "step": "23A",
+  "dataset": "MASTER_TIMELINE_V0",
+  "source_sha256": "d036a08c7c8f55aace53c4b6d2e005a5389bdab792dd32397e7323f672cd384d",
+  "source_event_count": 1057,
+  "unique_transaction_hashes": 824,
+  "unique_addresses": 153,
+  "edge_records": 1057,
+  "evidence_records": 1057,
+  "status_counts": {
+    "DIRECT": 292,
+    "PRELIMINARY": 762,
+    "RECEIPT_VERIFIED": 3
+  },
+  "checks": {
+    "unique_event_ids": true,
+    "unique_edge_ids": true,
+    "unique_evidence_ids": true,
+    "address_validation": true,
+    "tx_hash_validation": true,
+    "node_edge_reconciliation": true,
+    "original_events_preserved": true,
+    "incident_attribution_assumed": false,
+    "complete_wallet_history_claimed": false
+  },
+  "limitations": [
+    "This register covers only the current timeline dataset.",
+    "Some audited downstream paths are not yet integrated.",
+    "Event status does not establish incident attribution.",
+    "Node investigation completion is not inferred.",
+    "Unknown token units and unknown ordering are not inferred.",
+    "Source references are inherited, not revalidated in STEP23A.",
+    "Missing rows do not establish absence of fund movement."
+  ],
+  "publication_approved": false,
+  "rpc_calls": 0,
+  "git_commit": false,
+  "git_push": false
+}
