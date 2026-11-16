@@ -332,7 +332,7 @@ its audit evidence and results.
 - [ ] Review documents and HTML
 - [ ] Identify raw versus derived evidence
 - [ ] Identify all extraction schemas
-- [ ] Account for unsupported source formats
+- [x] Account for unsupported source formats
 - [ ] Record disposition of every file
 - [x] Validate inventory coverage
 
