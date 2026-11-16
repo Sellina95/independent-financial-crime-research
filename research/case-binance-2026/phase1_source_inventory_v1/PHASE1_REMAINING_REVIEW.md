@@ -1,0 +1,922 @@
+# Phase 1 — Remaining Review
+
+Source commit: `bba74a5c89f830193999d8aef051349161dccf4e`
+
+## Confirmed
+- [x] Pinned source snapshot reconciled
+- [x] 3,105 tracked files accounted for
+- [x] Initial file-format classification completed
+
+## Outstanding review
+- Unsupported files: 25
+- Distinct schema signatures: 708
+- Sampling-limited files: 156
+- Pending review entries: 3105
+
+## Unsupported files
+
+- `research/case-binance-2026/A97B/evidence/binance_official.pdf`
+- `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/a97b_batch_audit_full.mjs`
+- `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/a97b_integrity_audit_v2.py`
+- `research/case-binance-2026/A97B/evidence/bitquery_independent_crosscheck_v2/SHA256SUMS`
+- `research/case-binance-2026/A97B/evidence/chainward_analysis.pdf`
+- `research/case-binance-2026/A97B/evidence/fbi_alert.pdf`
+- `research/case-binance-2026/A97B/evidence/step70_bitquery_ledger_reconciliation_v1/SHA256SUMS`
+- `research/case-binance-2026/build_asset_inventory.py`
+- `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06f_withdrawal_revert_diagnostics_v1/anvil.log`
+- `research/case-binance-2026/evidence/exploiter16_token_provenance_v1/step16_receipt_evidence_v1/SHA256SUMS`
+- `research/case-binance-2026/evidence/exploiter16_token_provenance_v1/step18g_four_route_evidence_v1/SHA256SUMS`
+- `research/case-binance-2026/evidence/exploiter16_token_provenance_v1/step19f_middle_hop_receipts_v1/SHA256SUMS`
+- `research/case-binance-2026/evidence/step73_preincident_graphsense_v1/historical_source.yaml`
+- `research/case-binance-2026/figures/figure_01_execution_sequence.png`
+- `research/case-binance-2026/figures/figure_02_authorization_nonce.png`
+- `research/case-binance-2026/figures/figure_03_delegated_transfer.png`
+- `research/case-binance-2026/figures/figure_04_failure_tolerance.png`
+- `research/case-binance-2026/figures/figure_05_usdt_reconciliation.png`
+- `research/case-binance-2026/investigation_workspace_v1/research_app.py`
+- `research/case-binance-2026/investigation_workspace_v1/test_workspace.py`
+- `research/case-binance-2026/investigation_workspace_v1/tx_lookup.py`
+- `research/case-binance-2026/investigation_workspace_v1/weth_eth_context.py`
+- `research/case-binance-2026/publication_staging/a97b-visual-report/figures/01-a97b-eth-flow-overview.png`
+- `research/case-binance-2026/publication_staging/a97b-visual-report/figures/02-a97b-dex-weth-settlement.png`
+- `research/case-binance-2026/publication_staging/a97b-visual-report/figures/03-historical-crypto-theft-comparison.png`
+
+## Sampling-limited files
+
+- `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0001.json`
+- `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0002.json`
+- `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0003.json`
+- `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0004.json`
+- `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0005.json`
+- `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0006.json`
+- `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0007.json`
+- `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0008.json`
+- `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0009.json`
+- `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0010.json`
+- `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0011.json`
+- `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0012.json`
+- `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0013.json`
+- `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0014.json`
+- `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0015.json`
+- `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0016.json`
+- `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0017.json`
+- `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0018.json`
+- `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0019.json`
+- `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0020.json`
+- `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0021.json`
+- `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0022.json`
+- `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0023.json`
+- `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/FINAL_INTEGRITY_AUDIT_V2.json`
+- `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/batch_001.json`
+- `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/batch_002.json`
+- `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/batch_003.json`
+- `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/batch_004.json`
+- `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/batch_005.json`
+- `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/batch_006.json`
+- `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/batch_007.json`
+- `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/batch_008.json`
+- `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/batch_009.json`
+- `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/batch_010.json`
+- `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/batch_011.json`
+- `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/batch_012.json`
+- `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/batch_013.json`
+- `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/batch_014.json`
+- `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/batch_015.json`
+- `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/batch_016.json`
+- `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/batch_017.json`
+- `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/batch_018.json`
+- `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/batch_019.json`
+- `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/batch_020.json`
+- `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/batch_021.json`
+- `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/manifest.json`
+- `research/case-binance-2026/A97B/evidence/bitquery_independent_crosscheck_v1/ETH_TX_EVENTS_BATCH5_RAW_V1.json`
+- `research/case-binance-2026/A97B/evidence/bitquery_independent_crosscheck_v1/ETH_TX_TRANSFERS_BATCH5_RAW_V1.json`
+- `research/case-binance-2026/A97B/evidence/step70_bitquery_ledger_reconciliation_v1/bitquery_a97b_outgoing.json`
+- `research/case-binance-2026/GATE_2_ETH_T02_AUTHORIZATION_REPLAY_V1.json`
+- `research/case-binance-2026/GATE_2_ETH_T02_SIGNATURE_RECOVERY_V1.json`
+- `research/case-binance-2026/GATE_2_ETH_T03_TRANSFER_EVENT_AUDIT_V1.json`
+- `research/case-binance-2026/evidence/additional_stablecoins_v1/31c4c9fe287d54fb9d3b79980477a8c793a11f774b98d0a9a92de1dad888a91d_receipt.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/alchemy_asset_transfers_raw.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/standard_transfer_logs_raw.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step66_receiver_identity_rpc_audit_v1/receiver_code_classification.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step66_receiver_identity_rpc_audit_v1/transaction_receipt_block_evidence.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step67_internal_eth_trace_audit_v1/blockscout_crosscheck_v1/transactions/0x31c4c9fe287d54fb9d3b79980477a8c793a11f774b98d0a9a92de1dad888a91d.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step67_internal_eth_trace_audit_v1/blockscout_crosscheck_v1/transactions/0x4a4aed833556814c16fe176fc8abc70ce124eadc73da3bcdf42a67ef44f9ad6b.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step67_internal_eth_trace_audit_v1/blockscout_crosscheck_v1/transactions/0x53bd38b816c23e74134786c29a8c18d792777998a3b9326047b583100e88e2f3.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step67_internal_eth_trace_audit_v1/blockscout_crosscheck_v1/transactions/0x55ba4dabc41b468e580751373ad31acdee6f5ba398682df2c93e5a8340870556.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step69_noncentral_receiver_forward_screen_v1/raw/0x139b920004360b08a1e285ba3859771eb0470ce9.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step69_noncentral_receiver_forward_screen_v1/raw/0x6920322e30e8ab3684bf018b379e455e46a7557b.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step69_noncentral_receiver_forward_screen_v1/raw/0x8cc5c24a1666d3214340050315b82b2b6b0d9027.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step69_noncentral_receiver_forward_screen_v1/raw/0x8e101ce0cd87c816dcfd4d02f7e21983901def94.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step69_noncentral_receiver_forward_screen_v1/raw/0xa97bf7836f8a08f9ed91d41453d371493fae8d10.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step69_noncentral_receiver_forward_screen_v1/raw/0xbf123a673c8cfee6a31f3a7ad24259489c4261f0.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step69_noncentral_receiver_forward_screen_v1/raw/0xe129188380d48fa09a6a89ac91adc761afdc1612.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step70_a97b_forward_census_v1/pages/page_0001.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step70_a97b_forward_census_v1/pages/page_0002.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step70_a97b_forward_census_v1/pages/page_0003.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step70_a97b_forward_census_v1/pages/page_0004.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step70_a97b_forward_census_v1/pages/page_0005.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step70_a97b_forward_census_v1/pages/page_0006.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step70_a97b_forward_census_v1/pages/page_0007.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step70_a97b_forward_census_v1/pages/page_0008.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step70_a97b_forward_census_v1/pages/page_0009.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step70_a97b_forward_census_v1/pages/page_0010.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step70_a97b_forward_census_v1/pages/page_0011.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step70_a97b_forward_census_v1/pages/page_0012.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/repeat_destination_patterns.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/rpc_cache/incoming_eth_page_0001.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/rpc_cache/incoming_eth_page_0002.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/rpc_cache/incoming_eth_page_0003.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/rpc_cache/incoming_eth_page_0004.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/rpc_cache/incoming_eth_page_0005.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/rpc_cache/incoming_eth_page_0006.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/rpc_cache/incoming_eth_page_0007.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/rpc_cache/incoming_eth_page_0008.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/rpc_cache/incoming_eth_page_0009.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/rpc_cache/incoming_eth_page_0010.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/rpc_cache/incoming_eth_page_0011.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/rpc_cache/incoming_eth_page_0012.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step73_a97b_execution_conservation_v1/execution_pattern_samples.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step79_a97b_repeat_swap_validation_v1/sample_results.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step80_a97b_full_dex_census_v1/batches/batch_0001.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step80_a97b_full_dex_census_v1/batches/batch_0002.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step80_a97b_full_dex_census_v1/batches/batch_0003.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step80_a97b_full_dex_census_v1/batches/batch_0004.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step80_a97b_full_dex_census_v1/batches/batch_0005.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step80_a97b_full_dex_census_v1/batches/batch_0006.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step80_a97b_full_dex_census_v1/recovery_cache/eth_getTransactionReceipt_0x1a0eb868a6bb325e90e646b95a32ec3ae57dd89e38a3149648fbde23bfe4508d.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step80_a97b_full_dex_census_v1/recovery_cache/eth_getTransactionReceipt_0x3a6fcda007b324e0be8a92f3af59766a018699c894617b4dd90fae34bd276968.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step80_a97b_full_dex_census_v1/recovery_cache/eth_getTransactionReceipt_0x4d10cc945973ba3550871b255afca3efd02042d437c88b67d1d26597ca37e4f3.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step80_a97b_full_dex_census_v1/recovery_cache/eth_getTransactionReceipt_0x4d55efa683fcba2b9b02d99624ec419e82e8738198906f448b12afe6de8afb12.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step80_a97b_full_dex_census_v1/recovery_cache/eth_getTransactionReceipt_0x66d5d61523e6321bd0fd259fb592cb10d1dc3d50c4e0a9f351f2e1abbc131bb0.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step80_a97b_full_dex_census_v1/recovery_cache/eth_getTransactionReceipt_0x6abc20edd364245d7a8a5b29ef309a53085c065e231f3bbf31118946544ec993.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step80_a97b_full_dex_census_v1/recovery_cache/eth_getTransactionReceipt_0x6d488dce2051bb46abdac8b8f155bf11235c9dd0b31f6f9bdc812921227acee0.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step80_a97b_full_dex_census_v1/recovery_cache/eth_getTransactionReceipt_0x75882a4c0444c5151ca00a4765499281d8777b9fcbfd1a26a4037e8297a0536e.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step80_a97b_full_dex_census_v1/recovery_cache/eth_getTransactionReceipt_0x7a7a72ce08733b45deb862bfe19d4ebe0c4d5ef38d4e92849d12ec09d364bacb.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step80_a97b_full_dex_census_v1/recovery_cache/eth_getTransactionReceipt_0x7c7b1a71cd0b74004c1972e3dee11cd1844d8e05903d812c757466281fcb7506.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step80_a97b_full_dex_census_v1/recovery_cache/eth_getTransactionReceipt_0x82dc674aa133f64f90f2da1bc8cd50c5c911248e3c43e4bac18bb730573008e2.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step80_a97b_full_dex_census_v1/recovery_cache/eth_getTransactionReceipt_0x9757a94c1a09645be9899bf557f092149cdc406f13618ec9c27576a26dabbf01.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step80_a97b_full_dex_census_v1/recovery_cache/eth_getTransactionReceipt_0x97f2b46cdecb746b0a6354bfbd9f1fd97859d4cb440f099a4bf44bdaa9043e3c.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step80_a97b_full_dex_census_v1/recovery_cache/eth_getTransactionReceipt_0x9ff29f353ff5bf63b013861f165078a0e146d8ecc4d2a54f900f453ee7fefe18.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step80_a97b_full_dex_census_v1/recovery_cache/eth_getTransactionReceipt_0xc053f8fab294a859d8bbe1b6f5bccf1089266c8b1d4fc2601477942068914e57.json`
+- `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step85_a97b_final_event_audit_v1/summary.json`
+- `research/case-binance-2026/evidence/central_blacklist_audit_v1/blacklist_block.json`
+- `research/case-binance-2026/evidence/eg01_execution_time_v1/175m_block_transfer_logs.json`
+- `research/case-binance-2026/evidence/eg01_execution_time_v1/30m_block_transfer_logs.json`
+- `research/case-binance-2026/evidence/eg01_execution_time_v1/central_block_transfer_logs.json`
+- `research/case-binance-2026/evidence/eg05_kite_pause_origin_v1/pause_block.json`
+- `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06a_issuer_freeze_capability_audit_v1/event_scan_summary.json`
+- `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06b_aave_withdraw_callpath_v1/withdrawal_call_trace.json`
+- `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step07d_final_evidence_consistency_audit_v1/summary.json`
+- `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08f_earlier_10000_blocks_v1/scan_coverage.json`
+- `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08j_address_a_complete_window_v1/a_events.json`
+- `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08j_address_a_complete_window_v1/a_scan_coverage.json`
+- `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08j_address_a_complete_window_v1/merged_known_events.json`
+- `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08k_adapter_inbound_receipts_v1/raw_rpc_evidence.json`
+- `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08o_multichain_funding_window_v1/scan_coverage.json`
+- `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08q_large_inflow_origin_windows_v1/scan_coverage.json`
+- `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08u_recent_supply_event_audit_v1/scan_coverage.json`
+- `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08v_atoken_inbound_crosscheck_v1/coverage.json`
+- `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08w_incident_attribution_crosswalk_v1/existing_evidence_index.json`
+- `research/case-binance-2026/evidence/exploiter16_token_provenance_v1/step16_receipt_evidence_v1/e16_aave.json`
+- `research/case-binance-2026/evidence/exploiter16_token_provenance_v1/step16_receipt_evidence_v1/e16_tracked_token.json`
+- `research/case-binance-2026/evidence/exploiter16_token_provenance_v1/step18g_four_route_evidence_v1/aave_main.json`
+- `research/case-binance-2026/evidence/exploiter16_token_provenance_v1/step18g_four_route_evidence_v1/aave_other.json`
+- `research/case-binance-2026/evidence/exploiter16_token_provenance_v1/step18g_four_route_evidence_v1/token_main.json`
+- `research/case-binance-2026/evidence/exploiter16_token_provenance_v1/step18g_four_route_evidence_v1/token_other.json`
+- `research/case-binance-2026/evidence/initial_tx_v1/call_trace.json`
+- `research/case-binance-2026/evidence/initial_tx_v1/receipt.json`
+- `research/case-binance-2026/evidence/second_hop_receipts_v1/152e005f6dcccd941e0a2c7156b955c6baad08a347685bcf5518776dab04f8cc_receipt.json`
+- `research/case-binance-2026/evidence/second_hop_receipts_v1/290e94a9d14294b1c22bbc5d167343fd91fe91233e89434f20532fe5fe7e8668_receipt.json`
+- `research/case-binance-2026/evidence/second_hop_receipts_v1/3fd5ec345eaf60faca94c652f5ac5c0dca77b4ef3c355fb12cb8f5108464a0b6_receipt.json`
+- `research/case-binance-2026/evidence/second_hop_receipts_v1/4fa182626c85ca0cdc18ba736930bdbdfbcf5d201d373913317df6ec58d23d61_receipt.json`
+- `research/case-binance-2026/evidence/second_hop_receipts_v1/7b0ad8b5814a048086dab1236284e677e430cac142c84ab6bbbc985da1f282e6_receipt.json`
+- `research/case-binance-2026/evidence/second_hop_receipts_v1/a861a556b73df4e084aca07663d63b26eec33136ed7328712a7418361d856f36_receipt.json`
+- `research/case-binance-2026/evidence/second_hop_receipts_v1/e5ccc3a8b32f7c52683390fa75f57cec53394421bd05132400806533e661843a_receipt.json`
+- `research/case-binance-2026/evidence/second_hop_receipts_v1/fa949551eeec164133714f7658e232bf7eb8140a67d8f5edb95ea41b31b93a72_receipt.json`
+- `research/case-binance-2026/evidence/second_hop_receipts_v1/manifest.json`
+- `research/case-binance-2026/evidence/second_hop_usdt_v1/transfer_logs.json`
+- `research/case-binance-2026/evidence/step71_55m_source_audit_v1/block.json`
+- `research/case-binance-2026/evidence/step71_55m_source_audit_v1/por_crosswalk_matches.json`
+- `research/case-binance-2026/investigation_workspace_v1/BASE_EVENTS_V1.json`
+
+## Schema signature groups
+
+- `5e21e2e57eade0b3`: 2241 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/rpc_cache/balance_26301443.json`
+- `ec3d1e9a65cd4cfe`: 1329 file(s); example: `research/case-binance-2026/A97B/integrated_event_audit_v1/recovered_receipts/0x0003cf5d3cffc1fde2a370f577571230112177a8a38da8bcd312b4525b6e4253.json`
+- `2227e4b085070d48`: 1297 file(s); example: `research/case-binance-2026/A97B/integrated_event_audit_v1/recovered_receipts/0x0003cf5d3cffc1fde2a370f577571230112177a8a38da8bcd312b4525b6e4253.json`
+- `6f17916bbfc48f9d`: 1134 file(s); example: `research/case-binance-2026/evidence/30m_upstream_bridge_v1/130m_transaction.json`
+- `0c29e11a7bf31160`: 73 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step80_a97b_full_dex_census_v1/batches/batch_0001.json`
+- `8d2cd226f24fd92e`: 47 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/alchemy_asset_transfers_raw.json`
+- `e534e5b10f7cbfe6`: 47 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/alchemy_asset_transfers_raw.json`
+- `efd0427e4a1b3509`: 47 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/alchemy_asset_transfers_raw.json`
+- `e9305fe8bad5110b`: 32 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step80_a97b_full_dex_census_v1/batches/batch_0001.json`
+- `250ea1733c4db3de`: 29 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step80_a97b_full_dex_census_v1/batches/batch_0004.json`
+- `64e444fe6a1d5485`: 28 file(s); example: `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0001.json`
+- `66041b866b7c6ed6`: 28 file(s); example: `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0001.json`
+- `28b32d53aefca075`: 26 file(s); example: `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0001.json`
+- `e2cac8a522563493`: 26 file(s); example: `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0001.json`
+- `7f309679f83f5d09`: 25 file(s); example: `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0001.json`
+- `885af3afa6654342`: 24 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06b_issuer_control_simulation_v1/manifest.json`
+- `1dd5cd434f942c56`: 23 file(s); example: `research/case-binance-2026/evidence/central_blacklist_audit_v1/balance_block_26300953.json`
+- `7f2c8016a0aeb7d4`: 23 file(s); example: `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0001.json`
+- `9b8bd16dad905aa1`: 23 file(s); example: `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0001.json`
+- `f66a73bfb1ec765e`: 23 file(s); example: `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0001.json`
+- `70af00685a82dc73`: 22 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step69_noncentral_receiver_forward_screen_v1/raw/0x139b920004360b08a1e285ba3859771eb0470ce9.json`
+- `ee5e085b72c86062`: 22 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step70_a97b_forward_census_v1/pages/page_0001.json`
+- `26f024438789ec8f`: 21 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/batch_001.json`
+- `7a31e2b1dd732163`: 21 file(s); example: `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0001.json`
+- `7e838baac71107fc`: 21 file(s); example: `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0001.json`
+- `9a461891c86603d4`: 21 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/batch_001.json`
+- `ac4b5e195bf978c9`: 21 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/batch_001.json`
+- `af64fabbc197ffe5`: 21 file(s); example: `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0001.json`
+- `eddd464e9e4539aa`: 21 file(s); example: `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0002.json`
+- `ca85962ca0040786`: 19 file(s); example: `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0002.json`
+- `1717ced8b4108416`: 16 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08o_multichain_funding_window_v1/chain_events.json`
+- `7d84f5bfa5edfb7d`: 14 file(s); example: `research/case-binance-2026/evidence/central_blacklist_audit_v1/balance_block_26300953.json`
+- `7789157628494eda`: 12 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/rpc_cache/incoming_eth_page_0001.json`
+- `98bad8a47a7a65b2`: 12 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step70_a97b_forward_census_v1/pages/page_0001.json`
+- `ddc6d39d3b2180f6`: 11 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/rpc_cache/incoming_eth_page_0002.json`
+- `13246d909fd8e8d0`: 10 file(s); example: `research/case-binance-2026/evidence/step76_preincident_inbound_v1/chunks/chunk_26250512_26250611.json`
+- `4e588439230d8862`: 10 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step66_receiver_identity_rpc_audit_v1/transaction_receipt_block_evidence.json`
+- `34cfe1c02ac945b5`: 9 file(s); example: `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0018.json`
+- `5d51d00b52686983`: 9 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_crosscheck_v1/ETH_TX_EVENTS_BATCH5_RAW_V1.json`
+- `f188a6722e810d82`: 9 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_crosscheck_v1/ETH_TX_EVENTS_BATCH5_RAW_V1.json`
+- `0bb0bfa71b01a039`: 6 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step67_internal_eth_trace_audit_v1/blockscout_crosscheck_v1/transactions/0x31c4c9fe287d54fb9d3b79980477a8c793a11f774b98d0a9a92de1dad888a91d.json`
+- `840985ecc759cae8`: 6 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step80_a97b_full_dex_census_v1/batches/batch_0001.json`
+- `9aeab4260529fde2`: 6 file(s); example: `research/case-binance-2026/evidence/central_blacklist_audit_v1/incoming_transfer_logs.json`
+- `a575e821ed779587`: 6 file(s); example: `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0023.json`
+- `3441f04d29fa5136`: 5 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step67_internal_eth_trace_audit_v1/blockscout_crosscheck_v1/transactions/0x31c4c9fe287d54fb9d3b79980477a8c793a11f774b98d0a9a92de1dad888a91d.json`
+- `8e9ea59be2241bc3`: 5 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step66_receiver_identity_rpc_audit_v1/transaction_receipt_block_evidence.json`
+- `f095ac9f866a84eb`: 5 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step67_internal_eth_trace_audit_v1/blockscout_crosscheck_v1/transactions/0x31c4c9fe287d54fb9d3b79980477a8c793a11f774b98d0a9a92de1dad888a91d.json`
+- `05d997b5ea7c721c`: 4 file(s); example: `research/case-binance-2026/evidence/exploiter16_token_provenance_v1/step18g_four_route_evidence_v1/aave_main.json`
+- `5829f8ca61623325`: 4 file(s); example: `research/case-binance-2026/evidence/exploiter16_token_provenance_v1/step18g_four_route_evidence_v1/aave_main.json`
+- `672183d524912ec4`: 4 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step67_internal_eth_trace_audit_v1/blockscout_crosscheck_v1/transactions/0x31c4c9fe287d54fb9d3b79980477a8c793a11f774b98d0a9a92de1dad888a91d.json`
+- `6e4279b0ecdd1939`: 4 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step67_internal_eth_trace_audit_v1/blockscout_crosscheck_v1/transactions/0x31c4c9fe287d54fb9d3b79980477a8c793a11f774b98d0a9a92de1dad888a91d.json`
+- `7bfc7730913ae682`: 4 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step70_a97b_forward_census_v1/pages/page_0012.json`
+- `b1e4ce55f06ac995`: 4 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05b_atoken_identity_reconciliation_v1/historical_balances.json`
+- `b940ce0916dfd7c3`: 4 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06d_aave_reserve_liquidity_reconciliation_v1/reserve_snapshots.json`
+- `d3810c2de689a5f7`: 4 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step67_internal_eth_trace_audit_v1/blockscout_crosscheck_v1/transactions/0x31c4c9fe287d54fb9d3b79980477a8c793a11f774b98d0a9a92de1dad888a91d.json`
+- `ff4dd604702b9cff`: 4 file(s); example: `research/case-binance-2026/evidence/exploiter16_token_provenance_v1/step19f_middle_hop_receipts_v1/01_central_to_hop1.json`
+- `16cb8da5644151fc`: 3 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step67_internal_eth_trace_audit_v1/blockscout_crosscheck_v1/transactions/0x31c4c9fe287d54fb9d3b79980477a8c793a11f774b98d0a9a92de1dad888a91d.json`
+- `1dbe6bce27fdcbde`: 3 file(s); example: `research/case-binance-2026/analysis/master_flow_map_v1/AUDIT_V1.json`
+- `2e8b14ca2edd41b9`: 3 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08f_earlier_10000_blocks_v1/scan_coverage.json`
+- `570f111770c7f540`: 3 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step68_elliptic_address_crosswalk_v1/manifest.json`
+- `6b60b886d5bbff94`: 3 file(s); example: `research/case-binance-2026/evidence/exploiter16_token_provenance_v1/step19f_middle_hop_receipts_v1/01_central_to_hop1.json`
+- `6cd9db763f493d2b`: 3 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08f_earlier_10000_blocks_v1/inbound_sources.json`
+- `98de2935e3cf9198`: 3 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/manifest.json`
+- `a58017ae9ef547da`: 3 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step67_internal_eth_trace_audit_v1/blockscout_crosscheck_v1/transactions/0x31c4c9fe287d54fb9d3b79980477a8c793a11f774b98d0a9a92de1dad888a91d.json`
+- `bf96a156ec8a05ad`: 3 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_delivery_v1/layerzero_message.json`
+- `c8418b3c77bc0a0f`: 3 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step02_transfer_ledger_v1/raw_incoming_logs.jsonl`
+- `e848d9ac4fd438a6`: 3 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06b_issuer_control_simulation_v1/blocklist_current_state.json`
+- `0149afefb76ed390`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06b_aave_withdraw_callpath_v1/implementation_slot_history.json`
+- `01c4e5c629811253`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05c_burn_interest_event_reconciliation_v1/decoded_events.json`
+- `03a661964a3bf263`: 2 file(s); example: `research/case-binance-2026/evidence/exploiter16_token_provenance_v1/step16_receipt_evidence_v1/e16_aave.json`
+- `0f23b7b0fa497b4b`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_delivery_v1/layerzero_message.json`
+- `111d03fb9b183e3c`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05c_burn_interest_event_reconciliation_v1/interest_netting_calculation.json`
+- `16d0d7a986f13e37`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08t_atoken_historical_position_v1/summary.json`
+- `18c14d71d71ed314`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05_withdrawal_audit_v1/existing_supply_receipts.json`
+- `1b82af5826a41918`: 2 file(s); example: `research/case-binance-2026/A97B/evidence/step70_bitquery_ledger_reconciliation_v1/bitquery_a97b_outgoing.json`
+- `1ba8a5d8deda4f34`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05b_atoken_identity_reconciliation_v1/summary.json`
+- `21c384ce5889cdc3`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_delivery_v1/layerzero_message.json`
+- `2e5c6dcb891f861e`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05b_atoken_identity_reconciliation_v1/summary.json`
+- `318ccca29e35198a`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step07c_atoken_interest_reconciliation_v1/historical_scaled_snapshots.json`
+- `35482f2889f78007`: 2 file(s); example: `research/case-binance-2026/evidence/30m_blacklist_audit_v1/balance_snapshots.json`
+- `3b48b6153d20d86d`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05a_withdrawal_anomaly_reconciliation_v1/anomaly_reconciliation_summary.json`
+- `3bdc4d01d6dacbf6`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_delivery_v1/layerzero_message.json`
+- `3f72b6bb5e5cdf57`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08w_incident_attribution_crosswalk_v1/attribution_gates.json`
+- `4e2b09ee915903a9`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_delivery_v1/layerzero_message.json`
+- `502e03c0f2f8cd36`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05c_burn_interest_event_reconciliation_v1/scaled_balance_snapshots.json`
+- `5d87c16651616d2a`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05b_atoken_identity_reconciliation_v1/exact_block_logs.json`
+- `6046350e3323a1ef`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05c_burn_interest_event_reconciliation_v1/scaled_balance_snapshots.json`
+- `643db796d360cdde`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_delivery_v1/layerzero_message.json`
+- `68d6fa04146c0f49`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06b_issuer_control_simulation_v1/non_owner_control.json`
+- `6c7a6e7c8d95add5`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06c_local_fork_freeze_scenarios_v1/destroy_blocked_funds_scenario.json`
+- `6d4caca365211755`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_delivery_v1/layerzero_message.json`
+- `6e05be1e9b27f455`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05c_burn_interest_event_reconciliation_v1/decoded_events.json`
+- `770fc70b5c77965d`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06b_aave_withdraw_callpath_v1/withdrawal_call_trace.json`
+- `77fb791a7acd136f`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08o_multichain_funding_window_v1/manifest.json`
+- `78ab0d2166efd2b3`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06a_issuer_freeze_capability_audit_v1/historical_control_snapshots.json`
+- `79f7adbd246f1184`: 2 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/audit.json`
+- `7e59206c334ac7ff`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08j_address_a_complete_window_v1/a_events.json`
+- `80e04dbe4a12468f`: 2 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_crosscheck_v1/ETH_TX_TRANSFERS_BATCH5_RAW_V1.json`
+- `83719473c7bdb401`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05c_burn_interest_event_reconciliation_v1/state_reconciliation.json`
+- `85105c6c97250f34`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08k_adapter_inbound_receipts_v1/decoded_receipts.json`
+- `8c171d521b96c45d`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05_withdrawal_audit_v1/existing_supply_transactions.json`
+- `904c4e17f26a62c5`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_delivery_v1/layerzero_message.json`
+- `90e546d615ab6bb6`: 2 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/audit.json`
+- `916c85019942900d`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05a_withdrawal_anomaly_reconciliation_v1/anomaly_reconciliation_summary.json`
+- `9508723b2680fbde`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_delivery_v1/layerzero_message.json`
+- `98f129a871d3121d`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_delivery_v1/layerzero_message.json`
+- `99dce3ef6f92f1e8`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_delivery_v1/layerzero_message.json`
+- `9d81bef92981eca1`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_delivery_v1/layerzero_message.json`
+- `a9c21d2c23a65249`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08m_source_message_lookup_v1/api_raw_responses.json`
+- `af64402c4d28aaf1`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05a_withdrawal_anomaly_reconciliation_v1/anomaly_reconciliation_summary.json`
+- `b5c5bd87ddd75123`: 2 file(s); example: `research/case-binance-2026/evidence/eg02_central_post_blacklist_ledger_v1/manifest.json`
+- `b93eae8bfe47ab3b`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06e_scenario_accounting_reconciliation_v1/live_state_latest.json`
+- `bb8fe496a68b75f7`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06b_aave_withdraw_callpath_v1/withdrawal_call_trace.json`
+- `c34bf424db04bf54`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08e_upstream_3000_blocks_v1/events.json`
+- `c4934c71d5f2252b`: 2 file(s); example: `research/case-binance-2026/evidence/exploiter16_token_provenance_v1/step16_receipt_evidence_v1/e16_aave.json`
+- `ca3631a246bf13f4`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06b_aave_withdraw_callpath_v1/implementation_slot_history.json`
+- `csv:6c691b31d71cba9e`: 2 file(s); example: `research/case-binance-2026/A97B/dex_transfer_sequence_audit_v1/SEQUENCE_EXCEPTIONS_V1.csv`
+- `csv:8ef7a022d960b5d3`: 2 file(s); example: `research/case-binance-2026/AXIOM_EVIDENCE_DIFFERENCE_REGISTER_V1.csv`
+- `csv:afe3c651f462d6d3`: 2 file(s); example: `research/case-binance-2026/GATE_2_INCIDENT_ATTRIBUTION_MATRIX_V1.csv`
+- `csv:c76c880d24afb3cd`: 2 file(s); example: `research/case-binance-2026/A97B/integrated_event_audit_v1/A97B_INTEGRATED_EVENT_LEDGER_V1.csv`
+- `csv:deec97b9c5355e75`: 2 file(s); example: `research/case-binance-2026/A97B/eth_address_receipts_v1/A97B_ADDRESS_ETH_RETURN_V1.csv`
+- `csv:eca4622558d8cd9f`: 2 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step84_a97b_erc20_exception_audit_v1/erc20_53_event_register.csv`
+- `csv:f05799b2db13e08b`: 2 file(s); example: `research/case-binance-2026/INCIDENT_ENTRY_POINT_REGISTER_V1.csv`
+- `d2e62f19c3eb9c0e`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_delivery_v1/layerzero_message.json`
+- `d4e82f8fe87bb1d0`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06b_aave_withdraw_callpath_v1/withdrawal_call_trace.json`
+- `d787e36704c01271`: 2 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step85_a97b_final_event_audit_v1/manifest.json`
+- `d7bab925195c2e37`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_delivery_v1/layerzero_message.json`
+- `dc1c3002ee9211d8`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_delivery_v1/layerzero_message.json`
+- `dc7e35a030f3cb06`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08t_atoken_historical_position_v1/summary.json`
+- `dece014cca69812d`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08n_source_receipt_verification_v1/source_transactions_and_receipts.json`
+- `e42bbd9ffbe3d3c0`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05c_burn_interest_event_reconciliation_v1/decoded_events.json`
+- `e66cd3f2d2e7ed7e`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05c_burn_interest_event_reconciliation_v1/scaled_balance_snapshots.json`
+- `e9c940e612dd3f47`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06f_withdrawal_revert_diagnostics_v1/baseline.json`
+- `eab46c0690045028`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05_withdrawal_audit_v1/withdrawal_audit_summary.json`
+- `ef9b9219b4c280a7`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06e_scenario_accounting_reconciliation_v1/scenario_accounting.json`
+- `f2e6e683953bcd93`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_delivery_v1/layerzero_message.json`
+- `f8e80159f8fc56df`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06b_aave_withdraw_callpath_v1/withdrawal_call_trace.json`
+- `fc0c339892ff3d46`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_delivery_v1/layerzero_message.json`
+- `fdee6988c637cdfe`: 2 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_delivery_v1/layerzero_message.json`
+- `009c0e9922a7df29`: 1 file(s); example: `research/case-binance-2026/evidence/central_blacklist_audit_v1/manifest.json`
+- `00fb22a4aa0485be`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/eth_funding_screen.json`
+- `0191e39a0a9442f6`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05c_burn_interest_event_reconciliation_v1/manifest.json`
+- `01df5cfd26cfc40c`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06a_issuer_freeze_capability_audit_v1/event_scan_summary.json`
+- `02c7133efe78e47d`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step70_a97b_forward_census_v1/manifest.json`
+- `0307c5f8faf70014`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08z_crystal_axiom_crosswalk_v1/crystal_source_claims.json`
+- `0313b8c2f2234e3e`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08f_earlier_10000_blocks_v1/manifest.json`
+- `03655225b7465809`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05a_withdrawal_anomaly_reconciliation_v1/anomaly_reconciliation_summary.json`
+- `039ab0db543b76b2`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step84_a97b_erc20_exception_audit_v1/manifest.json`
+- `039fe388ef353626`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06a_issuer_freeze_capability_audit_v1/historical_control_snapshots.json`
+- `03cc08cd84d88954`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/repeat_destination_patterns.json`
+- `041a8d0e6fc1e605`: 1 file(s); example: `research/case-binance-2026/A97B/dex_weth_counterparty_audit_v1/AUDIT_V1.json`
+- `04261f3a18427de1`: 1 file(s); example: `research/case-binance-2026/A97B/institutional_research_packet_v1/AUDIT_V1.json`
+- `048daae865efd5d1`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08v_atoken_inbound_crosscheck_v1/manifest.json`
+- `04a21312c149180d`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step68_elliptic_address_crosswalk_v1/manifest.json`
+- `05000bf42d9b839b`: 1 file(s); example: `research/case-binance-2026/evidence/step72_external_attribution_v1/manifest.json`
+- `05a995e60f27e2c8`: 1 file(s); example: `research/case-binance-2026/GATE_2_ETH_T03_BLOCK_ORDER_AUDIT_V1.json`
+- `05b12b51d73202e7`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06c_local_fork_freeze_scenarios_v1/freeze_scenarios.json`
+- `0634734fe478519d`: 1 file(s); example: `research/case-binance-2026/evidence/step75a_official_report_crosswalk_v1/crosswalk.json`
+- `0827be80045eaa39`: 1 file(s); example: `research/case-binance-2026/analysis/master_timeline_v0/AUDIT_V0.json`
+- `083a90afc621614b`: 1 file(s); example: `research/case-binance-2026/A97B/integrated_event_audit_v1/AUDIT_V1.json`
+- `083b42c6dc2f4213`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08m_source_message_lookup_v1/summary.json`
+- `08a641c5b5dfec9c`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step84_a97b_erc20_exception_audit_v1/manifest.json`
+- `095c11de30724660`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/eth_funding_screen.json`
+- `0977ffa5a293b052`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step83_official_attribution_crosswalk_v1/summary.json`
+- `0b0467b83e26efa0`: 1 file(s); example: `research/case-binance-2026/GATE_2_ETH_T03_FAILURE_TOLERANCE_V1.json`
+- `0e1bd7a9689b26c4`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step80_a97b_full_dex_census_v1/manifest.json`
+- `0e1e9caa4953f85a`: 1 file(s); example: `research/case-binance-2026/A97B/eth_address_receipts_v1/pages/page_0001.json`
+- `1018da1a178522f8`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step66_receiver_identity_rpc_audit_v1/transaction_receipt_block_evidence.json`
+- `10fb95a5ddf195d2`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_crosscheck_v2/request_manifest.json`
+- `118fd49165d46c1e`: 1 file(s); example: `research/case-binance-2026/evidence/step72_external_attribution_v1/attribution_audit.json`
+- `120cadde4f3969fe`: 1 file(s); example: `research/case-binance-2026/A97B/dex_weth_flow_audit_v1/AUDIT_V1.json`
+- `1239763145de323d`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08z_crystal_axiom_crosswalk_v1/summary.json`
+- `1302bb513a7355e2`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_delivery_v1/manifest.json`
+- `1347909706141357`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_crosscheck_v2/request_manifest.json`
+- `136de2d2914a1e0c`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step66_receiver_identity_rpc_audit_v1/transaction_receipt_block_evidence.json`
+- `13c43605263e4532`: 1 file(s); example: `research/case-binance-2026/GATE_2_ETH_T02_AUTHORIZATION_REPLAY_V1.json`
+- `13ebc301025c6d5d`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/PACKAGE_SHA256.json`
+- `13fc0886dde0a9b3`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06a_issuer_freeze_capability_audit_v1/manifest.json`
+- `14898c1152045be7`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step85_a97b_final_event_audit_v1/summary.json`
+- `148cae55ed394305`: 1 file(s); example: `research/case-binance-2026/evidence/eg02_central_post_blacklist_ledger_v1/manifest.json`
+- `14f0ec0b5df75b71`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06f_withdrawal_revert_diagnostics_v1/comparison.json`
+- `1540e34034cf82e9`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08y_forward_edge_preservation_v1/forward_candidates.json`
+- `1586d5d80b67c506`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06a_issuer_freeze_capability_audit_v1/contract_code_inventory.json`
+- `15c7d645eaf96bc6`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06a_issuer_freeze_capability_audit_v1/chain_identity.json`
+- `15fa173eaed3111c`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08t_atoken_historical_position_v1/manifest.json`
+- `163bfc8793e2f7cd`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08o_multichain_funding_window_v1/chain_events.json`
+- `16a007652576ad27`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step67_internal_eth_trace_audit_v1/blockscout_crosscheck_v1/transactions/0x4a4aed833556814c16fe176fc8abc70ce124eadc73da3bcdf42a67ef44f9ad6b.json`
+- `171ada2aa596a3bb`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_crosscheck_v1/AUDIT_V1.json`
+- `182a6e5dd0f54f6a`: 1 file(s); example: `research/case-binance-2026/A97B/integrated_event_audit_v1/AUDIT_V1.json`
+- `184e94a0c820c4d0`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08y_forward_edge_preservation_v1/summary.json`
+- `1860fd5ea4c8f31a`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08y_forward_edge_preservation_v1/manifest.json`
+- `1a051e3c3b169a05`: 1 file(s); example: `research/case-binance-2026/A97B/dex_transaction_paths_v1/AUDIT_V1.json`
+- `1a19faf99a287a96`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08v_atoken_inbound_crosscheck_v1/coverage.json`
+- `1a1c02979ab694f0`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step07a_28m_conservation_audit_v1/summary.json`
+- `1b1f485c30796d92`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step66_receiver_identity_rpc_audit_v1/transaction_receipt_block_evidence.json`
+- `1bb12b0e66101f08`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step07c_atoken_interest_reconciliation_v1/provenance.json`
+- `1bdc49f12987fe76`: 1 file(s); example: `research/case-binance-2026/evidence/eg05_kite_pause_origin_v1/manifest.json`
+- `1ce571ca31c35934`: 1 file(s); example: `research/case-binance-2026/A97B/dex_weth_settlement_audit_v1/AUDIT_V1.json`
+- `1d9583dd7363b3c3`: 1 file(s); example: `research/case-binance-2026/analysis/master_timeline_v0/AUDIT_V0.json`
+- `1e440b8d706cf912`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05a_withdrawal_anomaly_reconciliation_v1/anomaly_reconciliation_summary.json`
+- `1f1ffbe063d42ca4`: 1 file(s); example: `research/case-binance-2026/GATE_2_ETH_T02_NONCE_GAP_AUDIT_V1.json`
+- `20270f0e2afdf983`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05_withdrawal_audit_v1/derived_aave_contracts.json`
+- `21103dbd9da03f74`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06b_aave_withdraw_callpath_v1/provenance.json`
+- `211c2e02092fcaed`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05_withdrawal_audit_v1/other_pool_events_for_user.json`
+- `21a41d7100219a2f`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06b_aave_withdraw_callpath_v1/runtime_code_inventory.json`
+- `22ae055d0e29ce62`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08w_incident_attribution_crosswalk_v1/verified_a_to_b_receipt.json`
+- `22f6dec99a77b122`: 1 file(s); example: `research/case-binance-2026/GATE_2_ETH_T03_TRANSFER_EVENT_AUDIT_V1.json`
+- `24a36c103f0929e1`: 1 file(s); example: `research/case-binance-2026/GATE_2_ETH_T03_HISTORICAL_BALANCE_AUDIT_V1.json`
+- `25030ede76c71d96`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08y_forward_edge_preservation_v1/forward_candidates.json`
+- `250f96e13ae5a24e`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step66_receiver_identity_rpc_audit_v1/manifest.json`
+- `25a69b6e04f44bd2`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08z_crystal_axiom_crosswalk_v1/claim_by_claim_comparison.json`
+- `260608c1d0666ac8`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06e_scenario_accounting_reconciliation_v1/summary.json`
+- `2619095d7b19ffa8`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08ac_ethereum_atoken_position_origin_v1/position_origin_audit.json`
+- `26796fd00af09e76`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step77_a97b_dex_swap_evidence_v1/manifest.json`
+- `268da5f3bdd8294d`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08n_source_receipt_verification_v1/source_oft_crosswalk.json`
+- `26cb4e66ea72fba3`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05_withdrawal_audit_v1/derived_aave_contracts.json`
+- `27626100ecb7f069`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step79_a97b_repeat_swap_validation_v1/manifest.json`
+- `28a50bb420422996`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step66_receiver_identity_rpc_audit_v1/receiver_code_classification.json`
+- `28d38e75de592ff6`: 1 file(s); example: `research/case-binance-2026/evidence/initial_tx_v1/call_trace.json`
+- `294f1a1027dcfd8f`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08k_adapter_inbound_receipts_v1/manifest.json`
+- `29a47e8c03bdd913`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_delivery_v1/verified_summary.json`
+- `29c9ad2079f09528`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06b_issuer_control_simulation_v1/manifest.json`
+- `2ac6180a71917fe2`: 1 file(s); example: `research/case-binance-2026/evidence/step75a_official_report_crosswalk_v1/crosswalk.json`
+- `2c182ac3c9c37487`: 1 file(s); example: `research/case-binance-2026/GATE_2_ETH_T03_HISTORICAL_BALANCE_AUDIT_V1.json`
+- `2c2e8093395df8ca`: 1 file(s); example: `research/case-binance-2026/A97B/eth_first_recipient_audit_v1/AUDIT_V1.json`
+- `2ccfaa6e57f851b2`: 1 file(s); example: `research/case-binance-2026/A97B/eth_first_recipient_audit_v1/AUDIT_V1.json`
+- `2d3bfe3e14ded683`: 1 file(s); example: `research/case-binance-2026/evidence/step75a_official_report_crosswalk_v1/crosswalk.json`
+- `2d8de678eaecbd1b`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08w_incident_attribution_crosswalk_v1/existing_evidence_index.json`
+- `2debe1f1232e0c96`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step02_transfer_ledger_v1/block_timestamp_index.json`
+- `2e592408afa9c617`: 1 file(s); example: `research/case-binance-2026/evidence/eg01_execution_time_v1/manifest.json`
+- `2f73b604d6fff6d1`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step66_receiver_identity_rpc_audit_v1/transaction_receipt_block_evidence.json`
+- `2fa3c33909db0fec`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06f_withdrawal_revert_diagnostics_v1/scenario_results.json`
+- `301852b0380d99d8`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08k_adapter_inbound_receipts_v1/decoded_receipts.json`
+- `3077135f51d82307`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step07d_final_evidence_consistency_audit_v1/summary.json`
+- `3095e09636f881c2`: 1 file(s); example: `research/case-binance-2026/evidence/eg03_recipient_blacklist_v1.json`
+- `30f86ceaa5f637db`: 1 file(s); example: `research/case-binance-2026/evidence/eg02_central_post_blacklist_ledger_v1/transfer_ledger.json`
+- `318d439875f4411f`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05a_withdrawal_anomaly_reconciliation_v1/withdrawal_receipt_transfer_decoding.json`
+- `319f98fd7413e7ea`: 1 file(s); example: `research/case-binance-2026/evidence/step73_preincident_graphsense_v1/manifest.json`
+- `3214271417a876b8`: 1 file(s); example: `research/case-binance-2026/evidence/30m_blacklist_audit_v1/balance_snapshots.json`
+- `32f565fd80d5b80c`: 1 file(s); example: `research/case-binance-2026/GATE_2_ETH_T03_FAILURE_TOLERANCE_V1.json`
+- `3314c38a81b6c89c`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/manifest.json`
+- `335b3449bfc8ca4f`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08ac_ethereum_atoken_position_origin_v1/manifest.json`
+- `34aaa87c3a2d1c92`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05c_burn_interest_event_reconciliation_v1/summary.json`
+- `34e13ec2f0638b5c`: 1 file(s); example: `research/case-binance-2026/evidence/eg03_recipient_blacklist_v1.json`
+- `34ebbbd8189734ca`: 1 file(s); example: `research/case-binance-2026/evidence/exploiter16_token_provenance_v1/step18g_four_route_evidence_v1/manifest.json`
+- `3555b0d486df674c`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05_withdrawal_audit_v1/manifest.json`
+- `358801321d6cbb56`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08n_source_receipt_verification_v1/source_transactions_and_receipts.json`
+- `35a8a9d6a73295f1`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05c_burn_interest_event_reconciliation_v1/manifest.json`
+- `37d887eafe7adcb2`: 1 file(s); example: `research/case-binance-2026/A97B/dex_weth_counterparty_audit_v1/AUDIT_V1.json`
+- `37f026045b11b824`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06b_aave_withdraw_callpath_v1/runtime_code_inventory.json`
+- `389cbf663b089e58`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08z_crystal_axiom_crosswalk_v1/crystal_source_claims.json`
+- `38ada6acc584470d`: 1 file(s); example: `research/case-binance-2026/GATE_2_ETH_T03_FAILURE_TOLERANCE_V1.json`
+- `3980afa277fb189d`: 1 file(s); example: `research/case-binance-2026/A97B/economic_flow_v1/A97B_ECONOMIC_FLOW_AUDIT_V1.json`
+- `3aea4d537dc1286a`: 1 file(s); example: `research/case-binance-2026/evidence/eg03_two_address_consolidation_v1/previous_terminal_audit_summary.json`
+- `3b02e41c359d95c3`: 1 file(s); example: `research/case-binance-2026/evidence/eg03_two_address_consolidation_v1/manifest.json`
+- `3b5e6aa037bf4af1`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step85_a97b_final_event_audit_v1/summary.json`
+- `3b79ffcdd16bc4d9`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06b_aave_withdraw_callpath_v1/withdrawal_call_trace.json`
+- `3c21fa0591c0ca6f`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/provenance.json`
+- `3c9cda0ca991fe61`: 1 file(s); example: `research/case-binance-2026/A97B/economic_flow_v1/A97B_ECONOMIC_FLOW_AUDIT_V1.json`
+- `3dbeb0689f431513`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05_withdrawal_audit_v1/withdrawal_events.json`
+- `3fc7516c60a9bbc3`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08r_aave_mantle_receipt_audit_v1/manifest.json`
+- `40118978db9536e3`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08k_adapter_inbound_receipts_v1/decoded_receipts.json`
+- `4053179ecb955c1e`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08q_large_inflow_origin_windows_v1/chain_events.json`
+- `40763930ca940533`: 1 file(s); example: `research/case-binance-2026/evidence/step76_preincident_inbound_v1/PARTIAL_AUDIT_V1.json`
+- `40b1e684d1a0ad7a`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08m_source_message_lookup_v1/api_raw_responses.json`
+- `4134d4011ab189a4`: 1 file(s); example: `research/case-binance-2026/A97B/dex_route_mechanism_v1/AUDIT_V1.json`
+- `4188332488cc3ae2`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step02_transfer_ledger_v1/manifest.json`
+- `41b0c4b28f850a60`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step66_receiver_identity_rpc_audit_v1/manifest.json`
+- `42432bd37ca9a7f9`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08z_crystal_axiom_crosswalk_v1/manifest.json`
+- `43c0d5d70901300c`: 1 file(s); example: `research/case-binance-2026/evidence/exploiter16_token_provenance_v1/step16_receipt_evidence_v1/central_to_e16_aave.json`
+- `43cd587c2bc450d1`: 1 file(s); example: `research/case-binance-2026/evidence/step76_preincident_inbound_v1/meta.json`
+- `43e66bd9b81444d8`: 1 file(s); example: `research/case-binance-2026/GATE_2_ETH_HISTORICAL_CODE_AUDIT_V1.json`
+- `44328deb7d65bf92`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08y_forward_edge_preservation_v1/raw_intermediate_receipts.json`
+- `44ebaa857c260383`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08t_atoken_historical_position_v1/historical_atoken_checkpoints.json`
+- `4562d515a1939b72`: 1 file(s); example: `research/case-binance-2026/evidence/eg01_execution_time_v1/manifest.json`
+- `4576ba66cfee88e9`: 1 file(s); example: `research/case-binance-2026/investigation_workspace_v1/BASE_EVENTS_V1.json`
+- `457fcb2a1904474d`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/repeat_destination_patterns.json`
+- `46194438490a1d0a`: 1 file(s); example: `research/case-binance-2026/evidence/additional_stablecoins_v1/manifest.json`
+- `46407f24d0cb56a7`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/manifest.json`
+- `467ab7ae29510be1`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08ac_ethereum_atoken_position_origin_v1/position_origin_audit.json`
+- `468264d263a1a5ef`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08ac_ethereum_atoken_position_origin_v1/position_origin_audit.json`
+- `4686d065f997d2b2`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06c_local_fork_freeze_scenarios_v1/manifest.json`
+- `46c8283f1e7f8e9a`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08q_large_inflow_origin_windows_v1/scan_coverage.json`
+- `479ca38a4acc6753`: 1 file(s); example: `research/case-binance-2026/evidence/eg02_historical_balances_v1/manifest.json`
+- `48b310b972e6879c`: 1 file(s); example: `research/case-binance-2026/evidence/initial_tx_v1/call_trace.json`
+- `48f878831908b9c4`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08k_adapter_inbound_receipts_v1/summary.json`
+- `4966e93f269aad9a`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06e_scenario_accounting_reconciliation_v1/live_state_latest.json`
+- `49c4e4e7a540049a`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08u_recent_supply_event_audit_v1/summary.json`
+- `49f341861e7e192a`: 1 file(s); example: `research/case-binance-2026/evidence/step71_55m_source_audit_v1/manifest.json`
+- `4a807352d11fc722`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06b_aave_withdraw_callpath_v1/manifest.json`
+- `4a91f70edaab4fa9`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/step70_bitquery_ledger_reconciliation_v1/query_conditions.json`
+- `4ad545b6fccaad49`: 1 file(s); example: `research/case-binance-2026/evidence/step75a_official_report_crosswalk_v1/crosswalk.json`
+- `4adfba3cfe39a1a6`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05a_withdrawal_anomaly_reconciliation_v1/manifest.json`
+- `4c63ebfefd5622b8`: 1 file(s); example: `research/case-binance-2026/evidence/exploiter16_token_provenance_v1/step16_receipt_evidence_v1/manifest.json`
+- `4c9a53e2d7f402c7`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05b_atoken_identity_reconciliation_v1/historical_balances.json`
+- `4dce70f57623457a`: 1 file(s); example: `research/case-binance-2026/evidence/step73_preincident_graphsense_v1/audit.json`
+- `4e0d95774e9ea3b0`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/FINAL_INTEGRITY_AUDIT_V2.json`
+- `4ec47a1dd745bc5d`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08u_recent_supply_event_audit_v1/summary.json`
+- `4f0d611f45e4cc37`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step07d_final_evidence_consistency_audit_v1/summary.json`
+- `4f13fd91943322d4`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/step70_bitquery_ledger_reconciliation_v1/query_conditions.json`
+- `4f7cf689e565b306`: 1 file(s); example: `research/case-binance-2026/A97B/institutional_research_packet_v1/AUDIT_V1.json`
+- `4faf0356c21fed94`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step73_a97b_execution_conservation_v1/execution_pattern_samples.json`
+- `4fec48d82ba2db4e`: 1 file(s); example: `research/case-binance-2026/analysis/master_flow_map_v1/AUDIT_V1.json`
+- `50203e33077a6372`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step67_internal_eth_trace_audit_v1/blockscout_crosscheck_v1/transactions/0x4a4aed833556814c16fe176fc8abc70ce124eadc73da3bcdf42a67ef44f9ad6b.json`
+- `505ee9747faf5498`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/destination_block_recipient_transfer_logs.json`
+- `50d067a268c97805`: 1 file(s); example: `research/case-binance-2026/A97B/dex_transfer_sequence_audit_v1/AUDIT_V1.json`
+- `50e130c50192ef8f`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08v_atoken_inbound_crosscheck_v1/summary.json`
+- `52074e30b90e6877`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/FINAL_INTEGRITY_AUDIT_V2.json`
+- `53f19ad13aaaac3d`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06a_issuer_freeze_capability_audit_v1/historical_control_snapshots.json`
+- `546dde16df1210cb`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06f_withdrawal_revert_diagnostics_v1/provenance.json`
+- `546eadb4ae216cce`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05b_atoken_identity_reconciliation_v1/receipt_transfer_events.json`
+- `553af0926e5cd930`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step67_internal_eth_trace_audit_v1/blockscout_crosscheck_v1/crosscheck_results.json`
+- `555830b1b5e6d82b`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step67_internal_eth_trace_audit_v1/blockscout_crosscheck_v1/transactions/0x55ba4dabc41b468e580751373ad31acdee6f5ba398682df2c93e5a8340870556.json`
+- `55e58b87272e54db`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08z_crystal_axiom_crosswalk_v1/crystal_source_claims.json`
+- `565f37c2042926f5`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/audit.json`
+- `56feeda093cafe37`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08m_source_message_lookup_v1/source_message_candidates.json`
+- `571130f26bb557e2`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08w_incident_attribution_crosswalk_v1/existing_evidence_index.json`
+- `5787d952eefce63b`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08u_recent_supply_event_audit_v1/scan_coverage.json`
+- `57c1f384c74464fc`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05_withdrawal_audit_v1/atoken_user_transfer_ledger.json`
+- `5855b5b2e539e64b`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step07d_final_evidence_consistency_audit_v1/claim_classification_matrix.json`
+- `58dae9754fec0e4d`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step66_receiver_identity_rpc_audit_v1/transaction_receipt_block_evidence.json`
+- `5b5ad9bf35f03f53`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_crosscheck_v2/request_manifest.json`
+- `5b6bd1580665f0ff`: 1 file(s); example: `research/case-binance-2026/evidence/step76_preincident_inbound_v1/checkpoint.json`
+- `5c8bdf3b00db5309`: 1 file(s); example: `research/case-binance-2026/A97B/public_report_overlap_v1/AUDIT_V1.json`
+- `5cc4967d14ae96f0`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/repeat_destination_patterns.json`
+- `5d1b6616be6a0ebd`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step07d_final_evidence_consistency_audit_v1/claim_classification_matrix.json`
+- `5d22686ac13f446e`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06b_issuer_control_simulation_v1/owner_identity.json`
+- `5d73c9a6545e0edc`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step07b_post_ledger_gap_audit_v1/manifest.json`
+- `5d8bc43f5a5300a7`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08w_incident_attribution_crosswalk_v1/summary.json`
+- `5f2172030154429b`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08n_source_receipt_verification_v1/manifest.json`
+- `5fc5ceaf37f03783`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_crosscheck_v1/AUDIT_V1.json`
+- `60ea40b88ca0e863`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05b_atoken_identity_reconciliation_v1/historical_balances.json`
+- `619171027679e215`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step81_a97b_remaining_60_audit_v1/manifest.json`
+- `61b4dd3a678c6ea3`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step73_a97b_execution_conservation_v1/manifest.json`
+- `6247fb3e327395cf`: 1 file(s); example: `research/case-binance-2026/evidence/eg01_execution_time_v1/manifest.json`
+- `6299a04765f25055`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step83_official_attribution_crosswalk_v1/summary.json`
+- `62f27531838f8283`: 1 file(s); example: `research/case-binance-2026/A97B/eth_address_receipts_v1/AUDIT_V1.json`
+- `6427b6a64bda180d`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step85_a97b_final_event_audit_v1/summary.json`
+- `642a0375e8b20b16`: 1 file(s); example: `research/case-binance-2026/evidence/step73_preincident_graphsense_v1/manifest.json`
+- `64acbbd342299d12`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06f_withdrawal_revert_diagnostics_v1/baseline.json`
+- `64c362feac467ae7`: 1 file(s); example: `research/case-binance-2026/evidence/eg05_kite_pause_origin_v1/manifest.json`
+- `65b6481ae5adb25e`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step07a_28m_conservation_audit_v1/conservation_report.json`
+- `67e51fb749e81126`: 1 file(s); example: `research/case-binance-2026/A97B/dex_internal_trace_v1/AUDIT_V1.json`
+- `686d01235bf63ffc`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step07d_final_evidence_consistency_audit_v1/claim_classification_matrix.json`
+- `68c5f995e54c4228`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06d_aave_reserve_liquidity_reconciliation_v1/raw_reserve_data.json`
+- `690604cac156bfc6`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step79_a97b_repeat_swap_validation_v1/sample_results.json`
+- `696a3ba70febfbb5`: 1 file(s); example: `research/case-binance-2026/A97B/ledger_v1/A97B_LEDGER_AUDIT_V1.json`
+- `6a6b5d258596c793`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06c_local_fork_freeze_scenarios_v1/fork_restoration.json`
+- `6b9b8b04c28a9dd2`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step07a_28m_conservation_audit_v1/conservation_report.json`
+- `6b9e41e1aee144a4`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08w_incident_attribution_crosswalk_v1/existing_evidence_index.json`
+- `6ccb2d5d093d9d18`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/repeat_destination_patterns.json`
+- `6ccc6ab46f55d9dd`: 1 file(s); example: `research/case-binance-2026/GATE_2_POR_EVIDENCE_MANIFEST_V1.json`
+- `6d5c66671a529d1e`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08e_upstream_3000_blocks_v1/manifest.json`
+- `6d606a11dc5c6cd3`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step73_a97b_execution_conservation_v1/execution_pattern_samples.json`
+- `6db0000040d065f3`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06e_scenario_accounting_reconciliation_v1/summary.json`
+- `6de83f28c39fd79e`: 1 file(s); example: `research/case-binance-2026/A97B/dex_external_screening_v1/AUDIT_V1.json`
+- `6e2c55b983031b87`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step77_a97b_dex_swap_evidence_v1/dex_router_samples.json`
+- `6e57e91d3a1beef5`: 1 file(s); example: `research/case-binance-2026/GATE_2_ETH_T03_TRANSFER_EVENT_AUDIT_V1.json`
+- `6ecb6611b7fb222f`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step70_a97b_forward_census_v1/manifest.json`
+- `6ee7ce9e51d2daa3`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step67_internal_eth_trace_audit_v1/blockscout_crosscheck_v1/crosscheck_results.json`
+- `6f832135ee423109`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06a_issuer_freeze_capability_audit_v1/historical_control_snapshots.json`
+- `6f97300ed11dc2de`: 1 file(s); example: `research/case-binance-2026/evidence/30m_upstream_bridge_v1/manifest.json`
+- `702de7480313aef8`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/repeat_destination_patterns.json`
+- `71b289026255721f`: 1 file(s); example: `research/case-binance-2026/A97B/bitquery_withdrawal_crosswalk_v1/AUDIT_V1.json`
+- `71ea2b8a0a2ed4bc`: 1 file(s); example: `research/case-binance-2026/A97B/dex_transfer_sequence_audit_v1/AUDIT_V1.json`
+- `729f39cc94e469e5`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step83_official_attribution_crosswalk_v1/summary.json`
+- `74115df11b9da70a`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08q_large_inflow_origin_windows_v1/summary.json`
+- `744305c5343a7d36`: 1 file(s); example: `research/case-binance-2026/evidence/second_hop_receipts_v1/manifest.json`
+- `74548af42a7171e6`: 1 file(s); example: `research/case-binance-2026/evidence/central_blacklist_audit_v1/manifest.json`
+- `7456b14f2b760d44`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step73_a97b_execution_conservation_v1/eth_conservation_screen.json`
+- `748b4abcf1a6bf30`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06a_issuer_freeze_capability_audit_v1/event_scan_summary.json`
+- `756e11b836870bc1`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/step70_bitquery_ledger_reconciliation_v1/query_conditions.json`
+- `7613359a50928028`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08l_crosschain_message_decode_v1/manifest.json`
+- `77c8d3f046795dd9`: 1 file(s); example: `research/case-binance-2026/A97B/eth_address_receipts_v1/AUDIT_V1.json`
+- `77e1ab1815e1c71c`: 1 file(s); example: `research/case-binance-2026/GATE_2_ETH_HISTORICAL_CODE_AUDIT_V1.json`
+- `78876c30e04a9f93`: 1 file(s); example: `research/case-binance-2026/A97B/dex_weth_counterparty_audit_v1/AUDIT_V1.json`
+- `78eaeefb642fb08b`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06f_withdrawal_revert_diagnostics_v1/manifest.json`
+- `7920024e4dfcfb09`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step80_a97b_full_dex_census_v1/manifest.json`
+- `7930889a6dda6143`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step07c_atoken_interest_reconciliation_v1/reconciliation.json`
+- `7acf95d719471870`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/repeat_destination_patterns.json`
+- `7b3a2c1134c1b81d`: 1 file(s); example: `research/case-binance-2026/evidence/eg05_kite_historical_pause_v1/manifest.json`
+- `7bf3302fba5ac654`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08l_crosschain_message_decode_v1/summary.json`
+- `7c8dc3c40e630185`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08r_aave_mantle_receipt_audit_v1/decoded_transaction_context.json`
+- `7d1c052230a4a45f`: 1 file(s); example: `research/case-binance-2026/GATE_2_ETH_T03_HISTORICAL_BALANCE_AUDIT_V1.json`
+- `7d2eb999c42200bc`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_crosscheck_v1/AUDIT_V1.json`
+- `7d5783a34b6f6b14`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step85_a97b_final_event_audit_v1/summary.json`
+- `7d580d3724280dc3`: 1 file(s); example: `research/case-binance-2026/evidence/eg02_central_post_blacklist_ledger_v1/audit.json`
+- `7eb474d6d89fa9d2`: 1 file(s); example: `research/case-binance-2026/A97B/dex_internal_trace_v1/AUDIT_V1.json`
+- `7ee014b213b0fd80`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06e_scenario_accounting_reconciliation_v1/manifest.json`
+- `7fb631764a63d389`: 1 file(s); example: `research/case-binance-2026/GATE_2_ETH_T03_COMMAND_CONSOLIDATION_V1.json`
+- `8133cf18d55e19ff`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step07d_final_evidence_consistency_audit_v1/provenance.json`
+- `814fa2e61679a7ad`: 1 file(s); example: `research/case-binance-2026/evidence/step71_55m_source_audit_v1/manifest.json`
+- `81993cb76706b29b`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step69_noncentral_receiver_forward_screen_v1/manifest.json`
+- `81dcaaad2bf8b6aa`: 1 file(s); example: `research/case-binance-2026/evidence/second_wallet_tokens_v1/manifest.json`
+- `82b1fb765160c8da`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/repeat_destination_patterns.json`
+- `832cedfbee55a127`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06b_issuer_control_simulation_v1/provenance.json`
+- `834417b61806822f`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step69_noncentral_receiver_forward_screen_v1/audit.json`
+- `83740ee551d96256`: 1 file(s); example: `research/case-binance-2026/A97B/ledger_v1/A97B_LEDGER_AUDIT_V1.json`
+- `83a04c876b523140`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step73_a97b_execution_conservation_v1/execution_pattern_samples.json`
+- `83c8b38197617056`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step79_a97b_repeat_swap_validation_v1/manifest.json`
+- `83efd4cff9cbd7df`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08y_forward_edge_preservation_v1/forward_candidates.json`
+- `85a30d818c745ec5`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06c_local_fork_freeze_scenarios_v1/destroy_blocked_funds_scenario.json`
+- `85e13fed9d659a09`: 1 file(s); example: `research/case-binance-2026/A97B/bitquery_withdrawal_crosswalk_v1/AUDIT_V1.json`
+- `88a92a4fcdefd55f`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08r_aave_mantle_receipt_audit_v1/summary.json`
+- `88ad317439daa6c2`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08v_atoken_inbound_crosscheck_v1/results.json`
+- `88f7530fc9295d38`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08t_atoken_historical_position_v1/summary.json`
+- `895097d39d227f50`: 1 file(s); example: `research/case-binance-2026/evidence/step72_external_attribution_v1/manifest.json`
+- `89b69ec15edd4768`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08o_multichain_funding_window_v1/summary.json`
+- `89c53596429f93b0`: 1 file(s); example: `research/case-binance-2026/evidence/eg02_historical_balances_v1/manifest.json`
+- `8a52873f0fcb7c63`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/step70_bitquery_ledger_reconciliation_v1/query_conditions.json`
+- `8ad13503ed6c21f9`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06b_aave_withdraw_callpath_v1/source_verification_lookup.json`
+- `8ae0371c4f691797`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08w_incident_attribution_crosswalk_v1/verified_a_to_b_receipt.json`
+- `8af8ee97a1c4e971`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08m_source_message_lookup_v1/manifest.json`
+- `8b3f11ca6f6edcf0`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step65_direct_receiver_route_register_v1/manifest.json`
+- `8b5cb794a297fc55`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08e_upstream_3000_blocks_v1/summary.json`
+- `8b6177f2c73e3d75`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/repeat_destination_patterns.json`
+- `8bb49589c3e253c3`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step07b_post_ledger_gap_audit_v1/provenance.json`
+- `8ca8f0477bb404e2`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/step70_bitquery_ledger_reconciliation_v1/query_conditions.json`
+- `8d3641fe7f5fc078`: 1 file(s); example: `research/case-binance-2026/A97B/eth_address_receipts_v1/CHECKPOINT_MANIFEST_V1.json`
+- `8d4af6daa1bc88b9`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08z_crystal_axiom_crosswalk_v1/crystal_source_claims.json`
+- `8d4c53e0de9e7d54`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06d_aave_reserve_liquidity_reconciliation_v1/manifest.json`
+- `8ec037c24196d3fb`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08k_adapter_inbound_receipts_v1/raw_rpc_evidence.json`
+- `9009f0028ee713b8`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08l_crosschain_message_decode_v1/decoded_crosschain_messages.json`
+- `90cff2ef1f4ee019`: 1 file(s); example: `research/case-binance-2026/evidence/30m_upstream_bridge_v1/manifest.json`
+- `9218adbc8cdf164b`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08y_forward_edge_preservation_v1/outgoing_scan_coverage.json`
+- `926fe2f8146f4c5d`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05_withdrawal_audit_v1/derived_aave_contracts.json`
+- `927153ccb8616693`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06a_issuer_freeze_capability_audit_v1/provenance.json`
+- `92950b5aada1ed88`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06d_aave_reserve_liquidity_reconciliation_v1/provenance.json`
+- `92ac8014747469bc`: 1 file(s); example: `research/case-binance-2026/GATE_2_ETH_T02_AUTHORIZATION_REPLAY_V1.json`
+- `92f816332d397960`: 1 file(s); example: `research/case-binance-2026/evidence/blacklist_balance_175m_v1/balance_snapshots.json`
+- `93b87ec6f9a12732`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08z_crystal_axiom_crosswalk_v1/claim_by_claim_comparison.json`
+- `9425517f14ff973a`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_crosscheck_v1/AUDIT_V1.json`
+- `94782dae91a6a18d`: 1 file(s); example: `research/case-binance-2026/A97B/dex_external_screening_v1/AUDIT_V1.json`
+- `954c15444d34ddd2`: 1 file(s); example: `research/case-binance-2026/GATE_2_ETH_T03_HISTORICAL_BALANCE_AUDIT_V1.json`
+- `956cf800b881b7a8`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06b_issuer_control_simulation_v1/post_simulation_state.json`
+- `956ed4fbfd643fc0`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step02_transfer_ledger_v1/transfer_ledger.json`
+- `959904b4ef176110`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/step70_bitquery_ledger_reconciliation_v1/query_conditions.json`
+- `9621bbd2b1b526ae`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step07a_28m_conservation_audit_v1/conservation_report.json`
+- `96238f31fa305f42`: 1 file(s); example: `research/case-binance-2026/GATE_2_ETH_T03_TRANSFER_EVENT_AUDIT_V1.json`
+- `9646509bccbb9c5b`: 1 file(s); example: `research/case-binance-2026/A97B/integrated_event_audit_v1/AUDIT_V1.json`
+- `98703bf06eb93db7`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step73_a97b_execution_conservation_v1/execution_pattern_samples.json`
+- `9a541acaacbb2a91`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08ac_ethereum_atoken_position_origin_v1/position_origin_audit.json`
+- `9b4e093dbb68ab97`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step07b_post_ledger_gap_audit_v1/summary.json`
+- `9b9555d2e4df55bc`: 1 file(s); example: `research/case-binance-2026/investigation_workspace_v1/WORKSPACE_MANIFEST.json`
+- `9b9ec81e8818e55e`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08z_crystal_axiom_crosswalk_v1/crystal_source_claims.json`
+- `9bf1016b18c8edde`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06a_issuer_freeze_capability_audit_v1/historical_control_snapshots.json`
+- `9c0d77c0a513cbf1`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step07d_final_evidence_consistency_audit_v1/claim_classification_matrix.json`
+- `9c182c65a47ceeea`: 1 file(s); example: `research/case-binance-2026/A97B/eth_first_recipient_audit_v1/AUDIT_V1.json`
+- `9ce239f82a4732ad`: 1 file(s); example: `research/case-binance-2026/evidence/eg05_kite_historical_pause_v1/manifest.json`
+- `9d1d9f2c64d0dda4`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/rpc_cache/incoming_eth_page_0001.json`
+- `9d758c5d27d0259c`: 1 file(s); example: `research/case-binance-2026/A97B/dex_weth_flow_audit_v1/AUDIT_V1.json`
+- `9de518d5106ba096`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06c_local_fork_freeze_scenarios_v1/fork_context.json`
+- `9dfc3611e817d4d8`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06d_aave_reserve_liquidity_reconciliation_v1/summary.json`
+- `9f8a5d1b6a01c10d`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06c_local_fork_freeze_scenarios_v1/destroy_blocked_funds_scenario.json`
+- `9fdb6db43099f04f`: 1 file(s); example: `research/case-binance-2026/A97B/dex_route_mechanism_v1/AUDIT_V1.json`
+- `a00d8d99da43ec36`: 1 file(s); example: `research/case-binance-2026/GATE_2_ETH_T02_AUTHORIZATION_REPLAY_V1.json`
+- `a030519e32d68093`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06d_aave_reserve_liquidity_reconciliation_v1/reserve_snapshots.json`
+- `a10f45fe2bed192b`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06a_issuer_freeze_capability_audit_v1/historical_control_snapshots.json`
+- `a45d717028bad580`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06a_issuer_freeze_capability_audit_v1/summary.json`
+- `a4d8044e5c9d410a`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08f_earlier_10000_blocks_v1/summary.json`
+- `a53587685746233a`: 1 file(s); example: `research/case-binance-2026/evidence/step71_55m_source_audit_v1/balance_and_code_audit.json`
+- `a55e99e88d528d24`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step85_a97b_final_event_audit_v1/summary.json`
+- `a60b0540cbbe1aaa`: 1 file(s); example: `research/case-binance-2026/GATE_2_ETH_T02_SIGNATURE_RECOVERY_V1.json`
+- `a760afc29b9cd99f`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05b_atoken_identity_reconciliation_v1/manifest.json`
+- `a82e78616921c762`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06d_aave_reserve_liquidity_reconciliation_v1/reserve_snapshots.json`
+- `a86d18b8ad0f3103`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_crosscheck_v2/request_manifest.json`
+- `a899afa01e727eb1`: 1 file(s); example: `research/case-binance-2026/evidence/eg05_kite_pause_origin_v1/manifest.json`
+- `a8e4224e01485825`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step69_noncentral_receiver_forward_screen_v1/manifest.json`
+- `aa158bb33381bc62`: 1 file(s); example: `research/case-binance-2026/evidence/step71_55m_source_audit_v1/por_crosswalk_matches.json`
+- `aa79f8bce8a5bc9c`: 1 file(s); example: `research/case-binance-2026/analysis/master_flow_map_v1/AUDIT_V1.json`
+- `ab003870102e8488`: 1 file(s); example: `research/case-binance-2026/evidence/second_hop_usdt_v1/transfer_logs.json`
+- `abe50831fcb81ef8`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step80_a97b_full_dex_census_v1/summary.json`
+- `adfb83b827fe2390`: 1 file(s); example: `research/case-binance-2026/evidence/step71_55m_source_audit_v1/balance_and_code_audit.json`
+- `aecc80bf1dbf8219`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05b_atoken_identity_reconciliation_v1/reserve_identity.json`
+- `aedbfdb5d2eb1a54`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08j_address_a_complete_window_v1/summary.json`
+- `afd4c012ea96bfe2`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_crosscheck_v1/AUDIT_V1.json`
+- `b0bbe822b79108b3`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/manifest.json`
+- `b0d48665287abbdd`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06a_issuer_freeze_capability_audit_v1/summary.json`
+- `b10585b0720e0ebb`: 1 file(s); example: `research/case-binance-2026/evidence/exploiter16_token_provenance_v1/step19f_middle_hop_receipts_v1/manifest.json`
+- `b15dfc8a9e9eddaa`: 1 file(s); example: `research/case-binance-2026/GATE_2_POR_EVIDENCE_MANIFEST_V1.json`
+- `b18fc191ba33abd4`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step67_internal_eth_trace_audit_v1/blockscout_crosscheck_v1/manifest.json`
+- `b1cf8b7c2579a3e8`: 1 file(s); example: `research/case-binance-2026/evidence/root_usdt_outflows_v1/manifest.json`
+- `b1e34300221dedbe`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step83_official_attribution_crosswalk_v1/summary.json`
+- `b2e36183c1a3f438`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step68_elliptic_address_crosswalk_v1/audit.json`
+- `b338c01524fe517d`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_crosscheck_v1/AUDIT_V1.json`
+- `b39ebee437ab0c9b`: 1 file(s); example: `research/case-binance-2026/evidence/exploiter16_token_provenance_v1/step19f_middle_hop_receipts_v1/manifest.json`
+- `b4692c1cb7bb81df`: 1 file(s); example: `research/case-binance-2026/evidence/30m_upstream_bridge_v1/manifest.json`
+- `b493dc9f6175ab1a`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06c_local_fork_freeze_scenarios_v1/baseline.json`
+- `b4ef1f6e84cfd83d`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/repeat_destination_patterns.json`
+- `b5f3e139cbf071a7`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step02_transfer_ledger_v1/ledger_summary.json`
+- `b66ab535b1bd3387`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/repeat_destination_patterns.json`
+- `b6cb321891a60c8e`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06b_issuer_control_simulation_v1/owner_blocklist_simulations.json`
+- `b7da7ef8c5d20388`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step07c_atoken_interest_reconciliation_v1/summary.json`
+- `b816282ba6c6d2bb`: 1 file(s); example: `research/case-binance-2026/A97B/eth_address_receipts_v1/CHECKPOINT_MANIFEST_V1.json`
+- `b85a6dfb136c89bc`: 1 file(s); example: `research/case-binance-2026/A97B/dex_transaction_paths_v1/AUDIT_V1.json`
+- `b8e7d4516aac7bb0`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step07c_atoken_interest_reconciliation_v1/manifest.json`
+- `bc675466502a29b3`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08u_recent_supply_event_audit_v1/manifest.json`
+- `bcd08ec72fd4c1da`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/manifest.json`
+- `bd2126886429c822`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08ac_ethereum_atoken_position_origin_v1/position_origin_audit.json`
+- `bd2a6021e32a612b`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step07c_atoken_interest_reconciliation_v1/supply_transaction_checks.json`
+- `bd52b4d944859c6f`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_delivery_v1/manifest.json`
+- `bdc107489ff64979`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06e_scenario_accounting_reconciliation_v1/provenance.json`
+- `bed49da96f82375e`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06a_issuer_freeze_capability_audit_v1/contract_code_inventory.json`
+- `bed553fb86741b7e`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step73_a97b_execution_conservation_v1/execution_pattern_samples.json`
+- `bf410750ac037f35`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_crosscheck_v1/AUDIT_V1.json`
+- `c026c5be561da9a4`: 1 file(s); example: `research/case-binance-2026/GATE_2_ETH_T02_SIGNATURE_RECOVERY_V1.json`
+- `c06427e9b14177c3`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08k_adapter_inbound_receipts_v1/raw_rpc_evidence.json`
+- `c0828bd3e1d38bde`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step77_a97b_dex_swap_evidence_v1/audit.json`
+- `c0946b05bc38ef09`: 1 file(s); example: `research/case-binance-2026/A97B/integrated_event_audit_v1/MANIFEST_V1.json`
+- `c1355f7e7ca09d08`: 1 file(s); example: `research/case-binance-2026/A97B/dex_execution_reconstruction_v1/AUDIT_V1.json`
+- `c14cf9f62d43a2bf`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08r_aave_mantle_receipt_audit_v1/decoded_transaction_context.json`
+- `c215e31668edf7af`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08l_crosschain_message_decode_v1/summary.json`
+- `c23831b8b792391f`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05_withdrawal_audit_v1/manifest.json`
+- `c2f17411a8e48469`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step81_a97b_remaining_60_audit_v1/summary.json`
+- `c37ff43c93c868b2`: 1 file(s); example: `research/case-binance-2026/evidence/30m_upstream_bridge_v1/manifest.json`
+- `c41e20c862977ebf`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step81_a97b_remaining_60_audit_v1/manifest.json`
+- `c44eb00de1b216d5`: 1 file(s); example: `research/case-binance-2026/evidence/eg03_two_address_consolidation_v1/manifest.json`
+- `c45771374b130b77`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step07a_28m_conservation_audit_v1/provenance.json`
+- `c4e6db9ee781749a`: 1 file(s); example: `research/case-binance-2026/A97B/bitquery_withdrawal_crosswalk_v1/AUDIT_V1.json`
+- `c6c1cbc0042f73b7`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/repeat_destination_patterns.json`
+- `c713d6c829bf4c5a`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08r_aave_mantle_receipt_audit_v1/raw_receipts.json`
+- `c7e1b06d2f58e8bc`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06a_issuer_freeze_capability_audit_v1/summary.json`
+- `c8484061b6e5eb4d`: 1 file(s); example: `research/case-binance-2026/A97B/dex_execution_reconstruction_v1/AUDIT_V1.json`
+- `c84b10ea8d4bf39c`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05_withdrawal_audit_v1/withdrawal_audit_summary.json`
+- `c93b82d6f1f12c56`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06b_aave_withdraw_callpath_v1/withdrawal_eth_call.json`
+- `c9762f2a64cc9804`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step02_transfer_ledger_v1/block_timestamp_index.json`
+- `ca00877a31444dc5`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08q_large_inflow_origin_windows_v1/summary.json`
+- `ca0bc7fb41174849`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/manifest.json`
+- `ca3ec7242308a18a`: 1 file(s); example: `research/case-binance-2026/A97B/institutional_research_packet_v1/SHA256_MANIFEST_V1.json`
+- `ca76bcd1bbdb3f5e`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08w_incident_attribution_crosswalk_v1/manifest.json`
+- `cae8a8b927fc9dc2`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step84_a97b_erc20_exception_audit_v1/summary.json`
+- `cc29f42264b7ddde`: 1 file(s); example: `research/case-binance-2026/evidence/step76_preincident_inbound_v1/PARTIAL_AUDIT_V1.json`
+- `cc70bf6166483204`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_crosscheck_v1/SHA256_MANIFEST_V1.json`
+- `cce2b8488bc3ea61`: 1 file(s); example: `research/case-binance-2026/evidence/exploiter16_token_provenance_v1/step18g_four_route_evidence_v1/manifest.json`
+- `cd4fb987c535d284`: 1 file(s); example: `research/case-binance-2026/A97B/dex_weth_settlement_audit_v1/AUDIT_V1.json`
+- `cd62515458637df5`: 1 file(s); example: `research/case-binance-2026/A97B/integrated_event_audit_v1/MANIFEST_V1.json`
+- `cdc6c51ca2c36f79`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06a_issuer_freeze_capability_audit_v1/capability_inventory.json`
+- `ce2ed2257bc6ebb8`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05b_atoken_identity_reconciliation_v1/manifest.json`
+- `cf165f002cbb8883`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step07d_final_evidence_consistency_audit_v1/manifest.json`
+- `cf997732860c08d8`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step07d_final_evidence_consistency_audit_v1/summary.json`
+- `csv:0532de0f37de09a8`: 1 file(s); example: `research/case-binance-2026/A97B/dex_weth_counterparty_audit_v1/WETH_TRANSACTION_ROUTES_V1.csv`
+- `csv:060311295d900489`: 1 file(s); example: `research/case-binance-2026/A97B/dex_transaction_paths_v1/DEX_TRANSACTION_PATHS_V1.csv`
+- `csv:0b081da052e147dd`: 1 file(s); example: `research/case-binance-2026/AXIOM_PUBLICATION_CLAIMS_AUDIT_V1.csv`
+- `csv:0cefc34f0d26cd1a`: 1 file(s); example: `research/case-binance-2026/PUBLICATION_CITATION_MAP_V1.csv`
+- `csv:10f59958068aaf3f`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/transfer_events_normalized.csv`
+- `csv:124189b16e62681f`: 1 file(s); example: `research/case-binance-2026/GATE_2_XRPL_FIVE_SOURCE_TX_AUDIT_V1.csv`
+- `csv:19b74b2a6e3c99e1`: 1 file(s); example: `research/case-binance-2026/A97B/public_report_overlap_v1/PUBLIC_REPORT_TX_HASH_MATCHES_V1.csv`
+- `csv:200070b918a48a7a`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step81_a97b_remaining_60_audit_v1/remaining_60_event_register.csv`
+- `csv:22dff093b7f20787`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step68_elliptic_address_crosswalk_v1/elliptic_blocklist_snapshot.csv`
+- `csv:253139123a30c10a`: 1 file(s); example: `research/case-binance-2026/analysis/master_flow_map_v1/NODE_REGISTER_V1.csv`
+- `csv:2664e83983d7eea7`: 1 file(s); example: `research/case-binance-2026/A97B/dex_internal_trace_v1/DEX_ALL_TOKEN_TRANSFERS_V1.csv`
+- `csv:26685c862c301936`: 1 file(s); example: `research/case-binance-2026/A97B/dex_transaction_paths_v1/DEX_ALL_VERIFIED_TOKEN_LEGS_V1.csv`
+- `csv:2d8343bfe817a751`: 1 file(s); example: `research/case-binance-2026/GATE_2_ADDITIONAL_SOURCE_EVENT_AUDIT_V1.csv`
+- `csv:2e5142cbc92766d6`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step02_transfer_ledger_v1/transfer_ledger.csv`
+- `csv:2f1fa69222cffa7e`: 1 file(s); example: `research/case-binance-2026/A97B/dex_weth_flow_audit_v1/DEX_WETH_HOURLY_V1.csv`
+- `csv:31e7f082b7a4ed3e`: 1 file(s); example: `research/case-binance-2026/A97B/integrated_event_audit_v1/RECOVERED_109_RECEIPT_AUDIT_V1.csv`
+- `csv:37ec84426dbe2c14`: 1 file(s); example: `research/case-binance-2026/GATE_2_TX_CONTEXT_REVIEW_V1.csv`
+- `csv:3ae63d9efca7d1a5`: 1 file(s); example: `research/case-binance-2026/GATE_2_RECEIVER_ROLE_SCREEN_V1.csv`
+- `csv:3b05d30b2607e098`: 1 file(s); example: `research/case-binance-2026/A97B/ledger_v1/A97B_EVENT_TIMELINE_V1.csv`
+- `csv:3b19b11ed111a00a`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_crosscheck_v2/reconciliation.csv`
+- `csv:3c4de8c60c26dfb4`: 1 file(s); example: `research/case-binance-2026/GATE_2_ERC20_TRANSFER_EVIDENCE_V1.csv`
+- `csv:40c0c271b0a1dd2d`: 1 file(s); example: `research/case-binance-2026/A97B/dex_weth_counterparty_audit_v1/WETH_COUNTERPARTY_TOTALS_V1.csv`
+- `csv:40c69e9892f2a8b7`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step83_official_attribution_crosswalk_v1/address_attribution_crosswalk.csv`
+- `csv:455c7578604dada9`: 1 file(s); example: `research/case-binance-2026/A97B/economic_flow_v1/A97B_ADDRESS_ROUTES_V1.csv`
+- `csv:4679860c1269e34d`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step80_a97b_full_dex_census_v1/transaction_classification.csv`
+- `csv:474d6e0ad8cd8ac5`: 1 file(s); example: `research/case-binance-2026/GATE_2_BITCOIN_11TX_INPUT_OUTPUT_AUDIT_V1.csv`
+- `csv:490ab599d2724e2e`: 1 file(s); example: `research/case-binance-2026/A97B/dex_route_mechanism_v1/WETH_RECEIVER_RANKING_V1.csv`
+- `csv:4c82cbed2b6be89f`: 1 file(s); example: `research/case-binance-2026/A97B/bitquery_withdrawal_crosswalk_v1/A97B_DIRECT_ETH_WITHDRAWAL_CROSSWALK_V1.csv`
+- `csv:58a5bed3b96ccf0d`: 1 file(s); example: `research/case-binance-2026/AXIOM_EXTERNAL_PRIOR_ART_COMPARISON_V1.csv`
+- `csv:64a11f6b1c471651`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step68_elliptic_address_crosswalk_v1/DIRECT_RECEIVER_ELLIPTIC_CROSSWALK_V1.csv`
+- `csv:6543a84fc9a86f1b`: 1 file(s); example: `research/case-binance-2026/A97B/institutional_research_packet_v1/A97B_ETH_TRANSACTION_TIMELINE_V1.csv`
+- `csv:67d72a27c04fa446`: 1 file(s); example: `research/case-binance-2026/OFFICIAL_INCIDENT_EVIDENCE_REGISTER_V1.csv`
+- `csv:67f3b7c1b1893162`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/elliptic_blocklist.csv`
+- `csv:7161b338d4833ae9`: 1 file(s); example: `research/case-binance-2026/A97B/dex_weth_flow_audit_v1/DEX_WETH_TX_SUMMARY_V1.csv`
+- `csv:7215308f3e50639d`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/all_receivers_summary.csv`
+- `csv:72791c849741a257`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step70_a97b_forward_census_v1/A97B_FORWARD_TRANSFER_LEDGER_V1.csv`
+- `csv:73e490e21ac054ee`: 1 file(s); example: `research/case-binance-2026/A97B/dex_internal_trace_v1/DEX_TRANSACTION_TRACE_SUMMARY_V1.csv`
+- `csv:7803b5dbf16c7089`: 1 file(s); example: `research/case-binance-2026/GATE_2_TRON_NATIVE_TX_VALIDATION_V1.csv`
+- `csv:7b3d97fea8d42c0b`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step69_noncentral_receiver_forward_screen_v1/NONCENTRAL_RECEIVER_SCREEN_V1.csv`
+- `csv:7be1dfc416f6562d`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/audit_results.csv`
+- `csv:7d6b201a31c8e4d6`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_crosscheck_v2/excluded_existing_16.csv`
+- `csv:7e3715df524e7da0`: 1 file(s); example: `research/case-binance-2026/GATE_2_MULTICHAIN_SOURCE_CANDIDATES_V1.csv`
+- `csv:83704716e341bbaf`: 1 file(s); example: `research/case-binance-2026/evidence/initial_tx_v1/token_inventory.csv`
+- `csv:85f7f34b99ec98a1`: 1 file(s); example: `research/case-binance-2026/A97B/ledger_v1/A97B_HOURLY_EVENT_COUNTS_V1.csv`
+- `csv:8701656e734c5007`: 1 file(s); example: `research/case-binance-2026/analysis/master_timeline_v0/MASTER_TIMELINE_V0.csv`
+- `csv:87f2901e82b35d67`: 1 file(s); example: `research/case-binance-2026/A97B/dex_external_screening_v1/DEX_ADDRESS_EXTERNAL_LISTING_V1.csv`
+- `csv:88b45576bc161cf8`: 1 file(s); example: `research/case-binance-2026/GATE_2_POR_WALLET_MATCH_V1.csv`
+- `csv:8ece7a372bc9855a`: 1 file(s); example: `research/case-binance-2026/A97B/economic_flow_v1/A97B_ACTUAL_MOVEMENT_EVENTS_V1.csv`
+- `csv:9399acbb4607cfe6`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step70_a97b_forward_census_v1/A97B_ASSET_SUMMARY_V1.csv`
+- `csv:99c55576f4fb57d3`: 1 file(s); example: `research/case-binance-2026/A97B/dex_transaction_paths_v1/DEX_ADDRESS_SCREENING_UNIVERSE_V1.csv`
+- `csv:9c2b82a8a27d5f96`: 1 file(s); example: `research/case-binance-2026/A97B/economic_flow_v1/A97B_HOURLY_ASSET_FLOW_V1.csv`
+- `csv:a1fa6da265c3091a`: 1 file(s); example: `research/case-binance-2026/A97B/eth_first_recipient_audit_v1/ETH_FIRST_RECIPIENT_SUMMARY_V1.csv`
+- `csv:a44c47fcbf0efef7`: 1 file(s); example: `research/case-binance-2026/GATE_2_ADDITIONAL_SOURCE_CLASSIFICATION_V1.csv`
+- `csv:a524d05d2a45184b`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step69_noncentral_receiver_forward_screen_v1/NONCENTRAL_OUTGOING_LEDGER_V1.csv`
+- `csv:ab138316248a7ae1`: 1 file(s); example: `research/case-binance-2026/GATE_2_EXPANDED_WALLET_CANDIDATES_V1.csv`
+- `csv:ac7a5dc5441edb50`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step66_receiver_identity_rpc_audit_v1/RECEIVER_IDENTITY_REGISTER_V1.csv`
+- `csv:ac8b2d768b3232a3`: 1 file(s); example: `research/case-binance-2026/AXIOM_PUBLICATION_EVIDENCE_INVENTORY_V1.csv`
+- `csv:b325c0dba1d6a3b4`: 1 file(s); example: `research/case-binance-2026/PR01OCT26_HotCold.csv`
+- `csv:b3bd96d1a2c2e7e3`: 1 file(s); example: `research/case-binance-2026/analysis/master_flow_map_v1/EVIDENCE_REGISTER_V1.csv`
+- `csv:bb577b4e253f5366`: 1 file(s); example: `research/case-binance-2026/A97B/economic_flow_v1/A97B_ASSET_DIRECTION_TOTALS_V1.csv`
+- `csv:c04be46186028961`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step77_a97b_dex_swap_evidence_v1/erc20_transfer_events.csv`
+- `csv:c0a50cdddb87bdb9`: 1 file(s); example: `research/case-binance-2026/GATE_2_INITIAL_TX_ONCHAIN_VALIDATION_V1.csv`
+- `csv:c114438a2ef91ba8`: 1 file(s); example: `research/case-binance-2026/A97B/dex_weth_settlement_audit_v1/WETH_WRAP_UNWRAP_EVENTS_V1.csv`
+- `csv:c18439e61eabd299`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/transaction_summary.csv`
+- `csv:c385c81e577e7284`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_crosscheck_v2/unverified.csv`
+- `csv:c8047ac09ee9f228`: 1 file(s); example: `research/case-binance-2026/A97B/dex_weth_flow_audit_v1/DEX_WETH_EVENT_FLOW_V1.csv`
+- `csv:ceeb234fb3d6019a`: 1 file(s); example: `research/case-binance-2026/A97B/dex_internal_trace_v1/DEX_SWAP_EVENT_CANDIDATES_V1.csv`
+- `csv:cf4f07d98eacc75b`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step65_direct_receiver_route_register_v1/DIRECT_RECEIVER_REGISTER_V1.csv`
+- `csv:d14dcf005c1e677b`: 1 file(s); example: `research/case-binance-2026/A97B/dex_transaction_paths_v1/DEX_MISSING_RECEIPTS_V1.csv`
+- `csv:d5e3b27c3a62f100`: 1 file(s); example: `research/case-binance-2026/A97B/dex_execution_reconstruction_v1/DEX_EXECUTION_TIMELINE_V1.csv`
+- `csv:da4b8c1d1ad5b574`: 1 file(s); example: `research/case-binance-2026/A97B/dex_route_mechanism_v1/DEX_MECHANISM_TIMELINE_V1.csv`
+- `csv:db2cb5aea715b0e9`: 1 file(s); example: `research/case-binance-2026/GATE_2_PREINCIDENT_OWNERSHIP_SCREEN_V1.csv`
+- `csv:db36b4342f2baad2`: 1 file(s); example: `research/case-binance-2026/A97B/dex_weth_settlement_audit_v1/DEX_WETH_SETTLEMENT_TIMELINE_V1.csv`
+- `csv:db4da260fce042bf`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/reconciliation_full_1015.csv`
+- `csv:dc0df88c24fa330e`: 1 file(s); example: `research/case-binance-2026/analysis/master_flow_map_v1/EDGE_REGISTER_V1.csv`
+- `csv:df6474c72697cbc2`: 1 file(s); example: `research/case-binance-2026/GATE_2_EXTERNAL_SOURCE_QUEUE_V1.csv`
+- `csv:e2a4b06fd15e4670`: 1 file(s); example: `research/case-binance-2026/A97B/eth_first_recipient_audit_v1/ETH_FIRST_RECIPIENT_LEDGER_V1.csv`
+- `csv:e40f746720528c47`: 1 file(s); example: `research/case-binance-2026/SOURCE_WALLET_REGISTER_V1.csv`
+- `csv:e9a43e8aa899c477`: 1 file(s); example: `research/case-binance-2026/GATE_2_EXTERNAL_TXID_CROSSCHECK_V1.csv`
+- `csv:ed4b4e15beeb300e`: 1 file(s); example: `research/case-binance-2026/FOLLOW_ON_FLOW_LEDGER_V1.csv`
+- `csv:ee3cac69323cb90a`: 1 file(s); example: `research/case-binance-2026/GATE_2_NEW_TX_ONCHAIN_SCREEN_V1.csv`
+- `csv:ef140b673111cc21`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_crosscheck_v1/A97B_BITQUERY_CROSSCHECK_V1.csv`
+- `csv:f243153363c820b0`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/step70_bitquery_ledger_reconciliation_v1/transfer_reconciliation.csv`
+- `csv:f284f8111a7e4a6b`: 1 file(s); example: `research/case-binance-2026/GATE_2_NEW_TX_TRIAGE_V1.csv`
+- `csv:f32aff750717760e`: 1 file(s); example: `research/case-binance-2026/A97B/public_report_overlap_v1/PUBLIC_REPORT_SOURCE_CROSSWALK_V1.csv`
+- `csv:f6e31303ce4cf7e2`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step65_direct_receiver_route_register_v1/DIRECT_RECEIVER_TRANSACTION_LEDGER_V1.csv`
+- `csv:f71338f8a9855006`: 1 file(s); example: `research/case-binance-2026/A97B/institutional_research_packet_v1/A97B_HOURLY_FLOW_SUMMARY_V1.csv`
+- `csv:fbc7a4a440771929`: 1 file(s); example: `research/case-binance-2026/A97B/institutional_research_packet_v1/HISTORICAL_CASE_MECHANISM_CROSSWALK_V1.csv`
+- `d0247e76283b9d21`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06a_issuer_freeze_capability_audit_v1/manifest.json`
+- `d091ffb4327695c7`: 1 file(s); example: `research/case-binance-2026/GATE_2_ETH_T03_HISTORICAL_BALANCE_AUDIT_V1.json`
+- `d1a3f59f4bec2bcf`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/eth_funding_screen.json`
+- `d28a84c1563d799a`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/FINAL_INTEGRITY_AUDIT_V2.json`
+- `d2fc5e1ec5390575`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06b_aave_withdraw_callpath_v1/source_verification_lookup.json`
+- `d34fe6ae82b18921`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step81_a97b_remaining_60_audit_v1/summary.json`
+- `d5f5f2c6e5a833b5`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08m_source_message_lookup_v1/source_message_candidates.json`
+- `d61eb142c65e01fe`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/repeat_destination_patterns.json`
+- `d729f72e491cf775`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step83_official_attribution_crosswalk_v1/manifest.json`
+- `d78ae2178e754bb9`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06e_scenario_accounting_reconciliation_v1/live_state_latest.json`
+- `d8be438bd618e80a`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06b_aave_withdraw_callpath_v1/implementation_slot_history.json`
+- `d8f9f5ad22bbe97e`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step83_official_attribution_crosswalk_v1/summary.json`
+- `d91f183db7e1a0b3`: 1 file(s); example: `research/case-binance-2026/evidence/exploiter16_token_provenance_v1/step16_receipt_evidence_v1/manifest.json`
+- `d93ec3a8bd2eed03`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08z_crystal_axiom_crosswalk_v1/claim_by_claim_comparison.json`
+- `d94006478b31e880`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step69_noncentral_receiver_forward_screen_v1/audit.json`
+- `d9b7b9708db6844b`: 1 file(s); example: `research/case-binance-2026/A97B/dex_transaction_paths_v1/AUDIT_V1.json`
+- `da297f07aeec025f`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/manifest.json`
+- `dac611fd604b8b2f`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06f_withdrawal_revert_diagnostics_v1/scenario_results.json`
+- `db68b0b5f9860ac2`: 1 file(s); example: `research/case-binance-2026/evidence/step72_external_attribution_v1/attribution_audit.json`
+- `dbc1f36835febf23`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step07a_28m_conservation_audit_v1/conservation_report.json`
+- `dbe105c70b6ec193`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08y_forward_edge_preservation_v1/outgoing_scan_coverage.json`
+- `dc59a945cc9d634f`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08z_crystal_axiom_crosswalk_v1/crystal_source_claims.json`
+- `de51b09ea3d41b18`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/step70_bitquery_ledger_reconciliation_v1/query_conditions.json`
+- `debc8241b0d927b1`: 1 file(s); example: `research/case-binance-2026/evidence/eg05_kite_pause_origin_v1/manifest.json`
+- `df549cad30b4f165`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step65_direct_receiver_route_register_v1/manifest.json`
+- `df68d16099004b50`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06a_issuer_freeze_capability_audit_v1/capability_inventory.json`
+- `e0b5ccf94db0ce14`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06b_aave_withdraw_callpath_v1/manifest.json`
+- `e0f38249a7ed447e`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08z_crystal_axiom_crosswalk_v1/attribution_boundary.json`
+- `e245c9ce0f2e7e95`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step85_a97b_final_event_audit_v1/summary.json`
+- `e2608ccf4ea4affd`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08w_incident_attribution_crosswalk_v1/verified_a_to_b_receipt.json`
+- `e2abf946c6ccea72`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/step70_bitquery_ledger_reconciliation_v1/query_conditions.json`
+- `e356a21ef51dbb66`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05_withdrawal_audit_v1/raw_atoken_user_logs.jsonl`
+- `e3e6281eccf8c99e`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step84_a97b_erc20_exception_audit_v1/summary.json`
+- `e495367ba38092ba`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step70_a97b_forward_census_v1/audit.json`
+- `e52a36d51ccd000a`: 1 file(s); example: `research/case-binance-2026/evidence/step75a_official_report_crosswalk_v1/manifest.json`
+- `e5be72c4c6d823e8`: 1 file(s); example: `research/case-binance-2026/GATE_2_ETH_HISTORICAL_CODE_AUDIT_V1.json`
+- `e77792dd3b6a3a20`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06e_scenario_accounting_reconciliation_v1/manifest.json`
+- `e8203ba3cedb085e`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06a_issuer_freeze_capability_audit_v1/event_scan_summary.json`
+- `e862c885fb646bff`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_crosscheck_v1/AUDIT_V1.json`
+- `e94cb969eed8c460`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step85_a97b_final_event_audit_v1/manifest.json`
+- `e986c359d2a7178a`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step79_a97b_repeat_swap_validation_v1/audit.json`
+- `e9960cd589a800bb`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_crosscheck_v2/request_manifest.json`
+- `e9d93a23e7bc256e`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step67_internal_eth_trace_audit_v1/blockscout_crosscheck_v1/audit.json`
+- `eb3164613e25619f`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step72_a97b_pattern_funding_audit_v1/repeat_destination_patterns.json`
+- `ece77337ad0c9e71`: 1 file(s); example: `research/case-binance-2026/A97B/dex_route_mechanism_v1/AUDIT_V1.json`
+- `ed0e6cf39f986c82`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step07a_28m_conservation_audit_v1/manifest.json`
+- `ed714eefa366ea15`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06d_aave_reserve_liquidity_reconciliation_v1/reserve_snapshots.json`
+- `edb526cd3069392b`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06b_issuer_control_simulation_v1/blocklist_current_state.json`
+- `edd4292a22b40d11`: 1 file(s); example: `research/case-binance-2026/evidence/30m_upstream_bridge_v1/manifest.json`
+- `ee222141bae05bb8`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step02_transfer_ledger_v1/scan_snapshot.json`
+- `eeb49c6e377f949b`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_delivery_v1/layerzero_message.json`
+- `eee4b947accbbe25`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06c_local_fork_freeze_scenarios_v1/freeze_scenarios.json`
+- `f10eb3262eef891f`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_crosscheck_v1/SHA256_MANIFEST_V1.json`
+- `f12888336d46d22a`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step67_internal_eth_trace_audit_v1/blockscout_crosscheck_v1/manifest.json`
+- `f25e4dbd46db9c92`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08n_source_receipt_verification_v1/summary.json`
+- `f28fccfb7b6d2be1`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step83_official_attribution_crosswalk_v1/manifest.json`
+- `f2e67148dfd32faf`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_crosscheck_v1/AUDIT_V1.json`
+- `f31a01396d6c3d29`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06a_issuer_freeze_capability_audit_v1/capability_inventory.json`
+- `f3b3d919b70c2a47`: 1 file(s); example: `research/case-binance-2026/evidence/eg05_kite_historical_pause_v1/manifest.json`
+- `f3d0ab73ea1e0237`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step83_official_attribution_crosswalk_v1/summary.json`
+- `f40eedfdd10e084e`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08o_multichain_funding_window_v1/summary.json`
+- `f42a64f9568e4424`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step65_direct_receiver_route_register_v1/manifest.json`
+- `f510eae6af35951c`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step85_a97b_final_event_audit_v1/manifest.json`
+- `f5a963a825acc350`: 1 file(s); example: `research/case-binance-2026/GATE_2_ETH_T03_FAILURE_TOLERANCE_V1.json`
+- `f6f131a04a75a771`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/step70_bitquery_ledger_reconciliation_v1/query_conditions.json`
+- `f7522590a66932f4`: 1 file(s); example: `research/case-binance-2026/evidence/step71_55m_source_audit_v1/por_crosswalk_matches.json`
+- `f807679b6da7587d`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step80_a97b_full_dex_census_v1/summary.json`
+- `f8689c77c28c7767`: 1 file(s); example: `research/case-binance-2026/A97B/dex_weth_flow_audit_v1/AUDIT_V1.json`
+- `f8ede87e91f9f610`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_source_attribution_v1/step08j_address_a_complete_window_v1/manifest.json`
+- `f95a19d6a9800b76`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05_withdrawal_audit_v1/withdrawal_audit_summary.json`
+- `f963f3ca546a30a6`: 1 file(s); example: `research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/manifest.json`
+- `fa200c275d04619e`: 1 file(s); example: `research/case-binance-2026/evidence/step76_preincident_inbound_v1/PARTIAL_AUDIT_V1.json`
+- `facf21323e04318b`: 1 file(s); example: `research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step73_a97b_execution_conservation_v1/audit.json`
+- `fb1f4095e8e851d5`: 1 file(s); example: `research/case-binance-2026/A97B/dex_weth_settlement_audit_v1/AUDIT_V1.json`
+- `fb24f4ae272e09f7`: 1 file(s); example: `research/case-binance-2026/analysis/master_timeline_v0/AUDIT_V0.json`
+- `fb7ddfebb4537d5e`: 1 file(s); example: `research/case-binance-2026/A97B/economic_flow_v1/A97B_ECONOMIC_FLOW_AUDIT_V1.json`
+- `fba587002ac0b06f`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step05b_atoken_identity_reconciliation_v1/summary.json`
+- `fccc882b3acbad8d`: 1 file(s); example: `research/case-binance-2026/GATE_2_POR_SOURCE_MANIFEST_V1.json`
+- `fcea2d7e5646f9d6`: 1 file(s); example: `research/case-binance-2026/GATE_2_POR_SOURCE_MANIFEST_V1.json`
+- `ffc9ca8912a00c40`: 1 file(s); example: `research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06f_withdrawal_revert_diagnostics_v1/manifest.json`
+
+## Remaining approval gates
+- [ ] Verify raw versus derived evidence
+- [ ] Complete document and HTML semantic review
+- [ ] Verify extraction schema coverage
+- [ ] Resolve unsupported-format handling
+- [ ] Approve final per-file dispositions
+- [ ] Approve Phase 1 completion
+
+No unique transfer or graph-edge count is claimed.

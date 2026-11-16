@@ -1,0 +1,28 @@
+{
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "tracked_files": 3105,
+  "inventory_reconciled": true,
+  "parser_errors": 0,
+  "unsupported_files": 25,
+  "unsupported_types": {
+    ".pdf": 3,
+    ".mjs": 1,
+    ".py": 6,
+    "(none)": 5,
+    ".log": 1,
+    ".yaml": 1,
+    ".png": 8
+  },
+  "schema_signatures": 708,
+  "schema_sampling_limited": 156,
+  "preliminary_classifications": {
+    "AUDIT_METADATA_CANDIDATE": 370,
+    "MANUAL_CLASSIFICATION_REQUIRED": 2586,
+    "RAW_SOURCE_CANDIDATE": 91,
+    "DERIVED_CANDIDATE": 58
+  },
+  "review_pending": 3105,
+  "source_role_verified": false,
+  "schema_exhaustiveness_verified": false,
+  "phase1_complete": false
+}

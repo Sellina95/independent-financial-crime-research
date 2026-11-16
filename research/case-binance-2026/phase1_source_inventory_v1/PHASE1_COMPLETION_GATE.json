@@ -1,0 +1,46 @@
+{
+  "scope": "PHASE 1 SOURCE INVENTORY ONLY",
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "source_files_catalogued": 3105,
+  "structured_files": 3003,
+  "nonstructured_files": 102,
+  "observed_structural_schema_families": 426,
+  "rpc_capture_files_hash_matched": 2224,
+  "other_structured_files_scanned": 779,
+  "remaining_held_source_roles": 243,
+  "source_role_counts": {
+    "SUPPORTING_REFERENCE": 97,
+    "TRANSACTION_REFERENCE_CANDIDATE": 38,
+    "AUDIT_METADATA": 57,
+    "AUDIT_SUMMARY_CANDIDATE": 35,
+    "DERIVED_CANDIDATE": 56,
+    "UNRESOLVED_STRUCTURED": 243,
+    "DERIVED_OR_NORMALIZED_CANDIDATE": 20,
+    "INTEGRITY_METADATA": 5,
+    "RAW_SHAPED_CANDIDATE": 284,
+    "HISTORICAL_BALANCE_CANDIDATE": 30,
+    "NESTED_FLOW_COLLECTION_CANDIDATE": 12,
+    "RAW_SHAPED_PROVIDER_CAPTURE": 2224,
+    "SIMULATION": 4
+  },
+  "inventory_status_counts": {
+    "CATALOGUED": 2747,
+    "CANDIDATE_CLASSIFIED": 115,
+    "HOLD_UNRESOLVED": 243
+  },
+  "all_files_have_disposition": true,
+  "all_structured_files_have_schema_id": true,
+  "all_extraction_rules_approved": false,
+  "independent_chain_provenance_verified": false,
+  "unique_transfer_events_determined": false,
+  "master_flow_data_ready": false,
+  "phase1_inventory_complete": true,
+  "phase2_requirements": [
+    "Verify provider and chain provenance",
+    "Interpret and approve event extraction rules",
+    "Review 243 held structured files",
+    "Extract nested events and reconcile duplicates",
+    "Validate chain/tx/log-index or trace identities",
+    "Keep simulated events out of mainnet flows"
+  ]
+}

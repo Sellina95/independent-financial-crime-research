@@ -1,0 +1,43 @@
+{
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "forward_candidates_file": "research/case-binance-2026/evidence/eg08_source_attribution_v1/step08y_forward_edge_preservation_v1/forward_candidates.json",
+  "upstream_records": 2,
+  "distinct_upstream_tx_hashes": 2,
+  "sampled_tx_hashes": 2,
+  "sample_results": [
+    {
+      "tx_hash": "0x1fc0ef33a767132edad434834a5555b30fcb5a171206c03b86175ef6dafac81c",
+      "other_source_file_count": 8,
+      "other_source_paths": [
+        "research/case-binance-2026/AXIOM_INCIDENT_TRACEABILITY_MASTER_V1.md",
+        "research/case-binance-2026/FOLLOW_ON_FLOW_LEDGER_V1.csv",
+        "research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step66_receiver_identity_rpc_audit_v1/transaction_receipt_block_evidence.json",
+        "research/case-binance-2026/evidence/eg08_source_attribution_v1/step08w_incident_attribution_crosswalk_v1/existing_evidence_index.json",
+        "research/case-binance-2026/evidence/eg08_source_attribution_v1/step08y_forward_edge_preservation_v1/raw_intermediate_receipts.json",
+        "research/case-binance-2026/evidence/root_usdt_outflows_v1/1fc0ef33a767132edad434834a5555b30fcb5a171206c03b86175ef6dafac81c_receipt.json",
+        "research/case-binance-2026/evidence/root_usdt_outflows_v1/1fc0ef33a767132edad434834a5555b30fcb5a171206c03b86175ef6dafac81c_tx.json",
+        "research/case-binance-2026/evidence/root_usdt_outflows_v1/manifest.json"
+      ],
+      "original_event_independently_verified": false
+    },
+    {
+      "tx_hash": "0xc0fab33d0ec562d3feef6b23946402b1af80dade21ab4f5fbea7384cc4615183",
+      "other_source_file_count": 6,
+      "other_source_paths": [
+        "research/case-binance-2026/EVIDENCE_GAP_REPORT.md",
+        "research/case-binance-2026/evidence/eg08_source_attribution_v1/step08y_forward_edge_preservation_v1/raw_intermediate_receipts.json",
+        "research/case-binance-2026/evidence/eg08_source_attribution_v1/step08z_crystal_axiom_crosswalk_v1/claim_by_claim_comparison.json",
+        "research/case-binance-2026/evidence/second_hop_receipts_v1/c0fab33d0ec562d3feef6b23946402b1af80dade21ab4f5fbea7384cc4615183_receipt.json",
+        "research/case-binance-2026/evidence/second_hop_receipts_v1/manifest.json",
+        "research/case-binance-2026/evidence/second_hop_usdt_v1/transfer_logs.json"
+      ],
+      "original_event_independently_verified": false
+    }
+  ],
+  "tx_hashes_with_other_source_matches": 2,
+  "tx_hashes_without_other_source_matches": 0,
+  "remaining_unsampled_tx_hashes": 0,
+  "interpretation": "Matching transaction hashes identify candidate corroborating files, not verified independent on-chain log identity or incident attribution.",
+  "raw_vs_derived_complete": false,
+  "phase1_complete": false
+}

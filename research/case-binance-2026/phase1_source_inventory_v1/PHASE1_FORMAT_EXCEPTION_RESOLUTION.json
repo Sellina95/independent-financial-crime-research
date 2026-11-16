@@ -1,0 +1,102 @@
+{
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "target_files": 8,
+  "pdf_files": 3,
+  "extensionless_files": 5,
+  "pdf_with_extracted_text": 0,
+  "unresolved_pdf_extractions": 3,
+  "results": [
+    {
+      "path": "research/case-binance-2026/A97B/evidence/binance_official.pdf",
+      "extension": ".pdf",
+      "identified_format": "PDF",
+      "size_bytes": 261844,
+      "extraction_tool": null,
+      "extracted_character_count": 0,
+      "status": "EXTRACTION_UNAVAILABLE_OR_ERROR",
+      "error": "PDF_EXTRACTOR_UNAVAILABLE",
+      "content_preview": "",
+      "semantic_content_verified": false,
+      "map_policy": "REFERENCE_ONLY_PENDING_REVIEW"
+    },
+    {
+      "path": "research/case-binance-2026/A97B/evidence/chainward_analysis.pdf",
+      "extension": ".pdf",
+      "identified_format": "PDF",
+      "size_bytes": 1008214,
+      "extraction_tool": null,
+      "extracted_character_count": 0,
+      "status": "EXTRACTION_UNAVAILABLE_OR_ERROR",
+      "error": "PDF_EXTRACTOR_UNAVAILABLE",
+      "content_preview": "",
+      "semantic_content_verified": false,
+      "map_policy": "REFERENCE_ONLY_PENDING_REVIEW"
+    },
+    {
+      "path": "research/case-binance-2026/A97B/evidence/fbi_alert.pdf",
+      "extension": ".pdf",
+      "identified_format": "PDF",
+      "size_bytes": 960452,
+      "extraction_tool": null,
+      "extracted_character_count": 0,
+      "status": "EXTRACTION_UNAVAILABLE_OR_ERROR",
+      "error": "PDF_EXTRACTOR_UNAVAILABLE",
+      "content_preview": "",
+      "semantic_content_verified": false,
+      "map_policy": "REFERENCE_ONLY_PENDING_REVIEW"
+    },
+    {
+      "path": "research/case-binance-2026/A97B/evidence/bitquery_independent_crosscheck_v2/SHA256SUMS",
+      "extension": "(none)",
+      "identified_format": "UTF8_TEXT",
+      "size_bytes": 946,
+      "status": "FORMAT_IDENTIFIED_REVIEW_PENDING",
+      "content_preview": "d232d8a87f42b0a8e1ce9c129e19fd667e5e1eef1c3dbb707d9e8de2cd0802d4  AUDIT.md\na0f82c39b41ce6aea9c2dc881180455ad8e5f323485ee6aa60a8fc131bb76eef  batch_001_events.json\nc371216015887d3122731e4236a7f42c3431433acc17ba9e65208593569b6cc5  batch_002_events.json\nec6a818aacdcb1c4b9cd9f87d944dad477c197287cdf73baea7fda1c804384a0  batch_003_events.json\nb685a40b16be1189b41f8853eb724217b95b0c6e31afd5db45490acdd06fe8b2  batch_004_events.json\n083a29f849c8a6869a5554a53123dfc4fc1819be3b1ba9f169c85632f4c78225  batch_005_events.json\n41555d49dc828d22a6308874cf32a56d746dec9de36ddff92134ce18868e1b05  excluded_existing_1",
+      "semantic_content_verified": false,
+      "map_policy": "HOLD_PENDING_REVIEW"
+    },
+    {
+      "path": "research/case-binance-2026/A97B/evidence/step70_bitquery_ledger_reconciliation_v1/SHA256SUMS",
+      "extension": "(none)",
+      "identified_format": "UTF8_TEXT",
+      "size_bytes": 559,
+      "status": "FORMAT_IDENTIFIED_REVIEW_PENDING",
+      "content_preview": "d34e9a40ca4c56d4ef27b995371574ff25669b0a103fa6f0a4441ac018e8116b  AUDIT.md\n6d3c31280f4b7d4520be19b08d5e9125b2d68d957f76f7bd6646832e8b3f2cb2  bitquery_a97b_outgoing.json\n93d8b894f851af7d03c3818ba64fe38fa6693618787b07d6b7a52445a55863d4  bitquery_duplicate_tx_transfers.json\n65d9e296d2202393b07cb9d51ceca4fd653ece24adf67a45e117fbbdc64b14eb  bitquery_duplicate_tx_withdrawals.json\n430e496d4884cc28ef357269ebc02c8e3f6d2d8a57687658661a666ccf9904fe  query_conditions.json\n24b58c7760aef57e626afd765555d0f7f613089039c3be9aef363d25d1444cbd  transfer_reconciliation.csv\n",
+      "semantic_content_verified": false,
+      "map_policy": "HOLD_PENDING_REVIEW"
+    },
+    {
+      "path": "research/case-binance-2026/evidence/exploiter16_token_provenance_v1/step16_receipt_evidence_v1/SHA256SUMS",
+      "extension": "(none)",
+      "identified_format": "UTF8_TEXT",
+      "size_bytes": 340,
+      "status": "FORMAT_IDENTIFIED_REVIEW_PENDING",
+      "content_preview": "07a5a8f21ca3331b957268bf860f0eab69b9eb58e4fd142aaf66d845ee13f988  central_to_e16_aave.json\ncf828d6a572fc00c2a9ee6e0c02b511e66a1f0f7a16fa07355016081f5eb3133  e16_tracked_token.json\n7312aa074ec35513d85ec4f956419c79d590ce4c6f376dccc00626a5eb7dada7  e16_aave.json\n3d92ec5b9905e283056d5ea0a76c9e818591d51fa8699bf51713f79e0d6f97cb  manifest.json\n",
+      "semantic_content_verified": false,
+      "map_policy": "HOLD_PENDING_REVIEW"
+    },
+    {
+      "path": "research/case-binance-2026/evidence/exploiter16_token_provenance_v1/step18g_four_route_evidence_v1/SHA256SUMS",
+      "extension": "(none)",
+      "identified_format": "UTF8_TEXT",
+      "size_bytes": 408,
+      "status": "FORMAT_IDENTIFIED_REVIEW_PENDING",
+      "content_preview": "4805f214eeac26b8a27be7040c4d8ed3d6d037d2391672500dbaf3f1eb4b686e  token_main.json\n378668ee1527ed87839e1f93e5e8030dc98b75482ea3c1930906bd7a29aa22ca  token_other.json\n009dcb5d59e9f66e97e3eb2a86e9be1fad9043a2b07ca0dfd8ce7f922fd5eeb6  aave_main.json\n7637f8629570589dce3c0216d5843458ea49e51e38153b6988c7e01bff6d106a  aave_other.json\na79762a6b1baef9ee7fb026e9d3580a4d0be96e2d8db375b3038453b7e0db1c3  manifest.json\n",
+      "semantic_content_verified": false,
+      "map_policy": "HOLD_PENDING_REVIEW"
+    },
+    {
+      "path": "research/case-binance-2026/evidence/exploiter16_token_provenance_v1/step19f_middle_hop_receipts_v1/SHA256SUMS",
+      "extension": "(none)",
+      "identified_format": "UTF8_TEXT",
+      "size_bytes": 343,
+      "status": "FORMAT_IDENTIFIED_REVIEW_PENDING",
+      "content_preview": "6c945c419a88dcb93e52a62bb18e23bfbb6a9bb6f67f90790ed63662db7f3c09  01_central_to_hop1.json\n42c7e357271f822aa91468db71a33844cf01f89323ebeb9f11db8e673ae38f44  02_hop1_to_hop2.json\n5502dc65b2b2fc1ab8e8ff9283c007c2206bda5fdc7593ab4cb55f3e2208109c  03_hop2_to_e16.json\n4474ef5ab2b06480ee51199a595e2f2e41bea4252eb7a618aca4aca84e83c1f0  manifest.json\n",
+      "semantic_content_verified": false,
+      "map_policy": "HOLD_PENDING_REVIEW"
+    }
+  ],
+  "all_file_formats_accounted_for": true,
+  "all_document_content_verified": false,
+  "phase1_complete": false
+}

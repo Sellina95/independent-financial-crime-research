@@ -1,0 +1,34 @@
+{
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "all_files": 3105,
+  "structured_files": 3003,
+  "reference_files": 102,
+  "rpc_files_hash_checked": 2224,
+  "other_structured_files_scanned": 779,
+  "schema_families_identified": 426,
+  "all_files_have_handling": true,
+  "all_structured_files_have_schema_id": true,
+  "provenance_independently_verified": false,
+  "extraction_rules_approved": false,
+  "master_flow_data_ready": false,
+  "source_role_counts": {
+    "SUPPORTING_REFERENCE": 97,
+    "UNRESOLVED_STRUCTURED": 358,
+    "AUDIT_METADATA": 57,
+    "DERIVED_CANDIDATE": 56,
+    "DERIVED_OR_NORMALIZED_CANDIDATE": 20,
+    "INTEGRITY_METADATA": 5,
+    "RAW_SHAPED_CANDIDATE": 284,
+    "RAW_SHAPED_PROVIDER_CAPTURE": 2224,
+    "SIMULATION": 4
+  },
+  "handling_counts": {
+    "REFERENCE_OR_AUDIT_ONLY": 102,
+    "HOLD_SOURCE_ROLE_REVIEW": 358,
+    "AUDIT_ONLY": 57,
+    "REQUIRE_UPSTREAM_EVENT": 76,
+    "VERIFY_PROVIDER_CHAIN_AND_EVENT": 2508,
+    "EXCLUDE_MAINNET": 4
+  },
+  "phase1_checklist_not_updated": true
+}

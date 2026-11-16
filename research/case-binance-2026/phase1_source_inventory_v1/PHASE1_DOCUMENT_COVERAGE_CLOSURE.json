@@ -1,0 +1,94 @@
+{
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "document_other_total": 102,
+  "text_files_scanned": 91,
+  "pdf_text_extracted": 3,
+  "png_files_verified": 8,
+  "all_102_accounted_for": true,
+  "png_policy": "SUPPORTING_FIGURE_REFERENCE_ONLY",
+  "visual_claims_verified": false,
+  "source_claims_verified": false,
+  "phase1_document_inventory_review_complete": true,
+  "records": [
+    {
+      "path": "research/case-binance-2026/figures/figure_01_execution_sequence.png",
+      "sha256_verified": true,
+      "format": "PNG",
+      "width": 1672,
+      "height": 941,
+      "disposition": "SUPPORTING_FIGURE_REFERENCE_ONLY",
+      "atomic_event_extraction": false,
+      "visual_claims_verified": false
+    },
+    {
+      "path": "research/case-binance-2026/figures/figure_02_authorization_nonce.png",
+      "sha256_verified": true,
+      "format": "PNG",
+      "width": 1536,
+      "height": 1024,
+      "disposition": "SUPPORTING_FIGURE_REFERENCE_ONLY",
+      "atomic_event_extraction": false,
+      "visual_claims_verified": false
+    },
+    {
+      "path": "research/case-binance-2026/figures/figure_03_delegated_transfer.png",
+      "sha256_verified": true,
+      "format": "PNG",
+      "width": 1754,
+      "height": 897,
+      "disposition": "SUPPORTING_FIGURE_REFERENCE_ONLY",
+      "atomic_event_extraction": false,
+      "visual_claims_verified": false
+    },
+    {
+      "path": "research/case-binance-2026/figures/figure_04_failure_tolerance.png",
+      "sha256_verified": true,
+      "format": "PNG",
+      "width": 1536,
+      "height": 1024,
+      "disposition": "SUPPORTING_FIGURE_REFERENCE_ONLY",
+      "atomic_event_extraction": false,
+      "visual_claims_verified": false
+    },
+    {
+      "path": "research/case-binance-2026/figures/figure_05_usdt_reconciliation.png",
+      "sha256_verified": true,
+      "format": "PNG",
+      "width": 1536,
+      "height": 1024,
+      "disposition": "SUPPORTING_FIGURE_REFERENCE_ONLY",
+      "atomic_event_extraction": false,
+      "visual_claims_verified": false
+    },
+    {
+      "path": "research/case-binance-2026/publication_staging/a97b-visual-report/figures/01-a97b-eth-flow-overview.png",
+      "sha256_verified": true,
+      "format": "PNG",
+      "width": 1024,
+      "height": 1536,
+      "disposition": "SUPPORTING_FIGURE_REFERENCE_ONLY",
+      "atomic_event_extraction": false,
+      "visual_claims_verified": false
+    },
+    {
+      "path": "research/case-binance-2026/publication_staging/a97b-visual-report/figures/02-a97b-dex-weth-settlement.png",
+      "sha256_verified": true,
+      "format": "PNG",
+      "width": 1774,
+      "height": 887,
+      "disposition": "SUPPORTING_FIGURE_REFERENCE_ONLY",
+      "atomic_event_extraction": false,
+      "visual_claims_verified": false
+    },
+    {
+      "path": "research/case-binance-2026/publication_staging/a97b-visual-report/figures/03-historical-crypto-theft-comparison.png",
+      "sha256_verified": true,
+      "format": "PNG",
+      "width": 1774,
+      "height": 887,
+      "disposition": "SUPPORTING_FIGURE_REFERENCE_ONLY",
+      "atomic_event_extraction": false,
+      "visual_claims_verified": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "files_accounted_for": 3105,
+  "structured_scanned": 3003,
+  "nonstructured_reviewed": 102,
+  "role_candidate_counts": {
+    "EVIDENCE_RELATED_DOCUMENT_CANDIDATE": 54,
+    "RAW_PROVIDER_DATA_CANDIDATE": 29,
+    "AUDIT_OR_INTEGRITY_CANDIDATE": 412,
+    "DERIVED_DATA_CANDIDATE": 64,
+    "UNRESOLVED_SOURCE_ROLE": 165,
+    "TRANSFER_RECORD_CANDIDATE": 1186,
+    "INTEGRITY_OR_METADATA_CANDIDATE": 7,
+    "PDF_DOCUMENT": 3,
+    "CODE_OR_CONFIG_CANDIDATE": 8,
+    "UNRESOLVED_DOCUMENT_ROLE": 8,
+    "RESEARCH_REPORT_CANDIDATE": 9,
+    "PRESENTATION_OR_EMBEDDED_DATA": 5,
+    "TRANSACTION_ENVELOPE_CANDIDATE": 1147,
+    "IMAGE_OR_FIGURE": 8
+  },
+  "final_disposition_verified": false,
+  "raw_vs_derived_verified": false,
+  "phase1_complete": false,
+  "limitations": [
+    "Role assignments are candidates only.",
+    "Path evidence alone cannot prove provider provenance.",
+    "Derived files may contain useful references.",
+    "Raw provider responses may contain duplicate observations.",
+    "Atomic transfer counting has not started."
+  ]
+}

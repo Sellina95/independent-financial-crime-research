@@ -1,0 +1,210 @@
+===== PAGE 1 =====
+Blog Community 29 Octo... Update
+This article is not available in your language.
+29 October 2026 Binance Security Incident: Initial Findings and Response Update
+2026-11-03
+On 29 October 2026, Binance experienced a serious and highly sophisticated security incident. This should not have happened, and we apologise for
+the concern, disruption and uncertainty it caused our users, partners and the wider industry.
+Our first responsibility is to protect users. Binance will absorb the financial impact of the stolen funds, not our users. We have already set aside more
+than 100% of the funds required to cover the loss. As of 31 October 2026, 98% of the impacted token assets have been replenished and are
+verifiable on our Proof of Reserves page. We are in the process of purchasing the outstanding, more illiquid assets.
+Approximately USD 6.34 billion in digital assets were impacted by the incident. As of this update, approximately USD 2.85 billion in digital assets have
+been frozen or intercepted, subject to reconciliation and market price volatility.
+We have taken immediate action to contain the incident and strengthen the systems involved. The entry points identified as having been used in the
+attack have been closed. Systems touched in the attack path have been rebuilt or replaced. We have also implemented tighter device controls,
+enhanced wallet-service risk controls and expanded AI-based behavioural anomaly detection.
+This is our initial report. It covers what we know today and what we have already improved. The investigation remains ongoing and our findings will
+be subject to further independent review. Some technical details will remain confidential to prevent malicious actors from using them to plan attacks.
+We are engaging independent security firms for further review. 
+The latest information released by the Federal Bureau of Investigation indicates that the Democratic People’s Republic of Korea is responsible for this
+incident.
+We are sharing this initial report because security improves when the industry learns together.
+What happened on 29 October
+The attack unfolded quickly across several networks.
+The attacker exploited unauthorized access to an internal wallet signing service to initiate transactions outside the normal withdrawal process.
+Between 20:05 UTC and 20:09 UTC, five Binance hot wallets sent 233.46 million XRP to an attacker-controlled address.
+Binance hot wallets on Solana and Optimism sent approximately 970,500 SOL and 44.2 million OP to attacker-controlled addresses.
+Binance then received an internal alert regarding large-volume transfers and immediately began investigating.
+Buy Crypto Markets Trade Futures TradFi New Earn Square Institutional AI & More Log In
+26. 11. 8. 오후  10:01 Initial Findings and Response Update | Binance Blog
+https://www.binance.com/en-NG/blog/community/3229153443759566763?utm_source=chatgpt.com 1/4
+
+===== PAGE 2 =====
+Binance hot wallet sent 18,270 BTC to an attacker-controlled address. 
+The attacker then used the signing service to exploit Ethereum’s EIP-7702 authorization mechanism. EIP-7702 allows an account to delegate certain
+execution rights to a smart contract without exposing the private key. In this case, the attacker used that mechanism to give an attacker-controlled
+smart contract partial execution rights over a Binance hot wallet. 
+Binance immediately initiated multiple containment measures, including suspending withdrawals to restrict further outflows, coordinating with
+partners to freeze aﬀected tokens, and taking steps to revoke unauthorized permissions. These eﬀorts froze a total of $2.85 billion in assets.
+However, suspending withdrawals alone could not stop all unauthorized asset movements. The malicious EIP-7702 authorizations existed on-chain
+and operated independently of Binance’s normal withdrawal infrastructure.The attackers submitted 50 signing transactions to manipulate the account
+nonce and establish malicious delegation authorizations. Once established, these authorizations enabled the attackers to continue moving assets
+independently of Binance's normal withdrawal infrastructure. Binance needed additional transactions to revoke these on-chain authorizations.
+The containment process involved additional technical complexities. Because the hot wallet used Multi-Party Computation (MPC), there was no single
+private key that could be used to immediately revoke the malicious EIP-7702 authorizations. The team therefore developed and executed a
+specialized procedure to revoke these authorizations, which required additional time. Furthermore, suspending withdrawals and shutting down hot
+wallet services did not automatically invalidate existing on-chain authorizations.
+These challenges extended the time required to fully contain the unauthorized asset movements. We are reviewing the incident response process,
+signing policy coverage, hot wallet controls and identifying opportunities to further strengthen our ability to respond rapidly to threats in the future.
+The final unauthorized transfer of 2,961.9 ETH finalised on-chain at 23:56 UTC. The transaction had previously been broadcast and remained
+pending before subsequently finalising. No further unauthorised transfers were observed after.
+At 00:10 UTC on 30 October 2026, Binance executed a new authorization from the Binance14 hot wallet to the zero address, clearing the EIP-7702
+delegation code.
+Attack Preparation 
+Our current investigation indicates that this was a sophisticated, multi-stage campaign. It was not a single isolated breach or a simple phishing
+incident. The attackers combined a range of techniques, including social engineering by fake recruitment interviews, malicious software downloads,
+compromised internal AI tooling, endpoint compromise, and an advanced transaction-authorisation method.
+June 2026 — Supply chain attack. Engineer A from Wallet DevOps downloaded a tampered Homebrew installation in order to install a popular AI
+coding tool after searching for it on a search engine. Our security team detected the anomaly, replaced the device, and rotated all related
+credentials as a proactive security action. However, Engineer A’s role and his related colleagues on our wallet infrastructure team was exposed to
+the hacker. 
+Throughout 2026, Binance's security team detected and prevented 57 suspected North Korea-linked cyber threat cases. These attempts reflect
+the persistent threat posed by state-sponsored actors targeting the cryptocurrency industry. The techniques include fraudulent job interviews,
+malicious software disguised as popular developer tools, compromised software packages and browser extensions, fake video conferencing
+applications, and social engineering campaigns designed to steal credentials or deploy remote access malware.
+September 2026 — social engineering. Software Engineer B was contacted through a legitimate job-hunting platform by an individual posing as a
+Project Director. Software Engineer B had a profile on the platform that referenced his experience at Binance. The purported Project Director
+arranged a first-round interview with a HR representative, followed by a second-round interview with an individual claiming to be the CEO of a
+fictitious company.
+In the first round, the purported HR representative conducted a live video interview with Software Engineer B. The interviewer shared a social
+media account with him, including personal photos and videos posted on the platform, in order to build trust. This was more advanced and
+deceptive than previously seen social engineering approaches. 
+The second interview was conducted in a popular social chat app, near the end of the interview, Engineer B was instructed to download an
+“assignment” containing a malicious code repository onto his work computer. The repository contained malicious code that executed during the
+setup process, initiating a series of unauthorized activities.
+The malware employed sophisticated obfuscation and evasion techniques, including replacing a legitimate development tool component with a
+malicious version to execute commands and establish communication with an attacker-controlled external server. The 0-day malware was not
+detected by the endpoint security protection tools at the time. The attacker also took steps to conceal the malicious activity and remove traces
+of the compromise, making detection and subsequent investigation more challenging.
+The script executed the below steps by applying obfuscation techniques to evade security detection.
+CREATE  /opt/homebrew/Cellar/pyenv/2.8.0/libexec/pyenv_  
+MODIFY  pyenv_ → 3,414 B  
+DELETE  .../libexec/pyenv  (3,344 B)      ← remove the valid pyenv
+RENAME  pyenv_ → pyenv  (3,414 B)  ← replace it with a malicious version
+DELETE  /opt/homebrew/bin/pyenv  (3,414 B)
+ln  (create a new symlink)  +  spawn zsh
+26. 11. 8. 오후  10:01 Initial Findings and Response Update | Binance Blog
+https://www.binance.com/en-NG/blog/community/3229153443759566763?utm_source=chatgpt.com 2/4
+
+===== PAGE 3 =====
+20 October, 2026 — use of an internal AI tool as a springboard. The attacker leveraged the compromised computer of engineer B and used an
+internal AI tool to gain control over the Wallet DevOps Engineer A and another Wallet Software Engineer C. The attacker soon discovered Wallet
+DevOps Engineer A had a container deployment permission token on his computer.
+29 October, 2026 — reach into wallet signing operations. On 29 October between 17:15 and 19:56, the attacker logged onto Software Engineer
+C’s computer, used the credentials stolen from Wallet DevOps Engineer A, deployed a container, and triggered a malicious script to launch the
+attack.
+What we have done
+As of Nov 3, 2026, we have taken the following actions:
+Rebuilt the aﬀected wallet system in a new environment.
+Rebuilt the aﬀected internal AI tool and access controls.
+Replaced aﬀected devices.
+Decommissioned credentials and tokens related to aﬀected engineers.
+Completed enhanced security scans across all employee devices.
+Enhanced AI-based behavioural anomaly detection.
+Strengthened wallet-service risk controls.
+Worked with law enforcement, blockchain intelligence firms and industry partners to trace and freeze aﬀected assets.
+We will continue to strengthen our measures as the investigation progresses. There are a number of security measures we have implemented and are
+implementing that will remain private to prevent malicious actors from compromising our security.
+Further actions
+We are taking the following steps immediately.
+1. Independent cybersecurity review
+We are engaging independent third-party cybersecurity experts to conduct a comprehensive review of the incident, validate our findings and
+recommend additional measures. The scope and findings of that review will inform our continuing remediation work.
+2. Expanded investment in AI security and prevention
+We are increasing investment in AI-enabled detection, endpoint protection, developer-environment security and behavioural anomaly monitoring.
+3. Security research fund and industry initiatives
+We are working on establishing a security research fund and targeted initiatives with leading AI companies, industry participants and security firms
+focused on AI security in blockchain environments.
+We will continue to proactively share information as and when we have it. 
+336,032,275 users chose us. Find out why today.
+Register Now
+26. 11. 8. 오후  10:01 Initial Findings and Response Update | Binance Blog
+https://www.binance.com/en-NG/blog/community/3229153443759566763?utm_source=chatgpt.com 3/4
+
+===== PAGE 4 =====
+Community
+Preference
+Theme
+About
+Careers
+Announcements
+News
+Press
+Blog
+Charity
+Community
+Legal
+Terms
+Privacy
+Building Trust
+Risk Warning
+Notices
+Law Enforcement Requests
+Proof of Reserves
+Exchange
+Fees
+OTC & Execution Services
+Trading Parameters
+Auto-Invest
+ETH Staking
+Launchpool
+Binance Airdrop Portal
+BNB
+Learn & Earn
+Academy
+Research
+Trading Insight
+Ethereum Upgrade (Pectra)
+Binance Junior
+P2P Merchant Application
+Listing Application
+Institutional & VIP Services
+Labs
+Pay Onchain
+Crypto Payments
+Aﬃliate
+Referral
+BABT
+Browse Crypto Prices
+Bitcoin Price
+Ethereum Price
+Browse Crypto Price Predictions
+Bitcoin Price Prediction
+Ethereum Price Prediction
+Historical Market Data
+Buy Crypto
+Pay
+Gift Card
+Buy Bitcoin
+Buy BNB
+Buy XRP
+Buy Dogeco
+Buy Ethereu
+Buy Tradabl
+24/7 Chat S
+Support Cen
+Product Fee
+How to Rais
+Binance Ver
+Whistleblow
+Desktop Ap
+APIs
+Binance ADGM entities are regulated by the Financial Services Regulatory Authority (FSRA) of the Abu Dhabi Global Markets (ADGM) as follows: (1) Nest Exchange Limited is recognised as a
+Recognised Investment Exchange (Derivatives), with a stipulation to Operate a Multilateral Trading Facility; (2) Nest Clearing and Custody Limited is recognised as a Recognised Clearing House,
+with a stipulation to Provide Custody and operating a Central Securities Depository; (3) Nest Trading Limited is authorised to carry out the following Regulated Activities: (i) Dealing in Investments
+as Principal; (ii) Dealing in Investments as Agent; (iii) Arranging Deals in Investments; (iv) Managing Assets; (v) Providing Money Services; and (vi) Arranging Custody.
+Risk Warning: virtual asset prices can be volatile. The value of your investment may go down or up and you may not get back the amount invested. You are solely responsible for your
+investment decisions and Binance is not liable for any trading losses you may incur.
+Binance© 2026 Cookie Preferences
+English (Nigeria)
+USD-$
+About Binance
+Legal and Trust
+Trade and Earn
+Community and Learning
+Business and Partners
+Prices and Market Data
+Crypto an
+Support
+26. 11. 8. 오후  10:01 Initial Findings and Response Update | Binance Blog
+https://www.binance.com/en-NG/blog/community/3229153443759566763?utm_source=chatgpt.com 4/4

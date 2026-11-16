@@ -1,0 +1,22 @@
+{
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "target_files": 65,
+  "reviewed_files": 65,
+  "status_counts": {
+    "SCANNED": 65
+  },
+  "files_with_raw_erc20_logs": 31,
+  "files_with_other_event_logs": 9,
+  "files_with_normalized_transfers": 5,
+  "files_with_local_fork_flag": 1,
+  "extraction_schema_verified": false,
+  "source_provenance_verified": false,
+  "phase1_complete": false,
+  "limitations": [
+    "Structural classification is not provenance verification.",
+    "Log counts are not unique transfer counts.",
+    "Transaction receipts can contain multiple logs.",
+    "Local fork evidence must not be treated as mainnet events.",
+    "Normalization and deduplication remain pending."
+  ]
+}

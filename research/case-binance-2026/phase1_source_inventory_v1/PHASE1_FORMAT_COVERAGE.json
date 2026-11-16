@@ -1,0 +1,34 @@
+{
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "total_source_files": 3105,
+  "structured_files": 3003,
+  "other_files": 102,
+  "other_files_accounted_for": 102,
+  "extensions": {
+    ".md": 66,
+    ".txt": 6,
+    ".pdf": 3,
+    ".mjs": 1,
+    ".py": 6,
+    "(none)": 5,
+    ".html": 5,
+    ".log": 1,
+    ".yaml": 1,
+    ".png": 8
+  },
+  "handling_counts": {
+    "TEXT_CONTENT_REVIEW": 86,
+    "PDF_CONTENT_REVIEW_REQUIRED": 3,
+    "UNKNOWN_FORMAT_MANUAL_REVIEW": 5,
+    "IMAGE_CONTENT_REVIEW_REQUIRED": 8
+  },
+  "inspection_error_paths": [
+    "research/case-binance-2026/A97B/evidence/binance_official.pdf",
+    "research/case-binance-2026/A97B/evidence/chainward_analysis.pdf",
+    "research/case-binance-2026/A97B/evidence/fbi_alert.pdf"
+  ],
+  "coverage_complete": false,
+  "semantic_content_verified": false,
+  "all_source_roles_verified": false,
+  "phase1_complete": false
+}

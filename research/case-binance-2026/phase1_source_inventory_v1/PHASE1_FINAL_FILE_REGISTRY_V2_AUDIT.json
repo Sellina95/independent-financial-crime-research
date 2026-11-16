@@ -1,0 +1,25 @@
+{
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "registered_files": 3105,
+  "structured_schema_ids": 3003,
+  "extensionless_sha256_manifests": 5,
+  "explicit_local_fork_simulation_files": 4,
+  "local_fork_study_context_files": 7,
+  "every_file_has_disposition": true,
+  "provenance_fully_verified": false,
+  "extraction_semantics_fully_verified": false,
+  "phase1_complete": false,
+  "policy_counts": {
+    "DO_NOT_EXTRACT_AS_TRANSFER_AUTOMATICALLY": 86,
+    "VERIFY_REQUEST_RESPONSE_CHAIN": 29,
+    "AUDIT_ONLY_CHECK_EMBEDDED_EVIDENCE": 410,
+    "REQUIRE_UPSTREAM_EVENT_LINK": 57,
+    "EXTRACT_ONLY_AFTER_SCHEMA_VALIDATION": 2461,
+    "REFERENCE_ONLY_UNTIL_VERIFIED": 11,
+    "AUDIT_ONLY_SHA256_MANIFEST": 5,
+    "REQUIRE_ORIGINAL_LOG_OR_TRACE": 5,
+    "VALIDATE_CHAIN_TX_LOG_INDEX": 30,
+    "REFERENCE_ONLY_REVIEW_CONTEXT": 7,
+    "EXCLUDE_SIMULATION_FROM_MAINNET": 4
+  }
+}

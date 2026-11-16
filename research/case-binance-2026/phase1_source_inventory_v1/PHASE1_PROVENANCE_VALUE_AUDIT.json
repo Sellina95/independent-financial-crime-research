@@ -1,0 +1,1005 @@
+{
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "target_files": 15,
+  "files_scanned": 15,
+  "results": [
+    {
+      "path": "research/case-binance-2026/evidence/eg01_execution_time_v1/175m_balance_ending.json",
+      "sha256_verified": true,
+      "fields_found": 6,
+      "simulation_values": [],
+      "lineage_values": [],
+      "value_samples": [
+        {
+          "field_path": "$.provider",
+          "field": "provider",
+          "value_preview": "https://eth.drpc.org"
+        },
+        {
+          "field_path": "$.request",
+          "field": "request",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "method",
+              "params"
+            ]
+          }
+        },
+        {
+          "field_path": "$.response",
+          "field": "response",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "result"
+            ]
+          }
+        },
+        {
+          "field_path": "$.response.result",
+          "field": "result",
+          "value_preview": "0x00000000000000000000000000000000000000000000000000009f295539cf60"
+        },
+        {
+          "field_path": "$.request.method",
+          "field": "method",
+          "value_preview": "eth_call"
+        },
+        {
+          "field_path": "$.request.params",
+          "field": "params",
+          "value_preview": {
+            "type": "array",
+            "length": 2
+          }
+        }
+      ],
+      "truncated_field_samples": false,
+      "provenance_independently_verified": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/eg01_execution_time_v1/175m_balance_previous.json",
+      "sha256_verified": true,
+      "fields_found": 6,
+      "simulation_values": [],
+      "lineage_values": [],
+      "value_samples": [
+        {
+          "field_path": "$.provider",
+          "field": "provider",
+          "value_preview": "https://eth.drpc.org"
+        },
+        {
+          "field_path": "$.request",
+          "field": "request",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "method",
+              "params"
+            ]
+          }
+        },
+        {
+          "field_path": "$.response",
+          "field": "response",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "result"
+            ]
+          }
+        },
+        {
+          "field_path": "$.response.result",
+          "field": "result",
+          "value_preview": "0x00000000000000000000000000000000000000000000000000009f295539cf60"
+        },
+        {
+          "field_path": "$.request.method",
+          "field": "method",
+          "value_preview": "eth_call"
+        },
+        {
+          "field_path": "$.request.params",
+          "field": "params",
+          "value_preview": {
+            "type": "array",
+            "length": 2
+          }
+        }
+      ],
+      "truncated_field_samples": false,
+      "provenance_independently_verified": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/eg01_execution_time_v1/30m_balance_ending.json",
+      "sha256_verified": true,
+      "fields_found": 6,
+      "simulation_values": [],
+      "lineage_values": [],
+      "value_samples": [
+        {
+          "field_path": "$.provider",
+          "field": "provider",
+          "value_preview": "https://eth.drpc.org"
+        },
+        {
+          "field_path": "$.request",
+          "field": "request",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "method",
+              "params"
+            ]
+          }
+        },
+        {
+          "field_path": "$.response",
+          "field": "response",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "result"
+            ]
+          }
+        },
+        {
+          "field_path": "$.response.result",
+          "field": "result",
+          "value_preview": "0x00000000000000000000000000000000000000000000000000001b48eb57e000"
+        },
+        {
+          "field_path": "$.request.method",
+          "field": "method",
+          "value_preview": "eth_call"
+        },
+        {
+          "field_path": "$.request.params",
+          "field": "params",
+          "value_preview": {
+            "type": "array",
+            "length": 2
+          }
+        }
+      ],
+      "truncated_field_samples": false,
+      "provenance_independently_verified": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/eg01_execution_time_v1/30m_balance_previous.json",
+      "sha256_verified": true,
+      "fields_found": 6,
+      "simulation_values": [],
+      "lineage_values": [],
+      "value_samples": [
+        {
+          "field_path": "$.provider",
+          "field": "provider",
+          "value_preview": "https://eth.drpc.org"
+        },
+        {
+          "field_path": "$.request",
+          "field": "request",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "method",
+              "params"
+            ]
+          }
+        },
+        {
+          "field_path": "$.response",
+          "field": "response",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "result"
+            ]
+          }
+        },
+        {
+          "field_path": "$.response.result",
+          "field": "result",
+          "value_preview": "0x00000000000000000000000000000000000000000000000000001b48eb57e000"
+        },
+        {
+          "field_path": "$.request.method",
+          "field": "method",
+          "value_preview": "eth_call"
+        },
+        {
+          "field_path": "$.request.params",
+          "field": "params",
+          "value_preview": {
+            "type": "array",
+            "length": 2
+          }
+        }
+      ],
+      "truncated_field_samples": false,
+      "provenance_independently_verified": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/eg01_execution_time_v1/central_balance_ending.json",
+      "sha256_verified": true,
+      "fields_found": 6,
+      "simulation_values": [],
+      "lineage_values": [],
+      "value_samples": [
+        {
+          "field_path": "$.provider",
+          "field": "provider",
+          "value_preview": "https://eth.drpc.org"
+        },
+        {
+          "field_path": "$.request",
+          "field": "request",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "method",
+              "params"
+            ]
+          }
+        },
+        {
+          "field_path": "$.response",
+          "field": "response",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "result"
+            ]
+          }
+        },
+        {
+          "field_path": "$.response.result",
+          "field": "result",
+          "value_preview": "0x0000000000000000000000000000000000000000000000000003734151050268"
+        },
+        {
+          "field_path": "$.request.method",
+          "field": "method",
+          "value_preview": "eth_call"
+        },
+        {
+          "field_path": "$.request.params",
+          "field": "params",
+          "value_preview": {
+            "type": "array",
+            "length": 2
+          }
+        }
+      ],
+      "truncated_field_samples": false,
+      "provenance_independently_verified": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/eg01_execution_time_v1/central_balance_previous.json",
+      "sha256_verified": true,
+      "fields_found": 6,
+      "simulation_values": [],
+      "lineage_values": [],
+      "value_samples": [
+        {
+          "field_path": "$.provider",
+          "field": "provider",
+          "value_preview": "https://eth.drpc.org"
+        },
+        {
+          "field_path": "$.request",
+          "field": "request",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "method",
+              "params"
+            ]
+          }
+        },
+        {
+          "field_path": "$.response",
+          "field": "response",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "result"
+            ]
+          }
+        },
+        {
+          "field_path": "$.response.result",
+          "field": "result",
+          "value_preview": "0x0000000000000000000000000000000000000000000000000003734151050268"
+        },
+        {
+          "field_path": "$.request.method",
+          "field": "method",
+          "value_preview": "eth_call"
+        },
+        {
+          "field_path": "$.request.params",
+          "field": "params",
+          "value_preview": {
+            "type": "array",
+            "length": 2
+          }
+        }
+      ],
+      "truncated_field_samples": false,
+      "provenance_independently_verified": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/eg02_historical_balances_v1/balance_26300954.json",
+      "sha256_verified": true,
+      "fields_found": 6,
+      "simulation_values": [],
+      "lineage_values": [],
+      "value_samples": [
+        {
+          "field_path": "$.provider",
+          "field": "provider",
+          "value_preview": "https://eth.drpc.org"
+        },
+        {
+          "field_path": "$.request",
+          "field": "request",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "method",
+              "params"
+            ]
+          }
+        },
+        {
+          "field_path": "$.response",
+          "field": "response",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "result"
+            ]
+          }
+        },
+        {
+          "field_path": "$.response.result",
+          "field": "result",
+          "value_preview": "0x0000000000000000000000000000000000000000000000000003734151050268"
+        },
+        {
+          "field_path": "$.request.method",
+          "field": "method",
+          "value_preview": "eth_call"
+        },
+        {
+          "field_path": "$.request.params",
+          "field": "params",
+          "value_preview": {
+            "type": "array",
+            "length": 2
+          }
+        }
+      ],
+      "truncated_field_samples": false,
+      "provenance_independently_verified": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/eg02_historical_balances_v1/balance_26300968.json",
+      "sha256_verified": true,
+      "fields_found": 6,
+      "simulation_values": [],
+      "lineage_values": [],
+      "value_samples": [
+        {
+          "field_path": "$.provider",
+          "field": "provider",
+          "value_preview": "https://eth.drpc.org"
+        },
+        {
+          "field_path": "$.request",
+          "field": "request",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "method",
+              "params"
+            ]
+          }
+        },
+        {
+          "field_path": "$.response",
+          "field": "response",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "result"
+            ]
+          }
+        },
+        {
+          "field_path": "$.response.result",
+          "field": "result",
+          "value_preview": "0x000000000000000000000000000000000000000000000000000376d1768bd9df"
+        },
+        {
+          "field_path": "$.request.method",
+          "field": "method",
+          "value_preview": "eth_call"
+        },
+        {
+          "field_path": "$.request.params",
+          "field": "params",
+          "value_preview": {
+            "type": "array",
+            "length": 2
+          }
+        }
+      ],
+      "truncated_field_samples": false,
+      "provenance_independently_verified": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/eg02_historical_balances_v1/balance_26301167.json",
+      "sha256_verified": true,
+      "fields_found": 6,
+      "simulation_values": [],
+      "lineage_values": [],
+      "value_samples": [
+        {
+          "field_path": "$.provider",
+          "field": "provider",
+          "value_preview": "https://eth.drpc.org"
+        },
+        {
+          "field_path": "$.request",
+          "field": "request",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "method",
+              "params"
+            ]
+          }
+        },
+        {
+          "field_path": "$.response",
+          "field": "response",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "result"
+            ]
+          }
+        },
+        {
+          "field_path": "$.response.result",
+          "field": "result",
+          "value_preview": "0x00000000000000000000000000000000000000000000000000042d14348cb622"
+        },
+        {
+          "field_path": "$.request.method",
+          "field": "method",
+          "value_preview": "eth_call"
+        },
+        {
+          "field_path": "$.request.params",
+          "field": "params",
+          "value_preview": {
+            "type": "array",
+            "length": 2
+          }
+        }
+      ],
+      "truncated_field_samples": false,
+      "provenance_independently_verified": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/eg03_recipient_blacklist_v1.json",
+      "sha256_verified": true,
+      "fields_found": 40,
+      "simulation_values": [],
+      "lineage_values": [],
+      "value_samples": [
+        {
+          "field_path": "$.records[7].request",
+          "field": "request",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "method",
+              "params"
+            ]
+          }
+        },
+        {
+          "field_path": "$.records[7].response",
+          "field": "response",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "result"
+            ]
+          }
+        },
+        {
+          "field_path": "$.records[7].response.result",
+          "field": "result",
+          "value_preview": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "field_path": "$.records[7].request.method",
+          "field": "method",
+          "value_preview": "eth_call"
+        },
+        {
+          "field_path": "$.records[7].request.params",
+          "field": "params",
+          "value_preview": {
+            "type": "array",
+            "length": 2
+          }
+        },
+        {
+          "field_path": "$.records[6].request",
+          "field": "request",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "method",
+              "params"
+            ]
+          }
+        },
+        {
+          "field_path": "$.records[6].response",
+          "field": "response",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "result"
+            ]
+          }
+        },
+        {
+          "field_path": "$.records[6].response.result",
+          "field": "result",
+          "value_preview": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "field_path": "$.records[6].request.method",
+          "field": "method",
+          "value_preview": "eth_call"
+        },
+        {
+          "field_path": "$.records[6].request.params",
+          "field": "params",
+          "value_preview": {
+            "type": "array",
+            "length": 2
+          }
+        },
+        {
+          "field_path": "$.records[5].request",
+          "field": "request",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "method",
+              "params"
+            ]
+          }
+        },
+        {
+          "field_path": "$.records[5].response",
+          "field": "response",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "result"
+            ]
+          }
+        },
+        {
+          "field_path": "$.records[5].response.result",
+          "field": "result",
+          "value_preview": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "field_path": "$.records[5].request.method",
+          "field": "method",
+          "value_preview": "eth_call"
+        },
+        {
+          "field_path": "$.records[5].request.params",
+          "field": "params",
+          "value_preview": {
+            "type": "array",
+            "length": 2
+          }
+        },
+        {
+          "field_path": "$.records[4].request",
+          "field": "request",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "method",
+              "params"
+            ]
+          }
+        },
+        {
+          "field_path": "$.records[4].response",
+          "field": "response",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "result"
+            ]
+          }
+        },
+        {
+          "field_path": "$.records[4].response.result",
+          "field": "result",
+          "value_preview": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "field_path": "$.records[4].request.method",
+          "field": "method",
+          "value_preview": "eth_call"
+        },
+        {
+          "field_path": "$.records[4].request.params",
+          "field": "params",
+          "value_preview": {
+            "type": "array",
+            "length": 2
+          }
+        },
+        {
+          "field_path": "$.records[3].request",
+          "field": "request",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "method",
+              "params"
+            ]
+          }
+        },
+        {
+          "field_path": "$.records[3].response",
+          "field": "response",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "result"
+            ]
+          }
+        },
+        {
+          "field_path": "$.records[3].response.result",
+          "field": "result",
+          "value_preview": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "field_path": "$.records[3].request.method",
+          "field": "method",
+          "value_preview": "eth_call"
+        },
+        {
+          "field_path": "$.records[3].request.params",
+          "field": "params",
+          "value_preview": {
+            "type": "array",
+            "length": 2
+          }
+        },
+        {
+          "field_path": "$.records[2].request",
+          "field": "request",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "method",
+              "params"
+            ]
+          }
+        },
+        {
+          "field_path": "$.records[2].response",
+          "field": "response",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "result"
+            ]
+          }
+        },
+        {
+          "field_path": "$.records[2].response.result",
+          "field": "result",
+          "value_preview": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "field_path": "$.records[2].request.method",
+          "field": "method",
+          "value_preview": "eth_call"
+        },
+        {
+          "field_path": "$.records[2].request.params",
+          "field": "params",
+          "value_preview": {
+            "type": "array",
+            "length": 2
+          }
+        },
+        {
+          "field_path": "$.records[1].request",
+          "field": "request",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "method",
+              "params"
+            ]
+          }
+        },
+        {
+          "field_path": "$.records[1].response",
+          "field": "response",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "result"
+            ]
+          }
+        },
+        {
+          "field_path": "$.records[1].response.result",
+          "field": "result",
+          "value_preview": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "field_path": "$.records[1].request.method",
+          "field": "method",
+          "value_preview": "eth_call"
+        },
+        {
+          "field_path": "$.records[1].request.params",
+          "field": "params",
+          "value_preview": {
+            "type": "array",
+            "length": 2
+          }
+        },
+        {
+          "field_path": "$.records[0].request",
+          "field": "request",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "method",
+              "params"
+            ]
+          }
+        },
+        {
+          "field_path": "$.records[0].response",
+          "field": "response",
+          "value_preview": {
+            "type": "object",
+            "keys": [
+              "id",
+              "jsonrpc",
+              "result"
+            ]
+          }
+        },
+        {
+          "field_path": "$.records[0].response.result",
+          "field": "result",
+          "value_preview": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "field_path": "$.records[0].request.method",
+          "field": "method",
+          "value_preview": "eth_call"
+        },
+        {
+          "field_path": "$.records[0].request.params",
+          "field": "params",
+          "value_preview": {
+            "type": "array",
+            "length": 2
+          }
+        }
+      ],
+      "truncated_field_samples": false,
+      "provenance_independently_verified": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06c_local_fork_freeze_scenarios_v1/destroy_blocked_funds_scenario.json",
+      "sha256_verified": true,
+      "fields_found": 1,
+      "simulation_values": [
+        {
+          "field_path": "$.local_fork_only",
+          "field": "local_fork_only",
+          "value_preview": "True"
+        }
+      ],
+      "lineage_values": [],
+      "value_samples": [
+        {
+          "field_path": "$.local_fork_only",
+          "field": "local_fork_only",
+          "value_preview": "True"
+        }
+      ],
+      "truncated_field_samples": false,
+      "provenance_independently_verified": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06c_local_fork_freeze_scenarios_v1/fork_context.json",
+      "sha256_verified": true,
+      "fields_found": 1,
+      "simulation_values": [
+        {
+          "field_path": "$.local_fork_only",
+          "field": "local_fork_only",
+          "value_preview": "True"
+        }
+      ],
+      "lineage_values": [],
+      "value_samples": [
+        {
+          "field_path": "$.local_fork_only",
+          "field": "local_fork_only",
+          "value_preview": "True"
+        }
+      ],
+      "truncated_field_samples": false,
+      "provenance_independently_verified": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06e_scenario_accounting_reconciliation_v1/scenario_accounting.json",
+      "sha256_verified": true,
+      "fields_found": 1,
+      "simulation_values": [
+        {
+          "field_path": "$.local_fork_only",
+          "field": "local_fork_only",
+          "value_preview": "True"
+        }
+      ],
+      "lineage_values": [],
+      "value_samples": [
+        {
+          "field_path": "$.local_fork_only",
+          "field": "local_fork_only",
+          "value_preview": "True"
+        }
+      ],
+      "truncated_field_samples": false,
+      "provenance_independently_verified": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06e_scenario_accounting_reconciliation_v1/summary.json",
+      "sha256_verified": true,
+      "fields_found": 1,
+      "simulation_values": [
+        {
+          "field_path": "$.destruction_accounting.local_fork_only",
+          "field": "local_fork_only",
+          "value_preview": "True"
+        }
+      ],
+      "lineage_values": [],
+      "value_samples": [
+        {
+          "field_path": "$.destruction_accounting.local_fork_only",
+          "field": "local_fork_only",
+          "value_preview": "True"
+        }
+      ],
+      "truncated_field_samples": false,
+      "provenance_independently_verified": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/eg08_source_attribution_v1/step08y_forward_edge_preservation_v1/forward_candidates.json",
+      "sha256_verified": true,
+      "fields_found": 1,
+      "simulation_values": [],
+      "lineage_values": [
+        {
+          "field_path": "$.routes_to_mixed[0].upstream",
+          "field": "upstream",
+          "value_preview": "[{'tx': '0x1fc0ef33a767132edad434834a5555b30fcb5a171206c03b86175ef6dafac81c', 'block': 26300815, 'log_index': 916, 'from': '0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c', 'to': '0x0ddf0480016e6bcb2c1f5d190d221fba1320697e', 'raw': 200000000000000, 'block_hash': '0x2d62d66105d69465f9372f3f9103dc224b253770cbe8611e19f8755d9440b10b'}, {'tx': '0xc0fab33d0ec562d3feef6b23946402b1af80dade21ab4f5fbea7384cc4615183', 'block': 26300911, 'log_index': 435, 'from': '0x0ddf0480016e6bcb2c1f5d190d221fba1320697e', 't"
+        }
+      ],
+      "value_samples": [
+        {
+          "field_path": "$.routes_to_mixed[0].upstream",
+          "field": "upstream",
+          "value_preview": "[{'tx': '0x1fc0ef33a767132edad434834a5555b30fcb5a171206c03b86175ef6dafac81c', 'block': 26300815, 'log_index': 916, 'from': '0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c', 'to': '0x0ddf0480016e6bcb2c1f5d190d221fba1320697e', 'raw': 200000000000000, 'block_hash': '0x2d62d66105d69465f9372f3f9103dc224b253770cbe8611e19f8755d9440b10b'}, {'tx': '0xc0fab33d0ec562d3feef6b23946402b1af80dade21ab4f5fbea7384cc4615183', 'block': 26300911, 'log_index': 435, 'from': '0x0ddf0480016e6bcb2c1f5d190d221fba1320697e', 't"
+        }
+      ],
+      "truncated_field_samples": false,
+      "provenance_independently_verified": false
+    }
+  ],
+  "source_provenance_verified": false,
+  "phase1_complete": false
+}

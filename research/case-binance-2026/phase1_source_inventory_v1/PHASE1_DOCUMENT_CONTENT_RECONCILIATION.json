@@ -1,0 +1,1715 @@
+{
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "total_files": 3105,
+  "document_and_other_files": 102,
+  "reconciled_files": 102,
+  "status_counts": {
+    "TEXT_CONTENT_SCANNED": 91,
+    "PDF_TEXT_AVAILABLE": 3,
+    "IMAGE_VISUAL_REVIEW_REQUIRED": 8
+  },
+  "unresolved_content_paths": [
+    "research/case-binance-2026/figures/figure_01_execution_sequence.png",
+    "research/case-binance-2026/figures/figure_02_authorization_nonce.png",
+    "research/case-binance-2026/figures/figure_03_delegated_transfer.png",
+    "research/case-binance-2026/figures/figure_04_failure_tolerance.png",
+    "research/case-binance-2026/figures/figure_05_usdt_reconciliation.png",
+    "research/case-binance-2026/publication_staging/a97b-visual-report/figures/01-a97b-eth-flow-overview.png",
+    "research/case-binance-2026/publication_staging/a97b-visual-report/figures/02-a97b-dex-weth-settlement.png",
+    "research/case-binance-2026/publication_staging/a97b-visual-report/figures/03-historical-crypto-theft-comparison.png"
+  ],
+  "manual_semantic_review_pending": true,
+  "document_review_complete": false,
+  "phase1_complete": false,
+  "records": [
+    {
+      "path": "research/case-binance-2026/700M_FIRST_HOP_DISTRIBUTION_AUDIT_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 2286,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty",
+        "official",
+        "blacklist"
+      ],
+      "content_excerpt": "# 700M USDT — First-Hop Distribution Audit V1 ## Scope Ethereum USDT transfers from two addresses that received 500M and 200M USDT, respectively, from the central address. This audit covers the preserved second-hop transfer evidence. It does not establish Binance incident attribution. ## Evidence - evidence/second_hop_usdt_v1/transfer_logs.json - evidence/second_hop_receipts_v1/manifest.json - 13 archived transaction receipts Preserved transfer log SHA256: 7b8e0b68f6cabebe2c9789e5b4a76437a",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/A97B/A97B_RESEARCH_MASTER.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 14562,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty",
+        "official",
+        "blacklist"
+      ],
+      "content_excerpt": "# A97B — Independent On-Chain Forensic Case Study **Case:** Binance 2026 — A97B Non-Central Route **Address:** `0xa97bf7836f8a08f9ed91d41453d371493fae8d10` **Research branch:** `research/case-binance-2026` **Baseline commit:** `4f341da` **Status:** Research in progress — not approved for publication --- ## 0. Research Mission Reconstruct the observed movement of assets involving A97B, evaluate the strength of the incident-attribution evidence, and examine the timing and effectiveness",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/A97B/A97B_RESEARCH_REPORT.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 14753,
+      "transaction_hash_mentions": 10,
+      "url_mentions": 23,
+      "risk_signals": [
+        "uncertainty",
+        "official",
+        "cross_chain"
+      ],
+      "content_excerpt": "# A97B — Transaction-Level Reconstruction of DEX Settlement and ETH Movements **Independent Financial Crime Research | Research version 1.0** **Status:** Evidence-backed reconstruction; incident-fund provenance and beneficial ownership remain unresolved. > This report distinguishes observed on-chain transactions, external reporting, and unresolved attribution. It does not identify an attacker or establish that all observed ETH originated from the incident. ## Executive summary Ethereum addr",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/A97B/bitquery_withdrawal_crosswalk_v1/BITQUERY_WITHDRAWAL_CROSSWALK_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 685,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 1,
+      "risk_signals": [
+        "uncertainty",
+        "official"
+      ],
+      "content_excerpt": "# A97B — Bitquery Withdrawal Crosswalk ## Observed - DEX ETH direct returns: 1015 TX; 6829.199984950999210044 ETH gross. - A97B direct native ETH outflows: 4 TX; 10647.2 ETH gross. - Bitquery reports an ETH transfer to a stash at 06:36 UTC on Oct 30. - Minute-matching transaction candidates: 1. ## Evidence boundary - Time alignment alone is not exact transaction corroboration. - DEX returns and subsequent outflows must not be netted as stolen-fund recovery. - Incident provenance and ultimate",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/A97B/evidence/EXTERNAL_ATTRIBUTION_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 5326,
+      "transaction_hash_mentions": 2,
+      "url_mentions": 3,
+      "risk_signals": [
+        "uncertainty",
+        "official",
+        "blacklist"
+      ],
+      "content_excerpt": "# A97B — External Incident Attribution Evidence V1 Status: RESEARCH / NOT APPROVED FOR PUBLICATION Research date: 2026-11-08 Address: 0xa97bf7836f8a08f9ed91d41453d371493fae8d10 ## 1. Research Question How strongly can the observed Binance 14 → A97B ETH inflows be linked to the reported incident? This audit separates: - Official incident statements - Independent external analysis - Preserved on-chain observations - Address-level external attribution - Unresolved individual fund provenance #",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/A97B/evidence/SOURCE_SNAPSHOT_SHA256_V1.txt",
+      "extension": ".txt",
+      "sha256_verified": true,
+      "role_candidate": "INTEGRITY_OR_METADATA_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 379,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "official"
+      ],
+      "content_excerpt": "b882f0b94c6706cc42efe2522153cbecab159e3dfe8199436505cb054b86bb51 research/case-binance-2026/A97B/evidence/binance_official.pdf 6b6bc45ceef3454e0f0a0e9a36bc5cbc896db34d98f13e8e7ea3c8be045e98c7 research/case-binance-2026/A97B/evidence/chainward_analysis.pdf 76fa7e8963269fd0cccc6755d9cba49eba78b92e7f028ae8beb98bfc3cb34037 research/case-binance-2026/A97B/evidence/fbi_alert.pdf",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/A97B/evidence/binance_official.pdf",
+      "extension": ".pdf",
+      "sha256_verified": true,
+      "role_candidate": "PDF_DOCUMENT",
+      "content_status": "PDF_TEXT_AVAILABLE",
+      "character_count": 13869,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 4,
+      "risk_signals": [
+        "official",
+        "blacklist"
+      ],
+      "content_excerpt": "===== PAGE 1 ===== Blog Community 29 Octo... Update This article is not available in your language. 29 October 2026 Binance Security Incident: Initial Findings and Response Update 2026-11-03 On 29 October 2026, Binance experienced a serious and highly sophisticated security incident. This should not have happened, and we apologise for the concern, disruption and uncertainty it caused our users, partners and the wider industry. Our first responsibility is to protect users. Binance will absorb th",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/README.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 842,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "official"
+      ],
+      "content_excerpt": "# A97B Bitquery Independent WETH Withdrawal Audit ## Scope Independent cross-check of 1,015 WETH Withdrawal events against the existing A97B research ledger. ## Results - Transactions: 1,015 - Bitquery batches: 21 - Exact wei matches: 1,015 - Review required: 0 - Integrity audit: PASS ## Evidence - Original A97B ledger - Exact ETH-to-wei reconciliation input - Bitquery raw responses - Batch audit results - SHA256 manifests - Independent integrity audit report - Audit scripts ## Limitations T",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/a97b_batch_audit_full.mjs",
+      "extension": ".mjs",
+      "sha256_verified": true,
+      "role_candidate": "CODE_OR_CONFIG_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 4790,
+      "transaction_hash_mentions": 1,
+      "url_mentions": 1,
+      "risk_signals": [],
+      "content_excerpt": "import fs from 'node:fs'; import crypto from 'node:crypto'; import { Client, StreamableHTTPClientTransport } from '@modelcontextprotocol/client'; const DIR = 'a97b_batch_audit_full_1015_v1'; fs.mkdirSync(DIR, {recursive:true}); const csv = fs.readFileSync('reconciliation_full_1015.csv','utf8'); const lines = csv.trim().split(/\\r?\\n/); const headers = lines.shift().split(','); function parseCSV(line) { return line.match(/(\"(?:[^\"]|\"\")*\"|[^,]*)(,|$)/g) ?.map(x=>x.replace(/,$/,'').replace(",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/A97B/evidence/bitquery_independent_audit_v1/a97b_integrity_audit_v2.py",
+      "extension": ".py",
+      "sha256_verified": true,
+      "role_candidate": "CODE_OR_CONFIG_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 7013,
+      "transaction_hash_mentions": 1,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty"
+      ],
+      "content_excerpt": "import csv import json import hashlib from pathlib import Path from collections import Counter, defaultdict from decimal import Decimal ROOT = Path(\"a97b_batch_audit_full_1015_v1\") SOURCE = Path(\"A97B_ADDRESS_ETH_RETURN_V1.csv\") INPUT = Path(\"reconciliation_full_1015.csv\") MANIFEST = ROOT / \"manifest.json\" RESULT = ROOT / \"audit_results.csv\" OUT = ROOT / \"FINAL_INTEGRITY_AUDIT_V2.json\" WETH = \"0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2\" TOPIC = \"0x7fcf532c15f0a6db0bd6d0e038bea71d30d808c7d98cb3",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/A97B/evidence/bitquery_independent_crosscheck_v2/AUDIT.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 3074,
+      "transaction_hash_mentions": 1,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty"
+      ],
+      "content_excerpt": "# A97B Bitquery Independent Crosscheck v2 — Pilot Stage ## Scope - Baseline: `eth_address_receipts_v1/A97B_ADDRESS_ETH_RETURN_V1.csv` (1,015 rows). - Existing Bitquery checks excluded from the new-target set: 6 prior checks plus 10 pilot transactions re-queried here. - New transactions queried in this stage: the first 50 of the remaining 999, in baseline order. - This stage does not complete the remaining 949 transactions. ## Query conditions - MCP tool: `bitquery-eth_tx_events` - `event`: `",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/A97B/evidence/bitquery_independent_crosscheck_v2/SHA256SUMS",
+      "extension": "(none)",
+      "sha256_verified": true,
+      "role_candidate": "INTEGRITY_OR_METADATA_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 946,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty"
+      ],
+      "content_excerpt": "d232d8a87f42b0a8e1ce9c129e19fd667e5e1eef1c3dbb707d9e8de2cd0802d4 AUDIT.md a0f82c39b41ce6aea9c2dc881180455ad8e5f323485ee6aa60a8fc131bb76eef batch_001_events.json c371216015887d3122731e4236a7f42c3431433acc17ba9e65208593569b6cc5 batch_002_events.json ec6a818aacdcb1c4b9cd9f87d944dad477c197287cdf73baea7fda1c804384a0 batch_003_events.json b685a40b16be1189b41f8853eb724217b95b0c6e31afd5db45490acdd06fe8b2 batch_004_events.json 083a29f849c8a6869a5554a53123dfc4fc1819be3b1ba9f169c85632f4c78225 batch_0",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/A97B/evidence/chainward_analysis.pdf",
+      "extension": ".pdf",
+      "sha256_verified": true,
+      "role_candidate": "PDF_DOCUMENT",
+      "content_status": "PDF_TEXT_AVAILABLE",
+      "character_count": 48367,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 24,
+      "risk_signals": [
+        "uncertainty",
+        "official",
+        "blacklist",
+        "cross_chain"
+      ],
+      "content_excerpt": "===== PAGE 1 ===== BASE MAINNET · EDITION NOVEMBER 8, 2026 · NETWORK READING #54,762,747 · INDEXER LIVE ChainWard.ai CHECK REPORTS DECODES OBSERVATORY BRIEF CONNECT WALLET Decode · 2026-10-30 Binance's Hot Wallet Was Signed Over to the Attacker for 3 Hours, 49 Minutes and 36 Seconds An EIP-7702 delegation installed 3 minutes 24 seconds before the sweep, on 50 authorizations signed minutes earlier. Closed 00:10:35 UTC. BY CHAINWARD · FILED OCTOBER 30, 2026 · VERIFIED AGAINST ON-CHAIN DATA IN PLAI",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/A97B/evidence/fbi_alert.pdf",
+      "extension": ".pdf",
+      "sha256_verified": true,
+      "role_candidate": "PDF_DOCUMENT",
+      "content_status": "PDF_TEXT_AVAILABLE",
+      "character_count": 4111,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 1,
+      "risk_signals": [
+        "official"
+      ],
+      "content_excerpt": "===== PAGE 1 ===== FBI Cyber October 31, 2026 North Korea Responsible for $6 Billion+ Binance Attack The Federal Bureau of Investigation (FBI) is releasing information advising the Democratic People's Republic of Korea (North Korea) was responsible for the theft of more than $6 billion USD in virtual assets from cryptocurrency exchange Binance, on or about October 29, 2026. The FBI refers to this specific North Korean malicious cyber activity as \"TraderTraitor.\" The FBI, together with partners a",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/A97B/evidence/step70_bitquery_ledger_reconciliation_v1/AUDIT.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 6412,
+      "transaction_hash_mentions": 2,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty",
+        "official"
+      ],
+      "content_excerpt": "# A97B STEP70–Bitquery Reconciliation ## Result The captured Bitquery response contains 1,274 outgoing transfer rows. Against the 1,186 STEP70 ledger rows, normalization by transaction hash, asset contract (with native ETH represented as `native`), raw amount, and recipient yields 1,184 matching distinct keys and 90 Bitquery-only keys. STEP70 contains two additional occurrences of keys already present once in Bitquery; they are duplicate ledger rows, not two missing on-chain transfers. The 90",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/A97B/evidence/step70_bitquery_ledger_reconciliation_v1/SHA256SUMS",
+      "extension": "(none)",
+      "sha256_verified": true,
+      "role_candidate": "INTEGRITY_OR_METADATA_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 559,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [],
+      "content_excerpt": "d34e9a40ca4c56d4ef27b995371574ff25669b0a103fa6f0a4441ac018e8116b AUDIT.md 6d3c31280f4b7d4520be19b08d5e9125b2d68d957f76f7bd6646832e8b3f2cb2 bitquery_a97b_outgoing.json 93d8b894f851af7d03c3818ba64fe38fa6693618787b07d6b7a52445a55863d4 bitquery_duplicate_tx_transfers.json 65d9e296d2202393b07cb9d51ceca4fd653ece24adf67a45e117fbbdc64b14eb bitquery_duplicate_tx_withdrawals.json 430e496d4884cc28ef357269ebc02c8e3f6d2d8a57687658661a666ccf9904fe query_conditions.json 24b58c7760aef57e626afd765555d0f7f61",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/A97B/institutional_research_packet_v1/A97B_TIMELINE_TECHNICAL_REPORT_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 3993,
+      "transaction_hash_mentions": 5,
+      "url_mentions": 0,
+      "risk_signals": [],
+      "content_excerpt": "# A97B — Ethereum Token Conversion and ETH Return Timeline ## Scope Independent transaction-level reconstruction of A97B activity. This is a gross-flow audit, not a determination of stolen-fund ownership. ## Verified observations - Address: `0xa97bf7836f8a08f9ed91d41453d371493fae8d10` - Integrated outbound event records: **1,186**. - DEX/WETH-classified outbound events: **1,126**, across **1,124 distinct transactions**. - Matched WETH unwrap and native ETH direct-return transactions: **1,015",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/A97B/institutional_research_packet_v1/HISTORICAL_PATTERN_RESEARCH_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 2211,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 4,
+      "risk_signals": [
+        "uncertainty",
+        "official",
+        "cross_chain"
+      ],
+      "content_excerpt": "# Historical Mechanism Comparison — A97B ## Research question Which documented mechanisms of historical exploit-related token-to-ETH conversion resemble observed A97B transactions? ## Evidence standard Mechanism resemblance is not common actor, control, illicit origin, criminal intent or transaction-level equality. | Case | Documented mechanism | Comparison | Boundary | |---|---|---|---| | Harmony Horizon Bridge (2022) | Stolen Ethereum-chain tokens exchanged via Uniswap into ETH, followed",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/AXIOM_BINANCE_2026_FIXED_RESEARCH_MAP_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 4471,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty",
+        "official",
+        "blacklist",
+        "cross_chain"
+      ],
+      "content_excerpt": "# AXIOM — Binance 2026 | FIXED RESEARCH MAP V1 **Status: FIXED — user-approved research roadmap** **Repository:** `Sellina95/independent-financial-crime-research` **Branch:** `research/case-binance-2026` **Rule:** This file is the authoritative roadmap for this case. Do not silently replace or redesign it in a new chat. ## Objective Reconstruct the documented incident from the earliest verifiable victim-wallet outflows, and determine whether those flows connect by verifiable transaction",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/AXIOM_EVIDENCE_DIFFERENCE_PROTOCOL_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 1808,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "official",
+        "blacklist",
+        "cross_chain"
+      ],
+      "content_excerpt": "# AXIOM — Evidence Difference Protocol V1 ## Mission Track disagreements, missing disclosures, new paths and verification blockers without treating suspicion as proof. ## Categories - CONTRADICTION: Two verified sources make incompatible claims about the same event, unit, scope and timestamp. - COVERAGE_GAP: A published source omits information needed for independent comparison. - NEW_LEAD: A previously unassessed path, address, event or mechanism merits investigation. - ACCESS_BLOCKED:",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/AXIOM_INCIDENT_TRACEABILITY_MASTER_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 50604,
+      "transaction_hash_mentions": 24,
+      "url_mentions": 1,
+      "risk_signals": [
+        "uncertainty",
+        "official",
+        "blacklist",
+        "cross_chain"
+      ],
+      "content_excerpt": "# AXIOM — Binance 2026 Incident Traceability Master Status: ACTIVE RESEARCH / NOT PUBLICATION APPROVED Baseline commit: 0285742 Branch: research/case-binance-2026 ## 1. Research Mission Independently reconstruct the reported Binance 2026 incident using reproducible public evidence. Determine: - Where funds originated. - Which transactions can be verified. - Where paths split, converge or transform. - Where traceability or incident attribution breaks. - Which gaps remain unresolved in public",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/AXIOM_INCIDENT_TRACEABILITY_MASTER_V2.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 9077,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty",
+        "official",
+        "blacklist",
+        "cross_chain"
+      ],
+      "content_excerpt": "# AXIOM — Binance 2026 Incident Research Master Map **Status:** ACTIVE RESEARCH / NOT PUBLICATION APPROVED **Last status review:** 2026-11-08 **Branch:** `research/case-binance-2026` ## PURPOSE This is the fixed, incident-wide research map. - V1: detailed investigation, evidence, findings and audit history. - V2: latest status, acceptance gates and next decisions. - Raw evidence: preserved in existing research files. - Final case study: separate, audited, publication-approved deliverable. D",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/AXIOM_PUBLICATION_CLAIMS_AUDIT_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 2303,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "official",
+        "blacklist"
+      ],
+      "content_excerpt": "# AXIOM — Publication Claims Audit V1 ## Scope Automated consistency audit against existing committed research evidence. No live blockchain RPC calls. ## Results - Inventory evidence files checked: 15 - Inventory SHA256 matches: 15 - Structured claim checks: 9 - Checks passed: 9 - Checks failed: 0 ## Automated checks | Claim | Result | |---|---| | 50 EIP-7702 signatures recovered | PASS | | One nonce-applicable authorization | PASS | | Historical delegation lifecycle | PASS | | T03 calldat",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/BINANCE_2026_DELEGATED_WALLET_DRAIN_CASE_STUDY.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 12401,
+      "transaction_hash_mentions": 3,
+      "url_mentions": 6,
+      "risk_signals": [
+        "official",
+        "blacklist",
+        "cross_chain"
+      ],
+      "content_excerpt": "# Binance 2026 — Anatomy of a Delegated Wallet Drain *An Independent Reconstruction of EIP-7702 Authorization, Batch Execution, and Asset Movements* **Independent On-Chain Forensic Research | Ethereum | October 2026** > **Research status:** Technical mechanism strongly corroborated. Official transaction-level incident attribution remains unresolved. This is a bounded technical case study, not a complete incident investigation. ## Executive Summary On October 29, 2026, Binance experienced a",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/BINANCE_2026_DELEGATED_WALLET_DRAIN_CASE_STUDY_DRAFT_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 9439,
+      "transaction_hash_mentions": 3,
+      "url_mentions": 3,
+      "risk_signals": [
+        "official",
+        "blacklist",
+        "cross_chain"
+      ],
+      "content_excerpt": "# Binance 2026 — Anatomy of a Delegated Wallet Drain *An Independent Reconstruction of EIP-7702 Authorization, Batch Execution, and Asset Movements* **Independent On-Chain Forensic Research | Ethereum | October 2026** > **Research status:** Technical mechanism strongly corroborated. Official transaction-level incident attribution remains unresolved. This is a bounded technical case study, not a complete incident investigation. ## Executive Summary On October 29, 2026, a sequence of Ethereum",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/BINANCE_2026_DELEGATED_WALLET_DRAIN_CASE_STUDY_DRAFT_V2.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 10033,
+      "transaction_hash_mentions": 3,
+      "url_mentions": 3,
+      "risk_signals": [
+        "official",
+        "blacklist",
+        "cross_chain"
+      ],
+      "content_excerpt": "# Binance 2026 — Anatomy of a Delegated Wallet Drain *An Independent Reconstruction of EIP-7702 Authorization, Batch Execution, and Asset Movements* **Independent On-Chain Forensic Research | Ethereum | October 2026** > **Research status:** Technical mechanism strongly corroborated. Official transaction-level incident attribution remains unresolved. This is a bounded technical case study, not a complete incident investigation. ## Executive Summary On October 29, 2026, a sequence of Ethereum",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/BINANCE_2026_DELEGATED_WALLET_DRAIN_CASE_STUDY_DRAFT_V3.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 12192,
+      "transaction_hash_mentions": 3,
+      "url_mentions": 6,
+      "risk_signals": [
+        "official",
+        "blacklist",
+        "cross_chain"
+      ],
+      "content_excerpt": "# Binance 2026 — Anatomy of a Delegated Wallet Drain *An Independent Reconstruction of EIP-7702 Authorization, Batch Execution, and Asset Movements* **Independent On-Chain Forensic Research | Ethereum | October 2026** > **Research status:** Technical mechanism strongly corroborated. Official transaction-level incident attribution remains unresolved. This is a bounded technical case study, not a complete incident investigation. ## Executive Summary On October 29, 2026, Binance experienced a",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/BLACKLIST_175M_CASE_AUDIT_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 2192,
+      "transaction_hash_mentions": 3,
+      "url_mentions": 0,
+      "risk_signals": [
+        "blacklist"
+      ],
+      "content_excerpt": "# CASE AUDIT — 175M USDT Blacklist Path ## Scope Ethereum USDT address `0xaa246bf639586a6ba46762d378ce50ca4fc654a0`. This audit concerns one observed fund-flow path, not the entire incident. ## Verified chronological evidence 1. Block 26300987: historical USDT balance = 0. 2. Block 26300988: incoming 175,000,000 USDT. - TX: `0xb6d7d3ffcbdd0465e1ab743a8d943218176cac7b15edefa7b7bcd5e853e4266f` - Source: `0x811f15855476156ebf86ba3b84fafb8ceaa4e84c` 3. Block 26301011: outgoing 127.672480 USD",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/EG01_EXECUTION_TIME_AUDIT_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 1523,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty",
+        "blacklist"
+      ],
+      "content_excerpt": "# EG-01 — Blacklist Execution-Time Balance Audit **Status: SUBSTANTIALLY VERIFIED / direct intra-transaction state pending** ## Verified observations | Address | Block | TX index | Balance (USDT) | Target Transfers | |---|---:|---:|---:|---:| | Central (`0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c`) | 26300954 | 88 | 971149299.483240 | 0 | | 175M (`0xaa246bf639586a6ba46762d378ce50ca4fc654a0`) | 26301021 | 199 | 174999872.327520 | 0 | | 30M (`0xb171ca86f82070282138352ff7111b494060c8c3`) | 26301",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/EG08_AAVE_POSITION_ATTRIBUTION_CORRECTION_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "UNRESOLVED_DOCUMENT_ROLE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 2187,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "official",
+        "cross_chain"
+      ],
+      "content_excerpt": "# EG08 — Aave Position Attribution Correction V1 Status: RESEARCH / RED TEAM / NOT FOR PUBLIC ATTRIBUTION Evidence checkpoint: STEP 08AC Branch: research/case-binance-2026 ## Verified observations - The address previously labeled MIXED is the Ethereum Aave V3 aUSDT token contract, not an ordinary custody wallet. - A separate address supplied 10M and 50M USDT through Aave Supply transactions. - The 25M USDT payout to A is an Aave Withdraw. - The Withdraw event identifies A as the position",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/EVIDENCE_CHECKPOINT_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 4150,
+      "transaction_hash_mentions": 6,
+      "url_mentions": 4,
+      "risk_signals": [
+        "uncertainty",
+        "official",
+        "blacklist"
+      ],
+      "content_excerpt": "# Binance Security Incident 2026 ## Evidence Checkpoint V1 Research status: INITIAL ON-CHAIN RECONSTRUCTION Evidence level: USER-CAPTURED ETHERSCAN + CSV CROSS-CHECK Research date: 2026-10-30 ## Research Question Can public on-chain evidence reconstruct the Binance security incident and subsequent fund movements? No attribution of real-world identity is attempted. ## 1. Initial Transaction Network: Ethereum Mainnet Block: 26300770 Timestamp: 2026-10-29 20:24:23 UTC Transaction: 0x53bd38b8",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/EVIDENCE_GAP_REPORT.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 42776,
+      "transaction_hash_mentions": 7,
+      "url_mentions": 4,
+      "risk_signals": [
+        "local_fork",
+        "uncertainty",
+        "official",
+        "blacklist",
+        "cross_chain"
+      ],
+      "content_excerpt": "# AXIOM — Evidence Gap Report ## Binance 2026 | Independent Financial Crime & Fund-Preservation Research **Status:** ACTIVE RESEARCH CHARTER — NOT A COMPLETED FORENSIC FINDING **Evidence cutoff:** 2026-11-05 **Working branch:** `research/case-binance-2026` **Publication gate:** No changes to `main` or the existing public report without explicit approval after audit. > **North-star question:** What remains materially unexplained or independently unverified in the public account of the 2026",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/GATE_1_COMPLETENESS_REVIEW_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 1243,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty",
+        "official",
+        "blacklist"
+      ],
+      "content_excerpt": "# AXIOM — Gate 1 Completeness Review V1 Review date (UTC): 2026-11-01T04:08:22.230269+00:00 ## Scope - Two Binance official incident announcements dated 2026-10-30. - Evidence type: user-copied browser announcement text. - Integrity: SHA256 matched against evidence manifest. - This review does not independently validate Binance's claims. ## Source claim checks - Incident time: PASS - Reported impact: PASS - Reported freeze: PASS - Hot-wallet compromise: PASS - Unauthorized withdrawals: PASS",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/GATE_2_175M_PATH_CONTINUITY_AUDIT_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 1240,
+      "transaction_hash_mentions": 2,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty"
+      ],
+      "content_excerpt": "# AXIOM — 175M USDT Path Continuity Audit V1 ## Observed transfer sequence 1. `0x9749292d74fd460982d0912ea9515ea24736c762` -> `0x811f15855476156ebf86ba3b84fafb8ceaa4e84c` - TX: `0x1fb992f92a45afec23d7d5740c7958a644fb90ef0cba19ca39bd2c6534fb670b` - Block: 26300942 - Amount: 175,000,000 USDT (reference decimals: 6) 2. `0x811f15855476156ebf86ba3b84fafb8ceaa4e84c` -> `0xaa246bf639586a6ba46762d378ce50ca4fc654a0` - TX: `0xb6d7d3ffcbdd0465e1ab743a8d943218176cac7b15edefa7b7bcd5e853e4266f`",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/GATE_2_ADDITIONAL_SOURCE_ROLE_REVIEW_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "UNRESOLVED_DOCUMENT_ROLE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 9413,
+      "transaction_hash_mentions": 14,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty",
+        "official",
+        "blacklist",
+        "cross_chain"
+      ],
+      "content_excerpt": "# AXIOM — Gate 2 Additional Token Source Role Review V1 ## Scope - Ten ERC20 Transfer-shaped events from seven Ethereum transactions. - No wallet ownership or criminal attribution inferred. - Report context is third-party interpretation, not on-chain proof. - Amounts are raw token units; no USD valuation. - Existing 700M USDT evidence is not changed. ## Address-level evidence ### 1. `0x0729e2a4716d9f7dd17858d5d504426d228697f7` - Transaction: `0x9a3dbf99edd0c063171d61130d82f1e6edd7cb409af5e7f2",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/GATE_2_BITCOIN_11TX_AUDIT_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "RESEARCH_REPORT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 1356,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty",
+        "official"
+      ],
+      "content_excerpt": "# AXIOM — Bitcoin 11-TX Input/Output Audit V1 ## Scope - 11 previously observed Bitcoin transactions. - Reported source address: `bc1qm34lsc65zpw79lxes69zkqmk6ee3ewf0j77s3h` - Reported receiving address: `bc1q0mtc2f5agpkvlq6hhahmfr3hlr55kyfjhl2mnm` - Data: mempool.space Bitcoin transaction API. ## On-chain results - Receiver outputs: 18,270.20000000 BTC - Inputs from source address: 18,333.70635832 BTC - Inputs from other addresses: 0.00000000 BTC - Other outputs: 63.50277682 BTC - Transaction",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/GATE_2_BTC_ATTRIBUTION_ASSESSMENT_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 1554,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 1,
+      "risk_signals": [
+        "official"
+      ],
+      "content_excerpt": "# AXIOM — Gate 2 BTC Attribution Assessment V1 ## OBSERVED — independently replayed - 11 validated BTC transactions. - 18,270.2 BTC sent to the designated first receiver. - Source inputs verified; transaction conservation audited. - Historical PoR CSV matches the source address. - Pre-incident comparison: 20 source-spending transactions. - Median source inputs: 1 before, 39 in incident candidates. - Median fee rate: 5.01 vs 10.05 sat/vB. - Transaction purpose and authorization not observable on",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/GATE_2_ERC20_TRANSFER_AUDIT_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 2259,
+      "transaction_hash_mentions": 6,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty",
+        "official"
+      ],
+      "content_excerpt": "# AXIOM — Gate 2 ERC-20 Transfer Evidence Audit V1 ## Scope - Ethereum mainnet, six previously validated transactions. - Exact receipt log extraction; no inference of victim ownership. - Only standard three-topic Transfer-shaped logs decoded. - Token contracts and decimals not independently checked. - Internal ETH movements and nonstandard token events excluded. - Receipt hashes cover RPC JSON representations, not authenticated provenance. ## Results - Transactions inspected: 6 - Total receipt",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/GATE_2_ETH_DELEGATION_CONTRACT_LINK_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 2164,
+      "transaction_hash_mentions": 3,
+      "url_mentions": 2,
+      "risk_signals": [
+        "uncertainty"
+      ],
+      "content_excerpt": "# AXIOM — Ethereum Delegation Contract Link V1 ## OBSERVED — Etherscan browser evidence - T02: 0xad99264d5532ae0dd04b2004eebda05f25657e70dacb764f7ac8d4ccd051298b - EIP-7702 transaction displayed as type 4. - Authorization entries displayed: 50. - Validity True: 1; False: 49. - Valid authorization nonce: 18914809. - Wallet nonce changed from 18914809 to 18914810. - Delegated contract: 0x63e842b054bd624a465454d533c33f573e9c6fae - Etherscan identifies contract creator as: 0x7c8601d4645b93cea45f71e",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/GATE_2_ETH_EXTERNAL_INCIDENT_LINK_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 1778,
+      "transaction_hash_mentions": 1,
+      "url_mentions": 1,
+      "risk_signals": [
+        "uncertainty",
+        "official"
+      ],
+      "content_excerpt": "# AXIOM — External Incident Link V1 ## Independent investigator source - Publisher: Crystal Intelligence - Author: Nicholas Smart - Published: 2026-10-30 - URL: https://crystalintelligence.com/investigations/binance-hack-what-we-know-what-teams-should-do-now/ - Source type: External blockchain intelligence investigation - Verification: Public report reviewed; original publication snapshot not locally archived ## OBSERVED IN EXTERNAL REPORT Crystal explicitly places the following Ethereum act",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/GATE_2_ETH_HISTORICAL_RECONCILIATION_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 3445,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty",
+        "official"
+      ],
+      "content_excerpt": "# AXIOM — Ethereum Historical Evidence Reconciliation V1 ## Purpose Reconcile earlier Ethereum research checkpoints with later independently verified on-chain evidence. This document supplements earlier reports without rewriting their historical observations. ## 1. Superseded technical uncertainties | Earlier uncertainty | Current evidence | Updated status | |---|---|---| | T02 raw authorization list unverified | T02 signature recovery V1 | VERIFIED | | EIP-7702 signer identity unknown at a",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/GATE_2_ETH_T02_T03_MECHANISM_REVIEW_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 1804,
+      "transaction_hash_mentions": 3,
+      "url_mentions": 1,
+      "risk_signals": [
+        "uncertainty"
+      ],
+      "content_excerpt": "# AXIOM — Ethereum T02/T03 Mechanism Review V1 ## T02 — Etherscan browser observations - TXID: 0xad99264d5532ae0dd04b2004eebda05f25657e70dacb764f7ac8d4ccd051298b - Explorer displays EIP-7702 type-4 transaction. - Explorer Authorization tab shows 50 entries: 1 True and 49 False. - Valid entry nonce: 18914809. - Explorer State tab shows wallet nonce: 18914809 -> 18914810. - Source: https://etherscan.io/tx/0xad99264d5532ae0dd04b2004eebda05f25657e70dacb764f7ac8d4ccd051298b - Evidence basis: use",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/GATE_2_ETH_T03_CALLER_RESTRICTION_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "UNRESOLVED_DOCUMENT_ROLE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 1684,
+      "transaction_hash_mentions": 1,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty"
+      ],
+      "content_excerpt": "# AXIOM — T03 Delegated Contract Caller Evidence V1 ## Source provenance - Network: Ethereum Mainnet - Provider: Alchemy historical JSON-RPC - Method: eth_getCode, eth_getTransactionByHash - Historical state block: 26300769 (block-end) - Delegated implementation: `0x63e842b054bd624a465454d533c33f573e9c6fae` - T03 transaction: `0x53bd38b816c23e74134786c29a8c18d792777998a3b9326047b583100e88e2f3` - Implementation bytecode: 1674 bytes - Bytecode SHA256: `7235599d1e4088edcc48d2461f987475c3130897dea3",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/GATE_2_ETH_TECHNICAL_EVIDENCE_ASSESSMENT_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 2901,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty",
+        "official"
+      ],
+      "content_excerpt": "# AXIOM — Ethereum Gate ② Technical Evidence Assessment V1 ## Assessment **Technical mechanism: STRONGLY CORROBORATED** **Official incident attribution and unauthorized status: OPEN** This assessment concerns the technical reconstruction of T02/T03/T17. It does not establish who controlled the signing key or whether Binance corporately authorized any transaction. ## OBSERVED — Independently tested evidence 1. T02: 50 EIP-7702 authorization signatures all recover to Binance 14. 2. T02: Nonce",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/GATE_2_EXPANSION_AUDIT_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 1406,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty",
+        "official",
+        "blacklist"
+      ],
+      "content_excerpt": "# AXIOM — Gate 2 Expansion Audit V1 Review date (UTC): 2026-11-01T04:10:46.481239+00:00 ## Objective Determine whether additional independently supported victim-wallet candidates exist beyond the three existing research source addresses. ## Existing evidence inventory - Existing source-wallet candidates: 3 - Entry-point records: 11 - Unique Ethereum-format addresses in entry register: 23 - Existing candidate addresses also appearing in entry register: 3 ## External source queue - EXT_001: Bi",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/GATE_2_EXTERNAL_TXID_CROSSCHECK_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 1796,
+      "transaction_hash_mentions": 9,
+      "url_mentions": 2,
+      "risk_signals": [
+        "official"
+      ],
+      "content_excerpt": "# AXIOM — Gate 2 External TXID Crosscheck V1 Checked UTC: 2026-11-01T04:12:47.251299+00:00 ## Method - Compare exact Ethereum-format TXID strings. - Extract only complete hashes from visible text and hyperlinks. - No blockchain receipt or incident attribution verification. - NEW means absent from the local register, not confirmed stolen funds. - UNRESOLVED means no exact external TXID match found. - A report may describe transactions without printing full TXIDs. ## Source snapshots ### Bitque",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/GATE_2_INCIDENT_ATTRIBUTION_REVIEW_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "UNRESOLVED_DOCUMENT_ROLE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 1406,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [],
+      "content_excerpt": "# AXIOM — Gate 2 Incident Attribution Review V1 ## Objective Distinguish PoR association, observed transfers, and evidence of unauthorized incident outflows. ## Verified evidence inventory - 11/11 candidate addresses match the supplied PoR CSV. - 98 PoR asset-level rows, not 98 independent wallets. - Bitcoin: 11 native transactions audited. - TRON: 2 native transactions audited. - XRPL: 5 native payment transactions audited. - Ethereum: transaction/event evidence exists but address-level ini",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/GATE_2_INITIAL_ATTRIBUTION_AUDIT_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 2874,
+      "transaction_hash_mentions": 11,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty",
+        "official"
+      ],
+      "content_excerpt": "# AXIOM — Gate 2 Initial Attribution Audit V1 Audit date (UTC): 2026-11-01T04:09:32.680914+00:00 ## Research question Can existing source-wallet candidates be independently linked to the Binance incident and its initial unauthorized withdrawals? ## Scope and method - Read-only review of existing local CSV registers. - No live blockchain queries performed. - No wallet ownership inferred from transaction proximity. - No changes to existing 700M USDT tracing evidence. ## Input inventory - Entry",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/GATE_2_MULTICHAIN_DISCOVERY_AUDIT_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 1533,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 1,
+      "risk_signals": [
+        "official"
+      ],
+      "content_excerpt": "# AXIOM — Gate 2 Multi-chain Discovery Audit V1 Checked UTC: 2026-11-01T05:11:01.645509+00:00 Source: https://bitquery.io/investigations/binance-hack Retrieved HTML SHA256: `09bbfe9280ebd5a80ab484fdf4ceae8393708b3c723515bc9aa7d6ad399edfe8` ## Newly registered source-address candidates - Bitcoin: 1 externally labeled hot-wallet address - TRON: 1 externally labeled hot-wallet address - Solana: 1 externally labeled hot-wallet address - XRP Ledger: 5 reported accounts; exact source addresses unres",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/GATE_2_POR_OWNERSHIP_AUDIT_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "RESEARCH_REPORT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 554,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty",
+        "official"
+      ],
+      "content_excerpt": "# AXIOM — Gate 2 PoR Ownership Audit V1 ## OBSERVED - Original CSV integrity: PASS. - 11/11 chain-and-address matches. - 98 asset-level rows; not 98 wallets. - The first XRPL address has XRP and RLUSD rows. - Three addresses also appear in Binance's 2022 public disclosure. ## UNVERIFIED - Original CSV publication timestamp and download provenance. - Binance control at the incident time. - Whether observed transfers were unauthorized. - Snapshot balances are not incident loss estimates. ## DEC",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/GATE_2_PREINCIDENT_OWNERSHIP_AUDIT_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "RESEARCH_REPORT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 1328,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "official"
+      ],
+      "content_excerpt": "# AXIOM — Pre-Incident Wallet Ownership Screen V1 ## Research objective Test whether candidate outflow addresses appear in historically available Binance official PoR material. ## Evidence cutoff 2026-10-29 20:05:00 UTC. ## Results - Candidate source addresses: 11 - Pre-incident archive text matches: 0 - Current/later source text matches: 0 - Sources successfully retrieved: 1 - Retrieval errors: 1 ## Critical limitations - A text match is not a proof of Binance wallet control. - Archived cap",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/GATE_2_TRON_NATIVE_TX_AUDIT_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "RESEARCH_REPORT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 656,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty",
+        "official"
+      ],
+      "content_excerpt": "# AXIOM — TRON Native Transaction Audit V1 ## Verified native transfers - `6f983ab745fbea298ec6376054fb16155f3142ec0d9f3fec4c053220cafc9644`: 10000 TRX; block 87543945; 2026-10-29T20:20:00+00:00 - `72f5fbedbc4d6f70113e139312eef09fb28a5fefd49d321bc1e28b6cea5bab9c`: 46384098 TRX; block 87543969; 2026-10-29T20:21:12+00:00 - Total receiver amount: 46394098 TRX - Source/receiver/amount/block/time: PASS against native API. - Transaction execution result: SUCCESS. ## Limitations - Binance ownership:",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/GATE_2_TX_CONTEXT_REVIEW_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 870,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty",
+        "official"
+      ],
+      "content_excerpt": "# AXIOM — Gate 2 External Transaction Context Review V1 ## Scope - Bitquery and GCSA external report context extraction. - No on-chain transaction verification performed. - Nearby addresses are NOT automatically victim wallets. - Hashes may refer to approvals, revocations, or other operations. - Report pages were refetched; content may differ from prior capture. ## Findings - Unique matching local hashes: 2 - Unique newly encountered hashes: 24 - Hash records missing on refetch: 0 - Confirmed",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/GATE_2_XRPL_FIVE_SOURCE_AUDIT_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 1033,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "official"
+      ],
+      "content_excerpt": "# AXIOM — XRPL Five-Source Native Audit V1 ## Verified observations - Five distinct sender accounts transferred XRP to the same receiving account. - Receiving account: `rK21t6nGLy4MNDqhvy3pGwcLFy25qgfzMx` - Total delivered: 233461943.1 XRP - Transaction hashes and ledger indexes recorded in CSV. - Validated ledger inclusion: PASS. - Execution result: tesSUCCESS for all five. - Delivered XRP amounts: PASS. - Five unique source accounts: PASS. - Duplicate transaction check: PASS. ## Attributio",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/GATE_3_T03_TO_700M_LINKAGE_AUDIT_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 3434,
+      "transaction_hash_mentions": 1,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty",
+        "official",
+        "blacklist"
+      ],
+      "content_excerpt": "# AXIOM — T03 to 700M USDT Linkage Audit V1 ## Objective Test whether the previously audited T03 asset movement and subsequent 700M USDT distribution share a verifiable on-chain address and chronological sequence. This is a scoped evidence reconciliation, not a complete transaction-level conservation proof. ## 1. Verified observations ### T03 — Source to central recipient - Transaction: `0x53bd38b816c23e74134786c29a8c18d792777998a3b9326047b583100e88e2f3` - Block: 26300770 - Source: `0x28c6",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/INCIDENT_FUND_ATTRIBUTION_CHECKPOINT_2026-11-05.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 5043,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "official",
+        "blacklist",
+        "cross_chain"
+      ],
+      "content_excerpt": "# AXIOM — Incident Fund Attribution Checkpoint Date: 2026-11-05 Branch: research/case-binance-2026 Status: RESEARCH / NOT FINAL ATTRIBUTION ## 1. Research question What amount of the 28,000,000 USDT bridged to Plasma can be defensibly attributed to the reported Binance incident? Distinguish: - Observed transactions and balances - Conditional source accounting - Incident attribution - Legal ownership and unauthorized conduct ## 2. Existing incident evidence Existing Gate-2 research document",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/INCIDENT_WIDE_RESEARCH_FRAMEWORK_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 3341,
+      "transaction_hash_mentions": 1,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty",
+        "official",
+        "blacklist",
+        "cross_chain"
+      ],
+      "content_excerpt": "# Incident-Wide Asset Tracing — Research Framework V1 ## Research Objective Reconstruct the observable asset movements associated with the reported October 2026 Binance incident. The investigation covers all identified assets, not only USDT. Research questions: 1. Which assets moved from the identified source? 2. What is the verified origin of those assets? 3. Where were the assets transferred? 4. Were assets swapped, bridged, supplied or borrowed? 5. Which assets were restricted or frozen,",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/INTERIM_TIMELINE_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 2890,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty",
+        "blacklist"
+      ],
+      "content_excerpt": "# Interim Forensic Timeline V1 ## Scope Ethereum USDT fund-flow research. Research branch only. No criminal attribution established. ## Chronological observations | Block | Event | Evidence | |---|---|---| | 26300770 onward | Candidate movements toward central address 0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c | Initial ledger; varying verification levels | | 26300799 | Central address sends 500,000,000 USDT to 0x9749292d74fd460982d0912ea9515ea24736c762 | Verified transaction and receipt | |",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/INTERIM_TIMELINE_V2.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 4428,
+      "transaction_hash_mentions": 1,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty",
+        "official",
+        "blacklist",
+        "cross_chain"
+      ],
+      "content_excerpt": "# Interim Forensic Timeline V2 ## Scope Ethereum USDT fund-flow research. Research branch only. No criminal attribution established. ## Chronological observations | Block | Event | Evidence | |---|---|---| | 26300770 onward | Candidate movements toward central address 0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c | Initial ledger; varying verification levels | | 26300799 | Central address sends 500,000,000 USDT to 0x9749292d74fd460982d0912ea9515ea24736c762 | Verified transaction and receipt | |",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/OFFICIAL_SOURCE_VERIFICATION_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 2053,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 2,
+      "risk_signals": [
+        "uncertainty",
+        "official",
+        "blacklist"
+      ],
+      "content_excerpt": "# AXIOM — Official Source Verification V1 Research gate: 1 — Official Incident Evidence Verification date: 2026-11-01 ## Primary sources 1. Binance Security Incident Update (2026-10-30) https://www.binance.com/en-GB/support/announcement/security-incident-update-2026-10-30-c5a8729a97ac486d963784d96c5642d7 2. Binance Security Incident Update #2 (2026-10-30) https://www.binance.com/en-GB/support/announcement/security-incident-update-2-2026-10-30-d3306d9dca5243548c813b605e1d1751 ## Report",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/USDT_FREEZE_BALANCE_AUDIT_V3.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 5516,
+      "transaction_hash_mentions": 6,
+      "url_mentions": 4,
+      "risk_signals": [
+        "uncertainty",
+        "official",
+        "blacklist"
+      ],
+      "content_excerpt": "# Binance Security Incident 2026 ## USDT Freeze Balance Audit — V3 Research date: 2026-10-30 Network: Ethereum Mainnet Status: ON-CHAIN AUDIT PASS / SOURCE ARTIFACTS PENDING This audit is based on user-executed Ethereum JSON-RPC queries and reported terminal outputs. No real-world identity attribution is attempted. ## 1. Scope Research question: What USDT balance existed immediately before the blacklist transaction, and can the balance change be reconciled with actual ERC-20 Transfer event",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/USDT_FREEZE_TIMELINE_CHECKPOINT_V4.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 5251,
+      "transaction_hash_mentions": 5,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty",
+        "official",
+        "blacklist"
+      ],
+      "content_excerpt": "# USDT Freeze Timeline & Coverage Audit — V4 Research date: 2026-10-30 Network: Ethereum Mainnet Branch: research/case-binance-2026 Status: INTERIM EVIDENCE CHECKPOINT ## Scope This checkpoint records user-executed JSON-RPC queries and reported on-chain verification results. It is not a complete incident-wide loss, recovery, or freeze-coverage estimate. Token: Ethereum USDT Contract: 0xdAC17F958D2ee523a2206206994597C13D831ec7 Blacklist discovery window: Blocks 26300770–26301050 ## 1. Bla",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/USDT_FUND_FLOW_AND_FREEZE_V2.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 4864,
+      "transaction_hash_mentions": 10,
+      "url_mentions": 6,
+      "risk_signals": [
+        "uncertainty",
+        "official",
+        "blacklist"
+      ],
+      "content_excerpt": "# Binance Security Incident 2026 ## USDT Fund Flow & Freeze Evidence — V2 Status: EVIDENCE CHECKPOINT Research date: 2026-10-30 Network: Ethereum Mainnet Token: USDT Contract: 0xdAC17F958D2ee523a2206206994597C13D831ec7 This research reconstructs public fund movements. It does not attribute criminal identity or ownership. ## 1. Initial USDT Movement Transaction: 0x53bd38b816c23e74134786c29a8c18d792777998a3b9326047b583100e88e2f3 Block: 26300770 Time: 2026-10-29 20:24:23 UTC From: 0x28C6c0629",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/analysis/master_timeline_v0/BINANCE14_INSTITUTIONAL_TIMELINE_V1.html",
+      "extension": ".html",
+      "sha256_verified": true,
+      "role_candidate": "PRESENTATION_OR_EMBEDDED_DATA",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 795114,
+      "transaction_hash_mentions": 2938,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty",
+        "official"
+      ],
+      "content_excerpt": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"> <meta name=\"color-scheme\" content=\"dark\"> <title>Binance 14 | On-Chain Fund Flow Timeline</title> <style> :root { --bg:#10151c; --panel:#1b232e; --panel2:#222c38; --line:#364250; --text:#eef2f6; --muted:#aab6c5; --gold:#d8b27d; } * {box-sizing:border-box} body { margin:0;background:var(--bg);color:var(--text); font:14px/1.6 -apple-system,BlinkMacSystemFont,",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/analysis/master_timeline_v0/BINANCE14_MASTER_FLOW_MAP_V1.html",
+      "extension": ".html",
+      "sha256_verified": true,
+      "role_candidate": "PRESENTATION_OR_EMBEDDED_DATA",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 798268,
+      "transaction_hash_mentions": 2114,
+      "url_mentions": 3,
+      "risk_signals": [
+        "uncertainty",
+        "official",
+        "blacklist"
+      ],
+      "content_excerpt": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"> <meta name=\"color-scheme\" content=\"dark\"> <title>Binance 14 | Master Flow Map</title> <style> :root{ --bg:#10151c;--panel:#1b232e;--panel2:#242e3a; --line:#364451;--text:#edf2f6;--muted:#aab8c8; --gold:#d8b27d;--blue:#91bce4;--green:#95d2b5; --amber:#e5bd80 } *{box-sizing:border-box} body{ background:var(--bg);color:var(--text);margin:0; font:14px/1.55 -apple-s",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/analysis/master_timeline_v0/BINANCE14_TIMELINE_V0.html",
+      "extension": ".html",
+      "sha256_verified": true,
+      "role_candidate": "PRESENTATION_OR_EMBEDDED_DATA",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 657596,
+      "transaction_hash_mentions": 2114,
+      "url_mentions": 0,
+      "risk_signals": [
+        "official"
+      ],
+      "content_excerpt": "<!doctype html> <html lang=\"ko\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"> <title>Binance 14 · Evidence Timeline</title> <style> body{font-family:system-ui,sans-serif;max-width:980px; margin:auto;padding:24px;background:#faf9f7;color:#222} h1{font-size:27px} p{line-height:1.6;color:#666} .controls{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0} input,select,button{padding:10px;border:1px solid #ccc; border-radius:9px;background:white} in",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/build_asset_inventory.py",
+      "extension": ".py",
+      "sha256_verified": true,
+      "role_candidate": "CODE_OR_CONFIG_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 5779,
+      "transaction_hash_mentions": 2,
+      "url_mentions": 3,
+      "risk_signals": [
+        "official"
+      ],
+      "content_excerpt": "import csv import hashlib import json import os import urllib.request from decimal import Decimal, getcontext from pathlib import Path getcontext().prec = 100 BASE = Path(\"research/case-binance-2026/evidence/initial_tx_v1\") RECEIPT = BASE / \"receipt.json\" OUT = BASE / \"token_inventory.csv\" TMP = BASE / \"token_inventory.csv.tmp\" TX = \"0x53bd38b816c23e74134786c29a8c18d792777998a3b9326047b583100e88e2f3\" SOURCE = \"0x28c6c06298d514db089934071355e5743bf21d60\" TARGET = \"0x5227f603c1ee34ce3c06efe6477",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/binance14_all_receivers_census_v1/README.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "UNRESOLVED_DOCUMENT_ROLE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 358,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "official"
+      ],
+      "content_excerpt": "# Binance 14 All Receivers Census V1 Ethereum Mainnet Source: Binance 14 Blocks: 26300753-26301896 Alchemy indexed transfers plus raw ERC20/ERC721 Transfer logs. This is a bounded census, not lifetime completeness. Internal trace completeness and nonstandard movements require separate validation. No attribution of ownership or criminal conduct is made.",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step66_receiver_identity_rpc_audit_v1/audit.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 925,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "official"
+      ],
+      "content_excerpt": "# STEP 66 — Receiver Identity & Transaction Audit ## Scope - Source: 0x28c6c06298d514db089934071355e5743bf21d60 - Chain: Ethereum Mainnet - Receivers: 23 - Archived positive movement events: 292 ## Verified - STEP 65 SHA256: PASS - ERC20 receipt reconciliation: PASS - Transaction/receipt block consistency: PASS - Transaction index checks: 285 - Block hash checks: 292 - UTC checks: 292 - External ETH transaction checks: 2 ## Not yet verified - Internal ETH trace completeness - Legal ownership",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step83_official_attribution_crosswalk_v1/CROSSWALK_AUDIT_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "RESEARCH_REPORT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 701,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "official"
+      ],
+      "content_excerpt": "# STEP 83C — FBI / Elliptic Attribution Crosswalk ## Scope - Research addresses: 124 - Binance14 direct receivers: 23 - FBI ETH addresses: 608 - Elliptic EVM addresses: 4665 ## Research universe - BOTH_DIRECT_LISTINGS: 1 - ELLIPTIC_DIRECT_ONLY: 5 - NO_DIRECT_LIST_MATCH: 118 ## Binance14 direct receivers - ELLIPTIC_DIRECT_ONLY: 2 - NO_DIRECT_LIST_MATCH: 21 ## Evidence boundaries FBI and Elliptic list membership is external attribution. Observed transactions are separately established by p",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step83_official_attribution_crosswalk_v1/source_snapshots/elliptic_source.txt",
+      "extension": ".txt",
+      "sha256_verified": true,
+      "role_candidate": "UNRESOLVED_DOCUMENT_ROLE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 830708,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [],
+      "content_excerpt": "2dFYjG2w6ZzrbtwoyVUpqk8KBQQbssyu75BqJCnuoEQz Bd2XJNzYupFuyH7nPfoN3Y52WEBjnk8Y23BuZbY1Gegu EQZ1x1NnMe975hdrarz8RknUpkwsLnMdou47pmG3nrQW HfcPyzbum3fUZfuK44ZBXDzNNsRWc2CQtbBN6urA6qYz 3UmkSg3bFQStFKJP8f3PaQZKQTvhQkKXxTpGhMvTVUth 494tXi4bvTqvgNDkaAq34FpuwAJE9es5LgHbCU4HkP5Y CvV4TB5XsRy3Vpe6zrBTRN6WeMhwUcqbph4byD3JWmv2 98nb7UbJhoqK7GMGQc83sPGFm8QNa8Z59LLLk9Qyqwht G7TLxLf63ysN2ND6NPFZaaZKX8WX5W836gJjDVMsqZSi 4DUVnLCxebm1ZR2S73brAVsYWNYn8yUAcvcr7UrfDbkZ rHFbpfJ2FALNopeoceheubcofLycWZG2KR rrsUpWgXawD8Cou",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step83_official_attribution_crosswalk_v1/source_snapshots/fbi_eth_addresses.txt",
+      "extension": ".txt",
+      "sha256_verified": true,
+      "role_candidate": "UNRESOLVED_DOCUMENT_ROLE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 26144,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [],
+      "content_excerpt": "0x8532fa14acaf483729c449b8458aeddb900543d4 0xc887af690e0301cd4edbbce8f8d31b4ec65b286a 0x897c80d1a9729e94460e2bd93178bd5215158df3 0x54401f80da97893a15d43566184635b6674bc942 0x79e70d139fc05aa75f75611fdf2680e9952b544a 0x03b0ee5d82990cff1bda48651ac3e436d1a020ea 0x294828705974ad04d86a24a2ff6efe762505a0ed 0xa0b35142e3409e73d23bc893a17d35e156baacb3 0x2c461674652d4d4586841887f6728f62c138fca6 0x69fad82c8e46f6f8d507f7329850cc8d0920b403 0x163cc162752d6ac13abd1c5b3b4208fc0d803d34 0xdd159280b72a9528cc8f0fbed",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step84_a97b_erc20_exception_audit_v1/ERC20_EXCEPTION_AUDIT_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "RESEARCH_REPORT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 244,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty"
+      ],
+      "content_excerpt": "# STEP 84 — A97B ERC-20 Exception Audit Scope: 53 events / 53 cached transactions. - TOKEN_OUTFLOW_CONFIRMED_PURPOSE_UNKNOWN: 53 Classification is conservative. Exchange-compatible does not prove a swap. Incident provenance remains unknown.",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/binance14_all_receivers_census_v1/step85_a97b_final_event_audit_v1/A97B_FINAL_EVENT_AUDIT_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 2814,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty",
+        "official",
+        "blacklist"
+      ],
+      "content_excerpt": "# STEP 85 — A97B Outgoing Event Audit V1 ## Research scope A97B: `0xa97bf7836f8a08f9ed91d41453d371493fae8d10` This report reconciles the previously indexed outgoing movement events from A97B. It does not claim a complete historical reconstruction of all funds controlled by the address. ## Event reconciliation | Event structure | Count | |---|---:| | DEX/WETH-compatible pattern | 1,126 | | Direct native ETH transaction | 4 | | Other DEX router pattern | 3 | | ERC-20 exceptions | 53 | | **Tot",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/eg05_kite_historical_pause_v1/audit.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 1069,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty"
+      ],
+      "content_excerpt": "# EG-05 — KITE Historical Pause Audit ## OBSERVED - Failed token: `0x904567252d8f48555b7447c67dca23f0372e16be` - Historical `paused()` at block 26300769: TRUE - Standard pause/unpause events in block 26300770: 0 - Such events before T03 index 189: 0 - Earlier archived T03 evidence: 27th transfer reverted; revert output `0xd93c0665`, parent receipt success. - Existing static bytecode audit: failed transfers can be logged and batch execution can continue. ## INTERPRETATION The historical p",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/eg05_kite_pause_origin_v1/audit.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "RESEARCH_REPORT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 173,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [],
+      "content_excerpt": "# EG05 KITE Pause-Origin Evidence The master AXIOM Section 21 contains the scoped findings and limits. Original JSON-RPC responses and request metadata are preserved here.",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06f_withdrawal_revert_diagnostics_v1/anvil.log",
+      "extension": ".log",
+      "sha256_verified": true,
+      "role_candidate": "UNRESOLVED_DOCUMENT_ROLE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 0,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [],
+      "content_excerpt": "",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/exploiter16_token_provenance_v1/STEP07B_12_AUDIT_CHECKPOINT.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 2154,
+      "transaction_hash_mentions": 3,
+      "url_mentions": 0,
+      "risk_signals": [
+        "official",
+        "cross_chain"
+      ],
+      "content_excerpt": "# Exploiter 16 — Token Provenance & Conservation Audit Date: 2026-11-14 Branch: research/case-binance-2026 Status: RESEARCH CHECKPOINT / NOT PUBLICATION APPROVED Network: Ethereum Mainnet ## STEP 7B — Central token mixing Token: 0x8292bb45bf1ee4d140127049757c2e0ff06317ed Central address: 0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c - Binance14 inflow: 62,597,239.679797044969015518 - Pre-existing holder inflow: 25,943,825.8 - Central outbound: 88,541,065 - Residual: 0.479797044969015518 - Bala",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/exploiter16_token_provenance_v1/step16_receipt_evidence_v1/SHA256SUMS",
+      "extension": "(none)",
+      "sha256_verified": true,
+      "role_candidate": "INTEGRITY_OR_METADATA_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 340,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [],
+      "content_excerpt": "07a5a8f21ca3331b957268bf860f0eab69b9eb58e4fd142aaf66d845ee13f988 central_to_e16_aave.json cf828d6a572fc00c2a9ee6e0c02b511e66a1f0f7a16fa07355016081f5eb3133 e16_tracked_token.json 7312aa074ec35513d85ec4f956419c79d590ce4c6f376dccc00626a5eb7dada7 e16_aave.json 3d92ec5b9905e283056d5ea0a76c9e818591d51fa8699bf51713f79e0d6f97cb manifest.json",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/exploiter16_token_provenance_v1/step18g_four_route_evidence_v1/SHA256SUMS",
+      "extension": "(none)",
+      "sha256_verified": true,
+      "role_candidate": "INTEGRITY_OR_METADATA_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 408,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [],
+      "content_excerpt": "4805f214eeac26b8a27be7040c4d8ed3d6d037d2391672500dbaf3f1eb4b686e token_main.json 378668ee1527ed87839e1f93e5e8030dc98b75482ea3c1930906bd7a29aa22ca token_other.json 009dcb5d59e9f66e97e3eb2a86e9be1fad9043a2b07ca0dfd8ce7f922fd5eeb6 aave_main.json 7637f8629570589dce3c0216d5843458ea49e51e38153b6988c7e01bff6d106a aave_other.json a79762a6b1baef9ee7fb026e9d3580a4d0be96e2d8db375b3038453b7e0db1c3 manifest.json",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/exploiter16_token_provenance_v1/step19f_middle_hop_receipts_v1/SHA256SUMS",
+      "extension": "(none)",
+      "sha256_verified": true,
+      "role_candidate": "INTEGRITY_OR_METADATA_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 343,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [],
+      "content_excerpt": "6c945c419a88dcb93e52a62bb18e23bfbb6a9bb6f67f90790ed63662db7f3c09 01_central_to_hop1.json 42c7e357271f822aa91468db71a33844cf01f89323ebeb9f11db8e673ae38f44 02_hop1_to_hop2.json 5502dc65b2b2fc1ab8e8ff9283c007c2206bda5fdc7593ab4cb55f3e2208109c 03_hop2_to_e16.json 4474ef5ab2b06480ee51199a595e2f2e41bea4252eb7a618aca4aca84e83c1f0 manifest.json",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/official_announcements/BINANCE_OFFICIAL_UPDATE_1_BROWSER_CAPTURE.txt",
+      "extension": ".txt",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 1718,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "official",
+        "blacklist"
+      ],
+      "content_excerpt": "Security Incident Update (2026-10-30) 2026-10-30 11:23 This is a general announcement. Products and services referred to here may not be available in your region. Fellow Binancians, Binance's initial investigation suggests that the security incident may involve a compromised DevOps engineer’s laptop, which allowed an attacker to gain access to a service container and submit unauthorized withdrawal transactions. We have found no evidence of any wallet private key leak. We will share a detailed",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/official_announcements/BINANCE_OFFICIAL_UPDATE_2_BROWSER_CAPTURE.txt",
+      "extension": ".txt",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 4905,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "official",
+        "blacklist"
+      ],
+      "content_excerpt": "Security Incident Update #2 (2026-10-30) 2026-10-31 04:33 Fellow Binancians, Over the past 24 hours, our teams have been working around the clock to respond to a serious security incident involving unauthorized withdrawals of funds. At around 2026-10-29 20:05 (UTC), our hot wallets were compromised, resulting in a loss of approximately $6.3B USD worth of token assets. We recognize the seriousness of this incident and the concern it has caused across our community. We are treating this as our",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/official_announcements/EVIDENCE_MANIFEST_V1.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "INTEGRITY_OR_METADATA_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 938,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 2,
+      "risk_signals": [
+        "official"
+      ],
+      "content_excerpt": "# AXIOM — Official Announcement Evidence Manifest V1 Capture method: User-copied browser announcement text Evidence limitation: Manual text capture, not authenticated server response Financial figures: Binance-reported, not independently reconciled ## Source 1 - Publisher: Binance - URL: https://www.binance.com/en-GB/support/announcement/security-incident-update-2026-10-30-c5a8729a97ac486d963784d96c5642d7 - Local file: `BINANCE_OFFICIAL_UPDATE_1_BROWSER_CAPTURE.txt` - SHA256: `7ef5763bc18712a8",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/step72_external_attribution_v1/BITQUERY.html",
+      "extension": ".html",
+      "sha256_verified": true,
+      "role_candidate": "PRESENTATION_OR_EMBEDDED_DATA",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 429406,
+      "transaction_hash_mentions": 56,
+      "url_mentions": 291,
+      "risk_signals": [
+        "official",
+        "blacklist",
+        "cross_chain"
+      ],
+      "content_excerpt": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width\" data-next-head=\"\"/><link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/favicon/apple-touch-icon.png\" data-next-head=\"\"/><link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"/favicon/favicon-192x192.png\" data-next-head=\"\"/><link rel=\"icon\" type=\"image/png\" sizes=\"96x96\" href=\"/favicon/favicon-96x96.png\" data-next-head=\"\"/><link rel=\"icon\" type=\"image/png\" sizes=\"48x4",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/step72_external_attribution_v1/IMD.html",
+      "extension": ".html",
+      "sha256_verified": true,
+      "role_candidate": "PRESENTATION_OR_EMBEDDED_DATA",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 141396,
+      "transaction_hash_mentions": 2,
+      "url_mentions": 17,
+      "risk_signals": [
+        "local_fork",
+        "uncertainty",
+        "official",
+        "blacklist",
+        "cross_chain"
+      ],
+      "content_excerpt": "<!DOCTYPE html><html lang=\"en\" data-theme=\"dark\" class=\"v8ILfq_variable\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"stylesheet\" href=\"/_next/static/chunks/3_xcaqzeoe7zx.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"/_next/static/chunks/1alyo9yvvgy5v.css\" data-precedence=\"next\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/22w8ibrx8_qx8.js\"/><script src=\"/_next/static/chunks/2np-0cfb28z",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/step73_preincident_graphsense_v1/historical_source.yaml",
+      "extension": ".yaml",
+      "sha256_verified": true,
+      "role_candidate": "CODE_OR_CONFIG_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 9636,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 1,
+      "risk_signals": [
+        "official"
+      ],
+      "content_excerpt": "title: Binance reserve wallets creator: GraphSense Core Team confidence: service_data category: exchange source: https://www.binance.com/en/blog/community/our-commitment-to-transparency-2895840147147652626 lastmod: 2022-11-16 is_cluster_definer: true actor: binance tags: - address: '34xp4vRoCGJym3xR7yCVPFHoCNxv4Twseo' currency: BTC label: binance reserve wallets BTC - address: '3LYJfcfHPXYJreMsASk2jkn69LWEYKzexb' currency: BTC label: binance reserve wallets BTC - address: '3M219KR5vEneNb",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/step75a_official_report_crosswalk_v1/STEP75A_REPORT.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "RESEARCH_REPORT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 720,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [],
+      "content_excerpt": "# STEP 75A — Official Report Crosswalk ## XRP - Transactions: 5 - Total: 233461943.1 XRP - Official rounded amount: 233.46M XRP - Time: 2026-10-29T20:05:00+00:00 — 2026-10-29T20:09:20+00:00 - Amount match: PASS - Time match: PASS - Matrix address match: PASS ## USDT - 55.74M source: individual official confirmation NOT DISCLOSED - 195M mixed wallet: individual official confirmation NOT DISCLOSED - Incident attribution: UNRESOLVED ## Evidence boundary Official aggregate corroboration does not",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/evidence/step75a_official_report_crosswalk_v1/official_report_excerpt.txt",
+      "extension": ".txt",
+      "sha256_verified": true,
+      "role_candidate": "RESEARCH_REPORT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 1085,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 1,
+      "risk_signals": [
+        "official"
+      ],
+      "content_excerpt": "SOURCE: Binance Official Blog TITLE: 29 October 2026 Binance Security Incident: Initial Findings and Response Update PUBLICATION DATE: 2026-11-03 URL: https://www.binance.com/en/blog/community/3229153443759566763 VERIFIED OFFICIAL STATEMENTS: 1. Between 20:05 UTC and 20:09 UTC, five Binance hot wallets sent 233.46 million XRP to an attacker-controlled address. 2. Binance hot wallets on Solana and Optimism sent approximately 970,500 SOL and 44.2 million OP. 3. A Binance hot wa",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/figures/figure_01_execution_sequence.png",
+      "extension": ".png",
+      "sha256_verified": true,
+      "role_candidate": "IMAGE_OR_FIGURE",
+      "content_status": "IMAGE_VISUAL_REVIEW_REQUIRED",
+      "character_count": 0,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [],
+      "content_excerpt": "",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/figures/figure_02_authorization_nonce.png",
+      "extension": ".png",
+      "sha256_verified": true,
+      "role_candidate": "IMAGE_OR_FIGURE",
+      "content_status": "IMAGE_VISUAL_REVIEW_REQUIRED",
+      "character_count": 0,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [],
+      "content_excerpt": "",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/figures/figure_03_delegated_transfer.png",
+      "extension": ".png",
+      "sha256_verified": true,
+      "role_candidate": "IMAGE_OR_FIGURE",
+      "content_status": "IMAGE_VISUAL_REVIEW_REQUIRED",
+      "character_count": 0,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [],
+      "content_excerpt": "",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/figures/figure_04_failure_tolerance.png",
+      "extension": ".png",
+      "sha256_verified": true,
+      "role_candidate": "IMAGE_OR_FIGURE",
+      "content_status": "IMAGE_VISUAL_REVIEW_REQUIRED",
+      "character_count": 0,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [],
+      "content_excerpt": "",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/figures/figure_05_usdt_reconciliation.png",
+      "extension": ".png",
+      "sha256_verified": true,
+      "role_candidate": "IMAGE_OR_FIGURE",
+      "content_status": "IMAGE_VISUAL_REVIEW_REQUIRED",
+      "character_count": 0,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [],
+      "content_excerpt": "",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/investigation_workspace_v1/research_app.py",
+      "extension": ".py",
+      "sha256_verified": true,
+      "role_candidate": "CODE_OR_CONFIG_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 35424,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 2,
+      "risk_signals": [
+        "uncertainty",
+        "official"
+      ],
+      "content_excerpt": "import json, re, hashlib, threading from pathlib import Path from datetime import datetime, timezone from decimal import Decimal, InvalidOperation from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler from urllib.parse import urlsplit, parse_qs import importlib.util ROOT = Path(__file__).resolve().parent ORIGINAL_MAP = ( ROOT.parent / \"analysis\" / \"master_timeline_v0\" / \"BINANCE14_MASTER_FLOW_MAP_V1.html\" ) BASE = ROOT / \"BASE_EVENTS_V1.json\" DRAFT = ROOT / \"DRAFT",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/investigation_workspace_v1/test_workspace.py",
+      "extension": ".py",
+      "sha256_verified": true,
+      "role_candidate": "CODE_OR_CONFIG_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 5589,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 1,
+      "risk_signals": [
+        "uncertainty"
+      ],
+      "content_excerpt": "import hashlib import importlib.util import json import re import tempfile import threading import urllib.error import urllib.request from http.server import ThreadingHTTPServer from pathlib import Path ROOT = Path(__file__).resolve().parent APP = ROOT / \"research_app.py\" spec = importlib.util.spec_from_file_location(\"research_under_test\", APP) app = importlib.util.module_from_spec(spec) spec.loader.exec_module(app) protected = [app.BASE, app.DRAFT, app.REVIEWS] before = { str(p): hashlib",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/investigation_workspace_v1/tx_lookup.py",
+      "extension": ".py",
+      "sha256_verified": true,
+      "role_candidate": "CODE_OR_CONFIG_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 6641,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty"
+      ],
+      "content_excerpt": "import json import os import re import urllib.request from datetime import datetime, timezone from decimal import Decimal TX_RE = re.compile(r\"^0x[0-9a-fA-F]{64}$\") TRANSFER_TOPIC = ( \"0xddf252ad1be2c89b69c2b068fc378daa\" \"952ba7f163c4a11628f55a4df523b3ef\" ) def rpc(method, params): url = os.environ.get(\"ALCHEMY_RPC_URL\", \"\") if not url.startswith(\"https://\"): raise ValueError(\"HTTPS Ethereum RPC is required\") payload = json.dumps({ \"jsonrpc\": \"2.0\",",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/investigation_workspace_v1/weth_eth_context.py",
+      "extension": ".py",
+      "sha256_verified": true,
+      "role_candidate": "CODE_OR_CONFIG_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 4008,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [
+        "uncertainty"
+      ],
+      "content_excerpt": "import csv from decimal import Decimal from pathlib import Path WETH = \"0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2\" WITHDRAWAL_TOPIC = ( \"0x7fcf532c15f0a6db0bd6d0e038bea71d\" \"30d808c7d98cb3bf7268a95bf5081b65\" ) EVIDENCE = ( Path(__file__).resolve().parent.parent / \"A97B\" / \"evidence\" / \"bitquery_independent_crosscheck_v1\" / \"A97B_BITQUERY_CROSSCHECK_V1.csv\" ) def build(receipt, tx_hash): \"\"\" Separate WETH unwrapping from ETH delivery. WETH withdrawal",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/publication_staging/a97b-visual-report/README.md",
+      "extension": ".md",
+      "sha256_verified": true,
+      "role_candidate": "EVIDENCE_RELATED_DOCUMENT_CANDIDATE",
+      "content_status": "TEXT_CONTENT_SCANNED",
+      "character_count": 13436,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 8,
+      "risk_signals": [
+        "uncertainty",
+        "official",
+        "blacklist",
+        "cross_chain"
+      ],
+      "content_excerpt": "# 2026 Binance Security Breach: An Independent On-Chain Reconstruction of 1,015 DEX/WETH Transactions *Transaction-Level Analysis of ETH Returns, Direct Outflows, and Fund Provenance Limitations* ## 1. Initial Fund Movements from a Compromised Exchange Wallet ![Overview of observed ETH movements through A97B](figures/01-a97b-eth-flow-overview.png) *Figure 1. Observed ETH transfers and settlement activity associated with A97B. Gross ETH returns and direct outflows are separate transaction cat",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/publication_staging/a97b-visual-report/figures/01-a97b-eth-flow-overview.png",
+      "extension": ".png",
+      "sha256_verified": true,
+      "role_candidate": "IMAGE_OR_FIGURE",
+      "content_status": "IMAGE_VISUAL_REVIEW_REQUIRED",
+      "character_count": 0,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [],
+      "content_excerpt": "",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/publication_staging/a97b-visual-report/figures/02-a97b-dex-weth-settlement.png",
+      "extension": ".png",
+      "sha256_verified": true,
+      "role_candidate": "IMAGE_OR_FIGURE",
+      "content_status": "IMAGE_VISUAL_REVIEW_REQUIRED",
+      "character_count": 0,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [],
+      "content_excerpt": "",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    },
+    {
+      "path": "research/case-binance-2026/publication_staging/a97b-visual-report/figures/03-historical-crypto-theft-comparison.png",
+      "extension": ".png",
+      "sha256_verified": true,
+      "role_candidate": "IMAGE_OR_FIGURE",
+      "content_status": "IMAGE_VISUAL_REVIEW_REQUIRED",
+      "character_count": 0,
+      "transaction_hash_mentions": 0,
+      "url_mentions": 0,
+      "risk_signals": [],
+      "content_excerpt": "",
+      "requires_manual_review": true,
+      "use_as_verified_map_event": false
+    }
+  ]
+}

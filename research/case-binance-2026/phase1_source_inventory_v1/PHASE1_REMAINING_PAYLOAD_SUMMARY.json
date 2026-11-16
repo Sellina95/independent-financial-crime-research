@@ -1,0 +1,21 @@
+{
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "target_files": 779,
+  "status_counts": {
+    "SCANNED": 779
+  },
+  "category_counts": {
+    "OTHER_SCHEMA_REVIEW": 413,
+    "INTEGRITY_REVIEW": 58,
+    "NORMALIZED_EVENT_REVIEW": 7,
+    "DERIVED_EVENT_REVIEW": 13,
+    "RECEIPT_CONTAINING": 185,
+    "EVENT_LOG_CONTAINING": 34,
+    "TRANSACTION_CONTAINING": 28,
+    "RPC_CAPTURE_REVIEW": 37,
+    "SIMULATION_REVIEW": 4
+  },
+  "raw_provenance_verified": false,
+  "extraction_semantics_verified": false,
+  "phase1_complete": false
+}

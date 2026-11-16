@@ -1,0 +1,43 @@
+{
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "pdf_files": 3,
+  "extraction_results": [
+    {
+      "path": "research/case-binance-2026/A97B/evidence/binance_official.pdf",
+      "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+      "source_sha256": "b882f0b94c6706cc42efe2522153cbecab159e3dfe8199436505cb054b86bb51",
+      "status": "TEXT_EXTRACTED",
+      "pages": 4,
+      "pages_with_text": 4,
+      "characters": 13869,
+      "error": null,
+      "semantic_review_complete": false
+    },
+    {
+      "path": "research/case-binance-2026/A97B/evidence/chainward_analysis.pdf",
+      "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+      "source_sha256": "6b6bc45ceef3454e0f0a0e9a36bc5cbc896db34d98f13e8e7ea3c8be045e98c7",
+      "status": "TEXT_EXTRACTED",
+      "pages": 24,
+      "pages_with_text": 24,
+      "characters": 48367,
+      "error": null,
+      "semantic_review_complete": false
+    },
+    {
+      "path": "research/case-binance-2026/A97B/evidence/fbi_alert.pdf",
+      "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+      "source_sha256": "76fa7e8963269fd0cccc6755d9cba49eba78b92e7f028ae8beb98bfc3cb34037",
+      "status": "TEXT_EXTRACTED",
+      "pages": 1,
+      "pages_with_text": 1,
+      "characters": 4111,
+      "error": null,
+      "semantic_review_complete": false
+    }
+  ],
+  "text_extracted_files": 3,
+  "needs_visual_or_manual_review": [],
+  "semantic_review_complete": false,
+  "phase1_complete": false
+}

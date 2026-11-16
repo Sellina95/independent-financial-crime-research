@@ -330,8 +330,8 @@ its audit evidence and results.
 - [x] Recount all tracked source files
 - [x] Classify JSON / CSV / JSONL
 - [x] Review documents and HTML
-- [ ] Identify raw versus derived evidence
-- [ ] Identify all extraction schemas
+- [x] Identify raw versus derived evidence
+- [x] Identify all extraction schemas
 - [x] Account for unsupported source formats
 - [x] Record disposition of every file
 - [x] Validate inventory coverage
@@ -339,6 +339,8 @@ its audit evidence and results.
 Acceptance:
 All source files accounted for.
 
+
+**PHASE 1 completion scope:** All 3,105 frozen source files have been catalogued; 3,003 structured files have observed schema IDs (426 structural families). Raw/derived roles are candidate or hold classifications, not independent provenance certifications. 243 structured files remain on HOLD for Phase 2. No transfer extraction rules or map events are approved by Phase 1 alone.
 ## PHASE 2 — EXTRACTION
 
 - [ ] Extract transaction metadata

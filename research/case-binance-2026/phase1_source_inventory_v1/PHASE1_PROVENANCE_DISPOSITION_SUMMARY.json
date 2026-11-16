@@ -1,0 +1,37 @@
+{
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "total_files": 3105,
+  "registered_files": 3105,
+  "coverage_complete": true,
+  "classification_counts": {
+    "DOCUMENT_OR_MEDIA": 102,
+    "RAW_PROVIDER_CANDIDATE": 29,
+    "AUDIT_METADATA_CANDIDATE": 412,
+    "DERIVED_CANDIDATE": 58,
+    "UNRESOLVED_SOURCE_ROLE": 133,
+    "STRUCTURED_EVENT_CANDIDATE": 2333,
+    "NORMALIZED_TRANSFER_CONTAINING": 5,
+    "RAW_ERC20_LOG_CONTAINING": 31,
+    "OTHER_EVENT_LOG_CONTAINING": 1,
+    "LOCAL_FORK_FLAGGED": 1
+  },
+  "handling_counts": {
+    "DO_NOT_EXTRACT_AS_TRANSFER_AUTOMATICALLY": 86,
+    "VERIFY_PROVIDER_RESPONSE": 29,
+    "PRESERVE_FOR_AUDIT": 412,
+    "REQUIRE_UPSTREAM_LINEAGE": 58,
+    "HOLD_FOR_SOURCE_REVIEW": 133,
+    "REQUIRE_EVENT_SCHEMA_AND_DEDUP": 2333,
+    "REFERENCE_ONLY_UNTIL_VERIFIED": 11,
+    "HOLD_UNTIL_FORMAT_CONFIRMED": 5,
+    "TRACE_TO_ORIGINAL_LOG_OR_TRACE": 5,
+    "VALIDATE_LOG_IDENTITY_AND_PROVIDER": 31,
+    "DECODE_EVENT_TYPE_BEFORE_USE": 1,
+    "EXCLUDE_SIMULATED_EVENTS": 1
+  },
+  "original_source_verified": false,
+  "upstream_lineage_verified": false,
+  "final_dispositions_verified": false,
+  "phase1_complete": false,
+  "warning": "This register provides provisional dispositions. No file is certified as independent original evidence."
+}

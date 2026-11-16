@@ -1,0 +1,37 @@
+{
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "total_files": 3105,
+  "role_candidate_counts": {
+    "DOCUMENT_OR_PRESENTATION": 78,
+    "RAW_SOURCE_CANDIDATE": 33,
+    "AUDIT_OR_DERIVED_CANDIDATE": 176,
+    "UNKNOWN_DATA_ROLE": 179,
+    "TRANSFER_SHAPED_CANDIDATE": 1254,
+    "MANIFEST_OR_INTEGRITY": 85,
+    "DOCUMENT_OR_MEDIA": 11,
+    "CODE_OR_CONFIGURATION": 8,
+    "TRANSACTION_ENVELOPE_CANDIDATE": 1281
+  },
+  "extension_counts": {
+    ".md": 66,
+    ".csv": 102,
+    ".json": 2896,
+    ".txt": 6,
+    ".pdf": 3,
+    ".mjs": 1,
+    ".py": 6,
+    "(none)": 5,
+    ".html": 5,
+    ".jsonl": 5,
+    ".log": 1,
+    ".yaml": 1,
+    ".png": 8
+  },
+  "top_level_schema_groups": 355,
+  "schema_sampling_limited_files": 156,
+  "unresolved_role_candidates": 2923,
+  "inspection_errors": [],
+  "provenance_verified": false,
+  "nested_schema_exhaustiveness_verified": false,
+  "phase1_complete": false
+}

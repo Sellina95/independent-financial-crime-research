@@ -1,0 +1,17 @@
+{
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "target_files": 358,
+  "status_counts": {
+    "SCANNED": 358
+  },
+  "review_family_counts": {
+    "TRANSACTION_REFERENCE_REVIEW": 38,
+    "AUDIT_SUMMARY_REVIEW": 35,
+    "OTHER_STRUCTURE_REVIEW": 243,
+    "BALANCE_SNAPSHOT_REVIEW": 30,
+    "FLOW_COLLECTION_REVIEW": 12
+  },
+  "roles_verified": false,
+  "all_files_accounted_for": true,
+  "phase1_complete": false
+}

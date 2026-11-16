@@ -1,0 +1,17 @@
+{
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "target_files": 2224,
+  "receipt_files": 1112,
+  "transaction_files": 1112,
+  "status_counts": {
+    "HASH_MATCH": 2224
+  },
+  "distinct_matched_tx_hashes": 1068,
+  "tx_hashes_with_both_record_types": 1068,
+  "receipt_only_tx_hashes": 0,
+  "transaction_only_tx_hashes": 0,
+  "exceptions": [],
+  "provider_independently_verified": false,
+  "onchain_event_identity_verified": false,
+  "phase1_complete": false
+}

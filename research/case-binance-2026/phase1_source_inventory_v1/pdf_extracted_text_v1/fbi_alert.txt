@@ -1,0 +1,74 @@
+===== PAGE 1 =====
+FBI Cyber
+October 31, 2026
+North Korea Responsible for $6 Billion+ Binance Attack
+The Federal Bureau of Investigation (FBI) is releasing information advising the Democratic People's Republic of Korea (North Korea) was responsible for the theft of more
+than $6 billion USD in virtual assets from cryptocurrency exchange Binance, on or about October 29, 2026. The FBI refers to this specific North Korean malicious cyber
+activity as "TraderTraitor."
+The FBI, together with partners at the USSS and IRS-CI, has observed TraderTraitor actors converting stolen assets primarily into Ether (ETH). It is expected these assets
+will then be further laundered by converting them using DeFi and instant swap services as they prepare them for further laundering stages.
+How you can help
+FBI, USSS, and IRS-CI are urging private sector entities including THORNode operators, RPC node operators, instant exchanges, DeFi services, blockchain analytics firms,
+and other virtual asset service providers to block transactions with or derived from addresses TraderTraitor actors are using to launder these stolen assets. See the full
+list of addresses below.
+Reporting
+The FBI maintains its commitment to protecting the virtual asset community by identifying, mitigating, and disrupting North Korea's illicit cybercrime and virtual asset
+theft activities. If you have any information to provide, please contact your local FBI field office or FBI's Internet Crime Complaint Center at ic3.gov.
+Addresses
+The following addresses are holding or have held assets from the theft, and are operated by or closely connected to North Korean TraderTraitor actors:
+ETH addresses
+0x8532FA14ACAf483729C449b8458aedDb900543D4
+0xc887aF690E0301CD4edBbCe8F8d31b4EC65B286A
+0x897C80d1a9729E94460e2Bd93178bD5215158DF3
+0x54401f80Da97893a15D43566184635B6674BC942
+0x79e70d139fC05AA75F75611fDF2680E9952B544A
+0x03b0eE5d82990cFF1bDa48651AC3e436d1a020ea
+0x294828705974AD04d86A24a2ff6eFe762505A0Ed
+0xa0b35142e3409e73d23bc893a17D35e156baAcb3
+0x2c461674652D4d4586841887F6728F62c138fCa6
+0x69FaD82C8E46F6f8d507F7329850CC8D0920b403
+0x163Cc162752D6Ac13AbD1c5b3b4208Fc0d803D34
+0xdd159280b72a9528cC8f0fBEDA46F4A8263c12D4
+0x3fC5bfb57f2Ba93e12D1E3e7912C5b993778c63A
+0x71733436D682EEc74e5C6262b0d9f38B7cE98D94
+0x4c1bEF3367535cfdF05f73E23ED6ee3907103e48
+0x16b97b312dfd3c79CF78e05500fb9a4730c8FF4a
+0x5915F563399b5d2C3A42A08F77E290Ae8121B260
+0xE5CeC77934a9aa7a5C63692965A1f07AB933AD29
+0xe150dE4B8d71Cc24ef44d41b16225484b7e9ccb9
+0xfF5B2747b86cC1387A08600Da46E6560a87c08aE
+0xB9e6A5a288834cc074Ef0C42F025716ABD4226A9
+0xB0b31243D162CCF18cf7e65C1f4248cb7708d656
+0x063903119542B292ecE815b5F5d588BD1176BE45
+0x6CD6D92FeCe6225E906C9E357364f3636006EF07
+0x675B696681E04601D29cEdff502E65B869f357a9
+0x3cf49441188c19ab0D17Ec31B612f4a8eF3B08B0
+0x3912c37412baae4c7aBE2E969298B9C55a6C912F
+0xB3eB1e1E04d5B8549D444E55F518B54299eAAd15
+0x259024630bCC922F2a771F25dc7E6842879CFe1d
+0xEa700e5105A6cd668421d393494EEE2Eda2Be4A3
+0x9E15934815Ba7E2288e32CDeA3c42dFeF1b6c898
+0x521018399D34e41132c2032271D8788b02E14f9C
+0xC1868341976A62093192f5283bCB6B4102B7b392
+0xD092ed2cedeEE2117e6b977D932c1e042fdBEb79
+0xE4f7688Fa18DB82aa6D4aBCF795DE9AC5DA9508D
+0xFF92a0478cAF5655D93618122D0fAB0e4B7d8aa2
+0x3a2dE2C46BD7771006F3138D23a752410142e552
+0xe7D8Da5334faCa0D3468aca2B4d7FE3d7371033f
+0xfe8dA5819d329a834c361Eb847b028BeE0B6b8A5
+0xf44a3375Dea567F5bb7F6d9FC9bB34d39E0BbA29
+0x7ef3Fd63e2630C7fA5086Dc863638416F425F3dE
+0x0BB8DA1c2090C66Da5ec3f79973D0545b136184F
+0xb624762Aa3c65b987216b7Bf72881a48EBc5C6cC
+0x3962Bf4cA89A0B6779B43149Dc510CFdd6A9e4De
+0x3C9652AB567f62BD8bB15fd222Da2bca2ADAABE5
+0xf596803890089638aD74798C1d8145B10A4C87ca
+0x0BE45195b8ccD679723B50851516A1B0cA13e1Fb
+0xF25ed2d0D815a733aFC28818e197BC7AF3dbDAE0
+0xeEC501aE60e841d1aA130342ed9F9B93180B89F5
+0xEd3f29dCBd8884e1c681dDfa5180C7F1D62a7797
+An official website of the United States government. Here's how you know
+ MENU
+ 
+26. 11. 8. 오후  10:02 North Korea Responsible for $6 Billion+ Binance Attack — FBI
+https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack?utm_source=chatgpt.com 1/1
