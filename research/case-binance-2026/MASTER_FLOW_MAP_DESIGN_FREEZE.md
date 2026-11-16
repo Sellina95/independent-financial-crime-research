@@ -326,15 +326,15 @@ its audit evidence and results.
 
 ## PHASE 1 — SOURCE INVENTORY
 
-- [ ] Confirm pinned source commit
-- [ ] Recount all tracked source files
-- [ ] Classify JSON / CSV / JSONL
+- [x] Confirm pinned source commit
+- [x] Recount all tracked source files
+- [x] Classify JSON / CSV / JSONL
 - [ ] Review documents and HTML
 - [ ] Identify raw versus derived evidence
 - [ ] Identify all extraction schemas
 - [ ] Account for unsupported source formats
 - [ ] Record disposition of every file
-- [ ] Validate inventory coverage
+- [x] Validate inventory coverage
 
 Acceptance:
 All source files accounted for.
