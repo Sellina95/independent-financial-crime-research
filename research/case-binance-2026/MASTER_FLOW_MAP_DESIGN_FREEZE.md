@@ -329,7 +329,7 @@ its audit evidence and results.
 - [x] Confirm pinned source commit
 - [x] Recount all tracked source files
 - [x] Classify JSON / CSV / JSONL
-- [ ] Review documents and HTML
+- [x] Review documents and HTML
 - [ ] Identify raw versus derived evidence
 - [ ] Identify all extraction schemas
 - [x] Account for unsupported source formats
