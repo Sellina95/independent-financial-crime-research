@@ -333,7 +333,7 @@ its audit evidence and results.
 - [ ] Identify raw versus derived evidence
 - [ ] Identify all extraction schemas
 - [x] Account for unsupported source formats
-- [ ] Record disposition of every file
+- [x] Record disposition of every file
 - [x] Validate inventory coverage
 
 Acceptance:
