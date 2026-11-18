@@ -1,0 +1,18 @@
+{
+  "step": "2.1G",
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "target_files": 88,
+  "target_distinct_hashes": 1349,
+  "semantic_observations": 4960,
+  "semantic_decision_counts": {
+    "HOLD_UNRESOLVED": 1184,
+    "NON_TX_FIELD_EVIDENCE": 165
+  },
+  "source_coverage_counts": {
+    "TEXT_CONTEXT_RETAINED": 8,
+    "SEMANTICS_SCANNED": 80
+  },
+  "exceptions": 0,
+  "independent_chain_verification": false,
+  "transfer_event_approved": false
+}

@@ -343,7 +343,7 @@ All source files accounted for.
 **PHASE 1 completion scope:** All 3,105 frozen source files have been catalogued; 3,003 structured files have observed schema IDs (426 structural families). Raw/derived roles are candidate or hold classifications, not independent provenance certifications. 243 structured files remain on HOLD for Phase 2. No transfer extraction rules or map events are approved by Phase 1 alone.
 ## PHASE 2 — EXTRACTION
 
-- [ ] Extract transaction metadata
+- [x] Extract transaction metadata
 - [ ] Extract ERC-20 logs
 - [ ] Extract native ETH movements
 - [ ] Extract internal ETH traces
@@ -359,6 +359,9 @@ All source files accounted for.
 
 Acceptance:
 Relevant source observations accounted for.
+
+
+**STEP 2.1 completion scope:** Initial transaction metadata extraction produced 51,105 structured observations and 2,206 distinct hash reference candidates. These are not canonical transactions or unique transfers. Unresolved hash semantics (1,184), metadata gaps (911 groups), unsupported TX object schemas (360 files), image review (8 files), and additional explicit references (2 hashes) remain in the followup queue. These categories may overlap. Subsequent extraction and normalization must address the remaining gaps.
 
 ## PHASE 3 — NORMALIZATION
 

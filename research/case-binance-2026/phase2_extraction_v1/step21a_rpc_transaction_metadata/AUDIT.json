@@ -1,0 +1,33 @@
+{
+  "step": "2.1A",
+  "scope": "PHASE1_RPC_CACHE_ONLY",
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "input_files": 2224,
+  "extracted_observations": 2224,
+  "record_type_counts": {
+    "TRANSACTION": 1112,
+    "RECEIPT": 1112
+  },
+  "distinct_tx_hashes": 1068,
+  "paired_tx_hashes": 1068,
+  "exceptions": 0,
+  "metadata_conflicts": 0,
+  "missing_field_counts": {
+    "chain_id": 1112,
+    "block_number": 0,
+    "block_hash": 0,
+    "from_address": 0,
+    "to_address": 0,
+    "value_base_units": 1112,
+    "receipt_status": 1112,
+    "timestamp_utc": 2224
+  },
+  "source_hash_verification": "PER_RECORD",
+  "all_files_accounted_for": true,
+  "canonical_transaction_identity_approved": false,
+  "independent_chain_verification": false,
+  "transfer_event_approved": false,
+  "transaction_metadata_extraction_complete": false,
+  "remaining_source_review_required": true,
+  "phase2_checklist_updated": false
+}

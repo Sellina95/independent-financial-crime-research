@@ -1,0 +1,26 @@
+{
+  "step": "2.1D",
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "target_files": 462,
+  "structured_files": 360,
+  "nonstructured_files": 102,
+  "coverage_counts": {
+    "NO_HEX_HASH_MATCH": 295,
+    "HASH_REFERENCES_FOUND": 156,
+    "ERROR": 3,
+    "IMAGE_MANUAL_REVIEW_REQUIRED": 8
+  },
+  "reference_category_counts": {
+    "KNOWN_TX_HASH_REFERENCE": 13790,
+    "UNCLASSIFIED_32_BYTE_HASH": 4882,
+    "NON_TX_HASH_FIELD_CANDIDATE": 101,
+    "EXPLORER_TX_LINK_CANDIDATE": 2
+  },
+  "existing_tx_hash_groups": 2204,
+  "additional_explicit_tx_hash_candidates": 2,
+  "unclassified_distinct_hashes": 1349,
+  "exceptions": 3,
+  "transaction_metadata_extraction_complete": false,
+  "canonical_identity_approved": false,
+  "map_ready": false
+}

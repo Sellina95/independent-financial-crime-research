@@ -1,0 +1,29 @@
+{
+  "step": "2.1C",
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "input_observations": 51105,
+  "distinct_hash_groups": 2204,
+  "coverage_counts": {
+    "REFERENCE_ONLY": 877,
+    "WITH_TIMESTAMP_CANDIDATES": 2084,
+    "MISSING_CHAIN_ID": 901,
+    "MISSING_BLOCK_NUMBER": 877,
+    "MISSING_BLOCK_HASH": 877,
+    "MISSING_ENVELOPE_FROM": 877,
+    "MISSING_ENVELOPE_TO": 877,
+    "MISSING_TRANSACTION_VALUE": 901,
+    "MISSING_RECEIPT_STATUS": 887,
+    "WITH_DIRECT_METADATA": 1327,
+    "WITH_SINGLE_NUMERIC_CHAIN_CANDIDATE": 1303,
+    "DIRECT_CORE_FIELDS_PRESENT": 1293,
+    "MISSING_TIMESTAMP_CANDIDATE": 120
+  },
+  "conflict_records": 0,
+  "groups_requiring_metadata_review": 911,
+  "unrecognized_structured_files": 360,
+  "nonstructured_source_files_pending": 102,
+  "canonical_transaction_identity_approved": false,
+  "timestamp_verification_complete": false,
+  "transaction_metadata_extraction_complete": false,
+  "map_ready": false
+}

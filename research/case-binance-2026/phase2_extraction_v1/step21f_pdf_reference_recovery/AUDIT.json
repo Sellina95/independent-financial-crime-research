@@ -1,0 +1,14 @@
+{
+  "step": "2.1F",
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "phase1_text_commit": "7b3d0f9",
+  "pdf_files_screened": 3,
+  "previous_screen_errors_resolved": 3,
+  "hash_reference_occurrences": 0,
+  "reference_categories": {},
+  "pdf_text_reused": true,
+  "pdf_visual_content_reviewed": false,
+  "image_review_pending": 8,
+  "transaction_identity_verified": false,
+  "transfer_event_approved": false
+}

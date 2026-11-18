@@ -1,0 +1,28 @@
+{
+  "step": "2.1B",
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "input_files": 779,
+  "source_coverage_counts": {
+    "EXTRACTED_CANDIDATES": 415,
+    "NO_RECOGNIZED_TX_OBJECT": 360,
+    "EXCLUDED_SIMULATION": 4
+  },
+  "extracted_observations": 48881,
+  "record_type_counts": {
+    "TRANSACTION_REFERENCE_CANDIDATE": 42011,
+    "RECEIPT": 378,
+    "EVENT_LOG_TX_REFERENCE": 6242,
+    "TRANSACTION": 250
+  },
+  "distinct_tx_hashes": 2204,
+  "overlap_with_step21a": 1068,
+  "additional_tx_hash_candidates": 1136,
+  "combined_distinct_hash_candidates": 2204,
+  "exceptions": 0,
+  "hash_only_counts_are_not_canonical_event_counts": true,
+  "unrecognized_schema_review_required": true,
+  "timestamp_reconciliation_required": true,
+  "independent_chain_verification": false,
+  "transfer_event_approved": false,
+  "transaction_metadata_extraction_complete": false
+}
