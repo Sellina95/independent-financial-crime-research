@@ -1,0 +1,51 @@
+{
+  "provider": "ALCHEMY",
+  "queried_chain_id": 1,
+  "queried_at_utc": "2026-11-19T09:39:47.206368+00:00",
+  "chain_check_request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_chainId",
+    "params": []
+  },
+  "chain_check_response": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": "0x1"
+  },
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 26,
+    "method": "eth_getTransactionByHash",
+    "params": [
+      "0x5733caa6b4b6eb1e02716f132c70a2c059661d429ddada1ef8b1e60506d92850"
+    ]
+  },
+  "response": {
+    "jsonrpc": "2.0",
+    "id": 26,
+    "result": {
+      "type": "0x2",
+      "chainId": "0x1",
+      "nonce": "0x1209e0f",
+      "gas": "0x32918",
+      "maxFeePerGas": "0x2794ca2400",
+      "maxPriorityFeePerGas": "0x3b9aca00",
+      "to": "0xee7ae85f2fe2239e27d9c1e23fffe168d63b4055",
+      "value": "0x0",
+      "accessList": [],
+      "input": "0xb61d27f6000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000044a9059cbb00000000000000000000000065d0142168c5bce605b84f97e8866fbf5420f0bb000000000000000000000000000000000000000000000000000000000043238000000000000000000000000000000000000000000000000000000000",
+      "r": "0xfaea30ea5ba42415ee0ab452246dddaa78767010420aba1bb37b474eeeb50b5d",
+      "s": "0x14904cf1a795b197ff409f3cbeb0814d681f1e2d67368bbe48f82f199a6d02b8",
+      "yParity": "0x1",
+      "v": "0x1",
+      "hash": "0x5733caa6b4b6eb1e02716f132c70a2c059661d429ddada1ef8b1e60506d92850",
+      "blockHash": "0x730ca3b31e0e91125965cfa6ed46348d8701ea627b886b4a5c406842c63bb0c9",
+      "blockNumber": "0x1915175",
+      "transactionIndex": "0x2c",
+      "from": "0x28c6c06298d514db089934071355e5743bf21d60",
+      "gasPrice": "0x43d86ed3",
+      "blockTimestamp": "0x6ae3ac5b"
+    }
+  }
+}

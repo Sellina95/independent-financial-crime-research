@@ -1,0 +1,32 @@
+{
+  "step": "2.3A",
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "input_metadata_observations": 51105,
+  "scope_excluded_records": 16,
+  "receipt_observations": 1490,
+  "non_envelope_observations": 48237,
+  "transaction_envelope_observations": 1362,
+  "positive_successful_envelope_candidates": 11,
+  "zero_value_envelopes": 1351,
+  "failed_value_envelopes": 0,
+  "pending_envelope_observations": 0,
+  "disposition_counts": {
+    "ZERO_ENVELOPE_VALUE": 1351,
+    "POSITIVE_SUCCESSFUL_ENVELOPE_CANDIDATE": 11
+  },
+  "positive_chain_candidate_counts": {
+    "1": 8,
+    "5000": 1,
+    "9745": 2
+  },
+  "tx_block_hash_diagnostic_groups": 11,
+  "diagnostic_conflicts": 0,
+  "all_inputs_accounted_for": true,
+  "global_simulation_detection_complete": false,
+  "native_provider_extraction_pending": true,
+  "internal_trace_extraction_pending": true,
+  "native_asset_identity_verified": false,
+  "canonical_event_identity_approved": false,
+  "native_extraction_complete": false,
+  "map_ready": false
+}

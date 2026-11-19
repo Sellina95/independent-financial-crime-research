@@ -345,7 +345,7 @@ All source files accounted for.
 
 - [x] Extract transaction metadata
 - [x] Extract ERC-20 logs
-- [ ] Extract native ETH movements
+- [x] Extract native ETH movements
 - [ ] Extract internal ETH traces
 - [ ] Extract Bitquery evidence
 - [ ] Extract Alchemy evidence
@@ -365,6 +365,9 @@ Relevant source observations accounted for.
 
 
 **STEP 2.2 completion scope:** Initial ERC-20 log extraction contains 12,627 retained frozen-source log observations and 1,460 recovered RPC log observations (14,087 combined observations, not canonical events). All 6,471 extracted normalized token observations have a single matching raw-log group or recovered receipt log candidate. The 1,015 additional related logs are not automatically attributed to the incident. Chain context, token standards, remaining provider schemas, derived references, simulation scope reaudit and canonical identity remain subject to follow-up. See step22j_erc20_extraction_gate for the scope policy and follow-up register.
+
+
+**STEP 2.3 completion scope:** Initial native transaction-envelope extraction contains 11 frozen-source positive-value candidates and 17 recovered positive-value candidates, totaling 28 observations across candidate chains. All 114 extracted provider external observations are matched to transaction envelope candidates. Zero-value transactions are not counted as native asset movements. Internal traces, other provider records, native asset identification, supplemental receipt integration, and canonical event approval remain subject to downstream review. See step23d_native_extraction_gate for evidence and follow-up responsibilities.
 
 ## PHASE 3 — NORMALIZATION
 

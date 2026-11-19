@@ -1,0 +1,27 @@
+{
+  "step": "2.3B",
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "input_provider_objects": 1263,
+  "expected_external_objects": 114,
+  "expected_internal_objects": 1149,
+  "external_candidates": 114,
+  "internal_trace_queue": 1149,
+  "incomplete_external_objects": 0,
+  "external_disposition_counts": {
+    "TX_ENVELOPE_NOT_IN_CURRENT_SOURCE": 45,
+    "SINGLE_ENVELOPE_GROUP_CANDIDATE": 69
+  },
+  "external_asset_labels": {
+    "ETH": 114
+  },
+  "external_unmatched_observations": 45,
+  "external_unmatched_distinct_tx_hashes": 45,
+  "extraction_exceptions": 0,
+  "all_input_objects_accounted_for": true,
+  "provider_coverage_complete": false,
+  "native_asset_identity_verified": false,
+  "internal_trace_extraction_complete": false,
+  "native_extraction_complete": false,
+  "canonical_event_identity_approved": false,
+  "map_ready": false
+}

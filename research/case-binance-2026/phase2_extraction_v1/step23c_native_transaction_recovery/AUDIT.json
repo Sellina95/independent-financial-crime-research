@@ -1,0 +1,23 @@
+{
+  "step": "2.3C",
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "target_provider_observations": 45,
+  "queried_chain_id": 1,
+  "recovery_status_counts": {
+    "EXACT_POSITIVE_NATIVE_ENVELOPE_MATCH": 17,
+    "EXACT_ZERO_VALUE_ENVELOPE_MATCH": 28
+  },
+  "positive_envelope_matches": 17,
+  "zero_value_envelope_matches": 28,
+  "followup_observations": 0,
+  "prior_receipts_reused": 0,
+  "cached_rpc_responses_reused": 0,
+  "new_rpc_responses": 90,
+  "rpc_requests_this_attempt": 91,
+  "all_targets_accounted_for": true,
+  "recovery_pass": true,
+  "independent_provider_crosscheck": false,
+  "canonical_event_identity_approved": false,
+  "incident_attribution_verified": false,
+  "native_extraction_complete": false
+}

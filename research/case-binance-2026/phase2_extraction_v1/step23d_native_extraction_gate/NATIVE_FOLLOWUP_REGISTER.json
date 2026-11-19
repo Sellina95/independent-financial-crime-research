@@ -1,0 +1,33 @@
+[
+  {
+    "review_type": "PROVIDER_INTERNAL_TRACE_OBSERVATIONS",
+    "observation_count": 1149,
+    "source": "research/case-binance-2026/phase2_extraction_v1/step23b_provider_native_extraction/PROVIDER_INTERNAL_TRACE_QUEUE.jsonl",
+    "owner": "STEP_2_4_INTERNAL_ETH_EXTRACTION"
+  },
+  {
+    "review_type": "OTHER_PROVIDER_NATIVE_RECORDS",
+    "source": "research/case-binance-2026/phase2_extraction_v1/step22e_normalized_transfer_extraction/NON_PROMOTED_OBJECT_REGISTER.jsonl",
+    "owner": "PROVIDER_SPECIFIC_EXTRACTION"
+  },
+  {
+    "review_type": "NON_ETH_NATIVE_ASSET_IDENTITY",
+    "observation_count": 3,
+    "owner": "PHASE_3_CHAIN_AND_ASSET_NORMALIZATION"
+  },
+  {
+    "review_type": "METADATA_SCOPE_REAUDIT",
+    "source": "research/case-binance-2026/phase2_extraction_v1/step23a_native_transaction_extraction/SCOPE_QUARANTINE.jsonl",
+    "owner": "BEFORE_CANONICAL_EVENT_APPROVAL"
+  },
+  {
+    "review_type": "SUPPLEMENTAL_RECEIPT_LOG_INTEGRATION",
+    "receipt_count": 45,
+    "source": "research/case-binance-2026/phase2_extraction_v1/step23c_native_transaction_recovery/raw_rpc",
+    "owner": "ERC20_AND_INTERNAL_TRACE_CROSSWALK"
+  },
+  {
+    "review_type": "INCIDENT_ATTRIBUTION_AND_ECONOMIC_RECONCILIATION",
+    "owner": "PHASE_3_AND_PHASE_4"
+  }
+]

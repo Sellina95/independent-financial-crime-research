@@ -1,0 +1,44 @@
+{
+  "provider": "ALCHEMY",
+  "queried_chain_id": 1,
+  "queried_at_utc": "2026-11-19T09:39:49.648766+00:00",
+  "chain_check_request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_chainId",
+    "params": []
+  },
+  "chain_check_response": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": "0x1"
+  },
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 35,
+    "method": "eth_getTransactionReceipt",
+    "params": [
+      "0x5fe4bae1bbb902a8bc448c1609b5bad6e51deb055ab7a43e7f884d220899a461"
+    ]
+  },
+  "response": {
+    "jsonrpc": "2.0",
+    "id": 35,
+    "result": {
+      "type": "0x0",
+      "status": "0x1",
+      "cumulativeGasUsed": "0x95868b",
+      "logs": [],
+      "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "transactionHash": "0x5fe4bae1bbb902a8bc448c1609b5bad6e51deb055ab7a43e7f884d220899a461",
+      "transactionIndex": "0x6e",
+      "blockHash": "0x1a3112710eee05396e1baba3392aca909557673d84308ddf3fc79938ca8dfd19",
+      "blockNumber": "0x1916229",
+      "gasUsed": "0x5208",
+      "effectiveGasPrice": "0x187b4e76",
+      "from": "0xa3847eb710f159f7ca98a3c05533d1560b9419ba",
+      "to": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+      "contractAddress": null
+    }
+  }
+}

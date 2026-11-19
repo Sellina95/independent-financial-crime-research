@@ -1,0 +1,39 @@
+{
+  "step": "2.3D",
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "frozen_positive_envelopes": 11,
+  "recovered_positive_envelopes": 17,
+  "combined_positive_native_candidates": 28,
+  "ethereum_positive_candidates": 25,
+  "chain_candidate_counts": {
+    "1": 25,
+    "5000": 1,
+    "9745": 2
+  },
+  "frozen_zero_value_observations": 1351,
+  "recovered_zero_value_observations": 28,
+  "combined_zero_value_observations": 1379,
+  "provider_external_observations": 114,
+  "provider_external_matched": 114,
+  "provider_external_unmatched": 0,
+  "provider_economic_dispositions": {
+    "ZERO_VALUE_NOT_ASSET_MOVEMENT": 90,
+    "POSITIVE_VALUE_CANDIDATE": 24
+  },
+  "provider_match_basis": {
+    "RECOVERED_RPC_ENVELOPE": 45,
+    "FROZEN_ENVELOPE": 69
+  },
+  "internal_trace_queue": 1149,
+  "scope_quarantined_metadata": 16,
+  "chain_block_tx_diagnostic_groups": 28,
+  "initial_native_envelope_extraction_pass": true,
+  "internal_trace_extraction_complete": false,
+  "provider_coverage_complete": false,
+  "global_simulation_detection_complete": false,
+  "independent_provider_crosscheck_complete": false,
+  "canonical_event_identity_approved": false,
+  "incident_attribution_verified": false,
+  "native_end_to_end_complete": false,
+  "map_ready": false
+}
