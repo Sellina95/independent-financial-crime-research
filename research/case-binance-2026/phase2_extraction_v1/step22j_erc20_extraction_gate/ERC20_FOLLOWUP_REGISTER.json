@@ -1,0 +1,46 @@
+[
+  {
+    "review_type": "UNRESOLVED_CHAIN_CONTEXT",
+    "observation_count": 697,
+    "source": "research/case-binance-2026/phase2_extraction_v1/step22c_log_scope_correction/CHAIN_CONTEXT_FOLLOWUP.jsonl",
+    "owner": "PHASE_3_CHAIN_NORMALIZATION"
+  },
+  {
+    "review_type": "DECODED_EVENT_REFERENCE",
+    "observation_count": 2,
+    "source": "research/case-binance-2026/phase2_extraction_v1/step22c_log_scope_correction/DECODED_EVENT_FOLLOWUP.jsonl",
+    "owner": "UNSUPPORTED_FIELDS_AUDIT"
+  },
+  {
+    "review_type": "NON_PROMOTED_PROVIDER_OBJECTS",
+    "observation_count": 18443,
+    "source": "research/case-binance-2026/phase2_extraction_v1/step22e_normalized_transfer_extraction/NON_PROMOTED_OBJECT_REGISTER.jsonl",
+    "owner": "PROVIDER_AND_ASSET_SPECIFIC_EXTRACTION"
+  },
+  {
+    "review_type": "REMAINING_SCHEMA_OBJECTS",
+    "observation_count": 330,
+    "source": "research/case-binance-2026/phase2_extraction_v1/step22f_unmatched_transfer_audit/REMAINING_SCHEMA_OBJECT_QUEUE.jsonl",
+    "owner": "PROVIDER_BRIDGE_AND_UNSUPPORTED_SCHEMA_AUDIT"
+  },
+  {
+    "review_type": "ADDITIONAL_RECEIPT_LOGS",
+    "observation_count": 1015,
+    "source": "research/case-binance-2026/phase2_extraction_v1/step22i_full_receipt_recovery/ADDITIONAL_RELATED_LOG_OBSERVATIONS.jsonl",
+    "owner": "PHASE_3_NORMALIZATION_AND_PHASE_4_INCIDENT_CONTEXT"
+  },
+  {
+    "review_type": "METADATA_SIMULATION_SCOPE_REAUDIT",
+    "source": "research/case-binance-2026/phase2_extraction_v1/step21c_transaction_metadata_crosswalk",
+    "owner": "BEFORE_CANONICAL_CHAIN_ASSIGNMENT"
+  },
+  {
+    "review_type": "TOKEN_STANDARD_VERIFICATION",
+    "owner": "PHASE_3_NORMALIZATION"
+  },
+  {
+    "review_type": "NONSTRUCTURED_SOURCE_REVIEW",
+    "source_file_count": 102,
+    "owner": "OFFICIAL_ACTIONS_AND_UNSUPPORTED_FIELDS_AUDIT"
+  }
+]

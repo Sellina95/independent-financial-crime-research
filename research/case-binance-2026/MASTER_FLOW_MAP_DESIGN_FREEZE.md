@@ -344,7 +344,7 @@ All source files accounted for.
 ## PHASE 2 — EXTRACTION
 
 - [x] Extract transaction metadata
-- [ ] Extract ERC-20 logs
+- [x] Extract ERC-20 logs
 - [ ] Extract native ETH movements
 - [ ] Extract internal ETH traces
 - [ ] Extract Bitquery evidence
@@ -362,6 +362,9 @@ Relevant source observations accounted for.
 
 
 **STEP 2.1 completion scope:** Initial transaction metadata extraction produced 51,105 structured observations and 2,206 distinct hash reference candidates. These are not canonical transactions or unique transfers. Unresolved hash semantics (1,184), metadata gaps (911 groups), unsupported TX object schemas (360 files), image review (8 files), and additional explicit references (2 hashes) remain in the followup queue. These categories may overlap. Subsequent extraction and normalization must address the remaining gaps.
+
+
+**STEP 2.2 completion scope:** Initial ERC-20 log extraction contains 12,627 retained frozen-source log observations and 1,460 recovered RPC log observations (14,087 combined observations, not canonical events). All 6,471 extracted normalized token observations have a single matching raw-log group or recovered receipt log candidate. The 1,015 additional related logs are not automatically attributed to the incident. Chain context, token standards, remaining provider schemas, derived references, simulation scope reaudit and canonical identity remain subject to follow-up. See step22j_erc20_extraction_gate for the scope policy and follow-up register.
 
 ## PHASE 3 — NORMALIZATION
 

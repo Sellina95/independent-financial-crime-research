@@ -1,0 +1,37 @@
+{
+  "step": "2.2E",
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "input_candidate_objects": 24914,
+  "input_schema_candidates": 36,
+  "extracted_token_candidates": 6471,
+  "non_promoted_objects": 18443,
+  "disposition_counts": {
+    "EXTRACTED_TOKEN_CANDIDATE": 6471,
+    "DERIVED_LEDGER_QUEUE": 8654,
+    "AGGREGATED_ROUTE_REFERENCE": 132,
+    "INTERNAL_ETH_QUEUE": 1860,
+    "UNINSPECTED_SCHEMA_HOLD": 330,
+    "BITQUERY_RECONCILIATION_QUEUE": 1276,
+    "RECEIPT_CONTAINER": 1488,
+    "DERIVED_MAP_REFERENCE": 2114,
+    "TRANSACTION_ENVELOPE": 1326,
+    "NON_ERC20_CATEGORY:external": 114,
+    "NON_ERC20_CATEGORY:internal": 1149
+  },
+  "extracted_record_types": {
+    "DERIVED_DEX_TOKEN_OBSERVATION": 4260,
+    "ALCHEMY_SHAPED_OBSERVATION": 2211
+  },
+  "raw_log_match_counts": {
+    "SINGLE_RAW_LOG_GROUP_CANDIDATE": 6026,
+    "NO_EXACT_RAW_LOG_MATCH": 445
+  },
+  "extraction_exceptions": 0,
+  "all_candidate_objects_accounted_for": true,
+  "additional_schema_rules_pending": true,
+  "provider_identity_verified": false,
+  "token_standard_verified": false,
+  "canonical_event_identity_approved": false,
+  "transfer_event_approved": false,
+  "erc20_extraction_complete": false
+}

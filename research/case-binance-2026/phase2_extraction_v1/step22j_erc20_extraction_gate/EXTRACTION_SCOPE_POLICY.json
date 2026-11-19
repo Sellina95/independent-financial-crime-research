@@ -1,0 +1,20 @@
+{
+  "version": "v1",
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "excluded_path_segments": [
+    "step06c_local_fork_freeze_scenarios_v1",
+    "step06e_scenario_accounting_reconciliation_v1"
+  ],
+  "excluded_object_pointer_prefixes": [
+    "$[\"request\"]"
+  ],
+  "simulation_flags": [
+    "local_fork_only",
+    "simulation_only"
+  ],
+  "unbroadcast_eth_call": "REFERENCE_ONLY_NOT_EXECUTED_EVENT",
+  "derived_ledgers": "REFERENCE_OR_CANDIDATE_NOT_ATOMIC_EVENT",
+  "aggregate_routes": "NEVER_COUNT_AS_ADDITIONAL_TRANSFER",
+  "global_simulation_detection_complete": false,
+  "metadata_crosswalk_reaudit_required": true
+}

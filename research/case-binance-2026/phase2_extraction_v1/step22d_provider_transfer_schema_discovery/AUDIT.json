@@ -1,0 +1,32 @@
+{
+  "step": "2.2D",
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "structured_source_files": 3003,
+  "source_coverage_counts": {
+    "NO_RECOGNIZED_PROVIDER_SCHEMA": 455,
+    "PROVIDER_SCHEMA_CANDIDATES_FOUND": 2537,
+    "EXCLUDED_SIMULATION": 11
+  },
+  "provider_schema_candidate_observations": 24914,
+  "distinct_schema_candidates": 36,
+  "provider_candidate_counts": {
+    "UNSPECIFIED": 22496,
+    "BITQUERY": 1306,
+    "ALCHEMY": 382,
+    "BLOCKSCOUT": 730
+  },
+  "candidate_kind_counts": {
+    "TOKEN_TRANSFER_FIELD_CANDIDATE": 16674,
+    "TOKEN_ROUTE_FIELD_CANDIDATE": 2898,
+    "ASSET_TRANSFER_FIELD_CANDIDATE": 5342
+  },
+  "extraction_exceptions": 0,
+  "schema_discovery_only": true,
+  "provider_identity_independently_verified": false,
+  "global_simulation_detection_complete": false,
+  "provider_schema_coverage_complete": false,
+  "normalized_extraction_complete": false,
+  "canonical_event_identity_approved": false,
+  "transfer_event_approved": false,
+  "erc20_extraction_complete": false
+}

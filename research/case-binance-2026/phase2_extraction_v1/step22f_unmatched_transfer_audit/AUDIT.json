@@ -1,0 +1,44 @@
+{
+  "step": "2.2F",
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "raw_log_candidates": 12627,
+  "normalized_token_candidates": 6471,
+  "previous_single_raw_log_group_candidates": 6026,
+  "unmatched_observations": 445,
+  "unmatched_distinct_tx_hashes": 439,
+  "unmatched_economic_diagnostic_groups": 445,
+  "unmatched_reason_counts": {
+    "TX_NOT_IN_RETAINED_RAW_LOGS": 445
+  },
+  "unmatched_record_types": {
+    "ALCHEMY_SHAPED_OBSERVATION": 445
+  },
+  "unmatched_source_files": 13,
+  "remaining_schema_count": 16,
+  "remaining_schema_objects": 330,
+  "schema_review_queue_counts": {
+    "BITQUERY_TRANSFER_REVIEW": 30,
+    "DERIVED_ERC20_LOG_REVIEW": 8,
+    "TRANSACTION_ENVELOPE_REVIEW": 36,
+    "DERIVED_REMAINING_EVENT_REVIEW": 60,
+    "DERIVED_ERC20_EXCEPTION_REVIEW": 106,
+    "PLASMA_TOKEN_CONTEXT_REVIEW": 6,
+    "PLASMA_ATOKEN_REVIEW": 3,
+    "PLASMA_WITHDRAWAL_REVIEW": 4,
+    "PLASMA_DECODED_LOG_REVIEW": 2,
+    "NESTED_RAW_LOG_REFERENCE_REVIEW": 2,
+    "ETH_CALL_NOT_BROADCAST_REVIEW": 1,
+    "RECEIPT_CONTAINER_REVIEW": 2,
+    "DERIVED_RECEIPT_REFERENCE_REVIEW": 1,
+    "DERIVED_TOKEN_PROVENANCE_REVIEW": 6,
+    "INITIAL_TOKEN_INVENTORY_REVIEW": 63
+  },
+  "all_unmatched_observations_accounted_for": true,
+  "all_remaining_schemas_assigned_review_queues": true,
+  "remaining_schema_extraction_complete": false,
+  "unmatched_reconciliation_complete": false,
+  "new_transfer_verified": false,
+  "canonical_event_identity_approved": false,
+  "erc20_extraction_complete": false,
+  "map_ready": false
+}

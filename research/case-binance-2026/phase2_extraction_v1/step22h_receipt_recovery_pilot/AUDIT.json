@@ -1,0 +1,24 @@
+{
+  "step": "2.2H",
+  "frozen_source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "receipt_provider": "ALCHEMY",
+  "queried_chain_id": 1,
+  "target_tx_hashes": 439,
+  "pilot_tx_hashes": 5,
+  "pilot_provider_observations": 5,
+  "receipt_status_counts": {
+    "RECEIPT_RETRIEVED": 5
+  },
+  "match_status_counts": {
+    "SINGLE_EXACT_RECEIPT_MATCH": 5
+  },
+  "rpc_requests": 6,
+  "rpc_errors": 0,
+  "pilot_pass": true,
+  "remaining_unqueried_tx_hashes": 434,
+  "new_evidence_separate_from_frozen_source": true,
+  "independent_provider_crosscheck": false,
+  "canonical_event_identity_approved": false,
+  "incident_attribution_verified": false,
+  "erc20_extraction_complete": false
+}

@@ -1,0 +1,24 @@
+{
+  "step": "2.2G",
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "provider_observations": 445,
+  "target_distinct_tx_hashes": 439,
+  "existing_receipt_candidate_groups": 0,
+  "receipt_recovery_pending_groups": 439,
+  "chain_context_review_groups": 439,
+  "simulation_or_query_metadata_excluded": 0,
+  "block_context_conflict_groups": 0,
+  "chain_context_conflict_groups": 0,
+  "disposition_counts": {
+    "REFERENCE_PRESENT_RECEIPT_NEEDED": 439
+  },
+  "chain_candidate_distribution": {
+    "[]": 439
+  },
+  "all_target_hashes_accounted_for": true,
+  "external_rpc_requests": 0,
+  "receipt_recovery_complete": false,
+  "new_transfer_verified": false,
+  "canonical_event_identity_approved": false,
+  "erc20_extraction_complete": false
+}

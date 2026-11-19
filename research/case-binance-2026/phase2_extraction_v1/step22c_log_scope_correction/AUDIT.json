@@ -1,0 +1,40 @@
+{
+  "step": "2.2C",
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "input_log_observations": 12635,
+  "input_rejected_records": 4,
+  "retained_raw_log_candidates": 12627,
+  "quarantined_simulation_records": 5,
+  "rpc_query_filter_records": 5,
+  "decoded_reference_pending": 2,
+  "incomplete_raw_log_pending": 0,
+  "other_rejected_pending": 0,
+  "original_conflict_dispositions": {
+    "ALL_OBSERVATIONS_QUARANTINED": 3
+  },
+  "remaining_diagnostic_conflicts": 0,
+  "hash_log_index_diagnostic_groups": 11804,
+  "chain_context_statuses": {
+    "MATCHED_METADATA_CHAIN_CANDIDATE": 11641,
+    "EXPLICIT_CHAIN_CONTEXT_CANDIDATE": 289,
+    "UNRESOLVED_CHAIN_CONTEXT": 697
+  },
+  "chain_candidate_counts": {
+    "1": 11901,
+    "9745": 26,
+    "5000": 3
+  },
+  "unresolved_chain_observations": 697,
+  "all_input_records_accounted_for": true,
+  "provider_normalized_extraction_pending": true,
+  "simulation_exclusion_scope": [
+    "step06c_local_fork_freeze_scenarios_v1/",
+    "step06e_scenario_accounting_reconciliation_v1/"
+  ],
+  "global_simulation_detection_complete": false,
+  "chain_independently_verified": false,
+  "canonical_event_identity_approved": false,
+  "token_standard_verified": false,
+  "erc20_extraction_complete": false,
+  "map_ready": false
+}
