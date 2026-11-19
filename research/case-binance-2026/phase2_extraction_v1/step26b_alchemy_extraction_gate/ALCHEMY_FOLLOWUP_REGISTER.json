@@ -1,0 +1,50 @@
+[
+  {
+    "review_type": "PROVIDER_ATOMIC_IDENTITY",
+    "duplicate_groups": 304,
+    "missing_provider_unique_ids": 0,
+    "owner": "PHASE_3_EVENT_NORMALIZATION"
+  },
+  {
+    "review_type": "ALCHEMY_PROVIDER_CONTEXT_CONFLICTS",
+    "group_count": 0,
+    "owner": "PHASE_3_CONFLICT_RECONCILIATION"
+  },
+  {
+    "review_type": "RAW_ECONOMIC_FIELD_REVIEW",
+    "observation_count": 0,
+    "owner": "PROVIDER_EXTRACTION_REVIEW"
+  },
+  {
+    "review_type": "RPC_AND_OTHER_STRUCTURAL_CONTEXT",
+    "observation_count": 7420,
+    "record_type_counts": {
+      "OTHER_STRUCTURAL_CONTEXT": 7382,
+      "TRANSFER_RESPONSE_CONTAINER": 26,
+      "RPC_TRANSACTION_SHAPED_CONTEXT": 6,
+      "RPC_RECEIPT_SHAPED_CONTEXT": 6
+    },
+    "owner": "FINAL_SOURCE_AND_UNSUPPORTED_FIELDS_AUDIT"
+  },
+  {
+    "review_type": "SUPPLEMENTAL_RPC_RECEIPT_INTEGRATION",
+    "owner": "PHASE_3_RECEIPT_AND_LOG_NORMALIZATION"
+  },
+  {
+    "review_type": "PROVIDER_PAGINATION_AND_QUERY_COMPLETENESS",
+    "owner": "FINAL_SOURCE_REFERENCE_AUDIT",
+    "full_provider_history_verified": false
+  },
+  {
+    "review_type": "FULL_INTERNAL_TRACE_ANCESTRY",
+    "owner": "PHASE_3_TRACE_EXECUTION_SEMANTICS"
+  },
+  {
+    "review_type": "CHAIN_ID_AND_TOKEN_IDENTITY",
+    "owner": "PHASE_3_CHAIN_NORMALIZATION"
+  },
+  {
+    "review_type": "INCIDENT_FUND_PROVENANCE",
+    "owner": "PHASE_4_INCIDENT_CONTEXT"
+  }
+]

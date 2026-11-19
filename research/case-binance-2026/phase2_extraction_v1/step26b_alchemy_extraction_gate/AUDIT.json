@@ -1,0 +1,38 @@
+{
+  "step": "2.6B",
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "selected_sources": 47,
+  "erc20_observations": 2211,
+  "external_native_observations": 114,
+  "internal_native_observations": 1149,
+  "total_asset_transfer_observations": 3474,
+  "raw_economic_field_matches": 3474,
+  "raw_economic_field_review": 0,
+  "internal_economic_crosschecks": 1149,
+  "internal_crosscheck_basis": {
+    "FROZEN_BLOCKSCOUT": 1135,
+    "SUPPLEMENTAL_BLOCKSCOUT": 14
+  },
+  "structural_context_observations": 7420,
+  "structural_context_counts": {
+    "OTHER_STRUCTURAL_CONTEXT": 7382,
+    "TRANSFER_RESPONSE_CONTAINER": 26,
+    "RPC_TRANSACTION_SHAPED_CONTEXT": 6,
+    "RPC_RECEIPT_SHAPED_CONTEXT": 6
+  },
+  "new_asset_transfer_records": 0,
+  "diagnostic_provider_duplicate_groups": 304,
+  "diagnostic_provider_conflict_groups": 0,
+  "missing_provider_unique_ids": 0,
+  "reused_dependency_manifests": 8,
+  "external_api_requests": 0,
+  "all_selected_transfer_records_accounted_for": true,
+  "initial_alchemy_extraction_pass": true,
+  "global_provider_detection_complete": false,
+  "full_provider_history_verified": false,
+  "full_trace_ancestry_verified": false,
+  "canonical_event_identity_approved": false,
+  "incident_attribution_verified": false,
+  "alchemy_end_to_end_complete": false,
+  "map_ready": false
+}

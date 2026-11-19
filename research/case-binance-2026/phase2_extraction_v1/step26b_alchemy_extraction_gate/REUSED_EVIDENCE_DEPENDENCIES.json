@@ -1,0 +1,50 @@
+[
+  {
+    "source_folder": "research/case-binance-2026/phase2_extraction_v1/step22e_normalized_transfer_extraction",
+    "manifest_sha256": "ebeeaf9535b96550df009798bb5071b327bcb5f4566c0d2e33ae0ea5602ac02d",
+    "verified_files": 7,
+    "reused_existing_evidence": true
+  },
+  {
+    "source_folder": "research/case-binance-2026/phase2_extraction_v1/step22i_full_receipt_recovery",
+    "manifest_sha256": "9e9b3547901bd342607ae12763e440972691077bc1deeea6df820768bff099a3",
+    "verified_files": 442,
+    "reused_existing_evidence": true
+  },
+  {
+    "source_folder": "research/case-binance-2026/phase2_extraction_v1/step22j_erc20_extraction_gate",
+    "manifest_sha256": "e53787977c7ec91b8bdfc8ab955f0838c7974623c1455c002b20d9592a7785c7",
+    "verified_files": 4,
+    "reused_existing_evidence": true
+  },
+  {
+    "source_folder": "research/case-binance-2026/phase2_extraction_v1/step23b_provider_native_extraction",
+    "manifest_sha256": "13cd4fc212d20aabf7d356851832db2a3650047db2c18e54d924699c4e2d052a",
+    "verified_files": 7,
+    "reused_existing_evidence": true
+  },
+  {
+    "source_folder": "research/case-binance-2026/phase2_extraction_v1/step23c_native_transaction_recovery",
+    "manifest_sha256": "a98efafd2e036b7d8db00d74f3257f4c87bc5842094e2806fdd3b0f56b885344",
+    "verified_files": 96,
+    "reused_existing_evidence": true
+  },
+  {
+    "source_folder": "research/case-binance-2026/phase2_extraction_v1/step23d_native_extraction_gate",
+    "manifest_sha256": "216ea30f5f16103314a1e04740de57215ed7e631e46fe27b10083bf11edcbb2e",
+    "verified_files": 5,
+    "reused_existing_evidence": true
+  },
+  {
+    "source_folder": "research/case-binance-2026/phase2_extraction_v1/step24g_internal_extraction_gate",
+    "manifest_sha256": "207fe3a27651bbca7afe71dc1919804c16d2a2826a8d4f6b9122bb2ed0775f7b",
+    "verified_files": 11,
+    "reused_existing_evidence": true
+  },
+  {
+    "source_folder": "research/case-binance-2026/phase2_extraction_v1/step25f_bitquery_extraction_gate",
+    "manifest_sha256": "8fac4e7468fdc577db38d4357cb99d3c30144a575e76e5c19c07c4a5d09bc238",
+    "verified_files": 12,
+    "reused_existing_evidence": true
+  }
+]

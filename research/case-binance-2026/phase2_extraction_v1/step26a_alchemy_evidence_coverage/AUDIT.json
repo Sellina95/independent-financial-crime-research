@@ -1,0 +1,33 @@
+{
+  "step": "2.6A",
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "previous_erc20_observations": 2211,
+  "previous_external_native_observations": 114,
+  "previous_internal_native_observations": 1149,
+  "previous_total_observations": 3474,
+  "previous_source_locations_relinked": 3474,
+  "previous_source_locations_unlinked": 0,
+  "selected_sources": 47,
+  "source_coverage_counts": {
+    "STRUCTURED_SOURCE_INSPECTED": 47
+  },
+  "asset_transfer_shaped_observations": 3474,
+  "asset_transfer_category_counts": {
+    "external": 114,
+    "erc20": 2211,
+    "internal": 1149
+  },
+  "previous_asset_transfer_records_linked": 3474,
+  "new_asset_transfer_review_records": 0,
+  "new_record_category_counts": {},
+  "structural_context_observations": 7420,
+  "schema_groups": 20,
+  "simulation_exclusion_records": 0,
+  "source_read_exceptions": 0,
+  "external_api_requests": 0,
+  "global_provider_detection_complete": false,
+  "canonical_event_identity_approved": false,
+  "incident_attribution_verified": false,
+  "alchemy_extraction_complete": false,
+  "map_ready": false
+}
