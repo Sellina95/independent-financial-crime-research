@@ -1,0 +1,308 @@
+{
+  "provider": "BLOCKSCOUT",
+  "network_context": "ETHEREUM_MAINNET_ENDPOINT",
+  "queried_at_utc": "2026-11-19T10:41:54.288167+00:00",
+  "endpoint": "/transactions/0xb5cc4eaa84e9c86b1966165f9c65331ace3e5415750c845f3de004e08622dbe9",
+  "params": {},
+  "response": {
+    "has_error_in_internal_transactions": false,
+    "block_number": 26300828,
+    "exchange_rate": "1803.05",
+    "transaction_types": [
+      "contract_call",
+      "token_transfer"
+    ],
+    "historic_exchange_rate": "2249.4767252054453",
+    "nonce": 2726,
+    "timestamp": "2026-10-29T20:35:59.000000Z",
+    "base_fee_per_gas": "294255499",
+    "token_transfers": [
+      {
+        "block_hash": "0x2d80b0abaf6e78d5bdbc762c2b22ecb5d3c8f207969f6209bb6195b6af3fa938",
+        "block_number": 26300828,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xC5C7c21F4e60770CA5991a8832127A40f5236f73",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 957,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x7833341ffF5bbbAC5a0BD0ca28d6d9fa7D094601",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "cexDeposit": true,
+                  "tooltipDescription": "This address is reported to be a deposit address for Binance.",
+                  "tooltipUrl": "https://www.binance.com/"
+                },
+                "name": "Binance Deposit",
+                "ordinal": 10,
+                "slug": "binance-deposit",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "DEPOSIT ADDRESS",
+                "ordinal": 0,
+                "slug": "deposit-address",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Binance Dep",
+                "ordinal": 0,
+                "slug": "binance-dep",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x68749665FF8D2d112Fa859AA293F07A622782F38",
+          "circulating_market_cap": "3012010962",
+          "circulating_supply": "808994.63",
+          "decimals": "6",
+          "exchange_rate": "3722.82",
+          "holders_count": "63284",
+          "icon_url": "https://assets.coingecko.com/coins/images/10481/small/logo.png?1774627372",
+          "name": "Tether Gold",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "XAUT",
+          "total_supply": "827417630000",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "175810301"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "ui_multiplier": null,
+          "value": "78261"
+        },
+        "transaction_hash": "0xb5cc4eaa84e9c86b1966165f9c65331ace3e5415750c845f3de004e08622dbe9",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x2d80b0abaf6e78d5bdbc762c2b22ecb5d3c8f207969f6209bb6195b6af3fa938",
+        "block_number": 26300828,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8CC5c24A1666d3214340050315B82B2b6b0D9027",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "Swap",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 958,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xC5C7c21F4e60770CA5991a8832127A40f5236f73",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "circulating_market_cap": "3785704557",
+          "circulating_supply": "2103054.218095953",
+          "decimals": "18",
+          "exchange_rate": "1800.11",
+          "holders_count": "3352771",
+          "icon_url": "https://assets.coingecko.com/coins/images/2518/small/weth.png?1696503332",
+          "name": "WETH",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "WETH",
+          "total_supply": "2100652224512983897934207",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "285224463"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "ui_multiplier": null,
+          "value": "136410765623369900"
+        },
+        "transaction_hash": "0xb5cc4eaa84e9c86b1966165f9c65331ace3e5415750c845f3de004e08622dbe9",
+        "type": "token_transfer"
+      }
+    ],
+    "fhe_operations_count": 0,
+    "decoded_input": {
+      "method_call": "swap((address,bool,bool,bool,bool,address,address,address,uint256,uint256,uint256,uint160,uint256,uint256,uint256,address,bytes,uint8,address,address,address,int24,bytes32,uint256,address,bytes32,uint256) params)",
+      "method_id": "8250ff23",
+      "parameters": [
+        {
+          "name": "params",
+          "type": "(address,bool,bool,bool,bool,address,address,address,uint256,uint256,uint256,uint160,uint256,uint256,uint256,address,bytes,uint8,address,address,address,int24,bytes32,uint256,address,bytes32,uint256)",
+          "value": [
+            "0xC5C7c21F4e60770CA5991a8832127A40f5236f73",
+            "false",
+            "false",
+            "false",
+            "false",
+            "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "0x68749665FF8D2d112Fa859AA293F07A622782F38",
+            "0x7833341ffF5bbbAC5a0BD0ca28d6d9fa7D094601",
+            "3000",
+            "0",
+            "0",
+            "104535742803607491871764497241974420",
+            "136410765623369900",
+            "78122",
+            "350660000000000",
+            "0x4838B106FCe9647Bdf1E7877BF73cE8B0BAD5f97",
+            "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000008cc5c24a1666d3214340050315b82b2b6b0d90270000000000000000000000001f98431c8ad98523631ae4a59f267346ea31f984e34f199b19b2b4f47f68442619d555527d244f78a3297ea89325f843f87b8b540000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000002dc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2000bb868749665ff8d2d112fa859aa293f07a622782f38000000000000000000000000000000000000000000",
+            "0",
+            "0x0000000000000000000000000000000000000000",
+            "0x0000000000000000000000000000000000000000",
+            "0x0000000000000000000000000000000000000000",
+            "0",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "45201",
+            "0x0000000000000000000000000000000000000000",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "57251504803471493"
+          ]
+        }
+      ]
+    },
+    "gas_price": "346664601",
+    "gas_limit": "1000000",
+    "fee": {
+      "type": "actual",
+      "value": "48123286581618"
+    },
+    "method": "swap",
+    "authorization_list": [],
+    "to": {
+      "ens_domain_name": null,
+      "hash": "0x8CC5c24A1666d3214340050315B82B2b6b0D9027",
+      "implementations": [],
+      "is_contract": true,
+      "is_scam": false,
+      "is_verified": true,
+      "metadata": null,
+      "name": "Swap",
+      "private_tags": [],
+      "proxy_type": null,
+      "public_tags": [],
+      "reputation": "ok",
+      "watchlist_names": []
+    },
+    "status": "ok",
+    "gas_used": "138818",
+    "from": {
+      "ens_domain_name": null,
+      "hash": "0x4c28Ed368bE3E2BbC65680a1413C5335475f90F0",
+      "implementations": [],
+      "is_contract": false,
+      "is_scam": false,
+      "is_verified": false,
+      "metadata": null,
+      "name": null,
+      "private_tags": [],
+      "proxy_type": null,
+      "public_tags": [],
+      "reputation": "ok",
+      "watchlist_names": []
+    },
+    "value": "0",
+    "created_contract": null,
+    "transaction_tag": null,
+    "max_priority_fee_per_gas": "52409102",
+    "position": 115,
+    "confirmations": 147768,
+    "token_transfers_overflow": false,
+    "type": 2,
+    "transaction_burnt_fee": "40847959860182",
+    "confirmation_duration": [
+      0,
+      12000.0
+    ],
+    "revert_reason": null,
+    "max_fee_per_gas": "5048182048",
+    "hash": "0xb5cc4eaa84e9c86b1966165f9c65331ace3e5415750c845f3de004e08622dbe9",
+    "result": "success",
+    "is_pending_update": false,
+    "raw_input": "0x8250ff230000000000000000000000000000000000000000000000000000000000000020000000000000000000000000c5c7c21f4e60770ca5991a8832127a40f5236f730000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc200000000000000000000000068749665ff8d2d112fa859aa293f07a622782f380000000000000000000000007833341fff5bbbac5a0bd0ca28d6d9fa7d0946010000000000000000000000000000000000000000000000000000000000000bb80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001422029235f94af03542721f13a69400000000000000000000000000000000000000000000000001e4a0de5c8520ac000000000000000000000000000000000000000000000000000000000001312a00000000000000000000000000000000000000000000000000013eec64bca8000000000000000000000000004838b106fce9647bdf1e7877bf73ce8b0bad5f970000000000000000000000000000000000000000000000000000000000000360000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b0910000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000cb65f0b6aae085000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000200000000000000000000000008cc5c24a1666d3214340050315b82b2b6b0d90270000000000000000000000001f98431c8ad98523631ae4a59f267346ea31f984e34f199b19b2b4f47f68442619d555527d244f78a3297ea89325f843f87b8b540000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000002dc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2000bb868749665ff8d2d112fa859aa293f07a622782f38000000000000000000000000000000000000000000",
+    "priority_fee": "7275326721436"
+  }
+}

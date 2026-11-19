@@ -1,0 +1,7 @@
+{
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "method": "debug_traceTransaction",
+  "error": "HTTP_400",
+  "rpc_requests": 2,
+  "trace_recovery_complete": false
+}

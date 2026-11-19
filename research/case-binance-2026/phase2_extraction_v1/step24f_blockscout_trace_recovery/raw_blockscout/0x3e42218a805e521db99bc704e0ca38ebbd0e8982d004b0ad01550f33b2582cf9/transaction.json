@@ -1,0 +1,415 @@
+{
+  "provider": "BLOCKSCOUT",
+  "network_context": "ETHEREUM_MAINNET_ENDPOINT",
+  "queried_at_utc": "2026-11-19T10:41:17.486419+00:00",
+  "endpoint": "/transactions/0x3e42218a805e521db99bc704e0ca38ebbd0e8982d004b0ad01550f33b2582cf9",
+  "params": {},
+  "response": {
+    "has_error_in_internal_transactions": false,
+    "block_number": 26300822,
+    "exchange_rate": "1803.5",
+    "transaction_types": [
+      "contract_call",
+      "token_transfer"
+    ],
+    "historic_exchange_rate": "2249.4767252054453",
+    "nonce": 1999,
+    "timestamp": "2026-10-29T20:34:47.000000Z",
+    "base_fee_per_gas": "177435492",
+    "token_transfers": [
+      {
+        "block_hash": "0x24db527c0406b3f8ea375c2a738a037f9ebe66bdf6d29068f088744b4358ed44",
+        "block_number": 26300822,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8CC5c24A1666d3214340050315B82B2b6b0D9027",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "Swap",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 1706,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x0000000000000000000000000000000000000000",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {},
+                "name": "Null: 0x000...000",
+                "ordinal": 10,
+                "slug": "null-0x000000",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "main_entity": "Genesis"
+                },
+                "name": "Null Address",
+                "ordinal": 10,
+                "slug": "null-address",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "DEPOSIT ADDRESS",
+                "ordinal": 0,
+                "slug": "deposit-address",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Metamask User",
+                "ordinal": 0,
+                "slug": "metamask-user",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Imtoken User",
+                "ordinal": 0,
+                "slug": "imtoken-user",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Coinbase",
+                "ordinal": 0,
+                "slug": "coinbase",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "info": [
+                    "Blocked By USDT"
+                  ],
+                  "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+                },
+                "name": "BLOCKED",
+                "ordinal": 0,
+                "slug": "blocked",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Genesis",
+                "ordinal": 0,
+                "slug": "genesis",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Miner",
+                "ordinal": 0,
+                "slug": "miner",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Burn",
+                "ordinal": 0,
+                "slug": "burn",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "alertStatus": "info",
+                  "data": "This address is commonly used by projects to burn tokens (reducing total supply) or mint tokens (increasing total supply)."
+                },
+                "name": "note_0",
+                "ordinal": 0,
+                "slug": "note0",
+                "tagType": "note"
+              },
+              {
+                "meta": {},
+                "name": "Null",
+                "ordinal": 0,
+                "slug": "null",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "circulating_market_cap": "3785704557",
+          "circulating_supply": "2103054.218095953",
+          "decimals": "18",
+          "exchange_rate": "1800.11",
+          "holders_count": "3352772",
+          "icon_url": "https://assets.coingecko.com/coins/images/2518/small/weth.png?1696503332",
+          "name": "WETH",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "WETH",
+          "total_supply": "2100466247187602193138733",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "285224463"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "ui_multiplier": null,
+          "value": "669709535834283500"
+        },
+        "transaction_hash": "0x3e42218a805e521db99bc704e0ca38ebbd0e8982d004b0ad01550f33b2582cf9",
+        "type": "token_burning"
+      },
+      {
+        "block_hash": "0x24db527c0406b3f8ea375c2a738a037f9ebe66bdf6d29068f088744b4358ed44",
+        "block_number": 26300822,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 1707,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x7833341ffF5bbbAC5a0BD0ca28d6d9fa7D094601",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "cexDeposit": true,
+                  "tooltipDescription": "This address is reported to be a deposit address for Binance.",
+                  "tooltipUrl": "https://www.binance.com/"
+                },
+                "name": "Binance Deposit",
+                "ordinal": 10,
+                "slug": "binance-deposit",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "DEPOSIT ADDRESS",
+                "ordinal": 0,
+                "slug": "deposit-address",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Binance Dep",
+                "ordinal": 0,
+                "slug": "binance-dep",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
+          "circulating_market_cap": "1665541361",
+          "circulating_supply": "447479.497608",
+          "decimals": "18",
+          "exchange_rate": "3721.43",
+          "holders_count": "90167",
+          "icon_url": "https://assets.coingecko.com/coins/images/9519/small/asset-paxg.png?1785284785",
+          "name": "PAX Gold",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "PAXG",
+          "total_supply": "443128703442000000000000",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "132554366"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "ui_multiplier": null,
+          "value": "383783857812332191"
+        },
+        "transaction_hash": "0x3e42218a805e521db99bc704e0ca38ebbd0e8982d004b0ad01550f33b2582cf9",
+        "type": "token_transfer"
+      }
+    ],
+    "fhe_operations_count": 0,
+    "decoded_input": {
+      "method_call": "swap((address,bool,bool,bool,bool,address,address,address,uint256,uint256,uint256,uint160,uint256,uint256,uint256,address,bytes,uint8,address,address,address,int24,bytes32,uint256,address,bytes32,uint256) params)",
+      "method_id": "8250ff23",
+      "parameters": [
+        {
+          "name": "params",
+          "type": "(address,bool,bool,bool,bool,address,address,address,uint256,uint256,uint256,uint160,uint256,uint256,uint256,address,bytes,uint8,address,address,address,int24,bytes32,uint256,address,bytes32,uint256)",
+          "value": [
+            "0x0000000000000000000000000000000000000000",
+            "false",
+            "true",
+            "false",
+            "false",
+            "0x0000000000000000000000000000000000000000",
+            "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
+            "0x7833341ffF5bbbAC5a0BD0ca28d6d9fa7D094601",
+            "3000",
+            "0",
+            "0",
+            "59943636450696580212350174119",
+            "669709535834283500",
+            "382459337415265703",
+            "0",
+            "0x0000000000000000000000000000000000000000",
+            "0x",
+            "2",
+            "0x000000000004444c5dc75cB358380D2e3dE08A90",
+            "0x0000000000000000000000000000000000000000",
+            "0x0000000000000000000000000000000000000000",
+            "60",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "44754",
+            "0x7fFE42C4a5DEeA5b0feC41C94C136Cf115597227",
+            "0x940402a89d69e6403a4138d0cca6340f839882034a8649b41cb6bef652ee1095",
+            "32774603548107566"
+          ]
+        }
+      ]
+    },
+    "gas_price": "260582955",
+    "gas_limit": "468477",
+    "fee": {
+      "type": "actual",
+      "value": "38798717335860"
+    },
+    "method": "swap",
+    "authorization_list": [],
+    "to": {
+      "ens_domain_name": null,
+      "hash": "0x8CC5c24A1666d3214340050315B82B2b6b0D9027",
+      "implementations": [],
+      "is_contract": true,
+      "is_scam": false,
+      "is_verified": true,
+      "metadata": null,
+      "name": "Swap",
+      "private_tags": [],
+      "proxy_type": null,
+      "public_tags": [],
+      "reputation": "ok",
+      "watchlist_names": []
+    },
+    "status": "ok",
+    "gas_used": "148892",
+    "from": {
+      "ens_domain_name": null,
+      "hash": "0xFE643656B911adfBaB3A85025F00b6975a67be32",
+      "implementations": [],
+      "is_contract": false,
+      "is_scam": false,
+      "is_verified": false,
+      "metadata": null,
+      "name": null,
+      "private_tags": [],
+      "proxy_type": null,
+      "public_tags": [],
+      "reputation": "ok",
+      "watchlist_names": []
+    },
+    "value": "0",
+    "created_contract": null,
+    "transaction_tag": null,
+    "max_priority_fee_per_gas": "83147463",
+    "position": 81,
+    "confirmations": 147771,
+    "token_transfers_overflow": false,
+    "type": 2,
+    "transaction_burnt_fee": "26418725274864",
+    "confirmation_duration": [
+      0,
+      12000.0
+    ],
+    "revert_reason": null,
+    "max_fee_per_gas": "722650131",
+    "hash": "0x3e42218a805e521db99bc704e0ca38ebbd0e8982d004b0ad01550f33b2582cf9",
+    "result": "success",
+    "is_pending_update": false,
+    "raw_input": "0x8250ff23000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000045804880de22913dafe09f4980848ece6ecbaf780000000000000000000000007833341fff5bbbac5a0bd0ca28d6d9fa7d0946010000000000000000000000000000000000000000000000000000000000000bb8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c1b036c3538a0cc20cfac3a7000000000000000000000000000000000000000000000000094b49464a181dec000000000000000000000000000000000000000000000000054ec4bdb3ab0da70000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003600000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000004444c5dc75cb358380d2e3de08a9000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003c0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000aed20000000000000000000000007ffe42c4a5deea5b0fec41c94c136cf115597227940402a89d69e6403a4138d0cca6340f839882034a8649b41cb6bef652ee1095000000000000000000000000000000000000000000000000007470540a23a32e0000000000000000000000000000000000000000000000000000000000000000",
+    "priority_fee": "12379992060996"
+  }
+}

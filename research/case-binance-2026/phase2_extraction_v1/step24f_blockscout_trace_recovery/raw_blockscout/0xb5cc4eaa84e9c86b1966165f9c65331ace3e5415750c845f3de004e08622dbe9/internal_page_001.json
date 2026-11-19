@@ -1,0 +1,1424 @@
+{
+  "provider": "BLOCKSCOUT",
+  "network_context": "ETHEREUM_MAINNET_ENDPOINT",
+  "queried_at_utc": "2026-11-19T10:41:56.561662+00:00",
+  "endpoint": "/transactions/0xb5cc4eaa84e9c86b1966165f9c65331ace3e5415750c845f3de004e08622dbe9/internal-transactions",
+  "params": {},
+  "response": {
+    "items": [
+      {
+        "block_number": 26300828,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8CC5c24A1666d3214340050315B82B2b6b0D9027",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "Swap",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "949047",
+        "index": 1,
+        "success": true,
+        "timestamp": "2026-10-29T20:35:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x68749665FF8D2d112Fa859AA293F07A622782F38",
+          "implementations": [
+            {
+              "address_hash": "0x4C0d2c74A8D26f1E4F5653021c521F5471F9e566",
+              "name": "TetherToken"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Each XAU\u20ae token represents ownership of one troy fine ounce of physical gold on a specific gold bar. Furthermore, Tether Gold (XAU\u20ae) is the only product among the competition that offers zero custody fees and has direct control over the physical gold storage.",
+                  "tooltipUrl": "https://tether.to/"
+                },
+                "name": "Tether Gold: XAUt Token",
+                "ordinal": 10,
+                "slug": "tether-gold-xaut-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "XAUT",
+                "ordinal": 0,
+                "slug": "xaut",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Tether Gold",
+                "ordinal": 0,
+                "slug": "tether-gold",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "TransparentUpgradeableProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0xb5cc4eaa84e9c86b1966165f9c65331ace3e5415750c845f3de004e08622dbe9",
+        "transaction_index": 115,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26300828,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x68749665FF8D2d112Fa859AA293F07A622782F38",
+          "implementations": [
+            {
+              "address_hash": "0x4C0d2c74A8D26f1E4F5653021c521F5471F9e566",
+              "name": "TetherToken"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Each XAU\u20ae token represents ownership of one troy fine ounce of physical gold on a specific gold bar. Furthermore, Tether Gold (XAU\u20ae) is the only product among the competition that offers zero custody fees and has direct control over the physical gold storage.",
+                  "tooltipUrl": "https://tether.to/"
+                },
+                "name": "Tether Gold: XAUt Token",
+                "ordinal": 10,
+                "slug": "tether-gold-xaut-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "XAUT",
+                "ordinal": 0,
+                "slug": "xaut",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Tether Gold",
+                "ordinal": 0,
+                "slug": "tether-gold",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "TransparentUpgradeableProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "927043",
+        "index": 2,
+        "success": true,
+        "timestamp": "2026-10-29T20:35:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x4C0d2c74A8D26f1E4F5653021c521F5471F9e566",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "TetherToken",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0xb5cc4eaa84e9c86b1966165f9c65331ace3e5415750c845f3de004e08622dbe9",
+        "transaction_index": 115,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26300828,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8CC5c24A1666d3214340050315B82B2b6b0D9027",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "Swap",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "936321",
+        "index": 3,
+        "success": true,
+        "timestamp": "2026-10-29T20:35:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Wrapped Ether",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0xe27ff4957dc5c9bb33feafde33089e0c03fb4999f3e8d01f4720334161a17224@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmRyTdB5Cc7zH7G4YwWs7jh98zNGLQN1NfJ8KTWTXikhcP/WETH\",\"token_symbol\":\"WETH\",\"token_name\":\"WETH\",\"decimals\":18}",
+                  "tooltipDescription": "wETH is wrapped ETH which confroms to the ERC20 standard",
+                  "tooltipUrl": "https://weth.io/",
+                  "verifiedDomains": [
+                    "traderjoexyz.com",
+                    "app.mav.xyz",
+                    "core.app",
+                    "shibaswap.com",
+                    "app.dodoex.io",
+                    "app.uniswap.org",
+                    "explorer.reservoir.tools",
+                    "pancakeswap.finance",
+                    "swapr.eth.limo"
+                  ]
+                },
+                "name": "WETH Token (v2)",
+                "ordinal": 10,
+                "slug": "weth-token-v2",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Wrapped Token",
+                "ordinal": 0,
+                "slug": "wrapped-token",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "main_entity": "Wrapped",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://weth.io/"
+                },
+                "name": "Wrapped Ether",
+                "ordinal": 0,
+                "slug": "wrapped-ether",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "WETH9",
+                "ordinal": 0,
+                "slug": "weth9",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "WETH9",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0xb5cc4eaa84e9c86b1966165f9c65331ace3e5415750c845f3de004e08622dbe9",
+        "transaction_index": 115,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26300828,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8CC5c24A1666d3214340050315B82B2b6b0D9027",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "Swap",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "930264",
+        "index": 4,
+        "success": true,
+        "timestamp": "2026-10-29T20:35:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xC5C7c21F4e60770CA5991a8832127A40f5236f73",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0xb5cc4eaa84e9c86b1966165f9c65331ace3e5415750c845f3de004e08622dbe9",
+        "transaction_index": 115,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26300828,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xC5C7c21F4e60770CA5991a8832127A40f5236f73",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "884920",
+        "index": 5,
+        "success": true,
+        "timestamp": "2026-10-29T20:35:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x68749665FF8D2d112Fa859AA293F07A622782F38",
+          "implementations": [
+            {
+              "address_hash": "0x4C0d2c74A8D26f1E4F5653021c521F5471F9e566",
+              "name": "TetherToken"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Each XAU\u20ae token represents ownership of one troy fine ounce of physical gold on a specific gold bar. Furthermore, Tether Gold (XAU\u20ae) is the only product among the competition that offers zero custody fees and has direct control over the physical gold storage.",
+                  "tooltipUrl": "https://tether.to/"
+                },
+                "name": "Tether Gold: XAUt Token",
+                "ordinal": 10,
+                "slug": "tether-gold-xaut-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "XAUT",
+                "ordinal": 0,
+                "slug": "xaut",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Tether Gold",
+                "ordinal": 0,
+                "slug": "tether-gold",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "TransparentUpgradeableProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0xb5cc4eaa84e9c86b1966165f9c65331ace3e5415750c845f3de004e08622dbe9",
+        "transaction_index": 115,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26300828,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x68749665FF8D2d112Fa859AA293F07A622782F38",
+          "implementations": [
+            {
+              "address_hash": "0x4C0d2c74A8D26f1E4F5653021c521F5471F9e566",
+              "name": "TetherToken"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Each XAU\u20ae token represents ownership of one troy fine ounce of physical gold on a specific gold bar. Furthermore, Tether Gold (XAU\u20ae) is the only product among the competition that offers zero custody fees and has direct control over the physical gold storage.",
+                  "tooltipUrl": "https://tether.to/"
+                },
+                "name": "Tether Gold: XAUt Token",
+                "ordinal": 10,
+                "slug": "tether-gold-xaut-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "XAUT",
+                "ordinal": 0,
+                "slug": "xaut",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Tether Gold",
+                "ordinal": 0,
+                "slug": "tether-gold",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "TransparentUpgradeableProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "870313",
+        "index": 6,
+        "success": true,
+        "timestamp": "2026-10-29T20:35:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x4C0d2c74A8D26f1E4F5653021c521F5471F9e566",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "TetherToken",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0xb5cc4eaa84e9c86b1966165f9c65331ace3e5415750c845f3de004e08622dbe9",
+        "transaction_index": 115,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26300828,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xC5C7c21F4e60770CA5991a8832127A40f5236f73",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "870317",
+        "index": 7,
+        "success": true,
+        "timestamp": "2026-10-29T20:35:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Wrapped Ether",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0xe27ff4957dc5c9bb33feafde33089e0c03fb4999f3e8d01f4720334161a17224@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmRyTdB5Cc7zH7G4YwWs7jh98zNGLQN1NfJ8KTWTXikhcP/WETH\",\"token_symbol\":\"WETH\",\"token_name\":\"WETH\",\"decimals\":18}",
+                  "tooltipDescription": "wETH is wrapped ETH which confroms to the ERC20 standard",
+                  "tooltipUrl": "https://weth.io/",
+                  "verifiedDomains": [
+                    "traderjoexyz.com",
+                    "app.mav.xyz",
+                    "core.app",
+                    "shibaswap.com",
+                    "app.dodoex.io",
+                    "app.uniswap.org",
+                    "explorer.reservoir.tools",
+                    "pancakeswap.finance",
+                    "swapr.eth.limo"
+                  ]
+                },
+                "name": "WETH Token (v2)",
+                "ordinal": 10,
+                "slug": "weth-token-v2",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Wrapped Token",
+                "ordinal": 0,
+                "slug": "wrapped-token",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "main_entity": "Wrapped",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://weth.io/"
+                },
+                "name": "Wrapped Ether",
+                "ordinal": 0,
+                "slug": "wrapped-ether",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "WETH9",
+                "ordinal": 0,
+                "slug": "weth9",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "WETH9",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0xb5cc4eaa84e9c86b1966165f9c65331ace3e5415750c845f3de004e08622dbe9",
+        "transaction_index": 115,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26300828,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xC5C7c21F4e60770CA5991a8832127A40f5236f73",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "867021",
+        "index": 8,
+        "success": true,
+        "timestamp": "2026-10-29T20:35:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x8CC5c24A1666d3214340050315B82B2b6b0D9027",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "Swap",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0xb5cc4eaa84e9c86b1966165f9c65331ace3e5415750c845f3de004e08622dbe9",
+        "transaction_index": 115,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26300828,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8CC5c24A1666d3214340050315B82B2b6b0D9027",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "Swap",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "847712",
+        "index": 9,
+        "success": true,
+        "timestamp": "2026-10-29T20:35:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Wrapped Ether",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0xe27ff4957dc5c9bb33feafde33089e0c03fb4999f3e8d01f4720334161a17224@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmRyTdB5Cc7zH7G4YwWs7jh98zNGLQN1NfJ8KTWTXikhcP/WETH\",\"token_symbol\":\"WETH\",\"token_name\":\"WETH\",\"decimals\":18}",
+                  "tooltipDescription": "wETH is wrapped ETH which confroms to the ERC20 standard",
+                  "tooltipUrl": "https://weth.io/",
+                  "verifiedDomains": [
+                    "traderjoexyz.com",
+                    "app.mav.xyz",
+                    "core.app",
+                    "shibaswap.com",
+                    "app.dodoex.io",
+                    "app.uniswap.org",
+                    "explorer.reservoir.tools",
+                    "pancakeswap.finance",
+                    "swapr.eth.limo"
+                  ]
+                },
+                "name": "WETH Token (v2)",
+                "ordinal": 10,
+                "slug": "weth-token-v2",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Wrapped Token",
+                "ordinal": 0,
+                "slug": "wrapped-token",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "main_entity": "Wrapped",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://weth.io/"
+                },
+                "name": "Wrapped Ether",
+                "ordinal": 0,
+                "slug": "wrapped-ether",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "WETH9",
+                "ordinal": 0,
+                "slug": "weth9",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "WETH9",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0xb5cc4eaa84e9c86b1966165f9c65331ace3e5415750c845f3de004e08622dbe9",
+        "transaction_index": 115,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26300828,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xC5C7c21F4e60770CA5991a8832127A40f5236f73",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "851750",
+        "index": 10,
+        "success": true,
+        "timestamp": "2026-10-29T20:35:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Wrapped Ether",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0xe27ff4957dc5c9bb33feafde33089e0c03fb4999f3e8d01f4720334161a17224@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmRyTdB5Cc7zH7G4YwWs7jh98zNGLQN1NfJ8KTWTXikhcP/WETH\",\"token_symbol\":\"WETH\",\"token_name\":\"WETH\",\"decimals\":18}",
+                  "tooltipDescription": "wETH is wrapped ETH which confroms to the ERC20 standard",
+                  "tooltipUrl": "https://weth.io/",
+                  "verifiedDomains": [
+                    "traderjoexyz.com",
+                    "app.mav.xyz",
+                    "core.app",
+                    "shibaswap.com",
+                    "app.dodoex.io",
+                    "app.uniswap.org",
+                    "explorer.reservoir.tools",
+                    "pancakeswap.finance",
+                    "swapr.eth.limo"
+                  ]
+                },
+                "name": "WETH Token (v2)",
+                "ordinal": 10,
+                "slug": "weth-token-v2",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Wrapped Token",
+                "ordinal": 0,
+                "slug": "wrapped-token",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "main_entity": "Wrapped",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://weth.io/"
+                },
+                "name": "Wrapped Ether",
+                "ordinal": 0,
+                "slug": "wrapped-ether",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "WETH9",
+                "ordinal": 0,
+                "slug": "weth9",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "WETH9",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0xb5cc4eaa84e9c86b1966165f9c65331ace3e5415750c845f3de004e08622dbe9",
+        "transaction_index": 115,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26300828,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8CC5c24A1666d3214340050315B82B2b6b0D9027",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "Swap",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "861560",
+        "index": 11,
+        "success": true,
+        "timestamp": "2026-10-29T20:35:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x68749665FF8D2d112Fa859AA293F07A622782F38",
+          "implementations": [
+            {
+              "address_hash": "0x4C0d2c74A8D26f1E4F5653021c521F5471F9e566",
+              "name": "TetherToken"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Each XAU\u20ae token represents ownership of one troy fine ounce of physical gold on a specific gold bar. Furthermore, Tether Gold (XAU\u20ae) is the only product among the competition that offers zero custody fees and has direct control over the physical gold storage.",
+                  "tooltipUrl": "https://tether.to/"
+                },
+                "name": "Tether Gold: XAUt Token",
+                "ordinal": 10,
+                "slug": "tether-gold-xaut-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "XAUT",
+                "ordinal": 0,
+                "slug": "xaut",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Tether Gold",
+                "ordinal": 0,
+                "slug": "tether-gold",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "TransparentUpgradeableProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0xb5cc4eaa84e9c86b1966165f9c65331ace3e5415750c845f3de004e08622dbe9",
+        "transaction_index": 115,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26300828,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x68749665FF8D2d112Fa859AA293F07A622782F38",
+          "implementations": [
+            {
+              "address_hash": "0x4C0d2c74A8D26f1E4F5653021c521F5471F9e566",
+              "name": "TetherToken"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Each XAU\u20ae token represents ownership of one troy fine ounce of physical gold on a specific gold bar. Furthermore, Tether Gold (XAU\u20ae) is the only product among the competition that offers zero custody fees and has direct control over the physical gold storage.",
+                  "tooltipUrl": "https://tether.to/"
+                },
+                "name": "Tether Gold: XAUt Token",
+                "ordinal": 10,
+                "slug": "tether-gold-xaut-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "XAUT",
+                "ordinal": 0,
+                "slug": "xaut",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Tether Gold",
+                "ordinal": 0,
+                "slug": "tether-gold",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "TransparentUpgradeableProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "847321",
+        "index": 12,
+        "success": true,
+        "timestamp": "2026-10-29T20:35:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x4C0d2c74A8D26f1E4F5653021c521F5471F9e566",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "TetherToken",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0xb5cc4eaa84e9c86b1966165f9c65331ace3e5415750c845f3de004e08622dbe9",
+        "transaction_index": 115,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26300828,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8CC5c24A1666d3214340050315B82B2b6b0D9027",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "Swap",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "859593",
+        "index": 13,
+        "success": true,
+        "timestamp": "2026-10-29T20:35:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Wrapped Ether",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0xe27ff4957dc5c9bb33feafde33089e0c03fb4999f3e8d01f4720334161a17224@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmRyTdB5Cc7zH7G4YwWs7jh98zNGLQN1NfJ8KTWTXikhcP/WETH\",\"token_symbol\":\"WETH\",\"token_name\":\"WETH\",\"decimals\":18}",
+                  "tooltipDescription": "wETH is wrapped ETH which confroms to the ERC20 standard",
+                  "tooltipUrl": "https://weth.io/",
+                  "verifiedDomains": [
+                    "traderjoexyz.com",
+                    "app.mav.xyz",
+                    "core.app",
+                    "shibaswap.com",
+                    "app.dodoex.io",
+                    "app.uniswap.org",
+                    "explorer.reservoir.tools",
+                    "pancakeswap.finance",
+                    "swapr.eth.limo"
+                  ]
+                },
+                "name": "WETH Token (v2)",
+                "ordinal": 10,
+                "slug": "weth-token-v2",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Wrapped Token",
+                "ordinal": 0,
+                "slug": "wrapped-token",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "main_entity": "Wrapped",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://weth.io/"
+                },
+                "name": "Wrapped Ether",
+                "ordinal": 0,
+                "slug": "wrapped-ether",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "WETH9",
+                "ordinal": 0,
+                "slug": "weth9",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "WETH9",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0xb5cc4eaa84e9c86b1966165f9c65331ace3e5415750c845f3de004e08622dbe9",
+        "transaction_index": 115,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26300828,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8CC5c24A1666d3214340050315B82B2b6b0D9027",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "Swap",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "847867",
+        "index": 14,
+        "success": true,
+        "timestamp": "2026-10-29T20:35:59.000000Z",
+        "to": {
+          "ens_domain_name": "titanbuilder.eth",
+          "hash": "0x4838B106FCe9647Bdf1E7877BF73cE8B0BAD5f97",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {},
+                "name": "MEV Builder",
+                "ordinal": 0,
+                "slug": "mev-builder",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://www.titanbuilder.xyz/"
+                },
+                "name": "Titan Builder",
+                "ordinal": 0,
+                "slug": "titan-builder",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0xb5cc4eaa84e9c86b1966165f9c65331ace3e5415750c845f3de004e08622dbe9",
+        "transaction_index": 115,
+        "type": "call",
+        "value": "350660000000000"
+      }
+    ],
+    "meta": {
+      "message": null,
+      "status": 1
+    },
+    "next_page_params": null
+  }
+}

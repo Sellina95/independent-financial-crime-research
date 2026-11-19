@@ -1,0 +1,1215 @@
+{
+  "provider": "BLOCKSCOUT",
+  "network_context": "ETHEREUM_MAINNET_ENDPOINT",
+  "queried_at_utc": "2026-11-19T10:41:39.422393+00:00",
+  "endpoint": "/transactions/0x6b10ac73881bf719c56328b5929ae924f9201a915f452ab939ed517f5b964cb6/internal-transactions",
+  "params": {},
+  "response": {
+    "items": [
+      {
+        "block_number": 26300806,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8CC5c24A1666d3214340050315B82B2b6b0D9027",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "Swap",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "952370",
+        "index": 1,
+        "success": true,
+        "timestamp": "2026-10-29T20:31:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x8C1c499b1796D7F3C2521AC37186B52De024e58c",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V2 pool to exchange between RAD and USDC.",
+                  "tooltipUrl": "https://v2.info.uniswap.org/pair/0x8c1c499b1796d7f3c2521ac37186b52de024e58c"
+                },
+                "name": "Uniswap V2: RAD-USDC",
+                "ordinal": 10,
+                "slug": "uniswap-v2-radusdc",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV2Pair",
+                "ordinal": 0,
+                "slug": "uniswapv2pair",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V2",
+                "ordinal": 0,
+                "slug": "uniswap-v2",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "JamUniswapV2Pair",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x6b10ac73881bf719c56328b5929ae924f9201a915f452ab939ed517f5b964cb6",
+        "transaction_index": 146,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26300806,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8CC5c24A1666d3214340050315B82B2b6b0D9027",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "Swap",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "943774",
+        "index": 2,
+        "success": true,
+        "timestamp": "2026-10-29T20:31:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "implementations": [
+            {
+              "address_hash": "0x43506849D7C04F9138D1A2050bbF3A0c054402dd",
+              "name": "FiatTokenV2_2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Circle",
+                  "tagIcon": "https://assets.coingecko.com/coins/images/6319/small/usdc.png?1696506694",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x924f91c6a015abb7e7a5f8c7c0989761b4df998abdbd6541365eb3c82132a390",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qmc3TH5cPhyh7418kSD83SSBzng1oqbLxjzxfjwA2VAoj8/BccwoeFESYBsv6XiJVRAp5b3pRpvMgdhfZCxV5vSppWbAukhqrBRVRj3jAxHnbfmvg181rcVw9ny4LBLbFdm2S2RRH\",\"token_symbol\":\"USDC\",\"token_name\":\"USD Coin\",\"decimals\":6}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "USDC is a US dollar-backed stablecoin issued by Circle. USDC is designed to provide a faster, safer, and more efficient way to send, spend, and exchange money around the world.",
+                  "tooltipUrl": "https://www.circle.com/en/usdc"
+                },
+                "name": "USDC Token",
+                "ordinal": 10,
+                "slug": "usdc-token-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "USDC",
+                "ordinal": 0,
+                "slug": "usdc",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USD Coin",
+                "ordinal": 0,
+                "slug": "usd-coin",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appID": "circle",
+                  "appMarketplaceURL": "https://app.circle.com/get-started",
+                  "bgColor": "#2775ca",
+                  "tagIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/circle-icon-white.png",
+                  "textColor": "#FFFFFF",
+                  "tooltipUrl": "https://www.circle.com/"
+                },
+                "name": "Circle",
+                "ordinal": 0,
+                "slug": "circle",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "USDC",
+          "private_tags": [],
+          "proxy_type": "eip1967_oz",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x6b10ac73881bf719c56328b5929ae924f9201a915f452ab939ed517f5b964cb6",
+        "transaction_index": 146,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26300806,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "implementations": [
+            {
+              "address_hash": "0x43506849D7C04F9138D1A2050bbF3A0c054402dd",
+              "name": "FiatTokenV2_2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Circle",
+                  "tagIcon": "https://assets.coingecko.com/coins/images/6319/small/usdc.png?1696506694",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x924f91c6a015abb7e7a5f8c7c0989761b4df998abdbd6541365eb3c82132a390",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qmc3TH5cPhyh7418kSD83SSBzng1oqbLxjzxfjwA2VAoj8/BccwoeFESYBsv6XiJVRAp5b3pRpvMgdhfZCxV5vSppWbAukhqrBRVRj3jAxHnbfmvg181rcVw9ny4LBLbFdm2S2RRH\",\"token_symbol\":\"USDC\",\"token_name\":\"USD Coin\",\"decimals\":6}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "USDC is a US dollar-backed stablecoin issued by Circle. USDC is designed to provide a faster, safer, and more efficient way to send, spend, and exchange money around the world.",
+                  "tooltipUrl": "https://www.circle.com/en/usdc"
+                },
+                "name": "USDC Token",
+                "ordinal": 10,
+                "slug": "usdc-token-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "USDC",
+                "ordinal": 0,
+                "slug": "usdc",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USD Coin",
+                "ordinal": 0,
+                "slug": "usd-coin",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appID": "circle",
+                  "appMarketplaceURL": "https://app.circle.com/get-started",
+                  "bgColor": "#2775ca",
+                  "tagIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/circle-icon-white.png",
+                  "textColor": "#FFFFFF",
+                  "tooltipUrl": "https://www.circle.com/"
+                },
+                "name": "Circle",
+                "ordinal": 0,
+                "slug": "circle",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "USDC",
+          "private_tags": [],
+          "proxy_type": "eip1967_oz",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "921896",
+        "index": 3,
+        "success": true,
+        "timestamp": "2026-10-29T20:31:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x43506849D7C04F9138D1A2050bbF3A0c054402dd",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "FiatTokenV2_2",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x6b10ac73881bf719c56328b5929ae924f9201a915f452ab939ed517f5b964cb6",
+        "transaction_index": 146,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26300806,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8CC5c24A1666d3214340050315B82B2b6b0D9027",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "Swap",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "917310",
+        "index": 4,
+        "success": true,
+        "timestamp": "2026-10-29T20:31:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Radicle",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0xe8ba5d134a61725526db7f0112547dd9d77c4370e87caa0418bd84801cb8560a",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qma9fEBb5gCWUTHVbhuD36BJLenM8TWqsvjLVqWch5KZT9/RAD\",\"token_symbol\":\"RAD\",\"token_name\":\"Radicle\",\"decimals\":18}",
+                  "tooltipDescription": "Contract of Radicle's RAD Token",
+                  "tooltipUrl": "https://radicle.xyz/"
+                },
+                "name": "Radicle: RAD Token",
+                "ordinal": 10,
+                "slug": "radicle-rad-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Radicle",
+                "ordinal": 0,
+                "slug": "radicle",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "RadicleToken",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x6b10ac73881bf719c56328b5929ae924f9201a915f452ab939ed517f5b964cb6",
+        "transaction_index": 146,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26300806,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8CC5c24A1666d3214340050315B82B2b6b0D9027",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "Swap",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "913675",
+        "index": 5,
+        "success": true,
+        "timestamp": "2026-10-29T20:31:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x8C1c499b1796D7F3C2521AC37186B52De024e58c",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V2 pool to exchange between RAD and USDC.",
+                  "tooltipUrl": "https://v2.info.uniswap.org/pair/0x8c1c499b1796d7f3c2521ac37186b52de024e58c"
+                },
+                "name": "Uniswap V2: RAD-USDC",
+                "ordinal": 10,
+                "slug": "uniswap-v2-radusdc",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV2Pair",
+                "ordinal": 0,
+                "slug": "uniswapv2pair",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V2",
+                "ordinal": 0,
+                "slug": "uniswap-v2",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "JamUniswapV2Pair",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x6b10ac73881bf719c56328b5929ae924f9201a915f452ab939ed517f5b964cb6",
+        "transaction_index": 146,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26300806,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8C1c499b1796D7F3C2521AC37186B52De024e58c",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V2 pool to exchange between RAD and USDC.",
+                  "tooltipUrl": "https://v2.info.uniswap.org/pair/0x8c1c499b1796d7f3c2521ac37186b52de024e58c"
+                },
+                "name": "Uniswap V2: RAD-USDC",
+                "ordinal": 10,
+                "slug": "uniswap-v2-radusdc",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV2Pair",
+                "ordinal": 0,
+                "slug": "uniswapv2pair",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V2",
+                "ordinal": 0,
+                "slug": "uniswap-v2",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "JamUniswapV2Pair",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "888694",
+        "index": 6,
+        "success": true,
+        "timestamp": "2026-10-29T20:31:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Radicle",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0xe8ba5d134a61725526db7f0112547dd9d77c4370e87caa0418bd84801cb8560a",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qma9fEBb5gCWUTHVbhuD36BJLenM8TWqsvjLVqWch5KZT9/RAD\",\"token_symbol\":\"RAD\",\"token_name\":\"Radicle\",\"decimals\":18}",
+                  "tooltipDescription": "Contract of Radicle's RAD Token",
+                  "tooltipUrl": "https://radicle.xyz/"
+                },
+                "name": "Radicle: RAD Token",
+                "ordinal": 10,
+                "slug": "radicle-rad-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Radicle",
+                "ordinal": 0,
+                "slug": "radicle",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "RadicleToken",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x6b10ac73881bf719c56328b5929ae924f9201a915f452ab939ed517f5b964cb6",
+        "transaction_index": 146,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26300806,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8C1c499b1796D7F3C2521AC37186B52De024e58c",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V2 pool to exchange between RAD and USDC.",
+                  "tooltipUrl": "https://v2.info.uniswap.org/pair/0x8c1c499b1796d7f3c2521ac37186b52de024e58c"
+                },
+                "name": "Uniswap V2: RAD-USDC",
+                "ordinal": 10,
+                "slug": "uniswap-v2-radusdc",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV2Pair",
+                "ordinal": 0,
+                "slug": "uniswapv2pair",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V2",
+                "ordinal": 0,
+                "slug": "uniswap-v2",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "JamUniswapV2Pair",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "855194",
+        "index": 7,
+        "success": true,
+        "timestamp": "2026-10-29T20:31:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Radicle",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0xe8ba5d134a61725526db7f0112547dd9d77c4370e87caa0418bd84801cb8560a",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qma9fEBb5gCWUTHVbhuD36BJLenM8TWqsvjLVqWch5KZT9/RAD\",\"token_symbol\":\"RAD\",\"token_name\":\"Radicle\",\"decimals\":18}",
+                  "tooltipDescription": "Contract of Radicle's RAD Token",
+                  "tooltipUrl": "https://radicle.xyz/"
+                },
+                "name": "Radicle: RAD Token",
+                "ordinal": 10,
+                "slug": "radicle-rad-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Radicle",
+                "ordinal": 0,
+                "slug": "radicle",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "RadicleToken",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x6b10ac73881bf719c56328b5929ae924f9201a915f452ab939ed517f5b964cb6",
+        "transaction_index": 146,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26300806,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8C1c499b1796D7F3C2521AC37186B52De024e58c",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V2 pool to exchange between RAD and USDC.",
+                  "tooltipUrl": "https://v2.info.uniswap.org/pair/0x8c1c499b1796d7f3c2521ac37186b52de024e58c"
+                },
+                "name": "Uniswap V2: RAD-USDC",
+                "ordinal": 10,
+                "slug": "uniswap-v2-radusdc",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV2Pair",
+                "ordinal": 0,
+                "slug": "uniswapv2pair",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V2",
+                "ordinal": 0,
+                "slug": "uniswap-v2",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "JamUniswapV2Pair",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "854091",
+        "index": 8,
+        "success": true,
+        "timestamp": "2026-10-29T20:31:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "implementations": [
+            {
+              "address_hash": "0x43506849D7C04F9138D1A2050bbF3A0c054402dd",
+              "name": "FiatTokenV2_2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Circle",
+                  "tagIcon": "https://assets.coingecko.com/coins/images/6319/small/usdc.png?1696506694",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x924f91c6a015abb7e7a5f8c7c0989761b4df998abdbd6541365eb3c82132a390",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qmc3TH5cPhyh7418kSD83SSBzng1oqbLxjzxfjwA2VAoj8/BccwoeFESYBsv6XiJVRAp5b3pRpvMgdhfZCxV5vSppWbAukhqrBRVRj3jAxHnbfmvg181rcVw9ny4LBLbFdm2S2RRH\",\"token_symbol\":\"USDC\",\"token_name\":\"USD Coin\",\"decimals\":6}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "USDC is a US dollar-backed stablecoin issued by Circle. USDC is designed to provide a faster, safer, and more efficient way to send, spend, and exchange money around the world.",
+                  "tooltipUrl": "https://www.circle.com/en/usdc"
+                },
+                "name": "USDC Token",
+                "ordinal": 10,
+                "slug": "usdc-token-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "USDC",
+                "ordinal": 0,
+                "slug": "usdc",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USD Coin",
+                "ordinal": 0,
+                "slug": "usd-coin",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appID": "circle",
+                  "appMarketplaceURL": "https://app.circle.com/get-started",
+                  "bgColor": "#2775ca",
+                  "tagIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/circle-icon-white.png",
+                  "textColor": "#FFFFFF",
+                  "tooltipUrl": "https://www.circle.com/"
+                },
+                "name": "Circle",
+                "ordinal": 0,
+                "slug": "circle",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "USDC",
+          "private_tags": [],
+          "proxy_type": "eip1967_oz",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x6b10ac73881bf719c56328b5929ae924f9201a915f452ab939ed517f5b964cb6",
+        "transaction_index": 146,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26300806,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "implementations": [
+            {
+              "address_hash": "0x43506849D7C04F9138D1A2050bbF3A0c054402dd",
+              "name": "FiatTokenV2_2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Circle",
+                  "tagIcon": "https://assets.coingecko.com/coins/images/6319/small/usdc.png?1696506694",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x924f91c6a015abb7e7a5f8c7c0989761b4df998abdbd6541365eb3c82132a390",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qmc3TH5cPhyh7418kSD83SSBzng1oqbLxjzxfjwA2VAoj8/BccwoeFESYBsv6XiJVRAp5b3pRpvMgdhfZCxV5vSppWbAukhqrBRVRj3jAxHnbfmvg181rcVw9ny4LBLbFdm2S2RRH\",\"token_symbol\":\"USDC\",\"token_name\":\"USD Coin\",\"decimals\":6}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "USDC is a US dollar-backed stablecoin issued by Circle. USDC is designed to provide a faster, safer, and more efficient way to send, spend, and exchange money around the world.",
+                  "tooltipUrl": "https://www.circle.com/en/usdc"
+                },
+                "name": "USDC Token",
+                "ordinal": 10,
+                "slug": "usdc-token-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "USDC",
+                "ordinal": 0,
+                "slug": "usdc",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USD Coin",
+                "ordinal": 0,
+                "slug": "usd-coin",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appID": "circle",
+                  "appMarketplaceURL": "https://app.circle.com/get-started",
+                  "bgColor": "#2775ca",
+                  "tagIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/circle-icon-white.png",
+                  "textColor": "#FFFFFF",
+                  "tooltipUrl": "https://www.circle.com/"
+                },
+                "name": "Circle",
+                "ordinal": 0,
+                "slug": "circle",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "USDC",
+          "private_tags": [],
+          "proxy_type": "eip1967_oz",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "840016",
+        "index": 9,
+        "success": true,
+        "timestamp": "2026-10-29T20:31:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x43506849D7C04F9138D1A2050bbF3A0c054402dd",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "FiatTokenV2_2",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x6b10ac73881bf719c56328b5929ae924f9201a915f452ab939ed517f5b964cb6",
+        "transaction_index": 146,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26300806,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8CC5c24A1666d3214340050315B82B2b6b0D9027",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "Swap",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "847535",
+        "index": 10,
+        "success": true,
+        "timestamp": "2026-10-29T20:31:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Radicle",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0xe8ba5d134a61725526db7f0112547dd9d77c4370e87caa0418bd84801cb8560a",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qma9fEBb5gCWUTHVbhuD36BJLenM8TWqsvjLVqWch5KZT9/RAD\",\"token_symbol\":\"RAD\",\"token_name\":\"Radicle\",\"decimals\":18}",
+                  "tooltipDescription": "Contract of Radicle's RAD Token",
+                  "tooltipUrl": "https://radicle.xyz/"
+                },
+                "name": "Radicle: RAD Token",
+                "ordinal": 10,
+                "slug": "radicle-rad-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Radicle",
+                "ordinal": 0,
+                "slug": "radicle",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "RadicleToken",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x6b10ac73881bf719c56328b5929ae924f9201a915f452ab939ed517f5b964cb6",
+        "transaction_index": 146,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26300806,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8CC5c24A1666d3214340050315B82B2b6b0D9027",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "Swap",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "835670",
+        "index": 11,
+        "success": true,
+        "timestamp": "2026-10-29T20:31:35.000000Z",
+        "to": {
+          "ens_domain_name": "titanbuilder.eth",
+          "hash": "0x4838B106FCe9647Bdf1E7877BF73cE8B0BAD5f97",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {},
+                "name": "MEV Builder",
+                "ordinal": 0,
+                "slug": "mev-builder",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://www.titanbuilder.xyz/"
+                },
+                "name": "Titan Builder",
+                "ordinal": 0,
+                "slug": "titan-builder",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x6b10ac73881bf719c56328b5929ae924f9201a915f452ab939ed517f5b964cb6",
+        "transaction_index": 146,
+        "type": "call",
+        "value": "120840000000000"
+      }
+    ],
+    "meta": {
+      "message": null,
+      "status": 1
+    },
+    "next_page_params": null
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "step": "2.4C",
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "alchemy_observations": 1149,
+  "blockscout_observations": 1860,
+  "provider_match_status_counts": {
+    "SINGLE_TRACE_INDEX_GROUP_CANDIDATE": 1135,
+    "TX_NOT_IN_BLOCKSCOUT_TRACES": 14
+  },
+  "unmatched_alchemy_observations": 14,
+  "unmatched_alchemy_distinct_tx_hashes": 11,
+  "reverse_match_multiplicity_groups": 4,
+  "unresolved_call_trace_frames": 207,
+  "call_trace_source_files": 2,
+  "sibling_sources_registered": 8,
+  "provenance_hash_candidates": 65,
+  "execution_evidence_records": 3,
+  "external_rpc_requests": 0,
+  "provider_crosswalk_preserved": true,
+  "all_alchemy_observations_accounted_for": true,
+  "canonical_event_identity_approved": false,
+  "incident_attribution_verified": false,
+  "internal_extraction_complete": false
+}

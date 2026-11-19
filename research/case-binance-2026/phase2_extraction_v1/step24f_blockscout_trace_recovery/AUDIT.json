@@ -1,0 +1,32 @@
+{
+  "step": "2.4F",
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "provider": "BLOCKSCOUT",
+  "pagination_boolean_fix": true,
+  "target_tx_hashes": 12,
+  "transaction_status_counts": {
+    "BLOCKSCOUT_TRACE_CONTEXT_MATCH": 12
+  },
+  "recovered_trace_observations": 1184,
+  "trace_disposition_counts": {
+    "POSITIVE_INTERNAL_CALL_CANDIDATE": 32,
+    "NON_TRANSFER_CALL_TYPE": 666,
+    "ZERO_VALUE_FRAME": 485,
+    "FAILED_OR_UNVERIFIED_CALL": 1
+  },
+  "provider_crosscheck_counts": {
+    "SINGLE_BLOCKSCOUT_MATCH_CANDIDATE": 14
+  },
+  "initial_positive_call_crosscheck": {
+    "SINGLE_BLOCKSCOUT_MATCH_CANDIDATE": 1
+  },
+  "remaining_provider_observations": 0,
+  "blockscout_requests": 41,
+  "cached_responses_reused": 2,
+  "alchemy_debug_trace_blocked": true,
+  "full_initial_call_tree_reproduced": false,
+  "targeted_economic_crosscheck_pass": true,
+  "canonical_event_identity_approved": false,
+  "incident_attribution_verified": false,
+  "internal_extraction_complete": false
+}

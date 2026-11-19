@@ -1,0 +1,1357 @@
+{
+  "provider": "BLOCKSCOUT",
+  "network_context": "ETHEREUM_MAINNET_ENDPOINT",
+  "queried_at_utc": "2026-11-19T10:41:21.438976+00:00",
+  "endpoint": "/transactions/0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+  "params": {},
+  "response": {
+    "has_error_in_internal_transactions": false,
+    "block_number": 26301442,
+    "exchange_rate": "1803.5",
+    "transaction_types": [
+      "contract_call",
+      "token_transfer"
+    ],
+    "historic_exchange_rate": "2249.4767252054453",
+    "nonce": 15,
+    "timestamp": "2026-10-29T22:39:11.000000Z",
+    "base_fee_per_gas": "20283866821",
+    "token_transfers": [
+      {
+        "block_hash": "0xa08e537520ea96d693443e624fe2c027c7080381e13cb900572998a6c4130a4e",
+        "block_number": 26301442,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x5aB53EE1d50eeF2C1DD3d5402789cd27bB52c1bB",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between AAVE and WETH.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0x5ab53ee1d50eef2c1dd3d5402789cd27bb52c1bb"
+                },
+                "name": "Uniswap V3: AAVE",
+                "ordinal": 10,
+                "slug": "uniswap-v3-aave",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 129,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "circulating_market_cap": "3785704557",
+          "circulating_supply": "2103054.218095953",
+          "decimals": "18",
+          "exchange_rate": "1800.11",
+          "holders_count": "3352772",
+          "icon_url": "https://assets.coingecko.com/coins/images/2518/small/weth.png?1696503332",
+          "name": "WETH",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "WETH",
+          "total_supply": "2100466247187602193138733",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "285224463"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "ui_multiplier": null,
+          "value": "315799015955896796126"
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xa08e537520ea96d693443e624fe2c027c7080381e13cb900572998a6c4130a4e",
+        "block_number": 26301442,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xE7024aB80143b1EF843EFE6a58368696Cb87958d",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 130,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x5aB53EE1d50eeF2C1DD3d5402789cd27bB52c1bB",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between AAVE and WETH.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0x5ab53ee1d50eef2c1dd3d5402789cd27bb52c1bb"
+                },
+                "name": "Uniswap V3: AAVE",
+                "ordinal": 10,
+                "slug": "uniswap-v3-aave",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+          "circulating_market_cap": "1687013389",
+          "circulating_supply": "15441245.906954594",
+          "decimals": "18",
+          "exchange_rate": "109.29",
+          "holders_count": "196773",
+          "icon_url": "https://assets.coingecko.com/coins/images/12645/small/aave-token-round.png?1720472354",
+          "name": "Aave",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "AAVE",
+          "total_supply": "16000000000000000000000000",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "202432664"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "ui_multiplier": null,
+          "value": "6061467996324525780000"
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xa08e537520ea96d693443e624fe2c027c7080381e13cb900572998a6c4130a4e",
+        "block_number": 26301442,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xE7024aB80143b1EF843EFE6a58368696Cb87958d",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 132,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+          "circulating_market_cap": "1687013389",
+          "circulating_supply": "15441245.906954594",
+          "decimals": "18",
+          "exchange_rate": "109.29",
+          "holders_count": "196773",
+          "icon_url": "https://assets.coingecko.com/coins/images/12645/small/aave-token-round.png?1720472354",
+          "name": "Aave",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "AAVE",
+          "total_supply": "16000000000000000000000000",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "202432664"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "ui_multiplier": null,
+          "value": "1681510332661205470000"
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xa08e537520ea96d693443e624fe2c027c7080381e13cb900572998a6c4130a4e",
+        "block_number": 26301442,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xE7024aB80143b1EF843EFE6a58368696Cb87958d",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 134,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+          "circulating_market_cap": "1687013389",
+          "circulating_supply": "15441245.906954594",
+          "decimals": "18",
+          "exchange_rate": "109.29",
+          "holders_count": "196773",
+          "icon_url": "https://assets.coingecko.com/coins/images/12645/small/aave-token-round.png?1720472354",
+          "name": "Aave",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "AAVE",
+          "total_supply": "16000000000000000000000000",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "202432664"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "ui_multiplier": null,
+          "value": "1070973463706013820000"
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xa08e537520ea96d693443e624fe2c027c7080381e13cb900572998a6c4130a4e",
+        "block_number": 26301442,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 136,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x37Cfcc3877Cf8854742922C3416C20c8fd3916b2",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "FluidDexAdapter",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "68231387996",
+          "circulating_supply": "68258542626.86399",
+          "decimals": "6",
+          "exchange_rate": "0.999611",
+          "holders_count": "9608563",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "44455464983898399",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "13730880376"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "ui_multiplier": null,
+          "value": "127998068962"
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xa08e537520ea96d693443e624fe2c027c7080381e13cb900572998a6c4130a4e",
+        "block_number": 26301442,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x37Cfcc3877Cf8854742922C3416C20c8fd3916b2",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "FluidDexAdapter",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 138,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x52Aa899454998Be5b000Ad077a46Bbe360F4e497",
+          "implementations": [
+            {
+              "address_hash": "0xCc331daf69752BEcE3DC98dBC63eAcd5092266A2",
+              "name": "FluidLiquidityDummyImpl"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://fluid.instadapp.io/"
+                },
+                "name": "Fluid: Liquidity",
+                "ordinal": 10,
+                "slug": "fluid-liquidity",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Fluid",
+                "ordinal": 0,
+                "slug": "fluid",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "FluidLiquidityProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "68231387996",
+          "circulating_supply": "68258542626.86399",
+          "decimals": "6",
+          "exchange_rate": "0.999611",
+          "holders_count": "9608563",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "44455464983898399",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "13730880376"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "ui_multiplier": null,
+          "value": "127998068962"
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xa08e537520ea96d693443e624fe2c027c7080381e13cb900572998a6c4130a4e",
+        "block_number": 26301442,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x52Aa899454998Be5b000Ad077a46Bbe360F4e497",
+          "implementations": [
+            {
+              "address_hash": "0xCc331daf69752BEcE3DC98dBC63eAcd5092266A2",
+              "name": "FluidLiquidityDummyImpl"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://fluid.instadapp.io/"
+                },
+                "name": "Fluid: Liquidity",
+                "ordinal": 10,
+                "slug": "fluid-liquidity",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Fluid",
+                "ordinal": 0,
+                "slug": "fluid",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "FluidLiquidityProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 140,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+          "circulating_market_cap": "175109804666",
+          "circulating_supply": "175246054068.6087",
+          "decimals": "6",
+          "exchange_rate": "0.999236",
+          "holders_count": "17191608",
+          "icon_url": "https://assets.coingecko.com/coins/images/325/small/Tether.png?1696501661",
+          "name": "Tether",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "USDT",
+          "total_supply": "84296691994493958",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "47451841879"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "ui_multiplier": null,
+          "value": "128145246764"
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xa08e537520ea96d693443e624fe2c027c7080381e13cb900572998a6c4130a4e",
+        "block_number": 26301442,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x4e68Ccd3E89f51C3074ca5072bbAC773960dFa36",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between WETH and USDT.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0x4e68ccd3e89f51c3074ca5072bbac773960dfa36"
+                },
+                "name": "Uniswap V3: \u55b5\u55b5\u55b5\u55b5\u55b5-USDT",
+                "ordinal": 10,
+                "slug": "uniswap-v3-usdt",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 143,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "circulating_market_cap": "3785704557",
+          "circulating_supply": "2103054.218095953",
+          "decimals": "18",
+          "exchange_rate": "1800.11",
+          "holders_count": "3352772",
+          "icon_url": "https://assets.coingecko.com/coins/images/2518/small/weth.png?1696503332",
+          "name": "WETH",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "WETH",
+          "total_supply": "2100466247187602193138733",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "285224463"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "ui_multiplier": null,
+          "value": "55484405408168995847"
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xa08e537520ea96d693443e624fe2c027c7080381e13cb900572998a6c4130a4e",
+        "block_number": 26301442,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 144,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x4e68Ccd3E89f51C3074ca5072bbAC773960dFa36",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between WETH and USDT.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0x4e68ccd3e89f51c3074ca5072bbac773960dfa36"
+                },
+                "name": "Uniswap V3: \u55b5\u55b5\u55b5\u55b5\u55b5-USDT",
+                "ordinal": 10,
+                "slug": "uniswap-v3-usdt",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+          "circulating_market_cap": "175109804666",
+          "circulating_supply": "175246054068.6087",
+          "decimals": "6",
+          "exchange_rate": "0.999236",
+          "holders_count": "17191608",
+          "icon_url": "https://assets.coingecko.com/coins/images/325/small/Tether.png?1696501661",
+          "name": "Tether",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "USDT",
+          "total_supply": "84296691994493958",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "47451841879"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "ui_multiplier": null,
+          "value": "128145246764"
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xa08e537520ea96d693443e624fe2c027c7080381e13cb900572998a6c4130a4e",
+        "block_number": 26301442,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xE7024aB80143b1EF843EFE6a58368696Cb87958d",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 146,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+          "circulating_market_cap": "1687013389",
+          "circulating_supply": "15441245.906954594",
+          "decimals": "18",
+          "exchange_rate": "109.29",
+          "holders_count": "196773",
+          "icon_url": "https://assets.coingecko.com/coins/images/12645/small/aave-token-round.png?1720472354",
+          "name": "Aave",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "AAVE",
+          "total_supply": "16000000000000000000000000",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "202432664"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "ui_multiplier": null,
+          "value": "785948060225756670000"
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "type": "token_transfer"
+      }
+    ],
+    "fhe_operations_count": 0,
+    "decoded_input": {
+      "method_call": "swapExactIn(uint256 orderId, (address,address,uint256,uint256) request, uint256[] routesAmount, (uint256[],address[],uint256[],bytes[],address)[][] routes, uint256 feeConfig, address recipient)",
+      "method_id": "edad400c",
+      "parameters": [
+        {
+          "name": "orderId",
+          "type": "uint256",
+          "value": "0"
+        },
+        {
+          "name": "request",
+          "type": "(address,address,uint256,uint256)",
+          "value": [
+            "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+            "0x0000000000000000000000000000000000000000",
+            "519095119008360196522",
+            "1793314703"
+          ]
+        },
+        {
+          "name": "routesAmount",
+          "type": "uint256[]",
+          "value": [
+            "6061467996324525780000",
+            "1681510332661205470000",
+            "1070973463706013820000",
+            "785948060225756670000",
+            "400100147082498260000"
+          ]
+        },
+        {
+          "name": "routes",
+          "type": "(uint256[],address[],uint256[],bytes[],address)[][]",
+          "value": [
+            [
+              [
+                [
+                  "904625697166532776746648320380374280103671755200316906558262375061821325312"
+                ],
+                [
+                  "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7"
+                ],
+                [
+                  "14615534224391092725069413746594352851698836556661179"
+                ],
+                [
+                  "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000007fc66500c84a76ad7e9c93437bfc5ac33e2ddae9000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000000000000000000000000000000000000000bb8"
+                ],
+                "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9"
+              ]
+            ],
+            [
+              [
+                [
+                  "452312848583266388373324160190187140051835877600158453279131187530910662656"
+                ],
+                [
+                  "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7"
+                ],
+                [
+                  "14615016373309029182036848327162830196559325429760000"
+                ],
+                [
+                  "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000007fc66500c84a76ad7e9c93437bfc5ac33e2ddae90000000000000000000000000000000000000000000000000000000000000bb8000000000000000000000000000000000000000000000000000000000000003c00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000"
+                ],
+                "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9"
+              ]
+            ],
+            [
+              [
+                [
+                  "452312848583266388373324160190187140051835877600158453279131187530910662656"
+                ],
+                [
+                  "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7"
+                ],
+                [
+                  "14615016373309029182036848327162830196559325429760000"
+                ],
+                [
+                  "0x0000000000000000000000007fc66500c84a76ad7e9c93437bfc5ac33e2ddae9000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb480000000000000000000000000000000000000000000000000000000000000bb8000000000000000000000000000000000000000000000000000000000000003c00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000"
+                ],
+                "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9"
+              ],
+              [
+                [
+                  "318628536772805341532934109466014459942514792114"
+                ],
+                [
+                  "0x37Cfcc3877Cf8854742922C3416C20c8fd3916b2"
+                ],
+                [
+                  "14615601344321405076312637173428025392795581548175259"
+                ],
+                [
+                  "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+                ],
+                "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              ],
+              [
+                [
+                  "904625697166532776746648320380374280103671755200316906558262375061821325312"
+                ],
+                [
+                  "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7"
+                ],
+                [
+                  "14615464011709669206332503099960973592973103776791094"
+                ],
+                [
+                  "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000dac17f958d2ee523a2206206994597c13d831ec7000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000000000000000000000000000000000000000bb8"
+                ],
+                "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+              ]
+            ],
+            [
+              [
+                [
+                  "452312848583266388373324160190187140051835877600158453279131187530910662656"
+                ],
+                [
+                  "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7"
+                ],
+                [
+                  "14615016373309029182036848327162830196559325429760000"
+                ],
+                [
+                  "0x0000000000000000000000001f9840a85d5af5bf1d1762f925bdaddc4201f9840000000000000000000000007fc66500c84a76ad7e9c93437bfc5ac33e2ddae90000000000000000000000000000000000000000000000000000000000000bb8000000000000000000000000000000000000000000000000000000000000003c00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000"
+                ],
+                "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9"
+              ],
+              [
+                [
+                  "904625697166532776746648320380374280103671755200316906558262375061821325312"
+                ],
+                [
+                  "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7"
+                ],
+                [
+                  "14615183406440383717895888648594061480726970145429505"
+                ],
+                [
+                  "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000001f9840a85d5af5bf1d1762f925bdaddc4201f984000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000000000000000000000000000000000000000bb8"
+                ],
+                "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984"
+              ]
+            ],
+            [
+              [
+                [
+                  "904625697166532776746648320380374280103671755200316906558262375061821325312"
+                ],
+                [
+                  "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7"
+                ],
+                [
+                  "14615528834276759722282647352474323637856841202943830"
+                ],
+                [
+                  "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000007fc66500c84a76ad7e9c93437bfc5ac33e2ddae90000000000000000000000001f9840a85d5af5bf1d1762f925bdaddc4201f9840000000000000000000000000000000000000000000000000000000000000bb8"
+                ],
+                "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9"
+              ],
+              [
+                [
+                  "904625697166532776746648320380374280103671755200316906558262375061821325312"
+                ],
+                [
+                  "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7"
+                ],
+                [
+                  "14615183406440383717895888648594061480726970145429505"
+                ],
+                [
+                  "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000001f9840a85d5af5bf1d1762f925bdaddc4201f984000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000000000000000000000000000000000000000bb8"
+                ],
+                "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984"
+              ]
+            ]
+          ]
+        },
+        {
+          "name": "feeConfig",
+          "type": "uint256",
+          "value": "0"
+        },
+        {
+          "name": "recipient",
+          "type": "address",
+          "value": "0xE7024aB80143b1EF843EFE6a58368696Cb87958d"
+        }
+      ]
+    },
+    "gas_price": "25180667230",
+    "gas_limit": "1945857",
+    "fee": {
+      "type": "actual",
+      "value": "39602441133972360"
+    },
+    "method": "swapExactIn",
+    "authorization_list": [],
+    "to": {
+      "ens_domain_name": null,
+      "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+      "implementations": [
+        {
+          "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+          "name": "Aggregator"
+        }
+      ],
+      "is_contract": true,
+      "is_scam": false,
+      "is_verified": true,
+      "metadata": null,
+      "name": "ERC1967Proxy",
+      "private_tags": [],
+      "proxy_type": "eip1967",
+      "public_tags": [],
+      "reputation": "ok",
+      "watchlist_names": []
+    },
+    "status": "ok",
+    "gas_used": "1572732",
+    "from": {
+      "ens_domain_name": null,
+      "hash": "0xE7024aB80143b1EF843EFE6a58368696Cb87958d",
+      "implementations": [],
+      "is_contract": false,
+      "is_scam": false,
+      "is_verified": false,
+      "metadata": null,
+      "name": null,
+      "private_tags": [],
+      "proxy_type": null,
+      "public_tags": [],
+      "reputation": "ok",
+      "watchlist_names": []
+    },
+    "value": "0",
+    "created_contract": null,
+    "transaction_tag": null,
+    "max_priority_fee_per_gas": "4896800409",
+    "position": 4,
+    "confirmations": 147146,
+    "token_transfers_overflow": true,
+    "type": 2,
+    "transaction_burnt_fee": "31901086433124972",
+    "confirmation_duration": [
+      0,
+      12000.0
+    ],
+    "revert_reason": null,
+    "max_fee_per_gas": "31077429654",
+    "hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+    "result": "success",
+    "is_pending_update": false,
+    "raw_input": "0xedad400c00000000000000000000000000000000000000000000000000000000000000000000000000000000000000007fc66500c84a76ad7e9c93437bfc5ac33e2ddae9000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001c23e454744c6e69aa000000000000000000000000000000000000000000000000000000006ae3cf8f000000000000000000000000000000000000000000000000000000000000012000000000000000000000000000000000000000000000000000000000000001e00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e7024ab80143b1ef843efe6a58368696cb87958d000000000000000000000000000000000000000000000000000000000000000500000000000000000000000000000000000000000000014897c4439f92202c2000000000000000000000000000000000000000000000005b27a4c28824128b3000000000000000000000000000000000000000000000003a0ebe12fae2a8646000000000000000000000000000000000000000000000002a9b386ca4df8b2830000000000000000000000000000000000000000000000015b08143f339d9bc20000000000000000000000000000000000000000000000000000000000000000500000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000032000000000000000000000000000000000000000000000000000000000000006400000000000000000000000000000000000000000000000000000000000000dc000000000000000000000000000000000000000000000000000000000000013400000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e0000000000000000000000000000000000000000000000000000000000000012000000000000000000000000000000000000000000000000000000000000001600000000000000000000000007fc66500c84a76ad7e9c93437bfc5ac33e2ddae90000000000000000000000000000000000000000000000000000000000000001020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000002f68417a18da681589f4ea64b9cc9839209acff700000000000000000000000000000000000000000000000000000000000000010000000000000000000027105ab53ee1d50eef2c1dd3d5402789cd27bb52c1bb00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007fc66500c84a76ad7e9c93437bfc5ac33e2ddae9000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000000000000000000000000000000000000000bb80000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e0000000000000000000000000000000000000000000000000000000000000012000000000000000000000000000000000000000000000000000000000000001600000000000000000000000007fc66500c84a76ad7e9c93437bfc5ac33e2ddae90000000000000000000000000000000000000000000000000000000000000001010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000002f68417a18da681589f4ea64b9cc9839209acff70000000000000000000000000000000000000000000000000000000000000001000000000000000000002710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000012000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007fc66500c84a76ad7e9c93437bfc5ac33e2ddae90000000000000000000000000000000000000000000000000000000000000bb8000000000000000000000000000000000000000000000000000000000000003c00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000340000000000000000000000000000000000000000000000000000000000000052000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e0000000000000000000000000000000000000000000000000000000000000012000000000000000000000000000000000000000000000000000000000000001600000000000000000000000007fc66500c84a76ad7e9c93437bfc5ac33e2ddae90000000000000000000000000000000000000000000000000000000000000001010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000002f68417a18da681589f4ea64b9cc9839209acff7000000000000000000000000000000000000000000000000000000000000000100000000000000000000271000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000001200000000000000000000000007fc66500c84a76ad7e9c93437bfc5ac33e2ddae9000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb480000000000000000000000000000000000000000000000000000000000000bb8000000000000000000000000000000000000000000000000000000000000003c0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000000000000000000000000000000000000000000100000000000000000000000037cfcc3877cf8854742922c3416c20c8fd3916b2000000000000000000000000000000000000000000000000000000000000000100000000000000000000000037cfcc3877cf8854742922c3416c20c8fd3916b20000000000000000000000000000000000000000000000000000000000000001000000000000000000002710667701e51b4d1ca244f17c78f7ab8744b4c99f9b000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000020000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb4800000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000dac17f958d2ee523a2206206994597c13d831ec70000000000000000000000000000000000000000000000000000000000000001020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000002f68417a18da681589f4ea64b9cc9839209acff700000000000000000000000000000000000000000000000000000000000000010000000000000000000027104e68ccd3e89f51c3074ca5072bbac773960dfa360000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000dac17f958d2ee523a2206206994597c13d831ec7000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000000000000000000000000000000000000000bb800000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000032000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e0000000000000000000000000000000000000000000000000000000000000012000000000000000000000000000000000000000000000000000000000000001600000000000000000000000007fc66500c84a76ad7e9c93437bfc5ac33e2ddae90000000000000000000000000000000000000000000000000000000000000001010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000002f68417a18da681589f4ea64b9cc9839209acff7000000000000000000000000000000000000000000000000000000000000000100000000000000000000271000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000001200000000000000000000000001f9840a85d5af5bf1d1762f925bdaddc4201f9840000000000000000000000007fc66500c84a76ad7e9c93437bfc5ac33e2ddae90000000000000000000000000000000000000000000000000000000000000bb8000000000000000000000000000000000000000000000000000000000000003c0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e0000000000000000000000000000000000000000000000000000000000000012000000000000000000000000000000000000000000000000000000000000001600000000000000000000000001f9840a85d5af5bf1d1762f925bdaddc4201f9840000000000000000000000000000000000000000000000000000000000000001020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000002f68417a18da681589f4ea64b9cc9839209acff700000000000000000000000000000000000000000000000000000000000000010000000000000000000027101d42064fc4beb5f8aaf85f4617ae8b3b5b8bd80100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001f9840a85d5af5bf1d1762f925bdaddc4201f984000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000000000000000000000000000000000000000bb800000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000028000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e0000000000000000000000000000000000000000000000000000000000000012000000000000000000000000000000000000000000000000000000000000001600000000000000000000000007fc66500c84a76ad7e9c93437bfc5ac33e2ddae90000000000000000000000000000000000000000000000000000000000000001020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000002f68417a18da681589f4ea64b9cc9839209acff7000000000000000000000000000000000000000000000000000000000000000100000000000000000000271059c38b6775ded821f010dbd30ecabdcf84e0475600000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007fc66500c84a76ad7e9c93437bfc5ac33e2ddae90000000000000000000000001f9840a85d5af5bf1d1762f925bdaddc4201f9840000000000000000000000000000000000000000000000000000000000000bb800000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e0000000000000000000000000000000000000000000000000000000000000012000000000000000000000000000000000000000000000000000000000000001600000000000000000000000001f9840a85d5af5bf1d1762f925bdaddc4201f9840000000000000000000000000000000000000000000000000000000000000001020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000002f68417a18da681589f4ea64b9cc9839209acff700000000000000000000000000000000000000000000000000000000000000010000000000000000000027101d42064fc4beb5f8aaf85f4617ae8b3b5b8bd80100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001f9840a85d5af5bf1d1762f925bdaddc4201f984000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000000000000000000000000000000000000000bb8",
+    "priority_fee": "7701354700847388"
+  }
+}

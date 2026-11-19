@@ -1,0 +1,38 @@
+{
+  "step": "2.4A",
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "structured_files_screened": 3003,
+  "source_status_counts": {
+    "NO_RECOGNIZED_TRACE_OBJECT": 2962,
+    "TRACE_CANDIDATES_FOUND": 30,
+    "EXCLUDED_SIMULATION": 11
+  },
+  "trace_observations": 2067,
+  "trace_type_counts": {
+    "BLOCKSCOUT_SHAPED_INTERNAL": 1860,
+    "CALL_TRACER_SHAPED_FRAME": 207
+  },
+  "trace_disposition_counts": {
+    "POSITIVE_INTERNAL_CALL_CANDIDATE": 1135,
+    "ZERO_VALUE_FRAME": 325,
+    "NON_TRANSFER_CALL_TYPE": 599,
+    "FAILED_FRAME_OR_ANCESTOR": 7,
+    "INCOMPLETE_TRACE_REVIEW": 1
+  },
+  "alchemy_internal_queue": 1149,
+  "blockscout_shaped_input_objects": 1860,
+  "blockscout_objects_represented": 1860,
+  "blockscout_pending_objects": 0,
+  "unsupported_trace_references": 0,
+  "envelope_overlap_candidates": 0,
+  "missing_trace_tx_hash": 207,
+  "missing_trace_chain_id": 2067,
+  "extraction_exceptions": 0,
+  "full_trace_ancestry_verified": false,
+  "provider_crosswalk_complete": false,
+  "global_simulation_detection_complete": false,
+  "canonical_event_identity_approved": false,
+  "incident_attribution_verified": false,
+  "internal_extraction_complete": false,
+  "map_ready": false
+}

@@ -1,0 +1,5027 @@
+{
+  "provider": "BLOCKSCOUT",
+  "network_context": "ETHEREUM_MAINNET_ENDPOINT",
+  "queried_at_utc": "2026-11-19T10:41:00.884908+00:00",
+  "endpoint": "/transactions/0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041/internal-transactions",
+  "params": {},
+  "response": {
+    "items": [
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "3349382",
+        "index": 1,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xfB10Ebf252Cf258babBEF969B0c739507dD9Da4B",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "Aggregator",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "3281490",
+        "index": 2,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x88291350eFba59C6482B1F53D224Ed8eEe59a604",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SwapExecutor",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "3226300",
+        "index": 3,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "3174736",
+        "index": 4,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "3124785",
+        "index": 5,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xfB10Ebf252Cf258babBEF969B0c739507dD9Da4B",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "Aggregator",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "3074673",
+        "index": 6,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x88291350eFba59C6482B1F53D224Ed8eEe59a604",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SwapExecutor",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "3024050",
+        "index": 7,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2973404",
+        "index": 8,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
+          "implementations": [
+            {
+              "address_hash": "0x9747a0d261c2d56Eb93f542068e5d1E23170fa9e",
+              "name": "StablecoinUpgradeableV2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "RLUSD, issued by Standard Custody & Trust Company, LLC, a wholly owned Ripple subsidiary, is the USD-backed stablecoin created with trust and compliance at its core. RLUSD is purpose-built for cross-border payments and delivers reliable access to digital dollars.",
+                  "tooltipUrl": "https://ripple.com/solutions/stablecoin/"
+                },
+                "name": "Ripple: RLUSD Token",
+                "ordinal": 10,
+                "slug": "ripple-rlusd-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "RLUSD",
+                "ordinal": 0,
+                "slug": "rlusd",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Ripple",
+                "ordinal": 0,
+                "slug": "ripple",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "StablecoinProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
+          "implementations": [
+            {
+              "address_hash": "0x9747a0d261c2d56Eb93f542068e5d1E23170fa9e",
+              "name": "StablecoinUpgradeableV2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "RLUSD, issued by Standard Custody & Trust Company, LLC, a wholly owned Ripple subsidiary, is the USD-backed stablecoin created with trust and compliance at its core. RLUSD is purpose-built for cross-border payments and delivers reliable access to digital dollars.",
+                  "tooltipUrl": "https://ripple.com/solutions/stablecoin/"
+                },
+                "name": "Ripple: RLUSD Token",
+                "ordinal": 10,
+                "slug": "ripple-rlusd-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "RLUSD",
+                "ordinal": 0,
+                "slug": "rlusd",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Ripple",
+                "ordinal": 0,
+                "slug": "ripple",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "StablecoinProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2922119",
+        "index": 9,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x9747a0d261c2d56Eb93f542068e5d1E23170fa9e",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "StablecoinUpgradeableV2",
+                "ordinal": 0,
+                "slug": "stablecoinupgradeablev2",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "StablecoinUpgradeableV2",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "3011976",
+        "index": 10,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
+          "implementations": [
+            {
+              "address_hash": "0x9747a0d261c2d56Eb93f542068e5d1E23170fa9e",
+              "name": "StablecoinUpgradeableV2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "RLUSD, issued by Standard Custody & Trust Company, LLC, a wholly owned Ripple subsidiary, is the USD-backed stablecoin created with trust and compliance at its core. RLUSD is purpose-built for cross-border payments and delivers reliable access to digital dollars.",
+                  "tooltipUrl": "https://ripple.com/solutions/stablecoin/"
+                },
+                "name": "Ripple: RLUSD Token",
+                "ordinal": 10,
+                "slug": "ripple-rlusd-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "RLUSD",
+                "ordinal": 0,
+                "slug": "rlusd",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Ripple",
+                "ordinal": 0,
+                "slug": "ripple",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "StablecoinProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
+          "implementations": [
+            {
+              "address_hash": "0x9747a0d261c2d56Eb93f542068e5d1E23170fa9e",
+              "name": "StablecoinUpgradeableV2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "RLUSD, issued by Standard Custody & Trust Company, LLC, a wholly owned Ripple subsidiary, is the USD-backed stablecoin created with trust and compliance at its core. RLUSD is purpose-built for cross-border payments and delivers reliable access to digital dollars.",
+                  "tooltipUrl": "https://ripple.com/solutions/stablecoin/"
+                },
+                "name": "Ripple: RLUSD Token",
+                "ordinal": 10,
+                "slug": "ripple-rlusd-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "RLUSD",
+                "ordinal": 0,
+                "slug": "rlusd",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Ripple",
+                "ordinal": 0,
+                "slug": "ripple",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "StablecoinProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2964509",
+        "index": 11,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x9747a0d261c2d56Eb93f542068e5d1E23170fa9e",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "StablecoinUpgradeableV2",
+                "ordinal": 0,
+                "slug": "stablecoinupgradeablev2",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "StablecoinUpgradeableV2",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2989835",
+        "index": 12,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2942330",
+        "index": 13,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
+          "implementations": [
+            {
+              "address_hash": "0x9747a0d261c2d56Eb93f542068e5d1E23170fa9e",
+              "name": "StablecoinUpgradeableV2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "RLUSD, issued by Standard Custody & Trust Company, LLC, a wholly owned Ripple subsidiary, is the USD-backed stablecoin created with trust and compliance at its core. RLUSD is purpose-built for cross-border payments and delivers reliable access to digital dollars.",
+                  "tooltipUrl": "https://ripple.com/solutions/stablecoin/"
+                },
+                "name": "Ripple: RLUSD Token",
+                "ordinal": 10,
+                "slug": "ripple-rlusd-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "RLUSD",
+                "ordinal": 0,
+                "slug": "rlusd",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Ripple",
+                "ordinal": 0,
+                "slug": "ripple",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "StablecoinProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
+          "implementations": [
+            {
+              "address_hash": "0x9747a0d261c2d56Eb93f542068e5d1E23170fa9e",
+              "name": "StablecoinUpgradeableV2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "RLUSD, issued by Standard Custody & Trust Company, LLC, a wholly owned Ripple subsidiary, is the USD-backed stablecoin created with trust and compliance at its core. RLUSD is purpose-built for cross-border payments and delivers reliable access to digital dollars.",
+                  "tooltipUrl": "https://ripple.com/solutions/stablecoin/"
+                },
+                "name": "Ripple: RLUSD Token",
+                "ordinal": 10,
+                "slug": "ripple-rlusd-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "RLUSD",
+                "ordinal": 0,
+                "slug": "rlusd",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Ripple",
+                "ordinal": 0,
+                "slug": "ripple",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "StablecoinProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2895960",
+        "index": 14,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x9747a0d261c2d56Eb93f542068e5d1E23170fa9e",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "StablecoinUpgradeableV2",
+                "ordinal": 0,
+                "slug": "stablecoinupgradeablev2",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "StablecoinUpgradeableV2",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2985475",
+        "index": 15,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2927753",
+        "index": 16,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2878091",
+        "index": 17,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+          "implementations": [
+            {
+              "address_hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+              "name": "Usds"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Sky enables users to get rewarded for non-custodial saving.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: USDS Token",
+                "ordinal": 10,
+                "slug": "sky-usds-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USDS",
+                "ordinal": 0,
+                "slug": "usds",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+          "implementations": [
+            {
+              "address_hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+              "name": "Usds"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Sky enables users to get rewarded for non-custodial saving.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: USDS Token",
+                "ordinal": 10,
+                "slug": "sky-usds-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USDS",
+                "ordinal": 0,
+                "slug": "usds",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2828342",
+        "index": 18,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "Usds Imp",
+                "ordinal": 0,
+                "slug": "usds-imp",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "Usds",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "3134811",
+        "index": 19,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+          "implementations": [
+            {
+              "address_hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+              "name": "Usds"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Sky enables users to get rewarded for non-custodial saving.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: USDS Token",
+                "ordinal": 10,
+                "slug": "sky-usds-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USDS",
+                "ordinal": 0,
+                "slug": "usds",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+          "implementations": [
+            {
+              "address_hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+              "name": "Usds"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Sky enables users to get rewarded for non-custodial saving.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: USDS Token",
+                "ordinal": 10,
+                "slug": "sky-usds-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USDS",
+                "ordinal": 0,
+                "slug": "usds",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "3085484",
+        "index": 20,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "Usds Imp",
+                "ordinal": 0,
+                "slug": "usds-imp",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "Usds",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "3129015",
+        "index": 21,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x88291350eFba59C6482B1F53D224Ed8eEe59a604",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SwapExecutor",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "3078669",
+        "index": 22,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "3029412",
+        "index": 23,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2981731",
+        "index": 24,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xfB10Ebf252Cf258babBEF969B0c739507dD9Da4B",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "Aggregator",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2933854",
+        "index": 25,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x88291350eFba59C6482B1F53D224Ed8eEe59a604",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SwapExecutor",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2885419",
+        "index": 26,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2839400",
+        "index": 27,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+          "implementations": [
+            {
+              "address_hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+              "name": "Usds"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Sky enables users to get rewarded for non-custodial saving.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: USDS Token",
+                "ordinal": 10,
+                "slug": "sky-usds-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USDS",
+                "ordinal": 0,
+                "slug": "usds",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+          "implementations": [
+            {
+              "address_hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+              "name": "Usds"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Sky enables users to get rewarded for non-custodial saving.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: USDS Token",
+                "ordinal": 10,
+                "slug": "sky-usds-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USDS",
+                "ordinal": 0,
+                "slug": "usds",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2794688",
+        "index": 28,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "Usds Imp",
+                "ordinal": 0,
+                "slug": "usds-imp",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "Usds",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2882552",
+        "index": 29,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+          "implementations": [
+            {
+              "address_hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+              "name": "Usds"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Sky enables users to get rewarded for non-custodial saving.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: USDS Token",
+                "ordinal": 10,
+                "slug": "sky-usds-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USDS",
+                "ordinal": 0,
+                "slug": "usds",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+          "implementations": [
+            {
+              "address_hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+              "name": "Usds"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Sky enables users to get rewarded for non-custodial saving.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: USDS Token",
+                "ordinal": 10,
+                "slug": "sky-usds-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USDS",
+                "ordinal": 0,
+                "slug": "usds",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2837163",
+        "index": 30,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "Usds Imp",
+                "ordinal": 0,
+                "slug": "usds-imp",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "Usds",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2878933",
+        "index": 31,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2833161",
+        "index": 32,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+          "implementations": [
+            {
+              "address_hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+              "name": "Usds"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Sky enables users to get rewarded for non-custodial saving.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: USDS Token",
+                "ordinal": 10,
+                "slug": "sky-usds-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USDS",
+                "ordinal": 0,
+                "slug": "usds",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+          "implementations": [
+            {
+              "address_hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+              "name": "Usds"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Sky enables users to get rewarded for non-custodial saving.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: USDS Token",
+                "ordinal": 10,
+                "slug": "sky-usds-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USDS",
+                "ordinal": 0,
+                "slug": "usds",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2788547",
+        "index": 33,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "Usds Imp",
+                "ordinal": 0,
+                "slug": "usds-imp",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "Usds",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2874891",
+        "index": 34,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2818746",
+        "index": 35,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2770787",
+        "index": 36,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Tether",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0xca4f86e999bee421567b4e8a094a7dff96fa821e9023a63b87f12b64d2356094@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmZF9JKGaGfT7LsARQaFdUUATDha4Ecx9PziFu2M8ifFmR/Bce2S3tXG2WL6pLnJAyHJyQ9B1MenRPiFnSVsNBgGXyWiNKTgcnTFcFjCcB9ujE5tJG7CjurLSL6XHoPQfu3Re4tqJ\",\"token_symbol\":\"USDT\",\"token_name\":\"Tether\",\"decimals\":6}",
+                  "tooltipDescription": "The contract of Tether (USDT) stablecoin.",
+                  "tooltipUrl": "https://tether.to",
+                  "verifiedDomains": [
+                    "app.mav.xyz",
+                    "www.sushi.com",
+                    "apeswap.finance",
+                    "app.firebird.finance",
+                    "app.uniswap.org",
+                    "swap.defillama.com",
+                    "swapr.eth.limo",
+                    "stackly.eth.limo",
+                    "traderjoexyz.com"
+                  ]
+                },
+                "name": "USDT Stablecoin",
+                "ordinal": 10,
+                "slug": "usdt-stablecoin-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+                },
+                "name": "BLOCKED",
+                "ordinal": 0,
+                "slug": "blocked",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USDT",
+                "ordinal": 0,
+                "slug": "usdt",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Tether",
+                "ordinal": 0,
+                "slug": "tether",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "TetherToken",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "3007595",
+        "index": 37,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Tether",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0xca4f86e999bee421567b4e8a094a7dff96fa821e9023a63b87f12b64d2356094@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmZF9JKGaGfT7LsARQaFdUUATDha4Ecx9PziFu2M8ifFmR/Bce2S3tXG2WL6pLnJAyHJyQ9B1MenRPiFnSVsNBgGXyWiNKTgcnTFcFjCcB9ujE5tJG7CjurLSL6XHoPQfu3Re4tqJ\",\"token_symbol\":\"USDT\",\"token_name\":\"Tether\",\"decimals\":6}",
+                  "tooltipDescription": "The contract of Tether (USDT) stablecoin.",
+                  "tooltipUrl": "https://tether.to",
+                  "verifiedDomains": [
+                    "app.mav.xyz",
+                    "www.sushi.com",
+                    "apeswap.finance",
+                    "app.firebird.finance",
+                    "app.uniswap.org",
+                    "swap.defillama.com",
+                    "swapr.eth.limo",
+                    "stackly.eth.limo",
+                    "traderjoexyz.com"
+                  ]
+                },
+                "name": "USDT Stablecoin",
+                "ordinal": 10,
+                "slug": "usdt-stablecoin-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+                },
+                "name": "BLOCKED",
+                "ordinal": 0,
+                "slug": "blocked",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USDT",
+                "ordinal": 0,
+                "slug": "usdt",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Tether",
+                "ordinal": 0,
+                "slug": "tether",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "TetherToken",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "3003839",
+        "index": 38,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x88291350eFba59C6482B1F53D224Ed8eEe59a604",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SwapExecutor",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2952658",
+        "index": 39,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x4e68Ccd3E89f51C3074ca5072bbAC773960dFa36",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between WETH and USDT.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0x4e68ccd3e89f51c3074ca5072bbac773960dfa36"
+                },
+                "name": "Uniswap V3: \u55b5\u55b5\u55b5\u55b5\u55b5-USDT",
+                "ordinal": 10,
+                "slug": "uniswap-v3-usdt",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x4e68Ccd3E89f51C3074ca5072bbAC773960dFa36",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between WETH and USDT.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0x4e68ccd3e89f51c3074ca5072bbac773960dfa36"
+                },
+                "name": "Uniswap V3: \u55b5\u55b5\u55b5\u55b5\u55b5-USDT",
+                "ordinal": 10,
+                "slug": "uniswap-v3-usdt",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2789056",
+        "index": 40,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Wrapped Ether",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0xe27ff4957dc5c9bb33feafde33089e0c03fb4999f3e8d01f4720334161a17224@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmRyTdB5Cc7zH7G4YwWs7jh98zNGLQN1NfJ8KTWTXikhcP/WETH\",\"token_symbol\":\"WETH\",\"token_name\":\"WETH\",\"decimals\":18}",
+                  "tooltipDescription": "wETH is wrapped ETH which confroms to the ERC20 standard",
+                  "tooltipUrl": "https://weth.io/",
+                  "verifiedDomains": [
+                    "traderjoexyz.com",
+                    "app.mav.xyz",
+                    "core.app",
+                    "shibaswap.com",
+                    "app.dodoex.io",
+                    "app.uniswap.org",
+                    "explorer.reservoir.tools",
+                    "pancakeswap.finance",
+                    "swapr.eth.limo"
+                  ]
+                },
+                "name": "WETH Token (v2)",
+                "ordinal": 10,
+                "slug": "weth-token-v2",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Wrapped Token",
+                "ordinal": 0,
+                "slug": "wrapped-token",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "main_entity": "Wrapped",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://weth.io/"
+                },
+                "name": "Wrapped Ether",
+                "ordinal": 0,
+                "slug": "wrapped-ether",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "WETH9",
+                "ordinal": 0,
+                "slug": "weth9",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "WETH9",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x4e68Ccd3E89f51C3074ca5072bbAC773960dFa36",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between WETH and USDT.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0x4e68ccd3e89f51c3074ca5072bbac773960dfa36"
+                },
+                "name": "Uniswap V3: \u55b5\u55b5\u55b5\u55b5\u55b5-USDT",
+                "ordinal": 10,
+                "slug": "uniswap-v3-usdt",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2758692",
+        "index": 41,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Tether",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0xca4f86e999bee421567b4e8a094a7dff96fa821e9023a63b87f12b64d2356094@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmZF9JKGaGfT7LsARQaFdUUATDha4Ecx9PziFu2M8ifFmR/Bce2S3tXG2WL6pLnJAyHJyQ9B1MenRPiFnSVsNBgGXyWiNKTgcnTFcFjCcB9ujE5tJG7CjurLSL6XHoPQfu3Re4tqJ\",\"token_symbol\":\"USDT\",\"token_name\":\"Tether\",\"decimals\":6}",
+                  "tooltipDescription": "The contract of Tether (USDT) stablecoin.",
+                  "tooltipUrl": "https://tether.to",
+                  "verifiedDomains": [
+                    "app.mav.xyz",
+                    "www.sushi.com",
+                    "apeswap.finance",
+                    "app.firebird.finance",
+                    "app.uniswap.org",
+                    "swap.defillama.com",
+                    "swapr.eth.limo",
+                    "stackly.eth.limo",
+                    "traderjoexyz.com"
+                  ]
+                },
+                "name": "USDT Stablecoin",
+                "ordinal": 10,
+                "slug": "usdt-stablecoin-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+                },
+                "name": "BLOCKED",
+                "ordinal": 0,
+                "slug": "blocked",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USDT",
+                "ordinal": 0,
+                "slug": "usdt",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Tether",
+                "ordinal": 0,
+                "slug": "tether",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "TetherToken",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x4e68Ccd3E89f51C3074ca5072bbAC773960dFa36",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between WETH and USDT.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0x4e68ccd3e89f51c3074ca5072bbac773960dfa36"
+                },
+                "name": "Uniswap V3: \u55b5\u55b5\u55b5\u55b5\u55b5-USDT",
+                "ordinal": 10,
+                "slug": "uniswap-v3-usdt",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2754917",
+        "index": 42,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2711567",
+        "index": 43,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xfB10Ebf252Cf258babBEF969B0c739507dD9Da4B",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "Aggregator",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2668005",
+        "index": 44,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x88291350eFba59C6482B1F53D224Ed8eEe59a604",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SwapExecutor",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2623887",
+        "index": 45,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Tether",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0xca4f86e999bee421567b4e8a094a7dff96fa821e9023a63b87f12b64d2356094@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmZF9JKGaGfT7LsARQaFdUUATDha4Ecx9PziFu2M8ifFmR/Bce2S3tXG2WL6pLnJAyHJyQ9B1MenRPiFnSVsNBgGXyWiNKTgcnTFcFjCcB9ujE5tJG7CjurLSL6XHoPQfu3Re4tqJ\",\"token_symbol\":\"USDT\",\"token_name\":\"Tether\",\"decimals\":6}",
+                  "tooltipDescription": "The contract of Tether (USDT) stablecoin.",
+                  "tooltipUrl": "https://tether.to",
+                  "verifiedDomains": [
+                    "app.mav.xyz",
+                    "www.sushi.com",
+                    "apeswap.finance",
+                    "app.firebird.finance",
+                    "app.uniswap.org",
+                    "swap.defillama.com",
+                    "swapr.eth.limo",
+                    "stackly.eth.limo",
+                    "traderjoexyz.com"
+                  ]
+                },
+                "name": "USDT Stablecoin",
+                "ordinal": 10,
+                "slug": "usdt-stablecoin-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+                },
+                "name": "BLOCKED",
+                "ordinal": 0,
+                "slug": "blocked",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USDT",
+                "ordinal": 0,
+                "slug": "usdt",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Tether",
+                "ordinal": 0,
+                "slug": "tether",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "TetherToken",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x4e68Ccd3E89f51C3074ca5072bbAC773960dFa36",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between WETH and USDT.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0x4e68ccd3e89f51c3074ca5072bbac773960dfa36"
+                },
+                "name": "Uniswap V3: \u55b5\u55b5\u55b5\u55b5\u55b5-USDT",
+                "ordinal": 10,
+                "slug": "uniswap-v3-usdt",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2740562",
+        "index": 46,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Tether",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0xca4f86e999bee421567b4e8a094a7dff96fa821e9023a63b87f12b64d2356094@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmZF9JKGaGfT7LsARQaFdUUATDha4Ecx9PziFu2M8ifFmR/Bce2S3tXG2WL6pLnJAyHJyQ9B1MenRPiFnSVsNBgGXyWiNKTgcnTFcFjCcB9ujE5tJG7CjurLSL6XHoPQfu3Re4tqJ\",\"token_symbol\":\"USDT\",\"token_name\":\"Tether\",\"decimals\":6}",
+                  "tooltipDescription": "The contract of Tether (USDT) stablecoin.",
+                  "tooltipUrl": "https://tether.to",
+                  "verifiedDomains": [
+                    "app.mav.xyz",
+                    "www.sushi.com",
+                    "apeswap.finance",
+                    "app.firebird.finance",
+                    "app.uniswap.org",
+                    "swap.defillama.com",
+                    "swapr.eth.limo",
+                    "stackly.eth.limo",
+                    "traderjoexyz.com"
+                  ]
+                },
+                "name": "USDT Stablecoin",
+                "ordinal": 10,
+                "slug": "usdt-stablecoin-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+                },
+                "name": "BLOCKED",
+                "ordinal": 0,
+                "slug": "blocked",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USDT",
+                "ordinal": 0,
+                "slug": "usdt",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Tether",
+                "ordinal": 0,
+                "slug": "tether",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "TetherToken",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2821417",
+        "index": 47,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
+          "implementations": [
+            {
+              "address_hash": "0x9747a0d261c2d56Eb93f542068e5d1E23170fa9e",
+              "name": "StablecoinUpgradeableV2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "RLUSD, issued by Standard Custody & Trust Company, LLC, a wholly owned Ripple subsidiary, is the USD-backed stablecoin created with trust and compliance at its core. RLUSD is purpose-built for cross-border payments and delivers reliable access to digital dollars.",
+                  "tooltipUrl": "https://ripple.com/solutions/stablecoin/"
+                },
+                "name": "Ripple: RLUSD Token",
+                "ordinal": 10,
+                "slug": "ripple-rlusd-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "RLUSD",
+                "ordinal": 0,
+                "slug": "rlusd",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Ripple",
+                "ordinal": 0,
+                "slug": "ripple",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "StablecoinProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
+          "implementations": [
+            {
+              "address_hash": "0x9747a0d261c2d56Eb93f542068e5d1E23170fa9e",
+              "name": "StablecoinUpgradeableV2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "RLUSD, issued by Standard Custody & Trust Company, LLC, a wholly owned Ripple subsidiary, is the USD-backed stablecoin created with trust and compliance at its core. RLUSD is purpose-built for cross-border payments and delivers reliable access to digital dollars.",
+                  "tooltipUrl": "https://ripple.com/solutions/stablecoin/"
+                },
+                "name": "Ripple: RLUSD Token",
+                "ordinal": 10,
+                "slug": "ripple-rlusd-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "RLUSD",
+                "ordinal": 0,
+                "slug": "rlusd",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Ripple",
+                "ordinal": 0,
+                "slug": "ripple",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "StablecoinProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2776927",
+        "index": 48,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x9747a0d261c2d56Eb93f542068e5d1E23170fa9e",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "StablecoinUpgradeableV2",
+                "ordinal": 0,
+                "slug": "stablecoinupgradeablev2",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "StablecoinUpgradeableV2",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2789827",
+        "index": 49,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xb2983625f32BF1fc358181b3382Cb53bBd076Cd6",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "CurveAdapter",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xb2983625f32BF1fc358181b3382Cb53bBd076Cd6",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "CurveAdapter",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2744832",
+        "index": 50,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
+          "implementations": [
+            {
+              "address_hash": "0x9747a0d261c2d56Eb93f542068e5d1E23170fa9e",
+              "name": "StablecoinUpgradeableV2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "RLUSD, issued by Standard Custody & Trust Company, LLC, a wholly owned Ripple subsidiary, is the USD-backed stablecoin created with trust and compliance at its core. RLUSD is purpose-built for cross-border payments and delivers reliable access to digital dollars.",
+                  "tooltipUrl": "https://ripple.com/solutions/stablecoin/"
+                },
+                "name": "Ripple: RLUSD Token",
+                "ordinal": 10,
+                "slug": "ripple-rlusd-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "RLUSD",
+                "ordinal": 0,
+                "slug": "rlusd",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Ripple",
+                "ordinal": 0,
+                "slug": "ripple",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "StablecoinProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "staticcall",
+        "value": "0"
+      }
+    ],
+    "meta": {
+      "message": null,
+      "status": 1
+    },
+    "next_page_params": {
+      "index": 50,
+      "block_number": 26301179,
+      "transaction_index": 0,
+      "include_zero_value": true
+    }
+  }
+}

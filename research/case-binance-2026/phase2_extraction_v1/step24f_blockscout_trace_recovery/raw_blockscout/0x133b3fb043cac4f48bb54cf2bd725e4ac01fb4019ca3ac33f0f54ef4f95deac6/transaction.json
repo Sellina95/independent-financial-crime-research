@@ -1,0 +1,1250 @@
+{
+  "provider": "BLOCKSCOUT",
+  "network_context": "ETHEREUM_MAINNET_ENDPOINT",
+  "queried_at_utc": "2026-11-19T10:40:38.419570+00:00",
+  "endpoint": "/transactions/0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+  "params": {},
+  "response": {
+    "has_error_in_internal_transactions": false,
+    "block_number": 26301189,
+    "exchange_rate": "1803.31",
+    "transaction_types": [
+      "contract_call",
+      "token_transfer"
+    ],
+    "historic_exchange_rate": "2249.4767252054453",
+    "nonce": 6,
+    "timestamp": "2026-10-29T21:48:35.000000Z",
+    "base_fee_per_gas": "31027864473",
+    "token_transfers": [
+      {
+        "block_hash": "0xed89635ecd76bec3a498d7d7596ef71b78199216e3a7b7634a8aab50990a0a62",
+        "block_number": 26301189,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xE7024aB80143b1EF843EFE6a58368696Cb87958d",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 0,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
+          "circulating_market_cap": "2796741493",
+          "circulating_supply": "2796488317.9206543",
+          "decimals": "18",
+          "exchange_rate": "1.0",
+          "holders_count": "13319",
+          "icon_url": "https://assets.coingecko.com/coins/images/39651/small/RLUSD_200x200_%281%29.png?1727376633",
+          "name": "Ripple USD",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "RLUSD",
+          "total_supply": "2073990325302889529286669761",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "350955979"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "ui_multiplier": null,
+          "value": "10000000000000000000000000"
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xed89635ecd76bec3a498d7d7596ef71b78199216e3a7b7634a8aab50990a0a62",
+        "block_number": 26301189,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 2,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xD001aE433f254283FeCE51d4ACcE8c53263aa186",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipUrl": "https://curve.fi"
+                },
+                "name": "Curve: RLUSD/USDC Pool",
+                "ordinal": 10,
+                "slug": "curve-rlusdusdc-pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "CurveStableSwapNG",
+                "ordinal": 0,
+                "slug": "curvestableswapng",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "alertStatus": "info",
+                  "data": "Curve's RLUSD/USDC (RLUSD/USDC) pool contract. This nametag was submitted by Kleros Scout.\""
+                },
+                "name": "note_0",
+                "ordinal": 0,
+                "slug": "note0",
+                "tagType": "note"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Curve",
+                  "appID": "curve"
+                },
+                "name": "Curve",
+                "ordinal": 0,
+                "slug": "curve",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "CurveStableSwapNG",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
+          "circulating_market_cap": "2796741493",
+          "circulating_supply": "2796488317.9206543",
+          "decimals": "18",
+          "exchange_rate": "1.0",
+          "holders_count": "13319",
+          "icon_url": "https://assets.coingecko.com/coins/images/39651/small/RLUSD_200x200_%281%29.png?1727376633",
+          "name": "Ripple USD",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "RLUSD",
+          "total_supply": "2073990325302889529286669761",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "350955979"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "ui_multiplier": null,
+          "value": "10000000000000000000000000"
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xed89635ecd76bec3a498d7d7596ef71b78199216e3a7b7634a8aab50990a0a62",
+        "block_number": 26301189,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xD001aE433f254283FeCE51d4ACcE8c53263aa186",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipUrl": "https://curve.fi"
+                },
+                "name": "Curve: RLUSD/USDC Pool",
+                "ordinal": 10,
+                "slug": "curve-rlusdusdc-pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "CurveStableSwapNG",
+                "ordinal": 0,
+                "slug": "curvestableswapng",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "alertStatus": "info",
+                  "data": "Curve's RLUSD/USDC (RLUSD/USDC) pool contract. This nametag was submitted by Kleros Scout.\""
+                },
+                "name": "note_0",
+                "ordinal": 0,
+                "slug": "note0",
+                "tagType": "note"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Curve",
+                  "appID": "curve"
+                },
+                "name": "Curve",
+                "ordinal": 0,
+                "slug": "curve",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "CurveStableSwapNG",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 3,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "68231387996",
+          "circulating_supply": "68258542626.86399",
+          "decimals": "6",
+          "exchange_rate": "0.999611",
+          "holders_count": "9608555",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "44455458487948366",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "13730880376"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "ui_multiplier": null,
+          "value": "9985353812552"
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xed89635ecd76bec3a498d7d7596ef71b78199216e3a7b7634a8aab50990a0a62",
+        "block_number": 26301189,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x99ac8cA7087fA4A2A1FB6357269965A2014ABc35",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between WBTC and USDC.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0x99ac8ca7087fa4a2a1fb6357269965a2014abc35"
+                },
+                "name": "Uniswap V3: WBTC-USDC",
+                "ordinal": 10,
+                "slug": "uniswap-v3-wbtcusdc",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 6,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+          "circulating_market_cap": "7395976936",
+          "circulating_supply": "116132.18373262",
+          "decimals": "8",
+          "exchange_rate": "63681",
+          "holders_count": "207917",
+          "icon_url": "https://assets.coingecko.com/coins/images/7598/small/WBTCLOGO.png?1764496367",
+          "name": "Wrapped Bitcoin",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "WBTC",
+          "total_supply": "11613218373262",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "145524659"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "8",
+          "ui_multiplier": null,
+          "value": "202878134"
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xed89635ecd76bec3a498d7d7596ef71b78199216e3a7b7634a8aab50990a0a62",
+        "block_number": 26301189,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 7,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x99ac8cA7087fA4A2A1FB6357269965A2014ABc35",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between WBTC and USDC.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0x99ac8ca7087fa4a2a1fb6357269965a2014abc35"
+                },
+                "name": "Uniswap V3: WBTC-USDC",
+                "ordinal": 10,
+                "slug": "uniswap-v3-wbtcusdc",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "68231387996",
+          "circulating_supply": "68258542626.86399",
+          "decimals": "6",
+          "exchange_rate": "0.999611",
+          "holders_count": "9608555",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "44455458487948366",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "13730880376"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "ui_multiplier": null,
+          "value": "161204002955"
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xed89635ecd76bec3a498d7d7596ef71b78199216e3a7b7634a8aab50990a0a62",
+        "block_number": 26301189,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x5777d92f208679DB4b9778590Fa3CAB3aC9e2168",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between DAI and USDC.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0x5777d92f208679db4b9778590fa3cab3ac9e2168"
+                },
+                "name": "Uniswap V3: DAI-USDC 4",
+                "ordinal": 10,
+                "slug": "uniswap-v3-daiusdc-4",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 9,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+          "circulating_market_cap": "4408579352",
+          "circulating_supply": "4409122156.51318",
+          "decimals": "18",
+          "exchange_rate": "1.0",
+          "holders_count": "801860",
+          "icon_url": "https://assets.coingecko.com/coins/images/9956/small/Badge_Dai.png?1696509996",
+          "name": "Dai",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "DAI",
+          "total_supply": "4423220129442083320955153399",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "205431356"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "ui_multiplier": null,
+          "value": "644254792315783439004637"
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xed89635ecd76bec3a498d7d7596ef71b78199216e3a7b7634a8aab50990a0a62",
+        "block_number": 26301189,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 10,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x5777d92f208679DB4b9778590Fa3CAB3aC9e2168",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between DAI and USDC.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0x5777d92f208679db4b9778590fa3cab3ac9e2168"
+                },
+                "name": "Uniswap V3: DAI-USDC 4",
+                "ordinal": 10,
+                "slug": "uniswap-v3-daiusdc-4",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "68231387996",
+          "circulating_supply": "68258542626.86399",
+          "decimals": "6",
+          "exchange_rate": "0.999611",
+          "holders_count": "9608555",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "44455458487948366",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "13730880376"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "ui_multiplier": null,
+          "value": "644299929528"
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xed89635ecd76bec3a498d7d7596ef71b78199216e3a7b7634a8aab50990a0a62",
+        "block_number": 26301189,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 12,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V2 pool to exchange between USDC and WETH.",
+                  "tooltipUrl": "https://v2.info.uniswap.org/pair/0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc"
+                },
+                "name": "Uniswap V2: USDC",
+                "ordinal": 10,
+                "slug": "uniswap-v2-usdc",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV2Pair",
+                "ordinal": 0,
+                "slug": "uniswapv2pair",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V2",
+                "ordinal": 0,
+                "slug": "uniswap-v2",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV2Pair",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "68231387996",
+          "circulating_supply": "68258542626.86399",
+          "decimals": "6",
+          "exchange_rate": "0.999611",
+          "holders_count": "9608555",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "44455458487948366",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "13730880376"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "ui_multiplier": null,
+          "value": "160806708816"
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xed89635ecd76bec3a498d7d7596ef71b78199216e3a7b7634a8aab50990a0a62",
+        "block_number": 26301189,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V2 pool to exchange between USDC and WETH.",
+                  "tooltipUrl": "https://v2.info.uniswap.org/pair/0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc"
+                },
+                "name": "Uniswap V2: USDC",
+                "ordinal": 10,
+                "slug": "uniswap-v2-usdc",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV2Pair",
+                "ordinal": 0,
+                "slug": "uniswapv2pair",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V2",
+                "ordinal": 0,
+                "slug": "uniswap-v2",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV2Pair",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 13,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "circulating_market_cap": "3785704557",
+          "circulating_supply": "2103054.218095953",
+          "decimals": "18",
+          "exchange_rate": "1800.11",
+          "holders_count": "3352770",
+          "icon_url": "https://assets.coingecko.com/coins/images/2518/small/weth.png?1696503332",
+          "name": "WETH",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "WETH",
+          "total_supply": "2100438744906096975804912",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "285224463"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "ui_multiplier": null,
+          "value": "68680707878904141375"
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xed89635ecd76bec3a498d7d7596ef71b78199216e3a7b7634a8aab50990a0a62",
+        "block_number": 26301189,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xE0554a476A092703abdB3Ef35c80e0D76d32939F",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between USDC and WETH.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0xe0554a476a092703abdb3ef35c80e0d76d32939f"
+                },
+                "name": "Uniswap V3: USDC 4",
+                "ordinal": 10,
+                "slug": "uniswap-v3-usdc-4",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 16,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "circulating_market_cap": "3785704557",
+          "circulating_supply": "2103054.218095953",
+          "decimals": "18",
+          "exchange_rate": "1800.11",
+          "holders_count": "3352770",
+          "icon_url": "https://assets.coingecko.com/coins/images/2518/small/weth.png?1696503332",
+          "name": "WETH",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "WETH",
+          "total_supply": "2100438744906096975804912",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "285224463"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "ui_multiplier": null,
+          "value": "207165442438019497568"
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "type": "token_transfer"
+      }
+    ],
+    "fhe_operations_count": 0,
+    "decoded_input": {
+      "method_call": "snwap(address tokenIn, uint256 amountIn, address recipient, address tokenOut, uint256 amountOutMin, address executor, bytes executorData)",
+      "method_id": "5f3bd1c8",
+      "parameters": [
+        {
+          "name": "tokenIn",
+          "type": "address",
+          "value": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD"
+        },
+        {
+          "name": "amountIn",
+          "type": "uint256",
+          "value": "10000000000000000000000000"
+        },
+        {
+          "name": "recipient",
+          "type": "address",
+          "value": "0xE7024aB80143b1EF843EFE6a58368696Cb87958d"
+        },
+        {
+          "name": "tokenOut",
+          "type": "address",
+          "value": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"
+        },
+        {
+          "name": "amountOutMin",
+          "type": "uint256",
+          "value": "4256602741967812359475"
+        },
+        {
+          "name": "executor",
+          "type": "address",
+          "value": "0xB36599414542F6630d411485d968f25592cA9091"
+        },
+        {
+          "name": "executorData",
+          "type": "bytes",
+          "value": "0xdde6caf3000000000000000000000000de7259893af7cdbc9fd806c6ba61d22d581d5667000000000000000000000000000000000000000000000000cf7a9e717f983e000000000000000000000000008292bb45bf1ee4d140127049757c2e0ff06317ed000000000000000000000000000000000000000000084595161401484a000000000000000000000000000000eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000000000000000000000000000000000000e8b998baab25700000000000000000000000000000e7024ab80143b1ef843efe6a58368696cb87958d000000000000000000000000000000000000000000000000000000000000014000000000000000000000000000000000000000000000000000000000000003e80000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000095501a189a2a04c001d018292bb45bf1ee4d140127049757c2e0ff06317ed01ffff05000000000000000000000000000000000000000000000000000000000000003fd001ae433f254283fece51d4acce8c53263aa186000100b36599414542f6630d411485d968f25592ca9091a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48845944914e1c01a0b86991c6218b36c1d19d4a2e9eb0ce3606eb480e04220199ac8ca7087fa4a2a1fb6357269965a2014abc3500b36599414542f6630d411485d968f25592ca909100962216c17b0c10ca015777d92f208679db4b9778590fa3cab3ac9e216800b36599414542f6630d411485d968f25592ca909100960318886d40047c00b4e16d0168e52d35cacd2c6185b44281ec28c9dc01b36599414542f6630d411485d968f25592ca9091000bb895c316ee49320db401e0554a476a092703abdb3ef35c80e0d76d32939f01b36599414542f6630d411485d968f25592ca909100e0d017b3ab341cfc0188e6a0c2ddd26feeb64f039a2c41296fcb3f564001b36599414542f6630d411485d968f25592ca909100e10718b475352621018ad599c3a0ff1de082011efddc58f1908eb6e6d801b36599414542f6630d411485d968f25592ca909100834119d22535799e05000000000000000000000000000000000000000000000000000000000000003fbebc44782c7db0a1a60cb6fe97d0b483032ff1c7010102b36599414542f6630d411485d968f25592ca9091dac17f958d2ee523a2206206994597c13d831ec7b2261ab25b1a555f0b667701e51b4d1ca244f17c78f7ab8744b4c99f9b01b36599414542f6630d411485d968f25592ca9091834a198374192486013416cf6c708da44db2624d63ea0aaef7113527c601b36599414542f6630d411485d968f25592ca90910095bf1795e71715590104c8577958ccc170eb3d2cca76f9d51bc6e42d8f01b36599414542f6630d411485d968f25592ca909100961416964316174606000000000004444c5dc75cb358380d2e3de08a90dac17f958d2ee523a2206206994597c13d831ec70100000800000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b36599414542f6630d411485d968f25592ca909195f91696221699a106000000000004444c5dc75cb358380d2e3de08a90dac17f958d2ee523a2206206994597c13d831ec70100000700000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b36599414542f6630d411485d968f25592ca9091e0fe18e13b18c01206000000000004444c5dc75cb358380d2e3de08a90eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee00000bb800003c00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b36599414542f6630d411485d968f25592ca9091e0f617b41a34ffff06000000000004444c5dc75cb358380d2e3de08a90eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee000001f400000a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b36599414542f6630d411485d968f25592ca909195bf16ee2032016b175474e89094c44da98b954eedeac495271d0f023ffc01769db46f39c42ee7ad5f71f4167c47edd281e76701b36599414542f6630d411485d968f25592ca90910088653eefe132ffff05000000000000000000000000000000000000000000000000000000000000003fbebc44782c7db0a1a60cb6fe97d0b483032ff1c7010002b36599414542f6630d411485d968f25592ca9091dac17f958d2ee523a2206206994597c13d831ec7cca83fe1481701dac17f958d2ee523a2206206994597c13d831ec7062df60156534741cd8b152df6d48adf7ac51f75169a83b200b36599414542f6630d411485d968f25592ca909100837219a9760f07ff019db9e0e53058c89e5b94e29621a205198648425b00b36599414542f6630d411485d968f25592ca909100961916c1260c18c90111b815efb8f581194ae79006d24e0d814b7697f600b36599414542f6630d411485d968f25592ca909100e15d17b4f434edb5014e68ccd3e89f51c3074ca5072bbac773960dfa3600b36599414542f6630d411485d968f25592ca909100f4041ac32537800f06000000000004444c5dc75cb358380d2e3de08a90eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee00000bb800003c00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b36599414542f6630d411485d968f25592ca9091964416f14532ffff06000000000004444c5dc75cb358380d2e3de08a90eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee000001f400000a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b36599414542f6630d411485d968f25592ca9091962016ef7832012260fac5e5542a773aa44fbcfedf7c193bc2c599041c5a06000000000004444c5dc75cb358380d2e3de08a907f39c581f595b53c5cb19bd0b3f8da6c935e2ca0010009c400003200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b36599414542f6630d411485d968f25592ca9091c0f60cbfd932c007014585fe77225b41b697c938b018e2ac67ac5a20c001b36599414542f6630d411485d968f25592ca90910091470fb49b357fe701cbcdf9626bc03e24f779434178a73a0b4bad62ed01b36599414542f6630d411485d968f25592ca909100c16f0cf04232ffff06000000000004444c5dc75cb358380d2e3de08a90eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee00000bb800003c00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b36599414542f6630d411485d968f25592ca9091c1b90cf0bf3201c02aaa39b223fe8d0a0e5c4f27ead9083c756cc201ffff0200b36599414542f6630d411485d968f25592ca9091017f39c581f595b53c5cb19bd0b3f8da6c935e2ca001ffff0b0b1a513ee24972daef112bc777a5610d4325c9e701b36599414542f6630d411485d968f25592ca9091bfd932ef2a320000000000000000000000"
+        }
+      ]
+    },
+    "gas_price": "38954557888",
+    "gas_limit": "11074714",
+    "fee": {
+      "type": "actual",
+      "value": "223118073487203200"
+    },
+    "method": "snwap",
+    "authorization_list": [],
+    "to": {
+      "ens_domain_name": null,
+      "hash": "0xAC4c6e212A361c968F1725b4d055b47E63F80b75",
+      "implementations": [],
+      "is_contract": true,
+      "is_scam": false,
+      "is_verified": true,
+      "metadata": {
+        "tags": [
+          {
+            "meta": {
+              "projectName": "SushiSwap",
+              "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+              "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0x74813e585010ccdfdaf560b11f1f63c8663c89ffe65ade9e1a5a264adb9563bb@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+              "textColor": "#C163D4",
+              "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+              "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+              "tooltipDescription": "Facade and primary user entry point for Sushi\u2019s Route Processor v6; forwards swaps to RouteProcessor6 via SafeExecutor.",
+              "tooltipUrl": "https://www.sushi.com/",
+              "verifiedDomains": [
+                "www.sushi.com",
+                "houdiniswap.com",
+                "v4.houdiniswap.com",
+                "app.houdiniswap.com",
+                "vfat.io"
+              ]
+            },
+            "name": "SushiSwap: RedSnwapper",
+            "ordinal": 10,
+            "slug": "sushiswap-redsnwapper",
+            "tagType": "name"
+          },
+          {
+            "meta": {},
+            "name": "DEX",
+            "ordinal": 0,
+            "slug": "dex",
+            "tagType": "generic"
+          },
+          {
+            "meta": {
+              "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+              "textColor": "#C163D4",
+              "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+              "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+              "tooltipDescription": "Provided by OLI"
+            },
+            "name": "Routeprocessor v5",
+            "ordinal": 0,
+            "slug": "routeprocessor-v5",
+            "tagType": "name"
+          },
+          {
+            "meta": {
+              "appActionButtonText": "SushiSwap",
+              "appID": "sushiswap"
+            },
+            "name": "SushiSwap",
+            "ordinal": 0,
+            "slug": "sushiswap",
+            "tagType": "protocol"
+          }
+        ]
+      },
+      "name": "RedSnwapper",
+      "private_tags": [],
+      "proxy_type": null,
+      "public_tags": [],
+      "reputation": "ok",
+      "watchlist_names": []
+    },
+    "status": "ok",
+    "gas_used": "5727650",
+    "from": {
+      "ens_domain_name": null,
+      "hash": "0xE7024aB80143b1EF843EFE6a58368696Cb87958d",
+      "implementations": [],
+      "is_contract": false,
+      "is_scam": false,
+      "is_verified": false,
+      "metadata": null,
+      "name": null,
+      "private_tags": [],
+      "proxy_type": null,
+      "public_tags": [],
+      "reputation": "ok",
+      "watchlist_names": []
+    },
+    "value": "0",
+    "created_contract": null,
+    "transaction_tag": null,
+    "max_priority_fee_per_gas": "7926693415",
+    "position": 1,
+    "confirmations": 147400,
+    "token_transfers_overflow": true,
+    "type": 2,
+    "transaction_burnt_fee": "177716747948778450",
+    "confirmation_duration": [
+      0,
+      12000.0
+    ],
+    "revert_reason": null,
+    "max_fee_per_gas": "56331347246",
+    "hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+    "result": "success",
+    "is_pending_update": false,
+    "raw_input": "0x5f3bd1c80000000000000000000000008292bb45bf1ee4d140127049757c2e0ff06317ed000000000000000000000000000000000000000000084595161401484a000000000000000000000000000000e7024ab80143b1ef843efe6a58368696cb87958d000000000000000000000000eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000000000000000000000000000000000000e6c03ac95f312cf533000000000000000000000000b36599414542f6630d411485d968f25592ca909100000000000000000000000000000000000000000000000000000000000000e00000000000000000000000000000000000000000000000000000000000000ac4dde6caf3000000000000000000000000de7259893af7cdbc9fd806c6ba61d22d581d5667000000000000000000000000000000000000000000000000cf7a9e717f983e000000000000000000000000008292bb45bf1ee4d140127049757c2e0ff06317ed000000000000000000000000000000000000000000084595161401484a000000000000000000000000000000eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000000000000000000000000000000000000e8b998baab25700000000000000000000000000000e7024ab80143b1ef843efe6a58368696cb87958d000000000000000000000000000000000000000000000000000000000000014000000000000000000000000000000000000000000000000000000000000003e80000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000095501a189a2a04c001d018292bb45bf1ee4d140127049757c2e0ff06317ed01ffff05000000000000000000000000000000000000000000000000000000000000003fd001ae433f254283fece51d4acce8c53263aa186000100b36599414542f6630d411485d968f25592ca9091a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48845944914e1c01a0b86991c6218b36c1d19d4a2e9eb0ce3606eb480e04220199ac8ca7087fa4a2a1fb6357269965a2014abc3500b36599414542f6630d411485d968f25592ca909100962216c17b0c10ca015777d92f208679db4b9778590fa3cab3ac9e216800b36599414542f6630d411485d968f25592ca909100960318886d40047c00b4e16d0168e52d35cacd2c6185b44281ec28c9dc01b36599414542f6630d411485d968f25592ca9091000bb895c316ee49320db401e0554a476a092703abdb3ef35c80e0d76d32939f01b36599414542f6630d411485d968f25592ca909100e0d017b3ab341cfc0188e6a0c2ddd26feeb64f039a2c41296fcb3f564001b36599414542f6630d411485d968f25592ca909100e10718b475352621018ad599c3a0ff1de082011efddc58f1908eb6e6d801b36599414542f6630d411485d968f25592ca909100834119d22535799e05000000000000000000000000000000000000000000000000000000000000003fbebc44782c7db0a1a60cb6fe97d0b483032ff1c7010102b36599414542f6630d411485d968f25592ca9091dac17f958d2ee523a2206206994597c13d831ec7b2261ab25b1a555f0b667701e51b4d1ca244f17c78f7ab8744b4c99f9b01b36599414542f6630d411485d968f25592ca9091834a198374192486013416cf6c708da44db2624d63ea0aaef7113527c601b36599414542f6630d411485d968f25592ca90910095bf1795e71715590104c8577958ccc170eb3d2cca76f9d51bc6e42d8f01b36599414542f6630d411485d968f25592ca909100961416964316174606000000000004444c5dc75cb358380d2e3de08a90dac17f958d2ee523a2206206994597c13d831ec70100000800000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b36599414542f6630d411485d968f25592ca909195f91696221699a106000000000004444c5dc75cb358380d2e3de08a90dac17f958d2ee523a2206206994597c13d831ec70100000700000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b36599414542f6630d411485d968f25592ca9091e0fe18e13b18c01206000000000004444c5dc75cb358380d2e3de08a90eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee00000bb800003c00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b36599414542f6630d411485d968f25592ca9091e0f617b41a34ffff06000000000004444c5dc75cb358380d2e3de08a90eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee000001f400000a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b36599414542f6630d411485d968f25592ca909195bf16ee2032016b175474e89094c44da98b954eedeac495271d0f023ffc01769db46f39c42ee7ad5f71f4167c47edd281e76701b36599414542f6630d411485d968f25592ca90910088653eefe132ffff05000000000000000000000000000000000000000000000000000000000000003fbebc44782c7db0a1a60cb6fe97d0b483032ff1c7010002b36599414542f6630d411485d968f25592ca9091dac17f958d2ee523a2206206994597c13d831ec7cca83fe1481701dac17f958d2ee523a2206206994597c13d831ec7062df60156534741cd8b152df6d48adf7ac51f75169a83b200b36599414542f6630d411485d968f25592ca909100837219a9760f07ff019db9e0e53058c89e5b94e29621a205198648425b00b36599414542f6630d411485d968f25592ca909100961916c1260c18c90111b815efb8f581194ae79006d24e0d814b7697f600b36599414542f6630d411485d968f25592ca909100e15d17b4f434edb5014e68ccd3e89f51c3074ca5072bbac773960dfa3600b36599414542f6630d411485d968f25592ca909100f4041ac32537800f06000000000004444c5dc75cb358380d2e3de08a90eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee00000bb800003c00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b36599414542f6630d411485d968f25592ca9091964416f14532ffff06000000000004444c5dc75cb358380d2e3de08a90eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee000001f400000a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b36599414542f6630d411485d968f25592ca9091962016ef7832012260fac5e5542a773aa44fbcfedf7c193bc2c599041c5a06000000000004444c5dc75cb358380d2e3de08a907f39c581f595b53c5cb19bd0b3f8da6c935e2ca0010009c400003200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b36599414542f6630d411485d968f25592ca9091c0f60cbfd932c007014585fe77225b41b697c938b018e2ac67ac5a20c001b36599414542f6630d411485d968f25592ca90910091470fb49b357fe701cbcdf9626bc03e24f779434178a73a0b4bad62ed01b36599414542f6630d411485d968f25592ca909100c16f0cf04232ffff06000000000004444c5dc75cb358380d2e3de08a90eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee00000bb800003c00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b36599414542f6630d411485d968f25592ca9091c1b90cf0bf3201c02aaa39b223fe8d0a0e5c4f27ead9083c756cc201ffff0200b36599414542f6630d411485d968f25592ca9091017f39c581f595b53c5cb19bd0b3f8da6c935e2ca001ffff0b0b1a513ee24972daef112bc777a5610d4325c9e701b36599414542f6630d411485d968f25592ca9091bfd932ef2a32000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "priority_fee": "45401325538424750"
+  }
+}

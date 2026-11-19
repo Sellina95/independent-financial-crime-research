@@ -1,0 +1,51 @@
+[
+  {
+    "review_type": "UNRESOLVED_BLOCKSCOUT_CHAIN_CONTEXT",
+    "observation_count": 1860,
+    "owner": "PHASE_3_CHAIN_NORMALIZATION"
+  },
+  {
+    "review_type": "PROVIDER_INDEX_DUPLICATE_GROUPS",
+    "group_count": 193,
+    "owner": "PHASE_3_ATOMIC_EVENT_IDENTITY"
+  },
+  {
+    "review_type": "PROVIDER_INDEX_CONFLICTS",
+    "group_count": 0,
+    "owner": "PHASE_3_CONFLICT_RECONCILIATION"
+  },
+  {
+    "review_type": "POSITIVE_TRACE_REVIEW",
+    "observation_count": 0,
+    "owner": "UNSUPPORTED_FIELDS_AND_TRACE_REVIEW"
+  },
+  {
+    "review_type": "INITIAL_FULL_CALL_TREE_REPRODUCTION",
+    "original_frames": 192,
+    "positive_call_economically_matched": true,
+    "rpc_capability_blocker": {
+      "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+      "method": "debug_traceTransaction",
+      "error": "HTTP_400",
+      "rpc_requests": 2,
+      "trace_recovery_complete": false
+    },
+    "owner": "TRACE_ANCESTRY_VALIDATION"
+  },
+  {
+    "review_type": "FULL_TRACE_ANCESTRY_VALIDATION",
+    "owner": "PHASE_3_TRACE_EXECUTION_SEMANTICS"
+  },
+  {
+    "review_type": "NATIVE_ENVELOPE_ROOT_TRACE_DEDUP",
+    "owner": "PHASE_3_ECONOMIC_DEDUPLICATION"
+  },
+  {
+    "review_type": "OTHER_PROVIDER_AND_DERIVED_TRACE_RECORDS",
+    "owner": "REMAINING_PROVIDER_EXTRACTION"
+  },
+  {
+    "review_type": "SIMULATION_SCOPE_POLICY_PROPAGATION",
+    "owner": "ALL_REMAINING_EXTRACTION_AND_NORMALIZATION"
+  }
+]

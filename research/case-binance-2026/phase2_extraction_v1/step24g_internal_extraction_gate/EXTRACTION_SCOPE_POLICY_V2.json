@@ -1,0 +1,43 @@
+{
+  "version": "v2",
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "excluded_path_segments": [
+    "step06c_local_fork_freeze_scenarios_v1",
+    "step06e_scenario_accounting_reconciliation_v1"
+  ],
+  "excluded_object_pointer_prefixes": [
+    "$[\"request\"]"
+  ],
+  "simulation_flags": [
+    "local_fork_only",
+    "simulation_only"
+  ],
+  "unbroadcast_eth_call": "REFERENCE_ONLY_NOT_EXECUTED_EVENT",
+  "derived_ledgers": "REFERENCE_OR_CANDIDATE_NOT_ATOMIC_EVENT",
+  "aggregate_routes": "NEVER_COUNT_AS_ADDITIONAL_TRANSFER",
+  "global_simulation_detection_complete": false,
+  "metadata_crosswalk_reaudit_required": true,
+  "previous_policy_source": "research/case-binance-2026/phase2_extraction_v1/step22j_erc20_extraction_gate/EXTRACTION_SCOPE_POLICY.json",
+  "previous_policy_sha256": "a5d95709719293537301b66feed8efc48797e261d5fc9416842bdcc72566d203",
+  "additional_excluded_live_event_sources": [
+    {
+      "source_path": "research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06b_aave_withdraw_callpath_v1/withdrawal_call_trace.json",
+      "reason": "READ_ONLY_ETH_CALL_NOT_BROADCAST",
+      "affected_trace_observations": 15,
+      "execution_evidence": {
+        "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+        "source_path": "research/case-binance-2026/evidence/eg08_plasma_post_delivery_v1/step06b_aave_withdraw_callpath_v1/withdrawal_eth_call.json",
+        "source_sha256": "37a9ea45c02a43d5545c6ef8d7c0e493b91dcc3ab9d50df120cd42bcda624303",
+        "source_git_blob_sha": "48a22b2f546530b8d1f9adc58c4d86e6e918ca3c"
+      }
+    }
+  ],
+  "simulation_context_rule": {
+    "transaction_broadcast_false": "QUARANTINE_FROM_LIVE_EVENT_GRAPH",
+    "state_modified_false": "REVIEW_EXECUTION_CONTEXT",
+    "simulation_references_retained": true
+  },
+  "provider_trace_index": "NOT_EQUIVALENT_TO_RPC_TRACE_ADDRESS",
+  "root_trace_policy": "NEVER_ADD_ROOT_FRAME_TO_ENVELOPE_VALUE",
+  "failed_ancestor_policy": "EXCLUDE_REVERTED_DESCENDANT_MOVEMENTS"
+}

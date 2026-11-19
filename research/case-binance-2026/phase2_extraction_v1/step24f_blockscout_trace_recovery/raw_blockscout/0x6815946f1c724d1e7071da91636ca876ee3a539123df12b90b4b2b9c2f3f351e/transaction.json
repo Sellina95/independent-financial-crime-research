@@ -1,0 +1,264 @@
+{
+  "provider": "BLOCKSCOUT",
+  "network_context": "ETHEREUM_MAINNET_ENDPOINT",
+  "queried_at_utc": "2026-11-19T10:41:34.386075+00:00",
+  "endpoint": "/transactions/0x6815946f1c724d1e7071da91636ca876ee3a539123df12b90b4b2b9c2f3f351e",
+  "params": {},
+  "response": {
+    "has_error_in_internal_transactions": false,
+    "block_number": 26301583,
+    "exchange_rate": "1803.05",
+    "transaction_types": [
+      "contract_call",
+      "token_transfer"
+    ],
+    "historic_exchange_rate": "2249.4767252054453",
+    "nonce": 13537,
+    "timestamp": "2026-10-29T23:07:23.000000Z",
+    "base_fee_per_gas": "31465713140",
+    "token_transfers": [
+      {
+        "block_hash": "0x1f6dd3e95d8a296460a488eea98842644cc70ee64636bd9d1cccdbab4999510f",
+        "block_number": 26301583,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8CC5c24A1666d3214340050315B82B2b6b0D9027",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "Swap",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 183,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x0000000000000000000000000000000000000000",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {},
+                "name": "Null: 0x000...000",
+                "ordinal": 10,
+                "slug": "null-0x000000",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "main_entity": "Genesis"
+                },
+                "name": "Null Address",
+                "ordinal": 10,
+                "slug": "null-address",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "DEPOSIT ADDRESS",
+                "ordinal": 0,
+                "slug": "deposit-address",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Metamask User",
+                "ordinal": 0,
+                "slug": "metamask-user",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Imtoken User",
+                "ordinal": 0,
+                "slug": "imtoken-user",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Coinbase",
+                "ordinal": 0,
+                "slug": "coinbase",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "info": [
+                    "Blocked By USDT"
+                  ],
+                  "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+                },
+                "name": "BLOCKED",
+                "ordinal": 0,
+                "slug": "blocked",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Genesis",
+                "ordinal": 0,
+                "slug": "genesis",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Miner",
+                "ordinal": 0,
+                "slug": "miner",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Burn",
+                "ordinal": 0,
+                "slug": "burn",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "alertStatus": "info",
+                  "data": "This address is commonly used by projects to burn tokens (reducing total supply) or mint tokens (increasing total supply)."
+                },
+                "name": "note_0",
+                "ordinal": 0,
+                "slug": "note0",
+                "tagType": "note"
+              },
+              {
+                "meta": {},
+                "name": "Null",
+                "ordinal": 0,
+                "slug": "null",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "circulating_market_cap": "3785704557",
+          "circulating_supply": "2103054.218095953",
+          "decimals": "18",
+          "exchange_rate": "1800.11",
+          "holders_count": "3352773",
+          "icon_url": "https://assets.coingecko.com/coins/images/2518/small/weth.png?1696503332",
+          "name": "WETH",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "WETH",
+          "total_supply": "2100492034420266141791807",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "285224463"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "ui_multiplier": null,
+          "value": "10968491300000000"
+        },
+        "transaction_hash": "0x6815946f1c724d1e7071da91636ca876ee3a539123df12b90b4b2b9c2f3f351e",
+        "type": "token_burning"
+      }
+    ],
+    "fhe_operations_count": 0,
+    "decoded_input": {
+      "method_call": "wethToEth(uint256 Amount, address recipient, uint256 orderId)",
+      "method_id": "07f25e51",
+      "parameters": [
+        {
+          "name": "Amount",
+          "type": "uint256",
+          "value": "10968491300000000"
+        },
+        {
+          "name": "recipient",
+          "type": "address",
+          "value": "0xD73d4d15CB20DbfB9a78dc75E9eaFbb65f917cdC"
+        },
+        {
+          "name": "orderId",
+          "type": "uint256",
+          "value": "159"
+        }
+      ]
+    },
+    "gas_price": "37593860457",
+    "gas_limit": "354318",
+    "fee": {
+      "type": "actual",
+      "value": "2012136193240011"
+    },
+    "method": "wethToEth",
+    "authorization_list": [],
+    "to": {
+      "ens_domain_name": null,
+      "hash": "0x8CC5c24A1666d3214340050315B82B2b6b0D9027",
+      "implementations": [],
+      "is_contract": true,
+      "is_scam": false,
+      "is_verified": true,
+      "metadata": null,
+      "name": "Swap",
+      "private_tags": [],
+      "proxy_type": null,
+      "public_tags": [],
+      "reputation": "ok",
+      "watchlist_names": []
+    },
+    "status": "ok",
+    "gas_used": "53523",
+    "from": {
+      "ens_domain_name": null,
+      "hash": "0x7aB83A3609eA3fD401Fe6Ff91826cbd566391f18",
+      "implementations": [],
+      "is_contract": false,
+      "is_scam": false,
+      "is_verified": false,
+      "metadata": null,
+      "name": null,
+      "private_tags": [],
+      "proxy_type": null,
+      "public_tags": [],
+      "reputation": "ok",
+      "watchlist_names": []
+    },
+    "value": "0",
+    "created_contract": null,
+    "transaction_tag": null,
+    "max_priority_fee_per_gas": "6128147317",
+    "position": 29,
+    "confirmations": 147011,
+    "token_transfers_overflow": false,
+    "type": 2,
+    "transaction_burnt_fee": "1684139364392220",
+    "confirmation_duration": [
+      0,
+      12000.0
+    ],
+    "revert_reason": null,
+    "max_fee_per_gas": "117660901282",
+    "hash": "0x6815946f1c724d1e7071da91636ca876ee3a539123df12b90b4b2b9c2f3f351e",
+    "result": "success",
+    "is_pending_update": false,
+    "raw_input": "0x07f25e510000000000000000000000000000000000000000000000000026f7c8e3a89100000000000000000000000000d73d4d15cb20dbfb9a78dc75e9eafbb65f917cdc000000000000000000000000000000000000000000000000000000000000009f",
+    "priority_fee": "327996828847791"
+  }
+}

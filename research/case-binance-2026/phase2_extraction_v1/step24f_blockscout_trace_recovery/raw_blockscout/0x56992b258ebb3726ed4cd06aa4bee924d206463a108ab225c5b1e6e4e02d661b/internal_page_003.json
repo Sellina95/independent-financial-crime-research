@@ -1,0 +1,3369 @@
+{
+  "provider": "BLOCKSCOUT",
+  "network_context": "ETHEREUM_MAINNET_ENDPOINT",
+  "queried_at_utc": "2026-11-19T10:41:28.880248+00:00",
+  "endpoint": "/transactions/0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b/internal-transactions",
+  "params": {
+    "index": 100,
+    "block_number": 26301442,
+    "transaction_index": 4,
+    "include_zero_value": true
+  },
+  "response": {
+    "items": [
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "563137",
+        "index": 101,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x88291350eFba59C6482B1F53D224Ed8eEe59a604",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SwapExecutor",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "550104",
+        "index": 102,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x1d42064Fc4Beb5F8aAF85F4617AE8b3b5B8Bd801",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between UNI and WETH.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0x1d42064fc4beb5f8aaf85f4617ae8b3b5b8bd801"
+                },
+                "name": "Uniswap V3: UNI",
+                "ordinal": 10,
+                "slug": "uniswap-v3-uni",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x1d42064Fc4Beb5F8aAF85F4617AE8b3b5B8Bd801",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between UNI and WETH.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0x1d42064fc4beb5f8aaf85f4617ae8b3b5b8bd801"
+                },
+                "name": "Uniswap V3: UNI",
+                "ordinal": 10,
+                "slug": "uniswap-v3-uni",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "448697",
+        "index": 103,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Wrapped Ether",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0xe27ff4957dc5c9bb33feafde33089e0c03fb4999f3e8d01f4720334161a17224@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmRyTdB5Cc7zH7G4YwWs7jh98zNGLQN1NfJ8KTWTXikhcP/WETH\",\"token_symbol\":\"WETH\",\"token_name\":\"WETH\",\"decimals\":18}",
+                  "tooltipDescription": "wETH is wrapped ETH which confroms to the ERC20 standard",
+                  "tooltipUrl": "https://weth.io/",
+                  "verifiedDomains": [
+                    "traderjoexyz.com",
+                    "app.mav.xyz",
+                    "core.app",
+                    "shibaswap.com",
+                    "app.dodoex.io",
+                    "app.uniswap.org",
+                    "explorer.reservoir.tools",
+                    "pancakeswap.finance",
+                    "swapr.eth.limo"
+                  ]
+                },
+                "name": "WETH Token (v2)",
+                "ordinal": 10,
+                "slug": "weth-token-v2",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Wrapped Token",
+                "ordinal": 0,
+                "slug": "wrapped-token",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "main_entity": "Wrapped",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://weth.io/"
+                },
+                "name": "Wrapped Ether",
+                "ordinal": 0,
+                "slug": "wrapped-ether",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "WETH9",
+                "ordinal": 0,
+                "slug": "weth9",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "WETH9",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x1d42064Fc4Beb5F8aAF85F4617AE8b3b5B8Bd801",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between UNI and WETH.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0x1d42064fc4beb5f8aaf85f4617ae8b3b5b8bd801"
+                },
+                "name": "Uniswap V3: UNI",
+                "ordinal": 10,
+                "slug": "uniswap-v3-uni",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "439890",
+        "index": 104,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Uniswap Protocol",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x5fa82afc532562c7016644c06c6b1a2a00a4f72a3f69d661c246401c335b46c6",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmdmjFAM9jyghRj4GRbH8bpnGh48o14Q2kqKFWjYA4a2Mj/Bcd75xnL2yQW9B3Ld8Wi4Hggf21tANTJt7RwXUKpB33bFnezc5LQBTA41Dkf8766tWNuiq1DBwK2ZSW5GQ4kZFASds\",\"token_symbol\":\"UNI\",\"token_name\":\"Uniswap\",\"decimals\":18}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Contract address of UNI token.",
+                  "tooltipUrl": "https://uniswap.org/"
+                },
+                "name": "Uniswap Protocol: UNI token",
+                "ordinal": 10,
+                "slug": "uniswap-protocol-uni-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap Protocol",
+                "ordinal": 0,
+                "slug": "uniswap-protocol",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Uniswap",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x1d42064Fc4Beb5F8aAF85F4617AE8b3b5B8Bd801",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between UNI and WETH.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0x1d42064fc4beb5f8aaf85f4617ae8b3b5b8bd801"
+                },
+                "name": "Uniswap V3: UNI",
+                "ordinal": 10,
+                "slug": "uniswap-v3-uni",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "436346",
+        "index": 105,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "429223",
+        "index": 106,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xfB10Ebf252Cf258babBEF969B0c739507dD9Da4B",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "Aggregator",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "421323",
+        "index": 107,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x88291350eFba59C6482B1F53D224Ed8eEe59a604",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SwapExecutor",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "412370",
+        "index": 108,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Uniswap Protocol",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x5fa82afc532562c7016644c06c6b1a2a00a4f72a3f69d661c246401c335b46c6",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmdmjFAM9jyghRj4GRbH8bpnGh48o14Q2kqKFWjYA4a2Mj/Bcd75xnL2yQW9B3Ld8Wi4Hggf21tANTJt7RwXUKpB33bFnezc5LQBTA41Dkf8766tWNuiq1DBwK2ZSW5GQ4kZFASds\",\"token_symbol\":\"UNI\",\"token_name\":\"Uniswap\",\"decimals\":18}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Contract address of UNI token.",
+                  "tooltipUrl": "https://uniswap.org/"
+                },
+                "name": "Uniswap Protocol: UNI token",
+                "ordinal": 10,
+                "slug": "uniswap-protocol-uni-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap Protocol",
+                "ordinal": 0,
+                "slug": "uniswap-protocol",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Uniswap",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x1d42064Fc4Beb5F8aAF85F4617AE8b3b5B8Bd801",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between UNI and WETH.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0x1d42064fc4beb5f8aaf85f4617ae8b3b5b8bd801"
+                },
+                "name": "Uniswap V3: UNI",
+                "ordinal": 10,
+                "slug": "uniswap-v3-uni",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "422089",
+        "index": 109,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Uniswap Protocol",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x5fa82afc532562c7016644c06c6b1a2a00a4f72a3f69d661c246401c335b46c6",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmdmjFAM9jyghRj4GRbH8bpnGh48o14Q2kqKFWjYA4a2Mj/Bcd75xnL2yQW9B3Ld8Wi4Hggf21tANTJt7RwXUKpB33bFnezc5LQBTA41Dkf8766tWNuiq1DBwK2ZSW5GQ4kZFASds\",\"token_symbol\":\"UNI\",\"token_name\":\"Uniswap\",\"decimals\":18}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Contract address of UNI token.",
+                  "tooltipUrl": "https://uniswap.org/"
+                },
+                "name": "Uniswap Protocol: UNI token",
+                "ordinal": 10,
+                "slug": "uniswap-protocol-uni-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap Protocol",
+                "ordinal": 0,
+                "slug": "uniswap-protocol",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Uniswap",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "429426",
+        "index": 110,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x88291350eFba59C6482B1F53D224Ed8eEe59a604",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SwapExecutor",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "418470",
+        "index": 111,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x59c38b6775Ded821f010DbD30eCabdCF84E04756",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x59c38b6775Ded821f010DbD30eCabdCF84E04756",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "343541",
+        "index": 112,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Uniswap Protocol",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x5fa82afc532562c7016644c06c6b1a2a00a4f72a3f69d661c246401c335b46c6",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmdmjFAM9jyghRj4GRbH8bpnGh48o14Q2kqKFWjYA4a2Mj/Bcd75xnL2yQW9B3Ld8Wi4Hggf21tANTJt7RwXUKpB33bFnezc5LQBTA41Dkf8766tWNuiq1DBwK2ZSW5GQ4kZFASds\",\"token_symbol\":\"UNI\",\"token_name\":\"Uniswap\",\"decimals\":18}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Contract address of UNI token.",
+                  "tooltipUrl": "https://uniswap.org/"
+                },
+                "name": "Uniswap Protocol: UNI token",
+                "ordinal": 10,
+                "slug": "uniswap-protocol-uni-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap Protocol",
+                "ordinal": 0,
+                "slug": "uniswap-protocol",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Uniswap",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x59c38b6775Ded821f010DbD30eCabdCF84E04756",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "311602",
+        "index": 113,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+          "implementations": [
+            {
+              "address_hash": "0x5D4Aa78B08Bc7C530e21bf7447988b1Be7991322",
+              "name": "AaveTokenV3"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Aave",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x2ff0aedcd6f9876dfc33c5d4e0795120377b9fb8ae767b6026ad33bf3c974f99",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qmbm59Gv2GnmNDhphAQCjtKUYiQWkozUd3UsFEZoWvZEWi/Bccz9jC78N2wM9eHfNKzXWYQUupnQq8jY6k5qsgh79BEcHib447G9NpgzeZgwYmyq57B9zXyMtpv9j4R8XZEnghcnC\",\"token_symbol\":\"AAVE\",\"token_name\":\"Aave\",\"decimals\":18}",
+                  "tooltipDescription": "Aave is an Open Source and Non-Custodial protocol to earn interest on deposits & borrow assets. It also features access to highly innovative flash loans, which let developers borrow instantly and easily; no collateral needed. With 16 different assets, 5 of which are stablecoins.",
+                  "tooltipUrl": "https://app.aave.com/?referral=93"
+                },
+                "name": "Aave: AAVE Token",
+                "ordinal": 10,
+                "slug": "aave-aave-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Loans",
+                "ordinal": 0,
+                "slug": "loans",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DeFi",
+                "ordinal": 0,
+                "slug": "defi",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Aave",
+                  "appID": "aave"
+                },
+                "name": "Aave",
+                "ordinal": 0,
+                "slug": "aave",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Aave",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+          "implementations": [
+            {
+              "address_hash": "0x5D4Aa78B08Bc7C530e21bf7447988b1Be7991322",
+              "name": "AaveTokenV3"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Aave",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x2ff0aedcd6f9876dfc33c5d4e0795120377b9fb8ae767b6026ad33bf3c974f99",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qmbm59Gv2GnmNDhphAQCjtKUYiQWkozUd3UsFEZoWvZEWi/Bccz9jC78N2wM9eHfNKzXWYQUupnQq8jY6k5qsgh79BEcHib447G9NpgzeZgwYmyq57B9zXyMtpv9j4R8XZEnghcnC\",\"token_symbol\":\"AAVE\",\"token_name\":\"Aave\",\"decimals\":18}",
+                  "tooltipDescription": "Aave is an Open Source and Non-Custodial protocol to earn interest on deposits & borrow assets. It also features access to highly innovative flash loans, which let developers borrow instantly and easily; no collateral needed. With 16 different assets, 5 of which are stablecoins.",
+                  "tooltipUrl": "https://app.aave.com/?referral=93"
+                },
+                "name": "Aave: AAVE Token",
+                "ordinal": 10,
+                "slug": "aave-aave-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Loans",
+                "ordinal": 0,
+                "slug": "loans",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DeFi",
+                "ordinal": 0,
+                "slug": "defi",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Aave",
+                  "appID": "aave"
+                },
+                "name": "Aave",
+                "ordinal": 0,
+                "slug": "aave",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Aave",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "306051",
+        "index": 114,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x5D4Aa78B08Bc7C530e21bf7447988b1Be7991322",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "AaveTokenV3",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x59c38b6775Ded821f010DbD30eCabdCF84E04756",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "307492",
+        "index": 115,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "302383",
+        "index": 116,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xfB10Ebf252Cf258babBEF969B0c739507dD9Da4B",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "Aggregator",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "296465",
+        "index": 117,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x88291350eFba59C6482B1F53D224Ed8eEe59a604",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SwapExecutor",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "289389",
+        "index": 118,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+          "implementations": [
+            {
+              "address_hash": "0x5D4Aa78B08Bc7C530e21bf7447988b1Be7991322",
+              "name": "AaveTokenV3"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Aave",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x2ff0aedcd6f9876dfc33c5d4e0795120377b9fb8ae767b6026ad33bf3c974f99",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qmbm59Gv2GnmNDhphAQCjtKUYiQWkozUd3UsFEZoWvZEWi/Bccz9jC78N2wM9eHfNKzXWYQUupnQq8jY6k5qsgh79BEcHib447G9NpgzeZgwYmyq57B9zXyMtpv9j4R8XZEnghcnC\",\"token_symbol\":\"AAVE\",\"token_name\":\"Aave\",\"decimals\":18}",
+                  "tooltipDescription": "Aave is an Open Source and Non-Custodial protocol to earn interest on deposits & borrow assets. It also features access to highly innovative flash loans, which let developers borrow instantly and easily; no collateral needed. With 16 different assets, 5 of which are stablecoins.",
+                  "tooltipUrl": "https://app.aave.com/?referral=93"
+                },
+                "name": "Aave: AAVE Token",
+                "ordinal": 10,
+                "slug": "aave-aave-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Loans",
+                "ordinal": 0,
+                "slug": "loans",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DeFi",
+                "ordinal": 0,
+                "slug": "defi",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Aave",
+                  "appID": "aave"
+                },
+                "name": "Aave",
+                "ordinal": 0,
+                "slug": "aave",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Aave",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+          "implementations": [
+            {
+              "address_hash": "0x5D4Aa78B08Bc7C530e21bf7447988b1Be7991322",
+              "name": "AaveTokenV3"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Aave",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x2ff0aedcd6f9876dfc33c5d4e0795120377b9fb8ae767b6026ad33bf3c974f99",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qmbm59Gv2GnmNDhphAQCjtKUYiQWkozUd3UsFEZoWvZEWi/Bccz9jC78N2wM9eHfNKzXWYQUupnQq8jY6k5qsgh79BEcHib447G9NpgzeZgwYmyq57B9zXyMtpv9j4R8XZEnghcnC\",\"token_symbol\":\"AAVE\",\"token_name\":\"Aave\",\"decimals\":18}",
+                  "tooltipDescription": "Aave is an Open Source and Non-Custodial protocol to earn interest on deposits & borrow assets. It also features access to highly innovative flash loans, which let developers borrow instantly and easily; no collateral needed. With 16 different assets, 5 of which are stablecoins.",
+                  "tooltipUrl": "https://app.aave.com/?referral=93"
+                },
+                "name": "Aave: AAVE Token",
+                "ordinal": 10,
+                "slug": "aave-aave-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Loans",
+                "ordinal": 0,
+                "slug": "loans",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DeFi",
+                "ordinal": 0,
+                "slug": "defi",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Aave",
+                  "appID": "aave"
+                },
+                "name": "Aave",
+                "ordinal": 0,
+                "slug": "aave",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Aave",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "284176",
+        "index": 119,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x5D4Aa78B08Bc7C530e21bf7447988b1Be7991322",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "AaveTokenV3",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x59c38b6775Ded821f010DbD30eCabdCF84E04756",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "293040",
+        "index": 120,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+          "implementations": [
+            {
+              "address_hash": "0x5D4Aa78B08Bc7C530e21bf7447988b1Be7991322",
+              "name": "AaveTokenV3"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Aave",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x2ff0aedcd6f9876dfc33c5d4e0795120377b9fb8ae767b6026ad33bf3c974f99",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qmbm59Gv2GnmNDhphAQCjtKUYiQWkozUd3UsFEZoWvZEWi/Bccz9jC78N2wM9eHfNKzXWYQUupnQq8jY6k5qsgh79BEcHib447G9NpgzeZgwYmyq57B9zXyMtpv9j4R8XZEnghcnC\",\"token_symbol\":\"AAVE\",\"token_name\":\"Aave\",\"decimals\":18}",
+                  "tooltipDescription": "Aave is an Open Source and Non-Custodial protocol to earn interest on deposits & borrow assets. It also features access to highly innovative flash loans, which let developers borrow instantly and easily; no collateral needed. With 16 different assets, 5 of which are stablecoins.",
+                  "tooltipUrl": "https://app.aave.com/?referral=93"
+                },
+                "name": "Aave: AAVE Token",
+                "ordinal": 10,
+                "slug": "aave-aave-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Loans",
+                "ordinal": 0,
+                "slug": "loans",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DeFi",
+                "ordinal": 0,
+                "slug": "defi",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Aave",
+                  "appID": "aave"
+                },
+                "name": "Aave",
+                "ordinal": 0,
+                "slug": "aave",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Aave",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+          "implementations": [
+            {
+              "address_hash": "0x5D4Aa78B08Bc7C530e21bf7447988b1Be7991322",
+              "name": "AaveTokenV3"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Aave",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x2ff0aedcd6f9876dfc33c5d4e0795120377b9fb8ae767b6026ad33bf3c974f99",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qmbm59Gv2GnmNDhphAQCjtKUYiQWkozUd3UsFEZoWvZEWi/Bccz9jC78N2wM9eHfNKzXWYQUupnQq8jY6k5qsgh79BEcHib447G9NpgzeZgwYmyq57B9zXyMtpv9j4R8XZEnghcnC\",\"token_symbol\":\"AAVE\",\"token_name\":\"Aave\",\"decimals\":18}",
+                  "tooltipDescription": "Aave is an Open Source and Non-Custodial protocol to earn interest on deposits & borrow assets. It also features access to highly innovative flash loans, which let developers borrow instantly and easily; no collateral needed. With 16 different assets, 5 of which are stablecoins.",
+                  "tooltipUrl": "https://app.aave.com/?referral=93"
+                },
+                "name": "Aave: AAVE Token",
+                "ordinal": 10,
+                "slug": "aave-aave-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Loans",
+                "ordinal": 0,
+                "slug": "loans",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DeFi",
+                "ordinal": 0,
+                "slug": "defi",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Aave",
+                  "appID": "aave"
+                },
+                "name": "Aave",
+                "ordinal": 0,
+                "slug": "aave",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Aave",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "287779",
+        "index": 121,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x5D4Aa78B08Bc7C530e21bf7447988b1Be7991322",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "AaveTokenV3",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "300243",
+        "index": 122,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Uniswap Protocol",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x5fa82afc532562c7016644c06c6b1a2a00a4f72a3f69d661c246401c335b46c6",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmdmjFAM9jyghRj4GRbH8bpnGh48o14Q2kqKFWjYA4a2Mj/Bcd75xnL2yQW9B3Ld8Wi4Hggf21tANTJt7RwXUKpB33bFnezc5LQBTA41Dkf8766tWNuiq1DBwK2ZSW5GQ4kZFASds\",\"token_symbol\":\"UNI\",\"token_name\":\"Uniswap\",\"decimals\":18}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Contract address of UNI token.",
+                  "tooltipUrl": "https://uniswap.org/"
+                },
+                "name": "Uniswap Protocol: UNI token",
+                "ordinal": 10,
+                "slug": "uniswap-protocol-uni-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap Protocol",
+                "ordinal": 0,
+                "slug": "uniswap-protocol",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Uniswap",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "296713",
+        "index": 123,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x88291350eFba59C6482B1F53D224Ed8eEe59a604",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SwapExecutor",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "290304",
+        "index": 124,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x1d42064Fc4Beb5F8aAF85F4617AE8b3b5B8Bd801",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between UNI and WETH.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0x1d42064fc4beb5f8aaf85f4617ae8b3b5b8bd801"
+                },
+                "name": "Uniswap V3: UNI",
+                "ordinal": 10,
+                "slug": "uniswap-v3-uni",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x1d42064Fc4Beb5F8aAF85F4617AE8b3b5B8Bd801",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between UNI and WETH.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0x1d42064fc4beb5f8aaf85f4617ae8b3b5b8bd801"
+                },
+                "name": "Uniswap V3: UNI",
+                "ordinal": 10,
+                "slug": "uniswap-v3-uni",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "247428",
+        "index": 125,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Wrapped Ether",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0xe27ff4957dc5c9bb33feafde33089e0c03fb4999f3e8d01f4720334161a17224@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmRyTdB5Cc7zH7G4YwWs7jh98zNGLQN1NfJ8KTWTXikhcP/WETH\",\"token_symbol\":\"WETH\",\"token_name\":\"WETH\",\"decimals\":18}",
+                  "tooltipDescription": "wETH is wrapped ETH which confroms to the ERC20 standard",
+                  "tooltipUrl": "https://weth.io/",
+                  "verifiedDomains": [
+                    "traderjoexyz.com",
+                    "app.mav.xyz",
+                    "core.app",
+                    "shibaswap.com",
+                    "app.dodoex.io",
+                    "app.uniswap.org",
+                    "explorer.reservoir.tools",
+                    "pancakeswap.finance",
+                    "swapr.eth.limo"
+                  ]
+                },
+                "name": "WETH Token (v2)",
+                "ordinal": 10,
+                "slug": "weth-token-v2",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Wrapped Token",
+                "ordinal": 0,
+                "slug": "wrapped-token",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "main_entity": "Wrapped",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://weth.io/"
+                },
+                "name": "Wrapped Ether",
+                "ordinal": 0,
+                "slug": "wrapped-ether",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "WETH9",
+                "ordinal": 0,
+                "slug": "weth9",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "WETH9",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x1d42064Fc4Beb5F8aAF85F4617AE8b3b5B8Bd801",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between UNI and WETH.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0x1d42064fc4beb5f8aaf85f4617ae8b3b5b8bd801"
+                },
+                "name": "Uniswap V3: UNI",
+                "ordinal": 10,
+                "slug": "uniswap-v3-uni",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "243346",
+        "index": 126,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Uniswap Protocol",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x5fa82afc532562c7016644c06c6b1a2a00a4f72a3f69d661c246401c335b46c6",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmdmjFAM9jyghRj4GRbH8bpnGh48o14Q2kqKFWjYA4a2Mj/Bcd75xnL2yQW9B3Ld8Wi4Hggf21tANTJt7RwXUKpB33bFnezc5LQBTA41Dkf8766tWNuiq1DBwK2ZSW5GQ4kZFASds\",\"token_symbol\":\"UNI\",\"token_name\":\"Uniswap\",\"decimals\":18}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Contract address of UNI token.",
+                  "tooltipUrl": "https://uniswap.org/"
+                },
+                "name": "Uniswap Protocol: UNI token",
+                "ordinal": 10,
+                "slug": "uniswap-protocol-uni-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap Protocol",
+                "ordinal": 0,
+                "slug": "uniswap-protocol",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Uniswap",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x1d42064Fc4Beb5F8aAF85F4617AE8b3b5B8Bd801",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between UNI and WETH.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0x1d42064fc4beb5f8aaf85f4617ae8b3b5b8bd801"
+                },
+                "name": "Uniswap V3: UNI",
+                "ordinal": 10,
+                "slug": "uniswap-v3-uni",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "241772",
+        "index": 127,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "237690",
+        "index": 128,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xfB10Ebf252Cf258babBEF969B0c739507dD9Da4B",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "Aggregator",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "232783",
+        "index": 129,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x88291350eFba59C6482B1F53D224Ed8eEe59a604",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SwapExecutor",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "226776",
+        "index": 130,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Uniswap Protocol",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x5fa82afc532562c7016644c06c6b1a2a00a4f72a3f69d661c246401c335b46c6",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmdmjFAM9jyghRj4GRbH8bpnGh48o14Q2kqKFWjYA4a2Mj/Bcd75xnL2yQW9B3Ld8Wi4Hggf21tANTJt7RwXUKpB33bFnezc5LQBTA41Dkf8766tWNuiq1DBwK2ZSW5GQ4kZFASds\",\"token_symbol\":\"UNI\",\"token_name\":\"Uniswap\",\"decimals\":18}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Contract address of UNI token.",
+                  "tooltipUrl": "https://uniswap.org/"
+                },
+                "name": "Uniswap Protocol: UNI token",
+                "ordinal": 10,
+                "slug": "uniswap-protocol-uni-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap Protocol",
+                "ordinal": 0,
+                "slug": "uniswap-protocol",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Uniswap",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x1d42064Fc4Beb5F8aAF85F4617AE8b3b5B8Bd801",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between UNI and WETH.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0x1d42064fc4beb5f8aaf85f4617ae8b3b5b8bd801"
+                },
+                "name": "Uniswap V3: UNI",
+                "ordinal": 10,
+                "slug": "uniswap-v3-uni",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "232239",
+        "index": 131,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Uniswap Protocol",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x5fa82afc532562c7016644c06c6b1a2a00a4f72a3f69d661c246401c335b46c6",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmdmjFAM9jyghRj4GRbH8bpnGh48o14Q2kqKFWjYA4a2Mj/Bcd75xnL2yQW9B3Ld8Wi4Hggf21tANTJt7RwXUKpB33bFnezc5LQBTA41Dkf8766tWNuiq1DBwK2ZSW5GQ4kZFASds\",\"token_symbol\":\"UNI\",\"token_name\":\"Uniswap\",\"decimals\":18}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Contract address of UNI token.",
+                  "tooltipUrl": "https://uniswap.org/"
+                },
+                "name": "Uniswap Protocol: UNI token",
+                "ordinal": 10,
+                "slug": "uniswap-protocol-uni-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap Protocol",
+                "ordinal": 0,
+                "slug": "uniswap-protocol",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Uniswap",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "236197",
+        "index": 132,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Wrapped Ether",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0xe27ff4957dc5c9bb33feafde33089e0c03fb4999f3e8d01f4720334161a17224@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmRyTdB5Cc7zH7G4YwWs7jh98zNGLQN1NfJ8KTWTXikhcP/WETH\",\"token_symbol\":\"WETH\",\"token_name\":\"WETH\",\"decimals\":18}",
+                  "tooltipDescription": "wETH is wrapped ETH which confroms to the ERC20 standard",
+                  "tooltipUrl": "https://weth.io/",
+                  "verifiedDomains": [
+                    "traderjoexyz.com",
+                    "app.mav.xyz",
+                    "core.app",
+                    "shibaswap.com",
+                    "app.dodoex.io",
+                    "app.uniswap.org",
+                    "explorer.reservoir.tools",
+                    "pancakeswap.finance",
+                    "swapr.eth.limo"
+                  ]
+                },
+                "name": "WETH Token (v2)",
+                "ordinal": 10,
+                "slug": "weth-token-v2",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Wrapped Token",
+                "ordinal": 0,
+                "slug": "wrapped-token",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "main_entity": "Wrapped",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://weth.io/"
+                },
+                "name": "Wrapped Ether",
+                "ordinal": 0,
+                "slug": "wrapped-ether",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "WETH9",
+                "ordinal": 0,
+                "slug": "weth9",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "WETH9",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "235160",
+        "index": 133,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Wrapped Ether",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0xe27ff4957dc5c9bb33feafde33089e0c03fb4999f3e8d01f4720334161a17224@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmRyTdB5Cc7zH7G4YwWs7jh98zNGLQN1NfJ8KTWTXikhcP/WETH\",\"token_symbol\":\"WETH\",\"token_name\":\"WETH\",\"decimals\":18}",
+                  "tooltipDescription": "wETH is wrapped ETH which confroms to the ERC20 standard",
+                  "tooltipUrl": "https://weth.io/",
+                  "verifiedDomains": [
+                    "traderjoexyz.com",
+                    "app.mav.xyz",
+                    "core.app",
+                    "shibaswap.com",
+                    "app.dodoex.io",
+                    "app.uniswap.org",
+                    "explorer.reservoir.tools",
+                    "pancakeswap.finance",
+                    "swapr.eth.limo"
+                  ]
+                },
+                "name": "WETH Token (v2)",
+                "ordinal": 10,
+                "slug": "weth-token-v2",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Wrapped Token",
+                "ordinal": 0,
+                "slug": "wrapped-token",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "main_entity": "Wrapped",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://weth.io/"
+                },
+                "name": "Wrapped Ether",
+                "ordinal": 0,
+                "slug": "wrapped-ether",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "WETH9",
+                "ordinal": 0,
+                "slug": "weth9",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "WETH9",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Wrapped Ether",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0xe27ff4957dc5c9bb33feafde33089e0c03fb4999f3e8d01f4720334161a17224@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmRyTdB5Cc7zH7G4YwWs7jh98zNGLQN1NfJ8KTWTXikhcP/WETH\",\"token_symbol\":\"WETH\",\"token_name\":\"WETH\",\"decimals\":18}",
+                  "tooltipDescription": "wETH is wrapped ETH which confroms to the ERC20 standard",
+                  "tooltipUrl": "https://weth.io/",
+                  "verifiedDomains": [
+                    "traderjoexyz.com",
+                    "app.mav.xyz",
+                    "core.app",
+                    "shibaswap.com",
+                    "app.dodoex.io",
+                    "app.uniswap.org",
+                    "explorer.reservoir.tools",
+                    "pancakeswap.finance",
+                    "swapr.eth.limo"
+                  ]
+                },
+                "name": "WETH Token (v2)",
+                "ordinal": 10,
+                "slug": "weth-token-v2",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Wrapped Token",
+                "ordinal": 0,
+                "slug": "wrapped-token",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "main_entity": "Wrapped",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://weth.io/"
+                },
+                "name": "Wrapped Ether",
+                "ordinal": 0,
+                "slug": "wrapped-ether",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "WETH9",
+                "ordinal": 0,
+                "slug": "weth9",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "WETH9",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2300",
+        "index": 134,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "call",
+        "value": "432935841128143650278"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2016",
+        "index": 135,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xfB10Ebf252Cf258babBEF969B0c739507dD9Da4B",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "Aggregator",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "delegatecall",
+        "value": "432935841128143650278"
+      },
+      {
+        "block_number": 26301442,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "218629",
+        "index": 136,
+        "success": true,
+        "timestamp": "2026-10-29T22:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xE7024aB80143b1EF843EFE6a58368696Cb87958d",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x56992b258ebb3726ed4cd06aa4bee924d206463a108ab225c5b1e6e4e02d661b",
+        "transaction_index": 4,
+        "type": "call",
+        "value": "520300731888603423250"
+      }
+    ],
+    "meta": {
+      "message": null,
+      "status": 1
+    },
+    "next_page_params": null
+  }
+}

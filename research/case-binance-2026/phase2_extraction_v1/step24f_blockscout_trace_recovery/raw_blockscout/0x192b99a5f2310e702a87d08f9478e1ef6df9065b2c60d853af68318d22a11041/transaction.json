@@ -1,0 +1,1416 @@
+{
+  "provider": "BLOCKSCOUT",
+  "network_context": "ETHEREUM_MAINNET_ENDPOINT",
+  "queried_at_utc": "2026-11-19T10:40:57.829327+00:00",
+  "endpoint": "/transactions/0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+  "params": {},
+  "response": {
+    "has_error_in_internal_transactions": false,
+    "block_number": 26301179,
+    "exchange_rate": "1803.05",
+    "transaction_types": [
+      "contract_call",
+      "token_transfer"
+    ],
+    "historic_exchange_rate": "2249.4767252054453",
+    "nonce": 4,
+    "timestamp": "2026-10-29T21:46:35.000000Z",
+    "base_fee_per_gas": "36601616354",
+    "token_transfers": [
+      {
+        "block_hash": "0x27c9ae73f9c2989dd53176c5269da5210140ed9be172a2c06a85f23cd19f66c8",
+        "block_number": 26301179,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xE7024aB80143b1EF843EFE6a58368696Cb87958d",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 0,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
+          "circulating_market_cap": "2796741493",
+          "circulating_supply": "2796488317.9206543",
+          "decimals": "18",
+          "exchange_rate": "1.0",
+          "holders_count": "13321",
+          "icon_url": "https://assets.coingecko.com/coins/images/39651/small/RLUSD_200x200_%281%29.png?1727376633",
+          "name": "Ripple USD",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "RLUSD",
+          "total_supply": "2073990325302889529286669761",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "350955979"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "ui_multiplier": null,
+          "value": "3954455938141481610000000"
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x27c9ae73f9c2989dd53176c5269da5210140ed9be172a2c06a85f23cd19f66c8",
+        "block_number": 26301179,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 2,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+          "circulating_market_cap": "8450408157",
+          "circulating_supply": "8450295516.719112",
+          "decimals": "18",
+          "exchange_rate": "1.0",
+          "holders_count": "17135",
+          "icon_url": "https://assets.coingecko.com/coins/images/39926/small/usds.webp?1726666683",
+          "name": "USDS",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "USDS",
+          "total_supply": "5216767398702743343636804548",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "272484132"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "ui_multiplier": null,
+          "value": "3954181951362565850243478"
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x27c9ae73f9c2989dd53176c5269da5210140ed9be172a2c06a85f23cd19f66c8",
+        "block_number": 26301179,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 3,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+          "circulating_market_cap": "8450408157",
+          "circulating_supply": "8450295516.719112",
+          "decimals": "18",
+          "exchange_rate": "1.0",
+          "holders_count": "17135",
+          "icon_url": "https://assets.coingecko.com/coins/images/39926/small/usds.webp?1726666683",
+          "name": "USDS",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "USDS",
+          "total_supply": "5216767398702743343636804548",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "272484132"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "ui_multiplier": null,
+          "value": "3954181951362565850243478"
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x27c9ae73f9c2989dd53176c5269da5210140ed9be172a2c06a85f23cd19f66c8",
+        "block_number": 26301179,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 5,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+          "circulating_market_cap": "175109804666",
+          "circulating_supply": "175246054068.6087",
+          "decimals": "6",
+          "exchange_rate": "0.999236",
+          "holders_count": "17191682",
+          "icon_url": "https://assets.coingecko.com/coins/images/325/small/Tether.png?1696501661",
+          "name": "Tether",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "USDT",
+          "total_supply": "84296691994493958",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "47451841879"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "ui_multiplier": null,
+          "value": "3958654340367"
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x27c9ae73f9c2989dd53176c5269da5210140ed9be172a2c06a85f23cd19f66c8",
+        "block_number": 26301179,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x4e68Ccd3E89f51C3074ca5072bbAC773960dFa36",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between WETH and USDT.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0x4e68ccd3e89f51c3074ca5072bbac773960dfa36"
+                },
+                "name": "Uniswap V3: \u55b5\u55b5\u55b5\u55b5\u55b5-USDT",
+                "ordinal": 10,
+                "slug": "uniswap-v3-usdt",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 6,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "circulating_market_cap": "3785704557",
+          "circulating_supply": "2103054.218095953",
+          "decimals": "18",
+          "exchange_rate": "1800.11",
+          "holders_count": "3352770",
+          "icon_url": "https://assets.coingecko.com/coins/images/2518/small/weth.png?1696503332",
+          "name": "WETH",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "WETH",
+          "total_supply": "2100694683937284507463651",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "285224463"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "ui_multiplier": null,
+          "value": "1710403883769425928805"
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x27c9ae73f9c2989dd53176c5269da5210140ed9be172a2c06a85f23cd19f66c8",
+        "block_number": 26301179,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 7,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x4e68Ccd3E89f51C3074ca5072bbAC773960dFa36",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between WETH and USDT.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0x4e68ccd3e89f51c3074ca5072bbac773960dfa36"
+                },
+                "name": "Uniswap V3: \u55b5\u55b5\u55b5\u55b5\u55b5-USDT",
+                "ordinal": 10,
+                "slug": "uniswap-v3-usdt",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+          "circulating_market_cap": "175109804666",
+          "circulating_supply": "175246054068.6087",
+          "decimals": "6",
+          "exchange_rate": "0.999236",
+          "holders_count": "17191682",
+          "icon_url": "https://assets.coingecko.com/coins/images/325/small/Tether.png?1696501661",
+          "name": "Tether",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "USDT",
+          "total_supply": "84296691994493958",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "47451841879"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "ui_multiplier": null,
+          "value": "3958654340367"
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x27c9ae73f9c2989dd53176c5269da5210140ed9be172a2c06a85f23cd19f66c8",
+        "block_number": 26301179,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xE7024aB80143b1EF843EFE6a58368696Cb87958d",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 9,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xb2983625f32BF1fc358181b3382Cb53bBd076Cd6",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "CurveAdapter",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
+          "circulating_market_cap": "2796741493",
+          "circulating_supply": "2796488317.9206543",
+          "decimals": "18",
+          "exchange_rate": "1.0",
+          "holders_count": "13321",
+          "icon_url": "https://assets.coingecko.com/coins/images/39651/small/RLUSD_200x200_%281%29.png?1727376633",
+          "name": "Ripple USD",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "RLUSD",
+          "total_supply": "2073990325302889529286669761",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "350955979"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "ui_multiplier": null,
+          "value": "3024478933170304010000000"
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x27c9ae73f9c2989dd53176c5269da5210140ed9be172a2c06a85f23cd19f66c8",
+        "block_number": 26301179,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xb2983625f32BF1fc358181b3382Cb53bBd076Cd6",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "CurveAdapter",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 11,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xD001aE433f254283FeCE51d4ACcE8c53263aa186",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipUrl": "https://curve.fi"
+                },
+                "name": "Curve: RLUSD/USDC Pool",
+                "ordinal": 10,
+                "slug": "curve-rlusdusdc-pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "CurveStableSwapNG",
+                "ordinal": 0,
+                "slug": "curvestableswapng",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "alertStatus": "info",
+                  "data": "Curve's RLUSD/USDC (RLUSD/USDC) pool contract. This nametag was submitted by Kleros Scout.\""
+                },
+                "name": "note_0",
+                "ordinal": 0,
+                "slug": "note0",
+                "tagType": "note"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Curve",
+                  "appID": "curve"
+                },
+                "name": "Curve",
+                "ordinal": 0,
+                "slug": "curve",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "CurveStableSwapNG",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
+          "circulating_market_cap": "2796741493",
+          "circulating_supply": "2796488317.9206543",
+          "decimals": "18",
+          "exchange_rate": "1.0",
+          "holders_count": "13321",
+          "icon_url": "https://assets.coingecko.com/coins/images/39651/small/RLUSD_200x200_%281%29.png?1727376633",
+          "name": "Ripple USD",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "RLUSD",
+          "total_supply": "2073990325302889529286669761",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "350955979"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "ui_multiplier": null,
+          "value": "3024478933170304010000000"
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x27c9ae73f9c2989dd53176c5269da5210140ed9be172a2c06a85f23cd19f66c8",
+        "block_number": 26301179,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xD001aE433f254283FeCE51d4ACcE8c53263aa186",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipUrl": "https://curve.fi"
+                },
+                "name": "Curve: RLUSD/USDC Pool",
+                "ordinal": 10,
+                "slug": "curve-rlusdusdc-pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "CurveStableSwapNG",
+                "ordinal": 0,
+                "slug": "curvestableswapng",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "alertStatus": "info",
+                  "data": "Curve's RLUSD/USDC (RLUSD/USDC) pool contract. This nametag was submitted by Kleros Scout.\""
+                },
+                "name": "note_0",
+                "ordinal": 0,
+                "slug": "note0",
+                "tagType": "note"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Curve",
+                  "appID": "curve"
+                },
+                "name": "Curve",
+                "ordinal": 0,
+                "slug": "curve",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "CurveStableSwapNG",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 12,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x37Cfcc3877Cf8854742922C3416C20c8fd3916b2",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "FluidDexAdapter",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "68231387996",
+          "circulating_supply": "68258542626.86399",
+          "decimals": "6",
+          "exchange_rate": "0.999611",
+          "holders_count": "9608579",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "44455439583229699",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "13730880376"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "ui_multiplier": null,
+          "value": "3023480518253"
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x27c9ae73f9c2989dd53176c5269da5210140ed9be172a2c06a85f23cd19f66c8",
+        "block_number": 26301179,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x37Cfcc3877Cf8854742922C3416C20c8fd3916b2",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "FluidDexAdapter",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 15,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x52Aa899454998Be5b000Ad077a46Bbe360F4e497",
+          "implementations": [
+            {
+              "address_hash": "0xCc331daf69752BEcE3DC98dBC63eAcd5092266A2",
+              "name": "FluidLiquidityDummyImpl"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://fluid.instadapp.io/"
+                },
+                "name": "Fluid: Liquidity",
+                "ordinal": 10,
+                "slug": "fluid-liquidity",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Fluid",
+                "ordinal": 0,
+                "slug": "fluid",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "FluidLiquidityProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "68231387996",
+          "circulating_supply": "68258542626.86399",
+          "decimals": "6",
+          "exchange_rate": "0.999611",
+          "holders_count": "9608579",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "44455439583229699",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "13730880376"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "ui_multiplier": null,
+          "value": "3023480518253"
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "type": "token_transfer"
+      }
+    ],
+    "fhe_operations_count": 0,
+    "decoded_input": {
+      "method_call": "swapExactIn(uint256 orderId, (address,address,uint256,uint256) request, uint256[] routesAmount, (uint256[],address[],uint256[],bytes[],address)[][] routes, uint256 feeConfig, address recipient)",
+      "method_id": "edad400c",
+      "parameters": [
+        {
+          "name": "orderId",
+          "type": "uint256",
+          "value": "0"
+        },
+        {
+          "name": "request",
+          "type": "(address,address,uint256,uint256)",
+          "value": [
+            "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
+            "0x0000000000000000000000000000000000000000",
+            "4257499504104958156820",
+            "1793311559"
+          ]
+        },
+        {
+          "name": "routesAmount",
+          "type": "uint256[]",
+          "value": [
+            "3954455938141481610000000",
+            "3024478933170304010000000",
+            "1463712964092686770000000",
+            "1266850321239197890000000",
+            "161687637999938110000000",
+            "128814205356391610000000"
+          ]
+        },
+        {
+          "name": "routes",
+          "type": "(uint256[],address[],uint256[],bytes[],address)[][]",
+          "value": [
+            [
+              [
+                [
+                  "452312848583266388373324160190187140051835877600158453279131187530910662656"
+                ],
+                [
+                  "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7"
+                ],
+                [
+                  "14615016373309029182036848327162830196559325429760000"
+                ],
+                [
+                  "0x0000000000000000000000008292bb45bf1ee4d140127049757c2e0ff06317ed000000000000000000000000dc035d45d973e3ec169d2276ddab16f1e407384f0000000000000000000000000000000000000000000000000000000000000005000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000"
+                ],
+                "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD"
+              ],
+              [
+                [
+                  "452312848583266388373324160190187140051835877600158453279131187530910662656"
+                ],
+                [
+                  "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7"
+                ],
+                [
+                  "14615016373309029182036848327162830196559325429760000"
+                ],
+                [
+                  "0x000000000000000000000000dac17f958d2ee523a2206206994597c13d831ec7000000000000000000000000dc035d45d973e3ec169d2276ddab16f1e407384f0000000000000000000000000000000000000000000000000000000000000005000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000"
+                ],
+                "0xdC035D45d973E3EC169d2276DDab16f1e407384F"
+              ],
+              [
+                [
+                  "904625697166532776746648320380374280103671755200316906558262375061821325312"
+                ],
+                [
+                  "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7"
+                ],
+                [
+                  "14615464011709669206332503099960973592973103776791094"
+                ],
+                [
+                  "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000dac17f958d2ee523a2206206994597c13d831ec7000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000000000000000000000000000000000000000bb8"
+                ],
+                "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+              ]
+            ],
+            [
+              [
+                [
+                  "1019594787453938560942477363054306736260990332118"
+                ],
+                [
+                  "0xb2983625f32BF1fc358181b3382Cb53bBd076Cd6"
+                ],
+                [
+                  "14616203880870526344726312753426377442139645996081542"
+                ],
+                [
+                  "0x0000000000000000000000008292bb45bf1ee4d140127049757c2e0ff06317ed000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb480000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000"
+                ],
+                "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD"
+              ],
+              [
+                [
+                  "318628536772805341532934109466014459942514792114"
+                ],
+                [
+                  "0x37Cfcc3877Cf8854742922C3416C20c8fd3916b2"
+                ],
+                [
+                  "14615601344321405076312637173428025392795581548175259"
+                ],
+                [
+                  "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+                ],
+                "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              ],
+              [
+                [
+                  "904625697166532776746648320380374280103671755200316906558262375061821325312"
+                ],
+                [
+                  "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7"
+                ],
+                [
+                  "14615464011709669206332503099960973592973103776791094"
+                ],
+                [
+                  "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000dac17f958d2ee523a2206206994597c13d831ec7000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000000000000000000000000000000000000000bb8"
+                ],
+                "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+              ]
+            ],
+            [
+              [
+                [
+                  "452312848583266388373324160190187140051835877600158453279131187530910662656"
+                ],
+                [
+                  "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7"
+                ],
+                [
+                  "14615016373309029182036848327162830196559325429760000"
+                ],
+                [
+                  "0x0000000000000000000000008292bb45bf1ee4d140127049757c2e0ff06317ed000000000000000000000000dc035d45d973e3ec169d2276ddab16f1e407384f0000000000000000000000000000000000000000000000000000000000000005000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000"
+                ],
+                "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD"
+              ],
+              [
+                [
+                  "782504598442756547519859487766054775532750574126"
+                ],
+                [
+                  "0x8910b84167A171Ad0e5B70024F4bfd8C3E93122E"
+                ],
+                [
+                  "57896044618658097711785507120282528452224081855997465870860788632000184514956"
+                ],
+                [
+                  "0x000000000000000000000000dc035d45d973e3ec169d2276ddab16f1e407384f0000000000000000000000000000000000000000000000000000000000000001"
+                ],
+                "0xdC035D45d973E3EC169d2276DDab16f1e407384F"
+              ],
+              [
+                [
+                  "904625697166532776746648320380374280103671755200316906558262375061821325312"
+                ],
+                [
+                  "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7"
+                ],
+                [
+                  "14615808977488878969143824119671133095550325261526744"
+                ],
+                [
+                  "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000000000000000000000000000000000000000bb8"
+                ],
+                "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              ]
+            ],
+            [
+              [
+                [
+                  "904625697166532776746648320380374280103671755200316906558262375061821325312"
+                ],
+                [
+                  "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7"
+                ],
+                [
+                  "14616183442314993037683772526208016930824938977050197"
+                ],
+                [
+                  "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000008292bb45bf1ee4d140127049757c2e0ff06317ed000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb480000000000000000000000000000000000000000000000000000000000000064"
+                ],
+                "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD"
+              ],
+              [
+                [
+                  "904625697166532776746648320380374280103671755200316906558262375061821325312"
+                ],
+                [
+                  "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7"
+                ],
+                [
+                  "14615797939229532266559437062516514408723356640564800"
+                ],
+                [
+                  "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc200000000000000000000000000000000000000000000000000000000000001f4"
+                ],
+                "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              ]
+            ],
+            [
+              [
+                [
+                  "1019594787453938560942477363054306736260990332118"
+                ],
+                [
+                  "0xb2983625f32BF1fc358181b3382Cb53bBd076Cd6"
+                ],
+                [
+                  "14616203880870526344726312753426377442139645996081542"
+                ],
+                [
+                  "0x0000000000000000000000008292bb45bf1ee4d140127049757c2e0ff06317ed000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb480000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000"
+                ],
+                "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD"
+              ],
+              [
+                [
+                  "904625697166532776746648320380374280103671755200316906558262375061821325312"
+                ],
+                [
+                  "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7"
+                ],
+                [
+                  "14615808977488878969143824119671133095550325261526744"
+                ],
+                [
+                  "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000000000000000000000000000000000000000bb8"
+                ],
+                "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              ]
+            ],
+            [
+              [
+                [
+                  "1019594787453938560942477363054306736260990332118"
+                ],
+                [
+                  "0xb2983625f32BF1fc358181b3382Cb53bBd076Cd6"
+                ],
+                [
+                  "14616203880870526344726312753426377442139645996081542"
+                ],
+                [
+                  "0x0000000000000000000000008292bb45bf1ee4d140127049757c2e0ff06317ed000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb480000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000"
+                ],
+                "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD"
+              ],
+              [
+                [
+                  "3618502788666131106986593281521497120414687020801267626233049500247285301248"
+                ],
+                [
+                  "0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc"
+                ],
+                [
+                  "14616049018811166021134717486058163734233270547171804"
+                ],
+                [
+                  "0x"
+                ],
+                "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              ]
+            ]
+          ]
+        },
+        {
+          "name": "feeConfig",
+          "type": "uint256",
+          "value": "0"
+        },
+        {
+          "name": "recipient",
+          "type": "address",
+          "value": "0xE7024aB80143b1EF843EFE6a58368696Cb87958d"
+        }
+      ]
+    },
+    "gas_price": "42601616354",
+    "gas_limit": "3494728",
+    "fee": {
+      "type": "actual",
+      "value": "106236289726215110"
+    },
+    "method": "swapExactIn",
+    "authorization_list": [],
+    "to": {
+      "ens_domain_name": null,
+      "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+      "implementations": [
+        {
+          "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+          "name": "Aggregator"
+        }
+      ],
+      "is_contract": true,
+      "is_scam": false,
+      "is_verified": true,
+      "metadata": null,
+      "name": "ERC1967Proxy",
+      "private_tags": [],
+      "proxy_type": "eip1967",
+      "public_tags": [],
+      "reputation": "ok",
+      "watchlist_names": []
+    },
+    "status": "ok",
+    "gas_used": "2493715",
+    "from": {
+      "ens_domain_name": null,
+      "hash": "0xE7024aB80143b1EF843EFE6a58368696Cb87958d",
+      "implementations": [],
+      "is_contract": false,
+      "is_scam": false,
+      "is_verified": false,
+      "metadata": null,
+      "name": null,
+      "private_tags": [],
+      "proxy_type": null,
+      "public_tags": [],
+      "reputation": "ok",
+      "watchlist_names": []
+    },
+    "value": "0",
+    "created_contract": null,
+    "transaction_tag": null,
+    "max_priority_fee_per_gas": "6000000000",
+    "position": 0,
+    "confirmations": 147412,
+    "token_transfers_overflow": true,
+    "type": 2,
+    "transaction_burnt_fee": "91273999726215110",
+    "confirmation_duration": [
+      0,
+      12000.0
+    ],
+    "revert_reason": null,
+    "max_fee_per_gas": "58058882413",
+    "hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+    "result": "success",
+    "is_pending_update": false,
+    "raw_input": "0xedad400c00000000000000000000000000000000000000000000000000000000000000000000000000000000000000008292bb45bf1ee4d140127049757c2e0ff06317ed00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e6ccacb9c8c9c56014000000000000000000000000000000000000000000000000000000006ae3c347000000000000000000000000000000000000000000000000000000000000012000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e7024ab80143b1ef843efe6a58368696cb87958d00000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000345637c67a62c0668368000000000000000000000000000000000000000000002807554dd1e3ad42d96800000000000000000000000000000000000000000000135f409ed5ea59ffa5080000000000000000000000000000000000000000000010c4417f14261f372348000000000000000000000000000000000000000000000223d1abb371f75c08b80000000000000000000000000000000000000000000001b47083564ba663d2280000000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000c00000000000000000000000000000000000000000000000000000000000000940000000000000000000000000000000000000000000000000000000000000106000000000000000000000000000000000000000000000000000000000000018000000000000000000000000000000000000000000000000000000000000001ce00000000000000000000000000000000000000000000000000000000000002200000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000340000000000000000000000000000000000000000000000000000000000000062000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e0000000000000000000000000000000000000000000000000000000000000012000000000000000000000000000000000000000000000000000000000000001600000000000000000000000008292bb45bf1ee4d140127049757c2e0ff06317ed0000000000000000000000000000000000000000000000000000000000000001010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000002f68417a18da681589f4ea64b9cc9839209acff7000000000000000000000000000000000000000000000000000000000000000100000000000000000000271000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000001200000000000000000000000008292bb45bf1ee4d140127049757c2e0ff06317ed000000000000000000000000dc035d45d973e3ec169d2276ddab16f1e407384f000000000000000000000000000000000000000000000000000000000000000500000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000dc035d45d973e3ec169d2276ddab16f1e407384f0000000000000000000000000000000000000000000000000000000000000001010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000002f68417a18da681589f4ea64b9cc9839209acff700000000000000000000000000000000000000000000000000000000000000010000000000000000000027100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000120000000000000000000000000dac17f958d2ee523a2206206994597c13d831ec7000000000000000000000000dc035d45d973e3ec169d2276ddab16f1e407384f000000000000000000000000000000000000000000000000000000000000000500000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000dac17f958d2ee523a2206206994597c13d831ec70000000000000000000000000000000000000000000000000000000000000001020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000002f68417a18da681589f4ea64b9cc9839209acff700000000000000000000000000000000000000000000000000000000000000010000000000000000000027104e68ccd3e89f51c3074ca5072bbac773960dfa360000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000dac17f958d2ee523a2206206994597c13d831ec7000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000000000000000000000000000000000000000bb80000000000000000000000000000000000000000000000000000000000000003000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000002e000000000000000000000000000000000000000000000000000000000000004c000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e0000000000000000000000000000000000000000000000000000000000000012000000000000000000000000000000000000000000000000000000000000001600000000000000000000000008292bb45bf1ee4d140127049757c2e0ff06317ed0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000b2983625f32bf1fc358181b3382cb53bbd076cd60000000000000000000000000000000000000000000000000000000000000001000000000000000000000000b2983625f32bf1fc358181b3382cb53bbd076cd60000000000000000000000000000000000000000000000000000000000000001000000000000000000002710d001ae433f254283fece51d4acce8c53263aa1860000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000c00000000000000000000000008292bb45bf1ee4d140127049757c2e0ff06317ed000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000000000000000000000000000000000000000000100000000000000000000000037cfcc3877cf8854742922c3416c20c8fd3916b2000000000000000000000000000000000000000000000000000000000000000100000000000000000000000037cfcc3877cf8854742922c3416c20c8fd3916b20000000000000000000000000000000000000000000000000000000000000001000000000000000000002710667701e51b4d1ca244f17c78f7ab8744b4c99f9b000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000020000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb4800000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000dac17f958d2ee523a2206206994597c13d831ec70000000000000000000000000000000000000000000000000000000000000001020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000002f68417a18da681589f4ea64b9cc9839209acff700000000000000000000000000000000000000000000000000000000000000010000000000000000000027104e68ccd3e89f51c3074ca5072bbac773960dfa360000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000dac17f958d2ee523a2206206994597c13d831ec7000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000000000000000000000000000000000000000bb8000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000340000000000000000000000000000000000000000000000000000000000000054000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e0000000000000000000000000000000000000000000000000000000000000012000000000000000000000000000000000000000000000000000000000000001600000000000000000000000008292bb45bf1ee4d140127049757c2e0ff06317ed0000000000000000000000000000000000000000000000000000000000000001010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000002f68417a18da681589f4ea64b9cc9839209acff7000000000000000000000000000000000000000000000000000000000000000100000000000000000000271000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000001200000000000000000000000008292bb45bf1ee4d140127049757c2e0ff06317ed000000000000000000000000dc035d45d973e3ec169d2276ddab16f1e407384f000000000000000000000000000000000000000000000000000000000000000500000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000dc035d45d973e3ec169d2276ddab16f1e407384f00000000000000000000000000000000000000000000000000000000000000010000000000000000000000008910b84167a171ad0e5b70024f4bfd8c3e93122e00000000000000000000000000000000000000000000000000000000000000010000000000000000000000008910b84167a171ad0e5b70024f4bfd8c3e93122e0000000000000000000000000000000000000000000000000000000000000001800000000000000000002710a188eec8f81263234da3622a406892f3d630f98c000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000040000000000000000000000000dc035d45d973e3ec169d2276ddab16f1e407384f000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb480000000000000000000000000000000000000000000000000000000000000001020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000002f68417a18da681589f4ea64b9cc9839209acff700000000000000000000000000000000000000000000000000000000000000010000000000000000000027108ad599c3a0ff1de082011efddc58f1908eb6e6d80000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000000000000000000000000000000000000000bb800000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000028000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e0000000000000000000000000000000000000000000000000000000000000012000000000000000000000000000000000000000000000000000000000000001600000000000000000000000008292bb45bf1ee4d140127049757c2e0ff06317ed0000000000000000000000000000000000000000000000000000000000000001020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000002f68417a18da681589f4ea64b9cc9839209acff70000000000000000000000000000000000000000000000000000000000000001000000000000000000002710cc6d2f26d363836f85a42d249e145ec0320d3e5500000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008292bb45bf1ee4d140127049757c2e0ff06317ed000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000000000000000000000000000000000000000006400000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb480000000000000000000000000000000000000000000000000000000000000001020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000002f68417a18da681589f4ea64b9cc9839209acff7000000000000000000000000000000000000000000000000000000000000000100000000000000000000271088e6a0c2ddd26feeb64f039a2c41296fcb3f56400000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc200000000000000000000000000000000000000000000000000000000000001f40000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000002c000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e0000000000000000000000000000000000000000000000000000000000000012000000000000000000000000000000000000000000000000000000000000001600000000000000000000000008292bb45bf1ee4d140127049757c2e0ff06317ed0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000b2983625f32bf1fc358181b3382cb53bbd076cd60000000000000000000000000000000000000000000000000000000000000001000000000000000000000000b2983625f32bf1fc358181b3382cb53bbd076cd60000000000000000000000000000000000000000000000000000000000000001000000000000000000002710d001ae433f254283fece51d4acce8c53263aa1860000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000c00000000000000000000000008292bb45bf1ee4d140127049757c2e0ff06317ed000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb480000000000000000000000000000000000000000000000000000000000000001020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000002f68417a18da681589f4ea64b9cc9839209acff700000000000000000000000000000000000000000000000000000000000000010000000000000000000027108ad599c3a0ff1de082011efddc58f1908eb6e6d80000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000000000000000000000000000000000000000bb80000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000002c000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e0000000000000000000000000000000000000000000000000000000000000012000000000000000000000000000000000000000000000000000000000000001600000000000000000000000008292bb45bf1ee4d140127049757c2e0ff06317ed0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000b2983625f32bf1fc358181b3382cb53bbd076cd60000000000000000000000000000000000000000000000000000000000000001000000000000000000000000b2983625f32bf1fc358181b3382cb53bbd076cd60000000000000000000000000000000000000000000000000000000000000001000000000000000000002710d001ae433f254283fece51d4acce8c53263aa1860000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000c00000000000000000000000008292bb45bf1ee4d140127049757c2e0ff06317ed000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000000000000000000000000000000000000000000108000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000b4e16d0168e52d35cacd2c6185b44281ec28c9dc0000000000000000000000000000000000000000000000000000000000000001000000000000000000002710b4e16d0168e52d35cacd2c6185b44281ec28c9dc000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000",
+    "priority_fee": "14962290000000000"
+  }
+}

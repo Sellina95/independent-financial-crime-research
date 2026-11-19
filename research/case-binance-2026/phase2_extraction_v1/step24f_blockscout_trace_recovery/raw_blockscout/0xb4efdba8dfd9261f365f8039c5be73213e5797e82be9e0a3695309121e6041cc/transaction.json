@@ -1,0 +1,1120 @@
+{
+  "provider": "BLOCKSCOUT",
+  "network_context": "ETHEREUM_MAINNET_ENDPOINT",
+  "queried_at_utc": "2026-11-19T10:41:42.055909+00:00",
+  "endpoint": "/transactions/0xb4efdba8dfd9261f365f8039c5be73213e5797e82be9e0a3695309121e6041cc",
+  "params": {},
+  "response": {
+    "has_error_in_internal_transactions": false,
+    "block_number": 26301452,
+    "exchange_rate": "1803.5",
+    "transaction_types": [
+      "contract_call",
+      "token_transfer"
+    ],
+    "historic_exchange_rate": "2249.4767252054453",
+    "nonce": 17,
+    "timestamp": "2026-10-29T22:41:11.000000Z",
+    "base_fee_per_gas": "29673328276",
+    "token_transfers": [
+      {
+        "block_hash": "0x8a779b5e0b56bf56129fbc7036e60445d06f66970839b908606fd6a3064d0964",
+        "block_number": 26301452,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xE7024aB80143b1EF843EFE6a58368696Cb87958d",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 58,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+          "circulating_market_cap": "1687013389",
+          "circulating_supply": "15441245.906954594",
+          "decimals": "18",
+          "exchange_rate": "109.29",
+          "holders_count": "196773",
+          "icon_url": "https://assets.coingecko.com/coins/images/12645/small/aave-token-round.png?1720472354",
+          "name": "Aave",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "AAVE",
+          "total_supply": "16000000000000000000000000",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "202432664"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "ui_multiplier": null,
+          "value": "10000000000000000000000"
+        },
+        "transaction_hash": "0xb4efdba8dfd9261f365f8039c5be73213e5797e82be9e0a3695309121e6041cc",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x8a779b5e0b56bf56129fbc7036e60445d06f66970839b908606fd6a3064d0964",
+        "block_number": 26301452,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x14243EA6bB3d64C8d54A1f47B077e23394D6528A",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 59,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+          "circulating_market_cap": "7021395550",
+          "circulating_supply": "766849970.424884",
+          "decimals": "18",
+          "exchange_rate": "9.16",
+          "holders_count": "1014618",
+          "icon_url": "https://assets.coingecko.com/coins/images/877/small/Chainlink_Logo_500.png?1760023405",
+          "name": "Chainlink",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "LINK",
+          "total_supply": "1000000000000000000000000000",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "179182283"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "ui_multiplier": null,
+          "value": "3081824116507826404218"
+        },
+        "transaction_hash": "0xb4efdba8dfd9261f365f8039c5be73213e5797e82be9e0a3695309121e6041cc",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x8a779b5e0b56bf56129fbc7036e60445d06f66970839b908606fd6a3064d0964",
+        "block_number": 26301452,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 60,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x14243EA6bB3d64C8d54A1f47B077e23394D6528A",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+          "circulating_market_cap": "1687013389",
+          "circulating_supply": "15441245.906954594",
+          "decimals": "18",
+          "exchange_rate": "109.29",
+          "holders_count": "196773",
+          "icon_url": "https://assets.coingecko.com/coins/images/12645/small/aave-token-round.png?1720472354",
+          "name": "Aave",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "AAVE",
+          "total_supply": "16000000000000000000000000",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "202432664"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "ui_multiplier": null,
+          "value": "285648889906157015335"
+        },
+        "transaction_hash": "0xb4efdba8dfd9261f365f8039c5be73213e5797e82be9e0a3695309121e6041cc",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x8a779b5e0b56bf56129fbc7036e60445d06f66970839b908606fd6a3064d0964",
+        "block_number": 26301452,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 63,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+          "circulating_market_cap": "1687013389",
+          "circulating_supply": "15441245.906954594",
+          "decimals": "18",
+          "exchange_rate": "109.29",
+          "holders_count": "196773",
+          "icon_url": "https://assets.coingecko.com/coins/images/12645/small/aave-token-round.png?1720472354",
+          "name": "Aave",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "AAVE",
+          "total_supply": "16000000000000000000000000",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "202432664"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "ui_multiplier": null,
+          "value": "1714297254722442879646"
+        },
+        "transaction_hash": "0xb4efdba8dfd9261f365f8039c5be73213e5797e82be9e0a3695309121e6041cc",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x8a779b5e0b56bf56129fbc7036e60445d06f66970839b908606fd6a3064d0964",
+        "block_number": 26301452,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 64,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "68231387996",
+          "circulating_supply": "68258542626.86399",
+          "decimals": "6",
+          "exchange_rate": "0.999611",
+          "holders_count": "9608567",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "44455464983898399",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "13730880376"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "ui_multiplier": null,
+          "value": "196303901039"
+        },
+        "transaction_hash": "0xb4efdba8dfd9261f365f8039c5be73213e5797e82be9e0a3695309121e6041cc",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x8a779b5e0b56bf56129fbc7036e60445d06f66970839b908606fd6a3064d0964",
+        "block_number": 26301452,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 66,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+          "circulating_market_cap": "1687013389",
+          "circulating_supply": "15441245.906954594",
+          "decimals": "18",
+          "exchange_rate": "109.29",
+          "holders_count": "196773",
+          "icon_url": "https://assets.coingecko.com/coins/images/12645/small/aave-token-round.png?1720472354",
+          "name": "Aave",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "AAVE",
+          "total_supply": "16000000000000000000000000",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "202432664"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "ui_multiplier": null,
+          "value": "285772885868992868632"
+        },
+        "transaction_hash": "0xb4efdba8dfd9261f365f8039c5be73213e5797e82be9e0a3695309121e6041cc",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x8a779b5e0b56bf56129fbc7036e60445d06f66970839b908606fd6a3064d0964",
+        "block_number": 26301452,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 67,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "68231387996",
+          "circulating_supply": "68258542626.86399",
+          "decimals": "6",
+          "exchange_rate": "0.999611",
+          "holders_count": "9608567",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "44455464983898399",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "13730880376"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "ui_multiplier": null,
+          "value": "32242333323"
+        },
+        "transaction_hash": "0xb4efdba8dfd9261f365f8039c5be73213e5797e82be9e0a3695309121e6041cc",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x8a779b5e0b56bf56129fbc7036e60445d06f66970839b908606fd6a3064d0964",
+        "block_number": 26301452,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x5aB53EE1d50eeF2C1DD3d5402789cd27bB52c1bB",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between AAVE and WETH.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0x5ab53ee1d50eef2c1dd3d5402789cd27bb52c1bb"
+                },
+                "name": "Uniswap V3: AAVE",
+                "ordinal": 10,
+                "slug": "uniswap-v3-aave",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 68,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "circulating_market_cap": "3785704557",
+          "circulating_supply": "2103054.218095953",
+          "decimals": "18",
+          "exchange_rate": "1800.11",
+          "holders_count": "3352773",
+          "icon_url": "https://assets.coingecko.com/coins/images/2518/small/weth.png?1696503332",
+          "name": "WETH",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "WETH",
+          "total_supply": "2100492034420266141791807",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "285224463"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "ui_multiplier": null,
+          "value": "285883804768910359338"
+        },
+        "transaction_hash": "0xb4efdba8dfd9261f365f8039c5be73213e5797e82be9e0a3695309121e6041cc",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x8a779b5e0b56bf56129fbc7036e60445d06f66970839b908606fd6a3064d0964",
+        "block_number": 26301452,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 69,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x5aB53EE1d50eeF2C1DD3d5402789cd27bB52c1bB",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between AAVE and WETH.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0x5ab53ee1d50eef2c1dd3d5402789cd27bb52c1bb"
+                },
+                "name": "Uniswap V3: AAVE",
+                "ordinal": 10,
+                "slug": "uniswap-v3-aave",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+          "circulating_market_cap": "1687013389",
+          "circulating_supply": "15441245.906954594",
+          "decimals": "18",
+          "exchange_rate": "109.29",
+          "holders_count": "196773",
+          "icon_url": "https://assets.coingecko.com/coins/images/12645/small/aave-token-round.png?1720472354",
+          "name": "Aave",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "AAVE",
+          "total_supply": "16000000000000000000000000",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "202432664"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "ui_multiplier": null,
+          "value": "5714229883017087920701"
+        },
+        "transaction_hash": "0xb4efdba8dfd9261f365f8039c5be73213e5797e82be9e0a3695309121e6041cc",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x8a779b5e0b56bf56129fbc7036e60445d06f66970839b908606fd6a3064d0964",
+        "block_number": 26301452,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 72,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+          "circulating_market_cap": "1687013389",
+          "circulating_supply": "15441245.906954594",
+          "decimals": "18",
+          "exchange_rate": "109.29",
+          "holders_count": "196773",
+          "icon_url": "https://assets.coingecko.com/coins/images/12645/small/aave-token-round.png?1720472354",
+          "name": "Aave",
+          "new_ui_multiplier": null,
+          "reputation": "ok",
+          "symbol": "AAVE",
+          "total_supply": "16000000000000000000000000",
+          "type": "ERC-20",
+          "ui_multiplier": null,
+          "ui_multiplier_effective_at": null,
+          "volume_24h": "202432664"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "ui_multiplier": null,
+          "value": "2000051086485319315686"
+        },
+        "transaction_hash": "0xb4efdba8dfd9261f365f8039c5be73213e5797e82be9e0a3695309121e6041cc",
+        "type": "token_transfer"
+      }
+    ],
+    "fhe_operations_count": 0,
+    "decoded_input": {
+      "method_call": "snwap(address tokenIn, uint256 amountIn, address recipient, address tokenOut, uint256 amountOutMin, address executor, bytes executorData)",
+      "method_id": "5f3bd1c8",
+      "parameters": [
+        {
+          "name": "tokenIn",
+          "type": "address",
+          "value": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9"
+        },
+        {
+          "name": "amountIn",
+          "type": "uint256",
+          "value": "10000000000000000000000"
+        },
+        {
+          "name": "recipient",
+          "type": "address",
+          "value": "0xE7024aB80143b1EF843EFE6a58368696Cb87958d"
+        },
+        {
+          "name": "tokenOut",
+          "type": "address",
+          "value": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"
+        },
+        {
+          "name": "amountOutMin",
+          "type": "uint256",
+          "value": "489991367058437860768"
+        },
+        {
+          "name": "executor",
+          "type": "address",
+          "value": "0xB36599414542F6630d411485d968f25592cA9091"
+        },
+        {
+          "name": "executorData",
+          "type": "bytes",
+          "value": "0xdde6caf3000000000000000000000000de7259893af7cdbc9fd806c6ba61d22d581d566700000000000000000000000000000000000000000000000017e23240b5ce5de50000000000000000000000007fc66500c84a76ad7e9c93437bfc5ac33e2ddae900000000000000000000000000000000000000000000021e19e0c9bab2400000000000000000000000000000eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee00000000000000000000000000000000000000000000001aca2bafddc1290000000000000000000000000000e7024ab80143b1ef843efe6a58368696cb87958d000000000000000000000000000000000000000000000000000000000000014000000000000000000000000000000000000000000000000000000000000003e8000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000004d501a189d28b89000d017fc66500c84a76ad7e9c93437bfc5ac33e2ddae90507500114243ea6bb3d64c8d54a1f47b077e23394d6528a00b36599414542f6630d411485d968f25592ca909100f7c334a711382d2d06000000000004444c5dc75cb358380d2e3de08a90a0b86991c6218b36c1d19d4a2e9eb0ce3606eb4801000bb800003c00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b36599414542f6630d411485d968f25592ca9091b9dd37b46316092506000000000004444c5dc75cb358380d2e3de08a90a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48010009c400003200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b36599414542f6630d411485d968f25592ca9091f7de34f02f13bda0015ab53ee1d50eef2c1dd3d5402789cd27bb52c1bb01b36599414542f6630d411485d968f25592ca9091009ae239f58734ffff06000000000004444c5dc75cb358380d2e3de08a90eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee00000bb800003c00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b36599414542f6630d411485d968f25592ca9091d8d937abae3301a0b86991c6218b36c1d19d4a2e9eb0ce3606eb480449dd018ad599c3a0ff1de082011efddc58f1908eb6e6d801b36599414542f6630d411485d968f25592ca909100f2d714c3ec319ad806000000000004444c5dc75cb358380d2e3de08a90dac17f958d2ee523a2206206994597c13d831ec70100000700000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b36599414542f6630d411485d968f25592ca9091b51915b54a1581ea0b836951eb21f3df98273517b7249dceff270d34bf01b36599414542f6630d411485d968f25592ca9091f02513c1cf30ffff06000000000004444c5dc75cb358380d2e3de08a90eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee00000bb800003c00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b36599414542f6630d411485d968f25592ca9091e91013bbf73001dac17f958d2ee523a2206206994597c13d831ec701ffff0156534741cd8b152df6d48adf7ac51f75169a83b200b36599414542f6630d411485d968f25592ca909100b54a15ea9b0b012260fac5e5542a773aa44fbcfedf7c193bc2c59901ffff014585fe77225b41b697c938b018e2ac67ac5a20c001b36599414542f6630d411485d968f25592ca909100ea9b0b921f3201c02aaa39b223fe8d0a0e5c4f27ead9083c756cc201ffff0200b36599414542f6630d411485d968f25592ca909101514910771af9ca656af840dff83e8264ecf986ca01ffff06000000000004444c5dc75cb358380d2e3de08a90eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee00000bb800003c00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b36599414542f6630d411485d968f25592ca9091a71138c636300000000000000000000000"
+        }
+      ]
+    },
+    "gas_price": "36272328276",
+    "gas_limit": "3938747",
+    "fee": {
+      "type": "actual",
+      "value": "72951414441287064"
+    },
+    "method": "snwap",
+    "authorization_list": [],
+    "to": {
+      "ens_domain_name": null,
+      "hash": "0xAC4c6e212A361c968F1725b4d055b47E63F80b75",
+      "implementations": [],
+      "is_contract": true,
+      "is_scam": false,
+      "is_verified": true,
+      "metadata": {
+        "tags": [
+          {
+            "meta": {
+              "projectName": "SushiSwap",
+              "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+              "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0x74813e585010ccdfdaf560b11f1f63c8663c89ffe65ade9e1a5a264adb9563bb@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+              "textColor": "#C163D4",
+              "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+              "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+              "tooltipDescription": "Facade and primary user entry point for Sushi\u2019s Route Processor v6; forwards swaps to RouteProcessor6 via SafeExecutor.",
+              "tooltipUrl": "https://www.sushi.com/swap",
+              "verifiedDomains": [
+                "www.sushi.com",
+                "houdiniswap.com",
+                "v4.houdiniswap.com",
+                "app.houdiniswap.com",
+                "vfat.io"
+              ]
+            },
+            "name": "SushiSwap: RedSnwapper",
+            "ordinal": 10,
+            "slug": "sushiswap-redsnwapper",
+            "tagType": "name"
+          },
+          {
+            "meta": {},
+            "name": "DEX",
+            "ordinal": 0,
+            "slug": "dex",
+            "tagType": "generic"
+          },
+          {
+            "meta": {
+              "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+              "textColor": "#C163D4",
+              "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+              "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+              "tooltipDescription": "Provided by OLI"
+            },
+            "name": "Routeprocessor v5",
+            "ordinal": 0,
+            "slug": "routeprocessor-v5",
+            "tagType": "name"
+          },
+          {
+            "meta": {
+              "appActionButtonText": "SushiSwap",
+              "appID": "sushiswap"
+            },
+            "name": "SushiSwap",
+            "ordinal": 0,
+            "slug": "sushiswap",
+            "tagType": "protocol"
+          }
+        ]
+      },
+      "name": "RedSnwapper",
+      "private_tags": [],
+      "proxy_type": null,
+      "public_tags": [],
+      "reputation": "ok",
+      "watchlist_names": []
+    },
+    "status": "ok",
+    "gas_used": "2011214",
+    "from": {
+      "ens_domain_name": null,
+      "hash": "0xE7024aB80143b1EF843EFE6a58368696Cb87958d",
+      "implementations": [],
+      "is_contract": false,
+      "is_scam": false,
+      "is_verified": false,
+      "metadata": null,
+      "name": null,
+      "private_tags": [],
+      "proxy_type": null,
+      "public_tags": [],
+      "reputation": "ok",
+      "watchlist_names": []
+    },
+    "value": "0",
+    "created_contract": null,
+    "transaction_tag": null,
+    "max_priority_fee_per_gas": "6599000000",
+    "position": 3,
+    "confirmations": 147143,
+    "token_transfers_overflow": true,
+    "type": 2,
+    "transaction_burnt_fee": "59679413255287064",
+    "confirmation_duration": [
+      0,
+      12000.0
+    ],
+    "revert_reason": null,
+    "max_fee_per_gas": "41115434895",
+    "hash": "0xb4efdba8dfd9261f365f8039c5be73213e5797e82be9e0a3695309121e6041cc",
+    "result": "success",
+    "is_pending_update": false,
+    "raw_input": "0x5f3bd1c80000000000000000000000007fc66500c84a76ad7e9c93437bfc5ac33e2ddae900000000000000000000000000000000000000000000021e19e0c9bab2400000000000000000000000000000e7024ab80143b1ef843efe6a58368696cb87958d000000000000000000000000eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee00000000000000000000000000000000000000000000001a8fff08410e3a6da0000000000000000000000000b36599414542f6630d411485d968f25592ca909100000000000000000000000000000000000000000000000000000000000000e00000000000000000000000000000000000000000000000000000000000000644dde6caf3000000000000000000000000de7259893af7cdbc9fd806c6ba61d22d581d566700000000000000000000000000000000000000000000000017e23240b5ce5de50000000000000000000000007fc66500c84a76ad7e9c93437bfc5ac33e2ddae900000000000000000000000000000000000000000000021e19e0c9bab2400000000000000000000000000000eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee00000000000000000000000000000000000000000000001aca2bafddc1290000000000000000000000000000e7024ab80143b1ef843efe6a58368696cb87958d000000000000000000000000000000000000000000000000000000000000014000000000000000000000000000000000000000000000000000000000000003e8000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000004d501a189d28b89000d017fc66500c84a76ad7e9c93437bfc5ac33e2ddae90507500114243ea6bb3d64c8d54a1f47b077e23394d6528a00b36599414542f6630d411485d968f25592ca909100f7c334a711382d2d06000000000004444c5dc75cb358380d2e3de08a90a0b86991c6218b36c1d19d4a2e9eb0ce3606eb4801000bb800003c00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b36599414542f6630d411485d968f25592ca9091b9dd37b46316092506000000000004444c5dc75cb358380d2e3de08a90a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48010009c400003200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b36599414542f6630d411485d968f25592ca9091f7de34f02f13bda0015ab53ee1d50eef2c1dd3d5402789cd27bb52c1bb01b36599414542f6630d411485d968f25592ca9091009ae239f58734ffff06000000000004444c5dc75cb358380d2e3de08a90eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee00000bb800003c00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b36599414542f6630d411485d968f25592ca9091d8d937abae3301a0b86991c6218b36c1d19d4a2e9eb0ce3606eb480449dd018ad599c3a0ff1de082011efddc58f1908eb6e6d801b36599414542f6630d411485d968f25592ca909100f2d714c3ec319ad806000000000004444c5dc75cb358380d2e3de08a90dac17f958d2ee523a2206206994597c13d831ec70100000700000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b36599414542f6630d411485d968f25592ca9091b51915b54a1581ea0b836951eb21f3df98273517b7249dceff270d34bf01b36599414542f6630d411485d968f25592ca9091f02513c1cf30ffff06000000000004444c5dc75cb358380d2e3de08a90eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee00000bb800003c00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b36599414542f6630d411485d968f25592ca9091e91013bbf73001dac17f958d2ee523a2206206994597c13d831ec701ffff0156534741cd8b152df6d48adf7ac51f75169a83b200b36599414542f6630d411485d968f25592ca909100b54a15ea9b0b012260fac5e5542a773aa44fbcfedf7c193bc2c59901ffff014585fe77225b41b697c938b018e2ac67ac5a20c001b36599414542f6630d411485d968f25592ca909100ea9b0b921f3201c02aaa39b223fe8d0a0e5c4f27ead9083c756cc201ffff0200b36599414542f6630d411485d968f25592ca909101514910771af9ca656af840dff83e8264ecf986ca01ffff06000000000004444c5dc75cb358380d2e3de08a90eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee00000bb800003c00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b36599414542f6630d411485d968f25592ca9091a71138c63630000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "priority_fee": "13272001186000000"
+  }
+}

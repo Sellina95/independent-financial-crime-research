@@ -1,0 +1,5285 @@
+{
+  "provider": "BLOCKSCOUT",
+  "network_context": "ETHEREUM_MAINNET_ENDPOINT",
+  "queried_at_utc": "2026-11-19T10:41:10.683684+00:00",
+  "endpoint": "/transactions/0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041/internal-transactions",
+  "params": {
+    "index": 100,
+    "block_number": 26301179,
+    "transaction_index": 0,
+    "include_zero_value": true
+  },
+  "response": {
+    "items": [
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2322969",
+        "index": 101,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x88291350eFba59C6482B1F53D224Ed8eEe59a604",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SwapExecutor",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2285217",
+        "index": 102,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2248357",
+        "index": 103,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2212880",
+        "index": 104,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xfB10Ebf252Cf258babBEF969B0c739507dD9Da4B",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "Aggregator",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2177017",
+        "index": 105,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x88291350eFba59C6482B1F53D224Ed8eEe59a604",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SwapExecutor",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2140420",
+        "index": 106,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2106041",
+        "index": 107,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
+          "implementations": [
+            {
+              "address_hash": "0x9747a0d261c2d56Eb93f542068e5d1E23170fa9e",
+              "name": "StablecoinUpgradeableV2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "RLUSD, issued by Standard Custody & Trust Company, LLC, a wholly owned Ripple subsidiary, is the USD-backed stablecoin created with trust and compliance at its core. RLUSD is purpose-built for cross-border payments and delivers reliable access to digital dollars.",
+                  "tooltipUrl": "https://ripple.com/solutions/stablecoin/"
+                },
+                "name": "Ripple: RLUSD Token",
+                "ordinal": 10,
+                "slug": "ripple-rlusd-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "RLUSD",
+                "ordinal": 0,
+                "slug": "rlusd",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Ripple",
+                "ordinal": 0,
+                "slug": "ripple",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "StablecoinProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
+          "implementations": [
+            {
+              "address_hash": "0x9747a0d261c2d56Eb93f542068e5d1E23170fa9e",
+              "name": "StablecoinUpgradeableV2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "RLUSD, issued by Standard Custody & Trust Company, LLC, a wholly owned Ripple subsidiary, is the USD-backed stablecoin created with trust and compliance at its core. RLUSD is purpose-built for cross-border payments and delivers reliable access to digital dollars.",
+                  "tooltipUrl": "https://ripple.com/solutions/stablecoin/"
+                },
+                "name": "Ripple: RLUSD Token",
+                "ordinal": 10,
+                "slug": "ripple-rlusd-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "RLUSD",
+                "ordinal": 0,
+                "slug": "rlusd",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Ripple",
+                "ordinal": 0,
+                "slug": "ripple",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "StablecoinProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2072738",
+        "index": 108,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x9747a0d261c2d56Eb93f542068e5d1E23170fa9e",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "StablecoinUpgradeableV2",
+                "ordinal": 0,
+                "slug": "stablecoinupgradeablev2",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "StablecoinUpgradeableV2",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2137206",
+        "index": 109,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
+          "implementations": [
+            {
+              "address_hash": "0x9747a0d261c2d56Eb93f542068e5d1E23170fa9e",
+              "name": "StablecoinUpgradeableV2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "RLUSD, issued by Standard Custody & Trust Company, LLC, a wholly owned Ripple subsidiary, is the USD-backed stablecoin created with trust and compliance at its core. RLUSD is purpose-built for cross-border payments and delivers reliable access to digital dollars.",
+                  "tooltipUrl": "https://ripple.com/solutions/stablecoin/"
+                },
+                "name": "Ripple: RLUSD Token",
+                "ordinal": 10,
+                "slug": "ripple-rlusd-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "RLUSD",
+                "ordinal": 0,
+                "slug": "rlusd",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Ripple",
+                "ordinal": 0,
+                "slug": "ripple",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "StablecoinProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
+          "implementations": [
+            {
+              "address_hash": "0x9747a0d261c2d56Eb93f542068e5d1E23170fa9e",
+              "name": "StablecoinUpgradeableV2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "RLUSD, issued by Standard Custody & Trust Company, LLC, a wholly owned Ripple subsidiary, is the USD-backed stablecoin created with trust and compliance at its core. RLUSD is purpose-built for cross-border payments and delivers reliable access to digital dollars.",
+                  "tooltipUrl": "https://ripple.com/solutions/stablecoin/"
+                },
+                "name": "Ripple: RLUSD Token",
+                "ordinal": 10,
+                "slug": "ripple-rlusd-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "RLUSD",
+                "ordinal": 0,
+                "slug": "rlusd",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Ripple",
+                "ordinal": 0,
+                "slug": "ripple",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "StablecoinProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2103407",
+        "index": 110,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x9747a0d261c2d56Eb93f542068e5d1E23170fa9e",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "StablecoinUpgradeableV2",
+                "ordinal": 0,
+                "slug": "stablecoinupgradeablev2",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "StablecoinUpgradeableV2",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2132389",
+        "index": 111,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2098281",
+        "index": 112,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
+          "implementations": [
+            {
+              "address_hash": "0x9747a0d261c2d56Eb93f542068e5d1E23170fa9e",
+              "name": "StablecoinUpgradeableV2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "RLUSD, issued by Standard Custody & Trust Company, LLC, a wholly owned Ripple subsidiary, is the USD-backed stablecoin created with trust and compliance at its core. RLUSD is purpose-built for cross-border payments and delivers reliable access to digital dollars.",
+                  "tooltipUrl": "https://ripple.com/solutions/stablecoin/"
+                },
+                "name": "Ripple: RLUSD Token",
+                "ordinal": 10,
+                "slug": "ripple-rlusd-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "RLUSD",
+                "ordinal": 0,
+                "slug": "rlusd",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Ripple",
+                "ordinal": 0,
+                "slug": "ripple",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "StablecoinProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
+          "implementations": [
+            {
+              "address_hash": "0x9747a0d261c2d56Eb93f542068e5d1E23170fa9e",
+              "name": "StablecoinUpgradeableV2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "RLUSD, issued by Standard Custody & Trust Company, LLC, a wholly owned Ripple subsidiary, is the USD-backed stablecoin created with trust and compliance at its core. RLUSD is purpose-built for cross-border payments and delivers reliable access to digital dollars.",
+                  "tooltipUrl": "https://ripple.com/solutions/stablecoin/"
+                },
+                "name": "Ripple: RLUSD Token",
+                "ordinal": 10,
+                "slug": "ripple-rlusd-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "RLUSD",
+                "ordinal": 0,
+                "slug": "rlusd",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Ripple",
+                "ordinal": 0,
+                "slug": "ripple",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "StablecoinProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2065099",
+        "index": 113,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x9747a0d261c2d56Eb93f542068e5d1E23170fa9e",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "StablecoinUpgradeableV2",
+                "ordinal": 0,
+                "slug": "stablecoinupgradeablev2",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "StablecoinUpgradeableV2",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2128029",
+        "index": 114,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2111520",
+        "index": 115,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2077072",
+        "index": 116,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+          "implementations": [
+            {
+              "address_hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+              "name": "Usds"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Sky enables users to get rewarded for non-custodial saving.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: USDS Token",
+                "ordinal": 10,
+                "slug": "sky-usds-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USDS",
+                "ordinal": 0,
+                "slug": "usds",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+          "implementations": [
+            {
+              "address_hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+              "name": "Usds"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Sky enables users to get rewarded for non-custodial saving.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: USDS Token",
+                "ordinal": 10,
+                "slug": "sky-usds-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USDS",
+                "ordinal": 0,
+                "slug": "usds",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2044269",
+        "index": 117,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "Usds Imp",
+                "ordinal": 0,
+                "slug": "usds-imp",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "Usds",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2271840",
+        "index": 118,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+          "implementations": [
+            {
+              "address_hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+              "name": "Usds"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Sky enables users to get rewarded for non-custodial saving.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: USDS Token",
+                "ordinal": 10,
+                "slug": "sky-usds-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USDS",
+                "ordinal": 0,
+                "slug": "usds",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+          "implementations": [
+            {
+              "address_hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+              "name": "Usds"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Sky enables users to get rewarded for non-custodial saving.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: USDS Token",
+                "ordinal": 10,
+                "slug": "sky-usds-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USDS",
+                "ordinal": 0,
+                "slug": "usds",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2235996",
+        "index": 119,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "Usds Imp",
+                "ordinal": 0,
+                "slug": "usds-imp",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "Usds",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2261419",
+        "index": 120,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x8910b84167A171Ad0e5B70024F4bfd8C3E93122E",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "LitePSMAdapter",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8910b84167A171Ad0e5B70024F4bfd8C3E93122E",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "LitePSMAdapter",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2225340",
+        "index": 121,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+          "implementations": [
+            {
+              "address_hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+              "name": "Usds"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Sky enables users to get rewarded for non-custodial saving.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: USDS Token",
+                "ordinal": 10,
+                "slug": "sky-usds-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USDS",
+                "ordinal": 0,
+                "slug": "usds",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+          "implementations": [
+            {
+              "address_hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+              "name": "Usds"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Sky enables users to get rewarded for non-custodial saving.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: USDS Token",
+                "ordinal": 10,
+                "slug": "sky-usds-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USDS",
+                "ordinal": 0,
+                "slug": "usds",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2190223",
+        "index": 122,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "Usds Imp",
+                "ordinal": 0,
+                "slug": "usds-imp",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "Usds",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8910b84167A171Ad0e5B70024F4bfd8C3E93122E",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "LitePSMAdapter",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2223776",
+        "index": 123,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+          "implementations": [
+            {
+              "address_hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+              "name": "Usds"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Sky enables users to get rewarded for non-custodial saving.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: USDS Token",
+                "ordinal": 10,
+                "slug": "sky-usds-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USDS",
+                "ordinal": 0,
+                "slug": "usds",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+          "implementations": [
+            {
+              "address_hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+              "name": "Usds"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Sky enables users to get rewarded for non-custodial saving.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: USDS Token",
+                "ordinal": 10,
+                "slug": "sky-usds-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USDS",
+                "ordinal": 0,
+                "slug": "usds",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2188681",
+        "index": 124,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "Usds Imp",
+                "ordinal": 0,
+                "slug": "usds-imp",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "Usds",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8910b84167A171Ad0e5B70024F4bfd8C3E93122E",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "LitePSMAdapter",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2195983",
+        "index": 125,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xA188EEC8F81263234dA3622A406892F3D630f98c",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "090425 - Proactive - AH, 180826 retag domain migration R",
+                  "tooltipUrl": "https://spark.finance/"
+                },
+                "name": "Spark: Usds Psm Wrapper",
+                "ordinal": 10,
+                "slug": "spark-usds-psm-wrapper",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Spark",
+                  "appID": "spark"
+                },
+                "name": "Spark",
+                "ordinal": 0,
+                "slug": "spark",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UsdsPsmWrapper",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8910b84167A171Ad0e5B70024F4bfd8C3E93122E",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "LitePSMAdapter",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2195411",
+        "index": 126,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xA188EEC8F81263234dA3622A406892F3D630f98c",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "090425 - Proactive - AH, 180826 retag domain migration R",
+                  "tooltipUrl": "https://spark.finance/"
+                },
+                "name": "Spark: Usds Psm Wrapper",
+                "ordinal": 10,
+                "slug": "spark-usds-psm-wrapper",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Spark",
+                  "appID": "spark"
+                },
+                "name": "Spark",
+                "ordinal": 0,
+                "slug": "spark",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UsdsPsmWrapper",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xA188EEC8F81263234dA3622A406892F3D630f98c",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "090425 - Proactive - AH, 180826 retag domain migration R",
+                  "tooltipUrl": "https://spark.finance/"
+                },
+                "name": "Spark: Usds Psm Wrapper",
+                "ordinal": 10,
+                "slug": "spark-usds-psm-wrapper",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Spark",
+                  "appID": "spark"
+                },
+                "name": "Spark",
+                "ordinal": 0,
+                "slug": "spark",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UsdsPsmWrapper",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2158217",
+        "index": 127,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xf6e72Db5454dd049d0788e411b06CfAF16853042",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Sky (formerly Maker) enables users to get rewarded for non-custodial savings.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: LitePSM USDC A",
+                "ordinal": 10,
+                "slug": "sky-litepsm-usdc-a",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "DssLitePsm",
+                "ordinal": 0,
+                "slug": "dsslitepsm",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "DssLitePsm",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8910b84167A171Ad0e5B70024F4bfd8C3E93122E",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "LitePSMAdapter",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2189300",
+        "index": 128,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xA188EEC8F81263234dA3622A406892F3D630f98c",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "090425 - Proactive - AH, 180826 retag domain migration R",
+                  "tooltipUrl": "https://spark.finance/"
+                },
+                "name": "Spark: Usds Psm Wrapper",
+                "ordinal": 10,
+                "slug": "spark-usds-psm-wrapper",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Spark",
+                  "appID": "spark"
+                },
+                "name": "Spark",
+                "ordinal": 0,
+                "slug": "spark",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UsdsPsmWrapper",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xA188EEC8F81263234dA3622A406892F3D630f98c",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "090425 - Proactive - AH, 180826 retag domain migration R",
+                  "tooltipUrl": "https://spark.finance/"
+                },
+                "name": "Spark: Usds Psm Wrapper",
+                "ordinal": 10,
+                "slug": "spark-usds-psm-wrapper",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Spark",
+                  "appID": "spark"
+                },
+                "name": "Spark",
+                "ordinal": 0,
+                "slug": "spark",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UsdsPsmWrapper",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2154456",
+        "index": 129,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xf6e72Db5454dd049d0788e411b06CfAF16853042",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Sky (formerly Maker) enables users to get rewarded for non-custodial savings.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: LitePSM USDC A",
+                "ordinal": 10,
+                "slug": "sky-litepsm-usdc-a",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "DssLitePsm",
+                "ordinal": 0,
+                "slug": "dsslitepsm",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "DssLitePsm",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xA188EEC8F81263234dA3622A406892F3D630f98c",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "090425 - Proactive - AH, 180826 retag domain migration R",
+                  "tooltipUrl": "https://spark.finance/"
+                },
+                "name": "Spark: Usds Psm Wrapper",
+                "ordinal": 10,
+                "slug": "spark-usds-psm-wrapper",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Spark",
+                  "appID": "spark"
+                },
+                "name": "Spark",
+                "ordinal": 0,
+                "slug": "spark",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UsdsPsmWrapper",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2153280",
+        "index": 130,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+          "implementations": [
+            {
+              "address_hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+              "name": "Usds"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Sky enables users to get rewarded for non-custodial saving.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: USDS Token",
+                "ordinal": 10,
+                "slug": "sky-usds-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USDS",
+                "ordinal": 0,
+                "slug": "usds",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+          "implementations": [
+            {
+              "address_hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+              "name": "Usds"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Sky enables users to get rewarded for non-custodial saving.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: USDS Token",
+                "ordinal": 10,
+                "slug": "sky-usds-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USDS",
+                "ordinal": 0,
+                "slug": "usds",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2119280",
+        "index": 131,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "Usds Imp",
+                "ordinal": 0,
+                "slug": "usds-imp",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "Usds",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xA188EEC8F81263234dA3622A406892F3D630f98c",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "090425 - Proactive - AH, 180826 retag domain migration R",
+                  "tooltipUrl": "https://spark.finance/"
+                },
+                "name": "Spark: Usds Psm Wrapper",
+                "ordinal": 10,
+                "slug": "spark-usds-psm-wrapper",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Spark",
+                  "appID": "spark"
+                },
+                "name": "Spark",
+                "ordinal": 0,
+                "slug": "spark",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UsdsPsmWrapper",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2141508",
+        "index": 132,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x3C0f895007CA717Aa01c8693e59DF1e8C3777FEB",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "UsdsJoin",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x3C0f895007CA717Aa01c8693e59DF1e8C3777FEB",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "UsdsJoin",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2104805",
+        "index": 133,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x35D1b3F3D7966A1DFe207aa4514C12a259A0492B",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Sky (formerly Maker) enables users to get rewarded for non-custodial savings.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: MCD Vat",
+                "ordinal": 10,
+                "slug": "sky-mcd-vat",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "Vat",
+                "ordinal": 0,
+                "slug": "vat",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Maker",
+                "ordinal": 0,
+                "slug": "maker",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Vat",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x3C0f895007CA717Aa01c8693e59DF1e8C3777FEB",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "UsdsJoin",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2070234",
+        "index": 134,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+          "implementations": [
+            {
+              "address_hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+              "name": "Usds"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Sky enables users to get rewarded for non-custodial saving.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: USDS Token",
+                "ordinal": 10,
+                "slug": "sky-usds-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USDS",
+                "ordinal": 0,
+                "slug": "usds",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+          "implementations": [
+            {
+              "address_hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+              "name": "Usds"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Sky enables users to get rewarded for non-custodial saving.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: USDS Token",
+                "ordinal": 10,
+                "slug": "sky-usds-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USDS",
+                "ordinal": 0,
+                "slug": "usds",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2037538",
+        "index": 135,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "Usds Imp",
+                "ordinal": 0,
+                "slug": "usds-imp",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "Usds",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xA188EEC8F81263234dA3622A406892F3D630f98c",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "090425 - Proactive - AH, 180826 retag domain migration R",
+                  "tooltipUrl": "https://spark.finance/"
+                },
+                "name": "Spark: Usds Psm Wrapper",
+                "ordinal": 10,
+                "slug": "spark-usds-psm-wrapper",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Spark",
+                  "appID": "spark"
+                },
+                "name": "Spark",
+                "ordinal": 0,
+                "slug": "spark",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UsdsPsmWrapper",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2088708",
+        "index": 136,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x9759A6Ac90977b93B58547b4A71c78317f391A28",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Sky (formerly Maker) enables users to get rewarded for non-custodial savings.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: MCD Join DAI",
+                "ordinal": 10,
+                "slug": "sky-mcd-join-dai",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Maker",
+                "ordinal": 0,
+                "slug": "maker",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "DaiJoin",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x9759A6Ac90977b93B58547b4A71c78317f391A28",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Sky (formerly Maker) enables users to get rewarded for non-custodial savings.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: MCD Join DAI",
+                "ordinal": 10,
+                "slug": "sky-mcd-join-dai",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Maker",
+                "ordinal": 0,
+                "slug": "maker",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "DaiJoin",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2051038",
+        "index": 137,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x35D1b3F3D7966A1DFe207aa4514C12a259A0492B",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Sky (formerly Maker) enables users to get rewarded for non-custodial savings.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: MCD Vat",
+                "ordinal": 10,
+                "slug": "sky-mcd-vat",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "Vat",
+                "ordinal": 0,
+                "slug": "vat",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Maker",
+                "ordinal": 0,
+                "slug": "maker",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Vat",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x9759A6Ac90977b93B58547b4A71c78317f391A28",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Sky (formerly Maker) enables users to get rewarded for non-custodial savings.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: MCD Join DAI",
+                "ordinal": 10,
+                "slug": "sky-mcd-join-dai",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Maker",
+                "ordinal": 0,
+                "slug": "maker",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "DaiJoin",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2033446",
+        "index": 138,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "MakerDAO",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0xcd44f795faf3ed5587e512921c6704331d3b43f997a74067a2677736b3089b73@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qma5F6gustEWJxtYXUU4rLRoonpJBqK4CodiCq6Gw8G22Q/BcdveJ2GG1b5oN8z2N4pamWDbovurbwGGAomDj3Vugu8qZB1FzYRf4EyiLSRPNgDvoq3Vmm5EnGPzq2GXfKmN7Awjr\",\"token_symbol\":\"DAI\",\"token_name\":\"Dai\",\"decimals\":18}",
+                  "tooltipDescription": "Sky (formerly Maker) enables users to get rewarded for non-custodial savings.",
+                  "tooltipUrl": "https://makerdao.com/en/"
+                },
+                "name": "Sky: Dai Stablecoin",
+                "ordinal": 10,
+                "slug": "sky-dai-stablecoin",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DeFi",
+                "ordinal": 0,
+                "slug": "defi",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "Dai",
+                "ordinal": 0,
+                "slug": "dai",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Maker",
+                "ordinal": 0,
+                "slug": "maker",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Dai",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xA188EEC8F81263234dA3622A406892F3D630f98c",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "090425 - Proactive - AH, 180826 retag domain migration R",
+                  "tooltipUrl": "https://spark.finance/"
+                },
+                "name": "Spark: Usds Psm Wrapper",
+                "ordinal": 10,
+                "slug": "spark-usds-psm-wrapper",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Spark",
+                  "appID": "spark"
+                },
+                "name": "Spark",
+                "ordinal": 0,
+                "slug": "spark",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UsdsPsmWrapper",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2047013",
+        "index": 139,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xf6e72Db5454dd049d0788e411b06CfAF16853042",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Sky (formerly Maker) enables users to get rewarded for non-custodial savings.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: LitePSM USDC A",
+                "ordinal": 10,
+                "slug": "sky-litepsm-usdc-a",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "DssLitePsm",
+                "ordinal": 0,
+                "slug": "dsslitepsm",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "DssLitePsm",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xf6e72Db5454dd049d0788e411b06CfAF16853042",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Sky (formerly Maker) enables users to get rewarded for non-custodial savings.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: LitePSM USDC A",
+                "ordinal": 10,
+                "slug": "sky-litepsm-usdc-a",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "DssLitePsm",
+                "ordinal": 0,
+                "slug": "dsslitepsm",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "DssLitePsm",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2014031",
+        "index": 140,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "MakerDAO",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0xcd44f795faf3ed5587e512921c6704331d3b43f997a74067a2677736b3089b73@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qma5F6gustEWJxtYXUU4rLRoonpJBqK4CodiCq6Gw8G22Q/BcdveJ2GG1b5oN8z2N4pamWDbovurbwGGAomDj3Vugu8qZB1FzYRf4EyiLSRPNgDvoq3Vmm5EnGPzq2GXfKmN7Awjr\",\"token_symbol\":\"DAI\",\"token_name\":\"Dai\",\"decimals\":18}",
+                  "tooltipDescription": "Sky (formerly Maker) enables users to get rewarded for non-custodial savings.",
+                  "tooltipUrl": "https://makerdao.com/en/"
+                },
+                "name": "Sky: Dai Stablecoin",
+                "ordinal": 10,
+                "slug": "sky-dai-stablecoin",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DeFi",
+                "ordinal": 0,
+                "slug": "defi",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "Dai",
+                "ordinal": 0,
+                "slug": "dai",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Maker",
+                "ordinal": 0,
+                "slug": "maker",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Dai",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xf6e72Db5454dd049d0788e411b06CfAF16853042",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Sky (formerly Maker) enables users to get rewarded for non-custodial savings.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: LitePSM USDC A",
+                "ordinal": 10,
+                "slug": "sky-litepsm-usdc-a",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "DssLitePsm",
+                "ordinal": 0,
+                "slug": "dsslitepsm",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "DssLitePsm",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2003180",
+        "index": 141,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "implementations": [
+            {
+              "address_hash": "0x43506849D7C04F9138D1A2050bbF3A0c054402dd",
+              "name": "FiatTokenV2_2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Circle",
+                  "tagIcon": "https://assets.coingecko.com/coins/images/6319/small/usdc.png?1696506694",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x924f91c6a015abb7e7a5f8c7c0989761b4df998abdbd6541365eb3c82132a390",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qmc3TH5cPhyh7418kSD83SSBzng1oqbLxjzxfjwA2VAoj8/BccwoeFESYBsv6XiJVRAp5b3pRpvMgdhfZCxV5vSppWbAukhqrBRVRj3jAxHnbfmvg181rcVw9ny4LBLbFdm2S2RRH\",\"token_symbol\":\"USDC\",\"token_name\":\"USD Coin\",\"decimals\":6}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "USDC is a US dollar-backed stablecoin issued by Circle. USDC is designed to provide a faster, safer, and more efficient way to send, spend, and exchange money around the world.",
+                  "tooltipUrl": "https://www.circle.com/en/usdc"
+                },
+                "name": "USDC Token",
+                "ordinal": 10,
+                "slug": "usdc-token-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "USDC",
+                "ordinal": 0,
+                "slug": "usdc",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USD Coin",
+                "ordinal": 0,
+                "slug": "usd-coin",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appID": "circle",
+                  "appMarketplaceURL": "https://app.circle.com/get-started",
+                  "bgColor": "#2775ca",
+                  "tagIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/circle-icon-white.png",
+                  "textColor": "#FFFFFF",
+                  "tooltipUrl": "https://www.circle.com/"
+                },
+                "name": "Circle",
+                "ordinal": 0,
+                "slug": "circle",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "USDC",
+          "private_tags": [],
+          "proxy_type": "eip1967_oz",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "implementations": [
+            {
+              "address_hash": "0x43506849D7C04F9138D1A2050bbF3A0c054402dd",
+              "name": "FiatTokenV2_2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Circle",
+                  "tagIcon": "https://assets.coingecko.com/coins/images/6319/small/usdc.png?1696506694",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x924f91c6a015abb7e7a5f8c7c0989761b4df998abdbd6541365eb3c82132a390",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qmc3TH5cPhyh7418kSD83SSBzng1oqbLxjzxfjwA2VAoj8/BccwoeFESYBsv6XiJVRAp5b3pRpvMgdhfZCxV5vSppWbAukhqrBRVRj3jAxHnbfmvg181rcVw9ny4LBLbFdm2S2RRH\",\"token_symbol\":\"USDC\",\"token_name\":\"USD Coin\",\"decimals\":6}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "USDC is a US dollar-backed stablecoin issued by Circle. USDC is designed to provide a faster, safer, and more efficient way to send, spend, and exchange money around the world.",
+                  "tooltipUrl": "https://www.circle.com/en/usdc"
+                },
+                "name": "USDC Token",
+                "ordinal": 10,
+                "slug": "usdc-token-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "USDC",
+                "ordinal": 0,
+                "slug": "usdc",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USD Coin",
+                "ordinal": 0,
+                "slug": "usd-coin",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appID": "circle",
+                  "appMarketplaceURL": "https://app.circle.com/get-started",
+                  "bgColor": "#2775ca",
+                  "tagIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/circle-icon-white.png",
+                  "textColor": "#FFFFFF",
+                  "tooltipUrl": "https://www.circle.com/"
+                },
+                "name": "Circle",
+                "ordinal": 0,
+                "slug": "circle",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "USDC",
+          "private_tags": [],
+          "proxy_type": "eip1967_oz",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "1971142",
+        "index": 142,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x43506849D7C04F9138D1A2050bbF3A0c054402dd",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "FiatTokenV2_2",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8910b84167A171Ad0e5B70024F4bfd8C3E93122E",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "LitePSMAdapter",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2029471",
+        "index": 143,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+          "implementations": [
+            {
+              "address_hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+              "name": "Usds"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Sky enables users to get rewarded for non-custodial saving.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: USDS Token",
+                "ordinal": 10,
+                "slug": "sky-usds-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USDS",
+                "ordinal": 0,
+                "slug": "usds",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+          "implementations": [
+            {
+              "address_hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+              "name": "Usds"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Sky enables users to get rewarded for non-custodial saving.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: USDS Token",
+                "ordinal": 10,
+                "slug": "sky-usds-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USDS",
+                "ordinal": 0,
+                "slug": "usds",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "1997412",
+        "index": 144,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "Usds Imp",
+                "ordinal": 0,
+                "slug": "usds-imp",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "Usds",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8910b84167A171Ad0e5B70024F4bfd8C3E93122E",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "LitePSMAdapter",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2027741",
+        "index": 145,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+          "implementations": [
+            {
+              "address_hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+              "name": "Usds"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Sky enables users to get rewarded for non-custodial saving.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: USDS Token",
+                "ordinal": 10,
+                "slug": "sky-usds-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USDS",
+                "ordinal": 0,
+                "slug": "usds",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+          "implementations": [
+            {
+              "address_hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+              "name": "Usds"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Sky enables users to get rewarded for non-custodial saving.",
+                  "tooltipUrl": "https://sky.money/"
+                },
+                "name": "Sky: USDS Token",
+                "ordinal": 10,
+                "slug": "sky-usds-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USDS",
+                "ordinal": 0,
+                "slug": "usds",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Sky",
+                "ordinal": 0,
+                "slug": "sky",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "1995709",
+        "index": 146,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "Usds Imp",
+                "ordinal": 0,
+                "slug": "usds-imp",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "Usds",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2058762",
+        "index": 147,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "implementations": [
+            {
+              "address_hash": "0x43506849D7C04F9138D1A2050bbF3A0c054402dd",
+              "name": "FiatTokenV2_2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Circle",
+                  "tagIcon": "https://assets.coingecko.com/coins/images/6319/small/usdc.png?1696506694",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x924f91c6a015abb7e7a5f8c7c0989761b4df998abdbd6541365eb3c82132a390",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qmc3TH5cPhyh7418kSD83SSBzng1oqbLxjzxfjwA2VAoj8/BccwoeFESYBsv6XiJVRAp5b3pRpvMgdhfZCxV5vSppWbAukhqrBRVRj3jAxHnbfmvg181rcVw9ny4LBLbFdm2S2RRH\",\"token_symbol\":\"USDC\",\"token_name\":\"USD Coin\",\"decimals\":6}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "USDC is a US dollar-backed stablecoin issued by Circle. USDC is designed to provide a faster, safer, and more efficient way to send, spend, and exchange money around the world.",
+                  "tooltipUrl": "https://www.circle.com/en/usdc"
+                },
+                "name": "USDC Token",
+                "ordinal": 10,
+                "slug": "usdc-token-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "USDC",
+                "ordinal": 0,
+                "slug": "usdc",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USD Coin",
+                "ordinal": 0,
+                "slug": "usd-coin",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appID": "circle",
+                  "appMarketplaceURL": "https://app.circle.com/get-started",
+                  "bgColor": "#2775ca",
+                  "tagIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/circle-icon-white.png",
+                  "textColor": "#FFFFFF",
+                  "tooltipUrl": "https://www.circle.com/"
+                },
+                "name": "Circle",
+                "ordinal": 0,
+                "slug": "circle",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "USDC",
+          "private_tags": [],
+          "proxy_type": "eip1967_oz",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "implementations": [
+            {
+              "address_hash": "0x43506849D7C04F9138D1A2050bbF3A0c054402dd",
+              "name": "FiatTokenV2_2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Circle",
+                  "tagIcon": "https://assets.coingecko.com/coins/images/6319/small/usdc.png?1696506694",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x924f91c6a015abb7e7a5f8c7c0989761b4df998abdbd6541365eb3c82132a390",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qmc3TH5cPhyh7418kSD83SSBzng1oqbLxjzxfjwA2VAoj8/BccwoeFESYBsv6XiJVRAp5b3pRpvMgdhfZCxV5vSppWbAukhqrBRVRj3jAxHnbfmvg181rcVw9ny4LBLbFdm2S2RRH\",\"token_symbol\":\"USDC\",\"token_name\":\"USD Coin\",\"decimals\":6}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "USDC is a US dollar-backed stablecoin issued by Circle. USDC is designed to provide a faster, safer, and more efficient way to send, spend, and exchange money around the world.",
+                  "tooltipUrl": "https://www.circle.com/en/usdc"
+                },
+                "name": "USDC Token",
+                "ordinal": 10,
+                "slug": "usdc-token-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "USDC",
+                "ordinal": 0,
+                "slug": "usdc",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USD Coin",
+                "ordinal": 0,
+                "slug": "usd-coin",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appID": "circle",
+                  "appMarketplaceURL": "https://app.circle.com/get-started",
+                  "bgColor": "#2775ca",
+                  "tagIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/circle-icon-white.png",
+                  "textColor": "#FFFFFF",
+                  "tooltipUrl": "https://www.circle.com/"
+                },
+                "name": "Circle",
+                "ordinal": 0,
+                "slug": "circle",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "USDC",
+          "private_tags": [],
+          "proxy_type": "eip1967_oz",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2025864",
+        "index": 148,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x43506849D7C04F9138D1A2050bbF3A0c054402dd",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "FiatTokenV2_2",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2054720",
+        "index": 149,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x88291350eFba59C6482B1F53D224Ed8eEe59a604",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SwapExecutor",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301179,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2f68417A18dA681589F4eA64B9Cc9839209acfF7",
+          "implementations": [
+            {
+              "address_hash": "0xB480bD00dAE702b3122c182729eA57839b4bBe78",
+              "name": "Aggregator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2018381",
+        "index": 150,
+        "success": true,
+        "timestamp": "2026-10-29T21:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between USDC and WETH.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0x8ad599c3a0ff1de082011efddc58f1908eb6e6d8"
+                },
+                "name": "Uniswap V3: USDC 2",
+                "ordinal": 10,
+                "slug": "uniswap-v3-usdc-2",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x192b99a5f2310e702a87d08f9478e1ef6df9065b2c60d853af68318d22a11041",
+        "transaction_index": 0,
+        "type": "call",
+        "value": "0"
+      }
+    ],
+    "meta": {
+      "message": null,
+      "status": 1
+    },
+    "next_page_params": {
+      "index": 150,
+      "block_number": 26301179,
+      "transaction_index": 0,
+      "include_zero_value": true
+    }
+  }
+}

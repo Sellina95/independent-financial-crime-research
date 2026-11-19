@@ -1,0 +1,110 @@
+{
+  "frozen_call_observation": {
+    "observation_id": "d1ed9b7726342be020b9d924bc57e341451733ac5b94d6fa7d885194629792b9",
+    "record_type": "CALL_TRACER_SHAPED_FRAME",
+    "tx_hash": null,
+    "direct_tx_hash_candidate": null,
+    "request_tx_hash_candidate": null,
+    "tx_context_conflict": false,
+    "chain_id_candidate": null,
+    "chain_context_pointer": null,
+    "block_number_candidate": 26300770,
+    "from_address": "0x28c6c06298d514db089934071355e5743bf21d60",
+    "to_address": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+    "amount_base_units": "167464247856558836135296",
+    "call_type": "CALL",
+    "trace_address_candidate": [
+      0
+    ],
+    "provider_index_candidate": null,
+    "root_frame_candidate": false,
+    "local_error_present": false,
+    "ancestor_error_detected": false,
+    "success_as_recorded": null,
+    "missing_fields": [
+      "tx_hash"
+    ],
+    "disposition": "INCOMPLETE_TRACE_REVIEW",
+    "blockscout_discovery_observation_id": null,
+    "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+    "source_path": "research/case-binance-2026/evidence/initial_tx_v1/call_trace.json",
+    "source_sha256": "c8c45dd42d9ce965988ac15d6d98624278e1b293495fe0cd3002d3930df4b0f8",
+    "source_git_blob_sha": "4f9ebd9ed1343a6d2518cb24213bd4a4feb5af69",
+    "source_object_pointer": "$[\"calls\"][0]",
+    "source_role": "UNRESOLVED_STRUCTURED",
+    "source_handling": "HOLD_SOURCE_ROLE_REVIEW",
+    "ancestry_fully_verified": false,
+    "receipt_success_verified": false,
+    "chain_independently_verified": false,
+    "canonical_event_identity_approved": false,
+    "incident_attribution_verified": false,
+    "transfer_event_approved": false,
+    "context_disposition": "BOUND_POSITIVE_CALL_CANDIDATE",
+    "trace_tx_link_approved": false,
+    "tx_hash_candidate": "0x53bd38b816c23e74134786c29a8c18d792777998a3b9326047b583100e88e2f3",
+    "block_hash_candidate": "0x087c33a63526887180f40a8fa2b66658fa0a3e83565ab5de0c956ffdd8eab727",
+    "binding_basis": "SIBLING_RECEIPT_ROOT_ENDPOINT_MATCH",
+    "receipt_evidence": {
+      "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+      "source_path": "research/case-binance-2026/evidence/initial_tx_v1/receipt.json",
+      "source_sha256": "08b5bb08e7c82a6dc32950314932bbdcebe7481c5611585f68bad500f20e4961",
+      "source_git_blob_sha": "60aa5b96f2e48600d5bc9101a008411083825826",
+      "source_object_pointer": "$"
+    },
+    "matching_transaction_metadata_ids": [],
+    "receipt_status_candidate": 1,
+    "trace_tree_ancestry_checked": true,
+    "ancestor_failure_recomputed": false,
+    "independent_rpc_trace_reproduced": false
+  },
+  "supplemental_blockscout_observation": {
+    "observation_id": "155ef533d73fff79021527eecbbc49f0e776adea093d45c6ece4239b5204ed2b",
+    "record_type": "BLOCKSCOUT_INTERNAL_RECOVERY",
+    "tx_hash": "0x53bd38b816c23e74134786c29a8c18d792777998a3b9326047b583100e88e2f3",
+    "chain_id_candidate": 1,
+    "chain_context_basis": "ETHEREUM_BLOCKSCOUT_ENDPOINT",
+    "block_number_candidate": 26300770,
+    "transaction_index_candidate": 189,
+    "provider_index_candidate": 1,
+    "trace_address_candidate": null,
+    "from_address": "0x28c6c06298d514db089934071355e5743bf21d60",
+    "to_address": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+    "amount_base_units": "167464247856558836135296",
+    "call_type": "CALL",
+    "success_as_recorded": true,
+    "disposition": "POSITIVE_INTERNAL_CALL_CANDIDATE",
+    "problems": [],
+    "timestamp_as_recorded": "2026-10-29T20:24:23.000000Z",
+    "source_path": "research/case-binance-2026/phase2_extraction_v1/step24f_blockscout_trace_recovery/raw_blockscout/0x53bd38b816c23e74134786c29a8c18d792777998a3b9326047b583100e88e2f3/internal_page_001.json",
+    "source_sha256": "b48b36b09547fbe693601cfe985a6255db795162b9f4eefe8949e9a092a424f2",
+    "source_object_pointer": "$[\"response\"][\"items\"][0]",
+    "transaction_source": "research/case-binance-2026/phase2_extraction_v1/step24f_blockscout_trace_recovery/raw_blockscout/0x53bd38b816c23e74134786c29a8c18d792777998a3b9326047b583100e88e2f3/transaction.json",
+    "transaction_sha256": "766f2fbd3e87b6a32cdf031e3a9e088dc3c82a5e5d6bde998c8c50164da801ae",
+    "frozen_source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+    "full_trace_ancestry_verified": false,
+    "canonical_event_identity_approved": false,
+    "incident_attribution_verified": false,
+    "transfer_event_approved": false
+  },
+  "economic_field_crosscheck": {
+    "original_trace_observation_id": "d1ed9b7726342be020b9d924bc57e341451733ac5b94d6fa7d885194629792b9",
+    "original_trace_address": [
+      0
+    ],
+    "tx_hash": "0x53bd38b816c23e74134786c29a8c18d792777998a3b9326047b583100e88e2f3",
+    "match_status": "SINGLE_BLOCKSCOUT_MATCH_CANDIDATE",
+    "matching_trace_observation_ids": [
+      "155ef533d73fff79021527eecbbc49f0e776adea093d45c6ece4239b5204ed2b"
+    ],
+    "matching_provider_indices": [
+      1
+    ],
+    "canonical_event_identity_approved": false,
+    "incident_attribution_verified": false,
+    "transfer_event_approved": false,
+    "full_call_tree_reproduced": false
+  },
+  "full_trace_tree_reproduced": false,
+  "canonical_event_identity_approved": false,
+  "incident_attribution_verified": false
+}

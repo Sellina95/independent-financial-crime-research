@@ -1,0 +1,4877 @@
+{
+  "provider": "BLOCKSCOUT",
+  "network_context": "ETHEREUM_MAINNET_ENDPOINT",
+  "queried_at_utc": "2026-11-19T10:40:52.010563+00:00",
+  "endpoint": "/transactions/0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6/internal-transactions",
+  "params": {
+    "index": 300,
+    "block_number": 26301189,
+    "transaction_index": 1,
+    "include_zero_value": true
+  },
+  "response": {
+    "items": [
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4946950",
+        "index": 301,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Wrapped BTC",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0x27502c297b7d3221115b309c6793d82367429f60ad4e32465d92cf5c4a6bb66b@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmU12hockJzZaSK6pvzH1K1im4X9ababHx388mw6uEh986/Bce2ei6Xi58TfHx1tkQFvcmgwRnu2mTFeuVvUh3wJdouZD3wdi2pBWBL1Kn89TCvmoW58yuhe179WiLMKTk67yg4pz\",\"token_symbol\":\"WBTC\",\"token_name\":\"Wrapped Bitcoin\",\"decimals\":8}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Wrapped Bitcoin (WBTC) is an ERC20 token backed 1:1 with Bitcoin. Completely transparent. 100% verifiable. Community led.",
+                  "tooltipUrl": "https://www.wbtc.network/"
+                },
+                "name": "Wrapped BTC: WBTC Token",
+                "ordinal": 10,
+                "slug": "wrapped-btc-wbtc-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Wrapped BTC",
+                "ordinal": 0,
+                "slug": "wrapped-btc",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Wrapped BTC",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x4585FE77225b41b697C938B018E2Ac67Ac5a20c0",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between WBTC and WETH.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0x4585fe77225b41b697c938b018e2ac67ac5a20c0"
+                },
+                "name": "Uniswap V3: WBTC 2",
+                "ordinal": 10,
+                "slug": "uniswap-v3-wbtc-2",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "5017518",
+        "index": 302,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Wrapped BTC",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0x27502c297b7d3221115b309c6793d82367429f60ad4e32465d92cf5c4a6bb66b@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmU12hockJzZaSK6pvzH1K1im4X9ababHx388mw6uEh986/Bce2ei6Xi58TfHx1tkQFvcmgwRnu2mTFeuVvUh3wJdouZD3wdi2pBWBL1Kn89TCvmoW58yuhe179WiLMKTk67yg4pz\",\"token_symbol\":\"WBTC\",\"token_name\":\"Wrapped Bitcoin\",\"decimals\":8}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Wrapped Bitcoin (WBTC) is an ERC20 token backed 1:1 with Bitcoin. Completely transparent. 100% verifiable. Community led.",
+                  "tooltipUrl": "https://www.wbtc.network/"
+                },
+                "name": "Wrapped BTC: WBTC Token",
+                "ordinal": 10,
+                "slug": "wrapped-btc-wbtc-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Wrapped BTC",
+                "ordinal": 0,
+                "slug": "wrapped-btc",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Wrapped BTC",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "5087285",
+        "index": 303,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xCBCdF9626bC03E24f779434178A73a0B4bad62eD",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between WBTC and WETH.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0xcbcdf9626bc03e24f779434178a73a0b4bad62ed"
+                },
+                "name": "Uniswap V3: WBTC",
+                "ordinal": 10,
+                "slug": "uniswap-v3-wbtc",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xCBCdF9626bC03E24f779434178A73a0B4bad62eD",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between WBTC and WETH.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0xcbcdf9626bc03e24f779434178a73a0b4bad62ed"
+                },
+                "name": "Uniswap V3: WBTC",
+                "ordinal": 10,
+                "slug": "uniswap-v3-wbtc",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4937539",
+        "index": 304,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Wrapped Ether",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0xe27ff4957dc5c9bb33feafde33089e0c03fb4999f3e8d01f4720334161a17224@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmRyTdB5Cc7zH7G4YwWs7jh98zNGLQN1NfJ8KTWTXikhcP/WETH\",\"token_symbol\":\"WETH\",\"token_name\":\"WETH\",\"decimals\":18}",
+                  "tooltipDescription": "wETH is wrapped ETH which confroms to the ERC20 standard",
+                  "tooltipUrl": "https://weth.io/",
+                  "verifiedDomains": [
+                    "traderjoexyz.com",
+                    "app.mav.xyz",
+                    "core.app",
+                    "shibaswap.com",
+                    "app.dodoex.io",
+                    "app.uniswap.org",
+                    "explorer.reservoir.tools",
+                    "pancakeswap.finance",
+                    "swapr.eth.limo"
+                  ]
+                },
+                "name": "WETH Token (v2)",
+                "ordinal": 10,
+                "slug": "weth-token-v2",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Wrapped Token",
+                "ordinal": 0,
+                "slug": "wrapped-token",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "main_entity": "Wrapped",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://weth.io/"
+                },
+                "name": "Wrapped Ether",
+                "ordinal": 0,
+                "slug": "wrapped-ether",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "WETH9",
+                "ordinal": 0,
+                "slug": "weth9",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "WETH9",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xCBCdF9626bC03E24f779434178A73a0B4bad62eD",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between WBTC and WETH.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0xcbcdf9626bc03e24f779434178a73a0b4bad62ed"
+                },
+                "name": "Uniswap V3: WBTC",
+                "ordinal": 10,
+                "slug": "uniswap-v3-wbtc",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4928732",
+        "index": 305,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Wrapped BTC",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0x27502c297b7d3221115b309c6793d82367429f60ad4e32465d92cf5c4a6bb66b@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmU12hockJzZaSK6pvzH1K1im4X9ababHx388mw6uEh986/Bce2ei6Xi58TfHx1tkQFvcmgwRnu2mTFeuVvUh3wJdouZD3wdi2pBWBL1Kn89TCvmoW58yuhe179WiLMKTk67yg4pz\",\"token_symbol\":\"WBTC\",\"token_name\":\"Wrapped Bitcoin\",\"decimals\":8}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Wrapped Bitcoin (WBTC) is an ERC20 token backed 1:1 with Bitcoin. Completely transparent. 100% verifiable. Community led.",
+                  "tooltipUrl": "https://www.wbtc.network/"
+                },
+                "name": "Wrapped BTC: WBTC Token",
+                "ordinal": 10,
+                "slug": "wrapped-btc-wbtc-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Wrapped BTC",
+                "ordinal": 0,
+                "slug": "wrapped-btc",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Wrapped BTC",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xCBCdF9626bC03E24f779434178A73a0B4bad62eD",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between WBTC and WETH.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0xcbcdf9626bc03e24f779434178a73a0b4bad62ed"
+                },
+                "name": "Uniswap V3: WBTC",
+                "ordinal": 10,
+                "slug": "uniswap-v3-wbtc",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4925214",
+        "index": 306,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4846397",
+        "index": 307,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Wrapped BTC",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0x27502c297b7d3221115b309c6793d82367429f60ad4e32465d92cf5c4a6bb66b@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmU12hockJzZaSK6pvzH1K1im4X9ababHx388mw6uEh986/Bce2ei6Xi58TfHx1tkQFvcmgwRnu2mTFeuVvUh3wJdouZD3wdi2pBWBL1Kn89TCvmoW58yuhe179WiLMKTk67yg4pz\",\"token_symbol\":\"WBTC\",\"token_name\":\"Wrapped Bitcoin\",\"decimals\":8}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Wrapped Bitcoin (WBTC) is an ERC20 token backed 1:1 with Bitcoin. Completely transparent. 100% verifiable. Community led.",
+                  "tooltipUrl": "https://www.wbtc.network/"
+                },
+                "name": "Wrapped BTC: WBTC Token",
+                "ordinal": 10,
+                "slug": "wrapped-btc-wbtc-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Wrapped BTC",
+                "ordinal": 0,
+                "slug": "wrapped-btc",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Wrapped BTC",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4844371",
+        "index": 308,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Wrapped BTC",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0x27502c297b7d3221115b309c6793d82367429f60ad4e32465d92cf5c4a6bb66b@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmU12hockJzZaSK6pvzH1K1im4X9ababHx388mw6uEh986/Bce2ei6Xi58TfHx1tkQFvcmgwRnu2mTFeuVvUh3wJdouZD3wdi2pBWBL1Kn89TCvmoW58yuhe179WiLMKTk67yg4pz\",\"token_symbol\":\"WBTC\",\"token_name\":\"Wrapped Bitcoin\",\"decimals\":8}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Wrapped Bitcoin (WBTC) is an ERC20 token backed 1:1 with Bitcoin. Completely transparent. 100% verifiable. Community led.",
+                  "tooltipUrl": "https://www.wbtc.network/"
+                },
+                "name": "Wrapped BTC: WBTC Token",
+                "ordinal": 10,
+                "slug": "wrapped-btc-wbtc-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Wrapped BTC",
+                "ordinal": 0,
+                "slug": "wrapped-btc",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Wrapped BTC",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xCBCdF9626bC03E24f779434178A73a0B4bad62eD",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Uniswap V3 pool to exchange between WBTC and WETH.",
+                  "tooltipUrl": "https://info.uniswap.org/#/pools/0xcbcdf9626bc03e24f779434178a73a0b4bad62ed"
+                },
+                "name": "Uniswap V3: WBTC",
+                "ordinal": 10,
+                "slug": "uniswap-v3-wbtc",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "UniswapV3Pool",
+                "ordinal": 0,
+                "slug": "uniswapv3pool",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap",
+                  "bgColor": "#FF007A",
+                  "tagIcon": "https://blockscout-content.s3.amazonaws.com/uniswap.png",
+                  "tagUrl": "https://uniswap.org/?utm_source=Blockscout",
+                  "textColor": "#FFFFFF",
+                  "tooltipDescription": "Trade crypto and NFTs safely on the top DeFi platform. Swapping made simple. Buy and sell crypto on Ethereum, Base, Arbitrum, Polygon, and more.",
+                  "tooltipTitle": "Uniswap",
+                  "tooltipUrl": "https://uniswap.org/?utm_source=Blockscout"
+                },
+                "name": "Uniswap V3",
+                "ordinal": 0,
+                "slug": "uniswap-v3",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "UniswapV3Pool",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4913310",
+        "index": 309,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Wrapped BTC",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0x27502c297b7d3221115b309c6793d82367429f60ad4e32465d92cf5c4a6bb66b@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmU12hockJzZaSK6pvzH1K1im4X9ababHx388mw6uEh986/Bce2ei6Xi58TfHx1tkQFvcmgwRnu2mTFeuVvUh3wJdouZD3wdi2pBWBL1Kn89TCvmoW58yuhe179WiLMKTk67yg4pz\",\"token_symbol\":\"WBTC\",\"token_name\":\"Wrapped Bitcoin\",\"decimals\":8}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Wrapped Bitcoin (WBTC) is an ERC20 token backed 1:1 with Bitcoin. Completely transparent. 100% verifiable. Community led.",
+                  "tooltipUrl": "https://www.wbtc.network/"
+                },
+                "name": "Wrapped BTC: WBTC Token",
+                "ordinal": 10,
+                "slug": "wrapped-btc-wbtc-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Wrapped BTC",
+                "ordinal": 0,
+                "slug": "wrapped-btc",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Wrapped BTC",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4979090",
+        "index": 310,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4900139",
+        "index": 311,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4819926",
+        "index": 312,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4769391",
+        "index": 313,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4693935",
+        "index": 314,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Wrapped BTC",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0x27502c297b7d3221115b309c6793d82367429f60ad4e32465d92cf5c4a6bb66b@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmU12hockJzZaSK6pvzH1K1im4X9ababHx388mw6uEh986/Bce2ei6Xi58TfHx1tkQFvcmgwRnu2mTFeuVvUh3wJdouZD3wdi2pBWBL1Kn89TCvmoW58yuhe179WiLMKTk67yg4pz\",\"token_symbol\":\"WBTC\",\"token_name\":\"Wrapped Bitcoin\",\"decimals\":8}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Wrapped Bitcoin (WBTC) is an ERC20 token backed 1:1 with Bitcoin. Completely transparent. 100% verifiable. Community led.",
+                  "tooltipUrl": "https://www.wbtc.network/"
+                },
+                "name": "Wrapped BTC: WBTC Token",
+                "ordinal": 10,
+                "slug": "wrapped-btc-wbtc-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Wrapped BTC",
+                "ordinal": 0,
+                "slug": "wrapped-btc",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Wrapped BTC",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4766554",
+        "index": 315,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Wrapped BTC",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0x27502c297b7d3221115b309c6793d82367429f60ad4e32465d92cf5c4a6bb66b@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmU12hockJzZaSK6pvzH1K1im4X9ababHx388mw6uEh986/Bce2ei6Xi58TfHx1tkQFvcmgwRnu2mTFeuVvUh3wJdouZD3wdi2pBWBL1Kn89TCvmoW58yuhe179WiLMKTk67yg4pz\",\"token_symbol\":\"WBTC\",\"token_name\":\"Wrapped Bitcoin\",\"decimals\":8}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Wrapped Bitcoin (WBTC) is an ERC20 token backed 1:1 with Bitcoin. Completely transparent. 100% verifiable. Community led.",
+                  "tooltipUrl": "https://www.wbtc.network/"
+                },
+                "name": "Wrapped BTC: WBTC Token",
+                "ordinal": 10,
+                "slug": "wrapped-btc-wbtc-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Wrapped BTC",
+                "ordinal": 0,
+                "slug": "wrapped-btc",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Wrapped BTC",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4764542",
+        "index": 316,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Wrapped BTC",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0x27502c297b7d3221115b309c6793d82367429f60ad4e32465d92cf5c4a6bb66b@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmU12hockJzZaSK6pvzH1K1im4X9ababHx388mw6uEh986/Bce2ei6Xi58TfHx1tkQFvcmgwRnu2mTFeuVvUh3wJdouZD3wdi2pBWBL1Kn89TCvmoW58yuhe179WiLMKTk67yg4pz\",\"token_symbol\":\"WBTC\",\"token_name\":\"Wrapped Bitcoin\",\"decimals\":8}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Wrapped Bitcoin (WBTC) is an ERC20 token backed 1:1 with Bitcoin. Completely transparent. 100% verifiable. Community led.",
+                  "tooltipUrl": "https://www.wbtc.network/"
+                },
+                "name": "Wrapped BTC: WBTC Token",
+                "ordinal": 10,
+                "slug": "wrapped-btc-wbtc-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Wrapped BTC",
+                "ordinal": 0,
+                "slug": "wrapped-btc",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Wrapped BTC",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4759766",
+        "index": 317,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4684606",
+        "index": 318,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Wrapped BTC",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0x27502c297b7d3221115b309c6793d82367429f60ad4e32465d92cf5c4a6bb66b@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmU12hockJzZaSK6pvzH1K1im4X9ababHx388mw6uEh986/Bce2ei6Xi58TfHx1tkQFvcmgwRnu2mTFeuVvUh3wJdouZD3wdi2pBWBL1Kn89TCvmoW58yuhe179WiLMKTk67yg4pz\",\"token_symbol\":\"WBTC\",\"token_name\":\"Wrapped Bitcoin\",\"decimals\":8}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Wrapped Bitcoin (WBTC) is an ERC20 token backed 1:1 with Bitcoin. Completely transparent. 100% verifiable. Community led.",
+                  "tooltipUrl": "https://www.wbtc.network/"
+                },
+                "name": "Wrapped BTC: WBTC Token",
+                "ordinal": 10,
+                "slug": "wrapped-btc-wbtc-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Wrapped BTC",
+                "ordinal": 0,
+                "slug": "wrapped-btc",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Wrapped BTC",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4756500",
+        "index": 319,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Uniswap",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://app.uniswap.org/"
+                },
+                "name": "Uniswap V4: Pool Manager",
+                "ordinal": 10,
+                "slug": "uniswap-v4-pool-manager",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquidity Pool",
+                "ordinal": 0,
+                "slug": "liquidity-pool",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Uniswap",
+                  "appID": "uniswap"
+                },
+                "name": "Uniswap V4",
+                "ordinal": 0,
+                "slug": "uniswap-v4",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PoolManager",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4674242",
+        "index": 320,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "call",
+        "value": "69357784649147058216"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4895786",
+        "index": 321,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Wrapped Ether",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0xe27ff4957dc5c9bb33feafde33089e0c03fb4999f3e8d01f4720334161a17224@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmRyTdB5Cc7zH7G4YwWs7jh98zNGLQN1NfJ8KTWTXikhcP/WETH\",\"token_symbol\":\"WETH\",\"token_name\":\"WETH\",\"decimals\":18}",
+                  "tooltipDescription": "wETH is wrapped ETH which confroms to the ERC20 standard",
+                  "tooltipUrl": "https://weth.io/",
+                  "verifiedDomains": [
+                    "traderjoexyz.com",
+                    "app.mav.xyz",
+                    "core.app",
+                    "shibaswap.com",
+                    "app.dodoex.io",
+                    "app.uniswap.org",
+                    "explorer.reservoir.tools",
+                    "pancakeswap.finance",
+                    "swapr.eth.limo"
+                  ]
+                },
+                "name": "WETH Token (v2)",
+                "ordinal": 10,
+                "slug": "weth-token-v2",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Wrapped Token",
+                "ordinal": 0,
+                "slug": "wrapped-token",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "main_entity": "Wrapped",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://weth.io/"
+                },
+                "name": "Wrapped Ether",
+                "ordinal": 0,
+                "slug": "wrapped-ether",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "WETH9",
+                "ordinal": 0,
+                "slug": "weth9",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "WETH9",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4894053",
+        "index": 322,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Wrapped Ether",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0xe27ff4957dc5c9bb33feafde33089e0c03fb4999f3e8d01f4720334161a17224@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmRyTdB5Cc7zH7G4YwWs7jh98zNGLQN1NfJ8KTWTXikhcP/WETH\",\"token_symbol\":\"WETH\",\"token_name\":\"WETH\",\"decimals\":18}",
+                  "tooltipDescription": "wETH is wrapped ETH which confroms to the ERC20 standard",
+                  "tooltipUrl": "https://weth.io/",
+                  "verifiedDomains": [
+                    "traderjoexyz.com",
+                    "app.mav.xyz",
+                    "core.app",
+                    "shibaswap.com",
+                    "app.dodoex.io",
+                    "app.uniswap.org",
+                    "explorer.reservoir.tools",
+                    "pancakeswap.finance",
+                    "swapr.eth.limo"
+                  ]
+                },
+                "name": "WETH Token (v2)",
+                "ordinal": 10,
+                "slug": "weth-token-v2",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Wrapped Token",
+                "ordinal": 0,
+                "slug": "wrapped-token",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "main_entity": "Wrapped",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://weth.io/"
+                },
+                "name": "Wrapped Ether",
+                "ordinal": 0,
+                "slug": "wrapped-ether",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "WETH9",
+                "ordinal": 0,
+                "slug": "weth9",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "WETH9",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Wrapped Ether",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0xe27ff4957dc5c9bb33feafde33089e0c03fb4999f3e8d01f4720334161a17224@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmRyTdB5Cc7zH7G4YwWs7jh98zNGLQN1NfJ8KTWTXikhcP/WETH\",\"token_symbol\":\"WETH\",\"token_name\":\"WETH\",\"decimals\":18}",
+                  "tooltipDescription": "wETH is wrapped ETH which confroms to the ERC20 standard",
+                  "tooltipUrl": "https://weth.io/",
+                  "verifiedDomains": [
+                    "traderjoexyz.com",
+                    "app.mav.xyz",
+                    "core.app",
+                    "shibaswap.com",
+                    "app.dodoex.io",
+                    "app.uniswap.org",
+                    "explorer.reservoir.tools",
+                    "pancakeswap.finance",
+                    "swapr.eth.limo"
+                  ]
+                },
+                "name": "WETH Token (v2)",
+                "ordinal": 10,
+                "slug": "weth-token-v2",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Wrapped Token",
+                "ordinal": 0,
+                "slug": "wrapped-token",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "main_entity": "Wrapped",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://weth.io/"
+                },
+                "name": "Wrapped Ether",
+                "ordinal": 0,
+                "slug": "wrapped-ether",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "WETH9",
+                "ordinal": 0,
+                "slug": "weth9",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "WETH9",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "2300",
+        "index": 323,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "call",
+        "value": "3743380328953781837526"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4884388",
+        "index": 324,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Wrapped Ether",
+                  "tagUrl": "https://app.klerosscout.eth.limo/#/?registry=Single_Tags&itemdetails=0xe27ff4957dc5c9bb33feafde33089e0c03fb4999f3e8d01f4720334161a17224@0x66260c69d03837016d88c9877e61e08ef74c59f2",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmRyTdB5Cc7zH7G4YwWs7jh98zNGLQN1NfJ8KTWTXikhcP/WETH\",\"token_symbol\":\"WETH\",\"token_name\":\"WETH\",\"decimals\":18}",
+                  "tooltipDescription": "wETH is wrapped ETH which confroms to the ERC20 standard",
+                  "tooltipUrl": "https://weth.io/",
+                  "verifiedDomains": [
+                    "traderjoexyz.com",
+                    "app.mav.xyz",
+                    "core.app",
+                    "shibaswap.com",
+                    "app.dodoex.io",
+                    "app.uniswap.org",
+                    "explorer.reservoir.tools",
+                    "pancakeswap.finance",
+                    "swapr.eth.limo"
+                  ]
+                },
+                "name": "WETH Token (v2)",
+                "ordinal": 10,
+                "slug": "weth-token-v2",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Wrapped Token",
+                "ordinal": 0,
+                "slug": "wrapped-token",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "main_entity": "Wrapped",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://weth.io/"
+                },
+                "name": "Wrapped Ether",
+                "ordinal": 0,
+                "slug": "wrapped-ether",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "WETH9",
+                "ordinal": 0,
+                "slug": "weth9",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "WETH9",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4880730",
+        "index": 325,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Lido",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x15b0cf7d71c2aa7784f502c17e67d448c55e5363a8f46050a30126137cbdb730",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "wstETH is a wrapped version of stETH. As some DeFi protocols require a constant balance mechanism for tokens, wstETH keeps your balance of stETH fixed and uses an underlying share system to reflect your earned staking rewards.",
+                  "tooltipUrl": "https://www.lido.fi/",
+                  "verifiedDomains": [
+                    "stake.lido.fi"
+                  ]
+                },
+                "name": "wstETH Token",
+                "ordinal": 10,
+                "slug": "wsteth-token-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquid staking",
+                "ordinal": 0,
+                "slug": "liquid-staking",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DeFi",
+                "ordinal": 0,
+                "slug": "defi",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "Wrapped stETH",
+                "ordinal": 0,
+                "slug": "wrapped-steth",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Lido",
+                  "appID": "lido"
+                },
+                "name": "Lido",
+                "ordinal": 0,
+                "slug": "lido",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Wrapped stETH",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4878470",
+        "index": 326,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Lido",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x15b0cf7d71c2aa7784f502c17e67d448c55e5363a8f46050a30126137cbdb730",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "wstETH is a wrapped version of stETH. As some DeFi protocols require a constant balance mechanism for tokens, wstETH keeps your balance of stETH fixed and uses an underlying share system to reflect your earned staking rewards.",
+                  "tooltipUrl": "https://www.lido.fi/",
+                  "verifiedDomains": [
+                    "stake.lido.fi"
+                  ]
+                },
+                "name": "wstETH Token",
+                "ordinal": 10,
+                "slug": "wsteth-token-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquid staking",
+                "ordinal": 0,
+                "slug": "liquid-staking",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DeFi",
+                "ordinal": 0,
+                "slug": "defi",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "Wrapped stETH",
+                "ordinal": 0,
+                "slug": "wrapped-steth",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Lido",
+                  "appID": "lido"
+                },
+                "name": "Lido",
+                "ordinal": 0,
+                "slug": "lido",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Wrapped stETH",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4851147",
+        "index": 327,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x0B1a513ee24972DAEf112bC777a5610d4325C9e7",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "WstETH ETH Dex",
+                "ordinal": 0,
+                "slug": "wsteth-eth-dex",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "FluidDexT1",
+                "ordinal": 0,
+                "slug": "fluiddext1",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "FluidDexT1",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0B1a513ee24972DAEf112bC777a5610d4325C9e7",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "WstETH ETH Dex",
+                "ordinal": 0,
+                "slug": "wsteth-eth-dex",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "FluidDexT1",
+                "ordinal": 0,
+                "slug": "fluiddext1",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "FluidDexT1",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4763871",
+        "index": 328,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x2F95631D59F564D5e2dD0c028d4DAF3B876D84Fd",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "WstETHContractRate",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0B1a513ee24972DAEf112bC777a5610d4325C9e7",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "WstETH ETH Dex",
+                "ordinal": 0,
+                "slug": "wsteth-eth-dex",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "FluidDexT1",
+                "ordinal": 0,
+                "slug": "fluiddext1",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "FluidDexT1",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4760097",
+        "index": 329,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x52Aa899454998Be5b000Ad077a46Bbe360F4e497",
+          "implementations": [
+            {
+              "address_hash": "0xCc331daf69752BEcE3DC98dBC63eAcd5092266A2",
+              "name": "FluidLiquidityDummyImpl"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://fluid.instadapp.io/"
+                },
+                "name": "Fluid: Liquidity",
+                "ordinal": 10,
+                "slug": "fluid-liquidity",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Fluid",
+                "ordinal": 0,
+                "slug": "fluid",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "FluidLiquidityProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0B1a513ee24972DAEf112bC777a5610d4325C9e7",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "WstETH ETH Dex",
+                "ordinal": 0,
+                "slug": "wsteth-eth-dex",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "FluidDexT1",
+                "ordinal": 0,
+                "slug": "fluiddext1",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "FluidDexT1",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4756723",
+        "index": 330,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x52Aa899454998Be5b000Ad077a46Bbe360F4e497",
+          "implementations": [
+            {
+              "address_hash": "0xCc331daf69752BEcE3DC98dBC63eAcd5092266A2",
+              "name": "FluidLiquidityDummyImpl"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://fluid.instadapp.io/"
+                },
+                "name": "Fluid: Liquidity",
+                "ordinal": 10,
+                "slug": "fluid-liquidity",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Fluid",
+                "ordinal": 0,
+                "slug": "fluid",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "FluidLiquidityProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0B1a513ee24972DAEf112bC777a5610d4325C9e7",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "WstETH ETH Dex",
+                "ordinal": 0,
+                "slug": "wsteth-eth-dex",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "FluidDexT1",
+                "ordinal": 0,
+                "slug": "fluiddext1",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "FluidDexT1",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4752696",
+        "index": 331,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x52Aa899454998Be5b000Ad077a46Bbe360F4e497",
+          "implementations": [
+            {
+              "address_hash": "0xCc331daf69752BEcE3DC98dBC63eAcd5092266A2",
+              "name": "FluidLiquidityDummyImpl"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://fluid.instadapp.io/"
+                },
+                "name": "Fluid: Liquidity",
+                "ordinal": 10,
+                "slug": "fluid-liquidity",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Fluid",
+                "ordinal": 0,
+                "slug": "fluid",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "FluidLiquidityProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0B1a513ee24972DAEf112bC777a5610d4325C9e7",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "WstETH ETH Dex",
+                "ordinal": 0,
+                "slug": "wsteth-eth-dex",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "FluidDexT1",
+                "ordinal": 0,
+                "slug": "fluiddext1",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "FluidDexT1",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4749769",
+        "index": 332,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x52Aa899454998Be5b000Ad077a46Bbe360F4e497",
+          "implementations": [
+            {
+              "address_hash": "0xCc331daf69752BEcE3DC98dBC63eAcd5092266A2",
+              "name": "FluidLiquidityDummyImpl"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://fluid.instadapp.io/"
+                },
+                "name": "Fluid: Liquidity",
+                "ordinal": 10,
+                "slug": "fluid-liquidity",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Fluid",
+                "ordinal": 0,
+                "slug": "fluid",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "FluidLiquidityProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0B1a513ee24972DAEf112bC777a5610d4325C9e7",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "WstETH ETH Dex",
+                "ordinal": 0,
+                "slug": "wsteth-eth-dex",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "FluidDexT1",
+                "ordinal": 0,
+                "slug": "fluiddext1",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "FluidDexT1",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4744576",
+        "index": 333,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x52Aa899454998Be5b000Ad077a46Bbe360F4e497",
+          "implementations": [
+            {
+              "address_hash": "0xCc331daf69752BEcE3DC98dBC63eAcd5092266A2",
+              "name": "FluidLiquidityDummyImpl"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://fluid.instadapp.io/"
+                },
+                "name": "Fluid: Liquidity",
+                "ordinal": 10,
+                "slug": "fluid-liquidity",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Fluid",
+                "ordinal": 0,
+                "slug": "fluid",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "FluidLiquidityProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0B1a513ee24972DAEf112bC777a5610d4325C9e7",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "WstETH ETH Dex",
+                "ordinal": 0,
+                "slug": "wsteth-eth-dex",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "FluidDexT1",
+                "ordinal": 0,
+                "slug": "fluiddext1",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "FluidDexT1",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4741648",
+        "index": 334,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x52Aa899454998Be5b000Ad077a46Bbe360F4e497",
+          "implementations": [
+            {
+              "address_hash": "0xCc331daf69752BEcE3DC98dBC63eAcd5092266A2",
+              "name": "FluidLiquidityDummyImpl"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://fluid.instadapp.io/"
+                },
+                "name": "Fluid: Liquidity",
+                "ordinal": 10,
+                "slug": "fluid-liquidity",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Fluid",
+                "ordinal": 0,
+                "slug": "fluid",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "FluidLiquidityProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0B1a513ee24972DAEf112bC777a5610d4325C9e7",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "WstETH ETH Dex",
+                "ordinal": 0,
+                "slug": "wsteth-eth-dex",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "FluidDexT1",
+                "ordinal": 0,
+                "slug": "fluiddext1",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "FluidDexT1",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4729993",
+        "index": 335,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x52Aa899454998Be5b000Ad077a46Bbe360F4e497",
+          "implementations": [
+            {
+              "address_hash": "0xCc331daf69752BEcE3DC98dBC63eAcd5092266A2",
+              "name": "FluidLiquidityDummyImpl"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://fluid.instadapp.io/"
+                },
+                "name": "Fluid: Liquidity",
+                "ordinal": 10,
+                "slug": "fluid-liquidity",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Fluid",
+                "ordinal": 0,
+                "slug": "fluid",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "FluidLiquidityProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x52Aa899454998Be5b000Ad077a46Bbe360F4e497",
+          "implementations": [
+            {
+              "address_hash": "0xCc331daf69752BEcE3DC98dBC63eAcd5092266A2",
+              "name": "FluidLiquidityDummyImpl"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://fluid.instadapp.io/"
+                },
+                "name": "Fluid: Liquidity",
+                "ordinal": 10,
+                "slug": "fluid-liquidity",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Fluid",
+                "ordinal": 0,
+                "slug": "fluid",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "FluidLiquidityProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4655618",
+        "index": 336,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x4bDC8816F2f56914B66EbF3786D78872D3a73Ab7",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "FluidLiquidityUserModuleMainnet",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x52Aa899454998Be5b000Ad077a46Bbe360F4e497",
+          "implementations": [
+            {
+              "address_hash": "0xCc331daf69752BEcE3DC98dBC63eAcd5092266A2",
+              "name": "FluidLiquidityDummyImpl"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://fluid.instadapp.io/"
+                },
+                "name": "Fluid: Liquidity",
+                "ordinal": 10,
+                "slug": "fluid-liquidity",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Fluid",
+                "ordinal": 0,
+                "slug": "fluid",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "FluidLiquidityProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4576930",
+        "index": 337,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Lido",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x15b0cf7d71c2aa7784f502c17e67d448c55e5363a8f46050a30126137cbdb730",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "wstETH is a wrapped version of stETH. As some DeFi protocols require a constant balance mechanism for tokens, wstETH keeps your balance of stETH fixed and uses an underlying share system to reflect your earned staking rewards.",
+                  "tooltipUrl": "https://www.lido.fi/",
+                  "verifiedDomains": [
+                    "stake.lido.fi"
+                  ]
+                },
+                "name": "wstETH Token",
+                "ordinal": 10,
+                "slug": "wsteth-token-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquid staking",
+                "ordinal": 0,
+                "slug": "liquid-staking",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DeFi",
+                "ordinal": 0,
+                "slug": "defi",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "Wrapped stETH",
+                "ordinal": 0,
+                "slug": "wrapped-steth",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Lido",
+                  "appID": "lido"
+                },
+                "name": "Lido",
+                "ordinal": 0,
+                "slug": "lido",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Wrapped stETH",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x52Aa899454998Be5b000Ad077a46Bbe360F4e497",
+          "implementations": [
+            {
+              "address_hash": "0xCc331daf69752BEcE3DC98dBC63eAcd5092266A2",
+              "name": "FluidLiquidityDummyImpl"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://fluid.instadapp.io/"
+                },
+                "name": "Fluid: Liquidity",
+                "ordinal": 10,
+                "slug": "fluid-liquidity",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Fluid",
+                "ordinal": 0,
+                "slug": "fluid",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "FluidLiquidityProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4573757",
+        "index": 338,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x0B1a513ee24972DAEf112bC777a5610d4325C9e7",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "WstETH ETH Dex",
+                "ordinal": 0,
+                "slug": "wsteth-eth-dex",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "FluidDexT1",
+                "ordinal": 0,
+                "slug": "fluiddext1",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "FluidDexT1",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0B1a513ee24972DAEf112bC777a5610d4325C9e7",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "WstETH ETH Dex",
+                "ordinal": 0,
+                "slug": "wsteth-eth-dex",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "FluidDexT1",
+                "ordinal": 0,
+                "slug": "fluiddext1",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "FluidDexT1",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4501045",
+        "index": 339,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Lido",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x15b0cf7d71c2aa7784f502c17e67d448c55e5363a8f46050a30126137cbdb730",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "wstETH is a wrapped version of stETH. As some DeFi protocols require a constant balance mechanism for tokens, wstETH keeps your balance of stETH fixed and uses an underlying share system to reflect your earned staking rewards.",
+                  "tooltipUrl": "https://www.lido.fi/",
+                  "verifiedDomains": [
+                    "stake.lido.fi"
+                  ]
+                },
+                "name": "wstETH Token",
+                "ordinal": 10,
+                "slug": "wsteth-token-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquid staking",
+                "ordinal": 0,
+                "slug": "liquid-staking",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DeFi",
+                "ordinal": 0,
+                "slug": "defi",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "Wrapped stETH",
+                "ordinal": 0,
+                "slug": "wrapped-steth",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Lido",
+                  "appID": "lido"
+                },
+                "name": "Lido",
+                "ordinal": 0,
+                "slug": "lido",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Wrapped stETH",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x52Aa899454998Be5b000Ad077a46Bbe360F4e497",
+          "implementations": [
+            {
+              "address_hash": "0xCc331daf69752BEcE3DC98dBC63eAcd5092266A2",
+              "name": "FluidLiquidityDummyImpl"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://fluid.instadapp.io/"
+                },
+                "name": "Fluid: Liquidity",
+                "ordinal": 10,
+                "slug": "fluid-liquidity",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Fluid",
+                "ordinal": 0,
+                "slug": "fluid",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "FluidLiquidityProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4563458",
+        "index": 340,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Lido",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x15b0cf7d71c2aa7784f502c17e67d448c55e5363a8f46050a30126137cbdb730",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "wstETH is a wrapped version of stETH. As some DeFi protocols require a constant balance mechanism for tokens, wstETH keeps your balance of stETH fixed and uses an underlying share system to reflect your earned staking rewards.",
+                  "tooltipUrl": "https://www.lido.fi/",
+                  "verifiedDomains": [
+                    "stake.lido.fi"
+                  ]
+                },
+                "name": "wstETH Token",
+                "ordinal": 10,
+                "slug": "wsteth-token-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquid staking",
+                "ordinal": 0,
+                "slug": "liquid-staking",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DeFi",
+                "ordinal": 0,
+                "slug": "defi",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "Wrapped stETH",
+                "ordinal": 0,
+                "slug": "wrapped-steth",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Lido",
+                  "appID": "lido"
+                },
+                "name": "Lido",
+                "ordinal": 0,
+                "slug": "lido",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Wrapped stETH",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0B1a513ee24972DAEf112bC777a5610d4325C9e7",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "WstETH ETH Dex",
+                "ordinal": 0,
+                "slug": "wsteth-eth-dex",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "FluidDexT1",
+                "ordinal": 0,
+                "slug": "fluiddext1",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "FluidDexT1",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4683126",
+        "index": 341,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x52Aa899454998Be5b000Ad077a46Bbe360F4e497",
+          "implementations": [
+            {
+              "address_hash": "0xCc331daf69752BEcE3DC98dBC63eAcd5092266A2",
+              "name": "FluidLiquidityDummyImpl"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://fluid.instadapp.io/"
+                },
+                "name": "Fluid: Liquidity",
+                "ordinal": 10,
+                "slug": "fluid-liquidity",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Fluid",
+                "ordinal": 0,
+                "slug": "fluid",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "FluidLiquidityProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x52Aa899454998Be5b000Ad077a46Bbe360F4e497",
+          "implementations": [
+            {
+              "address_hash": "0xCc331daf69752BEcE3DC98dBC63eAcd5092266A2",
+              "name": "FluidLiquidityDummyImpl"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://fluid.instadapp.io/"
+                },
+                "name": "Fluid: Liquidity",
+                "ordinal": 10,
+                "slug": "fluid-liquidity",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Fluid",
+                "ordinal": 0,
+                "slug": "fluid",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "FluidLiquidityProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4609501",
+        "index": 342,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x4bDC8816F2f56914B66EbF3786D78872D3a73Ab7",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "FluidLiquidityUserModuleMainnet",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "delegatecall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x52Aa899454998Be5b000Ad077a46Bbe360F4e497",
+          "implementations": [
+            {
+              "address_hash": "0xCc331daf69752BEcE3DC98dBC63eAcd5092266A2",
+              "name": "FluidLiquidityDummyImpl"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://fluid.instadapp.io/"
+                },
+                "name": "Fluid: Liquidity",
+                "ordinal": 10,
+                "slug": "fluid-liquidity",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Fluid",
+                "ordinal": 0,
+                "slug": "fluid",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "FluidLiquidityProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "52300",
+        "index": 343,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "call",
+        "value": "68904946255184000000"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0B1a513ee24972DAEf112bC777a5610d4325C9e7",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "WstETH ETH Dex",
+                "ordinal": 0,
+                "slug": "wsteth-eth-dex",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "FluidDexT1",
+                "ordinal": 0,
+                "slug": "fluiddext1",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "FluidDexT1",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4644790",
+        "index": 344,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x52Aa899454998Be5b000Ad077a46Bbe360F4e497",
+          "implementations": [
+            {
+              "address_hash": "0xCc331daf69752BEcE3DC98dBC63eAcd5092266A2",
+              "name": "FluidLiquidityDummyImpl"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://fluid.instadapp.io/"
+                },
+                "name": "Fluid: Liquidity",
+                "ordinal": 10,
+                "slug": "fluid-liquidity",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Fluid",
+                "ordinal": 0,
+                "slug": "fluid",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "FluidLiquidityProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4715297",
+        "index": 345,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Lido",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x15b0cf7d71c2aa7784f502c17e67d448c55e5363a8f46050a30126137cbdb730",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "wstETH is a wrapped version of stETH. As some DeFi protocols require a constant balance mechanism for tokens, wstETH keeps your balance of stETH fixed and uses an underlying share system to reflect your earned staking rewards.",
+                  "tooltipUrl": "https://www.lido.fi/",
+                  "verifiedDomains": [
+                    "stake.lido.fi"
+                  ]
+                },
+                "name": "wstETH Token",
+                "ordinal": 10,
+                "slug": "wsteth-token-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquid staking",
+                "ordinal": 0,
+                "slug": "liquid-staking",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DeFi",
+                "ordinal": 0,
+                "slug": "defi",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "Wrapped stETH",
+                "ordinal": 0,
+                "slug": "wrapped-steth",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Lido",
+                  "appID": "lido"
+                },
+                "name": "Lido",
+                "ordinal": 0,
+                "slug": "lido",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Wrapped stETH",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "call",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4711783",
+        "index": 346,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Lido",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x15b0cf7d71c2aa7784f502c17e67d448c55e5363a8f46050a30126137cbdb730",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "wstETH is a wrapped version of stETH. As some DeFi protocols require a constant balance mechanism for tokens, wstETH keeps your balance of stETH fixed and uses an underlying share system to reflect your earned staking rewards.",
+                  "tooltipUrl": "https://www.lido.fi/",
+                  "verifiedDomains": [
+                    "stake.lido.fi"
+                  ]
+                },
+                "name": "wstETH Token",
+                "ordinal": 10,
+                "slug": "wsteth-token-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Liquid staking",
+                "ordinal": 0,
+                "slug": "liquid-staking",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DeFi",
+                "ordinal": 0,
+                "slug": "defi",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "Wrapped stETH",
+                "ordinal": 0,
+                "slug": "wrapped-steth",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Lido",
+                  "appID": "lido"
+                },
+                "name": "Lido",
+                "ordinal": 0,
+                "slug": "lido",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "Wrapped stETH",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "staticcall",
+        "value": "0"
+      },
+      {
+        "block_number": 26301189,
+        "created_contract": null,
+        "error": null,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB36599414542F6630d411485d968f25592cA9091",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_limit": "4686263",
+        "index": 347,
+        "success": true,
+        "timestamp": "2026-10-29T21:48:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xE7024aB80143b1EF843EFE6a58368696Cb87958d",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "transaction_hash": "0x133b3fb043cac4f48bb54cf2bd725e4ac01fb4019ca3ac33f0f54ef4f95deac6",
+        "transaction_index": 1,
+        "type": "call",
+        "value": "4278067833315003974144"
+      }
+    ],
+    "meta": {
+      "message": null,
+      "status": 1
+    },
+    "next_page_params": null
+  }
+}
