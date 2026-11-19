@@ -1,0 +1,133 @@
+{
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "tx_hash": "0x791e4ba4d7a78079fe8d83d7e8ed93a4515d794809a4c47ac3e8df234f717d7c",
+  "original_conflict": {
+    "tx_hash": "0x791e4ba4d7a78079fe8d83d7e8ed93a4515d794809a4c47ac3e8df234f717d7c",
+    "call_path_candidate": [
+      1,
+      1
+    ],
+    "log_in_call_candidate": 0,
+    "observation_ids": [
+      "2c268807e03e40e7aa93504c796a19f25740e24ef99555dc3fa6c94bf253d0ff",
+      "a9eefa5fec7b3c652811349bfec6680211219b10e371654976b6f5aa97ef208a"
+    ],
+    "observation_count": 2,
+    "payload_conflict": true,
+    "canonical_event_identity_approved": false
+  },
+  "original_review_observation_id": "a9eefa5fec7b3c652811349bfec6680211219b10e371654976b6f5aa97ef208a",
+  "validated_batch_observation_id": "2c268807e03e40e7aa93504c796a19f25740e24ef99555dc3fa6c94bf253d0ff",
+  "old_raw_event": {
+    "Arguments": [
+      {
+        "Indexed": 1,
+        "Name": "src",
+        "Type": "address",
+        "Value": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+      },
+      {
+        "Indexed": 0,
+        "Name": "wad",
+        "Type": "uint256",
+        "Value": "8972619288974622539"
+      }
+    ],
+    "Block": 26302532,
+    "CallFrom": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+    "CallIndex": 10,
+    "CallPath": [
+      1,
+      1
+    ],
+    "CallSuccess": 1,
+    "CallTo": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "Data": "0x0000000000000000000000000000000000000000000000007c8525b450267f4b",
+    "Emitter": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "Event": "Withdrawal",
+    "LogInCall": 0,
+    "Parsed": 1,
+    "Removed": 0,
+    "Reverted": 0,
+    "Signature": "Withdrawal(address,uint256)",
+    "Time": "2026-10-30T02:18:35Z",
+    "Topic0": "0x7fcf532c15f0a6db0bd6d0e038bea71d30d808c7d98cb3bf7268a95bf5081b65",
+    "Topics": [
+      "0x7fcf532c15f0a6db0bd6d0e038bea71d30d808c7d98cb3bf7268a95bf5081b65",
+      "0x00000000000000000000000068b3465833fb72a70ecdf485a3fb72a70ecdf485a"
+    ],
+    "Tx": "0x791e4ba4d7a78079fe8d83d7e8ed93a4515d794809a4c47ac3e8df234f717d7c",
+    "TxFrom": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "TxSuccess": 1
+  },
+  "batch_raw_event": {
+    "Arguments": [
+      {
+        "Indexed": 1,
+        "Name": "src",
+        "Type": "address",
+        "Value": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+      },
+      {
+        "Indexed": 0,
+        "Name": "wad",
+        "Type": "uint256",
+        "Value": "8972619288974622539"
+      }
+    ],
+    "Block": 26302532,
+    "CallFrom": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+    "CallIndex": 10,
+    "CallPath": [
+      1,
+      1
+    ],
+    "CallSuccess": 1,
+    "CallTo": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "Data": "0x0000000000000000000000000000000000000000000000007c8525b450267f4b",
+    "Emitter": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "Event": "Withdrawal",
+    "LogInCall": 0,
+    "Parsed": 1,
+    "Removed": 0,
+    "Reverted": 0,
+    "Signature": "Withdrawal(address,uint256)",
+    "Time": "2026-10-30T02:18:35Z",
+    "Topic0": "0x7fcf532c15f0a6db0bd6d0e038bea71d30d808c7d98cb3bf7268a95bf5081b65",
+    "Topics": [
+      "0x7fcf532c15f0a6db0bd6d0e038bea71d30d808c7d98cb3bf7268a95bf5081b65",
+      "0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+    ],
+    "Tx": "0x791e4ba4d7a78079fe8d83d7e8ed93a4515d794809a4c47ac3e8df234f717d7c",
+    "TxFrom": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "TxSuccess": 1
+  },
+  "matching_old_receipt_logs": [],
+  "matching_batch_receipt_logs": [
+    {
+      "tx_hash": "0x791e4ba4d7a78079fe8d83d7e8ed93a4515d794809a4c47ac3e8df234f717d7c",
+      "chain_id": 1,
+      "block_number": 26302532,
+      "block_hash": "0x25b7d05f5678a54714cce1404a546d4e0acceafd9e8dc76a1f9fffa6e3fb9e51",
+      "global_log_index": 43,
+      "emitter": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "topic0": "0x7fcf532c15f0a6db0bd6d0e038bea71d30d808c7d98cb3bf7268a95bf5081b65",
+      "indexed_src": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+      "topics": [
+        "0x7fcf532c15f0a6db0bd6d0e038bea71d30d808c7d98cb3bf7268a95bf5081b65",
+        "0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+      ],
+      "data_raw": "0x0000000000000000000000000000000000000000000000007c8525b450267f4b",
+      "wad_base_units": "8972619288974622539",
+      "receipt_source": "research/case-binance-2026/phase2_extraction_v1/step25e_bitquery_conflict_resolution/CONFLICT_TX_RAW_RECEIPT.json",
+      "receipt_sha256": "f044ac53d6edfc12d19282b44ba8a40c50e1192c281ab4cf8596818e7b637a1f",
+      "source_object_pointer": "$[\"response\"][\"result\"][\"logs\"][3]",
+      "native_transfer_event": false,
+      "incident_attribution_verified": false
+    }
+  ],
+  "status": "BATCH_SUPPORTED_OLD_TOPIC_QUARANTINED",
+  "original_evidence_overwritten": false,
+  "incident_attribution_verified": false,
+  "native_transfer_causality_verified": false
+}

@@ -1,0 +1,30 @@
+{
+  "step": "2.5A",
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "scope_policy_version": "v2",
+  "selected_source_files": 60,
+  "source_coverage_counts": {
+    "EVIDENCE_CANDIDATES_FOUND": 6,
+    "NO_RECOGNIZED_BITQUERY_RECORD": 45,
+    "NONSTRUCTURED_CONTEXT_SOURCE": 9
+  },
+  "bitquery_shaped_observations": 1371,
+  "record_type_counts": {
+    "FLATTENED_EVIDENCE_REFERENCE": 1341,
+    "BITQUERY_FLAT_TRANSFER": 30
+  },
+  "schema_groups": 5,
+  "distinct_tx_hash_candidates": 1274,
+  "unresolved_tx_context": 1,
+  "simulation_exclusion_records": 0,
+  "nonstructured_context_sources": 9,
+  "extraction_exceptions": 0,
+  "external_api_requests": 0,
+  "selected_sources_accounted_for": true,
+  "global_provider_detection_complete": false,
+  "provider_schema_validation_complete": false,
+  "canonical_event_identity_approved": false,
+  "incident_attribution_verified": false,
+  "bitquery_extraction_complete": false,
+  "map_ready": false
+}

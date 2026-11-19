@@ -1,0 +1,18 @@
+{
+  "step": "2.5E",
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "chain_id_verified": 1,
+  "receipt_tx_verified": "0x791e4ba4d7a78079fe8d83d7e8ed93a4515d794809a4c47ac3e8df234f717d7c",
+  "rpc_requests": 2,
+  "receipt_withdrawal_logs": 1,
+  "old_event_exact_matches": 0,
+  "batch_event_exact_matches": 1,
+  "conflict_resolved": true,
+  "supporting_observations": 2,
+  "supporting_raw_validation_candidates": 1,
+  "supporting_quarantined": 1,
+  "original_evidence_preserved": true,
+  "canonical_event_identity_approved": false,
+  "incident_attribution_verified": false,
+  "bitquery_extraction_complete": false
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "review_type": "OUTGOING_DERIVED_CROSSWALK_RESIDUAL",
+    "observation_count": 20,
+    "owner": "PHASE_3_PROVIDER_RECONCILIATION"
+  },
+  {
+    "review_type": "DERIVED_REFERENCE_NOT_UNIQUELY_LINKED",
+    "observation_count": 22,
+    "owner": "PHASE_3_PROVIDER_RECONCILIATION"
+  },
+  {
+    "review_type": "OUTGOING_SENDER_CONTEXT",
+    "observation_count": 1274,
+    "owner": "PHASE_3_ADDRESS_AND_EVENT_NORMALIZATION"
+  },
+  {
+    "review_type": "DISPLAY_TRANSFER_PRECISION",
+    "observation_count": 40,
+    "owner": "PHASE_3_AMOUNT_NORMALIZATION"
+  },
+  {
+    "review_type": "WETH_CALL_PATH_VS_RECEIPT_LOG_INDEX",
+    "owner": "PHASE_3_ATOMIC_EVENT_IDENTITY"
+  },
+  {
+    "review_type": "WETH_REDEMPTION_VS_NATIVE_ETH_HOPS",
+    "owner": "DEX_WETH_EXTRACTION_AND_ECONOMIC_DEDUP"
+  },
+  {
+    "review_type": "HISTORICAL_QUERY_WITH_MISSING_RAW_RESPONSE",
+    "owner": "UNSUPPORTED_FIELDS_AND_SOURCE_COMPLETENESS",
+    "global_history_completeness_verified": false
+  },
+  {
+    "review_type": "UNCLASSIFIED_STRUCTURAL_CONTEXT",
+    "schema_count": 28,
+    "owner": "UNSUPPORTED_FIELDS_AUDIT"
+  },
+  {
+    "review_type": "NONSTRUCTURED_BITQUERY_SOURCES",
+    "source_count": 9,
+    "owner": "DOCUMENTED_ACTIONS_AND_SOURCE_REFERENCES"
+  },
+  {
+    "review_type": "BITQUERY_PROVIDER_SCOPE_COMPLETENESS",
+    "owner": "FINAL_SOURCE_REFERENCE_AUDIT"
+  },
+  {
+    "review_type": "INCIDENT_FUND_PROVENANCE",
+    "owner": "PHASE_4_INCIDENT_CONTEXT"
+  }
+]

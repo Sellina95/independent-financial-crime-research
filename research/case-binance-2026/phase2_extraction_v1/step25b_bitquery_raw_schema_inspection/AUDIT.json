@@ -1,0 +1,16 @@
+{
+  "step": "2.5B",
+  "source_commit": "bba74a5c89f830193999d8aef051349161dccf4e",
+  "structured_sources_targeted": 51,
+  "previously_unrecognized_sources": 45,
+  "successfully_inspected_sources": 51,
+  "structural_schema_groups": 50,
+  "object_locations_registered": 6888,
+  "priority_schema_groups": 18,
+  "extraction_exceptions": 0,
+  "external_api_requests": 0,
+  "schema_semantics_validated": false,
+  "canonical_event_identity_approved": false,
+  "incident_attribution_verified": false,
+  "bitquery_extraction_complete": false
+}

@@ -347,7 +347,7 @@ All source files accounted for.
 - [x] Extract ERC-20 logs
 - [x] Extract native ETH movements
 - [x] Extract internal ETH traces
-- [ ] Extract Bitquery evidence
+- [x] Extract Bitquery evidence
 - [ ] Extract Alchemy evidence
 - [ ] Extract Blockscout evidence
 - [ ] Extract DEX / WETH activity
@@ -371,6 +371,9 @@ Relevant source observations accounted for.
 
 
 **STEP 2.4 completion scope:** Initial internal trace extraction preserves 1,860 frozen and 1,184 supplemental Blockscout observations (3,044 observations, not canonical events), 192 initial call-tracer frames, and 15 quarantined read-only Aave call frames. All 1,149 Alchemy internal observations have economic-field matching candidates. The initial positive native call is cross-checked against Blockscout. Full call-tree reproduction, ancestor execution semantics, chain context, root-frame deduplication, remaining provider sources, and canonical identity approval remain subject to follow-up. See step24g_internal_extraction_gate and EXTRACTION_SCOPE_POLICY_V2.json.
+
+
+**STEP 2.5 completion scope:** Initial Bitquery extraction accounts for 60 selected source files and 6,888 inspected structured object locations. The historical 21-batch package was revalidated from 1,015 encoded raw WETH Withdrawal records, with exact aggregate amount 6829199984950999210044 wei. The outgoing query contains 1,274 recovered observations. One malformed original event record was quarantined after an Ethereum RPC receipt resolved the known conflict. Provider identity, outgoing crosswalk residuals, display precision, call-path normalization, full history completeness, economic deduplication and incident fund provenance remain subject to downstream review. See step25f_bitquery_extraction_gate. Observation counts are not canonical events.
 
 ## PHASE 3 — NORMALIZATION
 
